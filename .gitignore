@@ -13,6 +13,11 @@ yarn-error.log*
 pnpm-debug.log*
 
 
+# generated ranking data (created by GitHub Actions or generate-sample-data)
+public/data/*.json
+!public/data/countries.json
+!public/data/countries.geojson
+
 # environment variables
 .env
 .env.production
