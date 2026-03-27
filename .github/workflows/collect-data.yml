@@ -2,7 +2,7 @@ name: Collect Data
 
 on:
   schedule:
-    - cron: "17 3 * * 1" # Every Monday at 03:17 UTC
+    - cron: "17 3 * * 1"
   workflow_dispatch:
 
 permissions:
@@ -20,15 +20,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: "npm"
+          cache: "pnpm"
 
-      - run: npm ci
+      - run: pnpm install --frozen-lockfile
 
       - name: Collect data for all countries
-        run: npx tsx scripts/collect.ts
+        run: pnpm tsx scripts/collect.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
