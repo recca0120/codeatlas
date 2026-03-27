@@ -46,7 +46,7 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
         </div>
       </div>
 
-      <div class="hidden lg:block relative h-[700px]">
+      <div class="hidden lg:block relative h-[620px]">
         <div id="globe-container" class="absolute inset-0 opacity-0 transition-opacity duration-[2s]"
           data-country-stats={JSON.stringify(Object.fromEntries(stats.map(s => [s.code, s.perCapita])))}></div>
       </div>
@@ -122,7 +122,7 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
       if (dirLight) dirLight.position.set(1, 1, 1);
       const c = w.controls() as any;
       c.autoRotate = true; c.autoRotateSpeed = 0.12; c.enableZoom = false;
-      c.minDistance = 150; c.maxDistance = 300;
+      c.minDistance = 180; c.maxDistance = 350;
       const rs = () => w.width(el.clientWidth).height(el.clientHeight);
       window.addEventListener("resize", rs); rs();
       fetch("/data/countries.geojson").then(r => r.json()).then(g => {
