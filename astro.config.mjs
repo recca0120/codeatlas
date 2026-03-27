@@ -5,7 +5,8 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://gitstar.github.io",
+  site: "https://recca0120.github.io",
+  base: "/codeatlas",
   output: "static",
   integrations: [svelte()],
   vite: {

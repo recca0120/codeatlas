@@ -13,6 +13,9 @@ yarn-error.log*
 pnpm-debug.log*
 
 
+# generated data (created by GitHub Actions workflow)
+data/
+
 # environment variables
 .env
 .env.production
