@@ -63,11 +63,11 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
           <div class="text-xs font-data text-text-muted tracking-widest uppercase mb-3 pb-2 border-b border-border">
             {cont} <span class="text-text-muted/60">· {byC[cont].length}</span>
           </div>
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-1 gap-y-0.5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {byC[cont].map(c => (
               <a href={`/${c.code}/`}
-                class="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-[15px] hover:bg-surface-hover transition-colors group">
-                <span class="text-xl shrink-0">{c.flag}</span>
+                class="flex items-center gap-3 px-4 py-3 rounded-xl border border-border hover:border-accent/40 hover:bg-surface-hover transition-all group">
+                <span class="text-2xl shrink-0">{c.flag}</span>
                 <span class="truncate group-hover:text-accent transition-colors">{c.name}</span>
               </a>
             ))}
