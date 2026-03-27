@@ -70,6 +70,7 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
 </Layout>
 
 <script>
+  import ky from "ky";
   import { isConfiguredCountry, getCountrySlug } from "../lib/globe/country-mapping";
   const el = document.getElementById("globe-container");
   if (el && window.innerWidth >= 1024) {
@@ -101,7 +102,7 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
       const rs = () => w.width(el.clientWidth).height(el.clientHeight);
       window.addEventListener("resize", rs); rs();
       const basePath = el.closest("[data-base]")?.getAttribute("data-base") || "/";
-      fetch(basePath + "data/countries.geojson").then(r => r.json()).then(g => {
+      ky.get(basePath + "data/countries.geojson").json().then((g: any) => {
         w.polygonsData(g.features.filter((f: any) => f.properties.ISO_A2 !== "AQ"))
           .polygonAltitude((d: any) => isConfiguredCountry(d.properties.ISO_A2) ? 0.006 : 0.001)
           .polygonCapColor((d: any) => hc(d.properties.ISO_A2))

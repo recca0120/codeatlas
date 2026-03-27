@@ -5,7 +5,9 @@
 export function buildUrl(path: string, base?: string): string {
   const b =
     base ||
-    (typeof import.meta !== "undefined" ? import.meta.env?.BASE_URL : "/") ||
+    (typeof import.meta !== "undefined"
+      ? (import.meta as Record<string, any>).env?.BASE_URL
+      : "/") ||
     "/";
   const normalizedBase = b.endsWith("/") ? b : `${b}/`;
   const normalizedPath = path.startsWith("/") ? path.slice(1) : path;
