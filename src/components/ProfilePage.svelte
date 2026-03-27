@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ky from "ky";
+  import { createHttpClient } from "../lib/http";
   import type { GitHubUser } from "../lib/github-client";
   import type { CountryData } from "../lib/data-output";
   import LanguageBar from "./LanguageBar.svelte";
@@ -25,11 +25,12 @@
     loading = true;
     error = "";
     try {
-      const allCountries = await ky.get(`${basePath}data/countries.json`).json<any[]>();
+      const http = createHttpClient(basePath);
+      const allCountries = await http.get("data/countries.json").json<any[]>();
       const config = allCountries.find((c: any) => c.code === countryCode);
       if (config) { countryName = config.name; countryFlag = config.flag || ""; }
 
-      const data = await ky.get(`${basePath}data/${countryCode}.json`).json<CountryData>();
+      const data = await http.get(`data/${countryCode}.json`).json<CountryData>();
       const users = data.rankings.public_contributions;
       const idx = users.findIndex(u => u.login === userName);
       if (idx === -1) { error = `User "${userName}" not found in ${countryName}`; loading = false; return; }

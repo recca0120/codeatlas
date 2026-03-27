@@ -1,5 +1,5 @@
 <script lang="ts">
-  import ky from "ky";
+  import { createHttpClient } from "../lib/http";
   import type { GitHubUser } from "../lib/github-client";
   import type { CountryData } from "../lib/data-output";
   import RankingFilter from "./RankingFilter.svelte";
@@ -21,15 +21,15 @@
     loading = true;
     error = "";
     try {
-      // Load country config from countries.json
-      const allCountries = await ky.get(`${basePath}data/countries.json`).json<any[]>();
+      const http = createHttpClient(basePath);
+      const allCountries = await http.get("data/countries.json").json<any[]>();
       const config = allCountries.find((c: any) => c.code === countryCode);
       if (config) {
         countryName = config.name || countryCode;
         countryFlag = config.flag || "";
       }
 
-      countryData = await ky.get(`${basePath}data/${countryCode}.json`).json<CountryData>();
+      countryData = await http.get(`data/${countryCode}.json`).json<CountryData>();
     } catch (e) {
       error = `Could not load data for "${countryCode}"`;
     }
