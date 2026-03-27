@@ -1,0 +1,907 @@
+{
+  "countryCode": "slovakia",
+  "updatedAt": "2026-03-27T21:38:37.395Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "slo-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109000?v=4",
+        "name": "Dev 1 (Slovakia)",
+        "company": "Stripe",
+        "location": "Kosice",
+        "bio": "Developer from Slovakia",
+        "followers": 5034,
+        "publicContributions": 35093,
+        "privateContributions": 126,
+        "languages": ["TypeScript", "JavaScript", "Python", "Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-1-proj-1",
+            "description": null,
+            "stars": 1299,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-1-proj-2",
+            "description": null,
+            "stars": 1742,
+            "language": "JavaScript"
+          },
+          {
+            "name": "slo-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 375,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "slo-dev-1",
+        "blog": "https://slo-dev-1.dev"
+      },
+      {
+        "login": "slo-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109001?v=4",
+        "name": "Dev 2 (Slovakia)",
+        "company": "Meta",
+        "location": "Slovakia",
+        "bio": "Developer from Slovakia",
+        "followers": 4849,
+        "publicContributions": 33737,
+        "privateContributions": 432,
+        "languages": ["C++", "Go", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "slo-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1482,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "slo-dev-2",
+        "blog": null
+      },
+      {
+        "login": "slo-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109002?v=4",
+        "name": "Dev 3 (Slovakia)",
+        "company": "Microsoft",
+        "location": "Slovakia",
+        "bio": "Developer from Slovakia",
+        "followers": 4635,
+        "publicContributions": 32404,
+        "privateContributions": 72,
+        "languages": ["C++", "Ruby", "Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "slo-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 735,
+            "language": "C++"
+          },
+          {
+            "name": "slo-dev-3-proj-2",
+            "description": null,
+            "stars": 1352,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1221,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109003?v=4",
+        "name": "Dev 4 (Slovakia)",
+        "company": "Google",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31223,
+        "privateContributions": 377,
+        "languages": ["Swift", "Ruby", "Python"],
+        "topRepos": [
+          {
+            "name": "slo-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1509,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109004?v=4",
+        "name": "Dev 5 (Slovakia)",
+        "company": "GitHub",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4309,
+        "publicContributions": 29942,
+        "privateContributions": 428,
+        "languages": ["Swift", "Java", "JavaScript", "PHP"],
+        "topRepos": [
+          {
+            "name": "slo-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 276,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1467,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109005?v=4",
+        "name": "Dev 6 (Slovakia)",
+        "company": null,
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4134,
+        "publicContributions": 28827,
+        "privateContributions": 110,
+        "languages": ["TypeScript", "Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "slo-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 238,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1182,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109006?v=4",
+        "name": "Dev 7 (Slovakia)",
+        "company": null,
+        "location": "Bratislava",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27616,
+        "privateContributions": 358,
+        "languages": ["Swift", "Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "slo-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 229,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-7-proj-3",
+            "description": "Data pipeline library",
+            "stars": 427,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109007?v=4",
+        "name": "Dev 8 (Slovakia)",
+        "company": null,
+        "location": "Bratislava",
+        "bio": null,
+        "followers": 3827,
+        "publicContributions": 26630,
+        "privateContributions": 129,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-8-proj-1",
+            "description": null,
+            "stars": 926,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1544,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1470,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109008?v=4",
+        "name": "Dev 9 (Slovakia)",
+        "company": null,
+        "location": "Kosice",
+        "bio": null,
+        "followers": 3676,
+        "publicContributions": 25493,
+        "privateContributions": 408,
+        "languages": ["TypeScript", "JavaScript", "Python", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 288,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 891,
+            "language": "JavaScript"
+          },
+          {
+            "name": "slo-dev-9-proj-3",
+            "description": "Data pipeline library",
+            "stars": 946,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109009?v=4",
+        "name": "Dev 10 (Slovakia)",
+        "company": "Apple",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 3529,
+        "publicContributions": 24618,
+        "privateContributions": 109,
+        "languages": ["Kotlin", "Go", "Dart", "Python"],
+        "topRepos": [
+          {
+            "name": "slo-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 867,
+            "language": "Kotlin"
+          },
+          {
+            "name": "slo-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 917,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "slo-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109000?v=4",
+        "name": "Dev 1 (Slovakia)",
+        "company": "Stripe",
+        "location": "Kosice",
+        "bio": "Developer from Slovakia",
+        "followers": 5034,
+        "publicContributions": 35093,
+        "privateContributions": 126,
+        "languages": ["TypeScript", "JavaScript", "Python", "Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-1-proj-1",
+            "description": null,
+            "stars": 1299,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-1-proj-2",
+            "description": null,
+            "stars": 1742,
+            "language": "JavaScript"
+          },
+          {
+            "name": "slo-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 375,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "slo-dev-1",
+        "blog": "https://slo-dev-1.dev"
+      },
+      {
+        "login": "slo-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109001?v=4",
+        "name": "Dev 2 (Slovakia)",
+        "company": "Meta",
+        "location": "Slovakia",
+        "bio": "Developer from Slovakia",
+        "followers": 4849,
+        "publicContributions": 33737,
+        "privateContributions": 432,
+        "languages": ["C++", "Go", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "slo-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1482,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "slo-dev-2",
+        "blog": null
+      },
+      {
+        "login": "slo-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109002?v=4",
+        "name": "Dev 3 (Slovakia)",
+        "company": "Microsoft",
+        "location": "Slovakia",
+        "bio": "Developer from Slovakia",
+        "followers": 4635,
+        "publicContributions": 32404,
+        "privateContributions": 72,
+        "languages": ["C++", "Ruby", "Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "slo-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 735,
+            "language": "C++"
+          },
+          {
+            "name": "slo-dev-3-proj-2",
+            "description": null,
+            "stars": 1352,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1221,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109003?v=4",
+        "name": "Dev 4 (Slovakia)",
+        "company": "Google",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31223,
+        "privateContributions": 377,
+        "languages": ["Swift", "Ruby", "Python"],
+        "topRepos": [
+          {
+            "name": "slo-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1509,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109004?v=4",
+        "name": "Dev 5 (Slovakia)",
+        "company": "GitHub",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4309,
+        "publicContributions": 29942,
+        "privateContributions": 428,
+        "languages": ["Swift", "Java", "JavaScript", "PHP"],
+        "topRepos": [
+          {
+            "name": "slo-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 276,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1467,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109005?v=4",
+        "name": "Dev 6 (Slovakia)",
+        "company": null,
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4134,
+        "publicContributions": 28827,
+        "privateContributions": 110,
+        "languages": ["TypeScript", "Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "slo-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 238,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1182,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109006?v=4",
+        "name": "Dev 7 (Slovakia)",
+        "company": null,
+        "location": "Bratislava",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27616,
+        "privateContributions": 358,
+        "languages": ["Swift", "Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "slo-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 229,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-7-proj-3",
+            "description": "Data pipeline library",
+            "stars": 427,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109007?v=4",
+        "name": "Dev 8 (Slovakia)",
+        "company": null,
+        "location": "Bratislava",
+        "bio": null,
+        "followers": 3827,
+        "publicContributions": 26630,
+        "privateContributions": 129,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-8-proj-1",
+            "description": null,
+            "stars": 926,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1544,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1470,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109008?v=4",
+        "name": "Dev 9 (Slovakia)",
+        "company": null,
+        "location": "Kosice",
+        "bio": null,
+        "followers": 3676,
+        "publicContributions": 25493,
+        "privateContributions": 408,
+        "languages": ["TypeScript", "JavaScript", "Python", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 288,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 891,
+            "language": "JavaScript"
+          },
+          {
+            "name": "slo-dev-9-proj-3",
+            "description": "Data pipeline library",
+            "stars": 946,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109009?v=4",
+        "name": "Dev 10 (Slovakia)",
+        "company": "Apple",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 3529,
+        "publicContributions": 24618,
+        "privateContributions": 109,
+        "languages": ["Kotlin", "Go", "Dart", "Python"],
+        "topRepos": [
+          {
+            "name": "slo-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 867,
+            "language": "Kotlin"
+          },
+          {
+            "name": "slo-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 917,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "slo-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109000?v=4",
+        "name": "Dev 1 (Slovakia)",
+        "company": "Stripe",
+        "location": "Kosice",
+        "bio": "Developer from Slovakia",
+        "followers": 5034,
+        "publicContributions": 35093,
+        "privateContributions": 126,
+        "languages": ["TypeScript", "JavaScript", "Python", "Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-1-proj-1",
+            "description": null,
+            "stars": 1299,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-1-proj-2",
+            "description": null,
+            "stars": 1742,
+            "language": "JavaScript"
+          },
+          {
+            "name": "slo-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 375,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "slo-dev-1",
+        "blog": "https://slo-dev-1.dev"
+      },
+      {
+        "login": "slo-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109001?v=4",
+        "name": "Dev 2 (Slovakia)",
+        "company": "Meta",
+        "location": "Slovakia",
+        "bio": "Developer from Slovakia",
+        "followers": 4849,
+        "publicContributions": 33737,
+        "privateContributions": 432,
+        "languages": ["C++", "Go", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "slo-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1482,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "slo-dev-2",
+        "blog": null
+      },
+      {
+        "login": "slo-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109002?v=4",
+        "name": "Dev 3 (Slovakia)",
+        "company": "Microsoft",
+        "location": "Slovakia",
+        "bio": "Developer from Slovakia",
+        "followers": 4635,
+        "publicContributions": 32404,
+        "privateContributions": 72,
+        "languages": ["C++", "Ruby", "Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "slo-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 735,
+            "language": "C++"
+          },
+          {
+            "name": "slo-dev-3-proj-2",
+            "description": null,
+            "stars": 1352,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1221,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109003?v=4",
+        "name": "Dev 4 (Slovakia)",
+        "company": "Google",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31223,
+        "privateContributions": 377,
+        "languages": ["Swift", "Ruby", "Python"],
+        "topRepos": [
+          {
+            "name": "slo-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1509,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109004?v=4",
+        "name": "Dev 5 (Slovakia)",
+        "company": "GitHub",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4309,
+        "publicContributions": 29942,
+        "privateContributions": 428,
+        "languages": ["Swift", "Java", "JavaScript", "PHP"],
+        "topRepos": [
+          {
+            "name": "slo-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 276,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1467,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109005?v=4",
+        "name": "Dev 6 (Slovakia)",
+        "company": null,
+        "location": "Kosice",
+        "bio": null,
+        "followers": 4134,
+        "publicContributions": 28827,
+        "privateContributions": 110,
+        "languages": ["TypeScript", "Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "slo-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 238,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1182,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109006?v=4",
+        "name": "Dev 7 (Slovakia)",
+        "company": null,
+        "location": "Bratislava",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27616,
+        "privateContributions": 358,
+        "languages": ["Swift", "Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "slo-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 229,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-7-proj-3",
+            "description": "Data pipeline library",
+            "stars": 427,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109007?v=4",
+        "name": "Dev 8 (Slovakia)",
+        "company": null,
+        "location": "Bratislava",
+        "bio": null,
+        "followers": 3827,
+        "publicContributions": 26630,
+        "privateContributions": 129,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-8-proj-1",
+            "description": null,
+            "stars": 926,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1544,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1470,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109008?v=4",
+        "name": "Dev 9 (Slovakia)",
+        "company": null,
+        "location": "Kosice",
+        "bio": null,
+        "followers": 3676,
+        "publicContributions": 25493,
+        "privateContributions": 408,
+        "languages": ["TypeScript", "JavaScript", "Python", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 288,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 891,
+            "language": "JavaScript"
+          },
+          {
+            "name": "slo-dev-9-proj-3",
+            "description": "Data pipeline library",
+            "stars": 946,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109009?v=4",
+        "name": "Dev 10 (Slovakia)",
+        "company": "Apple",
+        "location": "Kosice",
+        "bio": null,
+        "followers": 3529,
+        "publicContributions": 24618,
+        "privateContributions": 109,
+        "languages": ["Kotlin", "Go", "Dart", "Python"],
+        "topRepos": [
+          {
+            "name": "slo-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 867,
+            "language": "Kotlin"
+          },
+          {
+            "name": "slo-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 917,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

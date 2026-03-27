@@ -1,0 +1,853 @@
+{
+  "countryCode": "portugal",
+  "updatedAt": "2026-03-27T21:38:37.394Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "por-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100000?v=4",
+        "name": "Dev 1 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": "Developer from Portugal",
+        "followers": 5028,
+        "publicContributions": 35123,
+        "privateContributions": 228,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "por-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 561,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 708,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 1540,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "por-dev-1",
+        "blog": "https://por-dev-1.dev"
+      },
+      {
+        "login": "por-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100001?v=4",
+        "name": "Dev 2 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": "Developer from Portugal",
+        "followers": 4851,
+        "publicContributions": 33765,
+        "privateContributions": 390,
+        "languages": ["PHP", "Java", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 427,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "por-dev-2",
+        "blog": null
+      },
+      {
+        "login": "por-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100002?v=4",
+        "name": "Dev 3 (Portugal)",
+        "company": "Meta",
+        "location": "Portugal",
+        "bio": "Developer from Portugal",
+        "followers": 4662,
+        "publicContributions": 32361,
+        "privateContributions": 123,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "por-dev-3-proj-1",
+            "description": null,
+            "stars": 541,
+            "language": "Ruby"
+          },
+          {
+            "name": "por-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1793,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100003?v=4",
+        "name": "Dev 4 (Portugal)",
+        "company": "Vercel",
+        "location": "Porto",
+        "bio": null,
+        "followers": 4478,
+        "publicContributions": 31163,
+        "privateContributions": 421,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-4-proj-1",
+            "description": null,
+            "stars": 559,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 707,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1251,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100004?v=4",
+        "name": "Dev 5 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 4307,
+        "publicContributions": 29998,
+        "privateContributions": 362,
+        "languages": ["Java", "TypeScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "por-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 201,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 620,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-5-proj-3",
+            "description": "Web framework for developers",
+            "stars": 661,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100005?v=4",
+        "name": "Dev 6 (Portugal)",
+        "company": "Vercel",
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28838,
+        "privateContributions": 449,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "por-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1537,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100006?v=4",
+        "name": "Dev 7 (Portugal)",
+        "company": "Google",
+        "location": "Porto",
+        "bio": null,
+        "followers": 3974,
+        "publicContributions": 27585,
+        "privateContributions": 271,
+        "languages": ["Rust", "Ruby", "Go", "Java"],
+        "topRepos": [
+          {
+            "name": "por-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1433,
+            "language": "Rust"
+          },
+          {
+            "name": "por-dev-7-proj-2",
+            "description": null,
+            "stars": 204,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100007?v=4",
+        "name": "Dev 8 (Portugal)",
+        "company": "GitHub",
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26637,
+        "privateContributions": 309,
+        "languages": ["Python", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 239,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100008?v=4",
+        "name": "Dev 9 (Portugal)",
+        "company": "Apple",
+        "location": "Portugal",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25540,
+        "privateContributions": 63,
+        "languages": ["Dart", "Go", "Ruby", "Rust"],
+        "topRepos": [
+          {
+            "name": "por-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 279,
+            "language": "Dart"
+          },
+          {
+            "name": "por-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 191,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100009?v=4",
+        "name": "Dev 10 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 3526,
+        "publicContributions": 24593,
+        "privateContributions": 159,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "por-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 145,
+            "language": "Go"
+          },
+          {
+            "name": "por-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 693,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "por-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100000?v=4",
+        "name": "Dev 1 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": "Developer from Portugal",
+        "followers": 5028,
+        "publicContributions": 35123,
+        "privateContributions": 228,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "por-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 561,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 708,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 1540,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "por-dev-1",
+        "blog": "https://por-dev-1.dev"
+      },
+      {
+        "login": "por-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100001?v=4",
+        "name": "Dev 2 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": "Developer from Portugal",
+        "followers": 4851,
+        "publicContributions": 33765,
+        "privateContributions": 390,
+        "languages": ["PHP", "Java", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 427,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "por-dev-2",
+        "blog": null
+      },
+      {
+        "login": "por-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100002?v=4",
+        "name": "Dev 3 (Portugal)",
+        "company": "Meta",
+        "location": "Portugal",
+        "bio": "Developer from Portugal",
+        "followers": 4662,
+        "publicContributions": 32361,
+        "privateContributions": 123,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "por-dev-3-proj-1",
+            "description": null,
+            "stars": 541,
+            "language": "Ruby"
+          },
+          {
+            "name": "por-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1793,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100003?v=4",
+        "name": "Dev 4 (Portugal)",
+        "company": "Vercel",
+        "location": "Porto",
+        "bio": null,
+        "followers": 4478,
+        "publicContributions": 31163,
+        "privateContributions": 421,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-4-proj-1",
+            "description": null,
+            "stars": 559,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 707,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1251,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100004?v=4",
+        "name": "Dev 5 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 4307,
+        "publicContributions": 29998,
+        "privateContributions": 362,
+        "languages": ["Java", "TypeScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "por-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 201,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 620,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-5-proj-3",
+            "description": "Web framework for developers",
+            "stars": 661,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100005?v=4",
+        "name": "Dev 6 (Portugal)",
+        "company": "Vercel",
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28838,
+        "privateContributions": 449,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "por-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1537,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100006?v=4",
+        "name": "Dev 7 (Portugal)",
+        "company": "Google",
+        "location": "Porto",
+        "bio": null,
+        "followers": 3974,
+        "publicContributions": 27585,
+        "privateContributions": 271,
+        "languages": ["Rust", "Ruby", "Go", "Java"],
+        "topRepos": [
+          {
+            "name": "por-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1433,
+            "language": "Rust"
+          },
+          {
+            "name": "por-dev-7-proj-2",
+            "description": null,
+            "stars": 204,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100007?v=4",
+        "name": "Dev 8 (Portugal)",
+        "company": "GitHub",
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26637,
+        "privateContributions": 309,
+        "languages": ["Python", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 239,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100008?v=4",
+        "name": "Dev 9 (Portugal)",
+        "company": "Apple",
+        "location": "Portugal",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25540,
+        "privateContributions": 63,
+        "languages": ["Dart", "Go", "Ruby", "Rust"],
+        "topRepos": [
+          {
+            "name": "por-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 279,
+            "language": "Dart"
+          },
+          {
+            "name": "por-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 191,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100009?v=4",
+        "name": "Dev 10 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 3526,
+        "publicContributions": 24593,
+        "privateContributions": 159,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "por-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 145,
+            "language": "Go"
+          },
+          {
+            "name": "por-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 693,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "por-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100000?v=4",
+        "name": "Dev 1 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": "Developer from Portugal",
+        "followers": 5028,
+        "publicContributions": 35123,
+        "privateContributions": 228,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "por-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 561,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 708,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 1540,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "por-dev-1",
+        "blog": "https://por-dev-1.dev"
+      },
+      {
+        "login": "por-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100001?v=4",
+        "name": "Dev 2 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": "Developer from Portugal",
+        "followers": 4851,
+        "publicContributions": 33765,
+        "privateContributions": 390,
+        "languages": ["PHP", "Java", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 427,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "por-dev-2",
+        "blog": null
+      },
+      {
+        "login": "por-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100002?v=4",
+        "name": "Dev 3 (Portugal)",
+        "company": "Meta",
+        "location": "Portugal",
+        "bio": "Developer from Portugal",
+        "followers": 4662,
+        "publicContributions": 32361,
+        "privateContributions": 123,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "por-dev-3-proj-1",
+            "description": null,
+            "stars": 541,
+            "language": "Ruby"
+          },
+          {
+            "name": "por-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1793,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100003?v=4",
+        "name": "Dev 4 (Portugal)",
+        "company": "Vercel",
+        "location": "Porto",
+        "bio": null,
+        "followers": 4478,
+        "publicContributions": 31163,
+        "privateContributions": 421,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-4-proj-1",
+            "description": null,
+            "stars": 559,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 707,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1251,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100004?v=4",
+        "name": "Dev 5 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 4307,
+        "publicContributions": 29998,
+        "privateContributions": 362,
+        "languages": ["Java", "TypeScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "por-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 201,
+            "language": "Java"
+          },
+          {
+            "name": "por-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 620,
+            "language": "TypeScript"
+          },
+          {
+            "name": "por-dev-5-proj-3",
+            "description": "Web framework for developers",
+            "stars": 661,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100005?v=4",
+        "name": "Dev 6 (Portugal)",
+        "company": "Vercel",
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28838,
+        "privateContributions": 449,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "por-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1537,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100006?v=4",
+        "name": "Dev 7 (Portugal)",
+        "company": "Google",
+        "location": "Porto",
+        "bio": null,
+        "followers": 3974,
+        "publicContributions": 27585,
+        "privateContributions": 271,
+        "languages": ["Rust", "Ruby", "Go", "Java"],
+        "topRepos": [
+          {
+            "name": "por-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1433,
+            "language": "Rust"
+          },
+          {
+            "name": "por-dev-7-proj-2",
+            "description": null,
+            "stars": 204,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100007?v=4",
+        "name": "Dev 8 (Portugal)",
+        "company": "GitHub",
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26637,
+        "privateContributions": 309,
+        "languages": ["Python", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "por-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 239,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100008?v=4",
+        "name": "Dev 9 (Portugal)",
+        "company": "Apple",
+        "location": "Portugal",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25540,
+        "privateContributions": 63,
+        "languages": ["Dart", "Go", "Ruby", "Rust"],
+        "topRepos": [
+          {
+            "name": "por-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 279,
+            "language": "Dart"
+          },
+          {
+            "name": "por-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 191,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "por-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100009?v=4",
+        "name": "Dev 10 (Portugal)",
+        "company": null,
+        "location": "Lisbon",
+        "bio": null,
+        "followers": 3526,
+        "publicContributions": 24593,
+        "privateContributions": 159,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "por-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 145,
+            "language": "Go"
+          },
+          {
+            "name": "por-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 693,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

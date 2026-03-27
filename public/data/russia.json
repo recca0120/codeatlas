@@ -1,0 +1,835 @@
+{
+  "countryCode": "russia",
+  "updatedAt": "2026-03-27T21:38:37.394Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "rus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103000?v=4",
+        "name": "Dev 1 (Russia)",
+        "company": "Google",
+        "location": "Moscow",
+        "bio": "Developer from Russia",
+        "followers": 5049,
+        "publicContributions": 35168,
+        "privateContributions": 128,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "rus-dev-1-proj-1",
+            "description": null,
+            "stars": 468,
+            "language": "Kotlin"
+          },
+          {
+            "name": "rus-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 982,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "rus-dev-1",
+        "blog": "https://rus-dev-1.dev"
+      },
+      {
+        "login": "rus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103001?v=4",
+        "name": "Dev 2 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": "Developer from Russia",
+        "followers": 4828,
+        "publicContributions": 33722,
+        "privateContributions": 446,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "rus-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 768,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "rus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103002?v=4",
+        "name": "Dev 3 (Russia)",
+        "company": "Stripe",
+        "location": "Novosibirsk",
+        "bio": "Developer from Russia",
+        "followers": 4626,
+        "publicContributions": 32421,
+        "privateContributions": 361,
+        "languages": ["C++", "TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "rus-dev-3-proj-1",
+            "description": null,
+            "stars": 227,
+            "language": "C++"
+          },
+          {
+            "name": "rus-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 816,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103003?v=4",
+        "name": "Dev 4 (Russia)",
+        "company": null,
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31159,
+        "privateContributions": 287,
+        "languages": ["Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "rus-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 922,
+            "language": "Python"
+          },
+          {
+            "name": "rus-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 716,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103004?v=4",
+        "name": "Dev 5 (Russia)",
+        "company": null,
+        "location": "Saint petersburg",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 30020,
+        "privateContributions": 362,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "rus-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 558,
+            "language": "Python"
+          },
+          {
+            "name": "rus-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103005?v=4",
+        "name": "Dev 6 (Russia)",
+        "company": null,
+        "location": "Moscow",
+        "bio": null,
+        "followers": 4124,
+        "publicContributions": 28707,
+        "privateContributions": 184,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "rus-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 357,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103006?v=4",
+        "name": "Dev 7 (Russia)",
+        "company": "Amazon",
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 3967,
+        "publicContributions": 27718,
+        "privateContributions": 157,
+        "languages": ["TypeScript", "Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "rus-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 918,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1175,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103007?v=4",
+        "name": "Dev 8 (Russia)",
+        "company": "Stripe",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3821,
+        "publicContributions": 26529,
+        "privateContributions": 223,
+        "languages": ["TypeScript", "PHP", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "rus-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 803,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 289,
+            "language": "PHP"
+          },
+          {
+            "name": "rus-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 510,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103008?v=4",
+        "name": "Dev 9 (Russia)",
+        "company": "Amazon",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3658,
+        "publicContributions": 25544,
+        "privateContributions": 231,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "rus-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 494,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103009?v=4",
+        "name": "Dev 10 (Russia)",
+        "company": "Google",
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 3513,
+        "publicContributions": 24487,
+        "privateContributions": 84,
+        "languages": ["Dart", "Go", "Python", "Java"],
+        "topRepos": [
+          {
+            "name": "rus-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 922,
+            "language": "Dart"
+          },
+          {
+            "name": "rus-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1388,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 332,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "rus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103000?v=4",
+        "name": "Dev 1 (Russia)",
+        "company": "Google",
+        "location": "Moscow",
+        "bio": "Developer from Russia",
+        "followers": 5049,
+        "publicContributions": 35168,
+        "privateContributions": 128,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "rus-dev-1-proj-1",
+            "description": null,
+            "stars": 468,
+            "language": "Kotlin"
+          },
+          {
+            "name": "rus-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 982,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "rus-dev-1",
+        "blog": "https://rus-dev-1.dev"
+      },
+      {
+        "login": "rus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103001?v=4",
+        "name": "Dev 2 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": "Developer from Russia",
+        "followers": 4828,
+        "publicContributions": 33722,
+        "privateContributions": 446,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "rus-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 768,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "rus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103002?v=4",
+        "name": "Dev 3 (Russia)",
+        "company": "Stripe",
+        "location": "Novosibirsk",
+        "bio": "Developer from Russia",
+        "followers": 4626,
+        "publicContributions": 32421,
+        "privateContributions": 361,
+        "languages": ["C++", "TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "rus-dev-3-proj-1",
+            "description": null,
+            "stars": 227,
+            "language": "C++"
+          },
+          {
+            "name": "rus-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 816,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103003?v=4",
+        "name": "Dev 4 (Russia)",
+        "company": null,
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31159,
+        "privateContributions": 287,
+        "languages": ["Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "rus-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 922,
+            "language": "Python"
+          },
+          {
+            "name": "rus-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 716,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103004?v=4",
+        "name": "Dev 5 (Russia)",
+        "company": null,
+        "location": "Saint petersburg",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 30020,
+        "privateContributions": 362,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "rus-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 558,
+            "language": "Python"
+          },
+          {
+            "name": "rus-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103005?v=4",
+        "name": "Dev 6 (Russia)",
+        "company": null,
+        "location": "Moscow",
+        "bio": null,
+        "followers": 4124,
+        "publicContributions": 28707,
+        "privateContributions": 184,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "rus-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 357,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103006?v=4",
+        "name": "Dev 7 (Russia)",
+        "company": "Amazon",
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 3967,
+        "publicContributions": 27718,
+        "privateContributions": 157,
+        "languages": ["TypeScript", "Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "rus-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 918,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1175,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103007?v=4",
+        "name": "Dev 8 (Russia)",
+        "company": "Stripe",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3821,
+        "publicContributions": 26529,
+        "privateContributions": 223,
+        "languages": ["TypeScript", "PHP", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "rus-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 803,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 289,
+            "language": "PHP"
+          },
+          {
+            "name": "rus-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 510,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103008?v=4",
+        "name": "Dev 9 (Russia)",
+        "company": "Amazon",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3658,
+        "publicContributions": 25544,
+        "privateContributions": 231,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "rus-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 494,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103009?v=4",
+        "name": "Dev 10 (Russia)",
+        "company": "Google",
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 3513,
+        "publicContributions": 24487,
+        "privateContributions": 84,
+        "languages": ["Dart", "Go", "Python", "Java"],
+        "topRepos": [
+          {
+            "name": "rus-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 922,
+            "language": "Dart"
+          },
+          {
+            "name": "rus-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1388,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 332,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "rus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103000?v=4",
+        "name": "Dev 1 (Russia)",
+        "company": "Google",
+        "location": "Moscow",
+        "bio": "Developer from Russia",
+        "followers": 5049,
+        "publicContributions": 35168,
+        "privateContributions": 128,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "rus-dev-1-proj-1",
+            "description": null,
+            "stars": 468,
+            "language": "Kotlin"
+          },
+          {
+            "name": "rus-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 982,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "rus-dev-1",
+        "blog": "https://rus-dev-1.dev"
+      },
+      {
+        "login": "rus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103001?v=4",
+        "name": "Dev 2 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": "Developer from Russia",
+        "followers": 4828,
+        "publicContributions": 33722,
+        "privateContributions": 446,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "rus-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 768,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "rus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103002?v=4",
+        "name": "Dev 3 (Russia)",
+        "company": "Stripe",
+        "location": "Novosibirsk",
+        "bio": "Developer from Russia",
+        "followers": 4626,
+        "publicContributions": 32421,
+        "privateContributions": 361,
+        "languages": ["C++", "TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "rus-dev-3-proj-1",
+            "description": null,
+            "stars": 227,
+            "language": "C++"
+          },
+          {
+            "name": "rus-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 816,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103003?v=4",
+        "name": "Dev 4 (Russia)",
+        "company": null,
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31159,
+        "privateContributions": 287,
+        "languages": ["Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "rus-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 922,
+            "language": "Python"
+          },
+          {
+            "name": "rus-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 716,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103004?v=4",
+        "name": "Dev 5 (Russia)",
+        "company": null,
+        "location": "Saint petersburg",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 30020,
+        "privateContributions": 362,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "rus-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 558,
+            "language": "Python"
+          },
+          {
+            "name": "rus-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103005?v=4",
+        "name": "Dev 6 (Russia)",
+        "company": null,
+        "location": "Moscow",
+        "bio": null,
+        "followers": 4124,
+        "publicContributions": 28707,
+        "privateContributions": 184,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "rus-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 357,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103006?v=4",
+        "name": "Dev 7 (Russia)",
+        "company": "Amazon",
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 3967,
+        "publicContributions": 27718,
+        "privateContributions": 157,
+        "languages": ["TypeScript", "Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "rus-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 918,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1175,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103007?v=4",
+        "name": "Dev 8 (Russia)",
+        "company": "Stripe",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3821,
+        "publicContributions": 26529,
+        "privateContributions": 223,
+        "languages": ["TypeScript", "PHP", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "rus-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 803,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 289,
+            "language": "PHP"
+          },
+          {
+            "name": "rus-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 510,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103008?v=4",
+        "name": "Dev 9 (Russia)",
+        "company": "Amazon",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3658,
+        "publicContributions": 25544,
+        "privateContributions": 231,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "rus-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 494,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/103009?v=4",
+        "name": "Dev 10 (Russia)",
+        "company": "Google",
+        "location": "Novosibirsk",
+        "bio": null,
+        "followers": 3513,
+        "publicContributions": 24487,
+        "privateContributions": 84,
+        "languages": ["Dart", "Go", "Python", "Java"],
+        "topRepos": [
+          {
+            "name": "rus-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 922,
+            "language": "Dart"
+          },
+          {
+            "name": "rus-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1388,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 332,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

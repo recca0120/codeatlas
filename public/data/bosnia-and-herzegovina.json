@@ -1,0 +1,799 @@
+{
+  "countryCode": "bosnia-and-herzegovina",
+  "updatedAt": "2026-03-27T21:38:37.381Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "bos-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18000?v=4",
+        "name": "Dev 1 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Mostar",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 5025,
+        "publicContributions": 35107,
+        "privateContributions": 109,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bos-dev-1-proj-1",
+            "description": null,
+            "stars": 1384,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "bos-dev-1",
+        "blog": "https://bos-dev-1.dev"
+      },
+      {
+        "login": "bos-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18001?v=4",
+        "name": "Dev 2 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Bosnia and Herzegovina",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 4814,
+        "publicContributions": 33780,
+        "privateContributions": 180,
+        "languages": ["Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-2-proj-1",
+            "description": null,
+            "stars": 102,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1572,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "bos-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bos-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18002?v=4",
+        "name": "Dev 3 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Bosnia and Herzegovina",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 4644,
+        "publicContributions": 32479,
+        "privateContributions": 243,
+        "languages": ["TypeScript", "Java"],
+        "topRepos": [
+          {
+            "name": "bos-dev-3-proj-1",
+            "description": null,
+            "stars": 85,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bos-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 647,
+            "language": "Java"
+          },
+          {
+            "name": "bos-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 804,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18003?v=4",
+        "name": "Dev 4 (Bosnia and Herzegovina)",
+        "company": "Stripe",
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4455,
+        "publicContributions": 31132,
+        "privateContributions": 367,
+        "languages": ["Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 455,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 96,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18004?v=4",
+        "name": "Dev 5 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29983,
+        "privateContributions": 345,
+        "languages": ["TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-5-proj-1",
+            "description": null,
+            "stars": 1246,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18005?v=4",
+        "name": "Dev 6 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28817,
+        "privateContributions": 26,
+        "languages": ["Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "bos-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1348,
+            "language": "Dart"
+          },
+          {
+            "name": "bos-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1339,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18006?v=4",
+        "name": "Dev 7 (Bosnia and Herzegovina)",
+        "company": "Vercel",
+        "location": "Mostar",
+        "bio": null,
+        "followers": 3970,
+        "publicContributions": 27663,
+        "privateContributions": 443,
+        "languages": ["TypeScript", "JavaScript", "Ruby", "Python"],
+        "topRepos": [
+          {
+            "name": "bos-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1312,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18007?v=4",
+        "name": "Dev 8 (Bosnia and Herzegovina)",
+        "company": "Apple",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3818,
+        "publicContributions": 26596,
+        "privateContributions": 366,
+        "languages": ["Python", "JavaScript", "PHP"],
+        "topRepos": [
+          {
+            "name": "bos-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18008?v=4",
+        "name": "Dev 9 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3665,
+        "publicContributions": 25520,
+        "privateContributions": 89,
+        "languages": ["Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "bos-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 962,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-9-proj-2",
+            "description": "API wrapper",
+            "stars": 1400,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18009?v=4",
+        "name": "Dev 10 (Bosnia and Herzegovina)",
+        "company": "Google",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3504,
+        "publicContributions": 24571,
+        "privateContributions": 148,
+        "languages": ["Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "bos-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 492,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 893,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "bos-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18000?v=4",
+        "name": "Dev 1 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Mostar",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 5025,
+        "publicContributions": 35107,
+        "privateContributions": 109,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bos-dev-1-proj-1",
+            "description": null,
+            "stars": 1384,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "bos-dev-1",
+        "blog": "https://bos-dev-1.dev"
+      },
+      {
+        "login": "bos-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18001?v=4",
+        "name": "Dev 2 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Bosnia and Herzegovina",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 4814,
+        "publicContributions": 33780,
+        "privateContributions": 180,
+        "languages": ["Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-2-proj-1",
+            "description": null,
+            "stars": 102,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1572,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "bos-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bos-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18002?v=4",
+        "name": "Dev 3 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Bosnia and Herzegovina",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 4644,
+        "publicContributions": 32479,
+        "privateContributions": 243,
+        "languages": ["TypeScript", "Java"],
+        "topRepos": [
+          {
+            "name": "bos-dev-3-proj-1",
+            "description": null,
+            "stars": 85,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bos-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 647,
+            "language": "Java"
+          },
+          {
+            "name": "bos-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 804,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18003?v=4",
+        "name": "Dev 4 (Bosnia and Herzegovina)",
+        "company": "Stripe",
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4455,
+        "publicContributions": 31132,
+        "privateContributions": 367,
+        "languages": ["Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 455,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 96,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18004?v=4",
+        "name": "Dev 5 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29983,
+        "privateContributions": 345,
+        "languages": ["TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-5-proj-1",
+            "description": null,
+            "stars": 1246,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18005?v=4",
+        "name": "Dev 6 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28817,
+        "privateContributions": 26,
+        "languages": ["Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "bos-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1348,
+            "language": "Dart"
+          },
+          {
+            "name": "bos-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1339,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18006?v=4",
+        "name": "Dev 7 (Bosnia and Herzegovina)",
+        "company": "Vercel",
+        "location": "Mostar",
+        "bio": null,
+        "followers": 3970,
+        "publicContributions": 27663,
+        "privateContributions": 443,
+        "languages": ["TypeScript", "JavaScript", "Ruby", "Python"],
+        "topRepos": [
+          {
+            "name": "bos-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1312,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18007?v=4",
+        "name": "Dev 8 (Bosnia and Herzegovina)",
+        "company": "Apple",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3818,
+        "publicContributions": 26596,
+        "privateContributions": 366,
+        "languages": ["Python", "JavaScript", "PHP"],
+        "topRepos": [
+          {
+            "name": "bos-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18008?v=4",
+        "name": "Dev 9 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3665,
+        "publicContributions": 25520,
+        "privateContributions": 89,
+        "languages": ["Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "bos-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 962,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-9-proj-2",
+            "description": "API wrapper",
+            "stars": 1400,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18009?v=4",
+        "name": "Dev 10 (Bosnia and Herzegovina)",
+        "company": "Google",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3504,
+        "publicContributions": 24571,
+        "privateContributions": 148,
+        "languages": ["Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "bos-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 492,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 893,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "bos-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18000?v=4",
+        "name": "Dev 1 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Mostar",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 5025,
+        "publicContributions": 35107,
+        "privateContributions": 109,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bos-dev-1-proj-1",
+            "description": null,
+            "stars": 1384,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "bos-dev-1",
+        "blog": "https://bos-dev-1.dev"
+      },
+      {
+        "login": "bos-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18001?v=4",
+        "name": "Dev 2 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Bosnia and Herzegovina",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 4814,
+        "publicContributions": 33780,
+        "privateContributions": 180,
+        "languages": ["Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-2-proj-1",
+            "description": null,
+            "stars": 102,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1572,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "bos-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bos-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18002?v=4",
+        "name": "Dev 3 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Bosnia and Herzegovina",
+        "bio": "Developer from Bosnia and Herzegovina",
+        "followers": 4644,
+        "publicContributions": 32479,
+        "privateContributions": 243,
+        "languages": ["TypeScript", "Java"],
+        "topRepos": [
+          {
+            "name": "bos-dev-3-proj-1",
+            "description": null,
+            "stars": 85,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bos-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 647,
+            "language": "Java"
+          },
+          {
+            "name": "bos-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 804,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18003?v=4",
+        "name": "Dev 4 (Bosnia and Herzegovina)",
+        "company": "Stripe",
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4455,
+        "publicContributions": 31132,
+        "privateContributions": 367,
+        "languages": ["Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 455,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 96,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18004?v=4",
+        "name": "Dev 5 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29983,
+        "privateContributions": 345,
+        "languages": ["TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "bos-dev-5-proj-1",
+            "description": null,
+            "stars": 1246,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18005?v=4",
+        "name": "Dev 6 (Bosnia and Herzegovina)",
+        "company": null,
+        "location": "Bosnia and Herzegovina",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28817,
+        "privateContributions": 26,
+        "languages": ["Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "bos-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1348,
+            "language": "Dart"
+          },
+          {
+            "name": "bos-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1339,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18006?v=4",
+        "name": "Dev 7 (Bosnia and Herzegovina)",
+        "company": "Vercel",
+        "location": "Mostar",
+        "bio": null,
+        "followers": 3970,
+        "publicContributions": 27663,
+        "privateContributions": 443,
+        "languages": ["TypeScript", "JavaScript", "Ruby", "Python"],
+        "topRepos": [
+          {
+            "name": "bos-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1312,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18007?v=4",
+        "name": "Dev 8 (Bosnia and Herzegovina)",
+        "company": "Apple",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3818,
+        "publicContributions": 26596,
+        "privateContributions": 366,
+        "languages": ["Python", "JavaScript", "PHP"],
+        "topRepos": [
+          {
+            "name": "bos-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18008?v=4",
+        "name": "Dev 9 (Bosnia and Herzegovina)",
+        "company": "GitHub",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3665,
+        "publicContributions": 25520,
+        "privateContributions": 89,
+        "languages": ["Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "bos-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 962,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-9-proj-2",
+            "description": "API wrapper",
+            "stars": 1400,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bos-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18009?v=4",
+        "name": "Dev 10 (Bosnia and Herzegovina)",
+        "company": "Google",
+        "location": "Sarajevo",
+        "bio": null,
+        "followers": 3504,
+        "publicContributions": 24571,
+        "privateContributions": 148,
+        "languages": ["Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "bos-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 492,
+            "language": "Ruby"
+          },
+          {
+            "name": "bos-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 893,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

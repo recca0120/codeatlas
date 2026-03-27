@@ -1,0 +1,853 @@
+{
+  "countryCode": "spain",
+  "updatedAt": "2026-03-27T21:38:37.395Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "spa-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113000?v=4",
+        "name": "Dev 1 (Spain)",
+        "company": "Google",
+        "location": "Barcelona",
+        "bio": "Developer from Spain",
+        "followers": 5035,
+        "publicContributions": 35148,
+        "privateContributions": 468,
+        "languages": ["TypeScript", "JavaScript", "PHP", "Java"],
+        "topRepos": [
+          {
+            "name": "spa-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 205,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "spa-dev-1",
+        "blog": "https://spa-dev-1.dev"
+      },
+      {
+        "login": "spa-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113001?v=4",
+        "name": "Dev 2 (Spain)",
+        "company": null,
+        "location": "Barcelona",
+        "bio": "Developer from Spain",
+        "followers": 4835,
+        "publicContributions": 33682,
+        "privateContributions": 59,
+        "languages": ["Go", "C++", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "spa-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 232,
+            "language": "Go"
+          },
+          {
+            "name": "spa-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 411,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "spa-dev-2",
+        "blog": null
+      },
+      {
+        "login": "spa-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113002?v=4",
+        "name": "Dev 3 (Spain)",
+        "company": null,
+        "location": "Seville",
+        "bio": "Developer from Spain",
+        "followers": 4648,
+        "publicContributions": 32419,
+        "privateContributions": 369,
+        "languages": ["Python", "Swift", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "spa-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1258,
+            "language": "Python"
+          },
+          {
+            "name": "spa-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 571,
+            "language": "Swift"
+          },
+          {
+            "name": "spa-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 534,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113003?v=4",
+        "name": "Dev 4 (Spain)",
+        "company": null,
+        "location": "Barcelona",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31224,
+        "privateContributions": 401,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "spa-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 606,
+            "language": "Java"
+          },
+          {
+            "name": "spa-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1051,
+            "language": "Java"
+          },
+          {
+            "name": "spa-dev-4-proj-3",
+            "description": null,
+            "stars": 922,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113004?v=4",
+        "name": "Dev 5 (Spain)",
+        "company": "GitHub",
+        "location": "Spain",
+        "bio": null,
+        "followers": 4294,
+        "publicContributions": 29972,
+        "privateContributions": 10,
+        "languages": ["PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "spa-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 307,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113005?v=4",
+        "name": "Dev 6 (Spain)",
+        "company": "Microsoft",
+        "location": "Spain",
+        "bio": null,
+        "followers": 4112,
+        "publicContributions": 28725,
+        "privateContributions": 131,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "spa-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1585,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113006?v=4",
+        "name": "Dev 7 (Spain)",
+        "company": "Amazon",
+        "location": "Barcelona",
+        "bio": null,
+        "followers": 3959,
+        "publicContributions": 27678,
+        "privateContributions": 372,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "spa-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 456,
+            "language": "Kotlin"
+          },
+          {
+            "name": "spa-dev-7-proj-2",
+            "description": null,
+            "stars": 377,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113007?v=4",
+        "name": "Dev 8 (Spain)",
+        "company": "Stripe",
+        "location": "Madrid",
+        "bio": null,
+        "followers": 3794,
+        "publicContributions": 26524,
+        "privateContributions": 484,
+        "languages": ["TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "spa-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1464,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113008?v=4",
+        "name": "Dev 9 (Spain)",
+        "company": "Amazon",
+        "location": "Spain",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25489,
+        "privateContributions": 416,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "spa-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 588,
+            "language": "TypeScript"
+          },
+          {
+            "name": "spa-dev-9-proj-2",
+            "description": null,
+            "stars": 1368,
+            "language": "Swift"
+          },
+          {
+            "name": "spa-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 740,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113009?v=4",
+        "name": "Dev 10 (Spain)",
+        "company": "GitHub",
+        "location": "Seville",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24513,
+        "privateContributions": 471,
+        "languages": ["Rust", "PHP", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "spa-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 335,
+            "language": "Rust"
+          },
+          {
+            "name": "spa-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 247,
+            "language": "PHP"
+          },
+          {
+            "name": "spa-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 290,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "spa-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113000?v=4",
+        "name": "Dev 1 (Spain)",
+        "company": "Google",
+        "location": "Barcelona",
+        "bio": "Developer from Spain",
+        "followers": 5035,
+        "publicContributions": 35148,
+        "privateContributions": 468,
+        "languages": ["TypeScript", "JavaScript", "PHP", "Java"],
+        "topRepos": [
+          {
+            "name": "spa-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 205,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "spa-dev-1",
+        "blog": "https://spa-dev-1.dev"
+      },
+      {
+        "login": "spa-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113001?v=4",
+        "name": "Dev 2 (Spain)",
+        "company": null,
+        "location": "Barcelona",
+        "bio": "Developer from Spain",
+        "followers": 4835,
+        "publicContributions": 33682,
+        "privateContributions": 59,
+        "languages": ["Go", "C++", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "spa-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 232,
+            "language": "Go"
+          },
+          {
+            "name": "spa-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 411,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "spa-dev-2",
+        "blog": null
+      },
+      {
+        "login": "spa-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113002?v=4",
+        "name": "Dev 3 (Spain)",
+        "company": null,
+        "location": "Seville",
+        "bio": "Developer from Spain",
+        "followers": 4648,
+        "publicContributions": 32419,
+        "privateContributions": 369,
+        "languages": ["Python", "Swift", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "spa-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1258,
+            "language": "Python"
+          },
+          {
+            "name": "spa-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 571,
+            "language": "Swift"
+          },
+          {
+            "name": "spa-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 534,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113003?v=4",
+        "name": "Dev 4 (Spain)",
+        "company": null,
+        "location": "Barcelona",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31224,
+        "privateContributions": 401,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "spa-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 606,
+            "language": "Java"
+          },
+          {
+            "name": "spa-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1051,
+            "language": "Java"
+          },
+          {
+            "name": "spa-dev-4-proj-3",
+            "description": null,
+            "stars": 922,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113004?v=4",
+        "name": "Dev 5 (Spain)",
+        "company": "GitHub",
+        "location": "Spain",
+        "bio": null,
+        "followers": 4294,
+        "publicContributions": 29972,
+        "privateContributions": 10,
+        "languages": ["PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "spa-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 307,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113005?v=4",
+        "name": "Dev 6 (Spain)",
+        "company": "Microsoft",
+        "location": "Spain",
+        "bio": null,
+        "followers": 4112,
+        "publicContributions": 28725,
+        "privateContributions": 131,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "spa-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1585,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113006?v=4",
+        "name": "Dev 7 (Spain)",
+        "company": "Amazon",
+        "location": "Barcelona",
+        "bio": null,
+        "followers": 3959,
+        "publicContributions": 27678,
+        "privateContributions": 372,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "spa-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 456,
+            "language": "Kotlin"
+          },
+          {
+            "name": "spa-dev-7-proj-2",
+            "description": null,
+            "stars": 377,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113007?v=4",
+        "name": "Dev 8 (Spain)",
+        "company": "Stripe",
+        "location": "Madrid",
+        "bio": null,
+        "followers": 3794,
+        "publicContributions": 26524,
+        "privateContributions": 484,
+        "languages": ["TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "spa-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1464,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113008?v=4",
+        "name": "Dev 9 (Spain)",
+        "company": "Amazon",
+        "location": "Spain",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25489,
+        "privateContributions": 416,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "spa-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 588,
+            "language": "TypeScript"
+          },
+          {
+            "name": "spa-dev-9-proj-2",
+            "description": null,
+            "stars": 1368,
+            "language": "Swift"
+          },
+          {
+            "name": "spa-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 740,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113009?v=4",
+        "name": "Dev 10 (Spain)",
+        "company": "GitHub",
+        "location": "Seville",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24513,
+        "privateContributions": 471,
+        "languages": ["Rust", "PHP", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "spa-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 335,
+            "language": "Rust"
+          },
+          {
+            "name": "spa-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 247,
+            "language": "PHP"
+          },
+          {
+            "name": "spa-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 290,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "spa-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113000?v=4",
+        "name": "Dev 1 (Spain)",
+        "company": "Google",
+        "location": "Barcelona",
+        "bio": "Developer from Spain",
+        "followers": 5035,
+        "publicContributions": 35148,
+        "privateContributions": 468,
+        "languages": ["TypeScript", "JavaScript", "PHP", "Java"],
+        "topRepos": [
+          {
+            "name": "spa-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 205,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "spa-dev-1",
+        "blog": "https://spa-dev-1.dev"
+      },
+      {
+        "login": "spa-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113001?v=4",
+        "name": "Dev 2 (Spain)",
+        "company": null,
+        "location": "Barcelona",
+        "bio": "Developer from Spain",
+        "followers": 4835,
+        "publicContributions": 33682,
+        "privateContributions": 59,
+        "languages": ["Go", "C++", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "spa-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 232,
+            "language": "Go"
+          },
+          {
+            "name": "spa-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 411,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "spa-dev-2",
+        "blog": null
+      },
+      {
+        "login": "spa-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113002?v=4",
+        "name": "Dev 3 (Spain)",
+        "company": null,
+        "location": "Seville",
+        "bio": "Developer from Spain",
+        "followers": 4648,
+        "publicContributions": 32419,
+        "privateContributions": 369,
+        "languages": ["Python", "Swift", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "spa-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1258,
+            "language": "Python"
+          },
+          {
+            "name": "spa-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 571,
+            "language": "Swift"
+          },
+          {
+            "name": "spa-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 534,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113003?v=4",
+        "name": "Dev 4 (Spain)",
+        "company": null,
+        "location": "Barcelona",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31224,
+        "privateContributions": 401,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "spa-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 606,
+            "language": "Java"
+          },
+          {
+            "name": "spa-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1051,
+            "language": "Java"
+          },
+          {
+            "name": "spa-dev-4-proj-3",
+            "description": null,
+            "stars": 922,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113004?v=4",
+        "name": "Dev 5 (Spain)",
+        "company": "GitHub",
+        "location": "Spain",
+        "bio": null,
+        "followers": 4294,
+        "publicContributions": 29972,
+        "privateContributions": 10,
+        "languages": ["PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "spa-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 307,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113005?v=4",
+        "name": "Dev 6 (Spain)",
+        "company": "Microsoft",
+        "location": "Spain",
+        "bio": null,
+        "followers": 4112,
+        "publicContributions": 28725,
+        "privateContributions": 131,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "spa-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1585,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113006?v=4",
+        "name": "Dev 7 (Spain)",
+        "company": "Amazon",
+        "location": "Barcelona",
+        "bio": null,
+        "followers": 3959,
+        "publicContributions": 27678,
+        "privateContributions": 372,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "spa-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 456,
+            "language": "Kotlin"
+          },
+          {
+            "name": "spa-dev-7-proj-2",
+            "description": null,
+            "stars": 377,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113007?v=4",
+        "name": "Dev 8 (Spain)",
+        "company": "Stripe",
+        "location": "Madrid",
+        "bio": null,
+        "followers": 3794,
+        "publicContributions": 26524,
+        "privateContributions": 484,
+        "languages": ["TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "spa-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1464,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113008?v=4",
+        "name": "Dev 9 (Spain)",
+        "company": "Amazon",
+        "location": "Spain",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25489,
+        "privateContributions": 416,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "spa-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 588,
+            "language": "TypeScript"
+          },
+          {
+            "name": "spa-dev-9-proj-2",
+            "description": null,
+            "stars": 1368,
+            "language": "Swift"
+          },
+          {
+            "name": "spa-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 740,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "spa-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/113009?v=4",
+        "name": "Dev 10 (Spain)",
+        "company": "GitHub",
+        "location": "Seville",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24513,
+        "privateContributions": 471,
+        "languages": ["Rust", "PHP", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "spa-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 335,
+            "language": "Rust"
+          },
+          {
+            "name": "spa-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 247,
+            "language": "PHP"
+          },
+          {
+            "name": "spa-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 290,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,907 @@
+{
+  "countryCode": "algeria",
+  "updatedAt": "2026-03-27T21:38:37.379Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "alg-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3000?v=4",
+        "name": "Dev 1 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": "Developer from Algeria",
+        "followers": 5040,
+        "publicContributions": 35107,
+        "privateContributions": 464,
+        "languages": ["Python", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 286,
+            "language": "Python"
+          },
+          {
+            "name": "alg-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 2001,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 323,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "alg-dev-1",
+        "blog": "https://alg-dev-1.dev"
+      },
+      {
+        "login": "alg-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3001?v=4",
+        "name": "Dev 2 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": "Developer from Algeria",
+        "followers": 4842,
+        "publicContributions": 33686,
+        "privateContributions": 357,
+        "languages": ["Swift", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1436,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "alg-dev-2",
+        "blog": null
+      },
+      {
+        "login": "alg-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3002?v=4",
+        "name": "Dev 3 (Algeria)",
+        "company": null,
+        "location": "Oran",
+        "bio": "Developer from Algeria",
+        "followers": 4662,
+        "publicContributions": 32484,
+        "privateContributions": 394,
+        "languages": ["TypeScript", "JavaScript", "C++", "Rust"],
+        "topRepos": [
+          {
+            "name": "alg-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 937,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-3-proj-2",
+            "description": null,
+            "stars": 1629,
+            "language": "JavaScript"
+          },
+          {
+            "name": "alg-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1484,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3003?v=4",
+        "name": "Dev 4 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": null,
+        "followers": 4468,
+        "publicContributions": 31141,
+        "privateContributions": 63,
+        "languages": ["TypeScript", "Dart", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-4-proj-1",
+            "description": null,
+            "stars": 469,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 143,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-4-proj-3",
+            "description": null,
+            "stars": 1769,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3004?v=4",
+        "name": "Dev 5 (Algeria)",
+        "company": "Stripe",
+        "location": "Oran",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29979,
+        "privateContributions": 227,
+        "languages": ["PHP", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-5-proj-1",
+            "description": null,
+            "stars": 1276,
+            "language": "PHP"
+          },
+          {
+            "name": "alg-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 204,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3005?v=4",
+        "name": "Dev 6 (Algeria)",
+        "company": "Apple",
+        "location": "Algiers",
+        "bio": null,
+        "followers": 4138,
+        "publicContributions": 28721,
+        "privateContributions": 290,
+        "languages": ["TypeScript", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "alg-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 1415,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 902,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3006?v=4",
+        "name": "Dev 7 (Algeria)",
+        "company": "Vercel",
+        "location": "Constantine",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27593,
+        "privateContributions": 454,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "alg-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 466,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1482,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 634,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3007?v=4",
+        "name": "Dev 8 (Algeria)",
+        "company": "Stripe",
+        "location": "Constantine",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26623,
+        "privateContributions": 496,
+        "languages": ["TypeScript", "JavaScript", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 904,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 799,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3008?v=4",
+        "name": "Dev 9 (Algeria)",
+        "company": null,
+        "location": "Algeria",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25591,
+        "privateContributions": 147,
+        "languages": ["Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1259,
+            "language": "Ruby"
+          },
+          {
+            "name": "alg-dev-9-proj-2",
+            "description": null,
+            "stars": 90,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3009?v=4",
+        "name": "Dev 10 (Algeria)",
+        "company": "Stripe",
+        "location": "Oran",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24554,
+        "privateContributions": 233,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "alg-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1065,
+            "language": "Swift"
+          },
+          {
+            "name": "alg-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1058,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "alg-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3000?v=4",
+        "name": "Dev 1 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": "Developer from Algeria",
+        "followers": 5040,
+        "publicContributions": 35107,
+        "privateContributions": 464,
+        "languages": ["Python", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 286,
+            "language": "Python"
+          },
+          {
+            "name": "alg-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 2001,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 323,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "alg-dev-1",
+        "blog": "https://alg-dev-1.dev"
+      },
+      {
+        "login": "alg-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3001?v=4",
+        "name": "Dev 2 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": "Developer from Algeria",
+        "followers": 4842,
+        "publicContributions": 33686,
+        "privateContributions": 357,
+        "languages": ["Swift", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1436,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "alg-dev-2",
+        "blog": null
+      },
+      {
+        "login": "alg-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3002?v=4",
+        "name": "Dev 3 (Algeria)",
+        "company": null,
+        "location": "Oran",
+        "bio": "Developer from Algeria",
+        "followers": 4662,
+        "publicContributions": 32484,
+        "privateContributions": 394,
+        "languages": ["TypeScript", "JavaScript", "C++", "Rust"],
+        "topRepos": [
+          {
+            "name": "alg-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 937,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-3-proj-2",
+            "description": null,
+            "stars": 1629,
+            "language": "JavaScript"
+          },
+          {
+            "name": "alg-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1484,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3003?v=4",
+        "name": "Dev 4 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": null,
+        "followers": 4468,
+        "publicContributions": 31141,
+        "privateContributions": 63,
+        "languages": ["TypeScript", "Dart", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-4-proj-1",
+            "description": null,
+            "stars": 469,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 143,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-4-proj-3",
+            "description": null,
+            "stars": 1769,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3004?v=4",
+        "name": "Dev 5 (Algeria)",
+        "company": "Stripe",
+        "location": "Oran",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29979,
+        "privateContributions": 227,
+        "languages": ["PHP", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-5-proj-1",
+            "description": null,
+            "stars": 1276,
+            "language": "PHP"
+          },
+          {
+            "name": "alg-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 204,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3005?v=4",
+        "name": "Dev 6 (Algeria)",
+        "company": "Apple",
+        "location": "Algiers",
+        "bio": null,
+        "followers": 4138,
+        "publicContributions": 28721,
+        "privateContributions": 290,
+        "languages": ["TypeScript", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "alg-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 1415,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 902,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3006?v=4",
+        "name": "Dev 7 (Algeria)",
+        "company": "Vercel",
+        "location": "Constantine",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27593,
+        "privateContributions": 454,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "alg-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 466,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1482,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 634,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3007?v=4",
+        "name": "Dev 8 (Algeria)",
+        "company": "Stripe",
+        "location": "Constantine",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26623,
+        "privateContributions": 496,
+        "languages": ["TypeScript", "JavaScript", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 904,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 799,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3008?v=4",
+        "name": "Dev 9 (Algeria)",
+        "company": null,
+        "location": "Algeria",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25591,
+        "privateContributions": 147,
+        "languages": ["Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1259,
+            "language": "Ruby"
+          },
+          {
+            "name": "alg-dev-9-proj-2",
+            "description": null,
+            "stars": 90,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3009?v=4",
+        "name": "Dev 10 (Algeria)",
+        "company": "Stripe",
+        "location": "Oran",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24554,
+        "privateContributions": 233,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "alg-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1065,
+            "language": "Swift"
+          },
+          {
+            "name": "alg-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1058,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "alg-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3000?v=4",
+        "name": "Dev 1 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": "Developer from Algeria",
+        "followers": 5040,
+        "publicContributions": 35107,
+        "privateContributions": 464,
+        "languages": ["Python", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 286,
+            "language": "Python"
+          },
+          {
+            "name": "alg-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 2001,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 323,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "alg-dev-1",
+        "blog": "https://alg-dev-1.dev"
+      },
+      {
+        "login": "alg-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3001?v=4",
+        "name": "Dev 2 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": "Developer from Algeria",
+        "followers": 4842,
+        "publicContributions": 33686,
+        "privateContributions": 357,
+        "languages": ["Swift", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1436,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "alg-dev-2",
+        "blog": null
+      },
+      {
+        "login": "alg-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3002?v=4",
+        "name": "Dev 3 (Algeria)",
+        "company": null,
+        "location": "Oran",
+        "bio": "Developer from Algeria",
+        "followers": 4662,
+        "publicContributions": 32484,
+        "privateContributions": 394,
+        "languages": ["TypeScript", "JavaScript", "C++", "Rust"],
+        "topRepos": [
+          {
+            "name": "alg-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 937,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-3-proj-2",
+            "description": null,
+            "stars": 1629,
+            "language": "JavaScript"
+          },
+          {
+            "name": "alg-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1484,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3003?v=4",
+        "name": "Dev 4 (Algeria)",
+        "company": null,
+        "location": "Constantine",
+        "bio": null,
+        "followers": 4468,
+        "publicContributions": 31141,
+        "privateContributions": 63,
+        "languages": ["TypeScript", "Dart", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-4-proj-1",
+            "description": null,
+            "stars": 469,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 143,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-4-proj-3",
+            "description": null,
+            "stars": 1769,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3004?v=4",
+        "name": "Dev 5 (Algeria)",
+        "company": "Stripe",
+        "location": "Oran",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29979,
+        "privateContributions": 227,
+        "languages": ["PHP", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "alg-dev-5-proj-1",
+            "description": null,
+            "stars": 1276,
+            "language": "PHP"
+          },
+          {
+            "name": "alg-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 204,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3005?v=4",
+        "name": "Dev 6 (Algeria)",
+        "company": "Apple",
+        "location": "Algiers",
+        "bio": null,
+        "followers": 4138,
+        "publicContributions": 28721,
+        "privateContributions": 290,
+        "languages": ["TypeScript", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "alg-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 1415,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 902,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3006?v=4",
+        "name": "Dev 7 (Algeria)",
+        "company": "Vercel",
+        "location": "Constantine",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27593,
+        "privateContributions": 454,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "alg-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 466,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1482,
+            "language": "Dart"
+          },
+          {
+            "name": "alg-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 634,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3007?v=4",
+        "name": "Dev 8 (Algeria)",
+        "company": "Stripe",
+        "location": "Constantine",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26623,
+        "privateContributions": 496,
+        "languages": ["TypeScript", "JavaScript", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 904,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alg-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 799,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3008?v=4",
+        "name": "Dev 9 (Algeria)",
+        "company": null,
+        "location": "Algeria",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25591,
+        "privateContributions": 147,
+        "languages": ["Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "alg-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1259,
+            "language": "Ruby"
+          },
+          {
+            "name": "alg-dev-9-proj-2",
+            "description": null,
+            "stars": 90,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alg-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3009?v=4",
+        "name": "Dev 10 (Algeria)",
+        "company": "Stripe",
+        "location": "Oran",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24554,
+        "privateContributions": 233,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "alg-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1065,
+            "language": "Swift"
+          },
+          {
+            "name": "alg-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1058,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

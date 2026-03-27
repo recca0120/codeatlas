@@ -1,0 +1,835 @@
+{
+  "countryCode": "mali",
+  "updatedAt": "2026-03-27T21:38:37.390Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "mal-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75000?v=4",
+        "name": "Dev 1 (Mali)",
+        "company": null,
+        "location": "Mali",
+        "bio": "Developer from Mali",
+        "followers": 5047,
+        "publicContributions": 35068,
+        "privateContributions": 412,
+        "languages": ["Kotlin", "Java", "TypeScript", "C++"],
+        "topRepos": [
+          {
+            "name": "mal-dev-1-proj-1",
+            "description": null,
+            "stars": 487,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "mal-dev-1",
+        "blog": "https://mal-dev-1.dev"
+      },
+      {
+        "login": "mal-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75001?v=4",
+        "name": "Dev 2 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": "Developer from Mali",
+        "followers": 4819,
+        "publicContributions": 33683,
+        "privateContributions": 335,
+        "languages": ["JavaScript", "Go"],
+        "topRepos": [
+          {
+            "name": "mal-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1079,
+            "language": "JavaScript"
+          },
+          {
+            "name": "mal-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1706,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 1338,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "mal-dev-2",
+        "blog": null
+      },
+      {
+        "login": "mal-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75002?v=4",
+        "name": "Dev 3 (Mali)",
+        "company": "Google",
+        "location": "Mali",
+        "bio": "Developer from Mali",
+        "followers": 4651,
+        "publicContributions": 32454,
+        "privateContributions": 422,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "mal-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1619,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mal-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 296,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mal-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 657,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75003?v=4",
+        "name": "Dev 4 (Mali)",
+        "company": "Apple",
+        "location": "Mali",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31113,
+        "privateContributions": 91,
+        "languages": ["Swift", "C++"],
+        "topRepos": [
+          {
+            "name": "mal-dev-4-proj-1",
+            "description": null,
+            "stars": 1087,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75004?v=4",
+        "name": "Dev 5 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29985,
+        "privateContributions": 259,
+        "languages": ["Dart", "Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "mal-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1631,
+            "language": "Dart"
+          },
+          {
+            "name": "mal-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 176,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75005?v=4",
+        "name": "Dev 6 (Mali)",
+        "company": "Google",
+        "location": "Mali",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28750,
+        "privateContributions": 162,
+        "languages": ["Swift", "Go", "Python", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mal-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 865,
+            "language": "Swift"
+          },
+          {
+            "name": "mal-dev-6-proj-2",
+            "description": null,
+            "stars": 1046,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-6-proj-3",
+            "description": "API wrapper",
+            "stars": 1012,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75006?v=4",
+        "name": "Dev 7 (Mali)",
+        "company": "Microsoft",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3975,
+        "publicContributions": 27585,
+        "privateContributions": 280,
+        "languages": ["Rust", "Go", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "mal-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1171,
+            "language": "Rust"
+          },
+          {
+            "name": "mal-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1039,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 796,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75007?v=4",
+        "name": "Dev 8 (Mali)",
+        "company": "Meta",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3811,
+        "publicContributions": 26648,
+        "privateContributions": 240,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "mal-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 1051,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75008?v=4",
+        "name": "Dev 9 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": null,
+        "followers": 3662,
+        "publicContributions": 25493,
+        "privateContributions": 401,
+        "languages": ["PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "mal-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 694,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75009?v=4",
+        "name": "Dev 10 (Mali)",
+        "company": "Amazon",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24572,
+        "privateContributions": 169,
+        "languages": ["Rust"],
+        "topRepos": [
+          {
+            "name": "mal-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1091,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "mal-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75000?v=4",
+        "name": "Dev 1 (Mali)",
+        "company": null,
+        "location": "Mali",
+        "bio": "Developer from Mali",
+        "followers": 5047,
+        "publicContributions": 35068,
+        "privateContributions": 412,
+        "languages": ["Kotlin", "Java", "TypeScript", "C++"],
+        "topRepos": [
+          {
+            "name": "mal-dev-1-proj-1",
+            "description": null,
+            "stars": 487,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "mal-dev-1",
+        "blog": "https://mal-dev-1.dev"
+      },
+      {
+        "login": "mal-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75001?v=4",
+        "name": "Dev 2 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": "Developer from Mali",
+        "followers": 4819,
+        "publicContributions": 33683,
+        "privateContributions": 335,
+        "languages": ["JavaScript", "Go"],
+        "topRepos": [
+          {
+            "name": "mal-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1079,
+            "language": "JavaScript"
+          },
+          {
+            "name": "mal-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1706,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 1338,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "mal-dev-2",
+        "blog": null
+      },
+      {
+        "login": "mal-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75002?v=4",
+        "name": "Dev 3 (Mali)",
+        "company": "Google",
+        "location": "Mali",
+        "bio": "Developer from Mali",
+        "followers": 4651,
+        "publicContributions": 32454,
+        "privateContributions": 422,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "mal-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1619,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mal-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 296,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mal-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 657,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75003?v=4",
+        "name": "Dev 4 (Mali)",
+        "company": "Apple",
+        "location": "Mali",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31113,
+        "privateContributions": 91,
+        "languages": ["Swift", "C++"],
+        "topRepos": [
+          {
+            "name": "mal-dev-4-proj-1",
+            "description": null,
+            "stars": 1087,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75004?v=4",
+        "name": "Dev 5 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29985,
+        "privateContributions": 259,
+        "languages": ["Dart", "Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "mal-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1631,
+            "language": "Dart"
+          },
+          {
+            "name": "mal-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 176,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75005?v=4",
+        "name": "Dev 6 (Mali)",
+        "company": "Google",
+        "location": "Mali",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28750,
+        "privateContributions": 162,
+        "languages": ["Swift", "Go", "Python", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mal-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 865,
+            "language": "Swift"
+          },
+          {
+            "name": "mal-dev-6-proj-2",
+            "description": null,
+            "stars": 1046,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-6-proj-3",
+            "description": "API wrapper",
+            "stars": 1012,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75006?v=4",
+        "name": "Dev 7 (Mali)",
+        "company": "Microsoft",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3975,
+        "publicContributions": 27585,
+        "privateContributions": 280,
+        "languages": ["Rust", "Go", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "mal-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1171,
+            "language": "Rust"
+          },
+          {
+            "name": "mal-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1039,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 796,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75007?v=4",
+        "name": "Dev 8 (Mali)",
+        "company": "Meta",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3811,
+        "publicContributions": 26648,
+        "privateContributions": 240,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "mal-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 1051,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75008?v=4",
+        "name": "Dev 9 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": null,
+        "followers": 3662,
+        "publicContributions": 25493,
+        "privateContributions": 401,
+        "languages": ["PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "mal-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 694,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75009?v=4",
+        "name": "Dev 10 (Mali)",
+        "company": "Amazon",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24572,
+        "privateContributions": 169,
+        "languages": ["Rust"],
+        "topRepos": [
+          {
+            "name": "mal-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1091,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "mal-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75000?v=4",
+        "name": "Dev 1 (Mali)",
+        "company": null,
+        "location": "Mali",
+        "bio": "Developer from Mali",
+        "followers": 5047,
+        "publicContributions": 35068,
+        "privateContributions": 412,
+        "languages": ["Kotlin", "Java", "TypeScript", "C++"],
+        "topRepos": [
+          {
+            "name": "mal-dev-1-proj-1",
+            "description": null,
+            "stars": 487,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "mal-dev-1",
+        "blog": "https://mal-dev-1.dev"
+      },
+      {
+        "login": "mal-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75001?v=4",
+        "name": "Dev 2 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": "Developer from Mali",
+        "followers": 4819,
+        "publicContributions": 33683,
+        "privateContributions": 335,
+        "languages": ["JavaScript", "Go"],
+        "topRepos": [
+          {
+            "name": "mal-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1079,
+            "language": "JavaScript"
+          },
+          {
+            "name": "mal-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1706,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 1338,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "mal-dev-2",
+        "blog": null
+      },
+      {
+        "login": "mal-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75002?v=4",
+        "name": "Dev 3 (Mali)",
+        "company": "Google",
+        "location": "Mali",
+        "bio": "Developer from Mali",
+        "followers": 4651,
+        "publicContributions": 32454,
+        "privateContributions": 422,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "mal-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1619,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mal-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 296,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mal-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 657,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75003?v=4",
+        "name": "Dev 4 (Mali)",
+        "company": "Apple",
+        "location": "Mali",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31113,
+        "privateContributions": 91,
+        "languages": ["Swift", "C++"],
+        "topRepos": [
+          {
+            "name": "mal-dev-4-proj-1",
+            "description": null,
+            "stars": 1087,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75004?v=4",
+        "name": "Dev 5 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29985,
+        "privateContributions": 259,
+        "languages": ["Dart", "Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "mal-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1631,
+            "language": "Dart"
+          },
+          {
+            "name": "mal-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 176,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75005?v=4",
+        "name": "Dev 6 (Mali)",
+        "company": "Google",
+        "location": "Mali",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28750,
+        "privateContributions": 162,
+        "languages": ["Swift", "Go", "Python", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mal-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 865,
+            "language": "Swift"
+          },
+          {
+            "name": "mal-dev-6-proj-2",
+            "description": null,
+            "stars": 1046,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-6-proj-3",
+            "description": "API wrapper",
+            "stars": 1012,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75006?v=4",
+        "name": "Dev 7 (Mali)",
+        "company": "Microsoft",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3975,
+        "publicContributions": 27585,
+        "privateContributions": 280,
+        "languages": ["Rust", "Go", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "mal-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1171,
+            "language": "Rust"
+          },
+          {
+            "name": "mal-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1039,
+            "language": "Go"
+          },
+          {
+            "name": "mal-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 796,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75007?v=4",
+        "name": "Dev 8 (Mali)",
+        "company": "Meta",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3811,
+        "publicContributions": 26648,
+        "privateContributions": 240,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "mal-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 1051,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75008?v=4",
+        "name": "Dev 9 (Mali)",
+        "company": null,
+        "location": "Bamako",
+        "bio": null,
+        "followers": 3662,
+        "publicContributions": 25493,
+        "privateContributions": 401,
+        "languages": ["PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "mal-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 694,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mal-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75009?v=4",
+        "name": "Dev 10 (Mali)",
+        "company": "Amazon",
+        "location": "Mali",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24572,
+        "privateContributions": 169,
+        "languages": ["Rust"],
+        "topRepos": [
+          {
+            "name": "mal-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1091,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

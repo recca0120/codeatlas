@@ -1,0 +1,907 @@
+{
+  "countryCode": "uruguay",
+  "updatedAt": "2026-03-27T21:38:37.398Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "uru-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129000?v=4",
+        "name": "Dev 1 (Uruguay)",
+        "company": "Vercel",
+        "location": "Montevideo",
+        "bio": "Developer from Uruguay",
+        "followers": 5038,
+        "publicContributions": 35187,
+        "privateContributions": 325,
+        "languages": ["Ruby", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uru-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 579,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "uru-dev-1",
+        "blog": "https://uru-dev-1.dev"
+      },
+      {
+        "login": "uru-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129001?v=4",
+        "name": "Dev 2 (Uruguay)",
+        "company": null,
+        "location": "Uruguay",
+        "bio": "Developer from Uruguay",
+        "followers": 4849,
+        "publicContributions": 33828,
+        "privateContributions": 101,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "uru-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 193,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uru-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 855,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "uru-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uru-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129002?v=4",
+        "name": "Dev 3 (Uruguay)",
+        "company": "Meta",
+        "location": "Montevideo",
+        "bio": "Developer from Uruguay",
+        "followers": 4647,
+        "publicContributions": 32506,
+        "privateContributions": 321,
+        "languages": ["Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uru-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1069,
+            "language": "Rust"
+          },
+          {
+            "name": "uru-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 940,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uru-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 165,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129003?v=4",
+        "name": "Dev 4 (Uruguay)",
+        "company": "Microsoft",
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 4454,
+        "publicContributions": 31154,
+        "privateContributions": 137,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 99,
+            "language": "C++"
+          },
+          {
+            "name": "uru-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 591,
+            "language": "C++"
+          },
+          {
+            "name": "uru-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1008,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129004?v=4",
+        "name": "Dev 5 (Uruguay)",
+        "company": null,
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29994,
+        "privateContributions": 118,
+        "languages": ["JavaScript", "Python", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "uru-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1168,
+            "language": "JavaScript"
+          },
+          {
+            "name": "uru-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 612,
+            "language": "Python"
+          },
+          {
+            "name": "uru-dev-5-proj-3",
+            "description": null,
+            "stars": 231,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129005?v=4",
+        "name": "Dev 6 (Uruguay)",
+        "company": "Amazon",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 4136,
+        "publicContributions": 28779,
+        "privateContributions": 355,
+        "languages": ["Kotlin", "C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1328,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uru-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 684,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129006?v=4",
+        "name": "Dev 7 (Uruguay)",
+        "company": "Amazon",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3946,
+        "publicContributions": 27616,
+        "privateContributions": 176,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "uru-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1457,
+            "language": "Go"
+          },
+          {
+            "name": "uru-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1550,
+            "language": "Python"
+          },
+          {
+            "name": "uru-dev-7-proj-3",
+            "description": null,
+            "stars": 475,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129007?v=4",
+        "name": "Dev 8 (Uruguay)",
+        "company": null,
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3804,
+        "publicContributions": 26538,
+        "privateContributions": 204,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "uru-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 705,
+            "language": "Ruby"
+          },
+          {
+            "name": "uru-dev-8-proj-2",
+            "description": null,
+            "stars": 1240,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129008?v=4",
+        "name": "Dev 9 (Uruguay)",
+        "company": "GitHub",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25611,
+        "privateContributions": 451,
+        "languages": ["Go", "Swift", "TypeScript", "C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 845,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129009?v=4",
+        "name": "Dev 10 (Uruguay)",
+        "company": null,
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 3514,
+        "publicContributions": 24536,
+        "privateContributions": 10,
+        "languages": ["Java", "PHP", "Swift"],
+        "topRepos": [
+          {
+            "name": "uru-dev-10-proj-1",
+            "description": null,
+            "stars": 642,
+            "language": "Java"
+          },
+          {
+            "name": "uru-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 426,
+            "language": "PHP"
+          },
+          {
+            "name": "uru-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 93,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "uru-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129000?v=4",
+        "name": "Dev 1 (Uruguay)",
+        "company": "Vercel",
+        "location": "Montevideo",
+        "bio": "Developer from Uruguay",
+        "followers": 5038,
+        "publicContributions": 35187,
+        "privateContributions": 325,
+        "languages": ["Ruby", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uru-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 579,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "uru-dev-1",
+        "blog": "https://uru-dev-1.dev"
+      },
+      {
+        "login": "uru-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129001?v=4",
+        "name": "Dev 2 (Uruguay)",
+        "company": null,
+        "location": "Uruguay",
+        "bio": "Developer from Uruguay",
+        "followers": 4849,
+        "publicContributions": 33828,
+        "privateContributions": 101,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "uru-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 193,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uru-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 855,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "uru-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uru-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129002?v=4",
+        "name": "Dev 3 (Uruguay)",
+        "company": "Meta",
+        "location": "Montevideo",
+        "bio": "Developer from Uruguay",
+        "followers": 4647,
+        "publicContributions": 32506,
+        "privateContributions": 321,
+        "languages": ["Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uru-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1069,
+            "language": "Rust"
+          },
+          {
+            "name": "uru-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 940,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uru-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 165,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129003?v=4",
+        "name": "Dev 4 (Uruguay)",
+        "company": "Microsoft",
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 4454,
+        "publicContributions": 31154,
+        "privateContributions": 137,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 99,
+            "language": "C++"
+          },
+          {
+            "name": "uru-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 591,
+            "language": "C++"
+          },
+          {
+            "name": "uru-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1008,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129004?v=4",
+        "name": "Dev 5 (Uruguay)",
+        "company": null,
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29994,
+        "privateContributions": 118,
+        "languages": ["JavaScript", "Python", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "uru-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1168,
+            "language": "JavaScript"
+          },
+          {
+            "name": "uru-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 612,
+            "language": "Python"
+          },
+          {
+            "name": "uru-dev-5-proj-3",
+            "description": null,
+            "stars": 231,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129005?v=4",
+        "name": "Dev 6 (Uruguay)",
+        "company": "Amazon",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 4136,
+        "publicContributions": 28779,
+        "privateContributions": 355,
+        "languages": ["Kotlin", "C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1328,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uru-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 684,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129006?v=4",
+        "name": "Dev 7 (Uruguay)",
+        "company": "Amazon",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3946,
+        "publicContributions": 27616,
+        "privateContributions": 176,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "uru-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1457,
+            "language": "Go"
+          },
+          {
+            "name": "uru-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1550,
+            "language": "Python"
+          },
+          {
+            "name": "uru-dev-7-proj-3",
+            "description": null,
+            "stars": 475,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129007?v=4",
+        "name": "Dev 8 (Uruguay)",
+        "company": null,
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3804,
+        "publicContributions": 26538,
+        "privateContributions": 204,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "uru-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 705,
+            "language": "Ruby"
+          },
+          {
+            "name": "uru-dev-8-proj-2",
+            "description": null,
+            "stars": 1240,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129008?v=4",
+        "name": "Dev 9 (Uruguay)",
+        "company": "GitHub",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25611,
+        "privateContributions": 451,
+        "languages": ["Go", "Swift", "TypeScript", "C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 845,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129009?v=4",
+        "name": "Dev 10 (Uruguay)",
+        "company": null,
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 3514,
+        "publicContributions": 24536,
+        "privateContributions": 10,
+        "languages": ["Java", "PHP", "Swift"],
+        "topRepos": [
+          {
+            "name": "uru-dev-10-proj-1",
+            "description": null,
+            "stars": 642,
+            "language": "Java"
+          },
+          {
+            "name": "uru-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 426,
+            "language": "PHP"
+          },
+          {
+            "name": "uru-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 93,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "uru-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129000?v=4",
+        "name": "Dev 1 (Uruguay)",
+        "company": "Vercel",
+        "location": "Montevideo",
+        "bio": "Developer from Uruguay",
+        "followers": 5038,
+        "publicContributions": 35187,
+        "privateContributions": 325,
+        "languages": ["Ruby", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uru-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 579,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "uru-dev-1",
+        "blog": "https://uru-dev-1.dev"
+      },
+      {
+        "login": "uru-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129001?v=4",
+        "name": "Dev 2 (Uruguay)",
+        "company": null,
+        "location": "Uruguay",
+        "bio": "Developer from Uruguay",
+        "followers": 4849,
+        "publicContributions": 33828,
+        "privateContributions": 101,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "uru-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 193,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uru-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 855,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "uru-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uru-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129002?v=4",
+        "name": "Dev 3 (Uruguay)",
+        "company": "Meta",
+        "location": "Montevideo",
+        "bio": "Developer from Uruguay",
+        "followers": 4647,
+        "publicContributions": 32506,
+        "privateContributions": 321,
+        "languages": ["Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uru-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1069,
+            "language": "Rust"
+          },
+          {
+            "name": "uru-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 940,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uru-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 165,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129003?v=4",
+        "name": "Dev 4 (Uruguay)",
+        "company": "Microsoft",
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 4454,
+        "publicContributions": 31154,
+        "privateContributions": 137,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 99,
+            "language": "C++"
+          },
+          {
+            "name": "uru-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 591,
+            "language": "C++"
+          },
+          {
+            "name": "uru-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1008,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129004?v=4",
+        "name": "Dev 5 (Uruguay)",
+        "company": null,
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29994,
+        "privateContributions": 118,
+        "languages": ["JavaScript", "Python", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "uru-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1168,
+            "language": "JavaScript"
+          },
+          {
+            "name": "uru-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 612,
+            "language": "Python"
+          },
+          {
+            "name": "uru-dev-5-proj-3",
+            "description": null,
+            "stars": 231,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129005?v=4",
+        "name": "Dev 6 (Uruguay)",
+        "company": "Amazon",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 4136,
+        "publicContributions": 28779,
+        "privateContributions": 355,
+        "languages": ["Kotlin", "C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1328,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uru-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 684,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129006?v=4",
+        "name": "Dev 7 (Uruguay)",
+        "company": "Amazon",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3946,
+        "publicContributions": 27616,
+        "privateContributions": 176,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "uru-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1457,
+            "language": "Go"
+          },
+          {
+            "name": "uru-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1550,
+            "language": "Python"
+          },
+          {
+            "name": "uru-dev-7-proj-3",
+            "description": null,
+            "stars": 475,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129007?v=4",
+        "name": "Dev 8 (Uruguay)",
+        "company": null,
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3804,
+        "publicContributions": 26538,
+        "privateContributions": 204,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "uru-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 705,
+            "language": "Ruby"
+          },
+          {
+            "name": "uru-dev-8-proj-2",
+            "description": null,
+            "stars": 1240,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129008?v=4",
+        "name": "Dev 9 (Uruguay)",
+        "company": "GitHub",
+        "location": "Uruguay",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25611,
+        "privateContributions": 451,
+        "languages": ["Go", "Swift", "TypeScript", "C++"],
+        "topRepos": [
+          {
+            "name": "uru-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 845,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uru-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129009?v=4",
+        "name": "Dev 10 (Uruguay)",
+        "company": null,
+        "location": "Montevideo",
+        "bio": null,
+        "followers": 3514,
+        "publicContributions": 24536,
+        "privateContributions": 10,
+        "languages": ["Java", "PHP", "Swift"],
+        "topRepos": [
+          {
+            "name": "uru-dev-10-proj-1",
+            "description": null,
+            "stars": 642,
+            "language": "Java"
+          },
+          {
+            "name": "uru-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 426,
+            "language": "PHP"
+          },
+          {
+            "name": "uru-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 93,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

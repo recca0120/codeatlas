@@ -1,0 +1,871 @@
+{
+  "countryCode": "kazakhstan",
+  "updatedAt": "2026-03-27T21:38:37.388Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "kaz-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64000?v=4",
+        "name": "Dev 1 (Kazakhstan)",
+        "company": null,
+        "location": "Astana",
+        "bio": "Developer from Kazakhstan",
+        "followers": 5018,
+        "publicContributions": 35112,
+        "privateContributions": 297,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1720,
+            "language": "Go"
+          },
+          {
+            "name": "kaz-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 201,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "kaz-dev-1",
+        "blog": "https://kaz-dev-1.dev"
+      },
+      {
+        "login": "kaz-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64001?v=4",
+        "name": "Dev 2 (Kazakhstan)",
+        "company": null,
+        "location": "Kazakhstan",
+        "bio": "Developer from Kazakhstan",
+        "followers": 4825,
+        "publicContributions": 33756,
+        "privateContributions": 330,
+        "languages": ["Rust", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1346,
+            "language": "Rust"
+          },
+          {
+            "name": "kaz-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 75,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kaz-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 1578,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "kaz-dev-2",
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64002?v=4",
+        "name": "Dev 3 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": "Developer from Kazakhstan",
+        "followers": 4645,
+        "publicContributions": 32364,
+        "privateContributions": 272,
+        "languages": ["TypeScript", "Kotlin", "C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1377,
+            "language": "TypeScript"
+          },
+          {
+            "name": "kaz-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 61,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kaz-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 109,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64003?v=4",
+        "name": "Dev 4 (Kazakhstan)",
+        "company": "Google",
+        "location": "Astana",
+        "bio": null,
+        "followers": 4464,
+        "publicContributions": 31130,
+        "privateContributions": 255,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1622,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64004?v=4",
+        "name": "Dev 5 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": null,
+        "followers": 4279,
+        "publicContributions": 29889,
+        "privateContributions": 86,
+        "languages": ["C++", "Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1300,
+            "language": "C++"
+          },
+          {
+            "name": "kaz-dev-5-proj-2",
+            "description": null,
+            "stars": 1560,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64005?v=4",
+        "name": "Dev 6 (Kazakhstan)",
+        "company": "Amazon",
+        "location": "Almaty",
+        "bio": null,
+        "followers": 4129,
+        "publicContributions": 28838,
+        "privateContributions": 474,
+        "languages": ["Java", "Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 590,
+            "language": "Java"
+          },
+          {
+            "name": "kaz-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 40,
+            "language": "Rust"
+          },
+          {
+            "name": "kaz-dev-6-proj-3",
+            "description": "Open source utilities",
+            "stars": 358,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64006?v=4",
+        "name": "Dev 7 (Kazakhstan)",
+        "company": null,
+        "location": "Kazakhstan",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27618,
+        "privateContributions": 288,
+        "languages": ["Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1057,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64007?v=4",
+        "name": "Dev 8 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26621,
+        "privateContributions": 17,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-8-proj-1",
+            "description": null,
+            "stars": 895,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64008?v=4",
+        "name": "Dev 9 (Kazakhstan)",
+        "company": null,
+        "location": "Almaty",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25602,
+        "privateContributions": 240,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 365,
+            "language": "Python"
+          },
+          {
+            "name": "kaz-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 463,
+            "language": "C++"
+          },
+          {
+            "name": "kaz-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 910,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64009?v=4",
+        "name": "Dev 10 (Kazakhstan)",
+        "company": null,
+        "location": "Astana",
+        "bio": null,
+        "followers": 3523,
+        "publicContributions": 24498,
+        "privateContributions": 193,
+        "languages": ["Dart", "Java", "Rust"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 449,
+            "language": "Dart"
+          },
+          {
+            "name": "kaz-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1097,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "kaz-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64000?v=4",
+        "name": "Dev 1 (Kazakhstan)",
+        "company": null,
+        "location": "Astana",
+        "bio": "Developer from Kazakhstan",
+        "followers": 5018,
+        "publicContributions": 35112,
+        "privateContributions": 297,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1720,
+            "language": "Go"
+          },
+          {
+            "name": "kaz-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 201,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "kaz-dev-1",
+        "blog": "https://kaz-dev-1.dev"
+      },
+      {
+        "login": "kaz-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64001?v=4",
+        "name": "Dev 2 (Kazakhstan)",
+        "company": null,
+        "location": "Kazakhstan",
+        "bio": "Developer from Kazakhstan",
+        "followers": 4825,
+        "publicContributions": 33756,
+        "privateContributions": 330,
+        "languages": ["Rust", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1346,
+            "language": "Rust"
+          },
+          {
+            "name": "kaz-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 75,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kaz-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 1578,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "kaz-dev-2",
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64002?v=4",
+        "name": "Dev 3 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": "Developer from Kazakhstan",
+        "followers": 4645,
+        "publicContributions": 32364,
+        "privateContributions": 272,
+        "languages": ["TypeScript", "Kotlin", "C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1377,
+            "language": "TypeScript"
+          },
+          {
+            "name": "kaz-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 61,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kaz-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 109,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64003?v=4",
+        "name": "Dev 4 (Kazakhstan)",
+        "company": "Google",
+        "location": "Astana",
+        "bio": null,
+        "followers": 4464,
+        "publicContributions": 31130,
+        "privateContributions": 255,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1622,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64004?v=4",
+        "name": "Dev 5 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": null,
+        "followers": 4279,
+        "publicContributions": 29889,
+        "privateContributions": 86,
+        "languages": ["C++", "Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1300,
+            "language": "C++"
+          },
+          {
+            "name": "kaz-dev-5-proj-2",
+            "description": null,
+            "stars": 1560,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64005?v=4",
+        "name": "Dev 6 (Kazakhstan)",
+        "company": "Amazon",
+        "location": "Almaty",
+        "bio": null,
+        "followers": 4129,
+        "publicContributions": 28838,
+        "privateContributions": 474,
+        "languages": ["Java", "Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 590,
+            "language": "Java"
+          },
+          {
+            "name": "kaz-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 40,
+            "language": "Rust"
+          },
+          {
+            "name": "kaz-dev-6-proj-3",
+            "description": "Open source utilities",
+            "stars": 358,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64006?v=4",
+        "name": "Dev 7 (Kazakhstan)",
+        "company": null,
+        "location": "Kazakhstan",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27618,
+        "privateContributions": 288,
+        "languages": ["Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1057,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64007?v=4",
+        "name": "Dev 8 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26621,
+        "privateContributions": 17,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-8-proj-1",
+            "description": null,
+            "stars": 895,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64008?v=4",
+        "name": "Dev 9 (Kazakhstan)",
+        "company": null,
+        "location": "Almaty",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25602,
+        "privateContributions": 240,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 365,
+            "language": "Python"
+          },
+          {
+            "name": "kaz-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 463,
+            "language": "C++"
+          },
+          {
+            "name": "kaz-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 910,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64009?v=4",
+        "name": "Dev 10 (Kazakhstan)",
+        "company": null,
+        "location": "Astana",
+        "bio": null,
+        "followers": 3523,
+        "publicContributions": 24498,
+        "privateContributions": 193,
+        "languages": ["Dart", "Java", "Rust"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 449,
+            "language": "Dart"
+          },
+          {
+            "name": "kaz-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1097,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "kaz-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64000?v=4",
+        "name": "Dev 1 (Kazakhstan)",
+        "company": null,
+        "location": "Astana",
+        "bio": "Developer from Kazakhstan",
+        "followers": 5018,
+        "publicContributions": 35112,
+        "privateContributions": 297,
+        "languages": ["Go", "Python"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1720,
+            "language": "Go"
+          },
+          {
+            "name": "kaz-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 201,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "kaz-dev-1",
+        "blog": "https://kaz-dev-1.dev"
+      },
+      {
+        "login": "kaz-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64001?v=4",
+        "name": "Dev 2 (Kazakhstan)",
+        "company": null,
+        "location": "Kazakhstan",
+        "bio": "Developer from Kazakhstan",
+        "followers": 4825,
+        "publicContributions": 33756,
+        "privateContributions": 330,
+        "languages": ["Rust", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1346,
+            "language": "Rust"
+          },
+          {
+            "name": "kaz-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 75,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kaz-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 1578,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "kaz-dev-2",
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64002?v=4",
+        "name": "Dev 3 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": "Developer from Kazakhstan",
+        "followers": 4645,
+        "publicContributions": 32364,
+        "privateContributions": 272,
+        "languages": ["TypeScript", "Kotlin", "C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1377,
+            "language": "TypeScript"
+          },
+          {
+            "name": "kaz-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 61,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kaz-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 109,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64003?v=4",
+        "name": "Dev 4 (Kazakhstan)",
+        "company": "Google",
+        "location": "Astana",
+        "bio": null,
+        "followers": 4464,
+        "publicContributions": 31130,
+        "privateContributions": 255,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1622,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64004?v=4",
+        "name": "Dev 5 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": null,
+        "followers": 4279,
+        "publicContributions": 29889,
+        "privateContributions": 86,
+        "languages": ["C++", "Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1300,
+            "language": "C++"
+          },
+          {
+            "name": "kaz-dev-5-proj-2",
+            "description": null,
+            "stars": 1560,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64005?v=4",
+        "name": "Dev 6 (Kazakhstan)",
+        "company": "Amazon",
+        "location": "Almaty",
+        "bio": null,
+        "followers": 4129,
+        "publicContributions": 28838,
+        "privateContributions": 474,
+        "languages": ["Java", "Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 590,
+            "language": "Java"
+          },
+          {
+            "name": "kaz-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 40,
+            "language": "Rust"
+          },
+          {
+            "name": "kaz-dev-6-proj-3",
+            "description": "Open source utilities",
+            "stars": 358,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64006?v=4",
+        "name": "Dev 7 (Kazakhstan)",
+        "company": null,
+        "location": "Kazakhstan",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27618,
+        "privateContributions": 288,
+        "languages": ["Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1057,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64007?v=4",
+        "name": "Dev 8 (Kazakhstan)",
+        "company": "Microsoft",
+        "location": "Astana",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26621,
+        "privateContributions": 17,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-8-proj-1",
+            "description": null,
+            "stars": 895,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64008?v=4",
+        "name": "Dev 9 (Kazakhstan)",
+        "company": null,
+        "location": "Almaty",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25602,
+        "privateContributions": 240,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 365,
+            "language": "Python"
+          },
+          {
+            "name": "kaz-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 463,
+            "language": "C++"
+          },
+          {
+            "name": "kaz-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 910,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kaz-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64009?v=4",
+        "name": "Dev 10 (Kazakhstan)",
+        "company": null,
+        "location": "Astana",
+        "bio": null,
+        "followers": 3523,
+        "publicContributions": 24498,
+        "privateContributions": 193,
+        "languages": ["Dart", "Java", "Rust"],
+        "topRepos": [
+          {
+            "name": "kaz-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 449,
+            "language": "Dart"
+          },
+          {
+            "name": "kaz-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1097,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

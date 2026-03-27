@@ -1,0 +1,979 @@
+{
+  "countryCode": "sweden",
+  "updatedAt": "2026-03-27T21:38:37.396Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "swe-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116000?v=4",
+        "name": "Dev 1 (Sweden)",
+        "company": "Microsoft",
+        "location": "Malmo",
+        "bio": "Developer from Sweden",
+        "followers": 5015,
+        "publicContributions": 35197,
+        "privateContributions": 455,
+        "languages": ["Ruby", "Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-1-proj-1",
+            "description": null,
+            "stars": 271,
+            "language": "Ruby"
+          },
+          {
+            "name": "swe-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 53,
+            "language": "Rust"
+          },
+          {
+            "name": "swe-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 685,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "swe-dev-1",
+        "blog": "https://swe-dev-1.dev"
+      },
+      {
+        "login": "swe-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116001?v=4",
+        "name": "Dev 2 (Sweden)",
+        "company": "Apple",
+        "location": "Sweden",
+        "bio": "Developer from Sweden",
+        "followers": 4822,
+        "publicContributions": 33792,
+        "privateContributions": 275,
+        "languages": ["Dart", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 248,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "Go"
+          },
+          {
+            "name": "swe-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1657,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "swe-dev-2",
+        "blog": null
+      },
+      {
+        "login": "swe-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116002?v=4",
+        "name": "Dev 3 (Sweden)",
+        "company": "Apple",
+        "location": "Gothenburg",
+        "bio": "Developer from Sweden",
+        "followers": 4632,
+        "publicContributions": 32381,
+        "privateContributions": 403,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-3-proj-1",
+            "description": null,
+            "stars": 1514,
+            "language": "C++"
+          },
+          {
+            "name": "swe-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1134,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116003?v=4",
+        "name": "Dev 4 (Sweden)",
+        "company": null,
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 4470,
+        "publicContributions": 31205,
+        "privateContributions": 438,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 926,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 261,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 180,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116004?v=4",
+        "name": "Dev 5 (Sweden)",
+        "company": "Microsoft",
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 4296,
+        "publicContributions": 29951,
+        "privateContributions": 131,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1468,
+            "language": "C++"
+          },
+          {
+            "name": "swe-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1203,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swe-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 461,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116005?v=4",
+        "name": "Dev 6 (Sweden)",
+        "company": null,
+        "location": "Stockholm",
+        "bio": null,
+        "followers": 4142,
+        "publicContributions": 28739,
+        "privateContributions": 164,
+        "languages": ["JavaScript", "Python", "PHP", "Java"],
+        "topRepos": [
+          {
+            "name": "swe-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1201,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 459,
+            "language": "Python"
+          },
+          {
+            "name": "swe-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 441,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116006?v=4",
+        "name": "Dev 7 (Sweden)",
+        "company": null,
+        "location": "Sweden",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27599,
+        "privateContributions": 211,
+        "languages": ["TypeScript", "Dart", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-7-proj-1",
+            "description": null,
+            "stars": 1370,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swe-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 545,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 859,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116007?v=4",
+        "name": "Dev 8 (Sweden)",
+        "company": null,
+        "location": "Stockholm",
+        "bio": null,
+        "followers": 3815,
+        "publicContributions": 26547,
+        "privateContributions": 454,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 552,
+            "language": "Rust"
+          },
+          {
+            "name": "swe-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1364,
+            "language": "Go"
+          },
+          {
+            "name": "swe-dev-8-proj-3",
+            "description": null,
+            "stars": 1462,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116008?v=4",
+        "name": "Dev 9 (Sweden)",
+        "company": null,
+        "location": "Sweden",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25491,
+        "privateContributions": 381,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "swe-dev-9-proj-1",
+            "description": null,
+            "stars": 793,
+            "language": "PHP"
+          },
+          {
+            "name": "swe-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1049,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116009?v=4",
+        "name": "Dev 10 (Sweden)",
+        "company": null,
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 3528,
+        "publicContributions": 24534,
+        "privateContributions": 496,
+        "languages": ["Dart", "TypeScript", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "swe-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 536,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 909,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "swe-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116000?v=4",
+        "name": "Dev 1 (Sweden)",
+        "company": "Microsoft",
+        "location": "Malmo",
+        "bio": "Developer from Sweden",
+        "followers": 5015,
+        "publicContributions": 35197,
+        "privateContributions": 455,
+        "languages": ["Ruby", "Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-1-proj-1",
+            "description": null,
+            "stars": 271,
+            "language": "Ruby"
+          },
+          {
+            "name": "swe-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 53,
+            "language": "Rust"
+          },
+          {
+            "name": "swe-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 685,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "swe-dev-1",
+        "blog": "https://swe-dev-1.dev"
+      },
+      {
+        "login": "swe-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116001?v=4",
+        "name": "Dev 2 (Sweden)",
+        "company": "Apple",
+        "location": "Sweden",
+        "bio": "Developer from Sweden",
+        "followers": 4822,
+        "publicContributions": 33792,
+        "privateContributions": 275,
+        "languages": ["Dart", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 248,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "Go"
+          },
+          {
+            "name": "swe-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1657,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "swe-dev-2",
+        "blog": null
+      },
+      {
+        "login": "swe-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116002?v=4",
+        "name": "Dev 3 (Sweden)",
+        "company": "Apple",
+        "location": "Gothenburg",
+        "bio": "Developer from Sweden",
+        "followers": 4632,
+        "publicContributions": 32381,
+        "privateContributions": 403,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-3-proj-1",
+            "description": null,
+            "stars": 1514,
+            "language": "C++"
+          },
+          {
+            "name": "swe-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1134,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116003?v=4",
+        "name": "Dev 4 (Sweden)",
+        "company": null,
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 4470,
+        "publicContributions": 31205,
+        "privateContributions": 438,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 926,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 261,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 180,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116004?v=4",
+        "name": "Dev 5 (Sweden)",
+        "company": "Microsoft",
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 4296,
+        "publicContributions": 29951,
+        "privateContributions": 131,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1468,
+            "language": "C++"
+          },
+          {
+            "name": "swe-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1203,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swe-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 461,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116005?v=4",
+        "name": "Dev 6 (Sweden)",
+        "company": null,
+        "location": "Stockholm",
+        "bio": null,
+        "followers": 4142,
+        "publicContributions": 28739,
+        "privateContributions": 164,
+        "languages": ["JavaScript", "Python", "PHP", "Java"],
+        "topRepos": [
+          {
+            "name": "swe-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1201,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 459,
+            "language": "Python"
+          },
+          {
+            "name": "swe-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 441,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116006?v=4",
+        "name": "Dev 7 (Sweden)",
+        "company": null,
+        "location": "Sweden",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27599,
+        "privateContributions": 211,
+        "languages": ["TypeScript", "Dart", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-7-proj-1",
+            "description": null,
+            "stars": 1370,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swe-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 545,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 859,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116007?v=4",
+        "name": "Dev 8 (Sweden)",
+        "company": null,
+        "location": "Stockholm",
+        "bio": null,
+        "followers": 3815,
+        "publicContributions": 26547,
+        "privateContributions": 454,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 552,
+            "language": "Rust"
+          },
+          {
+            "name": "swe-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1364,
+            "language": "Go"
+          },
+          {
+            "name": "swe-dev-8-proj-3",
+            "description": null,
+            "stars": 1462,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116008?v=4",
+        "name": "Dev 9 (Sweden)",
+        "company": null,
+        "location": "Sweden",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25491,
+        "privateContributions": 381,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "swe-dev-9-proj-1",
+            "description": null,
+            "stars": 793,
+            "language": "PHP"
+          },
+          {
+            "name": "swe-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1049,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116009?v=4",
+        "name": "Dev 10 (Sweden)",
+        "company": null,
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 3528,
+        "publicContributions": 24534,
+        "privateContributions": 496,
+        "languages": ["Dart", "TypeScript", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "swe-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 536,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 909,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "swe-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116000?v=4",
+        "name": "Dev 1 (Sweden)",
+        "company": "Microsoft",
+        "location": "Malmo",
+        "bio": "Developer from Sweden",
+        "followers": 5015,
+        "publicContributions": 35197,
+        "privateContributions": 455,
+        "languages": ["Ruby", "Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-1-proj-1",
+            "description": null,
+            "stars": 271,
+            "language": "Ruby"
+          },
+          {
+            "name": "swe-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 53,
+            "language": "Rust"
+          },
+          {
+            "name": "swe-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 685,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "swe-dev-1",
+        "blog": "https://swe-dev-1.dev"
+      },
+      {
+        "login": "swe-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116001?v=4",
+        "name": "Dev 2 (Sweden)",
+        "company": "Apple",
+        "location": "Sweden",
+        "bio": "Developer from Sweden",
+        "followers": 4822,
+        "publicContributions": 33792,
+        "privateContributions": 275,
+        "languages": ["Dart", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 248,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "Go"
+          },
+          {
+            "name": "swe-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1657,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "swe-dev-2",
+        "blog": null
+      },
+      {
+        "login": "swe-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116002?v=4",
+        "name": "Dev 3 (Sweden)",
+        "company": "Apple",
+        "location": "Gothenburg",
+        "bio": "Developer from Sweden",
+        "followers": 4632,
+        "publicContributions": 32381,
+        "privateContributions": 403,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-3-proj-1",
+            "description": null,
+            "stars": 1514,
+            "language": "C++"
+          },
+          {
+            "name": "swe-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1134,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116003?v=4",
+        "name": "Dev 4 (Sweden)",
+        "company": null,
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 4470,
+        "publicContributions": 31205,
+        "privateContributions": 438,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 926,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 261,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 180,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116004?v=4",
+        "name": "Dev 5 (Sweden)",
+        "company": "Microsoft",
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 4296,
+        "publicContributions": 29951,
+        "privateContributions": 131,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1468,
+            "language": "C++"
+          },
+          {
+            "name": "swe-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1203,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swe-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 461,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116005?v=4",
+        "name": "Dev 6 (Sweden)",
+        "company": null,
+        "location": "Stockholm",
+        "bio": null,
+        "followers": 4142,
+        "publicContributions": 28739,
+        "privateContributions": 164,
+        "languages": ["JavaScript", "Python", "PHP", "Java"],
+        "topRepos": [
+          {
+            "name": "swe-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1201,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swe-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 459,
+            "language": "Python"
+          },
+          {
+            "name": "swe-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 441,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116006?v=4",
+        "name": "Dev 7 (Sweden)",
+        "company": null,
+        "location": "Sweden",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27599,
+        "privateContributions": 211,
+        "languages": ["TypeScript", "Dart", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "swe-dev-7-proj-1",
+            "description": null,
+            "stars": 1370,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swe-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 545,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 859,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116007?v=4",
+        "name": "Dev 8 (Sweden)",
+        "company": null,
+        "location": "Stockholm",
+        "bio": null,
+        "followers": 3815,
+        "publicContributions": 26547,
+        "privateContributions": 454,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "swe-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 552,
+            "language": "Rust"
+          },
+          {
+            "name": "swe-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1364,
+            "language": "Go"
+          },
+          {
+            "name": "swe-dev-8-proj-3",
+            "description": null,
+            "stars": 1462,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116008?v=4",
+        "name": "Dev 9 (Sweden)",
+        "company": null,
+        "location": "Sweden",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25491,
+        "privateContributions": 381,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "swe-dev-9-proj-1",
+            "description": null,
+            "stars": 793,
+            "language": "PHP"
+          },
+          {
+            "name": "swe-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1049,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swe-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/116009?v=4",
+        "name": "Dev 10 (Sweden)",
+        "company": null,
+        "location": "Gothenburg",
+        "bio": null,
+        "followers": 3528,
+        "publicContributions": 24534,
+        "privateContributions": 496,
+        "languages": ["Dart", "TypeScript", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "swe-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 536,
+            "language": "Dart"
+          },
+          {
+            "name": "swe-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 909,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

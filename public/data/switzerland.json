@@ -1,0 +1,853 @@
+{
+  "countryCode": "switzerland",
+  "updatedAt": "2026-03-27T21:38:37.396Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "swi-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117000?v=4",
+        "name": "Dev 1 (Switzerland)",
+        "company": null,
+        "location": "Bern",
+        "bio": "Developer from Switzerland",
+        "followers": 5025,
+        "publicContributions": 35180,
+        "privateContributions": 67,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "swi-dev-1-proj-1",
+            "description": null,
+            "stars": 294,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "swi-dev-1",
+        "blog": "https://swi-dev-1.dev"
+      },
+      {
+        "login": "swi-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117001?v=4",
+        "name": "Dev 2 (Switzerland)",
+        "company": null,
+        "location": "Bern",
+        "bio": "Developer from Switzerland",
+        "followers": 4854,
+        "publicContributions": 33717,
+        "privateContributions": 71,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "swi-dev-2-proj-1",
+            "description": null,
+            "stars": 1873,
+            "language": "C++"
+          },
+          {
+            "name": "swi-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1696,
+            "language": "C++"
+          },
+          {
+            "name": "swi-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 435,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "swi-dev-2",
+        "blog": null
+      },
+      {
+        "login": "swi-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117002?v=4",
+        "name": "Dev 3 (Switzerland)",
+        "company": null,
+        "location": "Zurich",
+        "bio": "Developer from Switzerland",
+        "followers": 4635,
+        "publicContributions": 32370,
+        "privateContributions": 292,
+        "languages": ["JavaScript", "Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "swi-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1594,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swi-dev-3-proj-2",
+            "description": null,
+            "stars": 1152,
+            "language": "Python"
+          },
+          {
+            "name": "swi-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1181,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117003?v=4",
+        "name": "Dev 4 (Switzerland)",
+        "company": null,
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31157,
+        "privateContributions": 210,
+        "languages": ["Dart", "Ruby", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swi-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1227,
+            "language": "Dart"
+          },
+          {
+            "name": "swi-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 289,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117004?v=4",
+        "name": "Dev 5 (Switzerland)",
+        "company": null,
+        "location": "Zurich",
+        "bio": null,
+        "followers": 4298,
+        "publicContributions": 29895,
+        "privateContributions": 180,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "swi-dev-5-proj-1",
+            "description": null,
+            "stars": 346,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swi-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1480,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swi-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1179,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117005?v=4",
+        "name": "Dev 6 (Switzerland)",
+        "company": "Amazon",
+        "location": "Zurich",
+        "bio": null,
+        "followers": 4125,
+        "publicContributions": 28854,
+        "privateContributions": 294,
+        "languages": ["Kotlin", "Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 277,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117006?v=4",
+        "name": "Dev 7 (Switzerland)",
+        "company": "Vercel",
+        "location": "Basel",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27653,
+        "privateContributions": 351,
+        "languages": ["Go", "Kotlin", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 479,
+            "language": "Go"
+          },
+          {
+            "name": "swi-dev-7-proj-2",
+            "description": null,
+            "stars": 1488,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117007?v=4",
+        "name": "Dev 8 (Switzerland)",
+        "company": "Google",
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3829,
+        "publicContributions": 26623,
+        "privateContributions": 30,
+        "languages": ["Python", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "swi-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1006,
+            "language": "Python"
+          },
+          {
+            "name": "swi-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 586,
+            "language": "Kotlin"
+          },
+          {
+            "name": "swi-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1257,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117008?v=4",
+        "name": "Dev 9 (Switzerland)",
+        "company": "Stripe",
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3681,
+        "publicContributions": 25612,
+        "privateContributions": 55,
+        "languages": ["Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "swi-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 399,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117009?v=4",
+        "name": "Dev 10 (Switzerland)",
+        "company": null,
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24470,
+        "privateContributions": 291,
+        "languages": ["TypeScript", "Dart", "Python", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 997,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "swi-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117000?v=4",
+        "name": "Dev 1 (Switzerland)",
+        "company": null,
+        "location": "Bern",
+        "bio": "Developer from Switzerland",
+        "followers": 5025,
+        "publicContributions": 35180,
+        "privateContributions": 67,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "swi-dev-1-proj-1",
+            "description": null,
+            "stars": 294,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "swi-dev-1",
+        "blog": "https://swi-dev-1.dev"
+      },
+      {
+        "login": "swi-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117001?v=4",
+        "name": "Dev 2 (Switzerland)",
+        "company": null,
+        "location": "Bern",
+        "bio": "Developer from Switzerland",
+        "followers": 4854,
+        "publicContributions": 33717,
+        "privateContributions": 71,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "swi-dev-2-proj-1",
+            "description": null,
+            "stars": 1873,
+            "language": "C++"
+          },
+          {
+            "name": "swi-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1696,
+            "language": "C++"
+          },
+          {
+            "name": "swi-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 435,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "swi-dev-2",
+        "blog": null
+      },
+      {
+        "login": "swi-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117002?v=4",
+        "name": "Dev 3 (Switzerland)",
+        "company": null,
+        "location": "Zurich",
+        "bio": "Developer from Switzerland",
+        "followers": 4635,
+        "publicContributions": 32370,
+        "privateContributions": 292,
+        "languages": ["JavaScript", "Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "swi-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1594,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swi-dev-3-proj-2",
+            "description": null,
+            "stars": 1152,
+            "language": "Python"
+          },
+          {
+            "name": "swi-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1181,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117003?v=4",
+        "name": "Dev 4 (Switzerland)",
+        "company": null,
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31157,
+        "privateContributions": 210,
+        "languages": ["Dart", "Ruby", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swi-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1227,
+            "language": "Dart"
+          },
+          {
+            "name": "swi-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 289,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117004?v=4",
+        "name": "Dev 5 (Switzerland)",
+        "company": null,
+        "location": "Zurich",
+        "bio": null,
+        "followers": 4298,
+        "publicContributions": 29895,
+        "privateContributions": 180,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "swi-dev-5-proj-1",
+            "description": null,
+            "stars": 346,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swi-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1480,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swi-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1179,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117005?v=4",
+        "name": "Dev 6 (Switzerland)",
+        "company": "Amazon",
+        "location": "Zurich",
+        "bio": null,
+        "followers": 4125,
+        "publicContributions": 28854,
+        "privateContributions": 294,
+        "languages": ["Kotlin", "Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 277,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117006?v=4",
+        "name": "Dev 7 (Switzerland)",
+        "company": "Vercel",
+        "location": "Basel",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27653,
+        "privateContributions": 351,
+        "languages": ["Go", "Kotlin", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 479,
+            "language": "Go"
+          },
+          {
+            "name": "swi-dev-7-proj-2",
+            "description": null,
+            "stars": 1488,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117007?v=4",
+        "name": "Dev 8 (Switzerland)",
+        "company": "Google",
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3829,
+        "publicContributions": 26623,
+        "privateContributions": 30,
+        "languages": ["Python", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "swi-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1006,
+            "language": "Python"
+          },
+          {
+            "name": "swi-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 586,
+            "language": "Kotlin"
+          },
+          {
+            "name": "swi-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1257,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117008?v=4",
+        "name": "Dev 9 (Switzerland)",
+        "company": "Stripe",
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3681,
+        "publicContributions": 25612,
+        "privateContributions": 55,
+        "languages": ["Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "swi-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 399,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117009?v=4",
+        "name": "Dev 10 (Switzerland)",
+        "company": null,
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24470,
+        "privateContributions": 291,
+        "languages": ["TypeScript", "Dart", "Python", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 997,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "swi-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117000?v=4",
+        "name": "Dev 1 (Switzerland)",
+        "company": null,
+        "location": "Bern",
+        "bio": "Developer from Switzerland",
+        "followers": 5025,
+        "publicContributions": 35180,
+        "privateContributions": 67,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "swi-dev-1-proj-1",
+            "description": null,
+            "stars": 294,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "swi-dev-1",
+        "blog": "https://swi-dev-1.dev"
+      },
+      {
+        "login": "swi-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117001?v=4",
+        "name": "Dev 2 (Switzerland)",
+        "company": null,
+        "location": "Bern",
+        "bio": "Developer from Switzerland",
+        "followers": 4854,
+        "publicContributions": 33717,
+        "privateContributions": 71,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "swi-dev-2-proj-1",
+            "description": null,
+            "stars": 1873,
+            "language": "C++"
+          },
+          {
+            "name": "swi-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1696,
+            "language": "C++"
+          },
+          {
+            "name": "swi-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 435,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "swi-dev-2",
+        "blog": null
+      },
+      {
+        "login": "swi-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117002?v=4",
+        "name": "Dev 3 (Switzerland)",
+        "company": null,
+        "location": "Zurich",
+        "bio": "Developer from Switzerland",
+        "followers": 4635,
+        "publicContributions": 32370,
+        "privateContributions": 292,
+        "languages": ["JavaScript", "Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "swi-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1594,
+            "language": "JavaScript"
+          },
+          {
+            "name": "swi-dev-3-proj-2",
+            "description": null,
+            "stars": 1152,
+            "language": "Python"
+          },
+          {
+            "name": "swi-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1181,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117003?v=4",
+        "name": "Dev 4 (Switzerland)",
+        "company": null,
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31157,
+        "privateContributions": 210,
+        "languages": ["Dart", "Ruby", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "swi-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1227,
+            "language": "Dart"
+          },
+          {
+            "name": "swi-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 289,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117004?v=4",
+        "name": "Dev 5 (Switzerland)",
+        "company": null,
+        "location": "Zurich",
+        "bio": null,
+        "followers": 4298,
+        "publicContributions": 29895,
+        "privateContributions": 180,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "swi-dev-5-proj-1",
+            "description": null,
+            "stars": 346,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swi-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1480,
+            "language": "TypeScript"
+          },
+          {
+            "name": "swi-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1179,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117005?v=4",
+        "name": "Dev 6 (Switzerland)",
+        "company": "Amazon",
+        "location": "Zurich",
+        "bio": null,
+        "followers": 4125,
+        "publicContributions": 28854,
+        "privateContributions": 294,
+        "languages": ["Kotlin", "Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 277,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117006?v=4",
+        "name": "Dev 7 (Switzerland)",
+        "company": "Vercel",
+        "location": "Basel",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27653,
+        "privateContributions": 351,
+        "languages": ["Go", "Kotlin", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 479,
+            "language": "Go"
+          },
+          {
+            "name": "swi-dev-7-proj-2",
+            "description": null,
+            "stars": 1488,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117007?v=4",
+        "name": "Dev 8 (Switzerland)",
+        "company": "Google",
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3829,
+        "publicContributions": 26623,
+        "privateContributions": 30,
+        "languages": ["Python", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "swi-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1006,
+            "language": "Python"
+          },
+          {
+            "name": "swi-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 586,
+            "language": "Kotlin"
+          },
+          {
+            "name": "swi-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1257,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117008?v=4",
+        "name": "Dev 9 (Switzerland)",
+        "company": "Stripe",
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3681,
+        "publicContributions": 25612,
+        "privateContributions": 55,
+        "languages": ["Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "swi-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 399,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "swi-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117009?v=4",
+        "name": "Dev 10 (Switzerland)",
+        "company": null,
+        "location": "Switzerland",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24470,
+        "privateContributions": 291,
+        "languages": ["TypeScript", "Dart", "Python", "PHP"],
+        "topRepos": [
+          {
+            "name": "swi-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 997,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

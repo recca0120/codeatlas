@@ -1,0 +1,817 @@
+{
+  "countryCode": "thailand",
+  "updatedAt": "2026-03-27T21:38:37.397Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "tha-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121000?v=4",
+        "name": "Dev 1 (Thailand)",
+        "company": "GitHub",
+        "location": "Thailand",
+        "bio": "Developer from Thailand",
+        "followers": 5044,
+        "publicContributions": 35106,
+        "privateContributions": 485,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "tha-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1904,
+            "language": "Kotlin"
+          },
+          {
+            "name": "tha-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1075,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "tha-dev-1",
+        "blog": "https://tha-dev-1.dev"
+      },
+      {
+        "login": "tha-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121001?v=4",
+        "name": "Dev 2 (Thailand)",
+        "company": "Microsoft",
+        "location": "Chiang mai",
+        "bio": "Developer from Thailand",
+        "followers": 4846,
+        "publicContributions": 33755,
+        "privateContributions": 59,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tha-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 955,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1104,
+            "language": "Ruby"
+          },
+          {
+            "name": "tha-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 950,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "tha-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tha-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121002?v=4",
+        "name": "Dev 3 (Thailand)",
+        "company": null,
+        "location": "Chiang mai",
+        "bio": "Developer from Thailand",
+        "followers": 4663,
+        "publicContributions": 32471,
+        "privateContributions": 493,
+        "languages": ["JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "tha-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 131,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121003?v=4",
+        "name": "Dev 4 (Thailand)",
+        "company": null,
+        "location": "Thailand",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31186,
+        "privateContributions": 7,
+        "languages": ["Kotlin", "Rust", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "tha-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1362,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121004?v=4",
+        "name": "Dev 5 (Thailand)",
+        "company": "Amazon",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 30002,
+        "privateContributions": 12,
+        "languages": ["Swift", "Python"],
+        "topRepos": [
+          {
+            "name": "tha-dev-5-proj-1",
+            "description": null,
+            "stars": 958,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121005?v=4",
+        "name": "Dev 6 (Thailand)",
+        "company": "Amazon",
+        "location": "Bangkok",
+        "bio": null,
+        "followers": 4106,
+        "publicContributions": 28720,
+        "privateContributions": 40,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "tha-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 188,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-6-proj-2",
+            "description": null,
+            "stars": 1423,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-6-proj-3",
+            "description": null,
+            "stars": 1028,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121006?v=4",
+        "name": "Dev 7 (Thailand)",
+        "company": null,
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27682,
+        "privateContributions": 470,
+        "languages": ["Ruby", "Rust", "Swift"],
+        "topRepos": [
+          {
+            "name": "tha-dev-7-proj-1",
+            "description": null,
+            "stars": 1277,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121007?v=4",
+        "name": "Dev 8 (Thailand)",
+        "company": null,
+        "location": "Chiang mai",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26522,
+        "privateContributions": 171,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "tha-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1349,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121008?v=4",
+        "name": "Dev 9 (Thailand)",
+        "company": "Apple",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25603,
+        "privateContributions": 467,
+        "languages": ["Go", "Java", "Swift"],
+        "topRepos": [
+          {
+            "name": "tha-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1466,
+            "language": "Go"
+          },
+          {
+            "name": "tha-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 448,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121009?v=4",
+        "name": "Dev 10 (Thailand)",
+        "company": "GitHub",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24522,
+        "privateContributions": 152,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "tha-dev-10-proj-1",
+            "description": null,
+            "stars": 989,
+            "language": "Python"
+          },
+          {
+            "name": "tha-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 887,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 1011,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "tha-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121000?v=4",
+        "name": "Dev 1 (Thailand)",
+        "company": "GitHub",
+        "location": "Thailand",
+        "bio": "Developer from Thailand",
+        "followers": 5044,
+        "publicContributions": 35106,
+        "privateContributions": 485,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "tha-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1904,
+            "language": "Kotlin"
+          },
+          {
+            "name": "tha-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1075,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "tha-dev-1",
+        "blog": "https://tha-dev-1.dev"
+      },
+      {
+        "login": "tha-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121001?v=4",
+        "name": "Dev 2 (Thailand)",
+        "company": "Microsoft",
+        "location": "Chiang mai",
+        "bio": "Developer from Thailand",
+        "followers": 4846,
+        "publicContributions": 33755,
+        "privateContributions": 59,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tha-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 955,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1104,
+            "language": "Ruby"
+          },
+          {
+            "name": "tha-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 950,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "tha-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tha-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121002?v=4",
+        "name": "Dev 3 (Thailand)",
+        "company": null,
+        "location": "Chiang mai",
+        "bio": "Developer from Thailand",
+        "followers": 4663,
+        "publicContributions": 32471,
+        "privateContributions": 493,
+        "languages": ["JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "tha-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 131,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121003?v=4",
+        "name": "Dev 4 (Thailand)",
+        "company": null,
+        "location": "Thailand",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31186,
+        "privateContributions": 7,
+        "languages": ["Kotlin", "Rust", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "tha-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1362,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121004?v=4",
+        "name": "Dev 5 (Thailand)",
+        "company": "Amazon",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 30002,
+        "privateContributions": 12,
+        "languages": ["Swift", "Python"],
+        "topRepos": [
+          {
+            "name": "tha-dev-5-proj-1",
+            "description": null,
+            "stars": 958,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121005?v=4",
+        "name": "Dev 6 (Thailand)",
+        "company": "Amazon",
+        "location": "Bangkok",
+        "bio": null,
+        "followers": 4106,
+        "publicContributions": 28720,
+        "privateContributions": 40,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "tha-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 188,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-6-proj-2",
+            "description": null,
+            "stars": 1423,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-6-proj-3",
+            "description": null,
+            "stars": 1028,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121006?v=4",
+        "name": "Dev 7 (Thailand)",
+        "company": null,
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27682,
+        "privateContributions": 470,
+        "languages": ["Ruby", "Rust", "Swift"],
+        "topRepos": [
+          {
+            "name": "tha-dev-7-proj-1",
+            "description": null,
+            "stars": 1277,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121007?v=4",
+        "name": "Dev 8 (Thailand)",
+        "company": null,
+        "location": "Chiang mai",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26522,
+        "privateContributions": 171,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "tha-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1349,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121008?v=4",
+        "name": "Dev 9 (Thailand)",
+        "company": "Apple",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25603,
+        "privateContributions": 467,
+        "languages": ["Go", "Java", "Swift"],
+        "topRepos": [
+          {
+            "name": "tha-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1466,
+            "language": "Go"
+          },
+          {
+            "name": "tha-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 448,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121009?v=4",
+        "name": "Dev 10 (Thailand)",
+        "company": "GitHub",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24522,
+        "privateContributions": 152,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "tha-dev-10-proj-1",
+            "description": null,
+            "stars": 989,
+            "language": "Python"
+          },
+          {
+            "name": "tha-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 887,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 1011,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "tha-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121000?v=4",
+        "name": "Dev 1 (Thailand)",
+        "company": "GitHub",
+        "location": "Thailand",
+        "bio": "Developer from Thailand",
+        "followers": 5044,
+        "publicContributions": 35106,
+        "privateContributions": 485,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "tha-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1904,
+            "language": "Kotlin"
+          },
+          {
+            "name": "tha-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1075,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "tha-dev-1",
+        "blog": "https://tha-dev-1.dev"
+      },
+      {
+        "login": "tha-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121001?v=4",
+        "name": "Dev 2 (Thailand)",
+        "company": "Microsoft",
+        "location": "Chiang mai",
+        "bio": "Developer from Thailand",
+        "followers": 4846,
+        "publicContributions": 33755,
+        "privateContributions": 59,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tha-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 955,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1104,
+            "language": "Ruby"
+          },
+          {
+            "name": "tha-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 950,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "tha-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tha-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121002?v=4",
+        "name": "Dev 3 (Thailand)",
+        "company": null,
+        "location": "Chiang mai",
+        "bio": "Developer from Thailand",
+        "followers": 4663,
+        "publicContributions": 32471,
+        "privateContributions": 493,
+        "languages": ["JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "tha-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 131,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121003?v=4",
+        "name": "Dev 4 (Thailand)",
+        "company": null,
+        "location": "Thailand",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31186,
+        "privateContributions": 7,
+        "languages": ["Kotlin", "Rust", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "tha-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1362,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121004?v=4",
+        "name": "Dev 5 (Thailand)",
+        "company": "Amazon",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 30002,
+        "privateContributions": 12,
+        "languages": ["Swift", "Python"],
+        "topRepos": [
+          {
+            "name": "tha-dev-5-proj-1",
+            "description": null,
+            "stars": 958,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121005?v=4",
+        "name": "Dev 6 (Thailand)",
+        "company": "Amazon",
+        "location": "Bangkok",
+        "bio": null,
+        "followers": 4106,
+        "publicContributions": 28720,
+        "privateContributions": 40,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "tha-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 188,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-6-proj-2",
+            "description": null,
+            "stars": 1423,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-6-proj-3",
+            "description": null,
+            "stars": 1028,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121006?v=4",
+        "name": "Dev 7 (Thailand)",
+        "company": null,
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27682,
+        "privateContributions": 470,
+        "languages": ["Ruby", "Rust", "Swift"],
+        "topRepos": [
+          {
+            "name": "tha-dev-7-proj-1",
+            "description": null,
+            "stars": 1277,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121007?v=4",
+        "name": "Dev 8 (Thailand)",
+        "company": null,
+        "location": "Chiang mai",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26522,
+        "privateContributions": 171,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "tha-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1349,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121008?v=4",
+        "name": "Dev 9 (Thailand)",
+        "company": "Apple",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25603,
+        "privateContributions": 467,
+        "languages": ["Go", "Java", "Swift"],
+        "topRepos": [
+          {
+            "name": "tha-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1466,
+            "language": "Go"
+          },
+          {
+            "name": "tha-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 448,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tha-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/121009?v=4",
+        "name": "Dev 10 (Thailand)",
+        "company": "GitHub",
+        "location": "Thailand",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24522,
+        "privateContributions": 152,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "tha-dev-10-proj-1",
+            "description": null,
+            "stars": 989,
+            "language": "Python"
+          },
+          {
+            "name": "tha-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 887,
+            "language": "C++"
+          },
+          {
+            "name": "tha-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 1011,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

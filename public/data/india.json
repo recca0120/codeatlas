@@ -1,0 +1,907 @@
+{
+  "countryCode": "india",
+  "updatedAt": "2026-03-27T21:38:37.387Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "ind-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54000?v=4",
+        "name": "Dev 1 (India)",
+        "company": "Microsoft",
+        "location": "India",
+        "bio": "Developer from India",
+        "followers": 5047,
+        "publicContributions": 35155,
+        "privateContributions": 383,
+        "languages": ["Java", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ind-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 164,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ind-dev-1",
+        "blog": "https://ind-dev-1.dev"
+      },
+      {
+        "login": "ind-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54001?v=4",
+        "name": "Dev 2 (India)",
+        "company": null,
+        "location": "Pune",
+        "bio": "Developer from India",
+        "followers": 4843,
+        "publicContributions": 33721,
+        "privateContributions": 258,
+        "languages": ["Kotlin", "PHP", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "ind-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 455,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ind-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 666,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "ind-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ind-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54002?v=4",
+        "name": "Dev 3 (India)",
+        "company": null,
+        "location": "Bangalore",
+        "bio": "Developer from India",
+        "followers": 4630,
+        "publicContributions": 32432,
+        "privateContributions": 380,
+        "languages": ["Rust", "Dart", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "ind-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1593,
+            "language": "Rust"
+          },
+          {
+            "name": "ind-dev-3-proj-2",
+            "description": null,
+            "stars": 1850,
+            "language": "Dart"
+          },
+          {
+            "name": "ind-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1605,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54003?v=4",
+        "name": "Dev 4 (India)",
+        "company": null,
+        "location": "Delhi",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31109,
+        "privateContributions": 223,
+        "languages": ["JavaScript", "TypeScript", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "ind-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 55,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ind-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1530,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ind-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1298,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54004?v=4",
+        "name": "Dev 5 (India)",
+        "company": null,
+        "location": "Chennai",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 29957,
+        "privateContributions": 212,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "ind-dev-5-proj-1",
+            "description": null,
+            "stars": 858,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 688,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 1646,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54005?v=4",
+        "name": "Dev 6 (India)",
+        "company": "Microsoft",
+        "location": "Chennai",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28722,
+        "privateContributions": 407,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ind-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 884,
+            "language": "C++"
+          },
+          {
+            "name": "ind-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1283,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54006?v=4",
+        "name": "Dev 7 (India)",
+        "company": "Apple",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27720,
+        "privateContributions": 481,
+        "languages": ["TypeScript", "Dart", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "ind-dev-7-proj-1",
+            "description": null,
+            "stars": 685,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54007?v=4",
+        "name": "Dev 8 (India)",
+        "company": "Meta",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26552,
+        "privateContributions": 417,
+        "languages": ["C++", "Go"],
+        "topRepos": [
+          {
+            "name": "ind-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 77,
+            "language": "C++"
+          },
+          {
+            "name": "ind-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1526,
+            "language": "Go"
+          },
+          {
+            "name": "ind-dev-8-proj-3",
+            "description": "API wrapper",
+            "stars": 757,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54008?v=4",
+        "name": "Dev 9 (India)",
+        "company": "GitHub",
+        "location": "Chennai",
+        "bio": null,
+        "followers": 3662,
+        "publicContributions": 25503,
+        "privateContributions": 120,
+        "languages": ["Swift", "JavaScript", "Dart", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ind-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 126,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 765,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54009?v=4",
+        "name": "Dev 10 (India)",
+        "company": "Vercel",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3526,
+        "publicContributions": 24571,
+        "privateContributions": 102,
+        "languages": ["Kotlin", "PHP", "C++"],
+        "topRepos": [
+          {
+            "name": "ind-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1149,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ind-dev-10-proj-2",
+            "description": null,
+            "stars": 601,
+            "language": "PHP"
+          },
+          {
+            "name": "ind-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 606,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "ind-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54000?v=4",
+        "name": "Dev 1 (India)",
+        "company": "Microsoft",
+        "location": "India",
+        "bio": "Developer from India",
+        "followers": 5047,
+        "publicContributions": 35155,
+        "privateContributions": 383,
+        "languages": ["Java", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ind-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 164,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ind-dev-1",
+        "blog": "https://ind-dev-1.dev"
+      },
+      {
+        "login": "ind-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54001?v=4",
+        "name": "Dev 2 (India)",
+        "company": null,
+        "location": "Pune",
+        "bio": "Developer from India",
+        "followers": 4843,
+        "publicContributions": 33721,
+        "privateContributions": 258,
+        "languages": ["Kotlin", "PHP", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "ind-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 455,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ind-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 666,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "ind-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ind-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54002?v=4",
+        "name": "Dev 3 (India)",
+        "company": null,
+        "location": "Bangalore",
+        "bio": "Developer from India",
+        "followers": 4630,
+        "publicContributions": 32432,
+        "privateContributions": 380,
+        "languages": ["Rust", "Dart", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "ind-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1593,
+            "language": "Rust"
+          },
+          {
+            "name": "ind-dev-3-proj-2",
+            "description": null,
+            "stars": 1850,
+            "language": "Dart"
+          },
+          {
+            "name": "ind-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1605,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54003?v=4",
+        "name": "Dev 4 (India)",
+        "company": null,
+        "location": "Delhi",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31109,
+        "privateContributions": 223,
+        "languages": ["JavaScript", "TypeScript", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "ind-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 55,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ind-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1530,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ind-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1298,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54004?v=4",
+        "name": "Dev 5 (India)",
+        "company": null,
+        "location": "Chennai",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 29957,
+        "privateContributions": 212,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "ind-dev-5-proj-1",
+            "description": null,
+            "stars": 858,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 688,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 1646,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54005?v=4",
+        "name": "Dev 6 (India)",
+        "company": "Microsoft",
+        "location": "Chennai",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28722,
+        "privateContributions": 407,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ind-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 884,
+            "language": "C++"
+          },
+          {
+            "name": "ind-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1283,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54006?v=4",
+        "name": "Dev 7 (India)",
+        "company": "Apple",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27720,
+        "privateContributions": 481,
+        "languages": ["TypeScript", "Dart", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "ind-dev-7-proj-1",
+            "description": null,
+            "stars": 685,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54007?v=4",
+        "name": "Dev 8 (India)",
+        "company": "Meta",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26552,
+        "privateContributions": 417,
+        "languages": ["C++", "Go"],
+        "topRepos": [
+          {
+            "name": "ind-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 77,
+            "language": "C++"
+          },
+          {
+            "name": "ind-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1526,
+            "language": "Go"
+          },
+          {
+            "name": "ind-dev-8-proj-3",
+            "description": "API wrapper",
+            "stars": 757,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54008?v=4",
+        "name": "Dev 9 (India)",
+        "company": "GitHub",
+        "location": "Chennai",
+        "bio": null,
+        "followers": 3662,
+        "publicContributions": 25503,
+        "privateContributions": 120,
+        "languages": ["Swift", "JavaScript", "Dart", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ind-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 126,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 765,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54009?v=4",
+        "name": "Dev 10 (India)",
+        "company": "Vercel",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3526,
+        "publicContributions": 24571,
+        "privateContributions": 102,
+        "languages": ["Kotlin", "PHP", "C++"],
+        "topRepos": [
+          {
+            "name": "ind-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1149,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ind-dev-10-proj-2",
+            "description": null,
+            "stars": 601,
+            "language": "PHP"
+          },
+          {
+            "name": "ind-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 606,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "ind-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54000?v=4",
+        "name": "Dev 1 (India)",
+        "company": "Microsoft",
+        "location": "India",
+        "bio": "Developer from India",
+        "followers": 5047,
+        "publicContributions": 35155,
+        "privateContributions": 383,
+        "languages": ["Java", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ind-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 164,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ind-dev-1",
+        "blog": "https://ind-dev-1.dev"
+      },
+      {
+        "login": "ind-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54001?v=4",
+        "name": "Dev 2 (India)",
+        "company": null,
+        "location": "Pune",
+        "bio": "Developer from India",
+        "followers": 4843,
+        "publicContributions": 33721,
+        "privateContributions": 258,
+        "languages": ["Kotlin", "PHP", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "ind-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 455,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ind-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 666,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "ind-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ind-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54002?v=4",
+        "name": "Dev 3 (India)",
+        "company": null,
+        "location": "Bangalore",
+        "bio": "Developer from India",
+        "followers": 4630,
+        "publicContributions": 32432,
+        "privateContributions": 380,
+        "languages": ["Rust", "Dart", "JavaScript", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "ind-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1593,
+            "language": "Rust"
+          },
+          {
+            "name": "ind-dev-3-proj-2",
+            "description": null,
+            "stars": 1850,
+            "language": "Dart"
+          },
+          {
+            "name": "ind-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1605,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54003?v=4",
+        "name": "Dev 4 (India)",
+        "company": null,
+        "location": "Delhi",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31109,
+        "privateContributions": 223,
+        "languages": ["JavaScript", "TypeScript", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "ind-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 55,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ind-dev-4-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1530,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ind-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1298,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54004?v=4",
+        "name": "Dev 5 (India)",
+        "company": null,
+        "location": "Chennai",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 29957,
+        "privateContributions": 212,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "ind-dev-5-proj-1",
+            "description": null,
+            "stars": 858,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 688,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 1646,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54005?v=4",
+        "name": "Dev 6 (India)",
+        "company": "Microsoft",
+        "location": "Chennai",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28722,
+        "privateContributions": 407,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ind-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 884,
+            "language": "C++"
+          },
+          {
+            "name": "ind-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1283,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54006?v=4",
+        "name": "Dev 7 (India)",
+        "company": "Apple",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27720,
+        "privateContributions": 481,
+        "languages": ["TypeScript", "Dart", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "ind-dev-7-proj-1",
+            "description": null,
+            "stars": 685,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54007?v=4",
+        "name": "Dev 8 (India)",
+        "company": "Meta",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26552,
+        "privateContributions": 417,
+        "languages": ["C++", "Go"],
+        "topRepos": [
+          {
+            "name": "ind-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 77,
+            "language": "C++"
+          },
+          {
+            "name": "ind-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1526,
+            "language": "Go"
+          },
+          {
+            "name": "ind-dev-8-proj-3",
+            "description": "API wrapper",
+            "stars": 757,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54008?v=4",
+        "name": "Dev 9 (India)",
+        "company": "GitHub",
+        "location": "Chennai",
+        "bio": null,
+        "followers": 3662,
+        "publicContributions": 25503,
+        "privateContributions": 120,
+        "languages": ["Swift", "JavaScript", "Dart", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ind-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 126,
+            "language": "Swift"
+          },
+          {
+            "name": "ind-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 765,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54009?v=4",
+        "name": "Dev 10 (India)",
+        "company": "Vercel",
+        "location": "Bangalore",
+        "bio": null,
+        "followers": 3526,
+        "publicContributions": 24571,
+        "privateContributions": 102,
+        "languages": ["Kotlin", "PHP", "C++"],
+        "topRepos": [
+          {
+            "name": "ind-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1149,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ind-dev-10-proj-2",
+            "description": null,
+            "stars": 601,
+            "language": "PHP"
+          },
+          {
+            "name": "ind-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 606,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

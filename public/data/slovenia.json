@@ -1,0 +1,871 @@
+{
+  "countryCode": "slovenia",
+  "updatedAt": "2026-03-27T21:38:37.395Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "slo-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110000?v=4",
+        "name": "Dev 1 (Slovenia)",
+        "company": "Google",
+        "location": "Maribor",
+        "bio": "Developer from Slovenia",
+        "followers": 5028,
+        "publicContributions": 35130,
+        "privateContributions": 378,
+        "languages": ["Python", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1481,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-1-proj-2",
+            "description": null,
+            "stars": 1667,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "slo-dev-1",
+        "blog": "https://slo-dev-1.dev"
+      },
+      {
+        "login": "slo-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110001?v=4",
+        "name": "Dev 2 (Slovenia)",
+        "company": "Apple",
+        "location": "Ljubljana",
+        "bio": "Developer from Slovenia",
+        "followers": 4834,
+        "publicContributions": 33816,
+        "privateContributions": 15,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "slo-dev-2-proj-1",
+            "description": null,
+            "stars": 667,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1675,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1515,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "slo-dev-2",
+        "blog": null
+      },
+      {
+        "login": "slo-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110002?v=4",
+        "name": "Dev 3 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Maribor",
+        "bio": "Developer from Slovenia",
+        "followers": 4633,
+        "publicContributions": 32372,
+        "privateContributions": 133,
+        "languages": ["Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 277,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110003?v=4",
+        "name": "Dev 4 (Slovenia)",
+        "company": null,
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 4459,
+        "publicContributions": 31228,
+        "privateContributions": 108,
+        "languages": ["Dart", "Java", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "slo-dev-4-proj-1",
+            "description": null,
+            "stars": 1455,
+            "language": "Dart"
+          },
+          {
+            "name": "slo-dev-4-proj-2",
+            "description": null,
+            "stars": 468,
+            "language": "Java"
+          },
+          {
+            "name": "slo-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1236,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110004?v=4",
+        "name": "Dev 5 (Slovenia)",
+        "company": "GitHub",
+        "location": "Maribor",
+        "bio": null,
+        "followers": 4274,
+        "publicContributions": 29985,
+        "privateContributions": 185,
+        "languages": ["PHP", "C++", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "slo-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 984,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110005?v=4",
+        "name": "Dev 6 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 4131,
+        "publicContributions": 28807,
+        "privateContributions": 53,
+        "languages": ["Go", "Java", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "slo-dev-6-proj-1",
+            "description": null,
+            "stars": 356,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1482,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110006?v=4",
+        "name": "Dev 7 (Slovenia)",
+        "company": "GitHub",
+        "location": "Slovenia",
+        "bio": null,
+        "followers": 3978,
+        "publicContributions": 27669,
+        "privateContributions": 486,
+        "languages": ["Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "slo-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 844,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-7-proj-2",
+            "description": null,
+            "stars": 1310,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 77,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110007?v=4",
+        "name": "Dev 8 (Slovenia)",
+        "company": "Apple",
+        "location": "Slovenia",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26620,
+        "privateContributions": 337,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "slo-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 355,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1433,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-8-proj-3",
+            "description": null,
+            "stars": 1431,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110008?v=4",
+        "name": "Dev 9 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 3665,
+        "publicContributions": 25485,
+        "privateContributions": 440,
+        "languages": ["Swift", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 857,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110009?v=4",
+        "name": "Dev 10 (Slovenia)",
+        "company": "Stripe",
+        "location": "Maribor",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24556,
+        "privateContributions": 127,
+        "languages": ["Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "slo-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1363,
+            "language": "Dart"
+          },
+          {
+            "name": "slo-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1390,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "slo-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110000?v=4",
+        "name": "Dev 1 (Slovenia)",
+        "company": "Google",
+        "location": "Maribor",
+        "bio": "Developer from Slovenia",
+        "followers": 5028,
+        "publicContributions": 35130,
+        "privateContributions": 378,
+        "languages": ["Python", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1481,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-1-proj-2",
+            "description": null,
+            "stars": 1667,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "slo-dev-1",
+        "blog": "https://slo-dev-1.dev"
+      },
+      {
+        "login": "slo-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110001?v=4",
+        "name": "Dev 2 (Slovenia)",
+        "company": "Apple",
+        "location": "Ljubljana",
+        "bio": "Developer from Slovenia",
+        "followers": 4834,
+        "publicContributions": 33816,
+        "privateContributions": 15,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "slo-dev-2-proj-1",
+            "description": null,
+            "stars": 667,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1675,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1515,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "slo-dev-2",
+        "blog": null
+      },
+      {
+        "login": "slo-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110002?v=4",
+        "name": "Dev 3 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Maribor",
+        "bio": "Developer from Slovenia",
+        "followers": 4633,
+        "publicContributions": 32372,
+        "privateContributions": 133,
+        "languages": ["Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 277,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110003?v=4",
+        "name": "Dev 4 (Slovenia)",
+        "company": null,
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 4459,
+        "publicContributions": 31228,
+        "privateContributions": 108,
+        "languages": ["Dart", "Java", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "slo-dev-4-proj-1",
+            "description": null,
+            "stars": 1455,
+            "language": "Dart"
+          },
+          {
+            "name": "slo-dev-4-proj-2",
+            "description": null,
+            "stars": 468,
+            "language": "Java"
+          },
+          {
+            "name": "slo-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1236,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110004?v=4",
+        "name": "Dev 5 (Slovenia)",
+        "company": "GitHub",
+        "location": "Maribor",
+        "bio": null,
+        "followers": 4274,
+        "publicContributions": 29985,
+        "privateContributions": 185,
+        "languages": ["PHP", "C++", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "slo-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 984,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110005?v=4",
+        "name": "Dev 6 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 4131,
+        "publicContributions": 28807,
+        "privateContributions": 53,
+        "languages": ["Go", "Java", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "slo-dev-6-proj-1",
+            "description": null,
+            "stars": 356,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1482,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110006?v=4",
+        "name": "Dev 7 (Slovenia)",
+        "company": "GitHub",
+        "location": "Slovenia",
+        "bio": null,
+        "followers": 3978,
+        "publicContributions": 27669,
+        "privateContributions": 486,
+        "languages": ["Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "slo-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 844,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-7-proj-2",
+            "description": null,
+            "stars": 1310,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 77,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110007?v=4",
+        "name": "Dev 8 (Slovenia)",
+        "company": "Apple",
+        "location": "Slovenia",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26620,
+        "privateContributions": 337,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "slo-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 355,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1433,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-8-proj-3",
+            "description": null,
+            "stars": 1431,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110008?v=4",
+        "name": "Dev 9 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 3665,
+        "publicContributions": 25485,
+        "privateContributions": 440,
+        "languages": ["Swift", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 857,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110009?v=4",
+        "name": "Dev 10 (Slovenia)",
+        "company": "Stripe",
+        "location": "Maribor",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24556,
+        "privateContributions": 127,
+        "languages": ["Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "slo-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1363,
+            "language": "Dart"
+          },
+          {
+            "name": "slo-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1390,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "slo-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110000?v=4",
+        "name": "Dev 1 (Slovenia)",
+        "company": "Google",
+        "location": "Maribor",
+        "bio": "Developer from Slovenia",
+        "followers": 5028,
+        "publicContributions": 35130,
+        "privateContributions": 378,
+        "languages": ["Python", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1481,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-1-proj-2",
+            "description": null,
+            "stars": 1667,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "slo-dev-1",
+        "blog": "https://slo-dev-1.dev"
+      },
+      {
+        "login": "slo-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110001?v=4",
+        "name": "Dev 2 (Slovenia)",
+        "company": "Apple",
+        "location": "Ljubljana",
+        "bio": "Developer from Slovenia",
+        "followers": 4834,
+        "publicContributions": 33816,
+        "privateContributions": 15,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "slo-dev-2-proj-1",
+            "description": null,
+            "stars": 667,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1675,
+            "language": "Ruby"
+          },
+          {
+            "name": "slo-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1515,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "slo-dev-2",
+        "blog": null
+      },
+      {
+        "login": "slo-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110002?v=4",
+        "name": "Dev 3 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Maribor",
+        "bio": "Developer from Slovenia",
+        "followers": 4633,
+        "publicContributions": 32372,
+        "privateContributions": 133,
+        "languages": ["Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "slo-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 277,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110003?v=4",
+        "name": "Dev 4 (Slovenia)",
+        "company": null,
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 4459,
+        "publicContributions": 31228,
+        "privateContributions": 108,
+        "languages": ["Dart", "Java", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "slo-dev-4-proj-1",
+            "description": null,
+            "stars": 1455,
+            "language": "Dart"
+          },
+          {
+            "name": "slo-dev-4-proj-2",
+            "description": null,
+            "stars": 468,
+            "language": "Java"
+          },
+          {
+            "name": "slo-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1236,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110004?v=4",
+        "name": "Dev 5 (Slovenia)",
+        "company": "GitHub",
+        "location": "Maribor",
+        "bio": null,
+        "followers": 4274,
+        "publicContributions": 29985,
+        "privateContributions": 185,
+        "languages": ["PHP", "C++", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "slo-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 984,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110005?v=4",
+        "name": "Dev 6 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 4131,
+        "publicContributions": 28807,
+        "privateContributions": 53,
+        "languages": ["Go", "Java", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "slo-dev-6-proj-1",
+            "description": null,
+            "stars": 356,
+            "language": "Go"
+          },
+          {
+            "name": "slo-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1482,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110006?v=4",
+        "name": "Dev 7 (Slovenia)",
+        "company": "GitHub",
+        "location": "Slovenia",
+        "bio": null,
+        "followers": 3978,
+        "publicContributions": 27669,
+        "privateContributions": 486,
+        "languages": ["Python", "Swift"],
+        "topRepos": [
+          {
+            "name": "slo-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 844,
+            "language": "Python"
+          },
+          {
+            "name": "slo-dev-7-proj-2",
+            "description": null,
+            "stars": 1310,
+            "language": "Swift"
+          },
+          {
+            "name": "slo-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 77,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110007?v=4",
+        "name": "Dev 8 (Slovenia)",
+        "company": "Apple",
+        "location": "Slovenia",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26620,
+        "privateContributions": 337,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "slo-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 355,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1433,
+            "language": "TypeScript"
+          },
+          {
+            "name": "slo-dev-8-proj-3",
+            "description": null,
+            "stars": 1431,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110008?v=4",
+        "name": "Dev 9 (Slovenia)",
+        "company": "Microsoft",
+        "location": "Ljubljana",
+        "bio": null,
+        "followers": 3665,
+        "publicContributions": 25485,
+        "privateContributions": 440,
+        "languages": ["Swift", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "slo-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 857,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "slo-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110009?v=4",
+        "name": "Dev 10 (Slovenia)",
+        "company": "Stripe",
+        "location": "Maribor",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24556,
+        "privateContributions": 127,
+        "languages": ["Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "slo-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1363,
+            "language": "Dart"
+          },
+          {
+            "name": "slo-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1390,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

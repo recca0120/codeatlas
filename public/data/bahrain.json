@@ -1,0 +1,781 @@
+{
+  "countryCode": "bahrain",
+  "updatedAt": "2026-03-27T21:38:37.380Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "bah-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11000?v=4",
+        "name": "Dev 1 (Bahrain)",
+        "company": "Stripe",
+        "location": "Bahrain",
+        "bio": "Developer from Bahrain",
+        "followers": 5011,
+        "publicContributions": 35118,
+        "privateContributions": 323,
+        "languages": ["Go", "Swift"],
+        "topRepos": [
+          {
+            "name": "bah-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 260,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bah-dev-1",
+        "blog": "https://bah-dev-1.dev"
+      },
+      {
+        "login": "bah-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11001?v=4",
+        "name": "Dev 2 (Bahrain)",
+        "company": "Apple",
+        "location": "Manama",
+        "bio": "Developer from Bahrain",
+        "followers": 4819,
+        "publicContributions": 33813,
+        "privateContributions": 40,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1666,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 1188,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bah-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bah-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11002?v=4",
+        "name": "Dev 3 (Bahrain)",
+        "company": null,
+        "location": "Bahrain",
+        "bio": "Developer from Bahrain",
+        "followers": 4658,
+        "publicContributions": 32377,
+        "privateContributions": 93,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "bah-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 346,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11003?v=4",
+        "name": "Dev 4 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 4456,
+        "publicContributions": 31163,
+        "privateContributions": 341,
+        "languages": ["JavaScript", "Java", "Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-4-proj-1",
+            "description": null,
+            "stars": 1249,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11004?v=4",
+        "name": "Dev 5 (Bahrain)",
+        "company": "Stripe",
+        "location": "Manama",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 29901,
+        "privateContributions": 483,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-5-proj-1",
+            "description": null,
+            "stars": 516,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1523,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 87,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11005?v=4",
+        "name": "Dev 6 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28725,
+        "privateContributions": 321,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "bah-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1132,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bah-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1098,
+            "language": "Kotlin"
+          },
+          {
+            "name": "bah-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 363,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11006?v=4",
+        "name": "Dev 7 (Bahrain)",
+        "company": "Meta",
+        "location": "Manama",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27695,
+        "privateContributions": 248,
+        "languages": ["Go", "C++"],
+        "topRepos": [
+          {
+            "name": "bah-dev-7-proj-1",
+            "description": null,
+            "stars": 358,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11007?v=4",
+        "name": "Dev 8 (Bahrain)",
+        "company": "Vercel",
+        "location": "Bahrain",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26552,
+        "privateContributions": 293,
+        "languages": ["Python", "Ruby"],
+        "topRepos": [
+          {
+            "name": "bah-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1512,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11008?v=4",
+        "name": "Dev 9 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25555,
+        "privateContributions": 237,
+        "languages": ["Java", "Python", "Ruby", "Swift"],
+        "topRepos": [
+          {
+            "name": "bah-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 80,
+            "language": "Java"
+          },
+          {
+            "name": "bah-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 479,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11009?v=4",
+        "name": "Dev 10 (Bahrain)",
+        "company": "Meta",
+        "location": "Manama",
+        "bio": null,
+        "followers": 3521,
+        "publicContributions": 24588,
+        "privateContributions": 157,
+        "languages": ["C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "bah-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1267,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "bah-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11000?v=4",
+        "name": "Dev 1 (Bahrain)",
+        "company": "Stripe",
+        "location": "Bahrain",
+        "bio": "Developer from Bahrain",
+        "followers": 5011,
+        "publicContributions": 35118,
+        "privateContributions": 323,
+        "languages": ["Go", "Swift"],
+        "topRepos": [
+          {
+            "name": "bah-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 260,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bah-dev-1",
+        "blog": "https://bah-dev-1.dev"
+      },
+      {
+        "login": "bah-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11001?v=4",
+        "name": "Dev 2 (Bahrain)",
+        "company": "Apple",
+        "location": "Manama",
+        "bio": "Developer from Bahrain",
+        "followers": 4819,
+        "publicContributions": 33813,
+        "privateContributions": 40,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1666,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 1188,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bah-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bah-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11002?v=4",
+        "name": "Dev 3 (Bahrain)",
+        "company": null,
+        "location": "Bahrain",
+        "bio": "Developer from Bahrain",
+        "followers": 4658,
+        "publicContributions": 32377,
+        "privateContributions": 93,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "bah-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 346,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11003?v=4",
+        "name": "Dev 4 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 4456,
+        "publicContributions": 31163,
+        "privateContributions": 341,
+        "languages": ["JavaScript", "Java", "Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-4-proj-1",
+            "description": null,
+            "stars": 1249,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11004?v=4",
+        "name": "Dev 5 (Bahrain)",
+        "company": "Stripe",
+        "location": "Manama",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 29901,
+        "privateContributions": 483,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-5-proj-1",
+            "description": null,
+            "stars": 516,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1523,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 87,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11005?v=4",
+        "name": "Dev 6 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28725,
+        "privateContributions": 321,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "bah-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1132,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bah-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1098,
+            "language": "Kotlin"
+          },
+          {
+            "name": "bah-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 363,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11006?v=4",
+        "name": "Dev 7 (Bahrain)",
+        "company": "Meta",
+        "location": "Manama",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27695,
+        "privateContributions": 248,
+        "languages": ["Go", "C++"],
+        "topRepos": [
+          {
+            "name": "bah-dev-7-proj-1",
+            "description": null,
+            "stars": 358,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11007?v=4",
+        "name": "Dev 8 (Bahrain)",
+        "company": "Vercel",
+        "location": "Bahrain",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26552,
+        "privateContributions": 293,
+        "languages": ["Python", "Ruby"],
+        "topRepos": [
+          {
+            "name": "bah-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1512,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11008?v=4",
+        "name": "Dev 9 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25555,
+        "privateContributions": 237,
+        "languages": ["Java", "Python", "Ruby", "Swift"],
+        "topRepos": [
+          {
+            "name": "bah-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 80,
+            "language": "Java"
+          },
+          {
+            "name": "bah-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 479,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11009?v=4",
+        "name": "Dev 10 (Bahrain)",
+        "company": "Meta",
+        "location": "Manama",
+        "bio": null,
+        "followers": 3521,
+        "publicContributions": 24588,
+        "privateContributions": 157,
+        "languages": ["C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "bah-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1267,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "bah-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11000?v=4",
+        "name": "Dev 1 (Bahrain)",
+        "company": "Stripe",
+        "location": "Bahrain",
+        "bio": "Developer from Bahrain",
+        "followers": 5011,
+        "publicContributions": 35118,
+        "privateContributions": 323,
+        "languages": ["Go", "Swift"],
+        "topRepos": [
+          {
+            "name": "bah-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 260,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bah-dev-1",
+        "blog": "https://bah-dev-1.dev"
+      },
+      {
+        "login": "bah-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11001?v=4",
+        "name": "Dev 2 (Bahrain)",
+        "company": "Apple",
+        "location": "Manama",
+        "bio": "Developer from Bahrain",
+        "followers": 4819,
+        "publicContributions": 33813,
+        "privateContributions": 40,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1666,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 1188,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bah-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bah-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11002?v=4",
+        "name": "Dev 3 (Bahrain)",
+        "company": null,
+        "location": "Bahrain",
+        "bio": "Developer from Bahrain",
+        "followers": 4658,
+        "publicContributions": 32377,
+        "privateContributions": 93,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "bah-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 346,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11003?v=4",
+        "name": "Dev 4 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 4456,
+        "publicContributions": 31163,
+        "privateContributions": 341,
+        "languages": ["JavaScript", "Java", "Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-4-proj-1",
+            "description": null,
+            "stars": 1249,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11004?v=4",
+        "name": "Dev 5 (Bahrain)",
+        "company": "Stripe",
+        "location": "Manama",
+        "bio": null,
+        "followers": 4305,
+        "publicContributions": 29901,
+        "privateContributions": 483,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bah-dev-5-proj-1",
+            "description": null,
+            "stars": 516,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1523,
+            "language": "Go"
+          },
+          {
+            "name": "bah-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 87,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11005?v=4",
+        "name": "Dev 6 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28725,
+        "privateContributions": 321,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "bah-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1132,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bah-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1098,
+            "language": "Kotlin"
+          },
+          {
+            "name": "bah-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 363,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11006?v=4",
+        "name": "Dev 7 (Bahrain)",
+        "company": "Meta",
+        "location": "Manama",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27695,
+        "privateContributions": 248,
+        "languages": ["Go", "C++"],
+        "topRepos": [
+          {
+            "name": "bah-dev-7-proj-1",
+            "description": null,
+            "stars": 358,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11007?v=4",
+        "name": "Dev 8 (Bahrain)",
+        "company": "Vercel",
+        "location": "Bahrain",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26552,
+        "privateContributions": 293,
+        "languages": ["Python", "Ruby"],
+        "topRepos": [
+          {
+            "name": "bah-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1512,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11008?v=4",
+        "name": "Dev 9 (Bahrain)",
+        "company": null,
+        "location": "Manama",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25555,
+        "privateContributions": 237,
+        "languages": ["Java", "Python", "Ruby", "Swift"],
+        "topRepos": [
+          {
+            "name": "bah-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 80,
+            "language": "Java"
+          },
+          {
+            "name": "bah-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 479,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bah-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11009?v=4",
+        "name": "Dev 10 (Bahrain)",
+        "company": "Meta",
+        "location": "Manama",
+        "bio": null,
+        "followers": 3521,
+        "publicContributions": 24588,
+        "privateContributions": 157,
+        "languages": ["C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "bah-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1267,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,853 @@
+{
+  "countryCode": "netherlands",
+  "updatedAt": "2026-03-27T21:38:37.392Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "net-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87000?v=4",
+        "name": "Dev 1 (Netherlands)",
+        "company": "Stripe",
+        "location": "Rotterdam",
+        "bio": "Developer from Netherlands",
+        "followers": 5029,
+        "publicContributions": 35092,
+        "privateContributions": 438,
+        "languages": ["Python", "JavaScript", "Swift", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1329,
+            "language": "Python"
+          },
+          {
+            "name": "net-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 753,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-1-proj-3",
+            "description": null,
+            "stars": 1613,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "net-dev-1",
+        "blog": "https://net-dev-1.dev"
+      },
+      {
+        "login": "net-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87001?v=4",
+        "name": "Dev 2 (Netherlands)",
+        "company": "Microsoft",
+        "location": "Netherlands",
+        "bio": "Developer from Netherlands",
+        "followers": 4833,
+        "publicContributions": 33757,
+        "privateContributions": 335,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 68,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-2-proj-2",
+            "description": null,
+            "stars": 1728,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "net-dev-2",
+        "blog": null
+      },
+      {
+        "login": "net-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87002?v=4",
+        "name": "Dev 3 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": "Developer from Netherlands",
+        "followers": 4665,
+        "publicContributions": 32361,
+        "privateContributions": 81,
+        "languages": ["Ruby", "JavaScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "net-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1614,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87003?v=4",
+        "name": "Dev 4 (Netherlands)",
+        "company": "Amazon",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31112,
+        "privateContributions": 499,
+        "languages": ["C++", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "net-dev-4-proj-1",
+            "description": null,
+            "stars": 1246,
+            "language": "C++"
+          },
+          {
+            "name": "net-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 525,
+            "language": "Go"
+          },
+          {
+            "name": "net-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 33,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87004?v=4",
+        "name": "Dev 5 (Netherlands)",
+        "company": "Stripe",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 4288,
+        "publicContributions": 29975,
+        "privateContributions": 390,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-5-proj-1",
+            "description": null,
+            "stars": 1232,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 541,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87005?v=4",
+        "name": "Dev 6 (Netherlands)",
+        "company": "Stripe",
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 4140,
+        "publicContributions": 28731,
+        "privateContributions": 169,
+        "languages": ["Rust", "C++", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "net-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1054,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87006?v=4",
+        "name": "Dev 7 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 3967,
+        "publicContributions": 27691,
+        "privateContributions": 300,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "net-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 730,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1242,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87007?v=4",
+        "name": "Dev 8 (Netherlands)",
+        "company": "GitHub",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26608,
+        "privateContributions": 425,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 94,
+            "language": "Python"
+          },
+          {
+            "name": "net-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1193,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87008?v=4",
+        "name": "Dev 9 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 3674,
+        "publicContributions": 25551,
+        "privateContributions": 113,
+        "languages": ["JavaScript", "Rust", "Swift"],
+        "topRepos": [
+          {
+            "name": "net-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 100,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 488,
+            "language": "Rust"
+          },
+          {
+            "name": "net-dev-9-proj-3",
+            "description": null,
+            "stars": 1092,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87009?v=4",
+        "name": "Dev 10 (Netherlands)",
+        "company": "Vercel",
+        "location": "Utrecht",
+        "bio": null,
+        "followers": 3530,
+        "publicContributions": 24524,
+        "privateContributions": 188,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "net-dev-10-proj-1",
+            "description": null,
+            "stars": 755,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "net-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87000?v=4",
+        "name": "Dev 1 (Netherlands)",
+        "company": "Stripe",
+        "location": "Rotterdam",
+        "bio": "Developer from Netherlands",
+        "followers": 5029,
+        "publicContributions": 35092,
+        "privateContributions": 438,
+        "languages": ["Python", "JavaScript", "Swift", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1329,
+            "language": "Python"
+          },
+          {
+            "name": "net-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 753,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-1-proj-3",
+            "description": null,
+            "stars": 1613,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "net-dev-1",
+        "blog": "https://net-dev-1.dev"
+      },
+      {
+        "login": "net-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87001?v=4",
+        "name": "Dev 2 (Netherlands)",
+        "company": "Microsoft",
+        "location": "Netherlands",
+        "bio": "Developer from Netherlands",
+        "followers": 4833,
+        "publicContributions": 33757,
+        "privateContributions": 335,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 68,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-2-proj-2",
+            "description": null,
+            "stars": 1728,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "net-dev-2",
+        "blog": null
+      },
+      {
+        "login": "net-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87002?v=4",
+        "name": "Dev 3 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": "Developer from Netherlands",
+        "followers": 4665,
+        "publicContributions": 32361,
+        "privateContributions": 81,
+        "languages": ["Ruby", "JavaScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "net-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1614,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87003?v=4",
+        "name": "Dev 4 (Netherlands)",
+        "company": "Amazon",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31112,
+        "privateContributions": 499,
+        "languages": ["C++", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "net-dev-4-proj-1",
+            "description": null,
+            "stars": 1246,
+            "language": "C++"
+          },
+          {
+            "name": "net-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 525,
+            "language": "Go"
+          },
+          {
+            "name": "net-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 33,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87004?v=4",
+        "name": "Dev 5 (Netherlands)",
+        "company": "Stripe",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 4288,
+        "publicContributions": 29975,
+        "privateContributions": 390,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-5-proj-1",
+            "description": null,
+            "stars": 1232,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 541,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87005?v=4",
+        "name": "Dev 6 (Netherlands)",
+        "company": "Stripe",
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 4140,
+        "publicContributions": 28731,
+        "privateContributions": 169,
+        "languages": ["Rust", "C++", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "net-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1054,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87006?v=4",
+        "name": "Dev 7 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 3967,
+        "publicContributions": 27691,
+        "privateContributions": 300,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "net-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 730,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1242,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87007?v=4",
+        "name": "Dev 8 (Netherlands)",
+        "company": "GitHub",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26608,
+        "privateContributions": 425,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 94,
+            "language": "Python"
+          },
+          {
+            "name": "net-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1193,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87008?v=4",
+        "name": "Dev 9 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 3674,
+        "publicContributions": 25551,
+        "privateContributions": 113,
+        "languages": ["JavaScript", "Rust", "Swift"],
+        "topRepos": [
+          {
+            "name": "net-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 100,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 488,
+            "language": "Rust"
+          },
+          {
+            "name": "net-dev-9-proj-3",
+            "description": null,
+            "stars": 1092,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87009?v=4",
+        "name": "Dev 10 (Netherlands)",
+        "company": "Vercel",
+        "location": "Utrecht",
+        "bio": null,
+        "followers": 3530,
+        "publicContributions": 24524,
+        "privateContributions": 188,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "net-dev-10-proj-1",
+            "description": null,
+            "stars": 755,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "net-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87000?v=4",
+        "name": "Dev 1 (Netherlands)",
+        "company": "Stripe",
+        "location": "Rotterdam",
+        "bio": "Developer from Netherlands",
+        "followers": 5029,
+        "publicContributions": 35092,
+        "privateContributions": 438,
+        "languages": ["Python", "JavaScript", "Swift", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1329,
+            "language": "Python"
+          },
+          {
+            "name": "net-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 753,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-1-proj-3",
+            "description": null,
+            "stars": 1613,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "net-dev-1",
+        "blog": "https://net-dev-1.dev"
+      },
+      {
+        "login": "net-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87001?v=4",
+        "name": "Dev 2 (Netherlands)",
+        "company": "Microsoft",
+        "location": "Netherlands",
+        "bio": "Developer from Netherlands",
+        "followers": 4833,
+        "publicContributions": 33757,
+        "privateContributions": 335,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 68,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-2-proj-2",
+            "description": null,
+            "stars": 1728,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "net-dev-2",
+        "blog": null
+      },
+      {
+        "login": "net-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87002?v=4",
+        "name": "Dev 3 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": "Developer from Netherlands",
+        "followers": 4665,
+        "publicContributions": 32361,
+        "privateContributions": 81,
+        "languages": ["Ruby", "JavaScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "net-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1614,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87003?v=4",
+        "name": "Dev 4 (Netherlands)",
+        "company": "Amazon",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31112,
+        "privateContributions": 499,
+        "languages": ["C++", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "net-dev-4-proj-1",
+            "description": null,
+            "stars": 1246,
+            "language": "C++"
+          },
+          {
+            "name": "net-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 525,
+            "language": "Go"
+          },
+          {
+            "name": "net-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 33,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87004?v=4",
+        "name": "Dev 5 (Netherlands)",
+        "company": "Stripe",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 4288,
+        "publicContributions": 29975,
+        "privateContributions": 390,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-5-proj-1",
+            "description": null,
+            "stars": 1232,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 541,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87005?v=4",
+        "name": "Dev 6 (Netherlands)",
+        "company": "Stripe",
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 4140,
+        "publicContributions": 28731,
+        "privateContributions": 169,
+        "languages": ["Rust", "C++", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "net-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1054,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87006?v=4",
+        "name": "Dev 7 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 3967,
+        "publicContributions": 27691,
+        "privateContributions": 300,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "net-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 730,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1242,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87007?v=4",
+        "name": "Dev 8 (Netherlands)",
+        "company": "GitHub",
+        "location": "Rotterdam",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26608,
+        "privateContributions": 425,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "net-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 94,
+            "language": "Python"
+          },
+          {
+            "name": "net-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1193,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87008?v=4",
+        "name": "Dev 9 (Netherlands)",
+        "company": null,
+        "location": "Netherlands",
+        "bio": null,
+        "followers": 3674,
+        "publicContributions": 25551,
+        "privateContributions": 113,
+        "languages": ["JavaScript", "Rust", "Swift"],
+        "topRepos": [
+          {
+            "name": "net-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 100,
+            "language": "JavaScript"
+          },
+          {
+            "name": "net-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 488,
+            "language": "Rust"
+          },
+          {
+            "name": "net-dev-9-proj-3",
+            "description": null,
+            "stars": 1092,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "net-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87009?v=4",
+        "name": "Dev 10 (Netherlands)",
+        "company": "Vercel",
+        "location": "Utrecht",
+        "bio": null,
+        "followers": 3530,
+        "publicContributions": 24524,
+        "privateContributions": 188,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "net-dev-10-proj-1",
+            "description": null,
+            "stars": 755,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

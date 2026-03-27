@@ -1,0 +1,727 @@
+{
+  "countryCode": "botswana",
+  "updatedAt": "2026-03-27T21:38:37.382Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "bot-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19000?v=4",
+        "name": "Dev 1 (Botswana)",
+        "company": "Google",
+        "location": "Botswana",
+        "bio": "Developer from Botswana",
+        "followers": 5046,
+        "publicContributions": 35104,
+        "privateContributions": 211,
+        "languages": ["Go", "C++", "PHP", "Python"],
+        "topRepos": [
+          {
+            "name": "bot-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 988,
+            "language": "Go"
+          },
+          {
+            "name": "bot-dev-1-proj-2",
+            "description": null,
+            "stars": 747,
+            "language": "C++"
+          },
+          {
+            "name": "bot-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 205,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "bot-dev-1",
+        "blog": "https://bot-dev-1.dev"
+      },
+      {
+        "login": "bot-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19001?v=4",
+        "name": "Dev 2 (Botswana)",
+        "company": "GitHub",
+        "location": "Botswana",
+        "bio": "Developer from Botswana",
+        "followers": 4846,
+        "publicContributions": 33812,
+        "privateContributions": 376,
+        "languages": ["Swift", "Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1369,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "bot-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bot-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19002?v=4",
+        "name": "Dev 3 (Botswana)",
+        "company": "Google",
+        "location": "Gaborone",
+        "bio": "Developer from Botswana",
+        "followers": 4639,
+        "publicContributions": 32412,
+        "privateContributions": 158,
+        "languages": ["JavaScript", "Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1498,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19003?v=4",
+        "name": "Dev 4 (Botswana)",
+        "company": null,
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4463,
+        "publicContributions": 31104,
+        "privateContributions": 451,
+        "languages": ["Kotlin", "JavaScript", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "bot-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1364,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19004?v=4",
+        "name": "Dev 5 (Botswana)",
+        "company": "Meta",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 29910,
+        "privateContributions": 292,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 815,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19005?v=4",
+        "name": "Dev 6 (Botswana)",
+        "company": null,
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4105,
+        "publicContributions": 28733,
+        "privateContributions": 459,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bot-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 415,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19006?v=4",
+        "name": "Dev 7 (Botswana)",
+        "company": "Stripe",
+        "location": "Botswana",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27585,
+        "privateContributions": 449,
+        "languages": ["C++", "Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "bot-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 436,
+            "language": "C++"
+          },
+          {
+            "name": "bot-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 634,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19007?v=4",
+        "name": "Dev 8 (Botswana)",
+        "company": "Microsoft",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3829,
+        "publicContributions": 26565,
+        "privateContributions": 240,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bot-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 828,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19008?v=4",
+        "name": "Dev 9 (Botswana)",
+        "company": "Vercel",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3651,
+        "publicContributions": 25570,
+        "privateContributions": 181,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bot-dev-9-proj-1",
+            "description": null,
+            "stars": 210,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19009?v=4",
+        "name": "Dev 10 (Botswana)",
+        "company": "Vercel",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3512,
+        "publicContributions": 24558,
+        "privateContributions": 50,
+        "languages": ["Java", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "bot-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 862,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "bot-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19000?v=4",
+        "name": "Dev 1 (Botswana)",
+        "company": "Google",
+        "location": "Botswana",
+        "bio": "Developer from Botswana",
+        "followers": 5046,
+        "publicContributions": 35104,
+        "privateContributions": 211,
+        "languages": ["Go", "C++", "PHP", "Python"],
+        "topRepos": [
+          {
+            "name": "bot-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 988,
+            "language": "Go"
+          },
+          {
+            "name": "bot-dev-1-proj-2",
+            "description": null,
+            "stars": 747,
+            "language": "C++"
+          },
+          {
+            "name": "bot-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 205,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "bot-dev-1",
+        "blog": "https://bot-dev-1.dev"
+      },
+      {
+        "login": "bot-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19001?v=4",
+        "name": "Dev 2 (Botswana)",
+        "company": "GitHub",
+        "location": "Botswana",
+        "bio": "Developer from Botswana",
+        "followers": 4846,
+        "publicContributions": 33812,
+        "privateContributions": 376,
+        "languages": ["Swift", "Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1369,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "bot-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bot-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19002?v=4",
+        "name": "Dev 3 (Botswana)",
+        "company": "Google",
+        "location": "Gaborone",
+        "bio": "Developer from Botswana",
+        "followers": 4639,
+        "publicContributions": 32412,
+        "privateContributions": 158,
+        "languages": ["JavaScript", "Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1498,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19003?v=4",
+        "name": "Dev 4 (Botswana)",
+        "company": null,
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4463,
+        "publicContributions": 31104,
+        "privateContributions": 451,
+        "languages": ["Kotlin", "JavaScript", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "bot-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1364,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19004?v=4",
+        "name": "Dev 5 (Botswana)",
+        "company": "Meta",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 29910,
+        "privateContributions": 292,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 815,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19005?v=4",
+        "name": "Dev 6 (Botswana)",
+        "company": null,
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4105,
+        "publicContributions": 28733,
+        "privateContributions": 459,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bot-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 415,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19006?v=4",
+        "name": "Dev 7 (Botswana)",
+        "company": "Stripe",
+        "location": "Botswana",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27585,
+        "privateContributions": 449,
+        "languages": ["C++", "Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "bot-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 436,
+            "language": "C++"
+          },
+          {
+            "name": "bot-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 634,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19007?v=4",
+        "name": "Dev 8 (Botswana)",
+        "company": "Microsoft",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3829,
+        "publicContributions": 26565,
+        "privateContributions": 240,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bot-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 828,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19008?v=4",
+        "name": "Dev 9 (Botswana)",
+        "company": "Vercel",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3651,
+        "publicContributions": 25570,
+        "privateContributions": 181,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bot-dev-9-proj-1",
+            "description": null,
+            "stars": 210,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19009?v=4",
+        "name": "Dev 10 (Botswana)",
+        "company": "Vercel",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3512,
+        "publicContributions": 24558,
+        "privateContributions": 50,
+        "languages": ["Java", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "bot-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 862,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "bot-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19000?v=4",
+        "name": "Dev 1 (Botswana)",
+        "company": "Google",
+        "location": "Botswana",
+        "bio": "Developer from Botswana",
+        "followers": 5046,
+        "publicContributions": 35104,
+        "privateContributions": 211,
+        "languages": ["Go", "C++", "PHP", "Python"],
+        "topRepos": [
+          {
+            "name": "bot-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 988,
+            "language": "Go"
+          },
+          {
+            "name": "bot-dev-1-proj-2",
+            "description": null,
+            "stars": 747,
+            "language": "C++"
+          },
+          {
+            "name": "bot-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 205,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "bot-dev-1",
+        "blog": "https://bot-dev-1.dev"
+      },
+      {
+        "login": "bot-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19001?v=4",
+        "name": "Dev 2 (Botswana)",
+        "company": "GitHub",
+        "location": "Botswana",
+        "bio": "Developer from Botswana",
+        "followers": 4846,
+        "publicContributions": 33812,
+        "privateContributions": 376,
+        "languages": ["Swift", "Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1369,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "bot-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bot-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19002?v=4",
+        "name": "Dev 3 (Botswana)",
+        "company": "Google",
+        "location": "Gaborone",
+        "bio": "Developer from Botswana",
+        "followers": 4639,
+        "publicContributions": 32412,
+        "privateContributions": 158,
+        "languages": ["JavaScript", "Ruby", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1498,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19003?v=4",
+        "name": "Dev 4 (Botswana)",
+        "company": null,
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4463,
+        "publicContributions": 31104,
+        "privateContributions": 451,
+        "languages": ["Kotlin", "JavaScript", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "bot-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1364,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19004?v=4",
+        "name": "Dev 5 (Botswana)",
+        "company": "Meta",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 29910,
+        "privateContributions": 292,
+        "languages": ["C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "bot-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 815,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19005?v=4",
+        "name": "Dev 6 (Botswana)",
+        "company": null,
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 4105,
+        "publicContributions": 28733,
+        "privateContributions": 459,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bot-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 415,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19006?v=4",
+        "name": "Dev 7 (Botswana)",
+        "company": "Stripe",
+        "location": "Botswana",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27585,
+        "privateContributions": 449,
+        "languages": ["C++", "Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "bot-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 436,
+            "language": "C++"
+          },
+          {
+            "name": "bot-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 634,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19007?v=4",
+        "name": "Dev 8 (Botswana)",
+        "company": "Microsoft",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3829,
+        "publicContributions": 26565,
+        "privateContributions": 240,
+        "languages": ["Go"],
+        "topRepos": [
+          {
+            "name": "bot-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 828,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19008?v=4",
+        "name": "Dev 9 (Botswana)",
+        "company": "Vercel",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3651,
+        "publicContributions": 25570,
+        "privateContributions": 181,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "bot-dev-9-proj-1",
+            "description": null,
+            "stars": 210,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bot-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19009?v=4",
+        "name": "Dev 10 (Botswana)",
+        "company": "Vercel",
+        "location": "Gaborone",
+        "bio": null,
+        "followers": 3512,
+        "publicContributions": 24558,
+        "privateContributions": 50,
+        "languages": ["Java", "Ruby", "C++"],
+        "topRepos": [
+          {
+            "name": "bot-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 862,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

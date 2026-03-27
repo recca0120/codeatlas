@@ -23,6 +23,9 @@ importers:
       globe.gl:
         specifier: ^2.45.1
         version: 2.45.1
+      ky:
+        specifier: ^1.14.3
+        version: 1.14.3
       svelte:
         specifier: ^5.55.0
         version: 5.55.0
@@ -1743,6 +1746,10 @@ packages:
   kapsule@1.16.3:
     resolution: {integrity: sha512-4+5mNNf4vZDSwPhKprKwz3330iisPrb08JyMgbsdFrimBCKNHecua/WBwvVg3n7vwx0C1ARjfhwIpbrbd9n5wg==}
     engines: {node: '>=12'}
+
+  ky@1.14.3:
+    resolution: {integrity: sha512-9zy9lkjac+TR1c2tG+mkNSVlyOpInnWdSMiue4F+kq8TwJSgv6o8jhLRg8Ho6SnZ9wOYUq/yozts9qQCfk7bIw==}
+    engines: {node: '>=18'}
 
   lefthook-darwin-arm64@2.1.4:
     resolution: {integrity: sha512-BUAAE9+rUrjr39a+wH/1zHmGrDdwUQ2Yq/z6BQbM/yUb9qtXBRcQ5eOXxApqWW177VhGBpX31aqIlfAZ5Q7wzw==}
@@ -4360,6 +4367,8 @@ snapshots:
   kapsule@1.16.3:
     dependencies:
       lodash-es: 4.17.23
+
+  ky@1.14.3: {}
 
   lefthook-darwin-arm64@2.1.4:
     optional: true

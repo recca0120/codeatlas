@@ -1,0 +1,835 @@
+{
+  "countryCode": "albania",
+  "updatedAt": "2026-03-27T21:38:37.379Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "alb-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2000?v=4",
+        "name": "Dev 1 (Albania)",
+        "company": "Amazon",
+        "location": "Vlorë",
+        "bio": "Developer from Albania",
+        "followers": 5025,
+        "publicContributions": 35163,
+        "privateContributions": 458,
+        "languages": ["Dart", "Swift", "Go"],
+        "topRepos": [
+          {
+            "name": "alb-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1048,
+            "language": "Dart"
+          },
+          {
+            "name": "alb-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1055,
+            "language": "Swift"
+          },
+          {
+            "name": "alb-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1490,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "alb-dev-1",
+        "blog": "https://alb-dev-1.dev"
+      },
+      {
+        "login": "alb-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2001?v=4",
+        "name": "Dev 2 (Albania)",
+        "company": "Microsoft",
+        "location": "Tirana",
+        "bio": "Developer from Albania",
+        "followers": 4820,
+        "publicContributions": 33804,
+        "privateContributions": 40,
+        "languages": ["Java", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "alb-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1897,
+            "language": "Java"
+          },
+          {
+            "name": "alb-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1002,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 141,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "alb-dev-2",
+        "blog": null
+      },
+      {
+        "login": "alb-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2002?v=4",
+        "name": "Dev 3 (Albania)",
+        "company": "Stripe",
+        "location": "Durrës",
+        "bio": "Developer from Albania",
+        "followers": 4666,
+        "publicContributions": 32458,
+        "privateContributions": 343,
+        "languages": ["Dart", "Swift", "Java", "C++"],
+        "topRepos": [
+          {
+            "name": "alb-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 688,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2003?v=4",
+        "name": "Dev 4 (Albania)",
+        "company": "GitHub",
+        "location": "Albania",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31221,
+        "privateContributions": 43,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "alb-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 955,
+            "language": "Ruby"
+          },
+          {
+            "name": "alb-dev-4-proj-2",
+            "description": null,
+            "stars": 1072,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2004?v=4",
+        "name": "Dev 5 (Albania)",
+        "company": null,
+        "location": "Vlorë",
+        "bio": null,
+        "followers": 4288,
+        "publicContributions": 29901,
+        "privateContributions": 290,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "alb-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1344,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 94,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 415,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2005?v=4",
+        "name": "Dev 6 (Albania)",
+        "company": "Stripe",
+        "location": "Tirana",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28769,
+        "privateContributions": 40,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "alb-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 80,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2006?v=4",
+        "name": "Dev 7 (Albania)",
+        "company": "Meta",
+        "location": "Albania",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27673,
+        "privateContributions": 152,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "alb-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1615,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-7-proj-2",
+            "description": null,
+            "stars": 484,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2007?v=4",
+        "name": "Dev 8 (Albania)",
+        "company": "Meta",
+        "location": "Tirana",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26563,
+        "privateContributions": 113,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "alb-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 359,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1127,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2008?v=4",
+        "name": "Dev 9 (Albania)",
+        "company": "Microsoft",
+        "location": "Vlorë",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25557,
+        "privateContributions": 465,
+        "languages": ["TypeScript", "PHP", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "alb-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1333,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2009?v=4",
+        "name": "Dev 10 (Albania)",
+        "company": "Microsoft",
+        "location": "Albania",
+        "bio": null,
+        "followers": 3514,
+        "publicContributions": 24563,
+        "privateContributions": 164,
+        "languages": ["Go", "Java"],
+        "topRepos": [
+          {
+            "name": "alb-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1167,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "alb-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2000?v=4",
+        "name": "Dev 1 (Albania)",
+        "company": "Amazon",
+        "location": "Vlorë",
+        "bio": "Developer from Albania",
+        "followers": 5025,
+        "publicContributions": 35163,
+        "privateContributions": 458,
+        "languages": ["Dart", "Swift", "Go"],
+        "topRepos": [
+          {
+            "name": "alb-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1048,
+            "language": "Dart"
+          },
+          {
+            "name": "alb-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1055,
+            "language": "Swift"
+          },
+          {
+            "name": "alb-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1490,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "alb-dev-1",
+        "blog": "https://alb-dev-1.dev"
+      },
+      {
+        "login": "alb-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2001?v=4",
+        "name": "Dev 2 (Albania)",
+        "company": "Microsoft",
+        "location": "Tirana",
+        "bio": "Developer from Albania",
+        "followers": 4820,
+        "publicContributions": 33804,
+        "privateContributions": 40,
+        "languages": ["Java", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "alb-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1897,
+            "language": "Java"
+          },
+          {
+            "name": "alb-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1002,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 141,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "alb-dev-2",
+        "blog": null
+      },
+      {
+        "login": "alb-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2002?v=4",
+        "name": "Dev 3 (Albania)",
+        "company": "Stripe",
+        "location": "Durrës",
+        "bio": "Developer from Albania",
+        "followers": 4666,
+        "publicContributions": 32458,
+        "privateContributions": 343,
+        "languages": ["Dart", "Swift", "Java", "C++"],
+        "topRepos": [
+          {
+            "name": "alb-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 688,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2003?v=4",
+        "name": "Dev 4 (Albania)",
+        "company": "GitHub",
+        "location": "Albania",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31221,
+        "privateContributions": 43,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "alb-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 955,
+            "language": "Ruby"
+          },
+          {
+            "name": "alb-dev-4-proj-2",
+            "description": null,
+            "stars": 1072,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2004?v=4",
+        "name": "Dev 5 (Albania)",
+        "company": null,
+        "location": "Vlorë",
+        "bio": null,
+        "followers": 4288,
+        "publicContributions": 29901,
+        "privateContributions": 290,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "alb-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1344,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 94,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 415,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2005?v=4",
+        "name": "Dev 6 (Albania)",
+        "company": "Stripe",
+        "location": "Tirana",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28769,
+        "privateContributions": 40,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "alb-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 80,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2006?v=4",
+        "name": "Dev 7 (Albania)",
+        "company": "Meta",
+        "location": "Albania",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27673,
+        "privateContributions": 152,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "alb-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1615,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-7-proj-2",
+            "description": null,
+            "stars": 484,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2007?v=4",
+        "name": "Dev 8 (Albania)",
+        "company": "Meta",
+        "location": "Tirana",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26563,
+        "privateContributions": 113,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "alb-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 359,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1127,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2008?v=4",
+        "name": "Dev 9 (Albania)",
+        "company": "Microsoft",
+        "location": "Vlorë",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25557,
+        "privateContributions": 465,
+        "languages": ["TypeScript", "PHP", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "alb-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1333,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2009?v=4",
+        "name": "Dev 10 (Albania)",
+        "company": "Microsoft",
+        "location": "Albania",
+        "bio": null,
+        "followers": 3514,
+        "publicContributions": 24563,
+        "privateContributions": 164,
+        "languages": ["Go", "Java"],
+        "topRepos": [
+          {
+            "name": "alb-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1167,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "alb-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2000?v=4",
+        "name": "Dev 1 (Albania)",
+        "company": "Amazon",
+        "location": "Vlorë",
+        "bio": "Developer from Albania",
+        "followers": 5025,
+        "publicContributions": 35163,
+        "privateContributions": 458,
+        "languages": ["Dart", "Swift", "Go"],
+        "topRepos": [
+          {
+            "name": "alb-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1048,
+            "language": "Dart"
+          },
+          {
+            "name": "alb-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1055,
+            "language": "Swift"
+          },
+          {
+            "name": "alb-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1490,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "alb-dev-1",
+        "blog": "https://alb-dev-1.dev"
+      },
+      {
+        "login": "alb-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2001?v=4",
+        "name": "Dev 2 (Albania)",
+        "company": "Microsoft",
+        "location": "Tirana",
+        "bio": "Developer from Albania",
+        "followers": 4820,
+        "publicContributions": 33804,
+        "privateContributions": 40,
+        "languages": ["Java", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "alb-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1897,
+            "language": "Java"
+          },
+          {
+            "name": "alb-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1002,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 141,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "alb-dev-2",
+        "blog": null
+      },
+      {
+        "login": "alb-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2002?v=4",
+        "name": "Dev 3 (Albania)",
+        "company": "Stripe",
+        "location": "Durrës",
+        "bio": "Developer from Albania",
+        "followers": 4666,
+        "publicContributions": 32458,
+        "privateContributions": 343,
+        "languages": ["Dart", "Swift", "Java", "C++"],
+        "topRepos": [
+          {
+            "name": "alb-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 688,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2003?v=4",
+        "name": "Dev 4 (Albania)",
+        "company": "GitHub",
+        "location": "Albania",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31221,
+        "privateContributions": 43,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "alb-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 955,
+            "language": "Ruby"
+          },
+          {
+            "name": "alb-dev-4-proj-2",
+            "description": null,
+            "stars": 1072,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2004?v=4",
+        "name": "Dev 5 (Albania)",
+        "company": null,
+        "location": "Vlorë",
+        "bio": null,
+        "followers": 4288,
+        "publicContributions": 29901,
+        "privateContributions": 290,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "alb-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1344,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 94,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 415,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2005?v=4",
+        "name": "Dev 6 (Albania)",
+        "company": "Stripe",
+        "location": "Tirana",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28769,
+        "privateContributions": 40,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "alb-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 80,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2006?v=4",
+        "name": "Dev 7 (Albania)",
+        "company": "Meta",
+        "location": "Albania",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27673,
+        "privateContributions": 152,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "alb-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1615,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-7-proj-2",
+            "description": null,
+            "stars": 484,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2007?v=4",
+        "name": "Dev 8 (Albania)",
+        "company": "Meta",
+        "location": "Tirana",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26563,
+        "privateContributions": 113,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "alb-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 359,
+            "language": "TypeScript"
+          },
+          {
+            "name": "alb-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1127,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2008?v=4",
+        "name": "Dev 9 (Albania)",
+        "company": "Microsoft",
+        "location": "Vlorë",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25557,
+        "privateContributions": 465,
+        "languages": ["TypeScript", "PHP", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "alb-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1333,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "alb-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2009?v=4",
+        "name": "Dev 10 (Albania)",
+        "company": "Microsoft",
+        "location": "Albania",
+        "bio": null,
+        "followers": 3514,
+        "publicContributions": 24563,
+        "privateContributions": 164,
+        "languages": ["Go", "Java"],
+        "topRepos": [
+          {
+            "name": "alb-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1167,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

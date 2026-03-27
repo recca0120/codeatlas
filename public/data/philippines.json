@@ -1,0 +1,763 @@
+{
+  "countryCode": "philippines",
+  "updatedAt": "2026-03-27T21:38:37.393Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "phi-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98000?v=4",
+        "name": "Dev 1 (Philippines)",
+        "company": "Meta",
+        "location": "Cebu city",
+        "bio": "Developer from Philippines",
+        "followers": 5010,
+        "publicContributions": 35158,
+        "privateContributions": 483,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 975,
+            "language": "Ruby"
+          },
+          {
+            "name": "phi-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1433,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "phi-dev-1",
+        "blog": "https://phi-dev-1.dev"
+      },
+      {
+        "login": "phi-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98001?v=4",
+        "name": "Dev 2 (Philippines)",
+        "company": null,
+        "location": "Davao",
+        "bio": "Developer from Philippines",
+        "followers": 4843,
+        "publicContributions": 33776,
+        "privateContributions": 130,
+        "languages": ["TypeScript", "Dart", "C++", "Python"],
+        "topRepos": [
+          {
+            "name": "phi-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1797,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "phi-dev-2",
+        "blog": null
+      },
+      {
+        "login": "phi-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98002?v=4",
+        "name": "Dev 3 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": "Developer from Philippines",
+        "followers": 4660,
+        "publicContributions": 32425,
+        "privateContributions": 163,
+        "languages": ["Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1483,
+            "language": "Swift"
+          },
+          {
+            "name": "phi-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1621,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98003?v=4",
+        "name": "Dev 4 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": null,
+        "followers": 4451,
+        "publicContributions": 31214,
+        "privateContributions": 460,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 883,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98004?v=4",
+        "name": "Dev 5 (Philippines)",
+        "company": null,
+        "location": "Philippines",
+        "bio": null,
+        "followers": 4279,
+        "publicContributions": 29884,
+        "privateContributions": 478,
+        "languages": ["Rust", "Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 377,
+            "language": "Rust"
+          },
+          {
+            "name": "phi-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 922,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98005?v=4",
+        "name": "Dev 6 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28780,
+        "privateContributions": 351,
+        "languages": ["Kotlin", "Python", "Java", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 790,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98006?v=4",
+        "name": "Dev 7 (Philippines)",
+        "company": "Microsoft",
+        "location": "Manila",
+        "bio": null,
+        "followers": 3956,
+        "publicContributions": 27624,
+        "privateContributions": 416,
+        "languages": ["Go", "Dart"],
+        "topRepos": [
+          {
+            "name": "phi-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 497,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98007?v=4",
+        "name": "Dev 8 (Philippines)",
+        "company": "Stripe",
+        "location": "Davao",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26620,
+        "privateContributions": 308,
+        "languages": ["Ruby", "Dart", "C++"],
+        "topRepos": [
+          {
+            "name": "phi-dev-8-proj-1",
+            "description": null,
+            "stars": 492,
+            "language": "Ruby"
+          },
+          {
+            "name": "phi-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 989,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98008?v=4",
+        "name": "Dev 9 (Philippines)",
+        "company": null,
+        "location": "Davao",
+        "bio": null,
+        "followers": 3666,
+        "publicContributions": 25498,
+        "privateContributions": 50,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1422,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98009?v=4",
+        "name": "Dev 10 (Philippines)",
+        "company": "Vercel",
+        "location": "Davao",
+        "bio": null,
+        "followers": 3502,
+        "publicContributions": 24489,
+        "privateContributions": 276,
+        "languages": ["Kotlin", "C++", "Python", "Rust"],
+        "topRepos": [
+          {
+            "name": "phi-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 843,
+            "language": "Kotlin"
+          },
+          {
+            "name": "phi-dev-10-proj-2",
+            "description": null,
+            "stars": 1356,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "phi-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98000?v=4",
+        "name": "Dev 1 (Philippines)",
+        "company": "Meta",
+        "location": "Cebu city",
+        "bio": "Developer from Philippines",
+        "followers": 5010,
+        "publicContributions": 35158,
+        "privateContributions": 483,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 975,
+            "language": "Ruby"
+          },
+          {
+            "name": "phi-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1433,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "phi-dev-1",
+        "blog": "https://phi-dev-1.dev"
+      },
+      {
+        "login": "phi-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98001?v=4",
+        "name": "Dev 2 (Philippines)",
+        "company": null,
+        "location": "Davao",
+        "bio": "Developer from Philippines",
+        "followers": 4843,
+        "publicContributions": 33776,
+        "privateContributions": 130,
+        "languages": ["TypeScript", "Dart", "C++", "Python"],
+        "topRepos": [
+          {
+            "name": "phi-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1797,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "phi-dev-2",
+        "blog": null
+      },
+      {
+        "login": "phi-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98002?v=4",
+        "name": "Dev 3 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": "Developer from Philippines",
+        "followers": 4660,
+        "publicContributions": 32425,
+        "privateContributions": 163,
+        "languages": ["Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1483,
+            "language": "Swift"
+          },
+          {
+            "name": "phi-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1621,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98003?v=4",
+        "name": "Dev 4 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": null,
+        "followers": 4451,
+        "publicContributions": 31214,
+        "privateContributions": 460,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 883,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98004?v=4",
+        "name": "Dev 5 (Philippines)",
+        "company": null,
+        "location": "Philippines",
+        "bio": null,
+        "followers": 4279,
+        "publicContributions": 29884,
+        "privateContributions": 478,
+        "languages": ["Rust", "Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 377,
+            "language": "Rust"
+          },
+          {
+            "name": "phi-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 922,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98005?v=4",
+        "name": "Dev 6 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28780,
+        "privateContributions": 351,
+        "languages": ["Kotlin", "Python", "Java", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 790,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98006?v=4",
+        "name": "Dev 7 (Philippines)",
+        "company": "Microsoft",
+        "location": "Manila",
+        "bio": null,
+        "followers": 3956,
+        "publicContributions": 27624,
+        "privateContributions": 416,
+        "languages": ["Go", "Dart"],
+        "topRepos": [
+          {
+            "name": "phi-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 497,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98007?v=4",
+        "name": "Dev 8 (Philippines)",
+        "company": "Stripe",
+        "location": "Davao",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26620,
+        "privateContributions": 308,
+        "languages": ["Ruby", "Dart", "C++"],
+        "topRepos": [
+          {
+            "name": "phi-dev-8-proj-1",
+            "description": null,
+            "stars": 492,
+            "language": "Ruby"
+          },
+          {
+            "name": "phi-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 989,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98008?v=4",
+        "name": "Dev 9 (Philippines)",
+        "company": null,
+        "location": "Davao",
+        "bio": null,
+        "followers": 3666,
+        "publicContributions": 25498,
+        "privateContributions": 50,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1422,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98009?v=4",
+        "name": "Dev 10 (Philippines)",
+        "company": "Vercel",
+        "location": "Davao",
+        "bio": null,
+        "followers": 3502,
+        "publicContributions": 24489,
+        "privateContributions": 276,
+        "languages": ["Kotlin", "C++", "Python", "Rust"],
+        "topRepos": [
+          {
+            "name": "phi-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 843,
+            "language": "Kotlin"
+          },
+          {
+            "name": "phi-dev-10-proj-2",
+            "description": null,
+            "stars": 1356,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "phi-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98000?v=4",
+        "name": "Dev 1 (Philippines)",
+        "company": "Meta",
+        "location": "Cebu city",
+        "bio": "Developer from Philippines",
+        "followers": 5010,
+        "publicContributions": 35158,
+        "privateContributions": 483,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 975,
+            "language": "Ruby"
+          },
+          {
+            "name": "phi-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1433,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "phi-dev-1",
+        "blog": "https://phi-dev-1.dev"
+      },
+      {
+        "login": "phi-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98001?v=4",
+        "name": "Dev 2 (Philippines)",
+        "company": null,
+        "location": "Davao",
+        "bio": "Developer from Philippines",
+        "followers": 4843,
+        "publicContributions": 33776,
+        "privateContributions": 130,
+        "languages": ["TypeScript", "Dart", "C++", "Python"],
+        "topRepos": [
+          {
+            "name": "phi-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1797,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "phi-dev-2",
+        "blog": null
+      },
+      {
+        "login": "phi-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98002?v=4",
+        "name": "Dev 3 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": "Developer from Philippines",
+        "followers": 4660,
+        "publicContributions": 32425,
+        "privateContributions": 163,
+        "languages": ["Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1483,
+            "language": "Swift"
+          },
+          {
+            "name": "phi-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1621,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98003?v=4",
+        "name": "Dev 4 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": null,
+        "followers": 4451,
+        "publicContributions": 31214,
+        "privateContributions": 460,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 883,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98004?v=4",
+        "name": "Dev 5 (Philippines)",
+        "company": null,
+        "location": "Philippines",
+        "bio": null,
+        "followers": 4279,
+        "publicContributions": 29884,
+        "privateContributions": 478,
+        "languages": ["Rust", "Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "phi-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 377,
+            "language": "Rust"
+          },
+          {
+            "name": "phi-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 922,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98005?v=4",
+        "name": "Dev 6 (Philippines)",
+        "company": null,
+        "location": "Manila",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28780,
+        "privateContributions": 351,
+        "languages": ["Kotlin", "Python", "Java", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 790,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98006?v=4",
+        "name": "Dev 7 (Philippines)",
+        "company": "Microsoft",
+        "location": "Manila",
+        "bio": null,
+        "followers": 3956,
+        "publicContributions": 27624,
+        "privateContributions": 416,
+        "languages": ["Go", "Dart"],
+        "topRepos": [
+          {
+            "name": "phi-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 497,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98007?v=4",
+        "name": "Dev 8 (Philippines)",
+        "company": "Stripe",
+        "location": "Davao",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26620,
+        "privateContributions": 308,
+        "languages": ["Ruby", "Dart", "C++"],
+        "topRepos": [
+          {
+            "name": "phi-dev-8-proj-1",
+            "description": null,
+            "stars": 492,
+            "language": "Ruby"
+          },
+          {
+            "name": "phi-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 989,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98008?v=4",
+        "name": "Dev 9 (Philippines)",
+        "company": null,
+        "location": "Davao",
+        "bio": null,
+        "followers": 3666,
+        "publicContributions": 25498,
+        "privateContributions": 50,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "phi-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1422,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "phi-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98009?v=4",
+        "name": "Dev 10 (Philippines)",
+        "company": "Vercel",
+        "location": "Davao",
+        "bio": null,
+        "followers": 3502,
+        "publicContributions": 24489,
+        "privateContributions": 276,
+        "languages": ["Kotlin", "C++", "Python", "Rust"],
+        "topRepos": [
+          {
+            "name": "phi-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 843,
+            "language": "Kotlin"
+          },
+          {
+            "name": "phi-dev-10-proj-2",
+            "description": null,
+            "stars": 1356,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,925 @@
+{
+  "countryCode": "czechia",
+  "updatedAt": "2026-03-27T21:38:37.384Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "cze-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35000?v=4",
+        "name": "Dev 1 (Czechia)",
+        "company": "Google",
+        "location": "Czechia",
+        "bio": "Developer from Czechia",
+        "followers": 5039,
+        "publicContributions": 35154,
+        "privateContributions": 368,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "cze-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 459,
+            "language": "Python"
+          },
+          {
+            "name": "cze-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1216,
+            "language": "Python"
+          },
+          {
+            "name": "cze-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 810,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "cze-dev-1",
+        "blog": "https://cze-dev-1.dev"
+      },
+      {
+        "login": "cze-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35001?v=4",
+        "name": "Dev 2 (Czechia)",
+        "company": "Stripe",
+        "location": "Czechia",
+        "bio": "Developer from Czechia",
+        "followers": 4839,
+        "publicContributions": 33725,
+        "privateContributions": 428,
+        "languages": ["JavaScript", "Ruby", "Dart"],
+        "topRepos": [
+          {
+            "name": "cze-dev-2-proj-1",
+            "description": null,
+            "stars": 1563,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cze-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 124,
+            "language": "Ruby"
+          },
+          {
+            "name": "cze-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1964,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "cze-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cze-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35002?v=4",
+        "name": "Dev 3 (Czechia)",
+        "company": "Microsoft",
+        "location": "Brno",
+        "bio": "Developer from Czechia",
+        "followers": 4645,
+        "publicContributions": 32500,
+        "privateContributions": 262,
+        "languages": ["Go", "Rust", "Kotlin", "Swift"],
+        "topRepos": [
+          {
+            "name": "cze-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1563,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 759,
+            "language": "Rust"
+          },
+          {
+            "name": "cze-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1537,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35003?v=4",
+        "name": "Dev 4 (Czechia)",
+        "company": "GitHub",
+        "location": "Brno",
+        "bio": null,
+        "followers": 4473,
+        "publicContributions": 31223,
+        "privateContributions": 96,
+        "languages": ["Java", "Ruby", "Kotlin", "PHP"],
+        "topRepos": [
+          {
+            "name": "cze-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 759,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1380,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35004?v=4",
+        "name": "Dev 5 (Czechia)",
+        "company": null,
+        "location": "Brno",
+        "bio": null,
+        "followers": 4277,
+        "publicContributions": 29877,
+        "privateContributions": 374,
+        "languages": ["Swift", "Go"],
+        "topRepos": [
+          {
+            "name": "cze-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1361,
+            "language": "Swift"
+          },
+          {
+            "name": "cze-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 359,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 503,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35005?v=4",
+        "name": "Dev 6 (Czechia)",
+        "company": "Meta",
+        "location": "Prague",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28764,
+        "privateContributions": 81,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "cze-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 652,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-6-proj-2",
+            "description": null,
+            "stars": 731,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-6-proj-3",
+            "description": "API wrapper",
+            "stars": 345,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35006?v=4",
+        "name": "Dev 7 (Czechia)",
+        "company": null,
+        "location": "Brno",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27607,
+        "privateContributions": 126,
+        "languages": ["Go", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "cze-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 998,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 237,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35007?v=4",
+        "name": "Dev 8 (Czechia)",
+        "company": "Apple",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26624,
+        "privateContributions": 375,
+        "languages": ["Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "cze-dev-8-proj-1",
+            "description": null,
+            "stars": 149,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35008?v=4",
+        "name": "Dev 9 (Czechia)",
+        "company": "Meta",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25528,
+        "privateContributions": 91,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "cze-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1172,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cze-dev-9-proj-2",
+            "description": null,
+            "stars": 1410,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cze-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 347,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35009?v=4",
+        "name": "Dev 10 (Czechia)",
+        "company": "Apple",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3499,
+        "publicContributions": 24584,
+        "privateContributions": 133,
+        "languages": ["Rust", "Ruby", "C++", "Swift"],
+        "topRepos": [
+          {
+            "name": "cze-dev-10-proj-1",
+            "description": null,
+            "stars": 327,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "cze-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35000?v=4",
+        "name": "Dev 1 (Czechia)",
+        "company": "Google",
+        "location": "Czechia",
+        "bio": "Developer from Czechia",
+        "followers": 5039,
+        "publicContributions": 35154,
+        "privateContributions": 368,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "cze-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 459,
+            "language": "Python"
+          },
+          {
+            "name": "cze-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1216,
+            "language": "Python"
+          },
+          {
+            "name": "cze-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 810,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "cze-dev-1",
+        "blog": "https://cze-dev-1.dev"
+      },
+      {
+        "login": "cze-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35001?v=4",
+        "name": "Dev 2 (Czechia)",
+        "company": "Stripe",
+        "location": "Czechia",
+        "bio": "Developer from Czechia",
+        "followers": 4839,
+        "publicContributions": 33725,
+        "privateContributions": 428,
+        "languages": ["JavaScript", "Ruby", "Dart"],
+        "topRepos": [
+          {
+            "name": "cze-dev-2-proj-1",
+            "description": null,
+            "stars": 1563,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cze-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 124,
+            "language": "Ruby"
+          },
+          {
+            "name": "cze-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1964,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "cze-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cze-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35002?v=4",
+        "name": "Dev 3 (Czechia)",
+        "company": "Microsoft",
+        "location": "Brno",
+        "bio": "Developer from Czechia",
+        "followers": 4645,
+        "publicContributions": 32500,
+        "privateContributions": 262,
+        "languages": ["Go", "Rust", "Kotlin", "Swift"],
+        "topRepos": [
+          {
+            "name": "cze-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1563,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 759,
+            "language": "Rust"
+          },
+          {
+            "name": "cze-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1537,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35003?v=4",
+        "name": "Dev 4 (Czechia)",
+        "company": "GitHub",
+        "location": "Brno",
+        "bio": null,
+        "followers": 4473,
+        "publicContributions": 31223,
+        "privateContributions": 96,
+        "languages": ["Java", "Ruby", "Kotlin", "PHP"],
+        "topRepos": [
+          {
+            "name": "cze-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 759,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1380,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35004?v=4",
+        "name": "Dev 5 (Czechia)",
+        "company": null,
+        "location": "Brno",
+        "bio": null,
+        "followers": 4277,
+        "publicContributions": 29877,
+        "privateContributions": 374,
+        "languages": ["Swift", "Go"],
+        "topRepos": [
+          {
+            "name": "cze-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1361,
+            "language": "Swift"
+          },
+          {
+            "name": "cze-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 359,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 503,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35005?v=4",
+        "name": "Dev 6 (Czechia)",
+        "company": "Meta",
+        "location": "Prague",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28764,
+        "privateContributions": 81,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "cze-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 652,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-6-proj-2",
+            "description": null,
+            "stars": 731,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-6-proj-3",
+            "description": "API wrapper",
+            "stars": 345,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35006?v=4",
+        "name": "Dev 7 (Czechia)",
+        "company": null,
+        "location": "Brno",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27607,
+        "privateContributions": 126,
+        "languages": ["Go", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "cze-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 998,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 237,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35007?v=4",
+        "name": "Dev 8 (Czechia)",
+        "company": "Apple",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26624,
+        "privateContributions": 375,
+        "languages": ["Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "cze-dev-8-proj-1",
+            "description": null,
+            "stars": 149,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35008?v=4",
+        "name": "Dev 9 (Czechia)",
+        "company": "Meta",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25528,
+        "privateContributions": 91,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "cze-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1172,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cze-dev-9-proj-2",
+            "description": null,
+            "stars": 1410,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cze-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 347,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35009?v=4",
+        "name": "Dev 10 (Czechia)",
+        "company": "Apple",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3499,
+        "publicContributions": 24584,
+        "privateContributions": 133,
+        "languages": ["Rust", "Ruby", "C++", "Swift"],
+        "topRepos": [
+          {
+            "name": "cze-dev-10-proj-1",
+            "description": null,
+            "stars": 327,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "cze-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35000?v=4",
+        "name": "Dev 1 (Czechia)",
+        "company": "Google",
+        "location": "Czechia",
+        "bio": "Developer from Czechia",
+        "followers": 5039,
+        "publicContributions": 35154,
+        "privateContributions": 368,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "cze-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 459,
+            "language": "Python"
+          },
+          {
+            "name": "cze-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1216,
+            "language": "Python"
+          },
+          {
+            "name": "cze-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 810,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "cze-dev-1",
+        "blog": "https://cze-dev-1.dev"
+      },
+      {
+        "login": "cze-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35001?v=4",
+        "name": "Dev 2 (Czechia)",
+        "company": "Stripe",
+        "location": "Czechia",
+        "bio": "Developer from Czechia",
+        "followers": 4839,
+        "publicContributions": 33725,
+        "privateContributions": 428,
+        "languages": ["JavaScript", "Ruby", "Dart"],
+        "topRepos": [
+          {
+            "name": "cze-dev-2-proj-1",
+            "description": null,
+            "stars": 1563,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cze-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 124,
+            "language": "Ruby"
+          },
+          {
+            "name": "cze-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1964,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "cze-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cze-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35002?v=4",
+        "name": "Dev 3 (Czechia)",
+        "company": "Microsoft",
+        "location": "Brno",
+        "bio": "Developer from Czechia",
+        "followers": 4645,
+        "publicContributions": 32500,
+        "privateContributions": 262,
+        "languages": ["Go", "Rust", "Kotlin", "Swift"],
+        "topRepos": [
+          {
+            "name": "cze-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1563,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 759,
+            "language": "Rust"
+          },
+          {
+            "name": "cze-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1537,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35003?v=4",
+        "name": "Dev 4 (Czechia)",
+        "company": "GitHub",
+        "location": "Brno",
+        "bio": null,
+        "followers": 4473,
+        "publicContributions": 31223,
+        "privateContributions": 96,
+        "languages": ["Java", "Ruby", "Kotlin", "PHP"],
+        "topRepos": [
+          {
+            "name": "cze-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 759,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1380,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35004?v=4",
+        "name": "Dev 5 (Czechia)",
+        "company": null,
+        "location": "Brno",
+        "bio": null,
+        "followers": 4277,
+        "publicContributions": 29877,
+        "privateContributions": 374,
+        "languages": ["Swift", "Go"],
+        "topRepos": [
+          {
+            "name": "cze-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1361,
+            "language": "Swift"
+          },
+          {
+            "name": "cze-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 359,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 503,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35005?v=4",
+        "name": "Dev 6 (Czechia)",
+        "company": "Meta",
+        "location": "Prague",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28764,
+        "privateContributions": 81,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "cze-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 652,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-6-proj-2",
+            "description": null,
+            "stars": 731,
+            "language": "Java"
+          },
+          {
+            "name": "cze-dev-6-proj-3",
+            "description": "API wrapper",
+            "stars": 345,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35006?v=4",
+        "name": "Dev 7 (Czechia)",
+        "company": null,
+        "location": "Brno",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27607,
+        "privateContributions": 126,
+        "languages": ["Go", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "cze-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 998,
+            "language": "Go"
+          },
+          {
+            "name": "cze-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 237,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35007?v=4",
+        "name": "Dev 8 (Czechia)",
+        "company": "Apple",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26624,
+        "privateContributions": 375,
+        "languages": ["Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "cze-dev-8-proj-1",
+            "description": null,
+            "stars": 149,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35008?v=4",
+        "name": "Dev 9 (Czechia)",
+        "company": "Meta",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25528,
+        "privateContributions": 91,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "cze-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1172,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cze-dev-9-proj-2",
+            "description": null,
+            "stars": 1410,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cze-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 347,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cze-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35009?v=4",
+        "name": "Dev 10 (Czechia)",
+        "company": "Apple",
+        "location": "Prague",
+        "bio": null,
+        "followers": 3499,
+        "publicContributions": 24584,
+        "privateContributions": 133,
+        "languages": ["Rust", "Ruby", "C++", "Swift"],
+        "topRepos": [
+          {
+            "name": "cze-dev-10-proj-1",
+            "description": null,
+            "stars": 327,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,925 @@
+{
+  "countryCode": "angola",
+  "updatedAt": "2026-03-27T21:38:37.379Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "ang-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5000?v=4",
+        "name": "Dev 1 (Angola)",
+        "company": "Microsoft",
+        "location": "Luanda",
+        "bio": "Developer from Angola",
+        "followers": 5028,
+        "publicContributions": 35122,
+        "privateContributions": 461,
+        "languages": ["Python", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 939,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1314,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 512,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ang-dev-1",
+        "blog": "https://ang-dev-1.dev"
+      },
+      {
+        "login": "ang-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5001?v=4",
+        "name": "Dev 2 (Angola)",
+        "company": null,
+        "location": "Luanda",
+        "bio": "Developer from Angola",
+        "followers": 4839,
+        "publicContributions": 33704,
+        "privateContributions": 97,
+        "languages": ["TypeScript", "Go", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "ang-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 460,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ang-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1947,
+            "language": "Go"
+          },
+          {
+            "name": "ang-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1928,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ang-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ang-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5002?v=4",
+        "name": "Dev 3 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": "Developer from Angola",
+        "followers": 4628,
+        "publicContributions": 32470,
+        "privateContributions": 387,
+        "languages": ["C++", "Rust", "TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1329,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1717,
+            "language": "Rust"
+          },
+          {
+            "name": "ang-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 436,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5003?v=4",
+        "name": "Dev 4 (Angola)",
+        "company": null,
+        "location": "Luanda",
+        "bio": null,
+        "followers": 4460,
+        "publicContributions": 31137,
+        "privateContributions": 7,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 498,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5004?v=4",
+        "name": "Dev 5 (Angola)",
+        "company": "Amazon",
+        "location": "Luanda",
+        "bio": null,
+        "followers": 4311,
+        "publicContributions": 29992,
+        "privateContributions": 45,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "ang-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 308,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5005?v=4",
+        "name": "Dev 6 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 4108,
+        "publicContributions": 28828,
+        "privateContributions": 78,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "ang-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 873,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ang-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1458,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5006?v=4",
+        "name": "Dev 7 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27718,
+        "privateContributions": 132,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1065,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-7-proj-2",
+            "description": null,
+            "stars": 331,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5007?v=4",
+        "name": "Dev 8 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26549,
+        "privateContributions": 350,
+        "languages": ["Python", "C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-8-proj-1",
+            "description": null,
+            "stars": 1091,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1147,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5008?v=4",
+        "name": "Dev 9 (Angola)",
+        "company": "GitHub",
+        "location": "Angola",
+        "bio": null,
+        "followers": 3651,
+        "publicContributions": 25555,
+        "privateContributions": 376,
+        "languages": ["Go", "Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "ang-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 287,
+            "language": "Go"
+          },
+          {
+            "name": "ang-dev-9-proj-2",
+            "description": null,
+            "stars": 695,
+            "language": "Dart"
+          },
+          {
+            "name": "ang-dev-9-proj-3",
+            "description": null,
+            "stars": 177,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5009?v=4",
+        "name": "Dev 10 (Angola)",
+        "company": null,
+        "location": "Huambo",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24588,
+        "privateContributions": 344,
+        "languages": ["TypeScript", "Python"],
+        "topRepos": [
+          {
+            "name": "ang-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1205,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ang-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 982,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 689,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "ang-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5000?v=4",
+        "name": "Dev 1 (Angola)",
+        "company": "Microsoft",
+        "location": "Luanda",
+        "bio": "Developer from Angola",
+        "followers": 5028,
+        "publicContributions": 35122,
+        "privateContributions": 461,
+        "languages": ["Python", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 939,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1314,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 512,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ang-dev-1",
+        "blog": "https://ang-dev-1.dev"
+      },
+      {
+        "login": "ang-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5001?v=4",
+        "name": "Dev 2 (Angola)",
+        "company": null,
+        "location": "Luanda",
+        "bio": "Developer from Angola",
+        "followers": 4839,
+        "publicContributions": 33704,
+        "privateContributions": 97,
+        "languages": ["TypeScript", "Go", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "ang-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 460,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ang-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1947,
+            "language": "Go"
+          },
+          {
+            "name": "ang-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1928,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ang-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ang-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5002?v=4",
+        "name": "Dev 3 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": "Developer from Angola",
+        "followers": 4628,
+        "publicContributions": 32470,
+        "privateContributions": 387,
+        "languages": ["C++", "Rust", "TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1329,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1717,
+            "language": "Rust"
+          },
+          {
+            "name": "ang-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 436,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5003?v=4",
+        "name": "Dev 4 (Angola)",
+        "company": null,
+        "location": "Luanda",
+        "bio": null,
+        "followers": 4460,
+        "publicContributions": 31137,
+        "privateContributions": 7,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 498,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5004?v=4",
+        "name": "Dev 5 (Angola)",
+        "company": "Amazon",
+        "location": "Luanda",
+        "bio": null,
+        "followers": 4311,
+        "publicContributions": 29992,
+        "privateContributions": 45,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "ang-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 308,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5005?v=4",
+        "name": "Dev 6 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 4108,
+        "publicContributions": 28828,
+        "privateContributions": 78,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "ang-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 873,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ang-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1458,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5006?v=4",
+        "name": "Dev 7 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27718,
+        "privateContributions": 132,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1065,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-7-proj-2",
+            "description": null,
+            "stars": 331,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5007?v=4",
+        "name": "Dev 8 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26549,
+        "privateContributions": 350,
+        "languages": ["Python", "C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-8-proj-1",
+            "description": null,
+            "stars": 1091,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1147,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5008?v=4",
+        "name": "Dev 9 (Angola)",
+        "company": "GitHub",
+        "location": "Angola",
+        "bio": null,
+        "followers": 3651,
+        "publicContributions": 25555,
+        "privateContributions": 376,
+        "languages": ["Go", "Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "ang-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 287,
+            "language": "Go"
+          },
+          {
+            "name": "ang-dev-9-proj-2",
+            "description": null,
+            "stars": 695,
+            "language": "Dart"
+          },
+          {
+            "name": "ang-dev-9-proj-3",
+            "description": null,
+            "stars": 177,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5009?v=4",
+        "name": "Dev 10 (Angola)",
+        "company": null,
+        "location": "Huambo",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24588,
+        "privateContributions": 344,
+        "languages": ["TypeScript", "Python"],
+        "topRepos": [
+          {
+            "name": "ang-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1205,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ang-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 982,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 689,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "ang-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5000?v=4",
+        "name": "Dev 1 (Angola)",
+        "company": "Microsoft",
+        "location": "Luanda",
+        "bio": "Developer from Angola",
+        "followers": 5028,
+        "publicContributions": 35122,
+        "privateContributions": 461,
+        "languages": ["Python", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 939,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1314,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-1-proj-3",
+            "description": "Web framework for developers",
+            "stars": 512,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ang-dev-1",
+        "blog": "https://ang-dev-1.dev"
+      },
+      {
+        "login": "ang-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5001?v=4",
+        "name": "Dev 2 (Angola)",
+        "company": null,
+        "location": "Luanda",
+        "bio": "Developer from Angola",
+        "followers": 4839,
+        "publicContributions": 33704,
+        "privateContributions": 97,
+        "languages": ["TypeScript", "Go", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "ang-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 460,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ang-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1947,
+            "language": "Go"
+          },
+          {
+            "name": "ang-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1928,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ang-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ang-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5002?v=4",
+        "name": "Dev 3 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": "Developer from Angola",
+        "followers": 4628,
+        "publicContributions": 32470,
+        "privateContributions": 387,
+        "languages": ["C++", "Rust", "TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1329,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1717,
+            "language": "Rust"
+          },
+          {
+            "name": "ang-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 436,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5003?v=4",
+        "name": "Dev 4 (Angola)",
+        "company": null,
+        "location": "Luanda",
+        "bio": null,
+        "followers": 4460,
+        "publicContributions": 31137,
+        "privateContributions": 7,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 498,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5004?v=4",
+        "name": "Dev 5 (Angola)",
+        "company": "Amazon",
+        "location": "Luanda",
+        "bio": null,
+        "followers": 4311,
+        "publicContributions": 29992,
+        "privateContributions": 45,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "ang-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 308,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5005?v=4",
+        "name": "Dev 6 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 4108,
+        "publicContributions": 28828,
+        "privateContributions": 78,
+        "languages": ["Kotlin", "Dart"],
+        "topRepos": [
+          {
+            "name": "ang-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 873,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ang-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1458,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5006?v=4",
+        "name": "Dev 7 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 3983,
+        "publicContributions": 27718,
+        "privateContributions": 132,
+        "languages": ["Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1065,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-7-proj-2",
+            "description": null,
+            "stars": 331,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5007?v=4",
+        "name": "Dev 8 (Angola)",
+        "company": null,
+        "location": "Angola",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26549,
+        "privateContributions": 350,
+        "languages": ["Python", "C++", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "ang-dev-8-proj-1",
+            "description": null,
+            "stars": 1091,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1147,
+            "language": "C++"
+          },
+          {
+            "name": "ang-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5008?v=4",
+        "name": "Dev 9 (Angola)",
+        "company": "GitHub",
+        "location": "Angola",
+        "bio": null,
+        "followers": 3651,
+        "publicContributions": 25555,
+        "privateContributions": 376,
+        "languages": ["Go", "Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "ang-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 287,
+            "language": "Go"
+          },
+          {
+            "name": "ang-dev-9-proj-2",
+            "description": null,
+            "stars": 695,
+            "language": "Dart"
+          },
+          {
+            "name": "ang-dev-9-proj-3",
+            "description": null,
+            "stars": 177,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ang-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5009?v=4",
+        "name": "Dev 10 (Angola)",
+        "company": null,
+        "location": "Huambo",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24588,
+        "privateContributions": 344,
+        "languages": ["TypeScript", "Python"],
+        "topRepos": [
+          {
+            "name": "ang-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1205,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ang-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 982,
+            "language": "Python"
+          },
+          {
+            "name": "ang-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 689,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

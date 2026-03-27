@@ -1,0 +1,943 @@
+{
+  "countryCode": "austria",
+  "updatedAt": "2026-03-27T21:38:37.380Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "aus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9000?v=4",
+        "name": "Dev 1 (Austria)",
+        "company": "Microsoft",
+        "location": "Austria",
+        "bio": "Developer from Austria",
+        "followers": 5016,
+        "publicContributions": 35064,
+        "privateContributions": 418,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "aus-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1961,
+            "language": "JavaScript"
+          },
+          {
+            "name": "aus-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 445,
+            "language": "JavaScript"
+          },
+          {
+            "name": "aus-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 653,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "aus-dev-1",
+        "blog": "https://aus-dev-1.dev"
+      },
+      {
+        "login": "aus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9001?v=4",
+        "name": "Dev 2 (Austria)",
+        "company": "Google",
+        "location": "Innsbruck",
+        "bio": "Developer from Austria",
+        "followers": 4818,
+        "publicContributions": 33802,
+        "privateContributions": 197,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "aus-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1688,
+            "language": "TypeScript"
+          },
+          {
+            "name": "aus-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1175,
+            "language": "TypeScript"
+          },
+          {
+            "name": "aus-dev-2-proj-3",
+            "description": null,
+            "stars": 782,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "aus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "aus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9002?v=4",
+        "name": "Dev 3 (Austria)",
+        "company": null,
+        "location": "Salzburg",
+        "bio": "Developer from Austria",
+        "followers": 4650,
+        "publicContributions": 32447,
+        "privateContributions": 272,
+        "languages": ["Rust", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "aus-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1240,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9003?v=4",
+        "name": "Dev 4 (Austria)",
+        "company": null,
+        "location": "Graz",
+        "bio": null,
+        "followers": 4472,
+        "publicContributions": 31115,
+        "privateContributions": 184,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "aus-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 745,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 833,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1518,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9004?v=4",
+        "name": "Dev 5 (Austria)",
+        "company": "GitHub",
+        "location": "Vienna",
+        "bio": null,
+        "followers": 4309,
+        "publicContributions": 29975,
+        "privateContributions": 36,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "aus-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 736,
+            "language": "Java"
+          },
+          {
+            "name": "aus-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1038,
+            "language": "Java"
+          },
+          {
+            "name": "aus-dev-5-proj-3",
+            "description": "Web framework for developers",
+            "stars": 508,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9005?v=4",
+        "name": "Dev 6 (Austria)",
+        "company": "Vercel",
+        "location": "Graz",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28820,
+        "privateContributions": 37,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "aus-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 89,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9006?v=4",
+        "name": "Dev 7 (Austria)",
+        "company": "Vercel",
+        "location": "Graz",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27722,
+        "privateContributions": 334,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "aus-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1418,
+            "language": "Swift"
+          },
+          {
+            "name": "aus-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1528,
+            "language": "Swift"
+          },
+          {
+            "name": "aus-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1381,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9007?v=4",
+        "name": "Dev 8 (Austria)",
+        "company": null,
+        "location": "Austria",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26609,
+        "privateContributions": 344,
+        "languages": ["Go", "Python", "Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "aus-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 660,
+            "language": "Go"
+          },
+          {
+            "name": "aus-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 152,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-8-proj-3",
+            "description": null,
+            "stars": 474,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9008?v=4",
+        "name": "Dev 9 (Austria)",
+        "company": "Meta",
+        "location": "Salzburg",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25585,
+        "privateContributions": 376,
+        "languages": ["PHP", "JavaScript", "Dart", "Ruby"],
+        "topRepos": [
+          {
+            "name": "aus-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 251,
+            "language": "PHP"
+          },
+          {
+            "name": "aus-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 82,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9009?v=4",
+        "name": "Dev 10 (Austria)",
+        "company": null,
+        "location": "Vienna",
+        "bio": null,
+        "followers": 3510,
+        "publicContributions": 24557,
+        "privateContributions": 379,
+        "languages": ["Go", "Dart", "Python"],
+        "topRepos": [
+          {
+            "name": "aus-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1364,
+            "language": "Go"
+          },
+          {
+            "name": "aus-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1373,
+            "language": "Dart"
+          },
+          {
+            "name": "aus-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 861,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "aus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9000?v=4",
+        "name": "Dev 1 (Austria)",
+        "company": "Microsoft",
+        "location": "Austria",
+        "bio": "Developer from Austria",
+        "followers": 5016,
+        "publicContributions": 35064,
+        "privateContributions": 418,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "aus-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1961,
+            "language": "JavaScript"
+          },
+          {
+            "name": "aus-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 445,
+            "language": "JavaScript"
+          },
+          {
+            "name": "aus-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 653,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "aus-dev-1",
+        "blog": "https://aus-dev-1.dev"
+      },
+      {
+        "login": "aus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9001?v=4",
+        "name": "Dev 2 (Austria)",
+        "company": "Google",
+        "location": "Innsbruck",
+        "bio": "Developer from Austria",
+        "followers": 4818,
+        "publicContributions": 33802,
+        "privateContributions": 197,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "aus-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1688,
+            "language": "TypeScript"
+          },
+          {
+            "name": "aus-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1175,
+            "language": "TypeScript"
+          },
+          {
+            "name": "aus-dev-2-proj-3",
+            "description": null,
+            "stars": 782,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "aus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "aus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9002?v=4",
+        "name": "Dev 3 (Austria)",
+        "company": null,
+        "location": "Salzburg",
+        "bio": "Developer from Austria",
+        "followers": 4650,
+        "publicContributions": 32447,
+        "privateContributions": 272,
+        "languages": ["Rust", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "aus-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1240,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9003?v=4",
+        "name": "Dev 4 (Austria)",
+        "company": null,
+        "location": "Graz",
+        "bio": null,
+        "followers": 4472,
+        "publicContributions": 31115,
+        "privateContributions": 184,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "aus-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 745,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 833,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1518,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9004?v=4",
+        "name": "Dev 5 (Austria)",
+        "company": "GitHub",
+        "location": "Vienna",
+        "bio": null,
+        "followers": 4309,
+        "publicContributions": 29975,
+        "privateContributions": 36,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "aus-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 736,
+            "language": "Java"
+          },
+          {
+            "name": "aus-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1038,
+            "language": "Java"
+          },
+          {
+            "name": "aus-dev-5-proj-3",
+            "description": "Web framework for developers",
+            "stars": 508,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9005?v=4",
+        "name": "Dev 6 (Austria)",
+        "company": "Vercel",
+        "location": "Graz",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28820,
+        "privateContributions": 37,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "aus-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 89,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9006?v=4",
+        "name": "Dev 7 (Austria)",
+        "company": "Vercel",
+        "location": "Graz",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27722,
+        "privateContributions": 334,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "aus-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1418,
+            "language": "Swift"
+          },
+          {
+            "name": "aus-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1528,
+            "language": "Swift"
+          },
+          {
+            "name": "aus-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1381,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9007?v=4",
+        "name": "Dev 8 (Austria)",
+        "company": null,
+        "location": "Austria",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26609,
+        "privateContributions": 344,
+        "languages": ["Go", "Python", "Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "aus-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 660,
+            "language": "Go"
+          },
+          {
+            "name": "aus-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 152,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-8-proj-3",
+            "description": null,
+            "stars": 474,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9008?v=4",
+        "name": "Dev 9 (Austria)",
+        "company": "Meta",
+        "location": "Salzburg",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25585,
+        "privateContributions": 376,
+        "languages": ["PHP", "JavaScript", "Dart", "Ruby"],
+        "topRepos": [
+          {
+            "name": "aus-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 251,
+            "language": "PHP"
+          },
+          {
+            "name": "aus-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 82,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9009?v=4",
+        "name": "Dev 10 (Austria)",
+        "company": null,
+        "location": "Vienna",
+        "bio": null,
+        "followers": 3510,
+        "publicContributions": 24557,
+        "privateContributions": 379,
+        "languages": ["Go", "Dart", "Python"],
+        "topRepos": [
+          {
+            "name": "aus-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1364,
+            "language": "Go"
+          },
+          {
+            "name": "aus-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1373,
+            "language": "Dart"
+          },
+          {
+            "name": "aus-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 861,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "aus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9000?v=4",
+        "name": "Dev 1 (Austria)",
+        "company": "Microsoft",
+        "location": "Austria",
+        "bio": "Developer from Austria",
+        "followers": 5016,
+        "publicContributions": 35064,
+        "privateContributions": 418,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "aus-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1961,
+            "language": "JavaScript"
+          },
+          {
+            "name": "aus-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 445,
+            "language": "JavaScript"
+          },
+          {
+            "name": "aus-dev-1-proj-3",
+            "description": "API wrapper",
+            "stars": 653,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "aus-dev-1",
+        "blog": "https://aus-dev-1.dev"
+      },
+      {
+        "login": "aus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9001?v=4",
+        "name": "Dev 2 (Austria)",
+        "company": "Google",
+        "location": "Innsbruck",
+        "bio": "Developer from Austria",
+        "followers": 4818,
+        "publicContributions": 33802,
+        "privateContributions": 197,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "aus-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1688,
+            "language": "TypeScript"
+          },
+          {
+            "name": "aus-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1175,
+            "language": "TypeScript"
+          },
+          {
+            "name": "aus-dev-2-proj-3",
+            "description": null,
+            "stars": 782,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "aus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "aus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9002?v=4",
+        "name": "Dev 3 (Austria)",
+        "company": null,
+        "location": "Salzburg",
+        "bio": "Developer from Austria",
+        "followers": 4650,
+        "publicContributions": 32447,
+        "privateContributions": 272,
+        "languages": ["Rust", "C++", "Java"],
+        "topRepos": [
+          {
+            "name": "aus-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1240,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9003?v=4",
+        "name": "Dev 4 (Austria)",
+        "company": null,
+        "location": "Graz",
+        "bio": null,
+        "followers": 4472,
+        "publicContributions": 31115,
+        "privateContributions": 184,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "aus-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 745,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 833,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1518,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9004?v=4",
+        "name": "Dev 5 (Austria)",
+        "company": "GitHub",
+        "location": "Vienna",
+        "bio": null,
+        "followers": 4309,
+        "publicContributions": 29975,
+        "privateContributions": 36,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "aus-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 736,
+            "language": "Java"
+          },
+          {
+            "name": "aus-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1038,
+            "language": "Java"
+          },
+          {
+            "name": "aus-dev-5-proj-3",
+            "description": "Web framework for developers",
+            "stars": 508,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9005?v=4",
+        "name": "Dev 6 (Austria)",
+        "company": "Vercel",
+        "location": "Graz",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28820,
+        "privateContributions": 37,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "aus-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 89,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9006?v=4",
+        "name": "Dev 7 (Austria)",
+        "company": "Vercel",
+        "location": "Graz",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27722,
+        "privateContributions": 334,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "aus-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1418,
+            "language": "Swift"
+          },
+          {
+            "name": "aus-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1528,
+            "language": "Swift"
+          },
+          {
+            "name": "aus-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1381,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9007?v=4",
+        "name": "Dev 8 (Austria)",
+        "company": null,
+        "location": "Austria",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26609,
+        "privateContributions": 344,
+        "languages": ["Go", "Python", "Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "aus-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 660,
+            "language": "Go"
+          },
+          {
+            "name": "aus-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 152,
+            "language": "Python"
+          },
+          {
+            "name": "aus-dev-8-proj-3",
+            "description": null,
+            "stars": 474,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9008?v=4",
+        "name": "Dev 9 (Austria)",
+        "company": "Meta",
+        "location": "Salzburg",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25585,
+        "privateContributions": 376,
+        "languages": ["PHP", "JavaScript", "Dart", "Ruby"],
+        "topRepos": [
+          {
+            "name": "aus-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 251,
+            "language": "PHP"
+          },
+          {
+            "name": "aus-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 82,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9009?v=4",
+        "name": "Dev 10 (Austria)",
+        "company": null,
+        "location": "Vienna",
+        "bio": null,
+        "followers": 3510,
+        "publicContributions": 24557,
+        "privateContributions": 379,
+        "languages": ["Go", "Dart", "Python"],
+        "topRepos": [
+          {
+            "name": "aus-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1364,
+            "language": "Go"
+          },
+          {
+            "name": "aus-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1373,
+            "language": "Dart"
+          },
+          {
+            "name": "aus-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 861,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

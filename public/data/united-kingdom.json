@@ -1,0 +1,763 @@
+{
+  "countryCode": "united-kingdom",
+  "updatedAt": "2026-03-27T21:38:37.397Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "uni-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127000?v=4",
+        "name": "Dev 1 (United Kingdom)",
+        "company": "Amazon",
+        "location": "Edinburgh",
+        "bio": "Developer from United Kingdom",
+        "followers": 5043,
+        "publicContributions": 35112,
+        "privateContributions": 166,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1925,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uni-dev-1",
+        "blog": "https://uni-dev-1.dev"
+      },
+      {
+        "login": "uni-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127001?v=4",
+        "name": "Dev 2 (United Kingdom)",
+        "company": null,
+        "location": "Manchester",
+        "bio": "Developer from United Kingdom",
+        "followers": 4844,
+        "publicContributions": 33818,
+        "privateContributions": 458,
+        "languages": ["C++", "Java"],
+        "topRepos": [
+          {
+            "name": "uni-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1639,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "uni-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uni-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127002?v=4",
+        "name": "Dev 3 (United Kingdom)",
+        "company": "Apple",
+        "location": "Cambridge",
+        "bio": "Developer from United Kingdom",
+        "followers": 4648,
+        "publicContributions": 32502,
+        "privateContributions": 49,
+        "languages": ["Ruby", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-3-proj-1",
+            "description": null,
+            "stars": 1398,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127003?v=4",
+        "name": "Dev 4 (United Kingdom)",
+        "company": "GitHub",
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 4452,
+        "publicContributions": 31233,
+        "privateContributions": 280,
+        "languages": ["Swift", "Python"],
+        "topRepos": [
+          {
+            "name": "uni-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 146,
+            "language": "Swift"
+          },
+          {
+            "name": "uni-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 559,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127004?v=4",
+        "name": "Dev 5 (United Kingdom)",
+        "company": "Vercel",
+        "location": "Manchester",
+        "bio": null,
+        "followers": 4278,
+        "publicContributions": 29919,
+        "privateContributions": 60,
+        "languages": ["C++", "TypeScript", "Swift", "Rust"],
+        "topRepos": [
+          {
+            "name": "uni-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1159,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127005?v=4",
+        "name": "Dev 6 (United Kingdom)",
+        "company": null,
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28798,
+        "privateContributions": 357,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uni-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1317,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127006?v=4",
+        "name": "Dev 7 (United Kingdom)",
+        "company": "Stripe",
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27584,
+        "privateContributions": 455,
+        "languages": ["TypeScript", "Kotlin", "Swift"],
+        "topRepos": [
+          {
+            "name": "uni-dev-7-proj-1",
+            "description": null,
+            "stars": 656,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1289,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uni-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 299,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127007?v=4",
+        "name": "Dev 8 (United Kingdom)",
+        "company": null,
+        "location": "Edinburgh",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26521,
+        "privateContributions": 272,
+        "languages": ["TypeScript", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 382,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 903,
+            "language": "C++"
+          },
+          {
+            "name": "uni-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1477,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127008?v=4",
+        "name": "Dev 9 (United Kingdom)",
+        "company": "Microsoft",
+        "location": "Manchester",
+        "bio": null,
+        "followers": 3672,
+        "publicContributions": 25598,
+        "privateContributions": 399,
+        "languages": ["Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "uni-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 156,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127009?v=4",
+        "name": "Dev 10 (United Kingdom)",
+        "company": "Amazon",
+        "location": "Edinburgh",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24527,
+        "privateContributions": 316,
+        "languages": ["Python", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "uni-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 819,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "uni-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127000?v=4",
+        "name": "Dev 1 (United Kingdom)",
+        "company": "Amazon",
+        "location": "Edinburgh",
+        "bio": "Developer from United Kingdom",
+        "followers": 5043,
+        "publicContributions": 35112,
+        "privateContributions": 166,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1925,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uni-dev-1",
+        "blog": "https://uni-dev-1.dev"
+      },
+      {
+        "login": "uni-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127001?v=4",
+        "name": "Dev 2 (United Kingdom)",
+        "company": null,
+        "location": "Manchester",
+        "bio": "Developer from United Kingdom",
+        "followers": 4844,
+        "publicContributions": 33818,
+        "privateContributions": 458,
+        "languages": ["C++", "Java"],
+        "topRepos": [
+          {
+            "name": "uni-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1639,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "uni-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uni-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127002?v=4",
+        "name": "Dev 3 (United Kingdom)",
+        "company": "Apple",
+        "location": "Cambridge",
+        "bio": "Developer from United Kingdom",
+        "followers": 4648,
+        "publicContributions": 32502,
+        "privateContributions": 49,
+        "languages": ["Ruby", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-3-proj-1",
+            "description": null,
+            "stars": 1398,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127003?v=4",
+        "name": "Dev 4 (United Kingdom)",
+        "company": "GitHub",
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 4452,
+        "publicContributions": 31233,
+        "privateContributions": 280,
+        "languages": ["Swift", "Python"],
+        "topRepos": [
+          {
+            "name": "uni-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 146,
+            "language": "Swift"
+          },
+          {
+            "name": "uni-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 559,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127004?v=4",
+        "name": "Dev 5 (United Kingdom)",
+        "company": "Vercel",
+        "location": "Manchester",
+        "bio": null,
+        "followers": 4278,
+        "publicContributions": 29919,
+        "privateContributions": 60,
+        "languages": ["C++", "TypeScript", "Swift", "Rust"],
+        "topRepos": [
+          {
+            "name": "uni-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1159,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127005?v=4",
+        "name": "Dev 6 (United Kingdom)",
+        "company": null,
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28798,
+        "privateContributions": 357,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uni-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1317,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127006?v=4",
+        "name": "Dev 7 (United Kingdom)",
+        "company": "Stripe",
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27584,
+        "privateContributions": 455,
+        "languages": ["TypeScript", "Kotlin", "Swift"],
+        "topRepos": [
+          {
+            "name": "uni-dev-7-proj-1",
+            "description": null,
+            "stars": 656,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1289,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uni-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 299,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127007?v=4",
+        "name": "Dev 8 (United Kingdom)",
+        "company": null,
+        "location": "Edinburgh",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26521,
+        "privateContributions": 272,
+        "languages": ["TypeScript", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 382,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 903,
+            "language": "C++"
+          },
+          {
+            "name": "uni-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1477,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127008?v=4",
+        "name": "Dev 9 (United Kingdom)",
+        "company": "Microsoft",
+        "location": "Manchester",
+        "bio": null,
+        "followers": 3672,
+        "publicContributions": 25598,
+        "privateContributions": 399,
+        "languages": ["Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "uni-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 156,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127009?v=4",
+        "name": "Dev 10 (United Kingdom)",
+        "company": "Amazon",
+        "location": "Edinburgh",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24527,
+        "privateContributions": 316,
+        "languages": ["Python", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "uni-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 819,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "uni-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127000?v=4",
+        "name": "Dev 1 (United Kingdom)",
+        "company": "Amazon",
+        "location": "Edinburgh",
+        "bio": "Developer from United Kingdom",
+        "followers": 5043,
+        "publicContributions": 35112,
+        "privateContributions": 166,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1925,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uni-dev-1",
+        "blog": "https://uni-dev-1.dev"
+      },
+      {
+        "login": "uni-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127001?v=4",
+        "name": "Dev 2 (United Kingdom)",
+        "company": null,
+        "location": "Manchester",
+        "bio": "Developer from United Kingdom",
+        "followers": 4844,
+        "publicContributions": 33818,
+        "privateContributions": 458,
+        "languages": ["C++", "Java"],
+        "topRepos": [
+          {
+            "name": "uni-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1639,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "uni-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uni-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127002?v=4",
+        "name": "Dev 3 (United Kingdom)",
+        "company": "Apple",
+        "location": "Cambridge",
+        "bio": "Developer from United Kingdom",
+        "followers": 4648,
+        "publicContributions": 32502,
+        "privateContributions": 49,
+        "languages": ["Ruby", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-3-proj-1",
+            "description": null,
+            "stars": 1398,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127003?v=4",
+        "name": "Dev 4 (United Kingdom)",
+        "company": "GitHub",
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 4452,
+        "publicContributions": 31233,
+        "privateContributions": 280,
+        "languages": ["Swift", "Python"],
+        "topRepos": [
+          {
+            "name": "uni-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 146,
+            "language": "Swift"
+          },
+          {
+            "name": "uni-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 559,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127004?v=4",
+        "name": "Dev 5 (United Kingdom)",
+        "company": "Vercel",
+        "location": "Manchester",
+        "bio": null,
+        "followers": 4278,
+        "publicContributions": 29919,
+        "privateContributions": 60,
+        "languages": ["C++", "TypeScript", "Swift", "Rust"],
+        "topRepos": [
+          {
+            "name": "uni-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1159,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127005?v=4",
+        "name": "Dev 6 (United Kingdom)",
+        "company": null,
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28798,
+        "privateContributions": 357,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uni-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1317,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127006?v=4",
+        "name": "Dev 7 (United Kingdom)",
+        "company": "Stripe",
+        "location": "Cambridge",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27584,
+        "privateContributions": 455,
+        "languages": ["TypeScript", "Kotlin", "Swift"],
+        "topRepos": [
+          {
+            "name": "uni-dev-7-proj-1",
+            "description": null,
+            "stars": 656,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1289,
+            "language": "Kotlin"
+          },
+          {
+            "name": "uni-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 299,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127007?v=4",
+        "name": "Dev 8 (United Kingdom)",
+        "company": null,
+        "location": "Edinburgh",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26521,
+        "privateContributions": 272,
+        "languages": ["TypeScript", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uni-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 382,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 903,
+            "language": "C++"
+          },
+          {
+            "name": "uni-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1477,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127008?v=4",
+        "name": "Dev 9 (United Kingdom)",
+        "company": "Microsoft",
+        "location": "Manchester",
+        "bio": null,
+        "followers": 3672,
+        "publicContributions": 25598,
+        "privateContributions": 399,
+        "languages": ["Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "uni-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 156,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127009?v=4",
+        "name": "Dev 10 (United Kingdom)",
+        "company": "Amazon",
+        "location": "Edinburgh",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24527,
+        "privateContributions": 316,
+        "languages": ["Python", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "uni-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 819,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

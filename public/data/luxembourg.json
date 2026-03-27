@@ -1,0 +1,799 @@
+{
+  "countryCode": "luxembourg",
+  "updatedAt": "2026-03-27T21:38:37.389Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "lux-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70000?v=4",
+        "name": "Dev 1 (Luxembourg)",
+        "company": "Meta",
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 5026,
+        "publicContributions": 35068,
+        "privateContributions": 34,
+        "languages": ["PHP", "Java", "Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "lux-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1966,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "lux-dev-1",
+        "blog": "https://lux-dev-1.dev"
+      },
+      {
+        "login": "lux-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70001?v=4",
+        "name": "Dev 2 (Luxembourg)",
+        "company": "Google",
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 4832,
+        "publicContributions": 33701,
+        "privateContributions": 88,
+        "languages": ["TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "lux-dev-2-proj-1",
+            "description": null,
+            "stars": 975,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "lux-dev-2",
+        "blog": null
+      },
+      {
+        "login": "lux-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70002?v=4",
+        "name": "Dev 3 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 4635,
+        "publicContributions": 32449,
+        "privateContributions": 11,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "lux-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 78,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70003?v=4",
+        "name": "Dev 4 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31214,
+        "privateContributions": 395,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "lux-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1655,
+            "language": "Dart"
+          },
+          {
+            "name": "lux-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1078,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70004?v=4",
+        "name": "Dev 5 (Luxembourg)",
+        "company": "Apple",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4294,
+        "publicContributions": 30000,
+        "privateContributions": 164,
+        "languages": ["TypeScript", "Python", "JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "lux-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1024,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70005?v=4",
+        "name": "Dev 6 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4113,
+        "publicContributions": 28762,
+        "privateContributions": 247,
+        "languages": ["Swift", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "lux-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1616,
+            "language": "Swift"
+          },
+          {
+            "name": "lux-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 958,
+            "language": "Kotlin"
+          },
+          {
+            "name": "lux-dev-6-proj-3",
+            "description": "Data pipeline library",
+            "stars": 818,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70006?v=4",
+        "name": "Dev 7 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3947,
+        "publicContributions": 27711,
+        "privateContributions": 197,
+        "languages": ["C++", "Ruby", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "lux-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1539,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70007?v=4",
+        "name": "Dev 8 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26598,
+        "privateContributions": 343,
+        "languages": ["Java", "C++"],
+        "topRepos": [
+          {
+            "name": "lux-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 869,
+            "language": "Java"
+          },
+          {
+            "name": "lux-dev-8-proj-2",
+            "description": null,
+            "stars": 1027,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70008?v=4",
+        "name": "Dev 9 (Luxembourg)",
+        "company": "GitHub",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25606,
+        "privateContributions": 77,
+        "languages": ["TypeScript", "JavaScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "lux-dev-9-proj-1",
+            "description": null,
+            "stars": 155,
+            "language": "TypeScript"
+          },
+          {
+            "name": "lux-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1318,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70009?v=4",
+        "name": "Dev 10 (Luxembourg)",
+        "company": "Amazon",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24526,
+        "privateContributions": 280,
+        "languages": ["Ruby", "TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "lux-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 371,
+            "language": "Ruby"
+          },
+          {
+            "name": "lux-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1296,
+            "language": "TypeScript"
+          },
+          {
+            "name": "lux-dev-10-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1262,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "lux-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70000?v=4",
+        "name": "Dev 1 (Luxembourg)",
+        "company": "Meta",
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 5026,
+        "publicContributions": 35068,
+        "privateContributions": 34,
+        "languages": ["PHP", "Java", "Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "lux-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1966,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "lux-dev-1",
+        "blog": "https://lux-dev-1.dev"
+      },
+      {
+        "login": "lux-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70001?v=4",
+        "name": "Dev 2 (Luxembourg)",
+        "company": "Google",
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 4832,
+        "publicContributions": 33701,
+        "privateContributions": 88,
+        "languages": ["TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "lux-dev-2-proj-1",
+            "description": null,
+            "stars": 975,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "lux-dev-2",
+        "blog": null
+      },
+      {
+        "login": "lux-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70002?v=4",
+        "name": "Dev 3 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 4635,
+        "publicContributions": 32449,
+        "privateContributions": 11,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "lux-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 78,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70003?v=4",
+        "name": "Dev 4 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31214,
+        "privateContributions": 395,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "lux-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1655,
+            "language": "Dart"
+          },
+          {
+            "name": "lux-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1078,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70004?v=4",
+        "name": "Dev 5 (Luxembourg)",
+        "company": "Apple",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4294,
+        "publicContributions": 30000,
+        "privateContributions": 164,
+        "languages": ["TypeScript", "Python", "JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "lux-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1024,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70005?v=4",
+        "name": "Dev 6 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4113,
+        "publicContributions": 28762,
+        "privateContributions": 247,
+        "languages": ["Swift", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "lux-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1616,
+            "language": "Swift"
+          },
+          {
+            "name": "lux-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 958,
+            "language": "Kotlin"
+          },
+          {
+            "name": "lux-dev-6-proj-3",
+            "description": "Data pipeline library",
+            "stars": 818,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70006?v=4",
+        "name": "Dev 7 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3947,
+        "publicContributions": 27711,
+        "privateContributions": 197,
+        "languages": ["C++", "Ruby", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "lux-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1539,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70007?v=4",
+        "name": "Dev 8 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26598,
+        "privateContributions": 343,
+        "languages": ["Java", "C++"],
+        "topRepos": [
+          {
+            "name": "lux-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 869,
+            "language": "Java"
+          },
+          {
+            "name": "lux-dev-8-proj-2",
+            "description": null,
+            "stars": 1027,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70008?v=4",
+        "name": "Dev 9 (Luxembourg)",
+        "company": "GitHub",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25606,
+        "privateContributions": 77,
+        "languages": ["TypeScript", "JavaScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "lux-dev-9-proj-1",
+            "description": null,
+            "stars": 155,
+            "language": "TypeScript"
+          },
+          {
+            "name": "lux-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1318,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70009?v=4",
+        "name": "Dev 10 (Luxembourg)",
+        "company": "Amazon",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24526,
+        "privateContributions": 280,
+        "languages": ["Ruby", "TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "lux-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 371,
+            "language": "Ruby"
+          },
+          {
+            "name": "lux-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1296,
+            "language": "TypeScript"
+          },
+          {
+            "name": "lux-dev-10-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1262,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "lux-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70000?v=4",
+        "name": "Dev 1 (Luxembourg)",
+        "company": "Meta",
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 5026,
+        "publicContributions": 35068,
+        "privateContributions": 34,
+        "languages": ["PHP", "Java", "Rust", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "lux-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1966,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "lux-dev-1",
+        "blog": "https://lux-dev-1.dev"
+      },
+      {
+        "login": "lux-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70001?v=4",
+        "name": "Dev 2 (Luxembourg)",
+        "company": "Google",
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 4832,
+        "publicContributions": 33701,
+        "privateContributions": 88,
+        "languages": ["TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "lux-dev-2-proj-1",
+            "description": null,
+            "stars": 975,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "lux-dev-2",
+        "blog": null
+      },
+      {
+        "login": "lux-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70002?v=4",
+        "name": "Dev 3 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": "Developer from Luxembourg",
+        "followers": 4635,
+        "publicContributions": 32449,
+        "privateContributions": 11,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "lux-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 78,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70003?v=4",
+        "name": "Dev 4 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31214,
+        "privateContributions": 395,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "lux-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1655,
+            "language": "Dart"
+          },
+          {
+            "name": "lux-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1078,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70004?v=4",
+        "name": "Dev 5 (Luxembourg)",
+        "company": "Apple",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4294,
+        "publicContributions": 30000,
+        "privateContributions": 164,
+        "languages": ["TypeScript", "Python", "JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "lux-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1024,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70005?v=4",
+        "name": "Dev 6 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 4113,
+        "publicContributions": 28762,
+        "privateContributions": 247,
+        "languages": ["Swift", "Kotlin", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "lux-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1616,
+            "language": "Swift"
+          },
+          {
+            "name": "lux-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 958,
+            "language": "Kotlin"
+          },
+          {
+            "name": "lux-dev-6-proj-3",
+            "description": "Data pipeline library",
+            "stars": 818,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70006?v=4",
+        "name": "Dev 7 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3947,
+        "publicContributions": 27711,
+        "privateContributions": 197,
+        "languages": ["C++", "Ruby", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "lux-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1539,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70007?v=4",
+        "name": "Dev 8 (Luxembourg)",
+        "company": null,
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26598,
+        "privateContributions": 343,
+        "languages": ["Java", "C++"],
+        "topRepos": [
+          {
+            "name": "lux-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 869,
+            "language": "Java"
+          },
+          {
+            "name": "lux-dev-8-proj-2",
+            "description": null,
+            "stars": 1027,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70008?v=4",
+        "name": "Dev 9 (Luxembourg)",
+        "company": "GitHub",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25606,
+        "privateContributions": 77,
+        "languages": ["TypeScript", "JavaScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "lux-dev-9-proj-1",
+            "description": null,
+            "stars": 155,
+            "language": "TypeScript"
+          },
+          {
+            "name": "lux-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1318,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "lux-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70009?v=4",
+        "name": "Dev 10 (Luxembourg)",
+        "company": "Amazon",
+        "location": "Luxembourg",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24526,
+        "privateContributions": 280,
+        "languages": ["Ruby", "TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "lux-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 371,
+            "language": "Ruby"
+          },
+          {
+            "name": "lux-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1296,
+            "language": "TypeScript"
+          },
+          {
+            "name": "lux-dev-10-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1262,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

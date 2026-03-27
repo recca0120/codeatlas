@@ -1,0 +1,781 @@
+{
+  "countryCode": "senegal",
+  "updatedAt": "2026-03-27T21:38:37.395Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "sen-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106000?v=4",
+        "name": "Dev 1 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 5040,
+        "publicContributions": 35100,
+        "privateContributions": 374,
+        "languages": ["Java", "C++"],
+        "topRepos": [
+          {
+            "name": "sen-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1556,
+            "language": "Java"
+          },
+          {
+            "name": "sen-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 832,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "sen-dev-1",
+        "blog": "https://sen-dev-1.dev"
+      },
+      {
+        "login": "sen-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106001?v=4",
+        "name": "Dev 2 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 4828,
+        "publicContributions": 33812,
+        "privateContributions": 158,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "sen-dev-2-proj-1",
+            "description": null,
+            "stars": 1367,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sen-dev-2-proj-2",
+            "description": null,
+            "stars": 458,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "sen-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sen-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106002?v=4",
+        "name": "Dev 3 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 4631,
+        "publicContributions": 32456,
+        "privateContributions": 460,
+        "languages": ["Rust", "Java", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-3-proj-1",
+            "description": null,
+            "stars": 1247,
+            "language": "Rust"
+          },
+          {
+            "name": "sen-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 417,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106003?v=4",
+        "name": "Dev 4 (Senegal)",
+        "company": "Microsoft",
+        "location": "Senegal",
+        "bio": null,
+        "followers": 4485,
+        "publicContributions": 31118,
+        "privateContributions": 445,
+        "languages": ["Kotlin", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "sen-dev-4-proj-1",
+            "description": null,
+            "stars": 1247,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sen-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1773,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106004?v=4",
+        "name": "Dev 5 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29966,
+        "privateContributions": 394,
+        "languages": ["TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sen-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 617,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sen-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 792,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106005?v=4",
+        "name": "Dev 6 (Senegal)",
+        "company": null,
+        "location": "Dakar",
+        "bio": null,
+        "followers": 4114,
+        "publicContributions": 28775,
+        "privateContributions": 281,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "sen-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 519,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106006?v=4",
+        "name": "Dev 7 (Senegal)",
+        "company": "Google",
+        "location": "Senegal",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27648,
+        "privateContributions": 410,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 585,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106007?v=4",
+        "name": "Dev 8 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": null,
+        "followers": 3811,
+        "publicContributions": 26562,
+        "privateContributions": 130,
+        "languages": ["Swift", "Rust", "Java", "Go"],
+        "topRepos": [
+          {
+            "name": "sen-dev-8-proj-1",
+            "description": null,
+            "stars": 1120,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106008?v=4",
+        "name": "Dev 9 (Senegal)",
+        "company": "Meta",
+        "location": "Dakar",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25482,
+        "privateContributions": 408,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 657,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sen-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 175,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106009?v=4",
+        "name": "Dev 10 (Senegal)",
+        "company": "Google",
+        "location": "Dakar",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24496,
+        "privateContributions": 141,
+        "languages": ["Java", "Go", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sen-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 489,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "sen-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106000?v=4",
+        "name": "Dev 1 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 5040,
+        "publicContributions": 35100,
+        "privateContributions": 374,
+        "languages": ["Java", "C++"],
+        "topRepos": [
+          {
+            "name": "sen-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1556,
+            "language": "Java"
+          },
+          {
+            "name": "sen-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 832,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "sen-dev-1",
+        "blog": "https://sen-dev-1.dev"
+      },
+      {
+        "login": "sen-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106001?v=4",
+        "name": "Dev 2 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 4828,
+        "publicContributions": 33812,
+        "privateContributions": 158,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "sen-dev-2-proj-1",
+            "description": null,
+            "stars": 1367,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sen-dev-2-proj-2",
+            "description": null,
+            "stars": 458,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "sen-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sen-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106002?v=4",
+        "name": "Dev 3 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 4631,
+        "publicContributions": 32456,
+        "privateContributions": 460,
+        "languages": ["Rust", "Java", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-3-proj-1",
+            "description": null,
+            "stars": 1247,
+            "language": "Rust"
+          },
+          {
+            "name": "sen-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 417,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106003?v=4",
+        "name": "Dev 4 (Senegal)",
+        "company": "Microsoft",
+        "location": "Senegal",
+        "bio": null,
+        "followers": 4485,
+        "publicContributions": 31118,
+        "privateContributions": 445,
+        "languages": ["Kotlin", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "sen-dev-4-proj-1",
+            "description": null,
+            "stars": 1247,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sen-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1773,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106004?v=4",
+        "name": "Dev 5 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29966,
+        "privateContributions": 394,
+        "languages": ["TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sen-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 617,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sen-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 792,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106005?v=4",
+        "name": "Dev 6 (Senegal)",
+        "company": null,
+        "location": "Dakar",
+        "bio": null,
+        "followers": 4114,
+        "publicContributions": 28775,
+        "privateContributions": 281,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "sen-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 519,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106006?v=4",
+        "name": "Dev 7 (Senegal)",
+        "company": "Google",
+        "location": "Senegal",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27648,
+        "privateContributions": 410,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 585,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106007?v=4",
+        "name": "Dev 8 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": null,
+        "followers": 3811,
+        "publicContributions": 26562,
+        "privateContributions": 130,
+        "languages": ["Swift", "Rust", "Java", "Go"],
+        "topRepos": [
+          {
+            "name": "sen-dev-8-proj-1",
+            "description": null,
+            "stars": 1120,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106008?v=4",
+        "name": "Dev 9 (Senegal)",
+        "company": "Meta",
+        "location": "Dakar",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25482,
+        "privateContributions": 408,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 657,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sen-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 175,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106009?v=4",
+        "name": "Dev 10 (Senegal)",
+        "company": "Google",
+        "location": "Dakar",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24496,
+        "privateContributions": 141,
+        "languages": ["Java", "Go", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sen-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 489,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "sen-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106000?v=4",
+        "name": "Dev 1 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 5040,
+        "publicContributions": 35100,
+        "privateContributions": 374,
+        "languages": ["Java", "C++"],
+        "topRepos": [
+          {
+            "name": "sen-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1556,
+            "language": "Java"
+          },
+          {
+            "name": "sen-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 832,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "sen-dev-1",
+        "blog": "https://sen-dev-1.dev"
+      },
+      {
+        "login": "sen-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106001?v=4",
+        "name": "Dev 2 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 4828,
+        "publicContributions": 33812,
+        "privateContributions": 158,
+        "languages": ["Kotlin"],
+        "topRepos": [
+          {
+            "name": "sen-dev-2-proj-1",
+            "description": null,
+            "stars": 1367,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sen-dev-2-proj-2",
+            "description": null,
+            "stars": 458,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "sen-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sen-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106002?v=4",
+        "name": "Dev 3 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": "Developer from Senegal",
+        "followers": 4631,
+        "publicContributions": 32456,
+        "privateContributions": 460,
+        "languages": ["Rust", "Java", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-3-proj-1",
+            "description": null,
+            "stars": 1247,
+            "language": "Rust"
+          },
+          {
+            "name": "sen-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 417,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106003?v=4",
+        "name": "Dev 4 (Senegal)",
+        "company": "Microsoft",
+        "location": "Senegal",
+        "bio": null,
+        "followers": 4485,
+        "publicContributions": 31118,
+        "privateContributions": 445,
+        "languages": ["Kotlin", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "sen-dev-4-proj-1",
+            "description": null,
+            "stars": 1247,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sen-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1773,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106004?v=4",
+        "name": "Dev 5 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29966,
+        "privateContributions": 394,
+        "languages": ["TypeScript", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sen-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 617,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sen-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 792,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106005?v=4",
+        "name": "Dev 6 (Senegal)",
+        "company": null,
+        "location": "Dakar",
+        "bio": null,
+        "followers": 4114,
+        "publicContributions": 28775,
+        "privateContributions": 281,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "sen-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 519,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106006?v=4",
+        "name": "Dev 7 (Senegal)",
+        "company": "Google",
+        "location": "Senegal",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27648,
+        "privateContributions": 410,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 585,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106007?v=4",
+        "name": "Dev 8 (Senegal)",
+        "company": null,
+        "location": "Senegal",
+        "bio": null,
+        "followers": 3811,
+        "publicContributions": 26562,
+        "privateContributions": 130,
+        "languages": ["Swift", "Rust", "Java", "Go"],
+        "topRepos": [
+          {
+            "name": "sen-dev-8-proj-1",
+            "description": null,
+            "stars": 1120,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106008?v=4",
+        "name": "Dev 9 (Senegal)",
+        "company": "Meta",
+        "location": "Dakar",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25482,
+        "privateContributions": 408,
+        "languages": ["TypeScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sen-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 657,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sen-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 175,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sen-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106009?v=4",
+        "name": "Dev 10 (Senegal)",
+        "company": "Google",
+        "location": "Dakar",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24496,
+        "privateContributions": 141,
+        "languages": ["Java", "Go", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sen-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 489,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

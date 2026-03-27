@@ -1,0 +1,889 @@
+{
+  "countryCode": "chad",
+  "updatedAt": "2026-03-27T21:38:37.383Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "cha-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27000?v=4",
+        "name": "Dev 1 (Chad)",
+        "company": "Meta",
+        "location": "Ndjamena",
+        "bio": "Developer from Chad",
+        "followers": 5039,
+        "publicContributions": 35196,
+        "privateContributions": 446,
+        "languages": ["Rust", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "cha-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 1144,
+            "language": "Rust"
+          },
+          {
+            "name": "cha-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1750,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cha-dev-1",
+        "blog": "https://cha-dev-1.dev"
+      },
+      {
+        "login": "cha-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27001?v=4",
+        "name": "Dev 2 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": "Developer from Chad",
+        "followers": 4814,
+        "publicContributions": 33783,
+        "privateContributions": 399,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 974,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1600,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 470,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "cha-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cha-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27002?v=4",
+        "name": "Dev 3 (Chad)",
+        "company": "Microsoft",
+        "location": "Chad",
+        "bio": "Developer from Chad",
+        "followers": 4663,
+        "publicContributions": 32473,
+        "privateContributions": 337,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-3-proj-1",
+            "description": null,
+            "stars": 333,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cha-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 828,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27003?v=4",
+        "name": "Dev 4 (Chad)",
+        "company": "Vercel",
+        "location": "Chad",
+        "bio": null,
+        "followers": 4480,
+        "publicContributions": 31125,
+        "privateContributions": 419,
+        "languages": ["Python", "Go", "JavaScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "cha-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1606,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27004?v=4",
+        "name": "Dev 5 (Chad)",
+        "company": "Amazon",
+        "location": "Ndjamena",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29925,
+        "privateContributions": 282,
+        "languages": ["JavaScript", "Go", "Dart"],
+        "topRepos": [
+          {
+            "name": "cha-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1022,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 410,
+            "language": "Go"
+          },
+          {
+            "name": "cha-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1106,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27005?v=4",
+        "name": "Dev 6 (Chad)",
+        "company": "Google",
+        "location": "Chad",
+        "bio": null,
+        "followers": 4115,
+        "publicContributions": 28767,
+        "privateContributions": 210,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "cha-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1626,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27006?v=4",
+        "name": "Dev 7 (Chad)",
+        "company": "Amazon",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3946,
+        "publicContributions": 27653,
+        "privateContributions": 210,
+        "languages": ["C++", "Go", "Dart", "Rust"],
+        "topRepos": [
+          {
+            "name": "cha-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 899,
+            "language": "C++"
+          },
+          {
+            "name": "cha-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 474,
+            "language": "Go"
+          },
+          {
+            "name": "cha-dev-7-proj-3",
+            "description": "API wrapper",
+            "stars": 442,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27007?v=4",
+        "name": "Dev 8 (Chad)",
+        "company": "Apple",
+        "location": "Ndjamena",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26567,
+        "privateContributions": 470,
+        "languages": ["C++", "PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-8-proj-1",
+            "description": null,
+            "stars": 122,
+            "language": "C++"
+          },
+          {
+            "name": "cha-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 326,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27008?v=4",
+        "name": "Dev 9 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25609,
+        "privateContributions": 312,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "cha-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 325,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cha-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 206,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27009?v=4",
+        "name": "Dev 10 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3516,
+        "publicContributions": 24614,
+        "privateContributions": 446,
+        "languages": ["Kotlin", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "cha-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 837,
+            "language": "Kotlin"
+          },
+          {
+            "name": "cha-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 291,
+            "language": "PHP"
+          },
+          {
+            "name": "cha-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 341,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "cha-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27000?v=4",
+        "name": "Dev 1 (Chad)",
+        "company": "Meta",
+        "location": "Ndjamena",
+        "bio": "Developer from Chad",
+        "followers": 5039,
+        "publicContributions": 35196,
+        "privateContributions": 446,
+        "languages": ["Rust", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "cha-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 1144,
+            "language": "Rust"
+          },
+          {
+            "name": "cha-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1750,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cha-dev-1",
+        "blog": "https://cha-dev-1.dev"
+      },
+      {
+        "login": "cha-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27001?v=4",
+        "name": "Dev 2 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": "Developer from Chad",
+        "followers": 4814,
+        "publicContributions": 33783,
+        "privateContributions": 399,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 974,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1600,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 470,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "cha-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cha-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27002?v=4",
+        "name": "Dev 3 (Chad)",
+        "company": "Microsoft",
+        "location": "Chad",
+        "bio": "Developer from Chad",
+        "followers": 4663,
+        "publicContributions": 32473,
+        "privateContributions": 337,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-3-proj-1",
+            "description": null,
+            "stars": 333,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cha-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 828,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27003?v=4",
+        "name": "Dev 4 (Chad)",
+        "company": "Vercel",
+        "location": "Chad",
+        "bio": null,
+        "followers": 4480,
+        "publicContributions": 31125,
+        "privateContributions": 419,
+        "languages": ["Python", "Go", "JavaScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "cha-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1606,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27004?v=4",
+        "name": "Dev 5 (Chad)",
+        "company": "Amazon",
+        "location": "Ndjamena",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29925,
+        "privateContributions": 282,
+        "languages": ["JavaScript", "Go", "Dart"],
+        "topRepos": [
+          {
+            "name": "cha-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1022,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 410,
+            "language": "Go"
+          },
+          {
+            "name": "cha-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1106,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27005?v=4",
+        "name": "Dev 6 (Chad)",
+        "company": "Google",
+        "location": "Chad",
+        "bio": null,
+        "followers": 4115,
+        "publicContributions": 28767,
+        "privateContributions": 210,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "cha-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1626,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27006?v=4",
+        "name": "Dev 7 (Chad)",
+        "company": "Amazon",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3946,
+        "publicContributions": 27653,
+        "privateContributions": 210,
+        "languages": ["C++", "Go", "Dart", "Rust"],
+        "topRepos": [
+          {
+            "name": "cha-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 899,
+            "language": "C++"
+          },
+          {
+            "name": "cha-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 474,
+            "language": "Go"
+          },
+          {
+            "name": "cha-dev-7-proj-3",
+            "description": "API wrapper",
+            "stars": 442,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27007?v=4",
+        "name": "Dev 8 (Chad)",
+        "company": "Apple",
+        "location": "Ndjamena",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26567,
+        "privateContributions": 470,
+        "languages": ["C++", "PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-8-proj-1",
+            "description": null,
+            "stars": 122,
+            "language": "C++"
+          },
+          {
+            "name": "cha-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 326,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27008?v=4",
+        "name": "Dev 9 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25609,
+        "privateContributions": 312,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "cha-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 325,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cha-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 206,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27009?v=4",
+        "name": "Dev 10 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3516,
+        "publicContributions": 24614,
+        "privateContributions": 446,
+        "languages": ["Kotlin", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "cha-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 837,
+            "language": "Kotlin"
+          },
+          {
+            "name": "cha-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 291,
+            "language": "PHP"
+          },
+          {
+            "name": "cha-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 341,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "cha-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27000?v=4",
+        "name": "Dev 1 (Chad)",
+        "company": "Meta",
+        "location": "Ndjamena",
+        "bio": "Developer from Chad",
+        "followers": 5039,
+        "publicContributions": 35196,
+        "privateContributions": 446,
+        "languages": ["Rust", "TypeScript", "Dart"],
+        "topRepos": [
+          {
+            "name": "cha-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 1144,
+            "language": "Rust"
+          },
+          {
+            "name": "cha-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1750,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cha-dev-1",
+        "blog": "https://cha-dev-1.dev"
+      },
+      {
+        "login": "cha-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27001?v=4",
+        "name": "Dev 2 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": "Developer from Chad",
+        "followers": 4814,
+        "publicContributions": 33783,
+        "privateContributions": 399,
+        "languages": ["JavaScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 974,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1600,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 470,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "cha-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cha-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27002?v=4",
+        "name": "Dev 3 (Chad)",
+        "company": "Microsoft",
+        "location": "Chad",
+        "bio": "Developer from Chad",
+        "followers": 4663,
+        "publicContributions": 32473,
+        "privateContributions": 337,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-3-proj-1",
+            "description": null,
+            "stars": 333,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cha-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 828,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27003?v=4",
+        "name": "Dev 4 (Chad)",
+        "company": "Vercel",
+        "location": "Chad",
+        "bio": null,
+        "followers": 4480,
+        "publicContributions": 31125,
+        "privateContributions": 419,
+        "languages": ["Python", "Go", "JavaScript", "Ruby"],
+        "topRepos": [
+          {
+            "name": "cha-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1606,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27004?v=4",
+        "name": "Dev 5 (Chad)",
+        "company": "Amazon",
+        "location": "Ndjamena",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29925,
+        "privateContributions": 282,
+        "languages": ["JavaScript", "Go", "Dart"],
+        "topRepos": [
+          {
+            "name": "cha-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1022,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cha-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 410,
+            "language": "Go"
+          },
+          {
+            "name": "cha-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1106,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27005?v=4",
+        "name": "Dev 6 (Chad)",
+        "company": "Google",
+        "location": "Chad",
+        "bio": null,
+        "followers": 4115,
+        "publicContributions": 28767,
+        "privateContributions": 210,
+        "languages": ["Python", "C++"],
+        "topRepos": [
+          {
+            "name": "cha-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1626,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27006?v=4",
+        "name": "Dev 7 (Chad)",
+        "company": "Amazon",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3946,
+        "publicContributions": 27653,
+        "privateContributions": 210,
+        "languages": ["C++", "Go", "Dart", "Rust"],
+        "topRepos": [
+          {
+            "name": "cha-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 899,
+            "language": "C++"
+          },
+          {
+            "name": "cha-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 474,
+            "language": "Go"
+          },
+          {
+            "name": "cha-dev-7-proj-3",
+            "description": "API wrapper",
+            "stars": 442,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27007?v=4",
+        "name": "Dev 8 (Chad)",
+        "company": "Apple",
+        "location": "Ndjamena",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26567,
+        "privateContributions": 470,
+        "languages": ["C++", "PHP", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "cha-dev-8-proj-1",
+            "description": null,
+            "stars": 122,
+            "language": "C++"
+          },
+          {
+            "name": "cha-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 326,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27008?v=4",
+        "name": "Dev 9 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3655,
+        "publicContributions": 25609,
+        "privateContributions": 312,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "cha-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 325,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cha-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 206,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cha-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27009?v=4",
+        "name": "Dev 10 (Chad)",
+        "company": "Stripe",
+        "location": "Chad",
+        "bio": null,
+        "followers": 3516,
+        "publicContributions": 24614,
+        "privateContributions": 446,
+        "languages": ["Kotlin", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "cha-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 837,
+            "language": "Kotlin"
+          },
+          {
+            "name": "cha-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 291,
+            "language": "PHP"
+          },
+          {
+            "name": "cha-dev-10-proj-3",
+            "description": "Open source utilities",
+            "stars": 341,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,799 @@
+{
+  "countryCode": "venezuela",
+  "updatedAt": "2026-03-27T21:38:37.398Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "ven-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131000?v=4",
+        "name": "Dev 1 (Venezuela)",
+        "company": null,
+        "location": "Caracas",
+        "bio": "Developer from Venezuela",
+        "followers": 5015,
+        "publicContributions": 35167,
+        "privateContributions": 341,
+        "languages": ["Ruby", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "ven-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 438,
+            "language": "Ruby"
+          },
+          {
+            "name": "ven-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 606,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ven-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1240,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "ven-dev-1",
+        "blog": "https://ven-dev-1.dev"
+      },
+      {
+        "login": "ven-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131001?v=4",
+        "name": "Dev 2 (Venezuela)",
+        "company": "Meta",
+        "location": "Caracas",
+        "bio": "Developer from Venezuela",
+        "followers": 4849,
+        "publicContributions": 33701,
+        "privateContributions": 73,
+        "languages": ["Rust", "Dart", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ven-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 480,
+            "language": "Rust"
+          },
+          {
+            "name": "ven-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1196,
+            "language": "Dart"
+          },
+          {
+            "name": "ven-dev-2-proj-3",
+            "description": "Open source utilities",
+            "stars": 30,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "ven-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ven-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131002?v=4",
+        "name": "Dev 3 (Venezuela)",
+        "company": null,
+        "location": "Venezuela",
+        "bio": "Developer from Venezuela",
+        "followers": 4636,
+        "publicContributions": 32371,
+        "privateContributions": 434,
+        "languages": ["PHP", "TypeScript", "Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "ven-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 904,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131003?v=4",
+        "name": "Dev 4 (Venezuela)",
+        "company": "GitHub",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 4448,
+        "publicContributions": 31108,
+        "privateContributions": 84,
+        "languages": ["Go", "C++"],
+        "topRepos": [
+          {
+            "name": "ven-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1095,
+            "language": "Go"
+          },
+          {
+            "name": "ven-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 801,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131004?v=4",
+        "name": "Dev 5 (Venezuela)",
+        "company": null,
+        "location": "Caracas",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29995,
+        "privateContributions": 453,
+        "languages": ["Dart", "Rust", "Java"],
+        "topRepos": [
+          {
+            "name": "ven-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1465,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131005?v=4",
+        "name": "Dev 6 (Venezuela)",
+        "company": "Amazon",
+        "location": "Caracas",
+        "bio": null,
+        "followers": 4124,
+        "publicContributions": 28807,
+        "privateContributions": 133,
+        "languages": ["Kotlin", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "ven-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 555,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131006?v=4",
+        "name": "Dev 7 (Venezuela)",
+        "company": "Microsoft",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3960,
+        "publicContributions": 27724,
+        "privateContributions": 121,
+        "languages": ["Java", "TypeScript", "C++", "Swift"],
+        "topRepos": [
+          {
+            "name": "ven-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1471,
+            "language": "Java"
+          },
+          {
+            "name": "ven-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 660,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131007?v=4",
+        "name": "Dev 8 (Venezuela)",
+        "company": "Meta",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3795,
+        "publicContributions": 26644,
+        "privateContributions": 27,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "ven-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 253,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131008?v=4",
+        "name": "Dev 9 (Venezuela)",
+        "company": null,
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25512,
+        "privateContributions": 111,
+        "languages": ["Rust"],
+        "topRepos": [
+          {
+            "name": "ven-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 834,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131009?v=4",
+        "name": "Dev 10 (Venezuela)",
+        "company": "Microsoft",
+        "location": "Caracas",
+        "bio": null,
+        "followers": 3519,
+        "publicContributions": 24511,
+        "privateContributions": 170,
+        "languages": ["Rust", "TypeScript", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "ven-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1379,
+            "language": "Rust"
+          },
+          {
+            "name": "ven-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1071,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "ven-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131000?v=4",
+        "name": "Dev 1 (Venezuela)",
+        "company": null,
+        "location": "Caracas",
+        "bio": "Developer from Venezuela",
+        "followers": 5015,
+        "publicContributions": 35167,
+        "privateContributions": 341,
+        "languages": ["Ruby", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "ven-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 438,
+            "language": "Ruby"
+          },
+          {
+            "name": "ven-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 606,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ven-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1240,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "ven-dev-1",
+        "blog": "https://ven-dev-1.dev"
+      },
+      {
+        "login": "ven-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131001?v=4",
+        "name": "Dev 2 (Venezuela)",
+        "company": "Meta",
+        "location": "Caracas",
+        "bio": "Developer from Venezuela",
+        "followers": 4849,
+        "publicContributions": 33701,
+        "privateContributions": 73,
+        "languages": ["Rust", "Dart", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ven-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 480,
+            "language": "Rust"
+          },
+          {
+            "name": "ven-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1196,
+            "language": "Dart"
+          },
+          {
+            "name": "ven-dev-2-proj-3",
+            "description": "Open source utilities",
+            "stars": 30,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "ven-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ven-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131002?v=4",
+        "name": "Dev 3 (Venezuela)",
+        "company": null,
+        "location": "Venezuela",
+        "bio": "Developer from Venezuela",
+        "followers": 4636,
+        "publicContributions": 32371,
+        "privateContributions": 434,
+        "languages": ["PHP", "TypeScript", "Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "ven-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 904,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131003?v=4",
+        "name": "Dev 4 (Venezuela)",
+        "company": "GitHub",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 4448,
+        "publicContributions": 31108,
+        "privateContributions": 84,
+        "languages": ["Go", "C++"],
+        "topRepos": [
+          {
+            "name": "ven-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1095,
+            "language": "Go"
+          },
+          {
+            "name": "ven-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 801,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131004?v=4",
+        "name": "Dev 5 (Venezuela)",
+        "company": null,
+        "location": "Caracas",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29995,
+        "privateContributions": 453,
+        "languages": ["Dart", "Rust", "Java"],
+        "topRepos": [
+          {
+            "name": "ven-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1465,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131005?v=4",
+        "name": "Dev 6 (Venezuela)",
+        "company": "Amazon",
+        "location": "Caracas",
+        "bio": null,
+        "followers": 4124,
+        "publicContributions": 28807,
+        "privateContributions": 133,
+        "languages": ["Kotlin", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "ven-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 555,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131006?v=4",
+        "name": "Dev 7 (Venezuela)",
+        "company": "Microsoft",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3960,
+        "publicContributions": 27724,
+        "privateContributions": 121,
+        "languages": ["Java", "TypeScript", "C++", "Swift"],
+        "topRepos": [
+          {
+            "name": "ven-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1471,
+            "language": "Java"
+          },
+          {
+            "name": "ven-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 660,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131007?v=4",
+        "name": "Dev 8 (Venezuela)",
+        "company": "Meta",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3795,
+        "publicContributions": 26644,
+        "privateContributions": 27,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "ven-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 253,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131008?v=4",
+        "name": "Dev 9 (Venezuela)",
+        "company": null,
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25512,
+        "privateContributions": 111,
+        "languages": ["Rust"],
+        "topRepos": [
+          {
+            "name": "ven-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 834,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131009?v=4",
+        "name": "Dev 10 (Venezuela)",
+        "company": "Microsoft",
+        "location": "Caracas",
+        "bio": null,
+        "followers": 3519,
+        "publicContributions": 24511,
+        "privateContributions": 170,
+        "languages": ["Rust", "TypeScript", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "ven-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1379,
+            "language": "Rust"
+          },
+          {
+            "name": "ven-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1071,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "ven-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131000?v=4",
+        "name": "Dev 1 (Venezuela)",
+        "company": null,
+        "location": "Caracas",
+        "bio": "Developer from Venezuela",
+        "followers": 5015,
+        "publicContributions": 35167,
+        "privateContributions": 341,
+        "languages": ["Ruby", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "ven-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 438,
+            "language": "Ruby"
+          },
+          {
+            "name": "ven-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 606,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ven-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1240,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "ven-dev-1",
+        "blog": "https://ven-dev-1.dev"
+      },
+      {
+        "login": "ven-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131001?v=4",
+        "name": "Dev 2 (Venezuela)",
+        "company": "Meta",
+        "location": "Caracas",
+        "bio": "Developer from Venezuela",
+        "followers": 4849,
+        "publicContributions": 33701,
+        "privateContributions": 73,
+        "languages": ["Rust", "Dart", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "ven-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 480,
+            "language": "Rust"
+          },
+          {
+            "name": "ven-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1196,
+            "language": "Dart"
+          },
+          {
+            "name": "ven-dev-2-proj-3",
+            "description": "Open source utilities",
+            "stars": 30,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "ven-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ven-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131002?v=4",
+        "name": "Dev 3 (Venezuela)",
+        "company": null,
+        "location": "Venezuela",
+        "bio": "Developer from Venezuela",
+        "followers": 4636,
+        "publicContributions": 32371,
+        "privateContributions": 434,
+        "languages": ["PHP", "TypeScript", "Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "ven-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 904,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131003?v=4",
+        "name": "Dev 4 (Venezuela)",
+        "company": "GitHub",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 4448,
+        "publicContributions": 31108,
+        "privateContributions": 84,
+        "languages": ["Go", "C++"],
+        "topRepos": [
+          {
+            "name": "ven-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1095,
+            "language": "Go"
+          },
+          {
+            "name": "ven-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 801,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131004?v=4",
+        "name": "Dev 5 (Venezuela)",
+        "company": null,
+        "location": "Caracas",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29995,
+        "privateContributions": 453,
+        "languages": ["Dart", "Rust", "Java"],
+        "topRepos": [
+          {
+            "name": "ven-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1465,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131005?v=4",
+        "name": "Dev 6 (Venezuela)",
+        "company": "Amazon",
+        "location": "Caracas",
+        "bio": null,
+        "followers": 4124,
+        "publicContributions": 28807,
+        "privateContributions": 133,
+        "languages": ["Kotlin", "Swift", "PHP"],
+        "topRepos": [
+          {
+            "name": "ven-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 555,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131006?v=4",
+        "name": "Dev 7 (Venezuela)",
+        "company": "Microsoft",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3960,
+        "publicContributions": 27724,
+        "privateContributions": 121,
+        "languages": ["Java", "TypeScript", "C++", "Swift"],
+        "topRepos": [
+          {
+            "name": "ven-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1471,
+            "language": "Java"
+          },
+          {
+            "name": "ven-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 660,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131007?v=4",
+        "name": "Dev 8 (Venezuela)",
+        "company": "Meta",
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3795,
+        "publicContributions": 26644,
+        "privateContributions": 27,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "ven-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 253,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131008?v=4",
+        "name": "Dev 9 (Venezuela)",
+        "company": null,
+        "location": "Venezuela",
+        "bio": null,
+        "followers": 3678,
+        "publicContributions": 25512,
+        "privateContributions": 111,
+        "languages": ["Rust"],
+        "topRepos": [
+          {
+            "name": "ven-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 834,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ven-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131009?v=4",
+        "name": "Dev 10 (Venezuela)",
+        "company": "Microsoft",
+        "location": "Caracas",
+        "bio": null,
+        "followers": 3519,
+        "publicContributions": 24511,
+        "privateContributions": 170,
+        "languages": ["Rust", "TypeScript", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "ven-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1379,
+            "language": "Rust"
+          },
+          {
+            "name": "ven-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1071,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

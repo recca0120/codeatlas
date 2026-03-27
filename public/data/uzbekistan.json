@@ -1,0 +1,763 @@
+{
+  "countryCode": "uzbekistan",
+  "updatedAt": "2026-03-27T21:38:37.398Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "uzb-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130000?v=4",
+        "name": "Dev 1 (Uzbekistan)",
+        "company": "GitHub",
+        "location": "Tashkent",
+        "bio": "Developer from Uzbekistan",
+        "followers": 5039,
+        "publicContributions": 35124,
+        "privateContributions": 459,
+        "languages": ["TypeScript", "Kotlin", "Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-1-proj-1",
+            "description": null,
+            "stars": 1535,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uzb-dev-1",
+        "blog": "https://uzb-dev-1.dev"
+      },
+      {
+        "login": "uzb-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130001?v=4",
+        "name": "Dev 2 (Uzbekistan)",
+        "company": "Apple",
+        "location": "Uzbekistan",
+        "bio": "Developer from Uzbekistan",
+        "followers": 4832,
+        "publicContributions": 33749,
+        "privateContributions": 493,
+        "languages": ["Rust", "TypeScript", "Java"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-2-proj-1",
+            "description": null,
+            "stars": 274,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "uzb-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130002?v=4",
+        "name": "Dev 3 (Uzbekistan)",
+        "company": "Apple",
+        "location": "Uzbekistan",
+        "bio": "Developer from Uzbekistan",
+        "followers": 4648,
+        "publicContributions": 32362,
+        "privateContributions": 495,
+        "languages": ["TypeScript", "Ruby", "JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1065,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uzb-dev-3-proj-2",
+            "description": null,
+            "stars": 215,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130003?v=4",
+        "name": "Dev 4 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4485,
+        "publicContributions": 31166,
+        "privateContributions": 33,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-4-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130004?v=4",
+        "name": "Dev 5 (Uzbekistan)",
+        "company": "Vercel",
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29907,
+        "privateContributions": 241,
+        "languages": ["Java", "Python"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-5-proj-1",
+            "description": null,
+            "stars": 1363,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130005?v=4",
+        "name": "Dev 6 (Uzbekistan)",
+        "company": "Vercel",
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28749,
+        "privateContributions": 271,
+        "languages": ["Go", "Ruby", "Swift"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 40,
+            "language": "Go"
+          },
+          {
+            "name": "uzb-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 545,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130006?v=4",
+        "name": "Dev 7 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27725,
+        "privateContributions": 146,
+        "languages": ["TypeScript", "Dart", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 457,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130007?v=4",
+        "name": "Dev 8 (Uzbekistan)",
+        "company": "Amazon",
+        "location": "Tashkent",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26571,
+        "privateContributions": 275,
+        "languages": ["Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 380,
+            "language": "Go"
+          },
+          {
+            "name": "uzb-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 151,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130008?v=4",
+        "name": "Dev 9 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 3677,
+        "publicContributions": 25559,
+        "privateContributions": 81,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 457,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uzb-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130009?v=4",
+        "name": "Dev 10 (Uzbekistan)",
+        "company": "Meta",
+        "location": "Tashkent",
+        "bio": null,
+        "followers": 3513,
+        "publicContributions": 24523,
+        "privateContributions": 400,
+        "languages": ["Swift", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 844,
+            "language": "Swift"
+          },
+          {
+            "name": "uzb-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 465,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "uzb-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130000?v=4",
+        "name": "Dev 1 (Uzbekistan)",
+        "company": "GitHub",
+        "location": "Tashkent",
+        "bio": "Developer from Uzbekistan",
+        "followers": 5039,
+        "publicContributions": 35124,
+        "privateContributions": 459,
+        "languages": ["TypeScript", "Kotlin", "Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-1-proj-1",
+            "description": null,
+            "stars": 1535,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uzb-dev-1",
+        "blog": "https://uzb-dev-1.dev"
+      },
+      {
+        "login": "uzb-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130001?v=4",
+        "name": "Dev 2 (Uzbekistan)",
+        "company": "Apple",
+        "location": "Uzbekistan",
+        "bio": "Developer from Uzbekistan",
+        "followers": 4832,
+        "publicContributions": 33749,
+        "privateContributions": 493,
+        "languages": ["Rust", "TypeScript", "Java"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-2-proj-1",
+            "description": null,
+            "stars": 274,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "uzb-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130002?v=4",
+        "name": "Dev 3 (Uzbekistan)",
+        "company": "Apple",
+        "location": "Uzbekistan",
+        "bio": "Developer from Uzbekistan",
+        "followers": 4648,
+        "publicContributions": 32362,
+        "privateContributions": 495,
+        "languages": ["TypeScript", "Ruby", "JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1065,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uzb-dev-3-proj-2",
+            "description": null,
+            "stars": 215,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130003?v=4",
+        "name": "Dev 4 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4485,
+        "publicContributions": 31166,
+        "privateContributions": 33,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-4-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130004?v=4",
+        "name": "Dev 5 (Uzbekistan)",
+        "company": "Vercel",
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29907,
+        "privateContributions": 241,
+        "languages": ["Java", "Python"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-5-proj-1",
+            "description": null,
+            "stars": 1363,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130005?v=4",
+        "name": "Dev 6 (Uzbekistan)",
+        "company": "Vercel",
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28749,
+        "privateContributions": 271,
+        "languages": ["Go", "Ruby", "Swift"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 40,
+            "language": "Go"
+          },
+          {
+            "name": "uzb-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 545,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130006?v=4",
+        "name": "Dev 7 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27725,
+        "privateContributions": 146,
+        "languages": ["TypeScript", "Dart", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 457,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130007?v=4",
+        "name": "Dev 8 (Uzbekistan)",
+        "company": "Amazon",
+        "location": "Tashkent",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26571,
+        "privateContributions": 275,
+        "languages": ["Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 380,
+            "language": "Go"
+          },
+          {
+            "name": "uzb-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 151,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130008?v=4",
+        "name": "Dev 9 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 3677,
+        "publicContributions": 25559,
+        "privateContributions": 81,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 457,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uzb-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130009?v=4",
+        "name": "Dev 10 (Uzbekistan)",
+        "company": "Meta",
+        "location": "Tashkent",
+        "bio": null,
+        "followers": 3513,
+        "publicContributions": 24523,
+        "privateContributions": 400,
+        "languages": ["Swift", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 844,
+            "language": "Swift"
+          },
+          {
+            "name": "uzb-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 465,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "uzb-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130000?v=4",
+        "name": "Dev 1 (Uzbekistan)",
+        "company": "GitHub",
+        "location": "Tashkent",
+        "bio": "Developer from Uzbekistan",
+        "followers": 5039,
+        "publicContributions": 35124,
+        "privateContributions": 459,
+        "languages": ["TypeScript", "Kotlin", "Ruby", "PHP"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-1-proj-1",
+            "description": null,
+            "stars": 1535,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uzb-dev-1",
+        "blog": "https://uzb-dev-1.dev"
+      },
+      {
+        "login": "uzb-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130001?v=4",
+        "name": "Dev 2 (Uzbekistan)",
+        "company": "Apple",
+        "location": "Uzbekistan",
+        "bio": "Developer from Uzbekistan",
+        "followers": 4832,
+        "publicContributions": 33749,
+        "privateContributions": 493,
+        "languages": ["Rust", "TypeScript", "Java"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-2-proj-1",
+            "description": null,
+            "stars": 274,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "uzb-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130002?v=4",
+        "name": "Dev 3 (Uzbekistan)",
+        "company": "Apple",
+        "location": "Uzbekistan",
+        "bio": "Developer from Uzbekistan",
+        "followers": 4648,
+        "publicContributions": 32362,
+        "privateContributions": 495,
+        "languages": ["TypeScript", "Ruby", "JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1065,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uzb-dev-3-proj-2",
+            "description": null,
+            "stars": 215,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130003?v=4",
+        "name": "Dev 4 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4485,
+        "publicContributions": 31166,
+        "privateContributions": 33,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-4-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130004?v=4",
+        "name": "Dev 5 (Uzbekistan)",
+        "company": "Vercel",
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29907,
+        "privateContributions": 241,
+        "languages": ["Java", "Python"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-5-proj-1",
+            "description": null,
+            "stars": 1363,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130005?v=4",
+        "name": "Dev 6 (Uzbekistan)",
+        "company": "Vercel",
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28749,
+        "privateContributions": 271,
+        "languages": ["Go", "Ruby", "Swift"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 40,
+            "language": "Go"
+          },
+          {
+            "name": "uzb-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 545,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130006?v=4",
+        "name": "Dev 7 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27725,
+        "privateContributions": 146,
+        "languages": ["TypeScript", "Dart", "C++", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 457,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130007?v=4",
+        "name": "Dev 8 (Uzbekistan)",
+        "company": "Amazon",
+        "location": "Tashkent",
+        "bio": null,
+        "followers": 3825,
+        "publicContributions": 26571,
+        "privateContributions": 275,
+        "languages": ["Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 380,
+            "language": "Go"
+          },
+          {
+            "name": "uzb-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 151,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130008?v=4",
+        "name": "Dev 9 (Uzbekistan)",
+        "company": null,
+        "location": "Uzbekistan",
+        "bio": null,
+        "followers": 3677,
+        "publicContributions": 25559,
+        "privateContributions": 81,
+        "languages": ["TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 457,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uzb-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uzb-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130009?v=4",
+        "name": "Dev 10 (Uzbekistan)",
+        "company": "Meta",
+        "location": "Tashkent",
+        "bio": null,
+        "followers": 3513,
+        "publicContributions": 24523,
+        "privateContributions": 400,
+        "languages": ["Swift", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "uzb-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 844,
+            "language": "Swift"
+          },
+          {
+            "name": "uzb-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 465,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

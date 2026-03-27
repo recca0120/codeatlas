@@ -1,0 +1,907 @@
+{
+  "countryCode": "saudi-arabia",
+  "updatedAt": "2026-03-27T21:38:37.394Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "sau-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105000?v=4",
+        "name": "Dev 1 (Saudi Arabia)",
+        "company": "Amazon",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 5016,
+        "publicContributions": 35172,
+        "privateContributions": 489,
+        "languages": ["JavaScript", "TypeScript", "Dart", "Java"],
+        "topRepos": [
+          {
+            "name": "sau-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 108,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "sau-dev-1",
+        "blog": "https://sau-dev-1.dev"
+      },
+      {
+        "login": "sau-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105001?v=4",
+        "name": "Dev 2 (Saudi Arabia)",
+        "company": "GitHub",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 4820,
+        "publicContributions": 33801,
+        "privateContributions": 19,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "sau-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1920,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1435,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 426,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "sau-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sau-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105002?v=4",
+        "name": "Dev 3 (Saudi Arabia)",
+        "company": "Amazon",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 4666,
+        "publicContributions": 32476,
+        "privateContributions": 455,
+        "languages": ["Java", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "sau-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1644,
+            "language": "Java"
+          },
+          {
+            "name": "sau-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1608,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105003?v=4",
+        "name": "Dev 4 (Saudi Arabia)",
+        "company": "Vercel",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 4473,
+        "publicContributions": 31184,
+        "privateContributions": 113,
+        "languages": ["Swift", "Java", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sau-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 315,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 439,
+            "language": "Java"
+          },
+          {
+            "name": "sau-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 672,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105004?v=4",
+        "name": "Dev 5 (Saudi Arabia)",
+        "company": null,
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 4297,
+        "publicContributions": 29939,
+        "privateContributions": 118,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "sau-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 320,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105005?v=4",
+        "name": "Dev 6 (Saudi Arabia)",
+        "company": null,
+        "location": "Saudi Arabia",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28836,
+        "privateContributions": 168,
+        "languages": ["Kotlin", "Swift", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sau-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 1070,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sau-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 1209,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-6-proj-3",
+            "description": null,
+            "stars": 1519,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105006?v=4",
+        "name": "Dev 7 (Saudi Arabia)",
+        "company": "GitHub",
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 3961,
+        "publicContributions": 27640,
+        "privateContributions": 190,
+        "languages": ["Dart", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "sau-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1171,
+            "language": "Dart"
+          },
+          {
+            "name": "sau-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 219,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105007?v=4",
+        "name": "Dev 8 (Saudi Arabia)",
+        "company": "Microsoft",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 3806,
+        "publicContributions": 26528,
+        "privateContributions": 54,
+        "languages": ["Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "sau-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 381,
+            "language": "Python"
+          },
+          {
+            "name": "sau-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1055,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105008?v=4",
+        "name": "Dev 9 (Saudi Arabia)",
+        "company": "Meta",
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25575,
+        "privateContributions": 381,
+        "languages": ["Ruby", "Dart"],
+        "topRepos": [
+          {
+            "name": "sau-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 469,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-9-proj-2",
+            "description": null,
+            "stars": 338,
+            "language": "Dart"
+          },
+          {
+            "name": "sau-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 606,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105009?v=4",
+        "name": "Dev 10 (Saudi Arabia)",
+        "company": "Vercel",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 3525,
+        "publicContributions": 24479,
+        "privateContributions": 441,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "sau-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 256,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-10-proj-2",
+            "description": null,
+            "stars": 1132,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 74,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "sau-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105000?v=4",
+        "name": "Dev 1 (Saudi Arabia)",
+        "company": "Amazon",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 5016,
+        "publicContributions": 35172,
+        "privateContributions": 489,
+        "languages": ["JavaScript", "TypeScript", "Dart", "Java"],
+        "topRepos": [
+          {
+            "name": "sau-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 108,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "sau-dev-1",
+        "blog": "https://sau-dev-1.dev"
+      },
+      {
+        "login": "sau-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105001?v=4",
+        "name": "Dev 2 (Saudi Arabia)",
+        "company": "GitHub",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 4820,
+        "publicContributions": 33801,
+        "privateContributions": 19,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "sau-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1920,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1435,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 426,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "sau-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sau-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105002?v=4",
+        "name": "Dev 3 (Saudi Arabia)",
+        "company": "Amazon",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 4666,
+        "publicContributions": 32476,
+        "privateContributions": 455,
+        "languages": ["Java", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "sau-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1644,
+            "language": "Java"
+          },
+          {
+            "name": "sau-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1608,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105003?v=4",
+        "name": "Dev 4 (Saudi Arabia)",
+        "company": "Vercel",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 4473,
+        "publicContributions": 31184,
+        "privateContributions": 113,
+        "languages": ["Swift", "Java", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sau-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 315,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 439,
+            "language": "Java"
+          },
+          {
+            "name": "sau-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 672,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105004?v=4",
+        "name": "Dev 5 (Saudi Arabia)",
+        "company": null,
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 4297,
+        "publicContributions": 29939,
+        "privateContributions": 118,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "sau-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 320,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105005?v=4",
+        "name": "Dev 6 (Saudi Arabia)",
+        "company": null,
+        "location": "Saudi Arabia",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28836,
+        "privateContributions": 168,
+        "languages": ["Kotlin", "Swift", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sau-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 1070,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sau-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 1209,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-6-proj-3",
+            "description": null,
+            "stars": 1519,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105006?v=4",
+        "name": "Dev 7 (Saudi Arabia)",
+        "company": "GitHub",
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 3961,
+        "publicContributions": 27640,
+        "privateContributions": 190,
+        "languages": ["Dart", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "sau-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1171,
+            "language": "Dart"
+          },
+          {
+            "name": "sau-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 219,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105007?v=4",
+        "name": "Dev 8 (Saudi Arabia)",
+        "company": "Microsoft",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 3806,
+        "publicContributions": 26528,
+        "privateContributions": 54,
+        "languages": ["Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "sau-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 381,
+            "language": "Python"
+          },
+          {
+            "name": "sau-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1055,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105008?v=4",
+        "name": "Dev 9 (Saudi Arabia)",
+        "company": "Meta",
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25575,
+        "privateContributions": 381,
+        "languages": ["Ruby", "Dart"],
+        "topRepos": [
+          {
+            "name": "sau-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 469,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-9-proj-2",
+            "description": null,
+            "stars": 338,
+            "language": "Dart"
+          },
+          {
+            "name": "sau-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 606,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105009?v=4",
+        "name": "Dev 10 (Saudi Arabia)",
+        "company": "Vercel",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 3525,
+        "publicContributions": 24479,
+        "privateContributions": 441,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "sau-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 256,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-10-proj-2",
+            "description": null,
+            "stars": 1132,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 74,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "sau-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105000?v=4",
+        "name": "Dev 1 (Saudi Arabia)",
+        "company": "Amazon",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 5016,
+        "publicContributions": 35172,
+        "privateContributions": 489,
+        "languages": ["JavaScript", "TypeScript", "Dart", "Java"],
+        "topRepos": [
+          {
+            "name": "sau-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 108,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "sau-dev-1",
+        "blog": "https://sau-dev-1.dev"
+      },
+      {
+        "login": "sau-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105001?v=4",
+        "name": "Dev 2 (Saudi Arabia)",
+        "company": "GitHub",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 4820,
+        "publicContributions": 33801,
+        "privateContributions": 19,
+        "languages": ["Swift"],
+        "topRepos": [
+          {
+            "name": "sau-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1920,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1435,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 426,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "sau-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sau-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105002?v=4",
+        "name": "Dev 3 (Saudi Arabia)",
+        "company": "Amazon",
+        "location": "Riyadh",
+        "bio": "Developer from Saudi Arabia",
+        "followers": 4666,
+        "publicContributions": 32476,
+        "privateContributions": 455,
+        "languages": ["Java", "JavaScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "sau-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1644,
+            "language": "Java"
+          },
+          {
+            "name": "sau-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1608,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105003?v=4",
+        "name": "Dev 4 (Saudi Arabia)",
+        "company": "Vercel",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 4473,
+        "publicContributions": 31184,
+        "privateContributions": 113,
+        "languages": ["Swift", "Java", "Ruby"],
+        "topRepos": [
+          {
+            "name": "sau-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 315,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 439,
+            "language": "Java"
+          },
+          {
+            "name": "sau-dev-4-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 672,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105004?v=4",
+        "name": "Dev 5 (Saudi Arabia)",
+        "company": null,
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 4297,
+        "publicContributions": 29939,
+        "privateContributions": 118,
+        "languages": ["JavaScript", "C++"],
+        "topRepos": [
+          {
+            "name": "sau-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 320,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105005?v=4",
+        "name": "Dev 6 (Saudi Arabia)",
+        "company": null,
+        "location": "Saudi Arabia",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28836,
+        "privateContributions": 168,
+        "languages": ["Kotlin", "Swift", "Python", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "sau-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 1070,
+            "language": "Kotlin"
+          },
+          {
+            "name": "sau-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 1209,
+            "language": "Swift"
+          },
+          {
+            "name": "sau-dev-6-proj-3",
+            "description": null,
+            "stars": 1519,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105006?v=4",
+        "name": "Dev 7 (Saudi Arabia)",
+        "company": "GitHub",
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 3961,
+        "publicContributions": 27640,
+        "privateContributions": 190,
+        "languages": ["Dart", "JavaScript", "Java"],
+        "topRepos": [
+          {
+            "name": "sau-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1171,
+            "language": "Dart"
+          },
+          {
+            "name": "sau-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 219,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105007?v=4",
+        "name": "Dev 8 (Saudi Arabia)",
+        "company": "Microsoft",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 3806,
+        "publicContributions": 26528,
+        "privateContributions": 54,
+        "languages": ["Python", "Dart"],
+        "topRepos": [
+          {
+            "name": "sau-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 381,
+            "language": "Python"
+          },
+          {
+            "name": "sau-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1055,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105008?v=4",
+        "name": "Dev 9 (Saudi Arabia)",
+        "company": "Meta",
+        "location": "Jeddah",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25575,
+        "privateContributions": 381,
+        "languages": ["Ruby", "Dart"],
+        "topRepos": [
+          {
+            "name": "sau-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 469,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-9-proj-2",
+            "description": null,
+            "stars": 338,
+            "language": "Dart"
+          },
+          {
+            "name": "sau-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 606,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sau-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105009?v=4",
+        "name": "Dev 10 (Saudi Arabia)",
+        "company": "Vercel",
+        "location": "Riyadh",
+        "bio": null,
+        "followers": 3525,
+        "publicContributions": 24479,
+        "privateContributions": 441,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "sau-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 256,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-10-proj-2",
+            "description": null,
+            "stars": 1132,
+            "language": "Ruby"
+          },
+          {
+            "name": "sau-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 74,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

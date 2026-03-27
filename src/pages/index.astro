@@ -1,30 +1,16 @@
 ---
-import fs from "node:fs/promises";
 import Layout from "../layouts/Layout.astro";
 import { loadAllCountryConfigs } from "../lib/country-config";
-import type { CountryData } from "../lib/data-output";
 import CountrySearch from "../components/CountrySearch.svelte";
 
 const countries = await loadAllCountryConfigs("config/countries");
-interface CS { code:string; name:string; flag:string; devs:number; contrib:number; perCapita:number; }
-const stats: CS[] = [];
-let totalDevs = 0, totalContrib = 0;
-for (const c of countries) {
-  try {
-    const d: CountryData = JSON.parse(await fs.readFile(`data/${c.code}.json`, "utf-8"));
-    const devs = d.rankings.public_contributions.length;
-    const contrib = d.rankings.public_contributions.reduce((s, u) => s + u.publicContributions, 0);
-    totalDevs += devs; totalContrib += contrib;
-    stats.push({ code: c.code, name: c.name, flag: c.flag, devs, contrib, perCapita: Math.round(contrib / devs) });
-  } catch {}
-}
-stats.sort((a, b) => b.contrib - a.contrib);
-
-function fmt(n: number) { return n >= 1e6 ? (n/1e6).toFixed(1)+"M" : n >= 1e3 ? (n/1e3).toFixed(0)+"K" : String(n); }
 
 const CONT: Record<string, string> = {afghanistan:"Asia",albania:"Europe",algeria:"Africa",andorra:"Europe",angola:"Africa",argentina:"Americas",armenia:"Asia",australia:"Oceania",austria:"Europe",azerbaijan:"Asia",bahrain:"Asia",bangladesh:"Asia",belarus:"Europe",belgium:"Europe",benin:"Africa",bhutan:"Asia",bolivia:"Americas","bosnia-and-herzegovina":"Europe",botswana:"Africa",brazil:"Americas",bulgaria:"Europe","burkina-faso":"Africa",burundi:"Africa",cambodia:"Asia",cameroon:"Africa",canada:"Americas",chad:"Africa",chile:"Americas",china:"Asia","hong-kong":"Asia",taiwan:"Asia",colombia:"Americas",congo:"Africa",croatia:"Europe",cuba:"Americas",cyprus:"Europe",czechia:"Europe",denmark:"Europe","dominican-republic":"Americas",ecuador:"Americas",egypt:"Africa","el-salvador":"Americas",estonia:"Europe",ethiopia:"Africa",finland:"Europe",france:"Europe",georgia:"Asia",germany:"Europe",ghana:"Africa",greece:"Europe",guatemala:"Americas",honduras:"Americas",hungary:"Europe",iceland:"Europe",india:"Asia",indonesia:"Asia",iran:"Asia",iraq:"Asia",ireland:"Europe",israel:"Asia",italy:"Europe",jamaica:"Americas",japan:"Asia",jordan:"Asia",kazakhstan:"Asia",kenya:"Africa",kuwait:"Asia",laos:"Asia",latvia:"Europe",lithuania:"Europe",luxembourg:"Europe",madagascar:"Africa",malawi:"Africa",malaysia:"Asia",maldives:"Asia",mali:"Africa",malta:"Europe",mauritius:"Africa",mexico:"Americas",moldova:"Europe",mongolia:"Asia",montenegro:"Europe",morocco:"Africa",mozambique:"Africa",myanmar:"Asia",namibia:"Africa",nepal:"Asia",netherlands:"Europe","new-zealand":"Oceania",nicaragua:"Americas",nigeria:"Africa",norway:"Europe",oman:"Asia",pakistan:"Asia",palestine:"Asia",panama:"Americas",paraguay:"Americas",peru:"Americas",philippines:"Asia",poland:"Europe",portugal:"Europe",qatar:"Asia",romania:"Europe",russia:"Europe",rwanda:"Africa","saudi-arabia":"Asia",senegal:"Africa",serbia:"Europe",singapore:"Asia",slovakia:"Europe",slovenia:"Europe","south-africa":"Africa","south-korea":"Asia",spain:"Europe","sri-lanka":"Asia",sudan:"Africa",sweden:"Europe",switzerland:"Europe",syria:"Asia",tanzania:"Africa",thailand:"Asia",tunisia:"Africa",turkey:"Europe",uganda:"Africa",ukraine:"Europe","united-arab-emirates":"Asia","united-kingdom":"Europe","united-states":"Americas",uruguay:"Americas",uzbekistan:"Asia",venezuela:"Americas",vietnam:"Asia",zambia:"Africa",zimbabwe:"Africa"};
-const byC: Record<string, CS[]> = {};
-for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push(s); }
+
+interface CItem { code: string; name: string; flag: string; continent: string; }
+const countryList: CItem[] = countries.map(c => ({ code: c.code, name: c.name, flag: c.flag, continent: CONT[c.code] || "Other" }));
+const byContinent: Record<string, CItem[]> = {};
+for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
 ---
 
 <Layout title="CodeAtlas — Global Developer Rankings">
@@ -32,39 +18,38 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
   <div class="w-full dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center">
     <div class="max-w-6xl mx-auto px-6 sm:px-8">
       <section class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 min-h-[calc(100vh-56px)] items-center py-16 lg:py-0">
-      <div>
-        <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight tracking-tight">
-          Global Developer Rankings
-        </h1>
-        <p class="text-text-secondary mt-5 text-lg leading-relaxed max-w-lg">
-          Tracking <span class="text-text font-semibold">{fmt(totalDevs)}</span> developers and
-          <span class="text-text font-semibold">{fmt(totalContrib)}</span> contributions across
-          <span class="text-text font-semibold">{stats.length}</span> countries. Updated weekly.
-        </p>
-        <div class="mt-8 max-w-sm">
-          <CountrySearch client:load countries={stats.map(s => ({ code: s.code, name: s.name, flag: s.flag }))} />
+        <div>
+          <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight tracking-tight">
+            Global Developer Rankings
+          </h1>
+          <p class="text-text-secondary mt-5 text-lg leading-relaxed max-w-lg">
+            Tracking developers across <span class="text-text font-semibold">{countries.length}</span> countries,
+            ranked by GitHub contributions. Updated weekly.
+          </p>
+          <div class="mt-8 max-w-sm">
+            <CountrySearch client:load countries={countryList.map(c => ({ code: c.code, name: c.name, flag: c.flag }))} />
+          </div>
         </div>
-      </div>
 
-      <div class="hidden lg:block relative h-[620px]">
-        <div id="globe-container" class="absolute inset-0 opacity-0 transition-opacity duration-[2s]"
-          data-country-stats={JSON.stringify(Object.fromEntries(stats.map(s => [s.code, s.perCapita])))}></div>
-      </div>
-    </section>
+        <div class="hidden lg:block relative h-[620px]">
+          <div id="globe-container" class="absolute inset-0 opacity-0 transition-opacity duration-[2s]"
+            data-countries={JSON.stringify(countryList.map(c => c.code))}></div>
+        </div>
+      </section>
     </div>
   </div>
 
   <div class="max-w-6xl mx-auto px-6 sm:px-8">
     <section class="py-16 border-t border-border">
-      <h2 class="text-xl font-display font-bold mb-10">{stats.length} Countries</h2>
+      <h2 class="text-xl font-display font-bold mb-10">{countries.length} Countries</h2>
 
-      {["Asia", "Europe", "Americas", "Africa", "Oceania"].filter(c => byC[c]).map(cont => (
+      {["Asia", "Europe", "Americas", "Africa", "Oceania"].filter(c => byContinent[c]).map(cont => (
         <div class="mb-10">
           <div class="text-xs font-data text-text-muted tracking-widest uppercase mb-3 pb-2 border-b border-border">
-            {cont} <span class="text-text-muted/60">· {byC[cont].length}</span>
+            {cont} <span class="text-text-muted/60">· {byContinent[cont].length}</span>
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {byC[cont].map(c => (
+            {byContinent[cont].map(c => (
               <a href={`/${c.code}/`}
                 class="flex items-center gap-3 px-4 py-3 rounded-xl border border-border hover:border-accent/40 hover:bg-surface-hover transition-all group">
                 <span class="text-2xl shrink-0">{c.flag}</span>
@@ -86,15 +71,11 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
   import { isConfiguredCountry, getCountrySlug } from "../lib/globe/country-mapping";
   const el = document.getElementById("globe-container");
   if (el && window.innerWidth >= 1024) {
-    const pcd: Record<string, number> = JSON.parse(el.dataset.countryStats || "{}");
-    const mx = Math.max(1, ...Object.values(pcd));
+    const configuredCodes = new Set(JSON.parse(el.dataset.countries || "[]"));
     function hc(iso: string) {
       const s = getCountrySlug(iso);
-      if (!s || !(s in pcd)) return "rgba(63,63,70,0.3)";
-      const r = pcd[s] / mx;
-      if (r > 0.6) return "rgba(129,140,248,0.55)";
-      if (r > 0.3) return "rgba(99,102,241,0.35)";
-      return "rgba(99,102,241,0.18)";
+      if (!s || !configuredCodes.has(s)) return "rgba(63,63,70,0.3)";
+      return "rgba(99,102,241,0.35)";
     }
     import("globe.gl").then(({ default: Globe }) => {
       import("three").then((THREE) => {
@@ -103,21 +84,13 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
         .showAtmosphere(true).atmosphereColor("cyan").atmosphereAltitude(0.15)
         .globeImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg")
         .bumpImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png");
-
-      // Premium material: specular water + bump terrain + lighting
       const mat = w.globeMaterial() as any;
       if (mat) {
         mat.bumpScale = 10;
-        new THREE.TextureLoader().load(
-          "//cdn.jsdelivr.net/npm/three-globe/example/img/earth-water.png",
-          (texture: any) => {
-            mat.specularMap = texture;
-            mat.specular = new THREE.Color("grey");
-            mat.shininess = 15;
-          }
-        );
+        new THREE.TextureLoader().load("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-water.png", (texture: any) => {
+          mat.specularMap = texture; mat.specular = new THREE.Color("grey"); mat.shininess = 15;
+        });
       }
-      // Adjust directional light for depth
       const dirLight = w.lights().find((l: any) => l.type === "DirectionalLight") as any;
       if (dirLight) dirLight.position.set(1, 1, 1);
       const c = w.controls() as any;
@@ -144,7 +117,7 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
         el.style.opacity = "1";
       });
       new IntersectionObserver(([e]) => { e.isIntersecting ? w.resumeAnimation() : w.pauseAnimation(); }, { threshold: 0.1 }).observe(el);
-    }); // end THREE import
-    }); // end Globe import
+      }); // end THREE
+    }); // end Globe
   }
 </script>

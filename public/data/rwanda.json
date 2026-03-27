@@ -1,0 +1,853 @@
+{
+  "countryCode": "rwanda",
+  "updatedAt": "2026-03-27T21:38:37.394Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "rwa-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104000?v=4",
+        "name": "Dev 1 (Rwanda)",
+        "company": "Microsoft",
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 5042,
+        "publicContributions": 35191,
+        "privateContributions": 492,
+        "languages": ["JavaScript", "Dart", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1708,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "rwa-dev-1",
+        "blog": "https://rwa-dev-1.dev"
+      },
+      {
+        "login": "rwa-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104001?v=4",
+        "name": "Dev 2 (Rwanda)",
+        "company": "GitHub",
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 4833,
+        "publicContributions": 33781,
+        "privateContributions": 435,
+        "languages": ["Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-2-proj-1",
+            "description": null,
+            "stars": 1901,
+            "language": "Go"
+          },
+          {
+            "name": "rwa-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1958,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "rwa-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104002?v=4",
+        "name": "Dev 3 (Rwanda)",
+        "company": null,
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 4645,
+        "publicContributions": 32444,
+        "privateContributions": 22,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1847,
+            "language": "Java"
+          },
+          {
+            "name": "rwa-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 829,
+            "language": "Java"
+          },
+          {
+            "name": "rwa-dev-3-proj-3",
+            "description": "Data pipeline library",
+            "stars": 544,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104003?v=4",
+        "name": "Dev 4 (Rwanda)",
+        "company": "Amazon",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31142,
+        "privateContributions": 348,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 41,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 422,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-4-proj-3",
+            "description": null,
+            "stars": 978,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104004?v=4",
+        "name": "Dev 5 (Rwanda)",
+        "company": null,
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4282,
+        "publicContributions": 29912,
+        "privateContributions": 388,
+        "languages": ["Python", "Java", "TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-5-proj-1",
+            "description": null,
+            "stars": 843,
+            "language": "Python"
+          },
+          {
+            "name": "rwa-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1181,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104005?v=4",
+        "name": "Dev 6 (Rwanda)",
+        "company": "Vercel",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4114,
+        "publicContributions": 28734,
+        "privateContributions": 429,
+        "languages": ["Python", "Go"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 184,
+            "language": "Python"
+          },
+          {
+            "name": "rwa-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1258,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104006?v=4",
+        "name": "Dev 7 (Rwanda)",
+        "company": "Apple",
+        "location": "Rwanda",
+        "bio": null,
+        "followers": 3966,
+        "publicContributions": 27731,
+        "privateContributions": 341,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 368,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104007?v=4",
+        "name": "Dev 8 (Rwanda)",
+        "company": "Microsoft",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26586,
+        "privateContributions": 417,
+        "languages": ["PHP", "Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-8-proj-1",
+            "description": null,
+            "stars": 1271,
+            "language": "PHP"
+          },
+          {
+            "name": "rwa-dev-8-proj-2",
+            "description": null,
+            "stars": 343,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104008?v=4",
+        "name": "Dev 9 (Rwanda)",
+        "company": "Google",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 3673,
+        "publicContributions": 25570,
+        "privateContributions": 213,
+        "languages": ["TypeScript", "Swift", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1233,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 864,
+            "language": "Swift"
+          },
+          {
+            "name": "rwa-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 1339,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104009?v=4",
+        "name": "Dev 10 (Rwanda)",
+        "company": "Amazon",
+        "location": "Rwanda",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24589,
+        "privateContributions": 344,
+        "languages": ["JavaScript", "Ruby", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 812,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "rwa-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104000?v=4",
+        "name": "Dev 1 (Rwanda)",
+        "company": "Microsoft",
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 5042,
+        "publicContributions": 35191,
+        "privateContributions": 492,
+        "languages": ["JavaScript", "Dart", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1708,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "rwa-dev-1",
+        "blog": "https://rwa-dev-1.dev"
+      },
+      {
+        "login": "rwa-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104001?v=4",
+        "name": "Dev 2 (Rwanda)",
+        "company": "GitHub",
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 4833,
+        "publicContributions": 33781,
+        "privateContributions": 435,
+        "languages": ["Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-2-proj-1",
+            "description": null,
+            "stars": 1901,
+            "language": "Go"
+          },
+          {
+            "name": "rwa-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1958,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "rwa-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104002?v=4",
+        "name": "Dev 3 (Rwanda)",
+        "company": null,
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 4645,
+        "publicContributions": 32444,
+        "privateContributions": 22,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1847,
+            "language": "Java"
+          },
+          {
+            "name": "rwa-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 829,
+            "language": "Java"
+          },
+          {
+            "name": "rwa-dev-3-proj-3",
+            "description": "Data pipeline library",
+            "stars": 544,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104003?v=4",
+        "name": "Dev 4 (Rwanda)",
+        "company": "Amazon",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31142,
+        "privateContributions": 348,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 41,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 422,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-4-proj-3",
+            "description": null,
+            "stars": 978,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104004?v=4",
+        "name": "Dev 5 (Rwanda)",
+        "company": null,
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4282,
+        "publicContributions": 29912,
+        "privateContributions": 388,
+        "languages": ["Python", "Java", "TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-5-proj-1",
+            "description": null,
+            "stars": 843,
+            "language": "Python"
+          },
+          {
+            "name": "rwa-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1181,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104005?v=4",
+        "name": "Dev 6 (Rwanda)",
+        "company": "Vercel",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4114,
+        "publicContributions": 28734,
+        "privateContributions": 429,
+        "languages": ["Python", "Go"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 184,
+            "language": "Python"
+          },
+          {
+            "name": "rwa-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1258,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104006?v=4",
+        "name": "Dev 7 (Rwanda)",
+        "company": "Apple",
+        "location": "Rwanda",
+        "bio": null,
+        "followers": 3966,
+        "publicContributions": 27731,
+        "privateContributions": 341,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 368,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104007?v=4",
+        "name": "Dev 8 (Rwanda)",
+        "company": "Microsoft",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26586,
+        "privateContributions": 417,
+        "languages": ["PHP", "Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-8-proj-1",
+            "description": null,
+            "stars": 1271,
+            "language": "PHP"
+          },
+          {
+            "name": "rwa-dev-8-proj-2",
+            "description": null,
+            "stars": 343,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104008?v=4",
+        "name": "Dev 9 (Rwanda)",
+        "company": "Google",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 3673,
+        "publicContributions": 25570,
+        "privateContributions": 213,
+        "languages": ["TypeScript", "Swift", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1233,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 864,
+            "language": "Swift"
+          },
+          {
+            "name": "rwa-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 1339,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104009?v=4",
+        "name": "Dev 10 (Rwanda)",
+        "company": "Amazon",
+        "location": "Rwanda",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24589,
+        "privateContributions": 344,
+        "languages": ["JavaScript", "Ruby", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 812,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "rwa-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104000?v=4",
+        "name": "Dev 1 (Rwanda)",
+        "company": "Microsoft",
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 5042,
+        "publicContributions": 35191,
+        "privateContributions": 492,
+        "languages": ["JavaScript", "Dart", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1708,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "rwa-dev-1",
+        "blog": "https://rwa-dev-1.dev"
+      },
+      {
+        "login": "rwa-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104001?v=4",
+        "name": "Dev 2 (Rwanda)",
+        "company": "GitHub",
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 4833,
+        "publicContributions": 33781,
+        "privateContributions": 435,
+        "languages": ["Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-2-proj-1",
+            "description": null,
+            "stars": 1901,
+            "language": "Go"
+          },
+          {
+            "name": "rwa-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1958,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "rwa-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104002?v=4",
+        "name": "Dev 3 (Rwanda)",
+        "company": null,
+        "location": "Kigali",
+        "bio": "Developer from Rwanda",
+        "followers": 4645,
+        "publicContributions": 32444,
+        "privateContributions": 22,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1847,
+            "language": "Java"
+          },
+          {
+            "name": "rwa-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 829,
+            "language": "Java"
+          },
+          {
+            "name": "rwa-dev-3-proj-3",
+            "description": "Data pipeline library",
+            "stars": 544,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104003?v=4",
+        "name": "Dev 4 (Rwanda)",
+        "company": "Amazon",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31142,
+        "privateContributions": 348,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 41,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 422,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-4-proj-3",
+            "description": null,
+            "stars": 978,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104004?v=4",
+        "name": "Dev 5 (Rwanda)",
+        "company": null,
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4282,
+        "publicContributions": 29912,
+        "privateContributions": 388,
+        "languages": ["Python", "Java", "TypeScript", "Swift"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-5-proj-1",
+            "description": null,
+            "stars": 843,
+            "language": "Python"
+          },
+          {
+            "name": "rwa-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1181,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104005?v=4",
+        "name": "Dev 6 (Rwanda)",
+        "company": "Vercel",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 4114,
+        "publicContributions": 28734,
+        "privateContributions": 429,
+        "languages": ["Python", "Go"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 184,
+            "language": "Python"
+          },
+          {
+            "name": "rwa-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1258,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104006?v=4",
+        "name": "Dev 7 (Rwanda)",
+        "company": "Apple",
+        "location": "Rwanda",
+        "bio": null,
+        "followers": 3966,
+        "publicContributions": 27731,
+        "privateContributions": 341,
+        "languages": ["Rust", "Go"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 368,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104007?v=4",
+        "name": "Dev 8 (Rwanda)",
+        "company": "Microsoft",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26586,
+        "privateContributions": 417,
+        "languages": ["PHP", "Go", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-8-proj-1",
+            "description": null,
+            "stars": 1271,
+            "language": "PHP"
+          },
+          {
+            "name": "rwa-dev-8-proj-2",
+            "description": null,
+            "stars": 343,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104008?v=4",
+        "name": "Dev 9 (Rwanda)",
+        "company": "Google",
+        "location": "Kigali",
+        "bio": null,
+        "followers": 3673,
+        "publicContributions": 25570,
+        "privateContributions": 213,
+        "languages": ["TypeScript", "Swift", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1233,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rwa-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 864,
+            "language": "Swift"
+          },
+          {
+            "name": "rwa-dev-9-proj-3",
+            "description": "API wrapper",
+            "stars": 1339,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rwa-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104009?v=4",
+        "name": "Dev 10 (Rwanda)",
+        "company": "Amazon",
+        "location": "Rwanda",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24589,
+        "privateContributions": 344,
+        "languages": ["JavaScript", "Ruby", "Kotlin", "Java"],
+        "topRepos": [
+          {
+            "name": "rwa-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 812,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

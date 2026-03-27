@@ -1,0 +1,889 @@
+{
+  "countryCode": "taiwan",
+  "updatedAt": "2026-03-27T21:38:37.396Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "tai-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119000?v=4",
+        "name": "Dev 1 (Taiwan)",
+        "company": "Apple",
+        "location": "Taiwan",
+        "bio": "Developer from Taiwan",
+        "followers": 5040,
+        "publicContributions": 35124,
+        "privateContributions": 203,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 147,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tai-dev-1-proj-2",
+            "description": null,
+            "stars": 1205,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tai-dev-1-proj-3",
+            "description": null,
+            "stars": 1921,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "tai-dev-1",
+        "blog": "https://tai-dev-1.dev"
+      },
+      {
+        "login": "tai-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119001?v=4",
+        "name": "Dev 2 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": "Developer from Taiwan",
+        "followers": 4841,
+        "publicContributions": 33762,
+        "privateContributions": 95,
+        "languages": ["Ruby", "Kotlin", "Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "tai-dev-2-proj-1",
+            "description": null,
+            "stars": 881,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1021,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "tai-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tai-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119002?v=4",
+        "name": "Dev 3 (Taiwan)",
+        "company": "GitHub",
+        "location": "Taiwan",
+        "bio": "Developer from Taiwan",
+        "followers": 4661,
+        "publicContributions": 32364,
+        "privateContributions": 390,
+        "languages": ["Rust", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1551,
+            "language": "Rust"
+          },
+          {
+            "name": "tai-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 907,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tai-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119003?v=4",
+        "name": "Dev 4 (Taiwan)",
+        "company": null,
+        "location": "Taiwan",
+        "bio": null,
+        "followers": 4479,
+        "publicContributions": 31131,
+        "privateContributions": 348,
+        "languages": ["TypeScript", "C++", "Python", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-4-proj-1",
+            "description": null,
+            "stars": 696,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119004?v=4",
+        "name": "Dev 5 (Taiwan)",
+        "company": "Vercel",
+        "location": "Kaohsiung",
+        "bio": null,
+        "followers": 4297,
+        "publicContributions": 29957,
+        "privateContributions": 97,
+        "languages": ["PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 823,
+            "language": "PHP"
+          },
+          {
+            "name": "tai-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 422,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119005?v=4",
+        "name": "Dev 6 (Taiwan)",
+        "company": null,
+        "location": "Hsinchu",
+        "bio": null,
+        "followers": 4110,
+        "publicContributions": 28706,
+        "privateContributions": 421,
+        "languages": ["Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1251,
+            "language": "Go"
+          },
+          {
+            "name": "tai-dev-6-proj-2",
+            "description": null,
+            "stars": 93,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-6-proj-3",
+            "description": null,
+            "stars": 758,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119006?v=4",
+        "name": "Dev 7 (Taiwan)",
+        "company": "Amazon",
+        "location": "Taiwan",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27671,
+        "privateContributions": 16,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1182,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 665,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-7-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1104,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119007?v=4",
+        "name": "Dev 8 (Taiwan)",
+        "company": "GitHub",
+        "location": "Kaohsiung",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26507,
+        "privateContributions": 53,
+        "languages": ["Python", "Dart", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 96,
+            "language": "Python"
+          },
+          {
+            "name": "tai-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1208,
+            "language": "Dart"
+          },
+          {
+            "name": "tai-dev-8-proj-3",
+            "description": null,
+            "stars": 472,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119008?v=4",
+        "name": "Dev 9 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": null,
+        "followers": 3657,
+        "publicContributions": 25504,
+        "privateContributions": 435,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 543,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119009?v=4",
+        "name": "Dev 10 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24610,
+        "privateContributions": 414,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "tai-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 851,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "tai-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119000?v=4",
+        "name": "Dev 1 (Taiwan)",
+        "company": "Apple",
+        "location": "Taiwan",
+        "bio": "Developer from Taiwan",
+        "followers": 5040,
+        "publicContributions": 35124,
+        "privateContributions": 203,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 147,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tai-dev-1-proj-2",
+            "description": null,
+            "stars": 1205,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tai-dev-1-proj-3",
+            "description": null,
+            "stars": 1921,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "tai-dev-1",
+        "blog": "https://tai-dev-1.dev"
+      },
+      {
+        "login": "tai-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119001?v=4",
+        "name": "Dev 2 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": "Developer from Taiwan",
+        "followers": 4841,
+        "publicContributions": 33762,
+        "privateContributions": 95,
+        "languages": ["Ruby", "Kotlin", "Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "tai-dev-2-proj-1",
+            "description": null,
+            "stars": 881,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1021,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "tai-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tai-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119002?v=4",
+        "name": "Dev 3 (Taiwan)",
+        "company": "GitHub",
+        "location": "Taiwan",
+        "bio": "Developer from Taiwan",
+        "followers": 4661,
+        "publicContributions": 32364,
+        "privateContributions": 390,
+        "languages": ["Rust", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1551,
+            "language": "Rust"
+          },
+          {
+            "name": "tai-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 907,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tai-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119003?v=4",
+        "name": "Dev 4 (Taiwan)",
+        "company": null,
+        "location": "Taiwan",
+        "bio": null,
+        "followers": 4479,
+        "publicContributions": 31131,
+        "privateContributions": 348,
+        "languages": ["TypeScript", "C++", "Python", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-4-proj-1",
+            "description": null,
+            "stars": 696,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119004?v=4",
+        "name": "Dev 5 (Taiwan)",
+        "company": "Vercel",
+        "location": "Kaohsiung",
+        "bio": null,
+        "followers": 4297,
+        "publicContributions": 29957,
+        "privateContributions": 97,
+        "languages": ["PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 823,
+            "language": "PHP"
+          },
+          {
+            "name": "tai-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 422,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119005?v=4",
+        "name": "Dev 6 (Taiwan)",
+        "company": null,
+        "location": "Hsinchu",
+        "bio": null,
+        "followers": 4110,
+        "publicContributions": 28706,
+        "privateContributions": 421,
+        "languages": ["Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1251,
+            "language": "Go"
+          },
+          {
+            "name": "tai-dev-6-proj-2",
+            "description": null,
+            "stars": 93,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-6-proj-3",
+            "description": null,
+            "stars": 758,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119006?v=4",
+        "name": "Dev 7 (Taiwan)",
+        "company": "Amazon",
+        "location": "Taiwan",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27671,
+        "privateContributions": 16,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1182,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 665,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-7-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1104,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119007?v=4",
+        "name": "Dev 8 (Taiwan)",
+        "company": "GitHub",
+        "location": "Kaohsiung",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26507,
+        "privateContributions": 53,
+        "languages": ["Python", "Dart", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 96,
+            "language": "Python"
+          },
+          {
+            "name": "tai-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1208,
+            "language": "Dart"
+          },
+          {
+            "name": "tai-dev-8-proj-3",
+            "description": null,
+            "stars": 472,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119008?v=4",
+        "name": "Dev 9 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": null,
+        "followers": 3657,
+        "publicContributions": 25504,
+        "privateContributions": 435,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 543,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119009?v=4",
+        "name": "Dev 10 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24610,
+        "privateContributions": 414,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "tai-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 851,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "tai-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119000?v=4",
+        "name": "Dev 1 (Taiwan)",
+        "company": "Apple",
+        "location": "Taiwan",
+        "bio": "Developer from Taiwan",
+        "followers": 5040,
+        "publicContributions": 35124,
+        "privateContributions": 203,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 147,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tai-dev-1-proj-2",
+            "description": null,
+            "stars": 1205,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tai-dev-1-proj-3",
+            "description": null,
+            "stars": 1921,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "tai-dev-1",
+        "blog": "https://tai-dev-1.dev"
+      },
+      {
+        "login": "tai-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119001?v=4",
+        "name": "Dev 2 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": "Developer from Taiwan",
+        "followers": 4841,
+        "publicContributions": 33762,
+        "privateContributions": 95,
+        "languages": ["Ruby", "Kotlin", "Dart", "PHP"],
+        "topRepos": [
+          {
+            "name": "tai-dev-2-proj-1",
+            "description": null,
+            "stars": 881,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1021,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "tai-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tai-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119002?v=4",
+        "name": "Dev 3 (Taiwan)",
+        "company": "GitHub",
+        "location": "Taiwan",
+        "bio": "Developer from Taiwan",
+        "followers": 4661,
+        "publicContributions": 32364,
+        "privateContributions": 390,
+        "languages": ["Rust", "JavaScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1551,
+            "language": "Rust"
+          },
+          {
+            "name": "tai-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 907,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tai-dev-3-proj-3",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119003?v=4",
+        "name": "Dev 4 (Taiwan)",
+        "company": null,
+        "location": "Taiwan",
+        "bio": null,
+        "followers": 4479,
+        "publicContributions": 31131,
+        "privateContributions": 348,
+        "languages": ["TypeScript", "C++", "Python", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-4-proj-1",
+            "description": null,
+            "stars": 696,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119004?v=4",
+        "name": "Dev 5 (Taiwan)",
+        "company": "Vercel",
+        "location": "Kaohsiung",
+        "bio": null,
+        "followers": 4297,
+        "publicContributions": 29957,
+        "privateContributions": 97,
+        "languages": ["PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 823,
+            "language": "PHP"
+          },
+          {
+            "name": "tai-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 422,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119005?v=4",
+        "name": "Dev 6 (Taiwan)",
+        "company": null,
+        "location": "Hsinchu",
+        "bio": null,
+        "followers": 4110,
+        "publicContributions": 28706,
+        "privateContributions": 421,
+        "languages": ["Go", "Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1251,
+            "language": "Go"
+          },
+          {
+            "name": "tai-dev-6-proj-2",
+            "description": null,
+            "stars": 93,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-6-proj-3",
+            "description": null,
+            "stars": 758,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119006?v=4",
+        "name": "Dev 7 (Taiwan)",
+        "company": "Amazon",
+        "location": "Taiwan",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27671,
+        "privateContributions": 16,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1182,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 665,
+            "language": "Ruby"
+          },
+          {
+            "name": "tai-dev-7-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1104,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119007?v=4",
+        "name": "Dev 8 (Taiwan)",
+        "company": "GitHub",
+        "location": "Kaohsiung",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26507,
+        "privateContributions": 53,
+        "languages": ["Python", "Dart", "TypeScript"],
+        "topRepos": [
+          {
+            "name": "tai-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 96,
+            "language": "Python"
+          },
+          {
+            "name": "tai-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1208,
+            "language": "Dart"
+          },
+          {
+            "name": "tai-dev-8-proj-3",
+            "description": null,
+            "stars": 472,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119008?v=4",
+        "name": "Dev 9 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": null,
+        "followers": 3657,
+        "publicContributions": 25504,
+        "privateContributions": 435,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "tai-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 543,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tai-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119009?v=4",
+        "name": "Dev 10 (Taiwan)",
+        "company": null,
+        "location": "Taichung",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24610,
+        "privateContributions": 414,
+        "languages": ["C++"],
+        "topRepos": [
+          {
+            "name": "tai-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 851,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

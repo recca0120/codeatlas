@@ -1,0 +1,871 @@
+{
+  "countryCode": "finland",
+  "updatedAt": "2026-03-27T21:38:37.385Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "fin-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43000?v=4",
+        "name": "Dev 1 (Finland)",
+        "company": "Amazon",
+        "location": "Tampere",
+        "bio": "Developer from Finland",
+        "followers": 5017,
+        "publicContributions": 35075,
+        "privateContributions": 36,
+        "languages": ["PHP", "Swift", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-1-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "PHP"
+          },
+          {
+            "name": "fin-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 82,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "fin-dev-1",
+        "blog": "https://fin-dev-1.dev"
+      },
+      {
+        "login": "fin-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43001?v=4",
+        "name": "Dev 2 (Finland)",
+        "company": "Meta",
+        "location": "Oulu",
+        "bio": "Developer from Finland",
+        "followers": 4837,
+        "publicContributions": 33702,
+        "privateContributions": 74,
+        "languages": ["Java", "Rust", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "fin-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1632,
+            "language": "Java"
+          },
+          {
+            "name": "fin-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 244,
+            "language": "Rust"
+          },
+          {
+            "name": "fin-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 533,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "fin-dev-2",
+        "blog": null
+      },
+      {
+        "login": "fin-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43002?v=4",
+        "name": "Dev 3 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": "Developer from Finland",
+        "followers": 4659,
+        "publicContributions": 32460,
+        "privateContributions": 378,
+        "languages": ["Go", "Java", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "fin-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1508,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43003?v=4",
+        "name": "Dev 4 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": null,
+        "followers": 4480,
+        "publicContributions": 31189,
+        "privateContributions": 292,
+        "languages": ["Swift", "Dart", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 518,
+            "language": "Swift"
+          },
+          {
+            "name": "fin-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1534,
+            "language": "Dart"
+          },
+          {
+            "name": "fin-dev-4-proj-3",
+            "description": null,
+            "stars": 396,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43004?v=4",
+        "name": "Dev 5 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29936,
+        "privateContributions": 150,
+        "languages": ["TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "fin-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 763,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fin-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 742,
+            "language": "JavaScript"
+          },
+          {
+            "name": "fin-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 433,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43005?v=4",
+        "name": "Dev 6 (Finland)",
+        "company": "Stripe",
+        "location": "Tampere",
+        "bio": null,
+        "followers": 4104,
+        "publicContributions": 28785,
+        "privateContributions": 405,
+        "languages": ["Swift", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "fin-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1622,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43006?v=4",
+        "name": "Dev 7 (Finland)",
+        "company": "Amazon",
+        "location": "Finland",
+        "bio": null,
+        "followers": 3977,
+        "publicContributions": 27640,
+        "privateContributions": 330,
+        "languages": ["Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "fin-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 685,
+            "language": "Dart"
+          },
+          {
+            "name": "fin-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 326,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43007?v=4",
+        "name": "Dev 8 (Finland)",
+        "company": "Meta",
+        "location": "Finland",
+        "bio": null,
+        "followers": 3817,
+        "publicContributions": 26610,
+        "privateContributions": 243,
+        "languages": ["C++", "Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 54,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43008?v=4",
+        "name": "Dev 9 (Finland)",
+        "company": null,
+        "location": "Oulu",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25615,
+        "privateContributions": 62,
+        "languages": ["Python", "PHP", "Go"],
+        "topRepos": [
+          {
+            "name": "fin-dev-9-proj-1",
+            "description": null,
+            "stars": 187,
+            "language": "Python"
+          },
+          {
+            "name": "fin-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1240,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43009?v=4",
+        "name": "Dev 10 (Finland)",
+        "company": null,
+        "location": "Tampere",
+        "bio": null,
+        "followers": 3531,
+        "publicContributions": 24472,
+        "privateContributions": 186,
+        "languages": ["Go", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1258,
+            "language": "Go"
+          },
+          {
+            "name": "fin-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 74,
+            "language": "Java"
+          },
+          {
+            "name": "fin-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 522,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "fin-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43000?v=4",
+        "name": "Dev 1 (Finland)",
+        "company": "Amazon",
+        "location": "Tampere",
+        "bio": "Developer from Finland",
+        "followers": 5017,
+        "publicContributions": 35075,
+        "privateContributions": 36,
+        "languages": ["PHP", "Swift", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-1-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "PHP"
+          },
+          {
+            "name": "fin-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 82,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "fin-dev-1",
+        "blog": "https://fin-dev-1.dev"
+      },
+      {
+        "login": "fin-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43001?v=4",
+        "name": "Dev 2 (Finland)",
+        "company": "Meta",
+        "location": "Oulu",
+        "bio": "Developer from Finland",
+        "followers": 4837,
+        "publicContributions": 33702,
+        "privateContributions": 74,
+        "languages": ["Java", "Rust", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "fin-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1632,
+            "language": "Java"
+          },
+          {
+            "name": "fin-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 244,
+            "language": "Rust"
+          },
+          {
+            "name": "fin-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 533,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "fin-dev-2",
+        "blog": null
+      },
+      {
+        "login": "fin-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43002?v=4",
+        "name": "Dev 3 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": "Developer from Finland",
+        "followers": 4659,
+        "publicContributions": 32460,
+        "privateContributions": 378,
+        "languages": ["Go", "Java", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "fin-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1508,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43003?v=4",
+        "name": "Dev 4 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": null,
+        "followers": 4480,
+        "publicContributions": 31189,
+        "privateContributions": 292,
+        "languages": ["Swift", "Dart", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 518,
+            "language": "Swift"
+          },
+          {
+            "name": "fin-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1534,
+            "language": "Dart"
+          },
+          {
+            "name": "fin-dev-4-proj-3",
+            "description": null,
+            "stars": 396,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43004?v=4",
+        "name": "Dev 5 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29936,
+        "privateContributions": 150,
+        "languages": ["TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "fin-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 763,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fin-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 742,
+            "language": "JavaScript"
+          },
+          {
+            "name": "fin-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 433,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43005?v=4",
+        "name": "Dev 6 (Finland)",
+        "company": "Stripe",
+        "location": "Tampere",
+        "bio": null,
+        "followers": 4104,
+        "publicContributions": 28785,
+        "privateContributions": 405,
+        "languages": ["Swift", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "fin-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1622,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43006?v=4",
+        "name": "Dev 7 (Finland)",
+        "company": "Amazon",
+        "location": "Finland",
+        "bio": null,
+        "followers": 3977,
+        "publicContributions": 27640,
+        "privateContributions": 330,
+        "languages": ["Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "fin-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 685,
+            "language": "Dart"
+          },
+          {
+            "name": "fin-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 326,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43007?v=4",
+        "name": "Dev 8 (Finland)",
+        "company": "Meta",
+        "location": "Finland",
+        "bio": null,
+        "followers": 3817,
+        "publicContributions": 26610,
+        "privateContributions": 243,
+        "languages": ["C++", "Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 54,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43008?v=4",
+        "name": "Dev 9 (Finland)",
+        "company": null,
+        "location": "Oulu",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25615,
+        "privateContributions": 62,
+        "languages": ["Python", "PHP", "Go"],
+        "topRepos": [
+          {
+            "name": "fin-dev-9-proj-1",
+            "description": null,
+            "stars": 187,
+            "language": "Python"
+          },
+          {
+            "name": "fin-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1240,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43009?v=4",
+        "name": "Dev 10 (Finland)",
+        "company": null,
+        "location": "Tampere",
+        "bio": null,
+        "followers": 3531,
+        "publicContributions": 24472,
+        "privateContributions": 186,
+        "languages": ["Go", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1258,
+            "language": "Go"
+          },
+          {
+            "name": "fin-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 74,
+            "language": "Java"
+          },
+          {
+            "name": "fin-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 522,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "fin-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43000?v=4",
+        "name": "Dev 1 (Finland)",
+        "company": "Amazon",
+        "location": "Tampere",
+        "bio": "Developer from Finland",
+        "followers": 5017,
+        "publicContributions": 35075,
+        "privateContributions": 36,
+        "languages": ["PHP", "Swift", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-1-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "PHP"
+          },
+          {
+            "name": "fin-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 82,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "fin-dev-1",
+        "blog": "https://fin-dev-1.dev"
+      },
+      {
+        "login": "fin-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43001?v=4",
+        "name": "Dev 2 (Finland)",
+        "company": "Meta",
+        "location": "Oulu",
+        "bio": "Developer from Finland",
+        "followers": 4837,
+        "publicContributions": 33702,
+        "privateContributions": 74,
+        "languages": ["Java", "Rust", "Go", "Python"],
+        "topRepos": [
+          {
+            "name": "fin-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1632,
+            "language": "Java"
+          },
+          {
+            "name": "fin-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 244,
+            "language": "Rust"
+          },
+          {
+            "name": "fin-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 533,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "fin-dev-2",
+        "blog": null
+      },
+      {
+        "login": "fin-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43002?v=4",
+        "name": "Dev 3 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": "Developer from Finland",
+        "followers": 4659,
+        "publicContributions": 32460,
+        "privateContributions": 378,
+        "languages": ["Go", "Java", "Swift", "Ruby"],
+        "topRepos": [
+          {
+            "name": "fin-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1508,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43003?v=4",
+        "name": "Dev 4 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": null,
+        "followers": 4480,
+        "publicContributions": 31189,
+        "privateContributions": 292,
+        "languages": ["Swift", "Dart", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 518,
+            "language": "Swift"
+          },
+          {
+            "name": "fin-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1534,
+            "language": "Dart"
+          },
+          {
+            "name": "fin-dev-4-proj-3",
+            "description": null,
+            "stars": 396,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43004?v=4",
+        "name": "Dev 5 (Finland)",
+        "company": null,
+        "location": "Helsinki",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29936,
+        "privateContributions": 150,
+        "languages": ["TypeScript", "JavaScript", "Python"],
+        "topRepos": [
+          {
+            "name": "fin-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 763,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fin-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 742,
+            "language": "JavaScript"
+          },
+          {
+            "name": "fin-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 433,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43005?v=4",
+        "name": "Dev 6 (Finland)",
+        "company": "Stripe",
+        "location": "Tampere",
+        "bio": null,
+        "followers": 4104,
+        "publicContributions": 28785,
+        "privateContributions": 405,
+        "languages": ["Swift", "TypeScript", "Go"],
+        "topRepos": [
+          {
+            "name": "fin-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1622,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43006?v=4",
+        "name": "Dev 7 (Finland)",
+        "company": "Amazon",
+        "location": "Finland",
+        "bio": null,
+        "followers": 3977,
+        "publicContributions": 27640,
+        "privateContributions": 330,
+        "languages": ["Dart", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "fin-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 685,
+            "language": "Dart"
+          },
+          {
+            "name": "fin-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 326,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43007?v=4",
+        "name": "Dev 8 (Finland)",
+        "company": "Meta",
+        "location": "Finland",
+        "bio": null,
+        "followers": 3817,
+        "publicContributions": 26610,
+        "privateContributions": 243,
+        "languages": ["C++", "Ruby", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 54,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43008?v=4",
+        "name": "Dev 9 (Finland)",
+        "company": null,
+        "location": "Oulu",
+        "bio": null,
+        "followers": 3670,
+        "publicContributions": 25615,
+        "privateContributions": 62,
+        "languages": ["Python", "PHP", "Go"],
+        "topRepos": [
+          {
+            "name": "fin-dev-9-proj-1",
+            "description": null,
+            "stars": 187,
+            "language": "Python"
+          },
+          {
+            "name": "fin-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1240,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fin-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43009?v=4",
+        "name": "Dev 10 (Finland)",
+        "company": null,
+        "location": "Tampere",
+        "bio": null,
+        "followers": 3531,
+        "publicContributions": 24472,
+        "privateContributions": 186,
+        "languages": ["Go", "Java"],
+        "topRepos": [
+          {
+            "name": "fin-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1258,
+            "language": "Go"
+          },
+          {
+            "name": "fin-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 74,
+            "language": "Java"
+          },
+          {
+            "name": "fin-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 522,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

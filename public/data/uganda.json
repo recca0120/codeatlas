@@ -1,0 +1,817 @@
+{
+  "countryCode": "uganda",
+  "updatedAt": "2026-03-27T21:38:37.397Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "uga-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124000?v=4",
+        "name": "Dev 1 (Uganda)",
+        "company": "Stripe",
+        "location": "Uganda",
+        "bio": "Developer from Uganda",
+        "followers": 5025,
+        "publicContributions": 35093,
+        "privateContributions": 500,
+        "languages": ["Python", "TypeScript", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "uga-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1065,
+            "language": "Python"
+          },
+          {
+            "name": "uga-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 835,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1356,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "uga-dev-1",
+        "blog": "https://uga-dev-1.dev"
+      },
+      {
+        "login": "uga-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124001?v=4",
+        "name": "Dev 2 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": "Developer from Uganda",
+        "followers": 4831,
+        "publicContributions": 33779,
+        "privateContributions": 159,
+        "languages": ["TypeScript", "JavaScript", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 419,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uga-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uga-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124002?v=4",
+        "name": "Dev 3 (Uganda)",
+        "company": "Amazon",
+        "location": "Kampala",
+        "bio": "Developer from Uganda",
+        "followers": 4627,
+        "publicContributions": 32385,
+        "privateContributions": 391,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "uga-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 898,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1471,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 307,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124003?v=4",
+        "name": "Dev 4 (Uganda)",
+        "company": "Stripe",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4453,
+        "publicContributions": 31147,
+        "privateContributions": 62,
+        "languages": ["C++", "Java"],
+        "topRepos": [
+          {
+            "name": "uga-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1760,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124004?v=4",
+        "name": "Dev 5 (Uganda)",
+        "company": "GitHub",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4274,
+        "publicContributions": 29976,
+        "privateContributions": 44,
+        "languages": ["Python", "JavaScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "uga-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1309,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124005?v=4",
+        "name": "Dev 6 (Uganda)",
+        "company": "Amazon",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28793,
+        "privateContributions": 250,
+        "languages": ["TypeScript", "C++", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-6-proj-1",
+            "description": null,
+            "stars": 680,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 683,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124006?v=4",
+        "name": "Dev 7 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27684,
+        "privateContributions": 7,
+        "languages": ["PHP", "Java", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "uga-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 336,
+            "language": "PHP"
+          },
+          {
+            "name": "uga-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 974,
+            "language": "Java"
+          },
+          {
+            "name": "uga-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 301,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124007?v=4",
+        "name": "Dev 8 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26527,
+        "privateContributions": 362,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1342,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124008?v=4",
+        "name": "Dev 9 (Uganda)",
+        "company": "Meta",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 3673,
+        "publicContributions": 25501,
+        "privateContributions": 297,
+        "languages": ["JavaScript", "Java", "Swift", "C++"],
+        "topRepos": [
+          {
+            "name": "uga-dev-9-proj-1",
+            "description": null,
+            "stars": 1415,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124009?v=4",
+        "name": "Dev 10 (Uganda)",
+        "company": "Apple",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 3507,
+        "publicContributions": 24568,
+        "privateContributions": 198,
+        "languages": ["Java", "Rust", "Dart"],
+        "topRepos": [
+          {
+            "name": "uga-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1029,
+            "language": "Java"
+          },
+          {
+            "name": "uga-dev-10-proj-2",
+            "description": null,
+            "stars": 256,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "uga-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124000?v=4",
+        "name": "Dev 1 (Uganda)",
+        "company": "Stripe",
+        "location": "Uganda",
+        "bio": "Developer from Uganda",
+        "followers": 5025,
+        "publicContributions": 35093,
+        "privateContributions": 500,
+        "languages": ["Python", "TypeScript", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "uga-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1065,
+            "language": "Python"
+          },
+          {
+            "name": "uga-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 835,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1356,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "uga-dev-1",
+        "blog": "https://uga-dev-1.dev"
+      },
+      {
+        "login": "uga-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124001?v=4",
+        "name": "Dev 2 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": "Developer from Uganda",
+        "followers": 4831,
+        "publicContributions": 33779,
+        "privateContributions": 159,
+        "languages": ["TypeScript", "JavaScript", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 419,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uga-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uga-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124002?v=4",
+        "name": "Dev 3 (Uganda)",
+        "company": "Amazon",
+        "location": "Kampala",
+        "bio": "Developer from Uganda",
+        "followers": 4627,
+        "publicContributions": 32385,
+        "privateContributions": 391,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "uga-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 898,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1471,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 307,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124003?v=4",
+        "name": "Dev 4 (Uganda)",
+        "company": "Stripe",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4453,
+        "publicContributions": 31147,
+        "privateContributions": 62,
+        "languages": ["C++", "Java"],
+        "topRepos": [
+          {
+            "name": "uga-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1760,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124004?v=4",
+        "name": "Dev 5 (Uganda)",
+        "company": "GitHub",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4274,
+        "publicContributions": 29976,
+        "privateContributions": 44,
+        "languages": ["Python", "JavaScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "uga-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1309,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124005?v=4",
+        "name": "Dev 6 (Uganda)",
+        "company": "Amazon",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28793,
+        "privateContributions": 250,
+        "languages": ["TypeScript", "C++", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-6-proj-1",
+            "description": null,
+            "stars": 680,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 683,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124006?v=4",
+        "name": "Dev 7 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27684,
+        "privateContributions": 7,
+        "languages": ["PHP", "Java", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "uga-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 336,
+            "language": "PHP"
+          },
+          {
+            "name": "uga-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 974,
+            "language": "Java"
+          },
+          {
+            "name": "uga-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 301,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124007?v=4",
+        "name": "Dev 8 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26527,
+        "privateContributions": 362,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1342,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124008?v=4",
+        "name": "Dev 9 (Uganda)",
+        "company": "Meta",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 3673,
+        "publicContributions": 25501,
+        "privateContributions": 297,
+        "languages": ["JavaScript", "Java", "Swift", "C++"],
+        "topRepos": [
+          {
+            "name": "uga-dev-9-proj-1",
+            "description": null,
+            "stars": 1415,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124009?v=4",
+        "name": "Dev 10 (Uganda)",
+        "company": "Apple",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 3507,
+        "publicContributions": 24568,
+        "privateContributions": 198,
+        "languages": ["Java", "Rust", "Dart"],
+        "topRepos": [
+          {
+            "name": "uga-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1029,
+            "language": "Java"
+          },
+          {
+            "name": "uga-dev-10-proj-2",
+            "description": null,
+            "stars": 256,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "uga-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124000?v=4",
+        "name": "Dev 1 (Uganda)",
+        "company": "Stripe",
+        "location": "Uganda",
+        "bio": "Developer from Uganda",
+        "followers": 5025,
+        "publicContributions": 35093,
+        "privateContributions": 500,
+        "languages": ["Python", "TypeScript", "C++", "Dart"],
+        "topRepos": [
+          {
+            "name": "uga-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1065,
+            "language": "Python"
+          },
+          {
+            "name": "uga-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 835,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1356,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "uga-dev-1",
+        "blog": "https://uga-dev-1.dev"
+      },
+      {
+        "login": "uga-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124001?v=4",
+        "name": "Dev 2 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": "Developer from Uganda",
+        "followers": 4831,
+        "publicContributions": 33779,
+        "privateContributions": 159,
+        "languages": ["TypeScript", "JavaScript", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 419,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uga-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uga-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124002?v=4",
+        "name": "Dev 3 (Uganda)",
+        "company": "Amazon",
+        "location": "Kampala",
+        "bio": "Developer from Uganda",
+        "followers": 4627,
+        "publicContributions": 32385,
+        "privateContributions": 391,
+        "languages": ["TypeScript"],
+        "topRepos": [
+          {
+            "name": "uga-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 898,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1471,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 307,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124003?v=4",
+        "name": "Dev 4 (Uganda)",
+        "company": "Stripe",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4453,
+        "publicContributions": 31147,
+        "privateContributions": 62,
+        "languages": ["C++", "Java"],
+        "topRepos": [
+          {
+            "name": "uga-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1760,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124004?v=4",
+        "name": "Dev 5 (Uganda)",
+        "company": "GitHub",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4274,
+        "publicContributions": 29976,
+        "privateContributions": 44,
+        "languages": ["Python", "JavaScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "uga-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1309,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124005?v=4",
+        "name": "Dev 6 (Uganda)",
+        "company": "Amazon",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28793,
+        "privateContributions": 250,
+        "languages": ["TypeScript", "C++", "PHP", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-6-proj-1",
+            "description": null,
+            "stars": 680,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uga-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 683,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124006?v=4",
+        "name": "Dev 7 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27684,
+        "privateContributions": 7,
+        "languages": ["PHP", "Java", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "uga-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 336,
+            "language": "PHP"
+          },
+          {
+            "name": "uga-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 974,
+            "language": "Java"
+          },
+          {
+            "name": "uga-dev-7-proj-3",
+            "description": "Web framework for developers",
+            "stars": 301,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124007?v=4",
+        "name": "Dev 8 (Uganda)",
+        "company": null,
+        "location": "Uganda",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26527,
+        "privateContributions": 362,
+        "languages": ["C++", "Ruby"],
+        "topRepos": [
+          {
+            "name": "uga-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1342,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124008?v=4",
+        "name": "Dev 9 (Uganda)",
+        "company": "Meta",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 3673,
+        "publicContributions": 25501,
+        "privateContributions": 297,
+        "languages": ["JavaScript", "Java", "Swift", "C++"],
+        "topRepos": [
+          {
+            "name": "uga-dev-9-proj-1",
+            "description": null,
+            "stars": 1415,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uga-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124009?v=4",
+        "name": "Dev 10 (Uganda)",
+        "company": "Apple",
+        "location": "Kampala",
+        "bio": null,
+        "followers": 3507,
+        "publicContributions": 24568,
+        "privateContributions": 198,
+        "languages": ["Java", "Rust", "Dart"],
+        "topRepos": [
+          {
+            "name": "uga-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1029,
+            "language": "Java"
+          },
+          {
+            "name": "uga-dev-10-proj-2",
+            "description": null,
+            "stars": 256,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

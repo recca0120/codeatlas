@@ -1,0 +1,781 @@
+{
+  "countryCode": "myanmar",
+  "updatedAt": "2026-03-27T21:38:37.391Z",
+  "users": [],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "mya-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84000?v=4",
+        "name": "Dev 1 (Myanmar)",
+        "company": "GitHub",
+        "location": "Myanmar",
+        "bio": "Developer from Myanmar",
+        "followers": 5020,
+        "publicContributions": 35095,
+        "privateContributions": 116,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "mya-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1388,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "mya-dev-1",
+        "blog": "https://mya-dev-1.dev"
+      },
+      {
+        "login": "mya-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84001?v=4",
+        "name": "Dev 2 (Myanmar)",
+        "company": "Apple",
+        "location": "Mandalay",
+        "bio": "Developer from Myanmar",
+        "followers": 4824,
+        "publicContributions": 33687,
+        "privateContributions": 97,
+        "languages": ["PHP", "Ruby", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mya-dev-2-proj-1",
+            "description": null,
+            "stars": 1848,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "mya-dev-2",
+        "blog": null
+      },
+      {
+        "login": "mya-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84002?v=4",
+        "name": "Dev 3 (Myanmar)",
+        "company": "Vercel",
+        "location": "Mandalay",
+        "bio": "Developer from Myanmar",
+        "followers": 4650,
+        "publicContributions": 32411,
+        "privateContributions": 295,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "mya-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 187,
+            "language": "Dart"
+          },
+          {
+            "name": "mya-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 1349,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84003?v=4",
+        "name": "Dev 4 (Myanmar)",
+        "company": "Microsoft",
+        "location": "Yangon",
+        "bio": null,
+        "followers": 4456,
+        "publicContributions": 31168,
+        "privateContributions": 465,
+        "languages": ["Go", "Python", "Rust", "PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 627,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84004?v=4",
+        "name": "Dev 5 (Myanmar)",
+        "company": null,
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 29971,
+        "privateContributions": 36,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "mya-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1434,
+            "language": "Ruby"
+          },
+          {
+            "name": "mya-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 578,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84005?v=4",
+        "name": "Dev 6 (Myanmar)",
+        "company": "Meta",
+        "location": "Yangon",
+        "bio": null,
+        "followers": 4126,
+        "publicContributions": 28741,
+        "privateContributions": 229,
+        "languages": ["TypeScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "mya-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1184,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84006?v=4",
+        "name": "Dev 7 (Myanmar)",
+        "company": "Microsoft",
+        "location": "Myanmar",
+        "bio": null,
+        "followers": 3964,
+        "publicContributions": 27659,
+        "privateContributions": 215,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "mya-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1198,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84007?v=4",
+        "name": "Dev 8 (Myanmar)",
+        "company": "Stripe",
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26637,
+        "privateContributions": 344,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 195,
+            "language": "PHP"
+          },
+          {
+            "name": "mya-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 782,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84008?v=4",
+        "name": "Dev 9 (Myanmar)",
+        "company": "Vercel",
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25535,
+        "privateContributions": 76,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mya-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1143,
+            "language": "TypeScript"
+          },
+          {
+            "name": "mya-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1469,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mya-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 784,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84009?v=4",
+        "name": "Dev 10 (Myanmar)",
+        "company": "Stripe",
+        "location": "Myanmar",
+        "bio": null,
+        "followers": 3538,
+        "publicContributions": 24605,
+        "privateContributions": 394,
+        "languages": ["Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1182,
+            "language": "Go"
+          },
+          {
+            "name": "mya-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 705,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "mya-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84000?v=4",
+        "name": "Dev 1 (Myanmar)",
+        "company": "GitHub",
+        "location": "Myanmar",
+        "bio": "Developer from Myanmar",
+        "followers": 5020,
+        "publicContributions": 35095,
+        "privateContributions": 116,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "mya-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1388,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "mya-dev-1",
+        "blog": "https://mya-dev-1.dev"
+      },
+      {
+        "login": "mya-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84001?v=4",
+        "name": "Dev 2 (Myanmar)",
+        "company": "Apple",
+        "location": "Mandalay",
+        "bio": "Developer from Myanmar",
+        "followers": 4824,
+        "publicContributions": 33687,
+        "privateContributions": 97,
+        "languages": ["PHP", "Ruby", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mya-dev-2-proj-1",
+            "description": null,
+            "stars": 1848,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "mya-dev-2",
+        "blog": null
+      },
+      {
+        "login": "mya-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84002?v=4",
+        "name": "Dev 3 (Myanmar)",
+        "company": "Vercel",
+        "location": "Mandalay",
+        "bio": "Developer from Myanmar",
+        "followers": 4650,
+        "publicContributions": 32411,
+        "privateContributions": 295,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "mya-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 187,
+            "language": "Dart"
+          },
+          {
+            "name": "mya-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 1349,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84003?v=4",
+        "name": "Dev 4 (Myanmar)",
+        "company": "Microsoft",
+        "location": "Yangon",
+        "bio": null,
+        "followers": 4456,
+        "publicContributions": 31168,
+        "privateContributions": 465,
+        "languages": ["Go", "Python", "Rust", "PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 627,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84004?v=4",
+        "name": "Dev 5 (Myanmar)",
+        "company": null,
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 29971,
+        "privateContributions": 36,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "mya-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1434,
+            "language": "Ruby"
+          },
+          {
+            "name": "mya-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 578,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84005?v=4",
+        "name": "Dev 6 (Myanmar)",
+        "company": "Meta",
+        "location": "Yangon",
+        "bio": null,
+        "followers": 4126,
+        "publicContributions": 28741,
+        "privateContributions": 229,
+        "languages": ["TypeScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "mya-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1184,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84006?v=4",
+        "name": "Dev 7 (Myanmar)",
+        "company": "Microsoft",
+        "location": "Myanmar",
+        "bio": null,
+        "followers": 3964,
+        "publicContributions": 27659,
+        "privateContributions": 215,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "mya-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1198,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84007?v=4",
+        "name": "Dev 8 (Myanmar)",
+        "company": "Stripe",
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26637,
+        "privateContributions": 344,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 195,
+            "language": "PHP"
+          },
+          {
+            "name": "mya-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 782,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84008?v=4",
+        "name": "Dev 9 (Myanmar)",
+        "company": "Vercel",
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25535,
+        "privateContributions": 76,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mya-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1143,
+            "language": "TypeScript"
+          },
+          {
+            "name": "mya-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1469,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mya-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 784,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84009?v=4",
+        "name": "Dev 10 (Myanmar)",
+        "company": "Stripe",
+        "location": "Myanmar",
+        "bio": null,
+        "followers": 3538,
+        "publicContributions": 24605,
+        "privateContributions": 394,
+        "languages": ["Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1182,
+            "language": "Go"
+          },
+          {
+            "name": "mya-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 705,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "mya-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84000?v=4",
+        "name": "Dev 1 (Myanmar)",
+        "company": "GitHub",
+        "location": "Myanmar",
+        "bio": "Developer from Myanmar",
+        "followers": 5020,
+        "publicContributions": 35095,
+        "privateContributions": 116,
+        "languages": ["Java"],
+        "topRepos": [
+          {
+            "name": "mya-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1388,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "mya-dev-1",
+        "blog": "https://mya-dev-1.dev"
+      },
+      {
+        "login": "mya-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84001?v=4",
+        "name": "Dev 2 (Myanmar)",
+        "company": "Apple",
+        "location": "Mandalay",
+        "bio": "Developer from Myanmar",
+        "followers": 4824,
+        "publicContributions": 33687,
+        "privateContributions": 97,
+        "languages": ["PHP", "Ruby", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mya-dev-2-proj-1",
+            "description": null,
+            "stars": 1848,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "mya-dev-2",
+        "blog": null
+      },
+      {
+        "login": "mya-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84002?v=4",
+        "name": "Dev 3 (Myanmar)",
+        "company": "Vercel",
+        "location": "Mandalay",
+        "bio": "Developer from Myanmar",
+        "followers": 4650,
+        "publicContributions": 32411,
+        "privateContributions": 295,
+        "languages": ["Dart"],
+        "topRepos": [
+          {
+            "name": "mya-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 187,
+            "language": "Dart"
+          },
+          {
+            "name": "mya-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 1349,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84003?v=4",
+        "name": "Dev 4 (Myanmar)",
+        "company": "Microsoft",
+        "location": "Yangon",
+        "bio": null,
+        "followers": 4456,
+        "publicContributions": 31168,
+        "privateContributions": 465,
+        "languages": ["Go", "Python", "Rust", "PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 627,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84004?v=4",
+        "name": "Dev 5 (Myanmar)",
+        "company": null,
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 29971,
+        "privateContributions": 36,
+        "languages": ["Ruby"],
+        "topRepos": [
+          {
+            "name": "mya-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1434,
+            "language": "Ruby"
+          },
+          {
+            "name": "mya-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 578,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84005?v=4",
+        "name": "Dev 6 (Myanmar)",
+        "company": "Meta",
+        "location": "Yangon",
+        "bio": null,
+        "followers": 4126,
+        "publicContributions": 28741,
+        "privateContributions": 229,
+        "languages": ["TypeScript", "Rust"],
+        "topRepos": [
+          {
+            "name": "mya-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1184,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84006?v=4",
+        "name": "Dev 7 (Myanmar)",
+        "company": "Microsoft",
+        "location": "Myanmar",
+        "bio": null,
+        "followers": 3964,
+        "publicContributions": 27659,
+        "privateContributions": 215,
+        "languages": ["Python"],
+        "topRepos": [
+          {
+            "name": "mya-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1198,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84007?v=4",
+        "name": "Dev 8 (Myanmar)",
+        "company": "Stripe",
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26637,
+        "privateContributions": 344,
+        "languages": ["PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 195,
+            "language": "PHP"
+          },
+          {
+            "name": "mya-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 782,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84008?v=4",
+        "name": "Dev 9 (Myanmar)",
+        "company": "Vercel",
+        "location": "Mandalay",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25535,
+        "privateContributions": 76,
+        "languages": ["TypeScript", "Kotlin"],
+        "topRepos": [
+          {
+            "name": "mya-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1143,
+            "language": "TypeScript"
+          },
+          {
+            "name": "mya-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1469,
+            "language": "Kotlin"
+          },
+          {
+            "name": "mya-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 784,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "mya-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84009?v=4",
+        "name": "Dev 10 (Myanmar)",
+        "company": "Stripe",
+        "location": "Myanmar",
+        "bio": null,
+        "followers": 3538,
+        "publicContributions": 24605,
+        "privateContributions": 394,
+        "languages": ["Go", "PHP"],
+        "topRepos": [
+          {
+            "name": "mya-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1182,
+            "language": "Go"
+          },
+          {
+            "name": "mya-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 705,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}
