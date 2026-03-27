@@ -93,13 +93,29 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
       return "rgba(99,102,241,0.18)";
     }
     import("globe.gl").then(({ default: Globe }) => {
+      import("three").then((THREE) => {
       const w = new Globe(el, { rendererConfig: { antialias: true, alpha: true }, animateIn: true })
-        .backgroundColor("rgba(0,0,0,0)")
-        .showAtmosphere(true).atmosphereColor("#6366f1").atmosphereAltitude(0.1)
+        .backgroundImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png")
+        .showAtmosphere(true).atmosphereColor("cyan").atmosphereAltitude(0.15)
         .globeImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg")
         .bumpImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png");
-      const m = w.globeMaterial() as any;
-      if (m) { m.bumpScale = 8; m.shininess = 2; }
+
+      // Premium material: specular water + bump terrain + lighting
+      const mat = w.globeMaterial() as any;
+      if (mat) {
+        mat.bumpScale = 10;
+        new THREE.TextureLoader().load(
+          "//cdn.jsdelivr.net/npm/three-globe/example/img/earth-water.png",
+          (texture: any) => {
+            mat.specularMap = texture;
+            mat.specular = new THREE.Color("grey");
+            mat.shininess = 15;
+          }
+        );
+      }
+      // Adjust directional light for depth
+      const dirLight = w.lights().find((l: any) => l.type === "DirectionalLight") as any;
+      if (dirLight) dirLight.position.set(1, 1, 1);
       const c = w.controls() as any;
       c.autoRotate = true; c.autoRotateSpeed = 0.12; c.enableZoom = false;
       const rs = () => w.width(el.clientWidth).height(el.clientHeight);
@@ -123,6 +139,7 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
         el.style.opacity = "1";
       });
       new IntersectionObserver(([e]) => { e.isIntersecting ? w.resumeAnimation() : w.pauseAnimation(); }, { threshold: 0.1 }).observe(el);
-    });
+    }); // end THREE import
+    }); // end Globe import
   }
 </script>
