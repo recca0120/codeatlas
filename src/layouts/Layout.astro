@@ -1,0 +1,58 @@
+---
+import "../styles/global.css";
+import ThemeToggle from "../components/ThemeToggle.svelte";
+import CountrySearch from "../components/CountrySearch.svelte";
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  breadcrumb?: { label: string; href: string }[];
+}
+
+const { title, description = "Global Developer Rankings", ogImage, breadcrumb = [] } = Astro.props;
+const url = Astro.url.href;
+const site = Astro.site?.toString() ?? "";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="preload" href="/fonts/SpaceGrotesk-Bold.woff" as="font" type="font/woff" crossorigin />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={url} />
+    <meta property="og:type" content="website" />
+    {ogImage && <meta property="og:image" content={`${site}${ogImage}`} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <script is:inline>
+      document.documentElement.classList.toggle("dark",
+        localStorage.theme==="dark"||(!("theme" in localStorage)&&matchMedia("(prefers-color-scheme:dark)").matches));
+    </script>
+  </head>
+  <body class="bg-bg text-text font-body antialiased min-h-screen">
+
+    <nav class="sticky top-0 z-50 w-full bg-bg/90 backdrop-blur-md border-b border-border">
+      <div class="w-full px-5 sm:px-8 h-14 flex items-center gap-4">
+        <div class="flex items-center gap-2 text-base shrink-0">
+          <a href="/" class="font-display font-bold text-lg text-accent hover:text-accent-hover transition-colors">CodeAtlas</a>
+          {breadcrumb.map(b => (
+            <><span class="text-text-muted">›</span><a href={b.href} class="text-text-secondary hover:text-text transition-colors truncate max-w-[150px] sm:max-w-none">{b.label}</a></>
+          ))}
+        </div>
+        <div class="flex-1"></div>
+        <div class="flex items-center gap-4">
+          <a href="/faq" class="text-sm text-text-secondary hover:text-text transition-colors hidden sm:block">FAQ</a>
+          <ThemeToggle client:load />
+        </div>
+      </div>
+    </nav>
+
+    <slot />
+  </body>
+</html>

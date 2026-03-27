@@ -1,0 +1,88 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="FAQ — CodeAtlas">
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+    <a href="/" class="text-xs font-data text-text-muted hover:text-accent transition-colors">← HOME</a>
+
+    <h1 class="text-3xl font-display font-bold mt-6 mb-8">Frequently Asked Questions</h1>
+
+    <div class="space-y-8">
+      <section>
+        <h2 class="text-lg font-display font-bold mb-2">How do I get listed?</h2>
+        <p class="text-text-secondary leading-relaxed">
+          CodeAtlas automatically indexes GitHub users based on their profile location.
+          To be included, make sure your GitHub profile has a <strong class="text-text">location</strong> set
+          to a recognized city or country (e.g., "Taipei, Taiwan" or "Taiwan").
+          You also need at least some public activity (contributions or followers).
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-display font-bold mb-2">How are rankings calculated?</h2>
+        <p class="text-text-secondary leading-relaxed">
+          We offer three ranking dimensions:
+        </p>
+        <ul class="list-disc list-inside text-text-secondary mt-2 space-y-1">
+          <li><strong class="text-text">Public Contributions</strong> — commits, PRs, issues, and reviews on public repositories (from GitHub's contribution calendar)</li>
+          <li><strong class="text-text">Total Contributions</strong> — public + private contributions (private count from GraphQL <code class="text-xs font-data bg-surface px-1 py-0.5 rounded">restrictedContributionsCount</code>)</li>
+          <li><strong class="text-text">Followers</strong> — GitHub follower count</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-display font-bold mb-2">How often is data updated?</h2>
+        <p class="text-text-secondary leading-relaxed">
+          Rankings are updated <strong class="text-text">weekly</strong> via GitHub Actions.
+          The "Last updated" timestamp on each country page shows the most recent data refresh.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-display font-bold mb-2">Why am I not listed?</h2>
+        <p class="text-text-secondary leading-relaxed">
+          Common reasons:
+        </p>
+        <ul class="list-disc list-inside text-text-secondary mt-2 space-y-1">
+          <li>Your GitHub profile location is empty or doesn't match a recognized city/country</li>
+          <li>Your location uses an emoji flag instead of text (we're working on supporting this)</li>
+          <li>You have very few public contributions or followers</li>
+          <li>The data hasn't been refreshed yet — check back after the weekly update</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-display font-bold mb-2">My data is wrong. How do I fix it?</h2>
+        <p class="text-text-secondary leading-relaxed">
+          Rankings are pulled directly from the GitHub API. If your contribution count looks wrong,
+          check your <a href="https://github.com/settings/profile" target="_blank" rel="noopener" class="text-accent hover:underline">GitHub profile settings</a>
+          and ensure "Private contributions" is enabled if you want those counted.
+          Data will update on the next weekly refresh.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-display font-bold mb-2">How do I add a new country or city?</h2>
+        <p class="text-text-secondary leading-relaxed">
+          CodeAtlas uses a simple JSON config system. To add a country or city,
+          submit a PR adding a file to <code class="text-xs font-data bg-surface px-1 py-0.5 rounded">config/countries/</code>.
+          See <a href="https://github.com/gitstar/gitstar" target="_blank" rel="noopener" class="text-accent hover:underline">CONTRIBUTING.md</a> for details.
+        </p>
+      </section>
+
+      <section>
+        <h2 class="text-lg font-display font-bold mb-2">What is the data source?</h2>
+        <p class="text-text-secondary leading-relaxed">
+          All data comes from the <a href="https://docs.github.com/en/rest" target="_blank" rel="noopener" class="text-accent hover:underline">GitHub REST API</a>
+          and <a href="https://docs.github.com/en/graphql" target="_blank" rel="noopener" class="text-accent hover:underline">GitHub GraphQL API</a>.
+          We use the Search API to find users by location, then fetch their contribution data via GraphQL.
+        </p>
+      </section>
+    </div>
+
+    <div class="mt-12 pt-8 border-t border-border text-xs font-data text-text-muted">
+      <a href="/" class="hover:text-accent transition-colors">← BACK TO CODEATLAS</a>
+    </div>
+  </main>
+</Layout>

@@ -1,0 +1,130 @@
+---
+import fs from "node:fs/promises";
+import Layout from "../../layouts/Layout.astro";
+import { loadAllCountryConfigs } from "../../lib/country-config";
+import type { CountryData } from "../../lib/data-output";
+import type { GitHubUser } from "../../lib/github-client";
+import LanguageBar from "../../components/LanguageBar.svelte";
+import ShareButtons from "../../components/ShareButtons.svelte";
+
+export async function getStaticPaths() {
+  const configs = await loadAllCountryConfigs("config/countries");
+  const paths = [];
+  for (const config of configs) {
+    try {
+      const data: CountryData = JSON.parse(await fs.readFile(`data/${config.code}.json`, "utf-8"));
+      for (let i = 0; i < Math.min(data.rankings.public_contributions.length, 100); i++) {
+        paths.push({ params: { country: config.code, user: data.rankings.public_contributions[i].login }, props: { config, user: data.rankings.public_contributions[i], rank: i + 1 } });
+      }
+    } catch {}
+  }
+  return paths;
+}
+
+const { config, user, rank } = Astro.props;
+const u = user as GitHubUser;
+const pageUrl = `${Astro.site}${config.code}/${u.login}`;
+const shareText = `${u.name || u.login} is #${rank} in ${config.name} on CodeAtlas!`;
+
+const LC: Record<string, string> = {
+  TypeScript:"#3178c6",JavaScript:"#f1e05a",Python:"#3572a5",Go:"#00add8",Rust:"#dea584",
+  Java:"#b07219","C++":"#f34b7d",Ruby:"#701516",PHP:"#4f5d95",Swift:"#f05138",Kotlin:"#a97bff",Dart:"#00b4ab"
+};
+---
+
+<Layout
+  title={`${u.name || u.login} — #${rank} in ${config.name}`}
+  description={`${u.login} is ranked #${rank} in ${config.name} with ${u.publicContributions.toLocaleString()} contributions`}
+  breadcrumb={[
+    { label: `${config.flag} ${config.name}`, href: `/${config.code}/` },
+    { label: u.login, href: `/${config.code}/${u.login}` },
+  ]}
+>
+  <div class="max-w-3xl mx-auto px-6 sm:px-8 py-12">
+
+    <!-- Profile -->
+    <div class="flex flex-col sm:flex-row gap-6 mb-12">
+      <img src={u.avatarUrl} alt={u.login} width="96" height="96"
+        class="rounded-2xl ring-1 ring-border shrink-0" />
+      <div class="flex-1 min-w-0">
+        <div class="flex items-start justify-between gap-4">
+          <h1 class="text-2xl sm:text-3xl font-display font-bold tracking-tight">{u.name || u.login}</h1>
+          <span class="font-data font-bold text-xl text-accent shrink-0">#{rank}</span>
+        </div>
+        <p class="text-text-secondary mt-1">
+          @{u.login}{u.location && ` · ${u.location}`}{u.company && ` · ${u.company}`}
+        </p>
+        {u.bio && <p class="text-text-secondary mt-3">{u.bio}</p>}
+        <div class="flex flex-wrap gap-2 mt-4">
+          <a href={`https://github.com/${u.login}`} target="_blank" rel="noopener"
+            class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">GitHub</a>
+          {u.twitterUsername && (
+            <a href={`https://twitter.com/${u.twitterUsername}`} target="_blank" rel="noopener"
+              class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">𝕏 {u.twitterUsername}</a>
+          )}
+          {u.blog && (
+            <a href={u.blog} target="_blank" rel="noopener"
+              class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">Blog</a>
+          )}
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats -->
+    <div class="grid grid-cols-3 border border-border rounded-xl overflow-hidden mb-12">
+      {[
+        { v: `#${rank}`, l: config.name },
+        { v: u.publicContributions.toLocaleString(), l: "Contributions" },
+        { v: u.followers.toLocaleString(), l: "Followers" },
+      ].map((s, i) => (
+        <div class={`px-5 py-6 text-center ${i < 2 ? 'border-r border-border' : ''}`}>
+          <div class="font-data font-bold text-2xl">{s.v}</div>
+          <div class="text-xs text-text-muted mt-1">{s.l}</div>
+        </div>
+      ))}
+    </div>
+
+    <!-- Languages -->
+    {u.languages.length > 0 && (
+      <div class="mb-12">
+        <h2 class="text-xs font-data text-text-muted tracking-widest uppercase mb-3">Languages</h2>
+        <LanguageBar client:visible languages={u.languages} />
+      </div>
+    )}
+
+    <!-- Repos -->
+    {u.topRepos.length > 0 && (
+      <div class="mb-12">
+        <h2 class="text-xs font-data text-text-muted tracking-widest uppercase mb-3">Top Repositories</h2>
+        <div class="border border-border rounded-xl overflow-hidden divide-y divide-border">
+          {u.topRepos.map(repo => (
+            <div class="flex items-center gap-4 px-5 py-4">
+              <div class="flex-1 min-w-0">
+                <div class="font-display font-semibold">{repo.name}</div>
+                {repo.description && <div class="text-sm text-text-secondary mt-0.5">{repo.description}</div>}
+              </div>
+              {repo.language && (
+                <span class="px-2 py-0.5 text-xs font-data rounded shrink-0"
+                  style={`background:${LC[repo.language]||'#555'}20;color:${LC[repo.language]||'#999'}`}>{repo.language}</span>
+              )}
+              <span class="font-data text-sm text-gold shrink-0">★ {repo.stars.toLocaleString()}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- GitHub link -->
+    <a href={`https://github.com/${u.login}`} target="_blank" rel="noopener"
+      class="flex items-center gap-2 px-5 py-4 border border-border rounded-xl hover:bg-surface-hover transition-colors mb-12">
+      <span>View full profile on GitHub</span>
+      <span class="ml-auto text-text-muted">→</span>
+    </a>
+
+    <!-- Share -->
+    <div class="pt-8 border-t border-border">
+      <div class="text-xs text-text-muted tracking-widest uppercase mb-3">Share profile</div>
+      <ShareButtons client:load url={pageUrl} text={shareText} />
+    </div>
+  </div>
+</Layout>

@@ -1,0 +1,56 @@
+---
+import fs from "node:fs/promises";
+import Layout from "../../layouts/Layout.astro";
+import { loadAllCountryConfigs } from "../../lib/country-config";
+import type { CountryData } from "../../lib/data-output";
+import RankingFilter from "../../components/RankingFilter.svelte";
+import ShareButtons from "../../components/ShareButtons.svelte";
+
+export async function getStaticPaths() {
+  const configs = await loadAllCountryConfigs("config/countries");
+  return configs.map(c => ({ params: { country: c.code }, props: { config: c } }));
+}
+
+const { config } = Astro.props;
+let countryData: CountryData | null = null;
+try { countryData = JSON.parse(await fs.readFile(`data/${config.code}.json`, "utf-8")); } catch {}
+
+const users = countryData?.rankings?.public_contributions ?? [];
+const totalContrib = users.reduce((s, u) => s + u.publicContributions, 0);
+const updatedAt = countryData?.updatedAt ?? "";
+const pageUrl = `${Astro.site}${config.code}/`;
+
+function fmt(n: number) { return n >= 1e6 ? (n/1e6).toFixed(1)+"M" : n >= 1e3 ? (n/1e3).toFixed(0)+"K" : String(n); }
+---
+
+<Layout
+  title={`${config.flag} ${config.name} — CodeAtlas`}
+  description={`Top ${users.length} GitHub developers in ${config.name}`}
+  breadcrumb={[{ label: `${config.flag} ${config.name}`, href: `/${config.code}/` }]}
+>
+  <div class="max-w-5xl mx-auto px-6 sm:px-8">
+
+    <header class="pt-12 pb-10 border-b border-border">
+      <div class="flex items-center gap-4">
+        <span class="text-5xl">{config.flag}</span>
+        <div>
+          <h1 class="text-3xl sm:text-4xl font-display font-bold tracking-tight">{config.name}</h1>
+          <p class="text-text-secondary mt-1.5">
+            <span class="font-data font-semibold text-text">{users.length.toLocaleString()}</span> developers ·
+            <span class="font-data font-semibold text-text">{fmt(totalContrib)}</span> contributions
+            {updatedAt && <span class="text-text-muted"> · Updated {new Date(updatedAt).toLocaleDateString()}</span>}
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-10">
+      <RankingFilter client:load users={users} countryCode={config.code} updatedAt={updatedAt} />
+    </section>
+
+    <footer class="py-8 border-t border-border flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <span class="text-sm text-text-muted">Share {config.name} rankings</span>
+      <ShareButtons client:load url={pageUrl} text={`Top GitHub developers in ${config.name}`} />
+    </footer>
+  </div>
+</Layout>

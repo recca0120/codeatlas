@@ -1,0 +1,128 @@
+---
+import fs from "node:fs/promises";
+import Layout from "../layouts/Layout.astro";
+import { loadAllCountryConfigs } from "../lib/country-config";
+import type { CountryData } from "../lib/data-output";
+import CountrySearch from "../components/CountrySearch.svelte";
+
+const countries = await loadAllCountryConfigs("config/countries");
+interface CS { code:string; name:string; flag:string; devs:number; contrib:number; perCapita:number; }
+const stats: CS[] = [];
+let totalDevs = 0, totalContrib = 0;
+for (const c of countries) {
+  try {
+    const d: CountryData = JSON.parse(await fs.readFile(`data/${c.code}.json`, "utf-8"));
+    const devs = d.rankings.public_contributions.length;
+    const contrib = d.rankings.public_contributions.reduce((s, u) => s + u.publicContributions, 0);
+    totalDevs += devs; totalContrib += contrib;
+    stats.push({ code: c.code, name: c.name, flag: c.flag, devs, contrib, perCapita: Math.round(contrib / devs) });
+  } catch {}
+}
+stats.sort((a, b) => b.contrib - a.contrib);
+
+function fmt(n: number) { return n >= 1e6 ? (n/1e6).toFixed(1)+"M" : n >= 1e3 ? (n/1e3).toFixed(0)+"K" : String(n); }
+
+const CONT: Record<string, string> = {afghanistan:"Asia",albania:"Europe",algeria:"Africa",andorra:"Europe",angola:"Africa",argentina:"Americas",armenia:"Asia",australia:"Oceania",austria:"Europe",azerbaijan:"Asia",bahrain:"Asia",bangladesh:"Asia",belarus:"Europe",belgium:"Europe",benin:"Africa",bhutan:"Asia",bolivia:"Americas","bosnia-and-herzegovina":"Europe",botswana:"Africa",brazil:"Americas",bulgaria:"Europe","burkina-faso":"Africa",burundi:"Africa",cambodia:"Asia",cameroon:"Africa",canada:"Americas",chad:"Africa",chile:"Americas",china:"Asia","hong-kong":"Asia",taiwan:"Asia",colombia:"Americas",congo:"Africa",croatia:"Europe",cuba:"Americas",cyprus:"Europe",czechia:"Europe",denmark:"Europe","dominican-republic":"Americas",ecuador:"Americas",egypt:"Africa","el-salvador":"Americas",estonia:"Europe",ethiopia:"Africa",finland:"Europe",france:"Europe",georgia:"Asia",germany:"Europe",ghana:"Africa",greece:"Europe",guatemala:"Americas",honduras:"Americas",hungary:"Europe",iceland:"Europe",india:"Asia",indonesia:"Asia",iran:"Asia",iraq:"Asia",ireland:"Europe",israel:"Asia",italy:"Europe",jamaica:"Americas",japan:"Asia",jordan:"Asia",kazakhstan:"Asia",kenya:"Africa",kuwait:"Asia",laos:"Asia",latvia:"Europe",lithuania:"Europe",luxembourg:"Europe",madagascar:"Africa",malawi:"Africa",malaysia:"Asia",maldives:"Asia",mali:"Africa",malta:"Europe",mauritius:"Africa",mexico:"Americas",moldova:"Europe",mongolia:"Asia",montenegro:"Europe",morocco:"Africa",mozambique:"Africa",myanmar:"Asia",namibia:"Africa",nepal:"Asia",netherlands:"Europe","new-zealand":"Oceania",nicaragua:"Americas",nigeria:"Africa",norway:"Europe",oman:"Asia",pakistan:"Asia",palestine:"Asia",panama:"Americas",paraguay:"Americas",peru:"Americas",philippines:"Asia",poland:"Europe",portugal:"Europe",qatar:"Asia",romania:"Europe",russia:"Europe",rwanda:"Africa","saudi-arabia":"Asia",senegal:"Africa",serbia:"Europe",singapore:"Asia",slovakia:"Europe",slovenia:"Europe","south-africa":"Africa","south-korea":"Asia",spain:"Europe","sri-lanka":"Asia",sudan:"Africa",sweden:"Europe",switzerland:"Europe",syria:"Asia",tanzania:"Africa",thailand:"Asia",tunisia:"Africa",turkey:"Europe",uganda:"Africa",ukraine:"Europe","united-arab-emirates":"Asia","united-kingdom":"Europe","united-states":"Americas",uruguay:"Americas",uzbekistan:"Asia",venezuela:"Americas",vietnam:"Asia",zambia:"Africa",zimbabwe:"Africa"};
+const byC: Record<string, CS[]> = {};
+for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push(s); }
+---
+
+<Layout title="CodeAtlas — Global Developer Rankings">
+  <div class="max-w-6xl mx-auto px-6 sm:px-8">
+
+    <section class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 min-h-[calc(100vh-56px)] items-center py-16 lg:py-0">
+      <div>
+        <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight tracking-tight">
+          Global Developer Rankings
+        </h1>
+        <p class="text-text-secondary mt-5 text-lg leading-relaxed max-w-lg">
+          Tracking <span class="text-text font-semibold">{fmt(totalDevs)}</span> developers and
+          <span class="text-text font-semibold">{fmt(totalContrib)}</span> contributions across
+          <span class="text-text font-semibold">{stats.length}</span> countries. Updated weekly.
+        </p>
+        <div class="mt-8 max-w-sm">
+          <CountrySearch client:load countries={stats.map(s => ({ code: s.code, name: s.name, flag: s.flag }))} />
+        </div>
+      </div>
+
+      <div class="hidden lg:block relative h-[520px]">
+        <div id="globe-container" class="absolute inset-0 opacity-0 transition-opacity duration-[2s]"
+          data-country-stats={JSON.stringify(Object.fromEntries(stats.map(s => [s.code, s.perCapita])))}></div>
+      </div>
+    </section>
+
+    <section class="py-16 border-t border-border">
+      <h2 class="text-xl font-display font-bold mb-10">{stats.length} Countries</h2>
+
+      {["Asia", "Europe", "Americas", "Africa", "Oceania"].filter(c => byC[c]).map(cont => (
+        <div class="mb-10">
+          <div class="text-xs font-data text-text-muted tracking-widest uppercase mb-3 pb-2 border-b border-border">
+            {cont} <span class="text-text-muted/60">· {byC[cont].length}</span>
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-x-1 gap-y-0.5">
+            {byC[cont].map(c => (
+              <a href={`/${c.code}/`}
+                class="flex items-center gap-2.5 px-3 py-2.5 rounded-lg text-[15px] hover:bg-surface-hover transition-colors group">
+                <span class="text-xl shrink-0">{c.flag}</span>
+                <span class="truncate group-hover:text-accent transition-colors">{c.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <footer class="py-8 border-t border-border text-center text-sm text-text-muted">
+      CodeAtlas · Data from GitHub API · Updated weekly · <a href="/faq" class="hover:text-accent transition-colors">FAQ</a>
+    </footer>
+  </div>
+</Layout>
+
+<script>
+  import { isConfiguredCountry, getCountrySlug } from "../lib/globe/country-mapping";
+  const el = document.getElementById("globe-container");
+  if (el && window.innerWidth >= 1024) {
+    const pcd: Record<string, number> = JSON.parse(el.dataset.countryStats || "{}");
+    const mx = Math.max(1, ...Object.values(pcd));
+    function hc(iso: string) {
+      const s = getCountrySlug(iso);
+      if (!s || !(s in pcd)) return "rgba(63,63,70,0.3)";
+      const r = pcd[s] / mx;
+      if (r > 0.6) return "rgba(129,140,248,0.55)";
+      if (r > 0.3) return "rgba(99,102,241,0.35)";
+      return "rgba(99,102,241,0.18)";
+    }
+    import("globe.gl").then(({ default: Globe }) => {
+      const w = new Globe(el, { rendererConfig: { antialias: true, alpha: true }, animateIn: true })
+        .backgroundColor("rgba(0,0,0,0)")
+        .showAtmosphere(true).atmosphereColor("#6366f1").atmosphereAltitude(0.1)
+        .globeImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg")
+        .bumpImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png");
+      const m = w.globeMaterial() as any;
+      if (m) { m.bumpScale = 8; m.shininess = 2; }
+      const c = w.controls() as any;
+      c.autoRotate = true; c.autoRotateSpeed = 0.12; c.enableZoom = false;
+      const rs = () => w.width(el.clientWidth).height(el.clientHeight);
+      window.addEventListener("resize", rs); rs();
+      fetch("/data/countries.geojson").then(r => r.json()).then(g => {
+        w.polygonsData(g.features.filter((f: any) => f.properties.ISO_A2 !== "AQ"))
+          .polygonAltitude((d: any) => isConfiguredCountry(d.properties.ISO_A2) ? 0.006 : 0.001)
+          .polygonCapColor((d: any) => hc(d.properties.ISO_A2))
+          .polygonSideColor(() => "rgba(99,102,241,0.01)")
+          .polygonStrokeColor(() => "rgba(99,102,241,0.04)")
+          .polygonLabel((d: any) => {
+            if (!isConfiguredCountry(d.properties.ISO_A2)) return "";
+            return `<div style="background:rgba(9,9,11,.96);color:#fafafa;padding:10px 14px;border-radius:8px;font:14px Inter;border:1px solid rgba(63,63,70,.6)"><strong>${d.properties.NAME}</strong><br><span style="color:#a1a1aa;font-size:12px">Click to explore</span></div>`;
+          })
+          .onPolygonClick((d: any) => { const s = getCountrySlug(d.properties.ISO_A2); if (s) location.href = `/${s}/`; })
+          .onPolygonHover((d: any) => {
+            el.style.cursor = d && isConfiguredCountry(d.properties.ISO_A2) ? "pointer" : "default";
+            w.polygonAltitude((f: any) => f === d && isConfiguredCountry(f.properties.ISO_A2) ? 0.03 : isConfiguredCountry(f.properties.ISO_A2) ? 0.006 : 0.001)
+             .polygonCapColor((f: any) => f === d && isConfiguredCountry(f.properties.ISO_A2) ? "rgba(129,140,248,0.85)" : hc(f.properties.ISO_A2));
+          });
+        el.style.opacity = "1";
+      });
+      new IntersectionObserver(([e]) => { e.isIntersecting ? w.resumeAnimation() : w.pauseAnimation(); }, { threshold: 0.1 }).observe(el);
+    });
+  }
+</script>
