@@ -28,9 +28,10 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
 ---
 
 <Layout title="CodeAtlas — Global Developer Rankings">
-  <div class="max-w-6xl mx-auto px-6 sm:px-8">
-
-    <section class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 min-h-[calc(100vh-56px)] items-center py-16 lg:py-0">
+  <!-- Hero: full-width starfield bg in dark mode -->
+  <div class="w-full dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center">
+    <div class="max-w-6xl mx-auto px-6 sm:px-8">
+      <section class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 min-h-[calc(100vh-56px)] items-center py-16 lg:py-0">
       <div>
         <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight tracking-tight">
           Global Developer Rankings
@@ -50,7 +51,10 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
           data-country-stats={JSON.stringify(Object.fromEntries(stats.map(s => [s.code, s.perCapita])))}></div>
       </div>
     </section>
+    </div>
+  </div>
 
+  <div class="max-w-6xl mx-auto px-6 sm:px-8">
     <section class="py-16 border-t border-border">
       <h2 class="text-xl font-display font-bold mb-10">{stats.length} Countries</h2>
 
@@ -95,7 +99,7 @@ for (const s of stats) { const c = CONT[s.code] || "Other"; (byC[c] ??= []).push
     import("globe.gl").then(({ default: Globe }) => {
       import("three").then((THREE) => {
       const w = new Globe(el, { rendererConfig: { antialias: true, alpha: true }, animateIn: true })
-        .backgroundImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png")
+        .backgroundColor("rgba(0,0,0,0)")
         .showAtmosphere(true).atmosphereColor("cyan").atmosphereAltitude(0.15)
         .globeImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg")
         .bumpImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png");
