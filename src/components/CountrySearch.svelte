@@ -5,7 +5,7 @@
     flag: string;
   }
 
-  let { countries }: { countries: Country[] } = $props();
+  let { countries, basePath = "/" }: { countries: Country[]; basePath?: string } = $props();
 
   let query = $state("");
   let focused = $state(false);
@@ -40,7 +40,7 @@
     <div class="absolute z-50 top-full mt-1 left-0 right-0 bg-surface border border-border/[0.08] rounded-lg shadow-2xl overflow-hidden">
       {#each filtered as country}
         <a
-          href="/{country.code}/"
+          href="{basePath}{country.code}/"
           class="flex items-center gap-3 px-4 py-2.5 hover:bg-border/[0.04] transition-colors text-sm"
         >
           <span class="text-lg">{country.flag}</span>

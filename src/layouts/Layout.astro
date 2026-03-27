@@ -2,6 +2,7 @@
 import "../styles/global.css";
 import ThemeToggle from "../components/ThemeToggle.svelte";
 import CountrySearch from "../components/CountrySearch.svelte";
+import { buildUrl } from "../lib/url";
 
 interface Props {
   title: string;
@@ -13,6 +14,7 @@ interface Props {
 const { title, description = "Global Developer Rankings", ogImage, breadcrumb = [] } = Astro.props;
 const url = Astro.url.href;
 const site = Astro.site?.toString() ?? "";
+const base = import.meta.env.BASE_URL;
 ---
 
 <html lang="en">
@@ -40,14 +42,14 @@ const site = Astro.site?.toString() ?? "";
     <nav class="sticky top-0 z-50 w-full bg-bg/90 backdrop-blur-md border-b border-border">
       <div class="w-full px-5 sm:px-8 h-14 flex items-center gap-4">
         <div class="flex items-center gap-2 text-base shrink-0">
-          <a href="/" class="font-display font-bold text-lg text-accent hover:text-accent-hover transition-colors">CodeAtlas</a>
+          <a href={buildUrl("", base)} class="font-display font-bold text-lg text-accent hover:text-accent-hover transition-colors">CodeAtlas</a>
           {breadcrumb.map(b => (
             <><span class="text-text-muted">›</span><a href={b.href} class="text-text-secondary hover:text-text transition-colors truncate max-w-[150px] sm:max-w-none">{b.label}</a></>
           ))}
         </div>
         <div class="flex-1"></div>
         <div class="flex items-center gap-4">
-          <a href="/faq" class="text-sm text-text-secondary hover:text-text transition-colors hidden sm:block">FAQ</a>
+          <a href={buildUrl("faq", base)} class="text-sm text-text-secondary hover:text-text transition-colors hidden sm:block">FAQ</a>
           <ThemeToggle client:load />
         </div>
       </div>

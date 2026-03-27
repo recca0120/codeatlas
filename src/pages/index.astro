@@ -2,8 +2,10 @@
 import Layout from "../layouts/Layout.astro";
 import { loadAllCountryConfigs } from "../lib/country-config";
 import CountrySearch from "../components/CountrySearch.svelte";
+import { buildUrl } from "../lib/url";
 
 const countries = await loadAllCountryConfigs("config/countries.json");
+const base = import.meta.env.BASE_URL;
 
 const CONT: Record<string, string> = {afghanistan:"Asia",albania:"Europe",algeria:"Africa",andorra:"Europe",angola:"Africa",argentina:"Americas",armenia:"Asia",australia:"Oceania",austria:"Europe",azerbaijan:"Asia",bahrain:"Asia",bangladesh:"Asia",belarus:"Europe",belgium:"Europe",benin:"Africa",bhutan:"Asia",bolivia:"Americas","bosnia-and-herzegovina":"Europe",botswana:"Africa",brazil:"Americas",bulgaria:"Europe","burkina-faso":"Africa",burundi:"Africa",cambodia:"Asia",cameroon:"Africa",canada:"Americas",chad:"Africa",chile:"Americas",china:"Asia","hong-kong":"Asia",taiwan:"Asia",colombia:"Americas",congo:"Africa",croatia:"Europe",cuba:"Americas",cyprus:"Europe",czechia:"Europe",denmark:"Europe","dominican-republic":"Americas",ecuador:"Americas",egypt:"Africa","el-salvador":"Americas",estonia:"Europe",ethiopia:"Africa",finland:"Europe",france:"Europe",georgia:"Asia",germany:"Europe",ghana:"Africa",greece:"Europe",guatemala:"Americas",honduras:"Americas",hungary:"Europe",iceland:"Europe",india:"Asia",indonesia:"Asia",iran:"Asia",iraq:"Asia",ireland:"Europe",israel:"Asia",italy:"Europe",jamaica:"Americas",japan:"Asia",jordan:"Asia",kazakhstan:"Asia",kenya:"Africa",kuwait:"Asia",laos:"Asia",latvia:"Europe",lithuania:"Europe",luxembourg:"Europe",madagascar:"Africa",malawi:"Africa",malaysia:"Asia",maldives:"Asia",mali:"Africa",malta:"Europe",mauritius:"Africa",mexico:"Americas",moldova:"Europe",mongolia:"Asia",montenegro:"Europe",morocco:"Africa",mozambique:"Africa",myanmar:"Asia",namibia:"Africa",nepal:"Asia",netherlands:"Europe","new-zealand":"Oceania",nicaragua:"Americas",nigeria:"Africa",norway:"Europe",oman:"Asia",pakistan:"Asia",palestine:"Asia",panama:"Americas",paraguay:"Americas",peru:"Americas",philippines:"Asia",poland:"Europe",portugal:"Europe",qatar:"Asia",romania:"Europe",russia:"Europe",rwanda:"Africa","saudi-arabia":"Asia",senegal:"Africa",serbia:"Europe",singapore:"Asia",slovakia:"Europe",slovenia:"Europe","south-africa":"Africa","south-korea":"Asia",spain:"Europe","sri-lanka":"Asia",sudan:"Africa",sweden:"Europe",switzerland:"Europe",syria:"Asia",tanzania:"Africa",thailand:"Asia",tunisia:"Africa",turkey:"Europe",uganda:"Africa",ukraine:"Europe","united-arab-emirates":"Asia","united-kingdom":"Europe","united-states":"Americas",uruguay:"Americas",uzbekistan:"Asia",venezuela:"Americas",vietnam:"Asia",zambia:"Africa",zimbabwe:"Africa"};
 
@@ -15,7 +17,7 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
 
 <Layout title="CodeAtlas — Global Developer Rankings">
   <!-- Hero: full-width starfield bg in dark mode -->
-  <div class="w-full dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center">
+  <div class="w-full dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center" data-base={base}>
     <div class="max-w-6xl mx-auto px-6 sm:px-8">
       <section class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 min-h-[calc(100vh-56px)] items-center py-16 lg:py-0">
         <div>
@@ -27,7 +29,7 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
             ranked by GitHub contributions. Updated weekly.
           </p>
           <div class="mt-8 max-w-sm">
-            <CountrySearch client:load countries={countryList.map(c => ({ code: c.code, name: c.name, flag: c.flag }))} />
+            <CountrySearch client:load countries={countryList.map(c => ({ code: c.code, name: c.name, flag: c.flag }))} basePath={base} />
           </div>
         </div>
 
@@ -50,7 +52,7 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {byContinent[cont].map(c => (
-              <a href={`/${c.code}/`}
+              <a href={buildUrl(`${c.code}/`, base)}
                 class="flex items-center gap-3 px-4 py-3 rounded-xl border border-border hover:border-accent/40 hover:bg-surface-hover transition-all group">
                 <span class="text-2xl shrink-0">{c.flag}</span>
                 <span class="truncate group-hover:text-accent transition-colors">{c.name}</span>
@@ -98,7 +100,8 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
       c.minDistance = 180; c.maxDistance = 350;
       const rs = () => w.width(el.clientWidth).height(el.clientHeight);
       window.addEventListener("resize", rs); rs();
-      fetch("/data/countries.geojson").then(r => r.json()).then(g => {
+      const basePath = el.closest("[data-base]")?.getAttribute("data-base") || "/";
+      fetch(basePath + "data/countries.geojson").then(r => r.json()).then(g => {
         w.polygonsData(g.features.filter((f: any) => f.properties.ISO_A2 !== "AQ"))
           .polygonAltitude((d: any) => isConfiguredCountry(d.properties.ISO_A2) ? 0.006 : 0.001)
           .polygonCapColor((d: any) => hc(d.properties.ISO_A2))
@@ -108,7 +111,7 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
             if (!isConfiguredCountry(d.properties.ISO_A2)) return "";
             return `<div style="background:rgba(9,9,11,.96);color:#fafafa;padding:10px 14px;border-radius:8px;font:14px Inter;border:1px solid rgba(63,63,70,.6)"><strong>${d.properties.NAME}</strong><br><span style="color:#a1a1aa;font-size:12px">Click to explore</span></div>`;
           })
-          .onPolygonClick((d: any) => { const s = getCountrySlug(d.properties.ISO_A2); if (s) location.href = `/${s}/`; })
+          .onPolygonClick((d: any) => { const s = getCountrySlug(d.properties.ISO_A2); if (s) location.href = `${basePath}${s}/`; })
           .onPolygonHover((d: any) => {
             el.style.cursor = d && isConfiguredCountry(d.properties.ISO_A2) ? "pointer" : "default";
             w.polygonAltitude((f: any) => f === d && isConfiguredCountry(f.properties.ISO_A2) ? 0.03 : isConfiguredCountry(f.properties.ISO_A2) ? 0.006 : 0.001)
