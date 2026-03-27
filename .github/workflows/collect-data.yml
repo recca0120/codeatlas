@@ -32,7 +32,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
 
       - name: Collect data for all countries
-        run: pnpm tsx scripts/collect.ts
+        run: pnpm tsx scripts/cli.ts collect
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
