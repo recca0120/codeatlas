@@ -1,20 +1,35 @@
 import { describe, expect, it } from "vitest";
 import {
-  generateFakeUsers,
   buildOutputPath,
   filterCountries,
+  generateFakeUsers,
 } from "./cli-utils";
 import type { CountryConfig } from "./country-config";
 
 const mockCountries: CountryConfig[] = [
-  { code: "taiwan", name: "Taiwan", flag: "🇹🇼", locations: ["Taiwan", "Taipei"] },
+  {
+    code: "taiwan",
+    name: "Taiwan",
+    flag: "🇹🇼",
+    locations: ["Taiwan", "Taipei"],
+  },
   { code: "japan", name: "Japan", flag: "🇯🇵", locations: ["Japan", "Tokyo"] },
-  { code: "germany", name: "Germany", flag: "🇩🇪", locations: ["Germany", "Berlin"] },
+  {
+    code: "germany",
+    name: "Germany",
+    flag: "🇩🇪",
+    locations: ["Germany", "Berlin"],
+  },
 ];
 
 describe("generateFakeUsers", () => {
   it("produces the specified number of users", () => {
-    const users = generateFakeUsers("taiwan", "Taiwan", ["Taiwan", "Taipei"], 10);
+    const users = generateFakeUsers(
+      "taiwan",
+      "Taiwan",
+      ["Taiwan", "Taipei"],
+      10,
+    );
     expect(users).toHaveLength(10);
   });
 
@@ -33,7 +48,9 @@ describe("generateFakeUsers", () => {
 
   it("contributions decrease from first to last", () => {
     const users = generateFakeUsers("taiwan", "Taiwan", ["Taiwan"], 20);
-    expect(users[0].publicContributions).toBeGreaterThan(users[19].publicContributions);
+    expect(users[0].publicContributions).toBeGreaterThan(
+      users[19].publicContributions,
+    );
   });
 
   it("each repo has required fields", () => {

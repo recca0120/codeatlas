@@ -28,12 +28,22 @@ describe("validateCountryConfig", () => {
   });
 
   it("throws when locations is empty", () => {
-    const config = { code: "taiwan", name: "Taiwan", flag: "🇹🇼", locations: [] };
+    const config = {
+      code: "taiwan",
+      name: "Taiwan",
+      flag: "🇹🇼",
+      locations: [],
+    };
     expect(() => validateCountryConfig(config)).toThrow("locations");
   });
 
   it("throws when locations is not an array", () => {
-    const config = { code: "taiwan", name: "Taiwan", flag: "🇹🇼", locations: "Taiwan" };
+    const config = {
+      code: "taiwan",
+      name: "Taiwan",
+      flag: "🇹🇼",
+      locations: "Taiwan",
+    };
     expect(() => validateCountryConfig(config)).toThrow("locations");
   });
 });
@@ -47,7 +57,9 @@ describe("loadAllCountryConfigs", () => {
   });
 
   it("throws for non-existent file", async () => {
-    await expect(loadAllCountryConfigs("config/nonexistent.json")).rejects.toThrow();
+    await expect(
+      loadAllCountryConfigs("config/nonexistent.json"),
+    ).rejects.toThrow();
   });
 });
 
@@ -60,6 +72,8 @@ describe("loadCountryConfig", () => {
   });
 
   it("throws for unknown country code", async () => {
-    await expect(loadCountryConfig("config/countries.json", "nonexistent")).rejects.toThrow("not found");
+    await expect(
+      loadCountryConfig("config/countries.json", "nonexistent"),
+    ).rejects.toThrow("not found");
   });
 });

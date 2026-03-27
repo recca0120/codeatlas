@@ -1,9 +1,42 @@
-import type { GitHubUser } from "./github-client";
 import type { CountryConfig } from "./country-config";
+import type { GitHubUser } from "./github-client";
 
-const LANGS = ["TypeScript", "JavaScript", "Python", "Go", "Rust", "Java", "C++", "Ruby", "PHP", "Swift", "Kotlin", "Dart"];
-const COMPANIES = ["Google", "Microsoft", "Amazon", "Meta", "Apple", "GitHub", "Vercel", "Stripe", null, null, null, null];
-const DESCS = ["A modern CLI tool", "Web framework for developers", "Data pipeline library", "Open source utilities", "API wrapper", null];
+const LANGS = [
+  "TypeScript",
+  "JavaScript",
+  "Python",
+  "Go",
+  "Rust",
+  "Java",
+  "C++",
+  "Ruby",
+  "PHP",
+  "Swift",
+  "Kotlin",
+  "Dart",
+];
+const COMPANIES = [
+  "Google",
+  "Microsoft",
+  "Amazon",
+  "Meta",
+  "Apple",
+  "GitHub",
+  "Vercel",
+  "Stripe",
+  null,
+  null,
+  null,
+  null,
+];
+const DESCS = [
+  "A modern CLI tool",
+  "Web framework for developers",
+  "Data pipeline library",
+  "Open source utilities",
+  "API wrapper",
+  null,
+];
 
 function rand(a: number, b: number): number {
   return Math.floor(Math.random() * (b - a + 1)) + a;

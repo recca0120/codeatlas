@@ -1,8 +1,12 @@
 import fs from "node:fs/promises";
 import { Command } from "commander";
+import {
+  buildOutputPath,
+  filterCountries,
+  generateFakeUsers,
+} from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
 import { buildCountryData } from "../src/lib/data-output";
-import { buildOutputPath, filterCountries, generateFakeUsers } from "../src/lib/cli-utils";
 import { searchUsersByLocation } from "../src/lib/github-client";
 import { createOctokitClient } from "../src/lib/octokit-github-client";
 
@@ -20,9 +24,7 @@ function addSharedOptions(cmd: Command) {
 
 // ── collect ──
 addSharedOptions(
-  program
-    .command("collect")
-    .description("collect real data from GitHub API")
+  program.command("collect").description("collect real data from GitHub API"),
 ).action(async (opts: { country?: string; limit?: number }) => {
   const token = process.env.GITHUB_TOKEN;
   if (!token) {
@@ -34,12 +36,18 @@ addSharedOptions(
   const countries = filterCountries(all, opts.country);
   const client = createOctokitClient(token);
 
-  console.log(`Collecting ${countries.length} country(ies)${opts.limit ? ` (limit: ${opts.limit})` : ""}...\n`);
+  console.log(
+    `Collecting ${countries.length} country(ies)${opts.limit ? ` (limit: ${opts.limit})` : ""}...\n`,
+  );
 
   for (const config of countries) {
     console.log(`${config.flag} ${config.name}...`);
 
-    let users = await searchUsersByLocation(client, config.locations, config.code);
+    let users = await searchUsersByLocation(
+      client,
+      config.locations,
+      config.code,
+    );
     console.log(`  Found ${users.length} users`);
 
     if (opts.limit && users.length > opts.limit) {
@@ -61,17 +69,24 @@ addSharedOptions(
 addSharedOptions(
   program
     .command("generate")
-    .description("generate sample/fake data for development")
+    .description("generate sample/fake data for development"),
 ).action(async (opts: { country?: string; limit?: number }) => {
   const limit = opts.limit || 10;
   const all = await loadAllCountryConfigs("config/countries.json");
   const countries = filterCountries(all, opts.country);
 
-  console.log(`Generating ${countries.length} country(ies) × ${limit} users...\n`);
+  console.log(
+    `Generating ${countries.length} country(ies) × ${limit} users...\n`,
+  );
 
   for (let i = 0; i < countries.length; i++) {
     const config = countries[i];
-    const users = generateFakeUsers(config.code, config.name, config.locations, limit);
+    const users = generateFakeUsers(
+      config.code,
+      config.name,
+      config.locations,
+      limit,
+    );
     const data = buildCountryData(config.code, users);
     const outputPath = buildOutputPath(config.code);
     await fs.mkdir("public/data", { recursive: true });
