@@ -21,8 +21,9 @@
     loading = true;
     error = "";
     try {
-      // Load country config
-      const config = await ky.get(`${basePath}data/countries/${countryCode}.json`).json<any>().catch(() => null);
+      // Load country config from countries.json
+      const allCountries = await ky.get(`${basePath}data/countries.json`).json<any[]>();
+      const config = allCountries.find((c: any) => c.code === countryCode);
       if (config) {
         countryName = config.name || countryCode;
         countryFlag = config.flag || "";

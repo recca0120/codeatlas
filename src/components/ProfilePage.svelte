@@ -25,7 +25,8 @@
     loading = true;
     error = "";
     try {
-      const config = await ky.get(`${basePath}data/countries/${countryCode}.json`).json<any>().catch(() => null);
+      const allCountries = await ky.get(`${basePath}data/countries.json`).json<any[]>();
+      const config = allCountries.find((c: any) => c.code === countryCode);
       if (config) { countryName = config.name; countryFlag = config.flag || ""; }
 
       const data = await ky.get(`${basePath}data/${countryCode}.json`).json<CountryData>();

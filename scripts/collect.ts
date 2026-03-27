@@ -31,11 +31,12 @@ if (!token) {
 const client = createOctokitClient(token);
 
 // Load configs
-let configs;
+let configs: Awaited<ReturnType<typeof loadAllCountryConfigs>>;
 if (countryArg) {
   try {
     const config = await loadCountryConfig(
-      `config/countries/${countryArg}.json`,
+      "config/countries.json",
+      countryArg,
     );
     configs = [config];
   } catch {
@@ -45,7 +46,7 @@ if (countryArg) {
     process.exit(1);
   }
 } else {
-  configs = await loadAllCountryConfigs("config/countries");
+  configs = await loadAllCountryConfigs("config/countries.json");
 }
 
 console.log(

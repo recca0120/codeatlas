@@ -6,15 +6,8 @@ import path from "node:path";
 //   pnpm tsx scripts/generate-sample-data.ts 1000   # 1000 users per country
 
 const LIMIT = Number(process.argv[2] || "10");
-const CONFIG_DIR = "config/countries";
-
-// Read country configs from existing JSON files
-const configFiles = fs
-  .readdirSync(CONFIG_DIR)
-  .filter((f) => f.endsWith(".json"));
-const countries = configFiles.map((f) =>
-  JSON.parse(fs.readFileSync(path.join(CONFIG_DIR, f), "utf-8")),
-);
+// Read country configs from single JSON file
+const countries = JSON.parse(fs.readFileSync("config/countries.json", "utf-8"));
 
 const LANGS = [
   "TypeScript",

@@ -28,52 +28,38 @@ describe("validateCountryConfig", () => {
   });
 
   it("throws when locations is empty", () => {
-    const config = {
-      code: "taiwan",
-      name: "Taiwan",
-      flag: "🇹🇼",
-      locations: [],
-    };
+    const config = { code: "taiwan", name: "Taiwan", flag: "🇹🇼", locations: [] };
     expect(() => validateCountryConfig(config)).toThrow("locations");
   });
 
   it("throws when locations is not an array", () => {
-    const config = {
-      code: "taiwan",
-      name: "Taiwan",
-      flag: "🇹🇼",
-      locations: "Taiwan",
-    };
+    const config = { code: "taiwan", name: "Taiwan", flag: "🇹🇼", locations: "Taiwan" };
     expect(() => validateCountryConfig(config)).toThrow("locations");
   });
 });
 
-describe("loadCountryConfig", () => {
-  it("loads taiwan.json from config/countries/", async () => {
-    const config = await loadCountryConfig("config/countries/taiwan.json");
-    expect(config.code).toBe("taiwan");
-    expect(config.name).toBe("Taiwan");
-    expect(config.flag).toBe("🇹🇼");
-    expect(config.locations).toContain("Taipei");
-  });
-
-  it("throws for non-existent file", async () => {
-    await expect(
-      loadCountryConfig("config/countries/nonexistent.json"),
-    ).rejects.toThrow();
-  });
-});
-
 describe("loadAllCountryConfigs", () => {
-  it("loads all configs from config/countries/", async () => {
-    const configs = await loadAllCountryConfigs("config/countries");
+  it("loads all configs from countries.json", async () => {
+    const configs = await loadAllCountryConfigs("config/countries.json");
     expect(configs.length).toBeGreaterThanOrEqual(2);
     expect(configs.map((c) => c.code)).toContain("taiwan");
     expect(configs.map((c) => c.code)).toContain("japan");
   });
 
-  it("returns empty array for empty directory", async () => {
-    const configs = await loadAllCountryConfigs("config/countries-empty");
-    expect(configs).toEqual([]);
+  it("throws for non-existent file", async () => {
+    await expect(loadAllCountryConfigs("config/nonexistent.json")).rejects.toThrow();
+  });
+});
+
+describe("loadCountryConfig", () => {
+  it("finds taiwan by code", async () => {
+    const config = await loadCountryConfig("config/countries.json", "taiwan");
+    expect(config.code).toBe("taiwan");
+    expect(config.name).toBe("Taiwan");
+    expect(config.flag).toBe("🇹🇼");
+  });
+
+  it("throws for unknown country code", async () => {
+    await expect(loadCountryConfig("config/countries.json", "nonexistent")).rejects.toThrow("not found");
   });
 });

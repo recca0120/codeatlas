@@ -1,5 +1,4 @@
 import fs from "node:fs/promises";
-import path from "node:path";
 
 export interface CountryConfig {
   code: string;
@@ -34,31 +33,31 @@ export function validateCountryConfig(data: unknown): CountryConfig {
   };
 }
 
-export async function loadCountryConfig(
+/**
+ * Load all country configs from a single JSON file (array of configs).
+ */
+export async function loadAllCountryConfigs(
   filePath: string,
-): Promise<CountryConfig> {
+): Promise<CountryConfig[]> {
   const content = await fs.readFile(filePath, "utf-8");
   const data = JSON.parse(content);
-  return validateCountryConfig(data);
+
+  if (!Array.isArray(data)) {
+    throw new Error("Expected an array of country configs");
+  }
+
+  return data.map(validateCountryConfig);
 }
 
-export async function loadAllCountryConfigs(
-  dirPath: string,
-): Promise<CountryConfig[]> {
-  let files: string[];
-  try {
-    files = await fs.readdir(dirPath);
-  } catch {
-    return [];
-  }
-
-  const jsonFiles = files.filter((f) => f.endsWith(".json")).sort();
-  const configs: CountryConfig[] = [];
-
-  for (const file of jsonFiles) {
-    const config = await loadCountryConfig(path.join(dirPath, file));
-    configs.push(config);
-  }
-
-  return configs;
+/**
+ * Find a single country config by code.
+ */
+export async function loadCountryConfig(
+  filePath: string,
+  code: string,
+): Promise<CountryConfig> {
+  const all = await loadAllCountryConfigs(filePath);
+  const found = all.find((c) => c.code === code);
+  if (!found) throw new Error(`Country not found: ${code}`);
+  return found;
 }

@@ -1,0 +1,1368 @@
+[
+  {
+    "code": "afghanistan",
+    "name": "Afghanistan",
+    "flag": "🇦🇫",
+    "locations": [
+      "Afghanistan",
+      "Kabul",
+      "Kandahar",
+      "Herat"
+    ]
+  },
+  {
+    "code": "albania",
+    "name": "Albania",
+    "flag": "🇦🇱",
+    "locations": [
+      "Albania",
+      "Tirana",
+      "Durrës",
+      "Vlorë"
+    ]
+  },
+  {
+    "code": "algeria",
+    "name": "Algeria",
+    "flag": "🇩🇿",
+    "locations": [
+      "Algeria",
+      "Algiers",
+      "Oran",
+      "Constantine"
+    ]
+  },
+  {
+    "code": "andorra",
+    "name": "Andorra",
+    "flag": "🇦🇩",
+    "locations": [
+      "Andorra",
+      "Andorra la vella"
+    ]
+  },
+  {
+    "code": "angola",
+    "name": "Angola",
+    "flag": "🇦🇴",
+    "locations": [
+      "Angola",
+      "Luanda",
+      "Huambo"
+    ]
+  },
+  {
+    "code": "argentina",
+    "name": "Argentina",
+    "flag": "🇦🇷",
+    "locations": [
+      "Argentina",
+      "Buenos aires",
+      "Cordoba",
+      "Rosario"
+    ]
+  },
+  {
+    "code": "armenia",
+    "name": "Armenia",
+    "flag": "🇦🇲",
+    "locations": [
+      "Armenia",
+      "Yerevan",
+      "Gyumri"
+    ]
+  },
+  {
+    "code": "australia",
+    "name": "Australia",
+    "flag": "🇦🇺",
+    "locations": [
+      "Australia",
+      "Sydney",
+      "Melbourne",
+      "Perth",
+      "Brisbane"
+    ]
+  },
+  {
+    "code": "austria",
+    "name": "Austria",
+    "flag": "🇦🇹",
+    "locations": [
+      "Austria",
+      "Vienna",
+      "Salzburg",
+      "Innsbruck",
+      "Graz"
+    ]
+  },
+  {
+    "code": "azerbaijan",
+    "name": "Azerbaijan",
+    "flag": "🇦🇿",
+    "locations": [
+      "Azerbaijan",
+      "Baku"
+    ]
+  },
+  {
+    "code": "bahrain",
+    "name": "Bahrain",
+    "flag": "🇧🇭",
+    "locations": [
+      "Bahrain",
+      "Manama"
+    ]
+  },
+  {
+    "code": "bangladesh",
+    "name": "Bangladesh",
+    "flag": "🇧🇩",
+    "locations": [
+      "Bangladesh",
+      "Dhaka",
+      "Chittagong",
+      "Rajshahi"
+    ]
+  },
+  {
+    "code": "belarus",
+    "name": "Belarus",
+    "flag": "🇧🇾",
+    "locations": [
+      "Belarus",
+      "Minsk",
+      "Gomel"
+    ]
+  },
+  {
+    "code": "belgium",
+    "name": "Belgium",
+    "flag": "🇧🇪",
+    "locations": [
+      "Belgium",
+      "Brussels",
+      "Antwerp",
+      "Ghent"
+    ]
+  },
+  {
+    "code": "benin",
+    "name": "Benin",
+    "flag": "🇧🇯",
+    "locations": [
+      "Benin",
+      "Cotonou",
+      "Porto novo"
+    ]
+  },
+  {
+    "code": "bhutan",
+    "name": "Bhutan",
+    "flag": "🇧🇹",
+    "locations": [
+      "Bhutan",
+      "Thimphu"
+    ]
+  },
+  {
+    "code": "bolivia",
+    "name": "Bolivia",
+    "flag": "🇧🇴",
+    "locations": [
+      "Bolivia",
+      "La paz",
+      "Cochabamba",
+      "Santa cruz"
+    ]
+  },
+  {
+    "code": "bosnia-and-herzegovina",
+    "name": "Bosnia and Herzegovina",
+    "flag": "🇧🇦",
+    "locations": [
+      "Bosnia and Herzegovina",
+      "Sarajevo",
+      "Mostar"
+    ]
+  },
+  {
+    "code": "botswana",
+    "name": "Botswana",
+    "flag": "🇧🇼",
+    "locations": [
+      "Botswana",
+      "Gaborone"
+    ]
+  },
+  {
+    "code": "brazil",
+    "name": "Brazil",
+    "flag": "🇧🇷",
+    "locations": [
+      "Brazil",
+      "Sao paulo",
+      "Rio de janeiro",
+      "Brasilia",
+      "Belo horizonte",
+      "Curitiba"
+    ]
+  },
+  {
+    "code": "bulgaria",
+    "name": "Bulgaria",
+    "flag": "🇧🇬",
+    "locations": [
+      "Bulgaria",
+      "Sofia",
+      "Plovdiv",
+      "Varna"
+    ]
+  },
+  {
+    "code": "burkina-faso",
+    "name": "Burkina Faso",
+    "flag": "🇧🇫",
+    "locations": [
+      "Burkina Faso",
+      "Ouagadougou"
+    ]
+  },
+  {
+    "code": "burundi",
+    "name": "Burundi",
+    "flag": "🇧🇮",
+    "locations": [
+      "Burundi",
+      "Bujumbura"
+    ]
+  },
+  {
+    "code": "cambodia",
+    "name": "Cambodia",
+    "flag": "🇰🇭",
+    "locations": [
+      "Cambodia",
+      "Phnom penh",
+      "Siem reap"
+    ]
+  },
+  {
+    "code": "cameroon",
+    "name": "Cameroon",
+    "flag": "🇨🇲",
+    "locations": [
+      "Cameroon",
+      "Yaounde",
+      "Douala"
+    ]
+  },
+  {
+    "code": "canada",
+    "name": "Canada",
+    "flag": "🇨🇦",
+    "locations": [
+      "Canada",
+      "Toronto",
+      "Montreal",
+      "Vancouver",
+      "Calgary",
+      "Ottawa"
+    ]
+  },
+  {
+    "code": "chad",
+    "name": "Chad",
+    "flag": "🇹🇩",
+    "locations": [
+      "Chad",
+      "Ndjamena"
+    ]
+  },
+  {
+    "code": "chile",
+    "name": "Chile",
+    "flag": "🇨🇱",
+    "locations": [
+      "Chile",
+      "Santiago",
+      "Valparaiso",
+      "Concepcion"
+    ]
+  },
+  {
+    "code": "china",
+    "name": "China",
+    "flag": "🇨🇳",
+    "locations": [
+      "China",
+      "Beijing",
+      "Shanghai",
+      "Shenzhen",
+      "Guangzhou",
+      "Chengdu"
+    ]
+  },
+  {
+    "code": "colombia",
+    "name": "Colombia",
+    "flag": "🇨🇴",
+    "locations": [
+      "Colombia",
+      "Bogota",
+      "Medellin",
+      "Cali"
+    ]
+  },
+  {
+    "code": "congo",
+    "name": "Congo",
+    "flag": "🇨🇬",
+    "locations": [
+      "Congo",
+      "Brazzaville"
+    ]
+  },
+  {
+    "code": "croatia",
+    "name": "Croatia",
+    "flag": "🇭🇷",
+    "locations": [
+      "Croatia",
+      "Zagreb",
+      "Split",
+      "Dubrovnik"
+    ]
+  },
+  {
+    "code": "cuba",
+    "name": "Cuba",
+    "flag": "🇨🇺",
+    "locations": [
+      "Cuba",
+      "Havana"
+    ]
+  },
+  {
+    "code": "cyprus",
+    "name": "Cyprus",
+    "flag": "🇨🇾",
+    "locations": [
+      "Cyprus",
+      "Nicosia",
+      "Limassol"
+    ]
+  },
+  {
+    "code": "czechia",
+    "name": "Czechia",
+    "flag": "🇨🇿",
+    "locations": [
+      "Czechia",
+      "Prague",
+      "Brno"
+    ]
+  },
+  {
+    "code": "denmark",
+    "name": "Denmark",
+    "flag": "🇩🇰",
+    "locations": [
+      "Denmark",
+      "Copenhagen",
+      "Aarhus"
+    ]
+  },
+  {
+    "code": "dominican-republic",
+    "name": "Dominican Republic",
+    "flag": "🇩🇴",
+    "locations": [
+      "Dominican Republic",
+      "Santo domingo"
+    ]
+  },
+  {
+    "code": "ecuador",
+    "name": "Ecuador",
+    "flag": "🇪🇨",
+    "locations": [
+      "Ecuador",
+      "Quito",
+      "Guayaquil"
+    ]
+  },
+  {
+    "code": "egypt",
+    "name": "Egypt",
+    "flag": "🇪🇬",
+    "locations": [
+      "Egypt",
+      "Cairo",
+      "Alexandria"
+    ]
+  },
+  {
+    "code": "el-salvador",
+    "name": "El Salvador",
+    "flag": "🇸🇻",
+    "locations": [
+      "El Salvador",
+      "San salvador"
+    ]
+  },
+  {
+    "code": "estonia",
+    "name": "Estonia",
+    "flag": "🇪🇪",
+    "locations": [
+      "Estonia",
+      "Tallinn",
+      "Tartu"
+    ]
+  },
+  {
+    "code": "ethiopia",
+    "name": "Ethiopia",
+    "flag": "🇪🇹",
+    "locations": [
+      "Ethiopia",
+      "Addis ababa"
+    ]
+  },
+  {
+    "code": "finland",
+    "name": "Finland",
+    "flag": "🇫🇮",
+    "locations": [
+      "Finland",
+      "Helsinki",
+      "Tampere",
+      "Oulu"
+    ]
+  },
+  {
+    "code": "france",
+    "name": "France",
+    "flag": "🇫🇷",
+    "locations": [
+      "France",
+      "Paris",
+      "Lyon",
+      "Toulouse",
+      "Marseille",
+      "Nantes"
+    ]
+  },
+  {
+    "code": "georgia",
+    "name": "Georgia",
+    "flag": "🇬🇪",
+    "locations": [
+      "Georgia",
+      "Tbilisi",
+      "Batumi"
+    ]
+  },
+  {
+    "code": "germany",
+    "name": "Germany",
+    "flag": "🇩🇪",
+    "locations": [
+      "Germany",
+      "Berlin",
+      "Munich",
+      "Hamburg",
+      "Frankfurt",
+      "Stuttgart"
+    ]
+  },
+  {
+    "code": "ghana",
+    "name": "Ghana",
+    "flag": "🇬🇭",
+    "locations": [
+      "Ghana",
+      "Accra",
+      "Kumasi"
+    ]
+  },
+  {
+    "code": "greece",
+    "name": "Greece",
+    "flag": "🇬🇷",
+    "locations": [
+      "Greece",
+      "Athens",
+      "Thessaloniki"
+    ]
+  },
+  {
+    "code": "guatemala",
+    "name": "Guatemala",
+    "flag": "🇬🇹",
+    "locations": [
+      "Guatemala",
+      "Guatemala city"
+    ]
+  },
+  {
+    "code": "honduras",
+    "name": "Honduras",
+    "flag": "🇭🇳",
+    "locations": [
+      "Honduras",
+      "Tegucigalpa"
+    ]
+  },
+  {
+    "code": "hong-kong",
+    "name": "Hong Kong",
+    "flag": "🇭🇰",
+    "locations": [
+      "Hong Kong",
+      "Hong kong"
+    ]
+  },
+  {
+    "code": "hungary",
+    "name": "Hungary",
+    "flag": "🇭🇺",
+    "locations": [
+      "Hungary",
+      "Budapest",
+      "Debrecen"
+    ]
+  },
+  {
+    "code": "iceland",
+    "name": "Iceland",
+    "flag": "🇮🇸",
+    "locations": [
+      "Iceland",
+      "Reykjavik"
+    ]
+  },
+  {
+    "code": "india",
+    "name": "India",
+    "flag": "🇮🇳",
+    "locations": [
+      "India",
+      "Bangalore",
+      "Mumbai",
+      "Delhi",
+      "Hyderabad",
+      "Pune",
+      "Chennai"
+    ]
+  },
+  {
+    "code": "indonesia",
+    "name": "Indonesia",
+    "flag": "🇮🇩",
+    "locations": [
+      "Indonesia",
+      "Jakarta",
+      "Bandung",
+      "Surabaya"
+    ]
+  },
+  {
+    "code": "iran",
+    "name": "Iran",
+    "flag": "🇮🇷",
+    "locations": [
+      "Iran",
+      "Tehran",
+      "Isfahan",
+      "Tabriz"
+    ]
+  },
+  {
+    "code": "iraq",
+    "name": "Iraq",
+    "flag": "🇮🇶",
+    "locations": [
+      "Iraq",
+      "Baghdad",
+      "Erbil"
+    ]
+  },
+  {
+    "code": "ireland",
+    "name": "Ireland",
+    "flag": "🇮🇪",
+    "locations": [
+      "Ireland",
+      "Dublin",
+      "Galway",
+      "Cork"
+    ]
+  },
+  {
+    "code": "israel",
+    "name": "Israel",
+    "flag": "🇮🇱",
+    "locations": [
+      "Israel",
+      "Tel aviv",
+      "Jerusalem",
+      "Haifa"
+    ]
+  },
+  {
+    "code": "italy",
+    "name": "Italy",
+    "flag": "🇮🇹",
+    "locations": [
+      "Italy",
+      "Rome",
+      "Milan",
+      "Turin",
+      "Florence",
+      "Naples"
+    ]
+  },
+  {
+    "code": "jamaica",
+    "name": "Jamaica",
+    "flag": "🇯🇲",
+    "locations": [
+      "Jamaica",
+      "Kingston"
+    ]
+  },
+  {
+    "code": "japan",
+    "name": "Japan",
+    "flag": "🇯🇵",
+    "locations": [
+      "Japan",
+      "Tokyo",
+      "Osaka",
+      "Kyoto",
+      "Fukuoka",
+      "Nagoya"
+    ]
+  },
+  {
+    "code": "jordan",
+    "name": "Jordan",
+    "flag": "🇯🇴",
+    "locations": [
+      "Jordan",
+      "Amman"
+    ]
+  },
+  {
+    "code": "kazakhstan",
+    "name": "Kazakhstan",
+    "flag": "🇰🇿",
+    "locations": [
+      "Kazakhstan",
+      "Almaty",
+      "Astana"
+    ]
+  },
+  {
+    "code": "kenya",
+    "name": "Kenya",
+    "flag": "🇰🇪",
+    "locations": [
+      "Kenya",
+      "Nairobi",
+      "Mombasa"
+    ]
+  },
+  {
+    "code": "kuwait",
+    "name": "Kuwait",
+    "flag": "🇰🇼",
+    "locations": [
+      "Kuwait",
+      "Kuwait city"
+    ]
+  },
+  {
+    "code": "laos",
+    "name": "Laos",
+    "flag": "🇱🇦",
+    "locations": [
+      "Laos",
+      "Vientiane"
+    ]
+  },
+  {
+    "code": "latvia",
+    "name": "Latvia",
+    "flag": "🇱🇻",
+    "locations": [
+      "Latvia",
+      "Riga"
+    ]
+  },
+  {
+    "code": "lithuania",
+    "name": "Lithuania",
+    "flag": "🇱🇹",
+    "locations": [
+      "Lithuania",
+      "Vilnius",
+      "Kaunas"
+    ]
+  },
+  {
+    "code": "luxembourg",
+    "name": "Luxembourg",
+    "flag": "🇱🇺",
+    "locations": [
+      "Luxembourg",
+      "Luxembourg"
+    ]
+  },
+  {
+    "code": "madagascar",
+    "name": "Madagascar",
+    "flag": "🇲🇬",
+    "locations": [
+      "Madagascar",
+      "Antananarivo"
+    ]
+  },
+  {
+    "code": "malawi",
+    "name": "Malawi",
+    "flag": "🇲🇼",
+    "locations": [
+      "Malawi",
+      "Lilongwe"
+    ]
+  },
+  {
+    "code": "malaysia",
+    "name": "Malaysia",
+    "flag": "🇲🇾",
+    "locations": [
+      "Malaysia",
+      "Kuala lumpur",
+      "Johor bahru"
+    ]
+  },
+  {
+    "code": "maldives",
+    "name": "Maldives",
+    "flag": "🇲🇻",
+    "locations": [
+      "Maldives",
+      "Male"
+    ]
+  },
+  {
+    "code": "mali",
+    "name": "Mali",
+    "flag": "🇲🇱",
+    "locations": [
+      "Mali",
+      "Bamako"
+    ]
+  },
+  {
+    "code": "malta",
+    "name": "Malta",
+    "flag": "🇲🇹",
+    "locations": [
+      "Malta",
+      "Valletta"
+    ]
+  },
+  {
+    "code": "mauritius",
+    "name": "Mauritius",
+    "flag": "🇲🇺",
+    "locations": [
+      "Mauritius",
+      "Port louis"
+    ]
+  },
+  {
+    "code": "mexico",
+    "name": "Mexico",
+    "flag": "🇲🇽",
+    "locations": [
+      "Mexico",
+      "Mexico city",
+      "Guadalajara",
+      "Monterrey",
+      "Tijuana"
+    ]
+  },
+  {
+    "code": "moldova",
+    "name": "Moldova",
+    "flag": "🇲🇩",
+    "locations": [
+      "Moldova",
+      "Chisinau"
+    ]
+  },
+  {
+    "code": "mongolia",
+    "name": "Mongolia",
+    "flag": "🇲🇳",
+    "locations": [
+      "Mongolia",
+      "Ulaanbaatar"
+    ]
+  },
+  {
+    "code": "montenegro",
+    "name": "Montenegro",
+    "flag": "🇲🇪",
+    "locations": [
+      "Montenegro",
+      "Podgorica"
+    ]
+  },
+  {
+    "code": "morocco",
+    "name": "Morocco",
+    "flag": "🇲🇦",
+    "locations": [
+      "Morocco",
+      "Casablanca",
+      "Rabat",
+      "Marrakesh"
+    ]
+  },
+  {
+    "code": "mozambique",
+    "name": "Mozambique",
+    "flag": "🇲🇿",
+    "locations": [
+      "Mozambique",
+      "Maputo"
+    ]
+  },
+  {
+    "code": "myanmar",
+    "name": "Myanmar",
+    "flag": "🇲🇲",
+    "locations": [
+      "Myanmar",
+      "Yangon",
+      "Mandalay"
+    ]
+  },
+  {
+    "code": "namibia",
+    "name": "Namibia",
+    "flag": "🇳🇦",
+    "locations": [
+      "Namibia",
+      "Windhoek"
+    ]
+  },
+  {
+    "code": "nepal",
+    "name": "Nepal",
+    "flag": "🇳🇵",
+    "locations": [
+      "Nepal",
+      "Kathmandu",
+      "Pokhara"
+    ]
+  },
+  {
+    "code": "netherlands",
+    "name": "Netherlands",
+    "flag": "🇳🇱",
+    "locations": [
+      "Netherlands",
+      "Amsterdam",
+      "Rotterdam",
+      "Utrecht"
+    ]
+  },
+  {
+    "code": "new-zealand",
+    "name": "New Zealand",
+    "flag": "🇳🇿",
+    "locations": [
+      "New Zealand",
+      "Auckland",
+      "Wellington",
+      "Christchurch"
+    ]
+  },
+  {
+    "code": "nicaragua",
+    "name": "Nicaragua",
+    "flag": "🇳🇮",
+    "locations": [
+      "Nicaragua",
+      "Managua"
+    ]
+  },
+  {
+    "code": "nigeria",
+    "name": "Nigeria",
+    "flag": "🇳🇬",
+    "locations": [
+      "Nigeria",
+      "Lagos",
+      "Abuja",
+      "Ibadan"
+    ]
+  },
+  {
+    "code": "norway",
+    "name": "Norway",
+    "flag": "🇳🇴",
+    "locations": [
+      "Norway",
+      "Oslo",
+      "Bergen",
+      "Trondheim"
+    ]
+  },
+  {
+    "code": "oman",
+    "name": "Oman",
+    "flag": "🇴🇲",
+    "locations": [
+      "Oman",
+      "Muscat"
+    ]
+  },
+  {
+    "code": "pakistan",
+    "name": "Pakistan",
+    "flag": "🇵🇰",
+    "locations": [
+      "Pakistan",
+      "Islamabad",
+      "Karachi",
+      "Lahore"
+    ]
+  },
+  {
+    "code": "palestine",
+    "name": "Palestine",
+    "flag": "🇵🇸",
+    "locations": [
+      "Palestine",
+      "Gaza",
+      "Ramallah"
+    ]
+  },
+  {
+    "code": "panama",
+    "name": "Panama",
+    "flag": "🇵🇦",
+    "locations": [
+      "Panama",
+      "Panama city"
+    ]
+  },
+  {
+    "code": "paraguay",
+    "name": "Paraguay",
+    "flag": "🇵🇾",
+    "locations": [
+      "Paraguay",
+      "Asuncion"
+    ]
+  },
+  {
+    "code": "peru",
+    "name": "Peru",
+    "flag": "🇵🇪",
+    "locations": [
+      "Peru",
+      "Lima",
+      "Arequipa",
+      "Cusco"
+    ]
+  },
+  {
+    "code": "philippines",
+    "name": "Philippines",
+    "flag": "🇵🇭",
+    "locations": [
+      "Philippines",
+      "Manila",
+      "Cebu city",
+      "Davao"
+    ]
+  },
+  {
+    "code": "poland",
+    "name": "Poland",
+    "flag": "🇵🇱",
+    "locations": [
+      "Poland",
+      "Warsaw",
+      "Krakow",
+      "Wroclaw",
+      "Gdansk"
+    ]
+  },
+  {
+    "code": "portugal",
+    "name": "Portugal",
+    "flag": "🇵🇹",
+    "locations": [
+      "Portugal",
+      "Lisbon",
+      "Porto"
+    ]
+  },
+  {
+    "code": "qatar",
+    "name": "Qatar",
+    "flag": "🇶🇦",
+    "locations": [
+      "Qatar",
+      "Doha"
+    ]
+  },
+  {
+    "code": "romania",
+    "name": "Romania",
+    "flag": "🇷🇴",
+    "locations": [
+      "Romania",
+      "Bucharest",
+      "Cluj napoca"
+    ]
+  },
+  {
+    "code": "russia",
+    "name": "Russia",
+    "flag": "🇷🇺",
+    "locations": [
+      "Russia",
+      "Moscow",
+      "Saint petersburg",
+      "Novosibirsk"
+    ]
+  },
+  {
+    "code": "rwanda",
+    "name": "Rwanda",
+    "flag": "🇷🇼",
+    "locations": [
+      "Rwanda",
+      "Kigali"
+    ]
+  },
+  {
+    "code": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "locations": [
+      "Saudi Arabia",
+      "Riyadh",
+      "Jeddah"
+    ]
+  },
+  {
+    "code": "senegal",
+    "name": "Senegal",
+    "flag": "🇸🇳",
+    "locations": [
+      "Senegal",
+      "Dakar"
+    ]
+  },
+  {
+    "code": "serbia",
+    "name": "Serbia",
+    "flag": "🇷🇸",
+    "locations": [
+      "Serbia",
+      "Belgrade",
+      "Novi sad"
+    ]
+  },
+  {
+    "code": "singapore",
+    "name": "Singapore",
+    "flag": "🇸🇬",
+    "locations": [
+      "Singapore",
+      "Singapore"
+    ]
+  },
+  {
+    "code": "slovakia",
+    "name": "Slovakia",
+    "flag": "🇸🇰",
+    "locations": [
+      "Slovakia",
+      "Bratislava",
+      "Kosice"
+    ]
+  },
+  {
+    "code": "slovenia",
+    "name": "Slovenia",
+    "flag": "🇸🇮",
+    "locations": [
+      "Slovenia",
+      "Ljubljana",
+      "Maribor"
+    ]
+  },
+  {
+    "code": "south-africa",
+    "name": "South Africa",
+    "flag": "🇿🇦",
+    "locations": [
+      "South Africa",
+      "Cape town",
+      "Johannesburg",
+      "Pretoria"
+    ]
+  },
+  {
+    "code": "south-korea",
+    "name": "South Korea",
+    "flag": "🇰🇷",
+    "locations": [
+      "South Korea",
+      "Seoul",
+      "Busan",
+      "Incheon"
+    ]
+  },
+  {
+    "code": "spain",
+    "name": "Spain",
+    "flag": "🇪🇸",
+    "locations": [
+      "Spain",
+      "Madrid",
+      "Barcelona",
+      "Valencia",
+      "Seville"
+    ]
+  },
+  {
+    "code": "sri-lanka",
+    "name": "Sri Lanka",
+    "flag": "🇱🇰",
+    "locations": [
+      "Sri Lanka",
+      "Colombo",
+      "Kandy"
+    ]
+  },
+  {
+    "code": "sudan",
+    "name": "Sudan",
+    "flag": "🇸🇩",
+    "locations": [
+      "Sudan",
+      "Khartoum"
+    ]
+  },
+  {
+    "code": "sweden",
+    "name": "Sweden",
+    "flag": "🇸🇪",
+    "locations": [
+      "Sweden",
+      "Stockholm",
+      "Gothenburg",
+      "Malmo"
+    ]
+  },
+  {
+    "code": "switzerland",
+    "name": "Switzerland",
+    "flag": "🇨🇭",
+    "locations": [
+      "Switzerland",
+      "Zurich",
+      "Geneva",
+      "Bern",
+      "Basel"
+    ]
+  },
+  {
+    "code": "syria",
+    "name": "Syria",
+    "flag": "🇸🇾",
+    "locations": [
+      "Syria",
+      "Damascus"
+    ]
+  },
+  {
+    "code": "taiwan",
+    "name": "Taiwan",
+    "flag": "🇹🇼",
+    "locations": [
+      "Taiwan",
+      "Taipei",
+      "Kaohsiung",
+      "Taichung",
+      "Tainan",
+      "Hsinchu"
+    ]
+  },
+  {
+    "code": "tanzania",
+    "name": "Tanzania",
+    "flag": "🇹🇿",
+    "locations": [
+      "Tanzania",
+      "Dar es salaam"
+    ]
+  },
+  {
+    "code": "thailand",
+    "name": "Thailand",
+    "flag": "🇹🇭",
+    "locations": [
+      "Thailand",
+      "Bangkok",
+      "Chiang mai"
+    ]
+  },
+  {
+    "code": "tunisia",
+    "name": "Tunisia",
+    "flag": "🇹🇳",
+    "locations": [
+      "Tunisia",
+      "Tunis"
+    ]
+  },
+  {
+    "code": "turkey",
+    "name": "Turkey",
+    "flag": "🇹🇷",
+    "locations": [
+      "Turkey",
+      "Istanbul",
+      "Ankara",
+      "Izmir"
+    ]
+  },
+  {
+    "code": "uganda",
+    "name": "Uganda",
+    "flag": "🇺🇬",
+    "locations": [
+      "Uganda",
+      "Kampala"
+    ]
+  },
+  {
+    "code": "ukraine",
+    "name": "Ukraine",
+    "flag": "🇺🇦",
+    "locations": [
+      "Ukraine",
+      "Kyiv",
+      "Lviv",
+      "Kharkiv",
+      "Odesa"
+    ]
+  },
+  {
+    "code": "united-arab-emirates",
+    "name": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "locations": [
+      "United Arab Emirates",
+      "Dubai",
+      "Abu dhabi"
+    ]
+  },
+  {
+    "code": "united-kingdom",
+    "name": "United Kingdom",
+    "flag": "🇬🇧",
+    "locations": [
+      "United Kingdom",
+      "London",
+      "Manchester",
+      "Edinburgh",
+      "Cambridge"
+    ]
+  },
+  {
+    "code": "united-states",
+    "name": "United States",
+    "flag": "🇺🇸",
+    "locations": [
+      "United States",
+      "San francisco",
+      "New york",
+      "Seattle",
+      "Austin",
+      "Los angeles"
+    ]
+  },
+  {
+    "code": "uruguay",
+    "name": "Uruguay",
+    "flag": "🇺🇾",
+    "locations": [
+      "Uruguay",
+      "Montevideo"
+    ]
+  },
+  {
+    "code": "uzbekistan",
+    "name": "Uzbekistan",
+    "flag": "🇺🇿",
+    "locations": [
+      "Uzbekistan",
+      "Tashkent"
+    ]
+  },
+  {
+    "code": "venezuela",
+    "name": "Venezuela",
+    "flag": "🇻🇪",
+    "locations": [
+      "Venezuela",
+      "Caracas"
+    ]
+  },
+  {
+    "code": "vietnam",
+    "name": "Vietnam",
+    "flag": "🇻🇳",
+    "locations": [
+      "Vietnam",
+      "Ho chi minh city",
+      "Hanoi",
+      "Da nang"
+    ]
+  },
+  {
+    "code": "zambia",
+    "name": "Zambia",
+    "flag": "🇿🇲",
+    "locations": [
+      "Zambia",
+      "Lusaka"
+    ]
+  },
+  {
+    "code": "zimbabwe",
+    "name": "Zimbabwe",
+    "flag": "🇿🇼",
+    "locations": [
+      "Zimbabwe",
+      "Harare",
+      "Bulawayo"
+    ]
+  }
+]
