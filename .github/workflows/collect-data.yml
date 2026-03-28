@@ -27,60 +27,12 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect-priority:
-    runs-on: ubuntu-latest
-    timeout-minutes: 60
-    if: ${{ inputs.country == '' || inputs.country == 'taiwan' }}
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: pnpm/action-setup@v4
-        with:
-          version: latest
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: "pnpm"
-
-      - run: pnpm install --frozen-lockfile
-
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Collect taiwan
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          collect_flags="-c taiwan"
-          if [ -n "${{ inputs.limit }}" ]; then
-            collect_flags="$collect_flags --limit ${{ inputs.limit }}"
-          fi
-          pnpm tsx scripts/cli.ts collect $collect_flags
-
-      - name: Commit and push taiwan
-        run: |
-          git add public/data/
-          if ! git diff --staged --quiet; then
-            git commit --no-verify -m "data: update taiwan $(date -u +%Y-%m-%d) [skip ci]"
-            git push origin main
-            echo "✓ taiwan merged to main"
-          else
-            echo "- taiwan (no changes)"
-          fi
-
-  collect-rest:
+  collect:
     runs-on: ubuntu-latest
     timeout-minutes: 360
-    needs: collect-priority
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
 
       - uses: pnpm/action-setup@v4
         with:
@@ -101,20 +53,15 @@ jobs:
       - name: Setup data-collection branch
         run: git checkout -b data-collection
 
-      - name: Collect remaining countries
+      - name: Collect data per country
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           input_country="${{ inputs.country }}"
-          if [ -n "$input_country" ] && [ "$input_country" != "taiwan" ]; then
+          if [ -n "$input_country" ]; then
             countries="$input_country"
-          elif [ -n "$input_country" ]; then
-            echo "Taiwan already collected in previous job"
-            exit 0
           else
-            countries=$(pnpm tsx scripts/cli.ts list-countries)
-            # Remove taiwan (already collected)
-            countries=$(echo "$countries" | tr ' ' '\n' | grep -v '^taiwan$' | tr '\n' ' ')
+            countries=$(pnpm tsx scripts/cli.ts list-countries -p taiwan)
           fi
 
           collected=0
@@ -131,7 +78,14 @@ jobs:
               git add public/data/
               if ! git diff --staged --quiet; then
                 git commit --no-verify -m "data: update $code $(date -u +%Y-%m-%d)"
-                echo "  ✓ $code"
+
+                # Cherry-pick to main immediately
+                git checkout main
+                git pull origin main
+                git cherry-pick data-collection
+                git push origin main
+                git checkout data-collection
+                echo "  ✓ $code (merged to main)"
               else
                 echo "  - $code (no changes)"
               fi
@@ -145,16 +99,6 @@ jobs:
           echo ""
           echo "Summary: $collected collected, $failed failed"
 
-      - name: Squash merge to main
-        run: |
-          git checkout main
-          git pull origin main
-
-          if git diff --quiet main..data-collection -- public/data/; then
-            echo "No data changes to merge"
-            exit 0
-          fi
-
-          git merge --squash data-collection
-          git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d) [skip ci]"
-          git push origin main
+      - name: Clean up branch
+        if: always()
+        run: git push origin --delete data-collection 2>/dev/null || true
