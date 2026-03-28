@@ -15,8 +15,8 @@ export function extractCountryFromEmojiFlag(text: string): string | null {
   const chars = [...match[0]];
   if (chars.length !== 2) return null;
 
-  const a = chars[0].codePointAt(0)! - 0x1f1e6 + 65; // 'A'
-  const b = chars[1].codePointAt(0)! - 0x1f1e6 + 65;
+  const a = (chars[0].codePointAt(0) ?? 0) - 0x1f1e6 + 65; // 'A'
+  const b = (chars[1].codePointAt(0) ?? 0) - 0x1f1e6 + 65;
 
   return String.fromCharCode(a) + String.fromCharCode(b);
 }

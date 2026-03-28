@@ -6,7 +6,8 @@ export function buildUrl(path: string, basePath?: string): string {
   const b =
     basePath ||
     (typeof import.meta !== "undefined"
-      ? (import.meta as Record<string, any>).env?.BASE_URL
+      ? // biome-ignore lint/suspicious/noExplicitAny: import.meta.env varies by bundler
+        (import.meta as any).env?.BASE_URL
       : "/") ||
     "/";
   const normalizedBase = b.endsWith("/") ? b : `${b}/`;

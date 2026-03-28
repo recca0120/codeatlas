@@ -42,8 +42,18 @@ describe("createOctokitClient", () => {
           },
           repositories: {
             nodes: [
-              { name: "repo-a", description: "First repo", stargazerCount: 200, primaryLanguage: { name: "TypeScript" } },
-              { name: "repo-b", description: null, stargazerCount: 50, primaryLanguage: { name: "Go" } },
+              {
+                name: "repo-a",
+                description: "First repo",
+                stargazerCount: 200,
+                primaryLanguage: { name: "TypeScript" },
+              },
+              {
+                name: "repo-b",
+                description: null,
+                stargazerCount: 50,
+                primaryLanguage: { name: "Go" },
+              },
             ],
           },
         }),
@@ -67,7 +77,12 @@ describe("createOctokitClient", () => {
         blog: "https://alice.dev",
         languages: ["TypeScript", "Go"],
         topRepos: [
-          { name: "repo-a", description: "First repo", stars: 200, language: "TypeScript" },
+          {
+            name: "repo-a",
+            description: "First repo",
+            stars: 200,
+            language: "TypeScript",
+          },
           { name: "repo-b", description: null, stars: 50, language: "Go" },
         ],
       });

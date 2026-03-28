@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isValidLocale, type Locale, SUPPORTED_LOCALES, t } from "./i18n";
+import { isValidLocale, SUPPORTED_LOCALES, t } from "./i18n";
 
 describe("SUPPORTED_LOCALES", () => {
   it("contains en and zh-TW", () => {
@@ -44,10 +44,10 @@ describe("t", () => {
   });
 
   it("returns key as fallback for missing key", () => {
-    expect(t("nonexistent.key" as any, "en")).toBe("nonexistent.key");
+    expect(t("nonexistent.key" as never, "en")).toBe("nonexistent.key");
   });
 
   it("returns English translation for invalid locale", () => {
-    expect(t("nav.home", "fr" as any)).toBe("CodeAtlas");
+    expect(t("nav.home", "fr")).toBe("CodeAtlas");
   });
 });

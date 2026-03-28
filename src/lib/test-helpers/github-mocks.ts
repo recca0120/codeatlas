@@ -41,9 +41,7 @@ export function mockGraphqlSearch(
       data: {
         search: {
           userCount: nodes.filter(Boolean).length,
-          nodes: nodes.map((n) =>
-            n ? { __typename: "User", ...n } : null,
-          ),
+          nodes: nodes.map((n) => (n ? { __typename: "User", ...n } : null)),
           pageInfo: { hasNextPage, endCursor },
         },
         rateLimit,

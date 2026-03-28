@@ -18,7 +18,7 @@ describe("createPodium", () => {
       second: createMockUser({ login: "bob" }),
       third: createMockUser({ login: "carol" }),
     });
-    const meshes = group.children.filter((c) => (c as any).isMesh);
+    const meshes = group.children.filter((c) => "isMesh" in c);
     expect(meshes[1].userData.rank).toBe(1);
     expect(meshes[1].userData.user.login).toBe("alice");
   });
@@ -29,7 +29,7 @@ describe("createPodium", () => {
       second: createMockUser({ login: "bob" }),
       third: createMockUser({ login: "carol" }),
     });
-    const meshes = group.children.filter((c) => (c as any).isMesh);
+    const meshes = group.children.filter((c) => "isMesh" in c);
     expect(meshes[1].position.y).toBeGreaterThan(meshes[0].position.y);
     expect(meshes[1].position.y).toBeGreaterThan(meshes[2].position.y);
   });

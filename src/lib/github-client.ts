@@ -26,10 +26,7 @@ export interface RateLimitInfo {
   resetAt: Date;
 }
 
-export type ProgressCallback = (
-  current: number,
-  login: string,
-) => void;
+export type ProgressCallback = (current: number, login: string) => void;
 
 export interface SearchOptions {
   onProgress?: ProgressCallback;
@@ -37,10 +34,7 @@ export interface SearchOptions {
 }
 
 export interface GitHubClient {
-  searchUsers(
-    query: string,
-    options?: SearchOptions,
-  ): Promise<GitHubUser[]>;
+  searchUsers(query: string, options?: SearchOptions): Promise<GitHubUser[]>;
   getRateLimit(): Promise<RateLimitInfo>;
 }
 

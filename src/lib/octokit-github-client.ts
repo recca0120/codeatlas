@@ -101,8 +101,19 @@ function mapNodeToUser(node: SearchUserNode): GitHubUser {
     followers: node.followers?.totalCount ?? 0,
     publicContributions: contrib?.contributionCalendar?.totalContributions ?? 0,
     privateContributions: contrib?.restrictedContributionsCount ?? 0,
-    languages: [...new Set(repos.map((r) => r.primaryLanguage?.name).filter((n): n is string => n != null))],
-    topRepos: repos.map((r) => ({ name: r.name, description: r.description, stars: r.stargazerCount, language: r.primaryLanguage?.name ?? null })),
+    languages: [
+      ...new Set(
+        repos
+          .map((r) => r.primaryLanguage?.name)
+          .filter((n): n is string => n != null),
+      ),
+    ],
+    topRepos: repos.map((r) => ({
+      name: r.name,
+      description: r.description,
+      stars: r.stargazerCount,
+      language: r.primaryLanguage?.name ?? null,
+    })),
     twitterUsername: node.twitterUsername ?? null,
     blog: node.websiteUrl || null,
   };
