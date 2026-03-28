@@ -77,15 +77,15 @@ jobs:
             if pnpm tsx scripts/cli.ts collect $collect_flags; then
               git add public/data/
               if ! git diff --staged --quiet; then
-                git commit --no-verify -m "data: update $code $(date -u +%Y-%m-%d)"
+                git commit --no-verify -m "data: update $code $(date -u +%Y-%m-%d) [skip ci]"
 
-                # Cherry-pick to main immediately
+                # Cherry-pick to main immediately (no deploy, squash+deploy at end)
                 git checkout main
                 git pull origin main
                 git cherry-pick data-collection
                 git push origin main
                 git checkout data-collection
-                echo "  ✓ $code (merged to main)"
+                echo "  ✓ $code (deployed to main)"
               else
                 echo "  - $code (no changes)"
               fi
@@ -113,7 +113,7 @@ jobs:
 
           # Soft reset to before the first data commit, then recommit all as one
           git reset --soft "${first_data_commit}^"
-          git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d) [skip ci]"
+          git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d)"
           git push origin main --force-with-lease
 
       - name: Clean up branch
