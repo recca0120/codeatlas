@@ -51,6 +51,7 @@ jobs:
           if git rev-parse --verify origin/data-collection >/dev/null 2>&1; then
             git checkout data-collection
             git rebase origin/main
+            git push origin data-collection --force-with-lease
           else
             git checkout -b data-collection
           fi
@@ -99,6 +100,7 @@ jobs:
                 git push origin main
                 git checkout data-collection
                 git rebase origin/main
+                git push origin data-collection --force-with-lease
               fi
             else
               failed=$((failed + 1))
