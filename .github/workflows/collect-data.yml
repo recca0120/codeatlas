@@ -13,6 +13,11 @@ on:
         description: "Max users per country (e.g. 20 for testing). Leave empty for all."
         required: false
         type: string
+      force:
+        description: "Force re-collect even if already collected today"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -75,7 +80,7 @@ jobs:
             collect_flags="-c $code"
             if [ -n "${{ inputs.limit }}" ]; then
               collect_flags="$collect_flags --limit ${{ inputs.limit }}"
-            else
+            elif [ "${{ inputs.force }}" != "true" ]; then
               collect_flags="$collect_flags --skip-today"
             fi
             if pnpm tsx scripts/cli.ts collect $collect_flags; then
