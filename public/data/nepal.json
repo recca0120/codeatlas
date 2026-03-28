@@ -1,0 +1,1214 @@
+{
+  "countryCode": "nepal",
+  "updatedAt": "2026-03-27T22:30:49.900Z",
+  "users": [
+    {
+      "login": "nep-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Nepal)",
+      "company": "Stripe",
+      "location": "Pokhara",
+      "bio": "Developer from Nepal",
+      "followers": 5014,
+      "publicContributions": 35055,
+      "privateContributions": 121,
+      "languages": [
+        "Java",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-1-proj-1",
+          "description": "Open source utilities",
+          "stars": 1174,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": "nep-dev-1",
+      "blog": "https://nep-dev-1.dev"
+    },
+    {
+      "login": "nep-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Nepal)",
+      "company": "Microsoft",
+      "location": "Pokhara",
+      "bio": "Developer from Nepal",
+      "followers": 4818,
+      "publicContributions": 33769,
+      "privateContributions": 45,
+      "languages": [
+        "Go",
+        "Kotlin",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-2-proj-1",
+          "description": "Open source utilities",
+          "stars": 1263,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "nep-dev-2",
+      "blog": null
+    },
+    {
+      "login": "nep-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Nepal)",
+      "company": null,
+      "location": "Kathmandu",
+      "bio": "Developer from Nepal",
+      "followers": 4640,
+      "publicContributions": 32442,
+      "privateContributions": 262,
+      "languages": [
+        "TypeScript",
+        "Swift",
+        "JavaScript",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-3-proj-1",
+          "description": "API wrapper",
+          "stars": 106,
+          "language": "TypeScript"
+        },
+        {
+          "name": "nep-dev-3-proj-2",
+          "description": "API wrapper",
+          "stars": 1854,
+          "language": "Swift"
+        },
+        {
+          "name": "nep-dev-3-proj-3",
+          "description": null,
+          "stars": 136,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nep-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Nepal)",
+      "company": "Google",
+      "location": "Pokhara",
+      "bio": null,
+      "followers": 4483,
+      "publicContributions": 31236,
+      "privateContributions": 293,
+      "languages": [
+        "Dart",
+        "TypeScript",
+        "Go",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-4-proj-1",
+          "description": "Open source utilities",
+          "stars": 809,
+          "language": "Dart"
+        },
+        {
+          "name": "nep-dev-4-proj-2",
+          "description": "Web framework for developers",
+          "stars": 115,
+          "language": "TypeScript"
+        },
+        {
+          "name": "nep-dev-4-proj-3",
+          "description": "Web framework for developers",
+          "stars": 1652,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nep-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Nepal)",
+      "company": "GitHub",
+      "location": "Nepal",
+      "bio": null,
+      "followers": 4284,
+      "publicContributions": 29949,
+      "privateContributions": 305,
+      "languages": [
+        "PHP",
+        "Swift",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-5-proj-1",
+          "description": null,
+          "stars": 891,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nep-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Nepal)",
+      "company": null,
+      "location": "Nepal",
+      "bio": null,
+      "followers": 4143,
+      "publicContributions": 28731,
+      "privateContributions": 291,
+      "languages": [
+        "Go",
+        "Java",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-6-proj-1",
+          "description": null,
+          "stars": 1402,
+          "language": "Go"
+        },
+        {
+          "name": "nep-dev-6-proj-2",
+          "description": "API wrapper",
+          "stars": 488,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nep-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Nepal)",
+      "company": "Google",
+      "location": "Pokhara",
+      "bio": null,
+      "followers": 3953,
+      "publicContributions": 27714,
+      "privateContributions": 429,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-7-proj-1",
+          "description": "Open source utilities",
+          "stars": 671,
+          "language": "Kotlin"
+        },
+        {
+          "name": "nep-dev-7-proj-2",
+          "description": "Web framework for developers",
+          "stars": 718,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nep-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Nepal)",
+      "company": null,
+      "location": "Pokhara",
+      "bio": null,
+      "followers": 3793,
+      "publicContributions": 26514,
+      "privateContributions": 261,
+      "languages": [
+        "C++",
+        "TypeScript",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-8-proj-1",
+          "description": "API wrapper",
+          "stars": 219,
+          "language": "C++"
+        },
+        {
+          "name": "nep-dev-8-proj-2",
+          "description": "Open source utilities",
+          "stars": 1273,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nep-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Nepal)",
+      "company": "Amazon",
+      "location": "Kathmandu",
+      "bio": null,
+      "followers": 3679,
+      "publicContributions": 25553,
+      "privateContributions": 407,
+      "languages": [
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-9-proj-1",
+          "description": "Data pipeline library",
+          "stars": 716,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nep-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Nepal)",
+      "company": "Apple",
+      "location": "Nepal",
+      "bio": null,
+      "followers": 3511,
+      "publicContributions": 24507,
+      "privateContributions": 205,
+      "languages": [
+        "Go",
+        "Java",
+        "Kotlin",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "nep-dev-10-proj-1",
+          "description": "API wrapper",
+          "stars": 905,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "nep-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Nepal)",
+        "company": "Stripe",
+        "location": "Pokhara",
+        "bio": "Developer from Nepal",
+        "followers": 5014,
+        "publicContributions": 35055,
+        "privateContributions": 121,
+        "languages": [
+          "Java",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1174,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "nep-dev-1",
+        "blog": "https://nep-dev-1.dev"
+      },
+      {
+        "login": "nep-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Nepal)",
+        "company": "Microsoft",
+        "location": "Pokhara",
+        "bio": "Developer from Nepal",
+        "followers": 4818,
+        "publicContributions": 33769,
+        "privateContributions": 45,
+        "languages": [
+          "Go",
+          "Kotlin",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1263,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nep-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nep-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Nepal)",
+        "company": null,
+        "location": "Kathmandu",
+        "bio": "Developer from Nepal",
+        "followers": 4640,
+        "publicContributions": 32442,
+        "privateContributions": 262,
+        "languages": [
+          "TypeScript",
+          "Swift",
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 106,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nep-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 1854,
+            "language": "Swift"
+          },
+          {
+            "name": "nep-dev-3-proj-3",
+            "description": null,
+            "stars": 136,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Nepal)",
+        "company": "Google",
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31236,
+        "privateContributions": 293,
+        "languages": [
+          "Dart",
+          "TypeScript",
+          "Go",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 809,
+            "language": "Dart"
+          },
+          {
+            "name": "nep-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 115,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nep-dev-4-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1652,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Nepal)",
+        "company": "GitHub",
+        "location": "Nepal",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29949,
+        "privateContributions": 305,
+        "languages": [
+          "PHP",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-5-proj-1",
+            "description": null,
+            "stars": 891,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Nepal)",
+        "company": null,
+        "location": "Nepal",
+        "bio": null,
+        "followers": 4143,
+        "publicContributions": 28731,
+        "privateContributions": 291,
+        "languages": [
+          "Go",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-6-proj-1",
+            "description": null,
+            "stars": 1402,
+            "language": "Go"
+          },
+          {
+            "name": "nep-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 488,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Nepal)",
+        "company": "Google",
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 3953,
+        "publicContributions": 27714,
+        "privateContributions": 429,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 671,
+            "language": "Kotlin"
+          },
+          {
+            "name": "nep-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 718,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Nepal)",
+        "company": null,
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26514,
+        "privateContributions": 261,
+        "languages": [
+          "C++",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 219,
+            "language": "C++"
+          },
+          {
+            "name": "nep-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1273,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Nepal)",
+        "company": "Amazon",
+        "location": "Kathmandu",
+        "bio": null,
+        "followers": 3679,
+        "publicContributions": 25553,
+        "privateContributions": 407,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 716,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Nepal)",
+        "company": "Apple",
+        "location": "Nepal",
+        "bio": null,
+        "followers": 3511,
+        "publicContributions": 24507,
+        "privateContributions": 205,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 905,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "nep-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Nepal)",
+        "company": "Stripe",
+        "location": "Pokhara",
+        "bio": "Developer from Nepal",
+        "followers": 5014,
+        "publicContributions": 35055,
+        "privateContributions": 121,
+        "languages": [
+          "Java",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1174,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "nep-dev-1",
+        "blog": "https://nep-dev-1.dev"
+      },
+      {
+        "login": "nep-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Nepal)",
+        "company": "Microsoft",
+        "location": "Pokhara",
+        "bio": "Developer from Nepal",
+        "followers": 4818,
+        "publicContributions": 33769,
+        "privateContributions": 45,
+        "languages": [
+          "Go",
+          "Kotlin",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1263,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nep-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nep-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Nepal)",
+        "company": null,
+        "location": "Kathmandu",
+        "bio": "Developer from Nepal",
+        "followers": 4640,
+        "publicContributions": 32442,
+        "privateContributions": 262,
+        "languages": [
+          "TypeScript",
+          "Swift",
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 106,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nep-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 1854,
+            "language": "Swift"
+          },
+          {
+            "name": "nep-dev-3-proj-3",
+            "description": null,
+            "stars": 136,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Nepal)",
+        "company": "Google",
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31236,
+        "privateContributions": 293,
+        "languages": [
+          "Dart",
+          "TypeScript",
+          "Go",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 809,
+            "language": "Dart"
+          },
+          {
+            "name": "nep-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 115,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nep-dev-4-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1652,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Nepal)",
+        "company": "GitHub",
+        "location": "Nepal",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29949,
+        "privateContributions": 305,
+        "languages": [
+          "PHP",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-5-proj-1",
+            "description": null,
+            "stars": 891,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Nepal)",
+        "company": null,
+        "location": "Nepal",
+        "bio": null,
+        "followers": 4143,
+        "publicContributions": 28731,
+        "privateContributions": 291,
+        "languages": [
+          "Go",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-6-proj-1",
+            "description": null,
+            "stars": 1402,
+            "language": "Go"
+          },
+          {
+            "name": "nep-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 488,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Nepal)",
+        "company": "Google",
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 3953,
+        "publicContributions": 27714,
+        "privateContributions": 429,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 671,
+            "language": "Kotlin"
+          },
+          {
+            "name": "nep-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 718,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Nepal)",
+        "company": null,
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26514,
+        "privateContributions": 261,
+        "languages": [
+          "C++",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 219,
+            "language": "C++"
+          },
+          {
+            "name": "nep-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1273,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Nepal)",
+        "company": "Amazon",
+        "location": "Kathmandu",
+        "bio": null,
+        "followers": 3679,
+        "publicContributions": 25553,
+        "privateContributions": 407,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 716,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Nepal)",
+        "company": "Apple",
+        "location": "Nepal",
+        "bio": null,
+        "followers": 3511,
+        "publicContributions": 24507,
+        "privateContributions": 205,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 905,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "nep-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Nepal)",
+        "company": "Stripe",
+        "location": "Pokhara",
+        "bio": "Developer from Nepal",
+        "followers": 5014,
+        "publicContributions": 35055,
+        "privateContributions": 121,
+        "languages": [
+          "Java",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1174,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "nep-dev-1",
+        "blog": "https://nep-dev-1.dev"
+      },
+      {
+        "login": "nep-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Nepal)",
+        "company": "Microsoft",
+        "location": "Pokhara",
+        "bio": "Developer from Nepal",
+        "followers": 4818,
+        "publicContributions": 33769,
+        "privateContributions": 45,
+        "languages": [
+          "Go",
+          "Kotlin",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 1263,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nep-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nep-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Nepal)",
+        "company": null,
+        "location": "Kathmandu",
+        "bio": "Developer from Nepal",
+        "followers": 4640,
+        "publicContributions": 32442,
+        "privateContributions": 262,
+        "languages": [
+          "TypeScript",
+          "Swift",
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 106,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nep-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 1854,
+            "language": "Swift"
+          },
+          {
+            "name": "nep-dev-3-proj-3",
+            "description": null,
+            "stars": 136,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Nepal)",
+        "company": "Google",
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31236,
+        "privateContributions": 293,
+        "languages": [
+          "Dart",
+          "TypeScript",
+          "Go",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 809,
+            "language": "Dart"
+          },
+          {
+            "name": "nep-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 115,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nep-dev-4-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1652,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Nepal)",
+        "company": "GitHub",
+        "location": "Nepal",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29949,
+        "privateContributions": 305,
+        "languages": [
+          "PHP",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-5-proj-1",
+            "description": null,
+            "stars": 891,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Nepal)",
+        "company": null,
+        "location": "Nepal",
+        "bio": null,
+        "followers": 4143,
+        "publicContributions": 28731,
+        "privateContributions": 291,
+        "languages": [
+          "Go",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-6-proj-1",
+            "description": null,
+            "stars": 1402,
+            "language": "Go"
+          },
+          {
+            "name": "nep-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 488,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Nepal)",
+        "company": "Google",
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 3953,
+        "publicContributions": 27714,
+        "privateContributions": 429,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 671,
+            "language": "Kotlin"
+          },
+          {
+            "name": "nep-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 718,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Nepal)",
+        "company": null,
+        "location": "Pokhara",
+        "bio": null,
+        "followers": 3793,
+        "publicContributions": 26514,
+        "privateContributions": 261,
+        "languages": [
+          "C++",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 219,
+            "language": "C++"
+          },
+          {
+            "name": "nep-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1273,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Nepal)",
+        "company": "Amazon",
+        "location": "Kathmandu",
+        "bio": null,
+        "followers": 3679,
+        "publicContributions": 25553,
+        "privateContributions": 407,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 716,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nep-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Nepal)",
+        "company": "Apple",
+        "location": "Nepal",
+        "bio": null,
+        "followers": 3511,
+        "publicContributions": 24507,
+        "privateContributions": 205,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nep-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 905,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

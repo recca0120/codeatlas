@@ -1,0 +1,1290 @@
+{
+  "countryCode": "palestine",
+  "updatedAt": "2026-03-27T22:30:49.902Z",
+  "users": [
+    {
+      "login": "pal-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Palestine)",
+      "company": "Vercel",
+      "location": "Ramallah",
+      "bio": "Developer from Palestine",
+      "followers": 5050,
+      "publicContributions": 35109,
+      "privateContributions": 148,
+      "languages": [
+        "Go",
+        "Java",
+        "Dart",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-1-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 341,
+          "language": "Go"
+        },
+        {
+          "name": "pal-dev-1-proj-2",
+          "description": "Open source utilities",
+          "stars": 1364,
+          "language": "Java"
+        },
+        {
+          "name": "pal-dev-1-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 1564,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": "pal-dev-1",
+      "blog": "https://pal-dev-1.dev"
+    },
+    {
+      "login": "pal-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Palestine)",
+      "company": "Microsoft",
+      "location": "Gaza",
+      "bio": "Developer from Palestine",
+      "followers": 4842,
+      "publicContributions": 33716,
+      "privateContributions": 316,
+      "languages": [
+        "TypeScript",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-2-proj-1",
+          "description": "API wrapper",
+          "stars": 908,
+          "language": "TypeScript"
+        },
+        {
+          "name": "pal-dev-2-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1170,
+          "language": "Rust"
+        },
+        {
+          "name": "pal-dev-2-proj-3",
+          "description": "Web framework for developers",
+          "stars": 1556,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "pal-dev-2",
+      "blog": null
+    },
+    {
+      "login": "pal-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Palestine)",
+      "company": "Google",
+      "location": "Ramallah",
+      "bio": "Developer from Palestine",
+      "followers": 4655,
+      "publicContributions": 32395,
+      "privateContributions": 280,
+      "languages": [
+        "Dart",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-3-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 461,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pal-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Palestine)",
+      "company": "Microsoft",
+      "location": "Palestine",
+      "bio": null,
+      "followers": 4475,
+      "publicContributions": 31092,
+      "privateContributions": 134,
+      "languages": [
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-4-proj-1",
+          "description": "API wrapper",
+          "stars": 620,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pal-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Palestine)",
+      "company": "GitHub",
+      "location": "Gaza",
+      "bio": null,
+      "followers": 4306,
+      "publicContributions": 29911,
+      "privateContributions": 419,
+      "languages": [
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-5-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 110,
+          "language": "Rust"
+        },
+        {
+          "name": "pal-dev-5-proj-2",
+          "description": "Open source utilities",
+          "stars": 1448,
+          "language": "Rust"
+        },
+        {
+          "name": "pal-dev-5-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 540,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pal-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Palestine)",
+      "company": null,
+      "location": "Ramallah",
+      "bio": null,
+      "followers": 4142,
+      "publicContributions": 28713,
+      "privateContributions": 395,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-6-proj-1",
+          "description": "Open source utilities",
+          "stars": 398,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pal-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Palestine)",
+      "company": null,
+      "location": "Gaza",
+      "bio": null,
+      "followers": 3971,
+      "publicContributions": 27597,
+      "privateContributions": 421,
+      "languages": [
+        "TypeScript",
+        "Java",
+        "JavaScript",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-7-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1470,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pal-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Palestine)",
+      "company": "Meta",
+      "location": "Gaza",
+      "bio": null,
+      "followers": 3822,
+      "publicContributions": 26583,
+      "privateContributions": 302,
+      "languages": [
+        "Kotlin",
+        "TypeScript",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-8-proj-1",
+          "description": null,
+          "stars": 273,
+          "language": "Kotlin"
+        },
+        {
+          "name": "pal-dev-8-proj-2",
+          "description": "Data pipeline library",
+          "stars": 142,
+          "language": "TypeScript"
+        },
+        {
+          "name": "pal-dev-8-proj-3",
+          "description": "Web framework for developers",
+          "stars": 211,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pal-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Palestine)",
+      "company": "Amazon",
+      "location": "Gaza",
+      "bio": null,
+      "followers": 3647,
+      "publicContributions": 25569,
+      "privateContributions": 195,
+      "languages": [
+        "C++",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1344,
+          "language": "C++"
+        },
+        {
+          "name": "pal-dev-9-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1074,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pal-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Palestine)",
+      "company": "Vercel",
+      "location": "Palestine",
+      "bio": null,
+      "followers": 3503,
+      "publicContributions": 24576,
+      "privateContributions": 28,
+      "languages": [
+        "Go",
+        "Swift",
+        "Ruby",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "pal-dev-10-proj-1",
+          "description": "Web framework for developers",
+          "stars": 597,
+          "language": "Go"
+        },
+        {
+          "name": "pal-dev-10-proj-2",
+          "description": "Data pipeline library",
+          "stars": 575,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "pal-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Palestine)",
+        "company": "Vercel",
+        "location": "Ramallah",
+        "bio": "Developer from Palestine",
+        "followers": 5050,
+        "publicContributions": 35109,
+        "privateContributions": 148,
+        "languages": [
+          "Go",
+          "Java",
+          "Dart",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 341,
+            "language": "Go"
+          },
+          {
+            "name": "pal-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1364,
+            "language": "Java"
+          },
+          {
+            "name": "pal-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1564,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "pal-dev-1",
+        "blog": "https://pal-dev-1.dev"
+      },
+      {
+        "login": "pal-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Palestine)",
+        "company": "Microsoft",
+        "location": "Gaza",
+        "bio": "Developer from Palestine",
+        "followers": 4842,
+        "publicContributions": 33716,
+        "privateContributions": 316,
+        "languages": [
+          "TypeScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 908,
+            "language": "TypeScript"
+          },
+          {
+            "name": "pal-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1170,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "pal-dev-2",
+        "blog": null
+      },
+      {
+        "login": "pal-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Palestine)",
+        "company": "Google",
+        "location": "Ramallah",
+        "bio": "Developer from Palestine",
+        "followers": 4655,
+        "publicContributions": 32395,
+        "privateContributions": 280,
+        "languages": [
+          "Dart",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 461,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Palestine)",
+        "company": "Microsoft",
+        "location": "Palestine",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31092,
+        "privateContributions": 134,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "JavaScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 620,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Palestine)",
+        "company": "GitHub",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29911,
+        "privateContributions": 419,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 110,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1448,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 540,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Palestine)",
+        "company": null,
+        "location": "Ramallah",
+        "bio": null,
+        "followers": 4142,
+        "publicContributions": 28713,
+        "privateContributions": 395,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 398,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Palestine)",
+        "company": null,
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3971,
+        "publicContributions": 27597,
+        "privateContributions": 421,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1470,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Palestine)",
+        "company": "Meta",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26583,
+        "privateContributions": 302,
+        "languages": [
+          "Kotlin",
+          "TypeScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-8-proj-1",
+            "description": null,
+            "stars": 273,
+            "language": "Kotlin"
+          },
+          {
+            "name": "pal-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 142,
+            "language": "TypeScript"
+          },
+          {
+            "name": "pal-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 211,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Palestine)",
+        "company": "Amazon",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3647,
+        "publicContributions": 25569,
+        "privateContributions": 195,
+        "languages": [
+          "C++",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1344,
+            "language": "C++"
+          },
+          {
+            "name": "pal-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1074,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Palestine)",
+        "company": "Vercel",
+        "location": "Palestine",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24576,
+        "privateContributions": 28,
+        "languages": [
+          "Go",
+          "Swift",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 597,
+            "language": "Go"
+          },
+          {
+            "name": "pal-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 575,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "pal-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Palestine)",
+        "company": "Vercel",
+        "location": "Ramallah",
+        "bio": "Developer from Palestine",
+        "followers": 5050,
+        "publicContributions": 35109,
+        "privateContributions": 148,
+        "languages": [
+          "Go",
+          "Java",
+          "Dart",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 341,
+            "language": "Go"
+          },
+          {
+            "name": "pal-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1364,
+            "language": "Java"
+          },
+          {
+            "name": "pal-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1564,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "pal-dev-1",
+        "blog": "https://pal-dev-1.dev"
+      },
+      {
+        "login": "pal-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Palestine)",
+        "company": "Microsoft",
+        "location": "Gaza",
+        "bio": "Developer from Palestine",
+        "followers": 4842,
+        "publicContributions": 33716,
+        "privateContributions": 316,
+        "languages": [
+          "TypeScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 908,
+            "language": "TypeScript"
+          },
+          {
+            "name": "pal-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1170,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "pal-dev-2",
+        "blog": null
+      },
+      {
+        "login": "pal-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Palestine)",
+        "company": "Google",
+        "location": "Ramallah",
+        "bio": "Developer from Palestine",
+        "followers": 4655,
+        "publicContributions": 32395,
+        "privateContributions": 280,
+        "languages": [
+          "Dart",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 461,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Palestine)",
+        "company": "Microsoft",
+        "location": "Palestine",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31092,
+        "privateContributions": 134,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "JavaScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 620,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Palestine)",
+        "company": "GitHub",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29911,
+        "privateContributions": 419,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 110,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1448,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 540,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Palestine)",
+        "company": null,
+        "location": "Ramallah",
+        "bio": null,
+        "followers": 4142,
+        "publicContributions": 28713,
+        "privateContributions": 395,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 398,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Palestine)",
+        "company": null,
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3971,
+        "publicContributions": 27597,
+        "privateContributions": 421,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1470,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Palestine)",
+        "company": "Meta",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26583,
+        "privateContributions": 302,
+        "languages": [
+          "Kotlin",
+          "TypeScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-8-proj-1",
+            "description": null,
+            "stars": 273,
+            "language": "Kotlin"
+          },
+          {
+            "name": "pal-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 142,
+            "language": "TypeScript"
+          },
+          {
+            "name": "pal-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 211,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Palestine)",
+        "company": "Amazon",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3647,
+        "publicContributions": 25569,
+        "privateContributions": 195,
+        "languages": [
+          "C++",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1344,
+            "language": "C++"
+          },
+          {
+            "name": "pal-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1074,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Palestine)",
+        "company": "Vercel",
+        "location": "Palestine",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24576,
+        "privateContributions": 28,
+        "languages": [
+          "Go",
+          "Swift",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 597,
+            "language": "Go"
+          },
+          {
+            "name": "pal-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 575,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "pal-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Palestine)",
+        "company": "Vercel",
+        "location": "Ramallah",
+        "bio": "Developer from Palestine",
+        "followers": 5050,
+        "publicContributions": 35109,
+        "privateContributions": 148,
+        "languages": [
+          "Go",
+          "Java",
+          "Dart",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 341,
+            "language": "Go"
+          },
+          {
+            "name": "pal-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1364,
+            "language": "Java"
+          },
+          {
+            "name": "pal-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1564,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "pal-dev-1",
+        "blog": "https://pal-dev-1.dev"
+      },
+      {
+        "login": "pal-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Palestine)",
+        "company": "Microsoft",
+        "location": "Gaza",
+        "bio": "Developer from Palestine",
+        "followers": 4842,
+        "publicContributions": 33716,
+        "privateContributions": 316,
+        "languages": [
+          "TypeScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 908,
+            "language": "TypeScript"
+          },
+          {
+            "name": "pal-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1170,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "pal-dev-2",
+        "blog": null
+      },
+      {
+        "login": "pal-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Palestine)",
+        "company": "Google",
+        "location": "Ramallah",
+        "bio": "Developer from Palestine",
+        "followers": 4655,
+        "publicContributions": 32395,
+        "privateContributions": 280,
+        "languages": [
+          "Dart",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 461,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Palestine)",
+        "company": "Microsoft",
+        "location": "Palestine",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31092,
+        "privateContributions": 134,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "JavaScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 620,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Palestine)",
+        "company": "GitHub",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29911,
+        "privateContributions": 419,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 110,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1448,
+            "language": "Rust"
+          },
+          {
+            "name": "pal-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 540,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Palestine)",
+        "company": null,
+        "location": "Ramallah",
+        "bio": null,
+        "followers": 4142,
+        "publicContributions": 28713,
+        "privateContributions": 395,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 398,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Palestine)",
+        "company": null,
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3971,
+        "publicContributions": 27597,
+        "privateContributions": 421,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1470,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Palestine)",
+        "company": "Meta",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26583,
+        "privateContributions": 302,
+        "languages": [
+          "Kotlin",
+          "TypeScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-8-proj-1",
+            "description": null,
+            "stars": 273,
+            "language": "Kotlin"
+          },
+          {
+            "name": "pal-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 142,
+            "language": "TypeScript"
+          },
+          {
+            "name": "pal-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 211,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Palestine)",
+        "company": "Amazon",
+        "location": "Gaza",
+        "bio": null,
+        "followers": 3647,
+        "publicContributions": 25569,
+        "privateContributions": 195,
+        "languages": [
+          "C++",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1344,
+            "language": "C++"
+          },
+          {
+            "name": "pal-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1074,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pal-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Palestine)",
+        "company": "Vercel",
+        "location": "Palestine",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24576,
+        "privateContributions": 28,
+        "languages": [
+          "Go",
+          "Swift",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "pal-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 597,
+            "language": "Go"
+          },
+          {
+            "name": "pal-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 575,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1254 @@
+{
+  "countryCode": "argentina",
+  "updatedAt": "2026-03-27T22:30:49.878Z",
+  "users": [
+    {
+      "login": "arg-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Argentina)",
+      "company": "Amazon",
+      "location": "Cordoba",
+      "bio": "Developer from Argentina",
+      "followers": 5016,
+      "publicContributions": 35088,
+      "privateContributions": 358,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-1-proj-1",
+          "description": "Open source utilities",
+          "stars": 976,
+          "language": "Dart"
+        },
+        {
+          "name": "arg-dev-1-proj-2",
+          "description": "Open source utilities",
+          "stars": 1891,
+          "language": "Dart"
+        },
+        {
+          "name": "arg-dev-1-proj-3",
+          "description": "Data pipeline library",
+          "stars": 948,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": "arg-dev-1",
+      "blog": "https://arg-dev-1.dev"
+    },
+    {
+      "login": "arg-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Argentina)",
+      "company": "Stripe",
+      "location": "Rosario",
+      "bio": "Developer from Argentina",
+      "followers": 4832,
+      "publicContributions": 33747,
+      "privateContributions": 448,
+      "languages": [
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-2-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1228,
+          "language": "Python"
+        },
+        {
+          "name": "arg-dev-2-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1773,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": "arg-dev-2",
+      "blog": null
+    },
+    {
+      "login": "arg-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Argentina)",
+      "company": null,
+      "location": "Buenos aires",
+      "bio": "Developer from Argentina",
+      "followers": 4629,
+      "publicContributions": 32505,
+      "privateContributions": 223,
+      "languages": [
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-3-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1427,
+          "language": "Swift"
+        },
+        {
+          "name": "arg-dev-3-proj-2",
+          "description": "Open source utilities",
+          "stars": 1099,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arg-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Argentina)",
+      "company": "Apple",
+      "location": "Cordoba",
+      "bio": null,
+      "followers": 4458,
+      "publicContributions": 31193,
+      "privateContributions": 430,
+      "languages": [
+        "Dart",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-4-proj-1",
+          "description": null,
+          "stars": 567,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arg-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Argentina)",
+      "company": "Meta",
+      "location": "Cordoba",
+      "bio": null,
+      "followers": 4308,
+      "publicContributions": 29933,
+      "privateContributions": 206,
+      "languages": [
+        "Ruby",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-5-proj-1",
+          "description": "Data pipeline library",
+          "stars": 57,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arg-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Argentina)",
+      "company": null,
+      "location": "Rosario",
+      "bio": null,
+      "followers": 4109,
+      "publicContributions": 28777,
+      "privateContributions": 207,
+      "languages": [
+        "Python",
+        "C++",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-6-proj-1",
+          "description": null,
+          "stars": 1678,
+          "language": "Python"
+        },
+        {
+          "name": "arg-dev-6-proj-2",
+          "description": "API wrapper",
+          "stars": 261,
+          "language": "C++"
+        },
+        {
+          "name": "arg-dev-6-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 1571,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arg-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Argentina)",
+      "company": "Apple",
+      "location": "Argentina",
+      "bio": null,
+      "followers": 3953,
+      "publicContributions": 27716,
+      "privateContributions": 189,
+      "languages": [
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-7-proj-1",
+          "description": "Open source utilities",
+          "stars": 390,
+          "language": "PHP"
+        },
+        {
+          "name": "arg-dev-7-proj-2",
+          "description": "Data pipeline library",
+          "stars": 996,
+          "language": "PHP"
+        },
+        {
+          "name": "arg-dev-7-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 973,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arg-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Argentina)",
+      "company": null,
+      "location": "Buenos aires",
+      "bio": null,
+      "followers": 3827,
+      "publicContributions": 26632,
+      "privateContributions": 423,
+      "languages": [
+        "Swift",
+        "TypeScript",
+        "Rust",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-8-proj-1",
+          "description": "API wrapper",
+          "stars": 1508,
+          "language": "Swift"
+        },
+        {
+          "name": "arg-dev-8-proj-2",
+          "description": null,
+          "stars": 1124,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arg-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Argentina)",
+      "company": null,
+      "location": "Buenos aires",
+      "bio": null,
+      "followers": 3658,
+      "publicContributions": 25532,
+      "privateContributions": 481,
+      "languages": [
+        "JavaScript",
+        "Java",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-9-proj-1",
+          "description": "Data pipeline library",
+          "stars": 885,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arg-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Argentina)",
+      "company": "Microsoft",
+      "location": "Cordoba",
+      "bio": null,
+      "followers": 3511,
+      "publicContributions": 24508,
+      "privateContributions": 207,
+      "languages": [
+        "C++",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "arg-dev-10-proj-1",
+          "description": "API wrapper",
+          "stars": 589,
+          "language": "C++"
+        },
+        {
+          "name": "arg-dev-10-proj-2",
+          "description": "Data pipeline library",
+          "stars": 638,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "arg-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Argentina)",
+        "company": "Amazon",
+        "location": "Cordoba",
+        "bio": "Developer from Argentina",
+        "followers": 5016,
+        "publicContributions": 35088,
+        "privateContributions": 358,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 976,
+            "language": "Dart"
+          },
+          {
+            "name": "arg-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1891,
+            "language": "Dart"
+          },
+          {
+            "name": "arg-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 948,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "arg-dev-1",
+        "blog": "https://arg-dev-1.dev"
+      },
+      {
+        "login": "arg-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Argentina)",
+        "company": "Stripe",
+        "location": "Rosario",
+        "bio": "Developer from Argentina",
+        "followers": 4832,
+        "publicContributions": 33747,
+        "privateContributions": 448,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1228,
+            "language": "Python"
+          },
+          {
+            "name": "arg-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1773,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "arg-dev-2",
+        "blog": null
+      },
+      {
+        "login": "arg-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": "Developer from Argentina",
+        "followers": 4629,
+        "publicContributions": 32505,
+        "privateContributions": 223,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1427,
+            "language": "Swift"
+          },
+          {
+            "name": "arg-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1099,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Argentina)",
+        "company": "Apple",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31193,
+        "privateContributions": 430,
+        "languages": [
+          "Dart",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-4-proj-1",
+            "description": null,
+            "stars": 567,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Argentina)",
+        "company": "Meta",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29933,
+        "privateContributions": 206,
+        "languages": [
+          "Ruby",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 57,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Argentina)",
+        "company": null,
+        "location": "Rosario",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28777,
+        "privateContributions": 207,
+        "languages": [
+          "Python",
+          "C++",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-6-proj-1",
+            "description": null,
+            "stars": 1678,
+            "language": "Python"
+          },
+          {
+            "name": "arg-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 261,
+            "language": "C++"
+          },
+          {
+            "name": "arg-dev-6-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1571,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Argentina)",
+        "company": "Apple",
+        "location": "Argentina",
+        "bio": null,
+        "followers": 3953,
+        "publicContributions": 27716,
+        "privateContributions": 189,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 390,
+            "language": "PHP"
+          },
+          {
+            "name": "arg-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 996,
+            "language": "PHP"
+          },
+          {
+            "name": "arg-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 973,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": null,
+        "followers": 3827,
+        "publicContributions": 26632,
+        "privateContributions": 423,
+        "languages": [
+          "Swift",
+          "TypeScript",
+          "Rust",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 1508,
+            "language": "Swift"
+          },
+          {
+            "name": "arg-dev-8-proj-2",
+            "description": null,
+            "stars": 1124,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": null,
+        "followers": 3658,
+        "publicContributions": 25532,
+        "privateContributions": 481,
+        "languages": [
+          "JavaScript",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 885,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Argentina)",
+        "company": "Microsoft",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 3511,
+        "publicContributions": 24508,
+        "privateContributions": 207,
+        "languages": [
+          "C++",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 589,
+            "language": "C++"
+          },
+          {
+            "name": "arg-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 638,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "arg-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Argentina)",
+        "company": "Amazon",
+        "location": "Cordoba",
+        "bio": "Developer from Argentina",
+        "followers": 5016,
+        "publicContributions": 35088,
+        "privateContributions": 358,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 976,
+            "language": "Dart"
+          },
+          {
+            "name": "arg-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1891,
+            "language": "Dart"
+          },
+          {
+            "name": "arg-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 948,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "arg-dev-1",
+        "blog": "https://arg-dev-1.dev"
+      },
+      {
+        "login": "arg-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Argentina)",
+        "company": "Stripe",
+        "location": "Rosario",
+        "bio": "Developer from Argentina",
+        "followers": 4832,
+        "publicContributions": 33747,
+        "privateContributions": 448,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1228,
+            "language": "Python"
+          },
+          {
+            "name": "arg-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1773,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "arg-dev-2",
+        "blog": null
+      },
+      {
+        "login": "arg-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": "Developer from Argentina",
+        "followers": 4629,
+        "publicContributions": 32505,
+        "privateContributions": 223,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1427,
+            "language": "Swift"
+          },
+          {
+            "name": "arg-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1099,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Argentina)",
+        "company": "Apple",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31193,
+        "privateContributions": 430,
+        "languages": [
+          "Dart",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-4-proj-1",
+            "description": null,
+            "stars": 567,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Argentina)",
+        "company": "Meta",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29933,
+        "privateContributions": 206,
+        "languages": [
+          "Ruby",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 57,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Argentina)",
+        "company": null,
+        "location": "Rosario",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28777,
+        "privateContributions": 207,
+        "languages": [
+          "Python",
+          "C++",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-6-proj-1",
+            "description": null,
+            "stars": 1678,
+            "language": "Python"
+          },
+          {
+            "name": "arg-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 261,
+            "language": "C++"
+          },
+          {
+            "name": "arg-dev-6-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1571,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Argentina)",
+        "company": "Apple",
+        "location": "Argentina",
+        "bio": null,
+        "followers": 3953,
+        "publicContributions": 27716,
+        "privateContributions": 189,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 390,
+            "language": "PHP"
+          },
+          {
+            "name": "arg-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 996,
+            "language": "PHP"
+          },
+          {
+            "name": "arg-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 973,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": null,
+        "followers": 3827,
+        "publicContributions": 26632,
+        "privateContributions": 423,
+        "languages": [
+          "Swift",
+          "TypeScript",
+          "Rust",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 1508,
+            "language": "Swift"
+          },
+          {
+            "name": "arg-dev-8-proj-2",
+            "description": null,
+            "stars": 1124,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": null,
+        "followers": 3658,
+        "publicContributions": 25532,
+        "privateContributions": 481,
+        "languages": [
+          "JavaScript",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 885,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Argentina)",
+        "company": "Microsoft",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 3511,
+        "publicContributions": 24508,
+        "privateContributions": 207,
+        "languages": [
+          "C++",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 589,
+            "language": "C++"
+          },
+          {
+            "name": "arg-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 638,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "arg-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Argentina)",
+        "company": "Amazon",
+        "location": "Cordoba",
+        "bio": "Developer from Argentina",
+        "followers": 5016,
+        "publicContributions": 35088,
+        "privateContributions": 358,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 976,
+            "language": "Dart"
+          },
+          {
+            "name": "arg-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1891,
+            "language": "Dart"
+          },
+          {
+            "name": "arg-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 948,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "arg-dev-1",
+        "blog": "https://arg-dev-1.dev"
+      },
+      {
+        "login": "arg-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Argentina)",
+        "company": "Stripe",
+        "location": "Rosario",
+        "bio": "Developer from Argentina",
+        "followers": 4832,
+        "publicContributions": 33747,
+        "privateContributions": 448,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1228,
+            "language": "Python"
+          },
+          {
+            "name": "arg-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1773,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "arg-dev-2",
+        "blog": null
+      },
+      {
+        "login": "arg-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": "Developer from Argentina",
+        "followers": 4629,
+        "publicContributions": 32505,
+        "privateContributions": 223,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1427,
+            "language": "Swift"
+          },
+          {
+            "name": "arg-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1099,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Argentina)",
+        "company": "Apple",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31193,
+        "privateContributions": 430,
+        "languages": [
+          "Dart",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-4-proj-1",
+            "description": null,
+            "stars": 567,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Argentina)",
+        "company": "Meta",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29933,
+        "privateContributions": 206,
+        "languages": [
+          "Ruby",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 57,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Argentina)",
+        "company": null,
+        "location": "Rosario",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28777,
+        "privateContributions": 207,
+        "languages": [
+          "Python",
+          "C++",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-6-proj-1",
+            "description": null,
+            "stars": 1678,
+            "language": "Python"
+          },
+          {
+            "name": "arg-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 261,
+            "language": "C++"
+          },
+          {
+            "name": "arg-dev-6-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1571,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Argentina)",
+        "company": "Apple",
+        "location": "Argentina",
+        "bio": null,
+        "followers": 3953,
+        "publicContributions": 27716,
+        "privateContributions": 189,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 390,
+            "language": "PHP"
+          },
+          {
+            "name": "arg-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 996,
+            "language": "PHP"
+          },
+          {
+            "name": "arg-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 973,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": null,
+        "followers": 3827,
+        "publicContributions": 26632,
+        "privateContributions": 423,
+        "languages": [
+          "Swift",
+          "TypeScript",
+          "Rust",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 1508,
+            "language": "Swift"
+          },
+          {
+            "name": "arg-dev-8-proj-2",
+            "description": null,
+            "stars": 1124,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Argentina)",
+        "company": null,
+        "location": "Buenos aires",
+        "bio": null,
+        "followers": 3658,
+        "publicContributions": 25532,
+        "privateContributions": 481,
+        "languages": [
+          "JavaScript",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 885,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arg-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Argentina)",
+        "company": "Microsoft",
+        "location": "Cordoba",
+        "bio": null,
+        "followers": 3511,
+        "publicContributions": 24508,
+        "privateContributions": 207,
+        "languages": [
+          "C++",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arg-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 589,
+            "language": "C++"
+          },
+          {
+            "name": "arg-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 638,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

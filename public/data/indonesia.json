@@ -1,0 +1,1190 @@
+{
+  "countryCode": "indonesia",
+  "updatedAt": "2026-03-27T22:30:49.892Z",
+  "users": [
+    {
+      "login": "ind-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Indonesia)",
+      "company": null,
+      "location": "Indonesia",
+      "bio": "Developer from Indonesia",
+      "followers": 5012,
+      "publicContributions": 35150,
+      "privateContributions": 452,
+      "languages": [
+        "Go",
+        "Python",
+        "C++",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-1-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1142,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "ind-dev-1",
+      "blog": "https://ind-dev-1.dev"
+    },
+    {
+      "login": "ind-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Indonesia)",
+      "company": "Google",
+      "location": "Jakarta",
+      "bio": "Developer from Indonesia",
+      "followers": 4832,
+      "publicContributions": 33737,
+      "privateContributions": 497,
+      "languages": [
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-2-proj-1",
+          "description": "Web framework for developers",
+          "stars": 163,
+          "language": "Java"
+        },
+        {
+          "name": "ind-dev-2-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1449,
+          "language": "Java"
+        },
+        {
+          "name": "ind-dev-2-proj-3",
+          "description": "API wrapper",
+          "stars": 844,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": "ind-dev-2",
+      "blog": null
+    },
+    {
+      "login": "ind-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Indonesia)",
+      "company": null,
+      "location": "Bandung",
+      "bio": "Developer from Indonesia",
+      "followers": 4627,
+      "publicContributions": 32365,
+      "privateContributions": 236,
+      "languages": [
+        "Ruby",
+        "Go",
+        "Kotlin",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-3-proj-1",
+          "description": "API wrapper",
+          "stars": 697,
+          "language": "Ruby"
+        },
+        {
+          "name": "ind-dev-3-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1169,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ind-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Indonesia)",
+      "company": "Microsoft",
+      "location": "Indonesia",
+      "bio": null,
+      "followers": 4445,
+      "publicContributions": 31240,
+      "privateContributions": 121,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-4-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 701,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ind-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Indonesia)",
+      "company": "Google",
+      "location": "Indonesia",
+      "bio": null,
+      "followers": 4292,
+      "publicContributions": 29962,
+      "privateContributions": 86,
+      "languages": [
+        "Java",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-5-proj-1",
+          "description": "API wrapper",
+          "stars": 247,
+          "language": "Java"
+        },
+        {
+          "name": "ind-dev-5-proj-2",
+          "description": "API wrapper",
+          "stars": 698,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ind-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Indonesia)",
+      "company": "GitHub",
+      "location": "Surabaya",
+      "bio": null,
+      "followers": 4105,
+      "publicContributions": 28831,
+      "privateContributions": 7,
+      "languages": [
+        "Go",
+        "Ruby",
+        "Dart",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-6-proj-1",
+          "description": "Web framework for developers",
+          "stars": 532,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ind-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Indonesia)",
+      "company": null,
+      "location": "Surabaya",
+      "bio": null,
+      "followers": 3981,
+      "publicContributions": 27651,
+      "privateContributions": 214,
+      "languages": [
+        "Dart",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-7-proj-1",
+          "description": "API wrapper",
+          "stars": 642,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ind-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Indonesia)",
+      "company": "Vercel",
+      "location": "Indonesia",
+      "bio": null,
+      "followers": 3795,
+      "publicContributions": 26520,
+      "privateContributions": 351,
+      "languages": [
+        "C++",
+        "Java",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-8-proj-1",
+          "description": "Open source utilities",
+          "stars": 1178,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ind-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Indonesia)",
+      "company": null,
+      "location": "Indonesia",
+      "bio": null,
+      "followers": 3653,
+      "publicContributions": 25556,
+      "privateContributions": 320,
+      "languages": [
+        "TypeScript",
+        "Ruby",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-9-proj-1",
+          "description": null,
+          "stars": 596,
+          "language": "TypeScript"
+        },
+        {
+          "name": "ind-dev-9-proj-2",
+          "description": null,
+          "stars": 289,
+          "language": "Ruby"
+        },
+        {
+          "name": "ind-dev-9-proj-3",
+          "description": null,
+          "stars": 286,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ind-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Indonesia)",
+      "company": "Google",
+      "location": "Indonesia",
+      "bio": null,
+      "followers": 3531,
+      "publicContributions": 24494,
+      "privateContributions": 303,
+      "languages": [
+        "Rust",
+        "TypeScript",
+        "Ruby",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "ind-dev-10-proj-1",
+          "description": "Data pipeline library",
+          "stars": 929,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "ind-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Indonesia)",
+        "company": null,
+        "location": "Indonesia",
+        "bio": "Developer from Indonesia",
+        "followers": 5012,
+        "publicContributions": 35150,
+        "privateContributions": 452,
+        "languages": [
+          "Go",
+          "Python",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1142,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "ind-dev-1",
+        "blog": "https://ind-dev-1.dev"
+      },
+      {
+        "login": "ind-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Indonesia)",
+        "company": "Google",
+        "location": "Jakarta",
+        "bio": "Developer from Indonesia",
+        "followers": 4832,
+        "publicContributions": 33737,
+        "privateContributions": 497,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 163,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1449,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 844,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ind-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ind-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Indonesia)",
+        "company": null,
+        "location": "Bandung",
+        "bio": "Developer from Indonesia",
+        "followers": 4627,
+        "publicContributions": 32365,
+        "privateContributions": 236,
+        "languages": [
+          "Ruby",
+          "Go",
+          "Kotlin",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 697,
+            "language": "Ruby"
+          },
+          {
+            "name": "ind-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1169,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Indonesia)",
+        "company": "Microsoft",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31240,
+        "privateContributions": 121,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 701,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Indonesia)",
+        "company": "Google",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 4292,
+        "publicContributions": 29962,
+        "privateContributions": 86,
+        "languages": [
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 247,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 698,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Indonesia)",
+        "company": "GitHub",
+        "location": "Surabaya",
+        "bio": null,
+        "followers": 4105,
+        "publicContributions": 28831,
+        "privateContributions": 7,
+        "languages": [
+          "Go",
+          "Ruby",
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 532,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Indonesia)",
+        "company": null,
+        "location": "Surabaya",
+        "bio": null,
+        "followers": 3981,
+        "publicContributions": 27651,
+        "privateContributions": 214,
+        "languages": [
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 642,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Indonesia)",
+        "company": "Vercel",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3795,
+        "publicContributions": 26520,
+        "privateContributions": 351,
+        "languages": [
+          "C++",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1178,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Indonesia)",
+        "company": null,
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3653,
+        "publicContributions": 25556,
+        "privateContributions": 320,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-9-proj-1",
+            "description": null,
+            "stars": 596,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ind-dev-9-proj-2",
+            "description": null,
+            "stars": 289,
+            "language": "Ruby"
+          },
+          {
+            "name": "ind-dev-9-proj-3",
+            "description": null,
+            "stars": 286,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Indonesia)",
+        "company": "Google",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3531,
+        "publicContributions": 24494,
+        "privateContributions": 303,
+        "languages": [
+          "Rust",
+          "TypeScript",
+          "Ruby",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 929,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "ind-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Indonesia)",
+        "company": null,
+        "location": "Indonesia",
+        "bio": "Developer from Indonesia",
+        "followers": 5012,
+        "publicContributions": 35150,
+        "privateContributions": 452,
+        "languages": [
+          "Go",
+          "Python",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1142,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "ind-dev-1",
+        "blog": "https://ind-dev-1.dev"
+      },
+      {
+        "login": "ind-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Indonesia)",
+        "company": "Google",
+        "location": "Jakarta",
+        "bio": "Developer from Indonesia",
+        "followers": 4832,
+        "publicContributions": 33737,
+        "privateContributions": 497,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 163,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1449,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 844,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ind-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ind-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Indonesia)",
+        "company": null,
+        "location": "Bandung",
+        "bio": "Developer from Indonesia",
+        "followers": 4627,
+        "publicContributions": 32365,
+        "privateContributions": 236,
+        "languages": [
+          "Ruby",
+          "Go",
+          "Kotlin",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 697,
+            "language": "Ruby"
+          },
+          {
+            "name": "ind-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1169,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Indonesia)",
+        "company": "Microsoft",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31240,
+        "privateContributions": 121,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 701,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Indonesia)",
+        "company": "Google",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 4292,
+        "publicContributions": 29962,
+        "privateContributions": 86,
+        "languages": [
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 247,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 698,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Indonesia)",
+        "company": "GitHub",
+        "location": "Surabaya",
+        "bio": null,
+        "followers": 4105,
+        "publicContributions": 28831,
+        "privateContributions": 7,
+        "languages": [
+          "Go",
+          "Ruby",
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 532,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Indonesia)",
+        "company": null,
+        "location": "Surabaya",
+        "bio": null,
+        "followers": 3981,
+        "publicContributions": 27651,
+        "privateContributions": 214,
+        "languages": [
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 642,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Indonesia)",
+        "company": "Vercel",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3795,
+        "publicContributions": 26520,
+        "privateContributions": 351,
+        "languages": [
+          "C++",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1178,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Indonesia)",
+        "company": null,
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3653,
+        "publicContributions": 25556,
+        "privateContributions": 320,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-9-proj-1",
+            "description": null,
+            "stars": 596,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ind-dev-9-proj-2",
+            "description": null,
+            "stars": 289,
+            "language": "Ruby"
+          },
+          {
+            "name": "ind-dev-9-proj-3",
+            "description": null,
+            "stars": 286,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Indonesia)",
+        "company": "Google",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3531,
+        "publicContributions": 24494,
+        "privateContributions": 303,
+        "languages": [
+          "Rust",
+          "TypeScript",
+          "Ruby",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 929,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "ind-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Indonesia)",
+        "company": null,
+        "location": "Indonesia",
+        "bio": "Developer from Indonesia",
+        "followers": 5012,
+        "publicContributions": 35150,
+        "privateContributions": 452,
+        "languages": [
+          "Go",
+          "Python",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1142,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "ind-dev-1",
+        "blog": "https://ind-dev-1.dev"
+      },
+      {
+        "login": "ind-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Indonesia)",
+        "company": "Google",
+        "location": "Jakarta",
+        "bio": "Developer from Indonesia",
+        "followers": 4832,
+        "publicContributions": 33737,
+        "privateContributions": 497,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-2-proj-1",
+            "description": "Web framework for developers",
+            "stars": 163,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1449,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 844,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ind-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ind-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Indonesia)",
+        "company": null,
+        "location": "Bandung",
+        "bio": "Developer from Indonesia",
+        "followers": 4627,
+        "publicContributions": 32365,
+        "privateContributions": 236,
+        "languages": [
+          "Ruby",
+          "Go",
+          "Kotlin",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 697,
+            "language": "Ruby"
+          },
+          {
+            "name": "ind-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1169,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Indonesia)",
+        "company": "Microsoft",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31240,
+        "privateContributions": 121,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 701,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Indonesia)",
+        "company": "Google",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 4292,
+        "publicContributions": 29962,
+        "privateContributions": 86,
+        "languages": [
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 247,
+            "language": "Java"
+          },
+          {
+            "name": "ind-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 698,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Indonesia)",
+        "company": "GitHub",
+        "location": "Surabaya",
+        "bio": null,
+        "followers": 4105,
+        "publicContributions": 28831,
+        "privateContributions": 7,
+        "languages": [
+          "Go",
+          "Ruby",
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 532,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Indonesia)",
+        "company": null,
+        "location": "Surabaya",
+        "bio": null,
+        "followers": 3981,
+        "publicContributions": 27651,
+        "privateContributions": 214,
+        "languages": [
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 642,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Indonesia)",
+        "company": "Vercel",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3795,
+        "publicContributions": 26520,
+        "privateContributions": 351,
+        "languages": [
+          "C++",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1178,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Indonesia)",
+        "company": null,
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3653,
+        "publicContributions": 25556,
+        "privateContributions": 320,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-9-proj-1",
+            "description": null,
+            "stars": 596,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ind-dev-9-proj-2",
+            "description": null,
+            "stars": 289,
+            "language": "Ruby"
+          },
+          {
+            "name": "ind-dev-9-proj-3",
+            "description": null,
+            "stars": 286,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ind-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Indonesia)",
+        "company": "Google",
+        "location": "Indonesia",
+        "bio": null,
+        "followers": 3531,
+        "publicContributions": 24494,
+        "privateContributions": 303,
+        "languages": [
+          "Rust",
+          "TypeScript",
+          "Ruby",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ind-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 929,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

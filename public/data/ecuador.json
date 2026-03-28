@@ -1,0 +1,1214 @@
+{
+  "countryCode": "ecuador",
+  "updatedAt": "2026-03-27T22:30:49.889Z",
+  "users": [
+    {
+      "login": "ecu-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Ecuador)",
+      "company": "Meta",
+      "location": "Quito",
+      "bio": "Developer from Ecuador",
+      "followers": 5039,
+      "publicContributions": 35181,
+      "privateContributions": 146,
+      "languages": [
+        "Kotlin",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-1-proj-1",
+          "description": "Open source utilities",
+          "stars": 1494,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": "ecu-dev-1",
+      "blog": "https://ecu-dev-1.dev"
+    },
+    {
+      "login": "ecu-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Ecuador)",
+      "company": null,
+      "location": "Ecuador",
+      "bio": "Developer from Ecuador",
+      "followers": 4846,
+      "publicContributions": 33794,
+      "privateContributions": 457,
+      "languages": [
+        "Swift",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-2-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 171,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": "ecu-dev-2",
+      "blog": null
+    },
+    {
+      "login": "ecu-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Ecuador)",
+      "company": null,
+      "location": "Quito",
+      "bio": "Developer from Ecuador",
+      "followers": 4652,
+      "publicContributions": 32362,
+      "privateContributions": 242,
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-3-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1028,
+          "language": "TypeScript"
+        },
+        {
+          "name": "ecu-dev-3-proj-2",
+          "description": "Open source utilities",
+          "stars": 1059,
+          "language": "JavaScript"
+        },
+        {
+          "name": "ecu-dev-3-proj-3",
+          "description": null,
+          "stars": 1658,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ecu-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Ecuador)",
+      "company": null,
+      "location": "Quito",
+      "bio": null,
+      "followers": 4477,
+      "publicContributions": 31151,
+      "privateContributions": 209,
+      "languages": [
+        "TypeScript",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-4-proj-1",
+          "description": null,
+          "stars": 1087,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ecu-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Ecuador)",
+      "company": "Apple",
+      "location": "Ecuador",
+      "bio": null,
+      "followers": 4304,
+      "publicContributions": 29926,
+      "privateContributions": 41,
+      "languages": [
+        "Ruby",
+        "TypeScript",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-5-proj-1",
+          "description": null,
+          "stars": 310,
+          "language": "Ruby"
+        },
+        {
+          "name": "ecu-dev-5-proj-2",
+          "description": "API wrapper",
+          "stars": 666,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ecu-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Ecuador)",
+      "company": "Stripe",
+      "location": "Quito",
+      "bio": null,
+      "followers": 4122,
+      "publicContributions": 28781,
+      "privateContributions": 71,
+      "languages": [
+        "Kotlin",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-6-proj-1",
+          "description": "Open source utilities",
+          "stars": 662,
+          "language": "Kotlin"
+        },
+        {
+          "name": "ecu-dev-6-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 191,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ecu-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Ecuador)",
+      "company": "Meta",
+      "location": "Ecuador",
+      "bio": null,
+      "followers": 3962,
+      "publicContributions": 27622,
+      "privateContributions": 324,
+      "languages": [
+        "Java",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-7-proj-1",
+          "description": "API wrapper",
+          "stars": 333,
+          "language": "Java"
+        },
+        {
+          "name": "ecu-dev-7-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1271,
+          "language": "Python"
+        },
+        {
+          "name": "ecu-dev-7-proj-3",
+          "description": "Open source utilities",
+          "stars": 302,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ecu-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Ecuador)",
+      "company": "GitHub",
+      "location": "Quito",
+      "bio": null,
+      "followers": 3809,
+      "publicContributions": 26574,
+      "privateContributions": 466,
+      "languages": [
+        "Swift",
+        "Dart",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-8-proj-1",
+          "description": "Open source utilities",
+          "stars": 1148,
+          "language": "Swift"
+        },
+        {
+          "name": "ecu-dev-8-proj-2",
+          "description": "Web framework for developers",
+          "stars": 649,
+          "language": "Dart"
+        },
+        {
+          "name": "ecu-dev-8-proj-3",
+          "description": "Open source utilities",
+          "stars": 1264,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ecu-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Ecuador)",
+      "company": "Google",
+      "location": "Ecuador",
+      "bio": null,
+      "followers": 3646,
+      "publicContributions": 25523,
+      "privateContributions": 309,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-9-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1334,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ecu-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Ecuador)",
+      "company": "Stripe",
+      "location": "Quito",
+      "bio": null,
+      "followers": 3508,
+      "publicContributions": 24487,
+      "privateContributions": 243,
+      "languages": [
+        "Go",
+        "Rust",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ecu-dev-10-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1036,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "ecu-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Ecuador)",
+        "company": "Meta",
+        "location": "Quito",
+        "bio": "Developer from Ecuador",
+        "followers": 5039,
+        "publicContributions": 35181,
+        "privateContributions": 146,
+        "languages": [
+          "Kotlin",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1494,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ecu-dev-1",
+        "blog": "https://ecu-dev-1.dev"
+      },
+      {
+        "login": "ecu-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Ecuador)",
+        "company": null,
+        "location": "Ecuador",
+        "bio": "Developer from Ecuador",
+        "followers": 4846,
+        "publicContributions": 33794,
+        "privateContributions": 457,
+        "languages": [
+          "Swift",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 171,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "ecu-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Ecuador)",
+        "company": null,
+        "location": "Quito",
+        "bio": "Developer from Ecuador",
+        "followers": 4652,
+        "publicContributions": 32362,
+        "privateContributions": 242,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1028,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ecu-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1059,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ecu-dev-3-proj-3",
+            "description": null,
+            "stars": 1658,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Ecuador)",
+        "company": null,
+        "location": "Quito",
+        "bio": null,
+        "followers": 4477,
+        "publicContributions": 31151,
+        "privateContributions": 209,
+        "languages": [
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-4-proj-1",
+            "description": null,
+            "stars": 1087,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Ecuador)",
+        "company": "Apple",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 4304,
+        "publicContributions": 29926,
+        "privateContributions": 41,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-5-proj-1",
+            "description": null,
+            "stars": 310,
+            "language": "Ruby"
+          },
+          {
+            "name": "ecu-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 666,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Ecuador)",
+        "company": "Stripe",
+        "location": "Quito",
+        "bio": null,
+        "followers": 4122,
+        "publicContributions": 28781,
+        "privateContributions": 71,
+        "languages": [
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 662,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ecu-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 191,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Ecuador)",
+        "company": "Meta",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27622,
+        "privateContributions": 324,
+        "languages": [
+          "Java",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 333,
+            "language": "Java"
+          },
+          {
+            "name": "ecu-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1271,
+            "language": "Python"
+          },
+          {
+            "name": "ecu-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 302,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Ecuador)",
+        "company": "GitHub",
+        "location": "Quito",
+        "bio": null,
+        "followers": 3809,
+        "publicContributions": 26574,
+        "privateContributions": 466,
+        "languages": [
+          "Swift",
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1148,
+            "language": "Swift"
+          },
+          {
+            "name": "ecu-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 649,
+            "language": "Dart"
+          },
+          {
+            "name": "ecu-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1264,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Ecuador)",
+        "company": "Google",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25523,
+        "privateContributions": 309,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1334,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Ecuador)",
+        "company": "Stripe",
+        "location": "Quito",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24487,
+        "privateContributions": 243,
+        "languages": [
+          "Go",
+          "Rust",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1036,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "ecu-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Ecuador)",
+        "company": "Meta",
+        "location": "Quito",
+        "bio": "Developer from Ecuador",
+        "followers": 5039,
+        "publicContributions": 35181,
+        "privateContributions": 146,
+        "languages": [
+          "Kotlin",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1494,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ecu-dev-1",
+        "blog": "https://ecu-dev-1.dev"
+      },
+      {
+        "login": "ecu-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Ecuador)",
+        "company": null,
+        "location": "Ecuador",
+        "bio": "Developer from Ecuador",
+        "followers": 4846,
+        "publicContributions": 33794,
+        "privateContributions": 457,
+        "languages": [
+          "Swift",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 171,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "ecu-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Ecuador)",
+        "company": null,
+        "location": "Quito",
+        "bio": "Developer from Ecuador",
+        "followers": 4652,
+        "publicContributions": 32362,
+        "privateContributions": 242,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1028,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ecu-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1059,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ecu-dev-3-proj-3",
+            "description": null,
+            "stars": 1658,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Ecuador)",
+        "company": null,
+        "location": "Quito",
+        "bio": null,
+        "followers": 4477,
+        "publicContributions": 31151,
+        "privateContributions": 209,
+        "languages": [
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-4-proj-1",
+            "description": null,
+            "stars": 1087,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Ecuador)",
+        "company": "Apple",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 4304,
+        "publicContributions": 29926,
+        "privateContributions": 41,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-5-proj-1",
+            "description": null,
+            "stars": 310,
+            "language": "Ruby"
+          },
+          {
+            "name": "ecu-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 666,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Ecuador)",
+        "company": "Stripe",
+        "location": "Quito",
+        "bio": null,
+        "followers": 4122,
+        "publicContributions": 28781,
+        "privateContributions": 71,
+        "languages": [
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 662,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ecu-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 191,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Ecuador)",
+        "company": "Meta",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27622,
+        "privateContributions": 324,
+        "languages": [
+          "Java",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 333,
+            "language": "Java"
+          },
+          {
+            "name": "ecu-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1271,
+            "language": "Python"
+          },
+          {
+            "name": "ecu-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 302,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Ecuador)",
+        "company": "GitHub",
+        "location": "Quito",
+        "bio": null,
+        "followers": 3809,
+        "publicContributions": 26574,
+        "privateContributions": 466,
+        "languages": [
+          "Swift",
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1148,
+            "language": "Swift"
+          },
+          {
+            "name": "ecu-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 649,
+            "language": "Dart"
+          },
+          {
+            "name": "ecu-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1264,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Ecuador)",
+        "company": "Google",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25523,
+        "privateContributions": 309,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1334,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Ecuador)",
+        "company": "Stripe",
+        "location": "Quito",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24487,
+        "privateContributions": 243,
+        "languages": [
+          "Go",
+          "Rust",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1036,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "ecu-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Ecuador)",
+        "company": "Meta",
+        "location": "Quito",
+        "bio": "Developer from Ecuador",
+        "followers": 5039,
+        "publicContributions": 35181,
+        "privateContributions": 146,
+        "languages": [
+          "Kotlin",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1494,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ecu-dev-1",
+        "blog": "https://ecu-dev-1.dev"
+      },
+      {
+        "login": "ecu-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Ecuador)",
+        "company": null,
+        "location": "Ecuador",
+        "bio": "Developer from Ecuador",
+        "followers": 4846,
+        "publicContributions": 33794,
+        "privateContributions": 457,
+        "languages": [
+          "Swift",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 171,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "ecu-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Ecuador)",
+        "company": null,
+        "location": "Quito",
+        "bio": "Developer from Ecuador",
+        "followers": 4652,
+        "publicContributions": 32362,
+        "privateContributions": 242,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1028,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ecu-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1059,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ecu-dev-3-proj-3",
+            "description": null,
+            "stars": 1658,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Ecuador)",
+        "company": null,
+        "location": "Quito",
+        "bio": null,
+        "followers": 4477,
+        "publicContributions": 31151,
+        "privateContributions": 209,
+        "languages": [
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-4-proj-1",
+            "description": null,
+            "stars": 1087,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Ecuador)",
+        "company": "Apple",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 4304,
+        "publicContributions": 29926,
+        "privateContributions": 41,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-5-proj-1",
+            "description": null,
+            "stars": 310,
+            "language": "Ruby"
+          },
+          {
+            "name": "ecu-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 666,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Ecuador)",
+        "company": "Stripe",
+        "location": "Quito",
+        "bio": null,
+        "followers": 4122,
+        "publicContributions": 28781,
+        "privateContributions": 71,
+        "languages": [
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 662,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ecu-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 191,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Ecuador)",
+        "company": "Meta",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27622,
+        "privateContributions": 324,
+        "languages": [
+          "Java",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 333,
+            "language": "Java"
+          },
+          {
+            "name": "ecu-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1271,
+            "language": "Python"
+          },
+          {
+            "name": "ecu-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 302,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Ecuador)",
+        "company": "GitHub",
+        "location": "Quito",
+        "bio": null,
+        "followers": 3809,
+        "publicContributions": 26574,
+        "privateContributions": 466,
+        "languages": [
+          "Swift",
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1148,
+            "language": "Swift"
+          },
+          {
+            "name": "ecu-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 649,
+            "language": "Dart"
+          },
+          {
+            "name": "ecu-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1264,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Ecuador)",
+        "company": "Google",
+        "location": "Ecuador",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25523,
+        "privateContributions": 309,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1334,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ecu-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Ecuador)",
+        "company": "Stripe",
+        "location": "Quito",
+        "bio": null,
+        "followers": 3508,
+        "publicContributions": 24487,
+        "privateContributions": 243,
+        "languages": [
+          "Go",
+          "Rust",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ecu-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1036,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

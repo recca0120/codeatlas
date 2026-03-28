@@ -1,0 +1,1238 @@
+{
+  "countryCode": "armenia",
+  "updatedAt": "2026-03-27T22:30:49.878Z",
+  "users": [
+    {
+      "login": "arm-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Armenia)",
+      "company": "GitHub",
+      "location": "Gyumri",
+      "bio": "Developer from Armenia",
+      "followers": 5030,
+      "publicContributions": 35179,
+      "privateContributions": 241,
+      "languages": [
+        "TypeScript",
+        "C++",
+        "JavaScript",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-1-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1245,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "arm-dev-1",
+      "blog": "https://arm-dev-1.dev"
+    },
+    {
+      "login": "arm-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Armenia)",
+      "company": "GitHub",
+      "location": "Armenia",
+      "bio": "Developer from Armenia",
+      "followers": 4843,
+      "publicContributions": 33784,
+      "privateContributions": 254,
+      "languages": [
+        "Ruby",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-2-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1545,
+          "language": "Ruby"
+        },
+        {
+          "name": "arm-dev-2-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1667,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "arm-dev-2",
+      "blog": null
+    },
+    {
+      "login": "arm-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Armenia)",
+      "company": null,
+      "location": "Yerevan",
+      "bio": "Developer from Armenia",
+      "followers": 4654,
+      "publicContributions": 32367,
+      "privateContributions": 31,
+      "languages": [
+        "Python",
+        "Dart",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-3-proj-1",
+          "description": "Open source utilities",
+          "stars": 519,
+          "language": "Python"
+        },
+        {
+          "name": "arm-dev-3-proj-2",
+          "description": "Data pipeline library",
+          "stars": 636,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arm-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Armenia)",
+      "company": "Vercel",
+      "location": "Gyumri",
+      "bio": null,
+      "followers": 4458,
+      "publicContributions": 31207,
+      "privateContributions": 58,
+      "languages": [
+        "Java",
+        "TypeScript",
+        "JavaScript",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-4-proj-1",
+          "description": "Open source utilities",
+          "stars": 1712,
+          "language": "Java"
+        },
+        {
+          "name": "arm-dev-4-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 356,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arm-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Armenia)",
+      "company": "Microsoft",
+      "location": "Yerevan",
+      "bio": null,
+      "followers": 4307,
+      "publicContributions": 29955,
+      "privateContributions": 100,
+      "languages": [
+        "Go",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-5-proj-1",
+          "description": "Data pipeline library",
+          "stars": 732,
+          "language": "Go"
+        },
+        {
+          "name": "arm-dev-5-proj-2",
+          "description": "Data pipeline library",
+          "stars": 350,
+          "language": "TypeScript"
+        },
+        {
+          "name": "arm-dev-5-proj-3",
+          "description": "Open source utilities",
+          "stars": 489,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arm-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Armenia)",
+      "company": "Vercel",
+      "location": "Gyumri",
+      "bio": null,
+      "followers": 4116,
+      "publicContributions": 28775,
+      "privateContributions": 381,
+      "languages": [
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-6-proj-1",
+          "description": "Open source utilities",
+          "stars": 1399,
+          "language": "Swift"
+        },
+        {
+          "name": "arm-dev-6-proj-2",
+          "description": "Data pipeline library",
+          "stars": 453,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arm-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Armenia)",
+      "company": null,
+      "location": "Gyumri",
+      "bio": null,
+      "followers": 3964,
+      "publicContributions": 27623,
+      "privateContributions": 420,
+      "languages": [
+        "Go",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-7-proj-1",
+          "description": null,
+          "stars": 240,
+          "language": "Go"
+        },
+        {
+          "name": "arm-dev-7-proj-2",
+          "description": "Web framework for developers",
+          "stars": 875,
+          "language": "Python"
+        },
+        {
+          "name": "arm-dev-7-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 802,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arm-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Armenia)",
+      "company": null,
+      "location": "Armenia",
+      "bio": null,
+      "followers": 3807,
+      "publicContributions": 26523,
+      "privateContributions": 365,
+      "languages": [
+        "TypeScript",
+        "Java",
+        "C++",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-8-proj-1",
+          "description": "Open source utilities",
+          "stars": 721,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arm-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Armenia)",
+      "company": null,
+      "location": "Yerevan",
+      "bio": null,
+      "followers": 3660,
+      "publicContributions": 25487,
+      "privateContributions": 215,
+      "languages": [
+        "Dart",
+        "Kotlin",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-9-proj-1",
+          "description": "Open source utilities",
+          "stars": 988,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "arm-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Armenia)",
+      "company": "Meta",
+      "location": "Armenia",
+      "bio": null,
+      "followers": 3506,
+      "publicContributions": 24579,
+      "privateContributions": 370,
+      "languages": [
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "arm-dev-10-proj-1",
+          "description": "Open source utilities",
+          "stars": 154,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "arm-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Armenia)",
+        "company": "GitHub",
+        "location": "Gyumri",
+        "bio": "Developer from Armenia",
+        "followers": 5030,
+        "publicContributions": 35179,
+        "privateContributions": 241,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1245,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "arm-dev-1",
+        "blog": "https://arm-dev-1.dev"
+      },
+      {
+        "login": "arm-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Armenia)",
+        "company": "GitHub",
+        "location": "Armenia",
+        "bio": "Developer from Armenia",
+        "followers": 4843,
+        "publicContributions": 33784,
+        "privateContributions": 254,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1545,
+            "language": "Ruby"
+          },
+          {
+            "name": "arm-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1667,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "arm-dev-2",
+        "blog": null
+      },
+      {
+        "login": "arm-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Armenia)",
+        "company": null,
+        "location": "Yerevan",
+        "bio": "Developer from Armenia",
+        "followers": 4654,
+        "publicContributions": 32367,
+        "privateContributions": 31,
+        "languages": [
+          "Python",
+          "Dart",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 519,
+            "language": "Python"
+          },
+          {
+            "name": "arm-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 636,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Armenia)",
+        "company": "Vercel",
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31207,
+        "privateContributions": 58,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "JavaScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1712,
+            "language": "Java"
+          },
+          {
+            "name": "arm-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 356,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Armenia)",
+        "company": "Microsoft",
+        "location": "Yerevan",
+        "bio": null,
+        "followers": 4307,
+        "publicContributions": 29955,
+        "privateContributions": 100,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 732,
+            "language": "Go"
+          },
+          {
+            "name": "arm-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 350,
+            "language": "TypeScript"
+          },
+          {
+            "name": "arm-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 489,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Armenia)",
+        "company": "Vercel",
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28775,
+        "privateContributions": 381,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1399,
+            "language": "Swift"
+          },
+          {
+            "name": "arm-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 453,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Armenia)",
+        "company": null,
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 3964,
+        "publicContributions": 27623,
+        "privateContributions": 420,
+        "languages": [
+          "Go",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-7-proj-1",
+            "description": null,
+            "stars": 240,
+            "language": "Go"
+          },
+          {
+            "name": "arm-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 875,
+            "language": "Python"
+          },
+          {
+            "name": "arm-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 802,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Armenia)",
+        "company": null,
+        "location": "Armenia",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26523,
+        "privateContributions": 365,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "C++",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 721,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Armenia)",
+        "company": null,
+        "location": "Yerevan",
+        "bio": null,
+        "followers": 3660,
+        "publicContributions": 25487,
+        "privateContributions": 215,
+        "languages": [
+          "Dart",
+          "Kotlin",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 988,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Armenia)",
+        "company": "Meta",
+        "location": "Armenia",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24579,
+        "privateContributions": 370,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 154,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "arm-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Armenia)",
+        "company": "GitHub",
+        "location": "Gyumri",
+        "bio": "Developer from Armenia",
+        "followers": 5030,
+        "publicContributions": 35179,
+        "privateContributions": 241,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1245,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "arm-dev-1",
+        "blog": "https://arm-dev-1.dev"
+      },
+      {
+        "login": "arm-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Armenia)",
+        "company": "GitHub",
+        "location": "Armenia",
+        "bio": "Developer from Armenia",
+        "followers": 4843,
+        "publicContributions": 33784,
+        "privateContributions": 254,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1545,
+            "language": "Ruby"
+          },
+          {
+            "name": "arm-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1667,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "arm-dev-2",
+        "blog": null
+      },
+      {
+        "login": "arm-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Armenia)",
+        "company": null,
+        "location": "Yerevan",
+        "bio": "Developer from Armenia",
+        "followers": 4654,
+        "publicContributions": 32367,
+        "privateContributions": 31,
+        "languages": [
+          "Python",
+          "Dart",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 519,
+            "language": "Python"
+          },
+          {
+            "name": "arm-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 636,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Armenia)",
+        "company": "Vercel",
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31207,
+        "privateContributions": 58,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "JavaScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1712,
+            "language": "Java"
+          },
+          {
+            "name": "arm-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 356,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Armenia)",
+        "company": "Microsoft",
+        "location": "Yerevan",
+        "bio": null,
+        "followers": 4307,
+        "publicContributions": 29955,
+        "privateContributions": 100,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 732,
+            "language": "Go"
+          },
+          {
+            "name": "arm-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 350,
+            "language": "TypeScript"
+          },
+          {
+            "name": "arm-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 489,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Armenia)",
+        "company": "Vercel",
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28775,
+        "privateContributions": 381,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1399,
+            "language": "Swift"
+          },
+          {
+            "name": "arm-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 453,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Armenia)",
+        "company": null,
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 3964,
+        "publicContributions": 27623,
+        "privateContributions": 420,
+        "languages": [
+          "Go",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-7-proj-1",
+            "description": null,
+            "stars": 240,
+            "language": "Go"
+          },
+          {
+            "name": "arm-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 875,
+            "language": "Python"
+          },
+          {
+            "name": "arm-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 802,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Armenia)",
+        "company": null,
+        "location": "Armenia",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26523,
+        "privateContributions": 365,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "C++",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 721,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Armenia)",
+        "company": null,
+        "location": "Yerevan",
+        "bio": null,
+        "followers": 3660,
+        "publicContributions": 25487,
+        "privateContributions": 215,
+        "languages": [
+          "Dart",
+          "Kotlin",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 988,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Armenia)",
+        "company": "Meta",
+        "location": "Armenia",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24579,
+        "privateContributions": 370,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 154,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "arm-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Armenia)",
+        "company": "GitHub",
+        "location": "Gyumri",
+        "bio": "Developer from Armenia",
+        "followers": 5030,
+        "publicContributions": 35179,
+        "privateContributions": 241,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1245,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "arm-dev-1",
+        "blog": "https://arm-dev-1.dev"
+      },
+      {
+        "login": "arm-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Armenia)",
+        "company": "GitHub",
+        "location": "Armenia",
+        "bio": "Developer from Armenia",
+        "followers": 4843,
+        "publicContributions": 33784,
+        "privateContributions": 254,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1545,
+            "language": "Ruby"
+          },
+          {
+            "name": "arm-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1667,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "arm-dev-2",
+        "blog": null
+      },
+      {
+        "login": "arm-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Armenia)",
+        "company": null,
+        "location": "Yerevan",
+        "bio": "Developer from Armenia",
+        "followers": 4654,
+        "publicContributions": 32367,
+        "privateContributions": 31,
+        "languages": [
+          "Python",
+          "Dart",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 519,
+            "language": "Python"
+          },
+          {
+            "name": "arm-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 636,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Armenia)",
+        "company": "Vercel",
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31207,
+        "privateContributions": 58,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "JavaScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1712,
+            "language": "Java"
+          },
+          {
+            "name": "arm-dev-4-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 356,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Armenia)",
+        "company": "Microsoft",
+        "location": "Yerevan",
+        "bio": null,
+        "followers": 4307,
+        "publicContributions": 29955,
+        "privateContributions": 100,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 732,
+            "language": "Go"
+          },
+          {
+            "name": "arm-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 350,
+            "language": "TypeScript"
+          },
+          {
+            "name": "arm-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 489,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Armenia)",
+        "company": "Vercel",
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28775,
+        "privateContributions": 381,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-6-proj-1",
+            "description": "Open source utilities",
+            "stars": 1399,
+            "language": "Swift"
+          },
+          {
+            "name": "arm-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 453,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Armenia)",
+        "company": null,
+        "location": "Gyumri",
+        "bio": null,
+        "followers": 3964,
+        "publicContributions": 27623,
+        "privateContributions": 420,
+        "languages": [
+          "Go",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-7-proj-1",
+            "description": null,
+            "stars": 240,
+            "language": "Go"
+          },
+          {
+            "name": "arm-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 875,
+            "language": "Python"
+          },
+          {
+            "name": "arm-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 802,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Armenia)",
+        "company": null,
+        "location": "Armenia",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26523,
+        "privateContributions": 365,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "C++",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 721,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Armenia)",
+        "company": null,
+        "location": "Yerevan",
+        "bio": null,
+        "followers": 3660,
+        "publicContributions": 25487,
+        "privateContributions": 215,
+        "languages": [
+          "Dart",
+          "Kotlin",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 988,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "arm-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Armenia)",
+        "company": "Meta",
+        "location": "Armenia",
+        "bio": null,
+        "followers": 3506,
+        "publicContributions": 24579,
+        "privateContributions": 370,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "arm-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 154,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

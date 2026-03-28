@@ -1,0 +1,1270 @@
+{
+  "countryCode": "vietnam",
+  "updatedAt": "2026-03-27T22:30:49.913Z",
+  "users": [
+    {
+      "login": "vie-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Vietnam)",
+      "company": "Microsoft",
+      "location": "Vietnam",
+      "bio": "Developer from Vietnam",
+      "followers": 5044,
+      "publicContributions": 35100,
+      "privateContributions": 174,
+      "languages": [
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-1-proj-1",
+          "description": "API wrapper",
+          "stars": 1491,
+          "language": "Rust"
+        },
+        {
+          "name": "vie-dev-1-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 529,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": "vie-dev-1",
+      "blog": "https://vie-dev-1.dev"
+    },
+    {
+      "login": "vie-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Vietnam)",
+      "company": "Meta",
+      "location": "Da nang",
+      "bio": "Developer from Vietnam",
+      "followers": 4832,
+      "publicContributions": 33750,
+      "privateContributions": 458,
+      "languages": [
+        "PHP",
+        "Ruby",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-2-proj-1",
+          "description": null,
+          "stars": 1206,
+          "language": "PHP"
+        },
+        {
+          "name": "vie-dev-2-proj-2",
+          "description": "API wrapper",
+          "stars": 983,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": "vie-dev-2",
+      "blog": null
+    },
+    {
+      "login": "vie-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Vietnam)",
+      "company": "Vercel",
+      "location": "Vietnam",
+      "bio": "Developer from Vietnam",
+      "followers": 4645,
+      "publicContributions": 32403,
+      "privateContributions": 77,
+      "languages": [
+        "JavaScript",
+        "TypeScript",
+        "Dart",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-3-proj-1",
+          "description": "Open source utilities",
+          "stars": 982,
+          "language": "JavaScript"
+        },
+        {
+          "name": "vie-dev-3-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1028,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "vie-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Vietnam)",
+      "company": "Apple",
+      "location": "Vietnam",
+      "bio": null,
+      "followers": 4446,
+      "publicContributions": 31095,
+      "privateContributions": 393,
+      "languages": [
+        "TypeScript",
+        "C++",
+        "JavaScript",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-4-proj-1",
+          "description": "Web framework for developers",
+          "stars": 321,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "vie-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Vietnam)",
+      "company": "GitHub",
+      "location": "Ho chi minh city",
+      "bio": null,
+      "followers": 4272,
+      "publicContributions": 29984,
+      "privateContributions": 454,
+      "languages": [
+        "Kotlin",
+        "Ruby",
+        "Rust",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-5-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1159,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "vie-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Vietnam)",
+      "company": "Vercel",
+      "location": "Hanoi",
+      "bio": null,
+      "followers": 4116,
+      "publicContributions": 28808,
+      "privateContributions": 338,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-6-proj-1",
+          "description": null,
+          "stars": 168,
+          "language": "TypeScript"
+        },
+        {
+          "name": "vie-dev-6-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1128,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "vie-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Vietnam)",
+      "company": "GitHub",
+      "location": "Vietnam",
+      "bio": null,
+      "followers": 3963,
+      "publicContributions": 27650,
+      "privateContributions": 142,
+      "languages": [
+        "Dart",
+        "PHP",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-7-proj-1",
+          "description": "Open source utilities",
+          "stars": 742,
+          "language": "Dart"
+        },
+        {
+          "name": "vie-dev-7-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 937,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "vie-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Vietnam)",
+      "company": null,
+      "location": "Da nang",
+      "bio": null,
+      "followers": 3816,
+      "publicContributions": 26546,
+      "privateContributions": 444,
+      "languages": [
+        "TypeScript",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-8-proj-1",
+          "description": "API wrapper",
+          "stars": 623,
+          "language": "TypeScript"
+        },
+        {
+          "name": "vie-dev-8-proj-2",
+          "description": null,
+          "stars": 1063,
+          "language": "Ruby"
+        },
+        {
+          "name": "vie-dev-8-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 742,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "vie-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Vietnam)",
+      "company": "Apple",
+      "location": "Da nang",
+      "bio": null,
+      "followers": 3645,
+      "publicContributions": 25586,
+      "privateContributions": 443,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 543,
+          "language": "TypeScript"
+        },
+        {
+          "name": "vie-dev-9-proj-2",
+          "description": null,
+          "stars": 70,
+          "language": "TypeScript"
+        },
+        {
+          "name": "vie-dev-9-proj-3",
+          "description": null,
+          "stars": 1003,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "vie-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Vietnam)",
+      "company": "Apple",
+      "location": "Ho chi minh city",
+      "bio": null,
+      "followers": 3516,
+      "publicContributions": 24582,
+      "privateContributions": 279,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "vie-dev-10-proj-1",
+          "description": "Web framework for developers",
+          "stars": 719,
+          "language": "TypeScript"
+        },
+        {
+          "name": "vie-dev-10-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 145,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "vie-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Vietnam)",
+        "company": "Microsoft",
+        "location": "Vietnam",
+        "bio": "Developer from Vietnam",
+        "followers": 5044,
+        "publicContributions": 35100,
+        "privateContributions": 174,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 1491,
+            "language": "Rust"
+          },
+          {
+            "name": "vie-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 529,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "vie-dev-1",
+        "blog": "https://vie-dev-1.dev"
+      },
+      {
+        "login": "vie-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Vietnam)",
+        "company": "Meta",
+        "location": "Da nang",
+        "bio": "Developer from Vietnam",
+        "followers": 4832,
+        "publicContributions": 33750,
+        "privateContributions": 458,
+        "languages": [
+          "PHP",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-2-proj-1",
+            "description": null,
+            "stars": 1206,
+            "language": "PHP"
+          },
+          {
+            "name": "vie-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 983,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "vie-dev-2",
+        "blog": null
+      },
+      {
+        "login": "vie-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Vietnam)",
+        "company": "Vercel",
+        "location": "Vietnam",
+        "bio": "Developer from Vietnam",
+        "followers": 4645,
+        "publicContributions": 32403,
+        "privateContributions": 77,
+        "languages": [
+          "JavaScript",
+          "TypeScript",
+          "Dart",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 982,
+            "language": "JavaScript"
+          },
+          {
+            "name": "vie-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1028,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Vietnam)",
+        "company": "Apple",
+        "location": "Vietnam",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31095,
+        "privateContributions": 393,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 321,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Vietnam)",
+        "company": "GitHub",
+        "location": "Ho chi minh city",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29984,
+        "privateContributions": 454,
+        "languages": [
+          "Kotlin",
+          "Ruby",
+          "Rust",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1159,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Vietnam)",
+        "company": "Vercel",
+        "location": "Hanoi",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28808,
+        "privateContributions": 338,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-6-proj-1",
+            "description": null,
+            "stars": 168,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1128,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Vietnam)",
+        "company": "GitHub",
+        "location": "Vietnam",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27650,
+        "privateContributions": 142,
+        "languages": [
+          "Dart",
+          "PHP",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 742,
+            "language": "Dart"
+          },
+          {
+            "name": "vie-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 937,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Vietnam)",
+        "company": null,
+        "location": "Da nang",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26546,
+        "privateContributions": 444,
+        "languages": [
+          "TypeScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 623,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-8-proj-2",
+            "description": null,
+            "stars": 1063,
+            "language": "Ruby"
+          },
+          {
+            "name": "vie-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 742,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Vietnam)",
+        "company": "Apple",
+        "location": "Da nang",
+        "bio": null,
+        "followers": 3645,
+        "publicContributions": 25586,
+        "privateContributions": 443,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 543,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-9-proj-2",
+            "description": null,
+            "stars": 70,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-9-proj-3",
+            "description": null,
+            "stars": 1003,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Vietnam)",
+        "company": "Apple",
+        "location": "Ho chi minh city",
+        "bio": null,
+        "followers": 3516,
+        "publicContributions": 24582,
+        "privateContributions": 279,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 719,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 145,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "vie-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Vietnam)",
+        "company": "Microsoft",
+        "location": "Vietnam",
+        "bio": "Developer from Vietnam",
+        "followers": 5044,
+        "publicContributions": 35100,
+        "privateContributions": 174,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 1491,
+            "language": "Rust"
+          },
+          {
+            "name": "vie-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 529,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "vie-dev-1",
+        "blog": "https://vie-dev-1.dev"
+      },
+      {
+        "login": "vie-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Vietnam)",
+        "company": "Meta",
+        "location": "Da nang",
+        "bio": "Developer from Vietnam",
+        "followers": 4832,
+        "publicContributions": 33750,
+        "privateContributions": 458,
+        "languages": [
+          "PHP",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-2-proj-1",
+            "description": null,
+            "stars": 1206,
+            "language": "PHP"
+          },
+          {
+            "name": "vie-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 983,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "vie-dev-2",
+        "blog": null
+      },
+      {
+        "login": "vie-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Vietnam)",
+        "company": "Vercel",
+        "location": "Vietnam",
+        "bio": "Developer from Vietnam",
+        "followers": 4645,
+        "publicContributions": 32403,
+        "privateContributions": 77,
+        "languages": [
+          "JavaScript",
+          "TypeScript",
+          "Dart",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 982,
+            "language": "JavaScript"
+          },
+          {
+            "name": "vie-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1028,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Vietnam)",
+        "company": "Apple",
+        "location": "Vietnam",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31095,
+        "privateContributions": 393,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 321,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Vietnam)",
+        "company": "GitHub",
+        "location": "Ho chi minh city",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29984,
+        "privateContributions": 454,
+        "languages": [
+          "Kotlin",
+          "Ruby",
+          "Rust",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1159,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Vietnam)",
+        "company": "Vercel",
+        "location": "Hanoi",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28808,
+        "privateContributions": 338,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-6-proj-1",
+            "description": null,
+            "stars": 168,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1128,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Vietnam)",
+        "company": "GitHub",
+        "location": "Vietnam",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27650,
+        "privateContributions": 142,
+        "languages": [
+          "Dart",
+          "PHP",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 742,
+            "language": "Dart"
+          },
+          {
+            "name": "vie-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 937,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Vietnam)",
+        "company": null,
+        "location": "Da nang",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26546,
+        "privateContributions": 444,
+        "languages": [
+          "TypeScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 623,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-8-proj-2",
+            "description": null,
+            "stars": 1063,
+            "language": "Ruby"
+          },
+          {
+            "name": "vie-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 742,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Vietnam)",
+        "company": "Apple",
+        "location": "Da nang",
+        "bio": null,
+        "followers": 3645,
+        "publicContributions": 25586,
+        "privateContributions": 443,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 543,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-9-proj-2",
+            "description": null,
+            "stars": 70,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-9-proj-3",
+            "description": null,
+            "stars": 1003,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Vietnam)",
+        "company": "Apple",
+        "location": "Ho chi minh city",
+        "bio": null,
+        "followers": 3516,
+        "publicContributions": 24582,
+        "privateContributions": 279,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 719,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 145,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "vie-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Vietnam)",
+        "company": "Microsoft",
+        "location": "Vietnam",
+        "bio": "Developer from Vietnam",
+        "followers": 5044,
+        "publicContributions": 35100,
+        "privateContributions": 174,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 1491,
+            "language": "Rust"
+          },
+          {
+            "name": "vie-dev-1-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 529,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "vie-dev-1",
+        "blog": "https://vie-dev-1.dev"
+      },
+      {
+        "login": "vie-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Vietnam)",
+        "company": "Meta",
+        "location": "Da nang",
+        "bio": "Developer from Vietnam",
+        "followers": 4832,
+        "publicContributions": 33750,
+        "privateContributions": 458,
+        "languages": [
+          "PHP",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-2-proj-1",
+            "description": null,
+            "stars": 1206,
+            "language": "PHP"
+          },
+          {
+            "name": "vie-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 983,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "vie-dev-2",
+        "blog": null
+      },
+      {
+        "login": "vie-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Vietnam)",
+        "company": "Vercel",
+        "location": "Vietnam",
+        "bio": "Developer from Vietnam",
+        "followers": 4645,
+        "publicContributions": 32403,
+        "privateContributions": 77,
+        "languages": [
+          "JavaScript",
+          "TypeScript",
+          "Dart",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 982,
+            "language": "JavaScript"
+          },
+          {
+            "name": "vie-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1028,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Vietnam)",
+        "company": "Apple",
+        "location": "Vietnam",
+        "bio": null,
+        "followers": 4446,
+        "publicContributions": 31095,
+        "privateContributions": 393,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 321,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Vietnam)",
+        "company": "GitHub",
+        "location": "Ho chi minh city",
+        "bio": null,
+        "followers": 4272,
+        "publicContributions": 29984,
+        "privateContributions": 454,
+        "languages": [
+          "Kotlin",
+          "Ruby",
+          "Rust",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1159,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Vietnam)",
+        "company": "Vercel",
+        "location": "Hanoi",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28808,
+        "privateContributions": 338,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-6-proj-1",
+            "description": null,
+            "stars": 168,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1128,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Vietnam)",
+        "company": "GitHub",
+        "location": "Vietnam",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27650,
+        "privateContributions": 142,
+        "languages": [
+          "Dart",
+          "PHP",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 742,
+            "language": "Dart"
+          },
+          {
+            "name": "vie-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 937,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Vietnam)",
+        "company": null,
+        "location": "Da nang",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26546,
+        "privateContributions": 444,
+        "languages": [
+          "TypeScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-8-proj-1",
+            "description": "API wrapper",
+            "stars": 623,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-8-proj-2",
+            "description": null,
+            "stars": 1063,
+            "language": "Ruby"
+          },
+          {
+            "name": "vie-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 742,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Vietnam)",
+        "company": "Apple",
+        "location": "Da nang",
+        "bio": null,
+        "followers": 3645,
+        "publicContributions": 25586,
+        "privateContributions": 443,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 543,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-9-proj-2",
+            "description": null,
+            "stars": 70,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-9-proj-3",
+            "description": null,
+            "stars": 1003,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "vie-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Vietnam)",
+        "company": "Apple",
+        "location": "Ho chi minh city",
+        "bio": null,
+        "followers": 3516,
+        "publicContributions": 24582,
+        "privateContributions": 279,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "vie-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 719,
+            "language": "TypeScript"
+          },
+          {
+            "name": "vie-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 145,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

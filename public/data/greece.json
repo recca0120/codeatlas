@@ -1,0 +1,1254 @@
+{
+  "countryCode": "greece",
+  "updatedAt": "2026-03-27T22:30:49.891Z",
+  "users": [
+    {
+      "login": "gre-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Greece)",
+      "company": "GitHub",
+      "location": "Thessaloniki",
+      "bio": "Developer from Greece",
+      "followers": 5018,
+      "publicContributions": 35189,
+      "privateContributions": 51,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-1-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 2001,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "gre-dev-1",
+      "blog": "https://gre-dev-1.dev"
+    },
+    {
+      "login": "gre-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Greece)",
+      "company": null,
+      "location": "Thessaloniki",
+      "bio": "Developer from Greece",
+      "followers": 4831,
+      "publicContributions": 33678,
+      "privateContributions": 479,
+      "languages": [
+        "Java",
+        "Dart",
+        "Kotlin",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-2-proj-1",
+          "description": "Open source utilities",
+          "stars": 160,
+          "language": "Java"
+        },
+        {
+          "name": "gre-dev-2-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 874,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": "gre-dev-2",
+      "blog": null
+    },
+    {
+      "login": "gre-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Greece)",
+      "company": "Google",
+      "location": "Athens",
+      "bio": "Developer from Greece",
+      "followers": 4657,
+      "publicContributions": 32400,
+      "privateContributions": 313,
+      "languages": [
+        "Ruby",
+        "Python",
+        "Rust",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-3-proj-1",
+          "description": "API wrapper",
+          "stars": 350,
+          "language": "Ruby"
+        },
+        {
+          "name": "gre-dev-3-proj-2",
+          "description": "API wrapper",
+          "stars": 166,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "gre-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Greece)",
+      "company": null,
+      "location": "Athens",
+      "bio": null,
+      "followers": 4447,
+      "publicContributions": 31236,
+      "privateContributions": 47,
+      "languages": [
+        "Ruby",
+        "TypeScript",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-4-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 44,
+          "language": "Ruby"
+        },
+        {
+          "name": "gre-dev-4-proj-2",
+          "description": "Open source utilities",
+          "stars": 1769,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "gre-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Greece)",
+      "company": null,
+      "location": "Athens",
+      "bio": null,
+      "followers": 4286,
+      "publicContributions": 29906,
+      "privateContributions": 428,
+      "languages": [
+        "Rust",
+        "Python",
+        "C++",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-5-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1083,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "gre-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Greece)",
+      "company": "Apple",
+      "location": "Thessaloniki",
+      "bio": null,
+      "followers": 4130,
+      "publicContributions": 28794,
+      "privateContributions": 36,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-6-proj-1",
+          "description": "API wrapper",
+          "stars": 116,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "gre-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Greece)",
+      "company": "Amazon",
+      "location": "Thessaloniki",
+      "bio": null,
+      "followers": 3973,
+      "publicContributions": 27731,
+      "privateContributions": 158,
+      "languages": [
+        "PHP",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-7-proj-1",
+          "description": "API wrapper",
+          "stars": 1311,
+          "language": "PHP"
+        },
+        {
+          "name": "gre-dev-7-proj-2",
+          "description": "API wrapper",
+          "stars": 1409,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "gre-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Greece)",
+      "company": "Meta",
+      "location": "Athens",
+      "bio": null,
+      "followers": 3824,
+      "publicContributions": 26509,
+      "privateContributions": 85,
+      "languages": [
+        "C++",
+        "Java",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-8-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1229,
+          "language": "C++"
+        },
+        {
+          "name": "gre-dev-8-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 804,
+          "language": "Java"
+        },
+        {
+          "name": "gre-dev-8-proj-3",
+          "description": null,
+          "stars": 830,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "gre-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Greece)",
+      "company": null,
+      "location": "Athens",
+      "bio": null,
+      "followers": 3644,
+      "publicContributions": 25498,
+      "privateContributions": 165,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-9-proj-1",
+          "description": "Data pipeline library",
+          "stars": 366,
+          "language": "Go"
+        },
+        {
+          "name": "gre-dev-9-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 135,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "gre-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Greece)",
+      "company": "Vercel",
+      "location": "Greece",
+      "bio": null,
+      "followers": 3503,
+      "publicContributions": 24546,
+      "privateContributions": 214,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "gre-dev-10-proj-1",
+          "description": "Open source utilities",
+          "stars": 747,
+          "language": "Go"
+        },
+        {
+          "name": "gre-dev-10-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1265,
+          "language": "Go"
+        },
+        {
+          "name": "gre-dev-10-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 855,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "gre-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Greece)",
+        "company": "GitHub",
+        "location": "Thessaloniki",
+        "bio": "Developer from Greece",
+        "followers": 5018,
+        "publicContributions": 35189,
+        "privateContributions": 51,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 2001,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "gre-dev-1",
+        "blog": "https://gre-dev-1.dev"
+      },
+      {
+        "login": "gre-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Greece)",
+        "company": null,
+        "location": "Thessaloniki",
+        "bio": "Developer from Greece",
+        "followers": 4831,
+        "publicContributions": 33678,
+        "privateContributions": 479,
+        "languages": [
+          "Java",
+          "Dart",
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 160,
+            "language": "Java"
+          },
+          {
+            "name": "gre-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 874,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "gre-dev-2",
+        "blog": null
+      },
+      {
+        "login": "gre-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Greece)",
+        "company": "Google",
+        "location": "Athens",
+        "bio": "Developer from Greece",
+        "followers": 4657,
+        "publicContributions": 32400,
+        "privateContributions": 313,
+        "languages": [
+          "Ruby",
+          "Python",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 350,
+            "language": "Ruby"
+          },
+          {
+            "name": "gre-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 166,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 4447,
+        "publicContributions": 31236,
+        "privateContributions": 47,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 44,
+            "language": "Ruby"
+          },
+          {
+            "name": "gre-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1769,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29906,
+        "privateContributions": 428,
+        "languages": [
+          "Rust",
+          "Python",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1083,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Greece)",
+        "company": "Apple",
+        "location": "Thessaloniki",
+        "bio": null,
+        "followers": 4130,
+        "publicContributions": 28794,
+        "privateContributions": 36,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 116,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Greece)",
+        "company": "Amazon",
+        "location": "Thessaloniki",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27731,
+        "privateContributions": 158,
+        "languages": [
+          "PHP",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1311,
+            "language": "PHP"
+          },
+          {
+            "name": "gre-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1409,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Greece)",
+        "company": "Meta",
+        "location": "Athens",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26509,
+        "privateContributions": 85,
+        "languages": [
+          "C++",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1229,
+            "language": "C++"
+          },
+          {
+            "name": "gre-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 804,
+            "language": "Java"
+          },
+          {
+            "name": "gre-dev-8-proj-3",
+            "description": null,
+            "stars": 830,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25498,
+        "privateContributions": 165,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 366,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 135,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Greece)",
+        "company": "Vercel",
+        "location": "Greece",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24546,
+        "privateContributions": 214,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 747,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1265,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 855,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "gre-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Greece)",
+        "company": "GitHub",
+        "location": "Thessaloniki",
+        "bio": "Developer from Greece",
+        "followers": 5018,
+        "publicContributions": 35189,
+        "privateContributions": 51,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 2001,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "gre-dev-1",
+        "blog": "https://gre-dev-1.dev"
+      },
+      {
+        "login": "gre-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Greece)",
+        "company": null,
+        "location": "Thessaloniki",
+        "bio": "Developer from Greece",
+        "followers": 4831,
+        "publicContributions": 33678,
+        "privateContributions": 479,
+        "languages": [
+          "Java",
+          "Dart",
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 160,
+            "language": "Java"
+          },
+          {
+            "name": "gre-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 874,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "gre-dev-2",
+        "blog": null
+      },
+      {
+        "login": "gre-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Greece)",
+        "company": "Google",
+        "location": "Athens",
+        "bio": "Developer from Greece",
+        "followers": 4657,
+        "publicContributions": 32400,
+        "privateContributions": 313,
+        "languages": [
+          "Ruby",
+          "Python",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 350,
+            "language": "Ruby"
+          },
+          {
+            "name": "gre-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 166,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 4447,
+        "publicContributions": 31236,
+        "privateContributions": 47,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 44,
+            "language": "Ruby"
+          },
+          {
+            "name": "gre-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1769,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29906,
+        "privateContributions": 428,
+        "languages": [
+          "Rust",
+          "Python",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1083,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Greece)",
+        "company": "Apple",
+        "location": "Thessaloniki",
+        "bio": null,
+        "followers": 4130,
+        "publicContributions": 28794,
+        "privateContributions": 36,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 116,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Greece)",
+        "company": "Amazon",
+        "location": "Thessaloniki",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27731,
+        "privateContributions": 158,
+        "languages": [
+          "PHP",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1311,
+            "language": "PHP"
+          },
+          {
+            "name": "gre-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1409,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Greece)",
+        "company": "Meta",
+        "location": "Athens",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26509,
+        "privateContributions": 85,
+        "languages": [
+          "C++",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1229,
+            "language": "C++"
+          },
+          {
+            "name": "gre-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 804,
+            "language": "Java"
+          },
+          {
+            "name": "gre-dev-8-proj-3",
+            "description": null,
+            "stars": 830,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25498,
+        "privateContributions": 165,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 366,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 135,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Greece)",
+        "company": "Vercel",
+        "location": "Greece",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24546,
+        "privateContributions": 214,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 747,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1265,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 855,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "gre-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Greece)",
+        "company": "GitHub",
+        "location": "Thessaloniki",
+        "bio": "Developer from Greece",
+        "followers": 5018,
+        "publicContributions": 35189,
+        "privateContributions": 51,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 2001,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "gre-dev-1",
+        "blog": "https://gre-dev-1.dev"
+      },
+      {
+        "login": "gre-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Greece)",
+        "company": null,
+        "location": "Thessaloniki",
+        "bio": "Developer from Greece",
+        "followers": 4831,
+        "publicContributions": 33678,
+        "privateContributions": 479,
+        "languages": [
+          "Java",
+          "Dart",
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 160,
+            "language": "Java"
+          },
+          {
+            "name": "gre-dev-2-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 874,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "gre-dev-2",
+        "blog": null
+      },
+      {
+        "login": "gre-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Greece)",
+        "company": "Google",
+        "location": "Athens",
+        "bio": "Developer from Greece",
+        "followers": 4657,
+        "publicContributions": 32400,
+        "privateContributions": 313,
+        "languages": [
+          "Ruby",
+          "Python",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 350,
+            "language": "Ruby"
+          },
+          {
+            "name": "gre-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 166,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 4447,
+        "publicContributions": 31236,
+        "privateContributions": 47,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 44,
+            "language": "Ruby"
+          },
+          {
+            "name": "gre-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1769,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 4286,
+        "publicContributions": 29906,
+        "privateContributions": 428,
+        "languages": [
+          "Rust",
+          "Python",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1083,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Greece)",
+        "company": "Apple",
+        "location": "Thessaloniki",
+        "bio": null,
+        "followers": 4130,
+        "publicContributions": 28794,
+        "privateContributions": 36,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 116,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Greece)",
+        "company": "Amazon",
+        "location": "Thessaloniki",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27731,
+        "privateContributions": 158,
+        "languages": [
+          "PHP",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1311,
+            "language": "PHP"
+          },
+          {
+            "name": "gre-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1409,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Greece)",
+        "company": "Meta",
+        "location": "Athens",
+        "bio": null,
+        "followers": 3824,
+        "publicContributions": 26509,
+        "privateContributions": 85,
+        "languages": [
+          "C++",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1229,
+            "language": "C++"
+          },
+          {
+            "name": "gre-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 804,
+            "language": "Java"
+          },
+          {
+            "name": "gre-dev-8-proj-3",
+            "description": null,
+            "stars": 830,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Greece)",
+        "company": null,
+        "location": "Athens",
+        "bio": null,
+        "followers": 3644,
+        "publicContributions": 25498,
+        "privateContributions": 165,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 366,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 135,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "gre-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Greece)",
+        "company": "Vercel",
+        "location": "Greece",
+        "bio": null,
+        "followers": 3503,
+        "publicContributions": 24546,
+        "privateContributions": 214,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "gre-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 747,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1265,
+            "language": "Go"
+          },
+          {
+            "name": "gre-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 855,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

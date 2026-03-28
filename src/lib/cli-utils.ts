@@ -96,6 +96,30 @@ export function buildOutputPath(countryCode: string): string {
 }
 
 /**
+ * Move a country to the front of the list (without mutating the original).
+ */
+export function prioritizeCountry(codes: string[], priority: string): string[] {
+  const result = [...codes];
+  const idx = result.indexOf(priority);
+  if (idx > 0) {
+    result.splice(idx, 1);
+    result.unshift(priority);
+  }
+  return result;
+}
+
+/**
+ * Check if a country's data was already collected today.
+ */
+export function shouldSkipCountry(
+  updatedAt: string | undefined,
+  today: string,
+): boolean {
+  if (!updatedAt) return false;
+  return updatedAt.split("T")[0] === today;
+}
+
+/**
  * Filter countries by code. Returns all if no filter provided.
  */
 export function filterCountries(

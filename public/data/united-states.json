@@ -1,0 +1,1302 @@
+{
+  "countryCode": "united-states",
+  "updatedAt": "2026-03-27T22:30:49.912Z",
+  "users": [
+    {
+      "login": "uni-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (United States)",
+      "company": "Apple",
+      "location": "San francisco",
+      "bio": "Developer from United States",
+      "followers": 5030,
+      "publicContributions": 35076,
+      "privateContributions": 69,
+      "languages": [
+        "Java",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-1-proj-1",
+          "description": "Open source utilities",
+          "stars": 81,
+          "language": "Java"
+        },
+        {
+          "name": "uni-dev-1-proj-2",
+          "description": "API wrapper",
+          "stars": 712,
+          "language": "TypeScript"
+        },
+        {
+          "name": "uni-dev-1-proj-3",
+          "description": "Data pipeline library",
+          "stars": 422,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": "uni-dev-1",
+      "blog": "https://uni-dev-1.dev"
+    },
+    {
+      "login": "uni-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (United States)",
+      "company": "Vercel",
+      "location": "United States",
+      "bio": "Developer from United States",
+      "followers": 4833,
+      "publicContributions": 33692,
+      "privateContributions": 487,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Java",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-2-proj-1",
+          "description": null,
+          "stars": 569,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "uni-dev-2",
+      "blog": null
+    },
+    {
+      "login": "uni-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (United States)",
+      "company": "Vercel",
+      "location": "Los angeles",
+      "bio": "Developer from United States",
+      "followers": 4650,
+      "publicContributions": 32461,
+      "privateContributions": 12,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-3-proj-1",
+          "description": "Open source utilities",
+          "stars": 179,
+          "language": "Dart"
+        },
+        {
+          "name": "uni-dev-3-proj-2",
+          "description": "Open source utilities",
+          "stars": 68,
+          "language": "Dart"
+        },
+        {
+          "name": "uni-dev-3-proj-3",
+          "description": "API wrapper",
+          "stars": 644,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "uni-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (United States)",
+      "company": "GitHub",
+      "location": "Seattle",
+      "bio": null,
+      "followers": 4445,
+      "publicContributions": 31242,
+      "privateContributions": 70,
+      "languages": [
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-4-proj-1",
+          "description": "API wrapper",
+          "stars": 1748,
+          "language": "PHP"
+        },
+        {
+          "name": "uni-dev-4-proj-2",
+          "description": null,
+          "stars": 1661,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "uni-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (United States)",
+      "company": "Vercel",
+      "location": "Los angeles",
+      "bio": null,
+      "followers": 4306,
+      "publicContributions": 29879,
+      "privateContributions": 452,
+      "languages": [
+        "Kotlin",
+        "Dart",
+        "TypeScript",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-5-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1462,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "uni-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (United States)",
+      "company": null,
+      "location": "Los angeles",
+      "bio": null,
+      "followers": 4108,
+      "publicContributions": 28805,
+      "privateContributions": 230,
+      "languages": [
+        "PHP",
+        "Kotlin",
+        "C++",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-6-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1642,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "uni-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (United States)",
+      "company": "Google",
+      "location": "Seattle",
+      "bio": null,
+      "followers": 3972,
+      "publicContributions": 27605,
+      "privateContributions": 144,
+      "languages": [
+        "Dart",
+        "Go",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-7-proj-1",
+          "description": "Data pipeline library",
+          "stars": 951,
+          "language": "Dart"
+        },
+        {
+          "name": "uni-dev-7-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 566,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "uni-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (United States)",
+      "company": "Meta",
+      "location": "San francisco",
+      "bio": null,
+      "followers": 3801,
+      "publicContributions": 26582,
+      "privateContributions": 480,
+      "languages": [
+        "Swift",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-8-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1376,
+          "language": "Swift"
+        },
+        {
+          "name": "uni-dev-8-proj-2",
+          "description": null,
+          "stars": 96,
+          "language": "TypeScript"
+        },
+        {
+          "name": "uni-dev-8-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 785,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "uni-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (United States)",
+      "company": "Meta",
+      "location": "United States",
+      "bio": null,
+      "followers": 3648,
+      "publicContributions": 25508,
+      "privateContributions": 4,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-9-proj-1",
+          "description": "Open source utilities",
+          "stars": 632,
+          "language": "Go"
+        },
+        {
+          "name": "uni-dev-9-proj-2",
+          "description": null,
+          "stars": 84,
+          "language": "Go"
+        },
+        {
+          "name": "uni-dev-9-proj-3",
+          "description": "Open source utilities",
+          "stars": 1243,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "uni-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (United States)",
+      "company": "Amazon",
+      "location": "San francisco",
+      "bio": null,
+      "followers": 3515,
+      "publicContributions": 24582,
+      "privateContributions": 140,
+      "languages": [
+        "Go",
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "uni-dev-10-proj-1",
+          "description": "Data pipeline library",
+          "stars": 93,
+          "language": "Go"
+        },
+        {
+          "name": "uni-dev-10-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1046,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "uni-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (United States)",
+        "company": "Apple",
+        "location": "San francisco",
+        "bio": "Developer from United States",
+        "followers": 5030,
+        "publicContributions": 35076,
+        "privateContributions": 69,
+        "languages": [
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 81,
+            "language": "Java"
+          },
+          {
+            "name": "uni-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 712,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 422,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "uni-dev-1",
+        "blog": "https://uni-dev-1.dev"
+      },
+      {
+        "login": "uni-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (United States)",
+        "company": "Vercel",
+        "location": "United States",
+        "bio": "Developer from United States",
+        "followers": 4833,
+        "publicContributions": 33692,
+        "privateContributions": 487,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-2-proj-1",
+            "description": null,
+            "stars": 569,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uni-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uni-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (United States)",
+        "company": "Vercel",
+        "location": "Los angeles",
+        "bio": "Developer from United States",
+        "followers": 4650,
+        "publicContributions": 32461,
+        "privateContributions": 12,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 179,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 68,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 644,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (United States)",
+        "company": "GitHub",
+        "location": "Seattle",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31242,
+        "privateContributions": 70,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1748,
+            "language": "PHP"
+          },
+          {
+            "name": "uni-dev-4-proj-2",
+            "description": null,
+            "stars": 1661,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (United States)",
+        "company": "Vercel",
+        "location": "Los angeles",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29879,
+        "privateContributions": 452,
+        "languages": [
+          "Kotlin",
+          "Dart",
+          "TypeScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1462,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (United States)",
+        "company": null,
+        "location": "Los angeles",
+        "bio": null,
+        "followers": 4108,
+        "publicContributions": 28805,
+        "privateContributions": 230,
+        "languages": [
+          "PHP",
+          "Kotlin",
+          "C++",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1642,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (United States)",
+        "company": "Google",
+        "location": "Seattle",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27605,
+        "privateContributions": 144,
+        "languages": [
+          "Dart",
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 951,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 566,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (United States)",
+        "company": "Meta",
+        "location": "San francisco",
+        "bio": null,
+        "followers": 3801,
+        "publicContributions": 26582,
+        "privateContributions": 480,
+        "languages": [
+          "Swift",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1376,
+            "language": "Swift"
+          },
+          {
+            "name": "uni-dev-8-proj-2",
+            "description": null,
+            "stars": 96,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 785,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (United States)",
+        "company": "Meta",
+        "location": "United States",
+        "bio": null,
+        "followers": 3648,
+        "publicContributions": 25508,
+        "privateContributions": 4,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 632,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-9-proj-2",
+            "description": null,
+            "stars": 84,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 1243,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (United States)",
+        "company": "Amazon",
+        "location": "San francisco",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24582,
+        "privateContributions": 140,
+        "languages": [
+          "Go",
+          "Python",
+          "JavaScript",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 93,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1046,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "uni-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (United States)",
+        "company": "Apple",
+        "location": "San francisco",
+        "bio": "Developer from United States",
+        "followers": 5030,
+        "publicContributions": 35076,
+        "privateContributions": 69,
+        "languages": [
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 81,
+            "language": "Java"
+          },
+          {
+            "name": "uni-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 712,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 422,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "uni-dev-1",
+        "blog": "https://uni-dev-1.dev"
+      },
+      {
+        "login": "uni-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (United States)",
+        "company": "Vercel",
+        "location": "United States",
+        "bio": "Developer from United States",
+        "followers": 4833,
+        "publicContributions": 33692,
+        "privateContributions": 487,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-2-proj-1",
+            "description": null,
+            "stars": 569,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uni-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uni-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (United States)",
+        "company": "Vercel",
+        "location": "Los angeles",
+        "bio": "Developer from United States",
+        "followers": 4650,
+        "publicContributions": 32461,
+        "privateContributions": 12,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 179,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 68,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 644,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (United States)",
+        "company": "GitHub",
+        "location": "Seattle",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31242,
+        "privateContributions": 70,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1748,
+            "language": "PHP"
+          },
+          {
+            "name": "uni-dev-4-proj-2",
+            "description": null,
+            "stars": 1661,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (United States)",
+        "company": "Vercel",
+        "location": "Los angeles",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29879,
+        "privateContributions": 452,
+        "languages": [
+          "Kotlin",
+          "Dart",
+          "TypeScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1462,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (United States)",
+        "company": null,
+        "location": "Los angeles",
+        "bio": null,
+        "followers": 4108,
+        "publicContributions": 28805,
+        "privateContributions": 230,
+        "languages": [
+          "PHP",
+          "Kotlin",
+          "C++",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1642,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (United States)",
+        "company": "Google",
+        "location": "Seattle",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27605,
+        "privateContributions": 144,
+        "languages": [
+          "Dart",
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 951,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 566,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (United States)",
+        "company": "Meta",
+        "location": "San francisco",
+        "bio": null,
+        "followers": 3801,
+        "publicContributions": 26582,
+        "privateContributions": 480,
+        "languages": [
+          "Swift",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1376,
+            "language": "Swift"
+          },
+          {
+            "name": "uni-dev-8-proj-2",
+            "description": null,
+            "stars": 96,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 785,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (United States)",
+        "company": "Meta",
+        "location": "United States",
+        "bio": null,
+        "followers": 3648,
+        "publicContributions": 25508,
+        "privateContributions": 4,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 632,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-9-proj-2",
+            "description": null,
+            "stars": 84,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 1243,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (United States)",
+        "company": "Amazon",
+        "location": "San francisco",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24582,
+        "privateContributions": 140,
+        "languages": [
+          "Go",
+          "Python",
+          "JavaScript",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 93,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1046,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "uni-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (United States)",
+        "company": "Apple",
+        "location": "San francisco",
+        "bio": "Developer from United States",
+        "followers": 5030,
+        "publicContributions": 35076,
+        "privateContributions": 69,
+        "languages": [
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 81,
+            "language": "Java"
+          },
+          {
+            "name": "uni-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 712,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 422,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "uni-dev-1",
+        "blog": "https://uni-dev-1.dev"
+      },
+      {
+        "login": "uni-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (United States)",
+        "company": "Vercel",
+        "location": "United States",
+        "bio": "Developer from United States",
+        "followers": 4833,
+        "publicContributions": 33692,
+        "privateContributions": 487,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-2-proj-1",
+            "description": null,
+            "stars": 569,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "uni-dev-2",
+        "blog": null
+      },
+      {
+        "login": "uni-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (United States)",
+        "company": "Vercel",
+        "location": "Los angeles",
+        "bio": "Developer from United States",
+        "followers": 4650,
+        "publicContributions": 32461,
+        "privateContributions": 12,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 179,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 68,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 644,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (United States)",
+        "company": "GitHub",
+        "location": "Seattle",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31242,
+        "privateContributions": 70,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 1748,
+            "language": "PHP"
+          },
+          {
+            "name": "uni-dev-4-proj-2",
+            "description": null,
+            "stars": 1661,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (United States)",
+        "company": "Vercel",
+        "location": "Los angeles",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29879,
+        "privateContributions": 452,
+        "languages": [
+          "Kotlin",
+          "Dart",
+          "TypeScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1462,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (United States)",
+        "company": null,
+        "location": "Los angeles",
+        "bio": null,
+        "followers": 4108,
+        "publicContributions": 28805,
+        "privateContributions": 230,
+        "languages": [
+          "PHP",
+          "Kotlin",
+          "C++",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1642,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (United States)",
+        "company": "Google",
+        "location": "Seattle",
+        "bio": null,
+        "followers": 3972,
+        "publicContributions": 27605,
+        "privateContributions": 144,
+        "languages": [
+          "Dart",
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 951,
+            "language": "Dart"
+          },
+          {
+            "name": "uni-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 566,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (United States)",
+        "company": "Meta",
+        "location": "San francisco",
+        "bio": null,
+        "followers": 3801,
+        "publicContributions": 26582,
+        "privateContributions": 480,
+        "languages": [
+          "Swift",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1376,
+            "language": "Swift"
+          },
+          {
+            "name": "uni-dev-8-proj-2",
+            "description": null,
+            "stars": 96,
+            "language": "TypeScript"
+          },
+          {
+            "name": "uni-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 785,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (United States)",
+        "company": "Meta",
+        "location": "United States",
+        "bio": null,
+        "followers": 3648,
+        "publicContributions": 25508,
+        "privateContributions": 4,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 632,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-9-proj-2",
+            "description": null,
+            "stars": 84,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 1243,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "uni-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (United States)",
+        "company": "Amazon",
+        "location": "San francisco",
+        "bio": null,
+        "followers": 3515,
+        "publicContributions": 24582,
+        "privateContributions": 140,
+        "languages": [
+          "Go",
+          "Python",
+          "JavaScript",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "uni-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 93,
+            "language": "Go"
+          },
+          {
+            "name": "uni-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1046,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

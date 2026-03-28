@@ -1,0 +1,1226 @@
+{
+  "countryCode": "russia",
+  "updatedAt": "2026-03-27T22:30:49.904Z",
+  "users": [
+    {
+      "login": "rus-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Russia)",
+      "company": "GitHub",
+      "location": "Moscow",
+      "bio": "Developer from Russia",
+      "followers": 5017,
+      "publicContributions": 35104,
+      "privateContributions": 220,
+      "languages": [
+        "C++",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-1-proj-1",
+          "description": "Open source utilities",
+          "stars": 1540,
+          "language": "C++"
+        },
+        {
+          "name": "rus-dev-1-proj-2",
+          "description": "Open source utilities",
+          "stars": 1297,
+          "language": "Ruby"
+        },
+        {
+          "name": "rus-dev-1-proj-3",
+          "description": "Data pipeline library",
+          "stars": 1709,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": "rus-dev-1",
+      "blog": "https://rus-dev-1.dev"
+    },
+    {
+      "login": "rus-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Russia)",
+      "company": "Google",
+      "location": "Russia",
+      "bio": "Developer from Russia",
+      "followers": 4837,
+      "publicContributions": 33782,
+      "privateContributions": 395,
+      "languages": [
+        "Ruby",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-2-proj-1",
+          "description": null,
+          "stars": 924,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": "rus-dev-2",
+      "blog": null
+    },
+    {
+      "login": "rus-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Russia)",
+      "company": "Amazon",
+      "location": "Saint petersburg",
+      "bio": "Developer from Russia",
+      "followers": 4627,
+      "publicContributions": 32493,
+      "privateContributions": 313,
+      "languages": [
+        "PHP",
+        "C++",
+        "Swift",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-3-proj-1",
+          "description": "Web framework for developers",
+          "stars": 670,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "rus-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Russia)",
+      "company": null,
+      "location": "Russia",
+      "bio": null,
+      "followers": 4482,
+      "publicContributions": 31124,
+      "privateContributions": 11,
+      "languages": [
+        "Ruby",
+        "TypeScript",
+        "JavaScript",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-4-proj-1",
+          "description": "Data pipeline library",
+          "stars": 519,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "rus-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Russia)",
+      "company": null,
+      "location": "Saint petersburg",
+      "bio": null,
+      "followers": 4283,
+      "publicContributions": 29976,
+      "privateContributions": 52,
+      "languages": [
+        "Ruby",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-5-proj-1",
+          "description": "API wrapper",
+          "stars": 1012,
+          "language": "Ruby"
+        },
+        {
+          "name": "rus-dev-5-proj-2",
+          "description": "Data pipeline library",
+          "stars": 397,
+          "language": "TypeScript"
+        },
+        {
+          "name": "rus-dev-5-proj-3",
+          "description": "Data pipeline library",
+          "stars": 709,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "rus-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Russia)",
+      "company": null,
+      "location": "Moscow",
+      "bio": null,
+      "followers": 4117,
+      "publicContributions": 28768,
+      "privateContributions": 292,
+      "languages": [
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-6-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 464,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "rus-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Russia)",
+      "company": "Meta",
+      "location": "Russia",
+      "bio": null,
+      "followers": 3980,
+      "publicContributions": 27671,
+      "privateContributions": 377,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-7-proj-1",
+          "description": "API wrapper",
+          "stars": 1122,
+          "language": "Go"
+        },
+        {
+          "name": "rus-dev-7-proj-2",
+          "description": "API wrapper",
+          "stars": 114,
+          "language": "Go"
+        },
+        {
+          "name": "rus-dev-7-proj-3",
+          "description": null,
+          "stars": 506,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "rus-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Russia)",
+      "company": "Vercel",
+      "location": "Russia",
+      "bio": null,
+      "followers": 3789,
+      "publicContributions": 26575,
+      "privateContributions": 343,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-8-proj-1",
+          "description": null,
+          "stars": 1392,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "rus-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Russia)",
+      "company": null,
+      "location": "Russia",
+      "bio": null,
+      "followers": 3680,
+      "publicContributions": 25513,
+      "privateContributions": 203,
+      "languages": [
+        "TypeScript",
+        "Go",
+        "Java",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1198,
+          "language": "TypeScript"
+        },
+        {
+          "name": "rus-dev-9-proj-2",
+          "description": "Data pipeline library",
+          "stars": 252,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "rus-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Russia)",
+      "company": "GitHub",
+      "location": "Russia",
+      "bio": null,
+      "followers": 3520,
+      "publicContributions": 24506,
+      "privateContributions": 310,
+      "languages": [
+        "TypeScript",
+        "Java",
+        "JavaScript",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "rus-dev-10-proj-1",
+          "description": "Open source utilities",
+          "stars": 516,
+          "language": "TypeScript"
+        },
+        {
+          "name": "rus-dev-10-proj-2",
+          "description": "Open source utilities",
+          "stars": 1120,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "rus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Russia)",
+        "company": "GitHub",
+        "location": "Moscow",
+        "bio": "Developer from Russia",
+        "followers": 5017,
+        "publicContributions": 35104,
+        "privateContributions": 220,
+        "languages": [
+          "C++",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1540,
+            "language": "C++"
+          },
+          {
+            "name": "rus-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1297,
+            "language": "Ruby"
+          },
+          {
+            "name": "rus-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1709,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "rus-dev-1",
+        "blog": "https://rus-dev-1.dev"
+      },
+      {
+        "login": "rus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Russia)",
+        "company": "Google",
+        "location": "Russia",
+        "bio": "Developer from Russia",
+        "followers": 4837,
+        "publicContributions": 33782,
+        "privateContributions": 395,
+        "languages": [
+          "Ruby",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-2-proj-1",
+            "description": null,
+            "stars": 924,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "rus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Russia)",
+        "company": "Amazon",
+        "location": "Saint petersburg",
+        "bio": "Developer from Russia",
+        "followers": 4627,
+        "publicContributions": 32493,
+        "privateContributions": 313,
+        "languages": [
+          "PHP",
+          "C++",
+          "Swift",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 670,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": null,
+        "followers": 4482,
+        "publicContributions": 31124,
+        "privateContributions": 11,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 519,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Russia)",
+        "company": null,
+        "location": "Saint petersburg",
+        "bio": null,
+        "followers": 4283,
+        "publicContributions": 29976,
+        "privateContributions": 52,
+        "languages": [
+          "Ruby",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1012,
+            "language": "Ruby"
+          },
+          {
+            "name": "rus-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 397,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 709,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Russia)",
+        "company": null,
+        "location": "Moscow",
+        "bio": null,
+        "followers": 4117,
+        "publicContributions": 28768,
+        "privateContributions": 292,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 464,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Russia)",
+        "company": "Meta",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3980,
+        "publicContributions": 27671,
+        "privateContributions": 377,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1122,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 114,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-7-proj-3",
+            "description": null,
+            "stars": 506,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Russia)",
+        "company": "Vercel",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26575,
+        "privateContributions": 343,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-8-proj-1",
+            "description": null,
+            "stars": 1392,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25513,
+        "privateContributions": 203,
+        "languages": [
+          "TypeScript",
+          "Go",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1198,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 252,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Russia)",
+        "company": "GitHub",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24506,
+        "privateContributions": 310,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 516,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1120,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "rus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Russia)",
+        "company": "GitHub",
+        "location": "Moscow",
+        "bio": "Developer from Russia",
+        "followers": 5017,
+        "publicContributions": 35104,
+        "privateContributions": 220,
+        "languages": [
+          "C++",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1540,
+            "language": "C++"
+          },
+          {
+            "name": "rus-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1297,
+            "language": "Ruby"
+          },
+          {
+            "name": "rus-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1709,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "rus-dev-1",
+        "blog": "https://rus-dev-1.dev"
+      },
+      {
+        "login": "rus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Russia)",
+        "company": "Google",
+        "location": "Russia",
+        "bio": "Developer from Russia",
+        "followers": 4837,
+        "publicContributions": 33782,
+        "privateContributions": 395,
+        "languages": [
+          "Ruby",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-2-proj-1",
+            "description": null,
+            "stars": 924,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "rus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Russia)",
+        "company": "Amazon",
+        "location": "Saint petersburg",
+        "bio": "Developer from Russia",
+        "followers": 4627,
+        "publicContributions": 32493,
+        "privateContributions": 313,
+        "languages": [
+          "PHP",
+          "C++",
+          "Swift",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 670,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": null,
+        "followers": 4482,
+        "publicContributions": 31124,
+        "privateContributions": 11,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 519,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Russia)",
+        "company": null,
+        "location": "Saint petersburg",
+        "bio": null,
+        "followers": 4283,
+        "publicContributions": 29976,
+        "privateContributions": 52,
+        "languages": [
+          "Ruby",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1012,
+            "language": "Ruby"
+          },
+          {
+            "name": "rus-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 397,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 709,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Russia)",
+        "company": null,
+        "location": "Moscow",
+        "bio": null,
+        "followers": 4117,
+        "publicContributions": 28768,
+        "privateContributions": 292,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 464,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Russia)",
+        "company": "Meta",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3980,
+        "publicContributions": 27671,
+        "privateContributions": 377,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1122,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 114,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-7-proj-3",
+            "description": null,
+            "stars": 506,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Russia)",
+        "company": "Vercel",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26575,
+        "privateContributions": 343,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-8-proj-1",
+            "description": null,
+            "stars": 1392,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25513,
+        "privateContributions": 203,
+        "languages": [
+          "TypeScript",
+          "Go",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1198,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 252,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Russia)",
+        "company": "GitHub",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24506,
+        "privateContributions": 310,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 516,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1120,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "rus-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Russia)",
+        "company": "GitHub",
+        "location": "Moscow",
+        "bio": "Developer from Russia",
+        "followers": 5017,
+        "publicContributions": 35104,
+        "privateContributions": 220,
+        "languages": [
+          "C++",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1540,
+            "language": "C++"
+          },
+          {
+            "name": "rus-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1297,
+            "language": "Ruby"
+          },
+          {
+            "name": "rus-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1709,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "rus-dev-1",
+        "blog": "https://rus-dev-1.dev"
+      },
+      {
+        "login": "rus-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Russia)",
+        "company": "Google",
+        "location": "Russia",
+        "bio": "Developer from Russia",
+        "followers": 4837,
+        "publicContributions": 33782,
+        "privateContributions": 395,
+        "languages": [
+          "Ruby",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-2-proj-1",
+            "description": null,
+            "stars": 924,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "rus-dev-2",
+        "blog": null
+      },
+      {
+        "login": "rus-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Russia)",
+        "company": "Amazon",
+        "location": "Saint petersburg",
+        "bio": "Developer from Russia",
+        "followers": 4627,
+        "publicContributions": 32493,
+        "privateContributions": 313,
+        "languages": [
+          "PHP",
+          "C++",
+          "Swift",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 670,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": null,
+        "followers": 4482,
+        "publicContributions": 31124,
+        "privateContributions": 11,
+        "languages": [
+          "Ruby",
+          "TypeScript",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 519,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Russia)",
+        "company": null,
+        "location": "Saint petersburg",
+        "bio": null,
+        "followers": 4283,
+        "publicContributions": 29976,
+        "privateContributions": 52,
+        "languages": [
+          "Ruby",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1012,
+            "language": "Ruby"
+          },
+          {
+            "name": "rus-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 397,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-5-proj-3",
+            "description": "Data pipeline library",
+            "stars": 709,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Russia)",
+        "company": null,
+        "location": "Moscow",
+        "bio": null,
+        "followers": 4117,
+        "publicContributions": 28768,
+        "privateContributions": 292,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 464,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Russia)",
+        "company": "Meta",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3980,
+        "publicContributions": 27671,
+        "privateContributions": 377,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1122,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 114,
+            "language": "Go"
+          },
+          {
+            "name": "rus-dev-7-proj-3",
+            "description": null,
+            "stars": 506,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Russia)",
+        "company": "Vercel",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3789,
+        "publicContributions": 26575,
+        "privateContributions": 343,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-8-proj-1",
+            "description": null,
+            "stars": 1392,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Russia)",
+        "company": null,
+        "location": "Russia",
+        "bio": null,
+        "followers": 3680,
+        "publicContributions": 25513,
+        "privateContributions": 203,
+        "languages": [
+          "TypeScript",
+          "Go",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1198,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 252,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "rus-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Russia)",
+        "company": "GitHub",
+        "location": "Russia",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24506,
+        "privateContributions": 310,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "rus-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 516,
+            "language": "TypeScript"
+          },
+          {
+            "name": "rus-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 1120,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

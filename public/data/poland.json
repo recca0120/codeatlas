@@ -1,0 +1,1190 @@
+{
+  "countryCode": "poland",
+  "updatedAt": "2026-03-27T22:30:49.903Z",
+  "users": [
+    {
+      "login": "pol-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Poland)",
+      "company": "Meta",
+      "location": "Wroclaw",
+      "bio": "Developer from Poland",
+      "followers": 5024,
+      "publicContributions": 35180,
+      "privateContributions": 437,
+      "languages": [
+        "JavaScript",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-1-proj-1",
+          "description": null,
+          "stars": 1422,
+          "language": "JavaScript"
+        },
+        {
+          "name": "pol-dev-1-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1889,
+          "language": "Ruby"
+        },
+        {
+          "name": "pol-dev-1-proj-3",
+          "description": "Open source utilities",
+          "stars": 1208,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": "pol-dev-1",
+      "blog": "https://pol-dev-1.dev"
+    },
+    {
+      "login": "pol-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Poland)",
+      "company": "Google",
+      "location": "Gdansk",
+      "bio": "Developer from Poland",
+      "followers": 4852,
+      "publicContributions": 33779,
+      "privateContributions": 477,
+      "languages": [
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-2-proj-1",
+          "description": "Open source utilities",
+          "stars": 111,
+          "language": "C++"
+        },
+        {
+          "name": "pol-dev-2-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1901,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": "pol-dev-2",
+      "blog": null
+    },
+    {
+      "login": "pol-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Poland)",
+      "company": "GitHub",
+      "location": "Krakow",
+      "bio": "Developer from Poland",
+      "followers": 4655,
+      "publicContributions": 32391,
+      "privateContributions": 133,
+      "languages": [
+        "JavaScript",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-3-proj-1",
+          "description": "Open source utilities",
+          "stars": 1168,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pol-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Poland)",
+      "company": "GitHub",
+      "location": "Warsaw",
+      "bio": null,
+      "followers": 4471,
+      "publicContributions": 31153,
+      "privateContributions": 38,
+      "languages": [
+        "Dart",
+        "Swift",
+        "Ruby",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-4-proj-1",
+          "description": "API wrapper",
+          "stars": 274,
+          "language": "Dart"
+        },
+        {
+          "name": "pol-dev-4-proj-2",
+          "description": "API wrapper",
+          "stars": 970,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pol-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Poland)",
+      "company": "Google",
+      "location": "Wroclaw",
+      "bio": null,
+      "followers": 4284,
+      "publicContributions": 29943,
+      "privateContributions": 253,
+      "languages": [
+        "Go",
+        "JavaScript",
+        "PHP",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-5-proj-1",
+          "description": "Data pipeline library",
+          "stars": 505,
+          "language": "Go"
+        },
+        {
+          "name": "pol-dev-5-proj-2",
+          "description": "Open source utilities",
+          "stars": 1602,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pol-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Poland)",
+      "company": null,
+      "location": "Krakow",
+      "bio": null,
+      "followers": 4109,
+      "publicContributions": 28801,
+      "privateContributions": 484,
+      "languages": [
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-6-proj-1",
+          "description": null,
+          "stars": 998,
+          "language": "Python"
+        },
+        {
+          "name": "pol-dev-6-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1526,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pol-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Poland)",
+      "company": "Apple",
+      "location": "Warsaw",
+      "bio": null,
+      "followers": 3977,
+      "publicContributions": 27598,
+      "privateContributions": 458,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-7-proj-1",
+          "description": "Open source utilities",
+          "stars": 1009,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pol-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Poland)",
+      "company": "Microsoft",
+      "location": "Wroclaw",
+      "bio": null,
+      "followers": 3797,
+      "publicContributions": 26502,
+      "privateContributions": 250,
+      "languages": [
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-8-proj-1",
+          "description": "Data pipeline library",
+          "stars": 306,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pol-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Poland)",
+      "company": "Vercel",
+      "location": "Warsaw",
+      "bio": null,
+      "followers": 3646,
+      "publicContributions": 25598,
+      "privateContributions": 419,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-9-proj-1",
+          "description": "Open source utilities",
+          "stars": 1239,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "pol-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Poland)",
+      "company": null,
+      "location": "Wroclaw",
+      "bio": null,
+      "followers": 3512,
+      "publicContributions": 24527,
+      "privateContributions": 483,
+      "languages": [
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "pol-dev-10-proj-1",
+          "description": null,
+          "stars": 233,
+          "language": "JavaScript"
+        },
+        {
+          "name": "pol-dev-10-proj-2",
+          "description": "Web framework for developers",
+          "stars": 358,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "pol-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Poland)",
+        "company": "Meta",
+        "location": "Wroclaw",
+        "bio": "Developer from Poland",
+        "followers": 5024,
+        "publicContributions": 35180,
+        "privateContributions": 437,
+        "languages": [
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-1-proj-1",
+            "description": null,
+            "stars": 1422,
+            "language": "JavaScript"
+          },
+          {
+            "name": "pol-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1889,
+            "language": "Ruby"
+          },
+          {
+            "name": "pol-dev-1-proj-3",
+            "description": "Open source utilities",
+            "stars": 1208,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "pol-dev-1",
+        "blog": "https://pol-dev-1.dev"
+      },
+      {
+        "login": "pol-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Poland)",
+        "company": "Google",
+        "location": "Gdansk",
+        "bio": "Developer from Poland",
+        "followers": 4852,
+        "publicContributions": 33779,
+        "privateContributions": 477,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 111,
+            "language": "C++"
+          },
+          {
+            "name": "pol-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1901,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "pol-dev-2",
+        "blog": null
+      },
+      {
+        "login": "pol-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Poland)",
+        "company": "GitHub",
+        "location": "Krakow",
+        "bio": "Developer from Poland",
+        "followers": 4655,
+        "publicContributions": 32391,
+        "privateContributions": 133,
+        "languages": [
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1168,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Poland)",
+        "company": "GitHub",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 4471,
+        "publicContributions": 31153,
+        "privateContributions": 38,
+        "languages": [
+          "Dart",
+          "Swift",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 274,
+            "language": "Dart"
+          },
+          {
+            "name": "pol-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 970,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Poland)",
+        "company": "Google",
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29943,
+        "privateContributions": 253,
+        "languages": [
+          "Go",
+          "JavaScript",
+          "PHP",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 505,
+            "language": "Go"
+          },
+          {
+            "name": "pol-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1602,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Poland)",
+        "company": null,
+        "location": "Krakow",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28801,
+        "privateContributions": 484,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-6-proj-1",
+            "description": null,
+            "stars": 998,
+            "language": "Python"
+          },
+          {
+            "name": "pol-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1526,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Poland)",
+        "company": "Apple",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 3977,
+        "publicContributions": 27598,
+        "privateContributions": 458,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1009,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Poland)",
+        "company": "Microsoft",
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 3797,
+        "publicContributions": 26502,
+        "privateContributions": 250,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 306,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Poland)",
+        "company": "Vercel",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25598,
+        "privateContributions": 419,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1239,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Poland)",
+        "company": null,
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 3512,
+        "publicContributions": 24527,
+        "privateContributions": 483,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-10-proj-1",
+            "description": null,
+            "stars": 233,
+            "language": "JavaScript"
+          },
+          {
+            "name": "pol-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 358,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "pol-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Poland)",
+        "company": "Meta",
+        "location": "Wroclaw",
+        "bio": "Developer from Poland",
+        "followers": 5024,
+        "publicContributions": 35180,
+        "privateContributions": 437,
+        "languages": [
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-1-proj-1",
+            "description": null,
+            "stars": 1422,
+            "language": "JavaScript"
+          },
+          {
+            "name": "pol-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1889,
+            "language": "Ruby"
+          },
+          {
+            "name": "pol-dev-1-proj-3",
+            "description": "Open source utilities",
+            "stars": 1208,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "pol-dev-1",
+        "blog": "https://pol-dev-1.dev"
+      },
+      {
+        "login": "pol-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Poland)",
+        "company": "Google",
+        "location": "Gdansk",
+        "bio": "Developer from Poland",
+        "followers": 4852,
+        "publicContributions": 33779,
+        "privateContributions": 477,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 111,
+            "language": "C++"
+          },
+          {
+            "name": "pol-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1901,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "pol-dev-2",
+        "blog": null
+      },
+      {
+        "login": "pol-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Poland)",
+        "company": "GitHub",
+        "location": "Krakow",
+        "bio": "Developer from Poland",
+        "followers": 4655,
+        "publicContributions": 32391,
+        "privateContributions": 133,
+        "languages": [
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1168,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Poland)",
+        "company": "GitHub",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 4471,
+        "publicContributions": 31153,
+        "privateContributions": 38,
+        "languages": [
+          "Dart",
+          "Swift",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 274,
+            "language": "Dart"
+          },
+          {
+            "name": "pol-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 970,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Poland)",
+        "company": "Google",
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29943,
+        "privateContributions": 253,
+        "languages": [
+          "Go",
+          "JavaScript",
+          "PHP",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 505,
+            "language": "Go"
+          },
+          {
+            "name": "pol-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1602,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Poland)",
+        "company": null,
+        "location": "Krakow",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28801,
+        "privateContributions": 484,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-6-proj-1",
+            "description": null,
+            "stars": 998,
+            "language": "Python"
+          },
+          {
+            "name": "pol-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1526,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Poland)",
+        "company": "Apple",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 3977,
+        "publicContributions": 27598,
+        "privateContributions": 458,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1009,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Poland)",
+        "company": "Microsoft",
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 3797,
+        "publicContributions": 26502,
+        "privateContributions": 250,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 306,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Poland)",
+        "company": "Vercel",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25598,
+        "privateContributions": 419,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1239,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Poland)",
+        "company": null,
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 3512,
+        "publicContributions": 24527,
+        "privateContributions": 483,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-10-proj-1",
+            "description": null,
+            "stars": 233,
+            "language": "JavaScript"
+          },
+          {
+            "name": "pol-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 358,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "pol-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Poland)",
+        "company": "Meta",
+        "location": "Wroclaw",
+        "bio": "Developer from Poland",
+        "followers": 5024,
+        "publicContributions": 35180,
+        "privateContributions": 437,
+        "languages": [
+          "JavaScript",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-1-proj-1",
+            "description": null,
+            "stars": 1422,
+            "language": "JavaScript"
+          },
+          {
+            "name": "pol-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1889,
+            "language": "Ruby"
+          },
+          {
+            "name": "pol-dev-1-proj-3",
+            "description": "Open source utilities",
+            "stars": 1208,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "pol-dev-1",
+        "blog": "https://pol-dev-1.dev"
+      },
+      {
+        "login": "pol-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Poland)",
+        "company": "Google",
+        "location": "Gdansk",
+        "bio": "Developer from Poland",
+        "followers": 4852,
+        "publicContributions": 33779,
+        "privateContributions": 477,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 111,
+            "language": "C++"
+          },
+          {
+            "name": "pol-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1901,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "pol-dev-2",
+        "blog": null
+      },
+      {
+        "login": "pol-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Poland)",
+        "company": "GitHub",
+        "location": "Krakow",
+        "bio": "Developer from Poland",
+        "followers": 4655,
+        "publicContributions": 32391,
+        "privateContributions": 133,
+        "languages": [
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1168,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Poland)",
+        "company": "GitHub",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 4471,
+        "publicContributions": 31153,
+        "privateContributions": 38,
+        "languages": [
+          "Dart",
+          "Swift",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 274,
+            "language": "Dart"
+          },
+          {
+            "name": "pol-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 970,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Poland)",
+        "company": "Google",
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29943,
+        "privateContributions": 253,
+        "languages": [
+          "Go",
+          "JavaScript",
+          "PHP",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 505,
+            "language": "Go"
+          },
+          {
+            "name": "pol-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 1602,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Poland)",
+        "company": null,
+        "location": "Krakow",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28801,
+        "privateContributions": 484,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-6-proj-1",
+            "description": null,
+            "stars": 998,
+            "language": "Python"
+          },
+          {
+            "name": "pol-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1526,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Poland)",
+        "company": "Apple",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 3977,
+        "publicContributions": 27598,
+        "privateContributions": 458,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 1009,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Poland)",
+        "company": "Microsoft",
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 3797,
+        "publicContributions": 26502,
+        "privateContributions": 250,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 306,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Poland)",
+        "company": "Vercel",
+        "location": "Warsaw",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25598,
+        "privateContributions": 419,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 1239,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "pol-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Poland)",
+        "company": null,
+        "location": "Wroclaw",
+        "bio": null,
+        "followers": 3512,
+        "publicContributions": 24527,
+        "privateContributions": 483,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "pol-dev-10-proj-1",
+            "description": null,
+            "stars": 233,
+            "language": "JavaScript"
+          },
+          {
+            "name": "pol-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 358,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

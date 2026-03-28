@@ -1,0 +1,1178 @@
+{
+  "countryCode": "south-korea",
+  "updatedAt": "2026-03-27T22:30:49.907Z",
+  "users": [
+    {
+      "login": "sou-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (South Korea)",
+      "company": "GitHub",
+      "location": "Incheon",
+      "bio": "Developer from South Korea",
+      "followers": 5017,
+      "publicContributions": 35165,
+      "privateContributions": 114,
+      "languages": [
+        "Python",
+        "Java",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-1-proj-1",
+          "description": "Data pipeline library",
+          "stars": 610,
+          "language": "Python"
+        },
+        {
+          "name": "sou-dev-1-proj-2",
+          "description": "Open source utilities",
+          "stars": 1058,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": "sou-dev-1",
+      "blog": "https://sou-dev-1.dev"
+    },
+    {
+      "login": "sou-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (South Korea)",
+      "company": "Apple",
+      "location": "Busan",
+      "bio": "Developer from South Korea",
+      "followers": 4845,
+      "publicContributions": 33749,
+      "privateContributions": 181,
+      "languages": [
+        "Go",
+        "Python",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-2-proj-1",
+          "description": "API wrapper",
+          "stars": 1202,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "sou-dev-2",
+      "blog": null
+    },
+    {
+      "login": "sou-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (South Korea)",
+      "company": "Google",
+      "location": "Incheon",
+      "bio": "Developer from South Korea",
+      "followers": 4626,
+      "publicContributions": 32470,
+      "privateContributions": 65,
+      "languages": [
+        "TypeScript",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-3-proj-1",
+          "description": "Data pipeline library",
+          "stars": 615,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "sou-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (South Korea)",
+      "company": null,
+      "location": "Seoul",
+      "bio": null,
+      "followers": 4476,
+      "publicContributions": 31195,
+      "privateContributions": 289,
+      "languages": [
+        "TypeScript",
+        "Go",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-4-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 159,
+          "language": "TypeScript"
+        },
+        {
+          "name": "sou-dev-4-proj-2",
+          "description": "Open source utilities",
+          "stars": 503,
+          "language": "Go"
+        },
+        {
+          "name": "sou-dev-4-proj-3",
+          "description": "Data pipeline library",
+          "stars": 961,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "sou-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (South Korea)",
+      "company": null,
+      "location": "Busan",
+      "bio": null,
+      "followers": 4281,
+      "publicContributions": 30023,
+      "privateContributions": 226,
+      "languages": [
+        "Dart",
+        "Go",
+        "PHP",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-5-proj-1",
+          "description": "Web framework for developers",
+          "stars": 935,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "sou-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (South Korea)",
+      "company": null,
+      "location": "South Korea",
+      "bio": null,
+      "followers": 4121,
+      "publicContributions": 28776,
+      "privateContributions": 370,
+      "languages": [
+        "Go",
+        "Swift",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-6-proj-1",
+          "description": "Web framework for developers",
+          "stars": 625,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "sou-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (South Korea)",
+      "company": "Microsoft",
+      "location": "Seoul",
+      "bio": null,
+      "followers": 3947,
+      "publicContributions": 27688,
+      "privateContributions": 332,
+      "languages": [
+        "Python",
+        "PHP",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-7-proj-1",
+          "description": "API wrapper",
+          "stars": 1450,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "sou-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (South Korea)",
+      "company": "Vercel",
+      "location": "Seoul",
+      "bio": null,
+      "followers": 3816,
+      "publicContributions": 26643,
+      "privateContributions": 364,
+      "languages": [
+        "C++",
+        "Go",
+        "Python",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-8-proj-1",
+          "description": "Data pipeline library",
+          "stars": 561,
+          "language": "C++"
+        },
+        {
+          "name": "sou-dev-8-proj-2",
+          "description": "Data pipeline library",
+          "stars": 78,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "sou-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (South Korea)",
+      "company": "Amazon",
+      "location": "Seoul",
+      "bio": null,
+      "followers": 3652,
+      "publicContributions": 25497,
+      "privateContributions": 477,
+      "languages": [
+        "Go",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-9-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1032,
+          "language": "Go"
+        },
+        {
+          "name": "sou-dev-9-proj-2",
+          "description": "Open source utilities",
+          "stars": 1011,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "sou-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (South Korea)",
+      "company": "Vercel",
+      "location": "Busan",
+      "bio": null,
+      "followers": 3509,
+      "publicContributions": 24505,
+      "privateContributions": 411,
+      "languages": [
+        "Python",
+        "Java",
+        "Dart",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "sou-dev-10-proj-1",
+          "description": null,
+          "stars": 332,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "sou-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (South Korea)",
+        "company": "GitHub",
+        "location": "Incheon",
+        "bio": "Developer from South Korea",
+        "followers": 5017,
+        "publicContributions": 35165,
+        "privateContributions": 114,
+        "languages": [
+          "Python",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 610,
+            "language": "Python"
+          },
+          {
+            "name": "sou-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1058,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "sou-dev-1",
+        "blog": "https://sou-dev-1.dev"
+      },
+      {
+        "login": "sou-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (South Korea)",
+        "company": "Apple",
+        "location": "Busan",
+        "bio": "Developer from South Korea",
+        "followers": 4845,
+        "publicContributions": 33749,
+        "privateContributions": 181,
+        "languages": [
+          "Go",
+          "Python",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1202,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "sou-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sou-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (South Korea)",
+        "company": "Google",
+        "location": "Incheon",
+        "bio": "Developer from South Korea",
+        "followers": 4626,
+        "publicContributions": 32470,
+        "privateContributions": 65,
+        "languages": [
+          "TypeScript",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 615,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (South Korea)",
+        "company": null,
+        "location": "Seoul",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31195,
+        "privateContributions": 289,
+        "languages": [
+          "TypeScript",
+          "Go",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 159,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sou-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 503,
+            "language": "Go"
+          },
+          {
+            "name": "sou-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 961,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (South Korea)",
+        "company": null,
+        "location": "Busan",
+        "bio": null,
+        "followers": 4281,
+        "publicContributions": 30023,
+        "privateContributions": 226,
+        "languages": [
+          "Dart",
+          "Go",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 935,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (South Korea)",
+        "company": null,
+        "location": "South Korea",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28776,
+        "privateContributions": 370,
+        "languages": [
+          "Go",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 625,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (South Korea)",
+        "company": "Microsoft",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3947,
+        "publicContributions": 27688,
+        "privateContributions": 332,
+        "languages": [
+          "Python",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1450,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (South Korea)",
+        "company": "Vercel",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26643,
+        "privateContributions": 364,
+        "languages": [
+          "C++",
+          "Go",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 561,
+            "language": "C++"
+          },
+          {
+            "name": "sou-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 78,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (South Korea)",
+        "company": "Amazon",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3652,
+        "publicContributions": 25497,
+        "privateContributions": 477,
+        "languages": [
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1032,
+            "language": "Go"
+          },
+          {
+            "name": "sou-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 1011,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (South Korea)",
+        "company": "Vercel",
+        "location": "Busan",
+        "bio": null,
+        "followers": 3509,
+        "publicContributions": 24505,
+        "privateContributions": 411,
+        "languages": [
+          "Python",
+          "Java",
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-10-proj-1",
+            "description": null,
+            "stars": 332,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "sou-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (South Korea)",
+        "company": "GitHub",
+        "location": "Incheon",
+        "bio": "Developer from South Korea",
+        "followers": 5017,
+        "publicContributions": 35165,
+        "privateContributions": 114,
+        "languages": [
+          "Python",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 610,
+            "language": "Python"
+          },
+          {
+            "name": "sou-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1058,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "sou-dev-1",
+        "blog": "https://sou-dev-1.dev"
+      },
+      {
+        "login": "sou-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (South Korea)",
+        "company": "Apple",
+        "location": "Busan",
+        "bio": "Developer from South Korea",
+        "followers": 4845,
+        "publicContributions": 33749,
+        "privateContributions": 181,
+        "languages": [
+          "Go",
+          "Python",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1202,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "sou-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sou-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (South Korea)",
+        "company": "Google",
+        "location": "Incheon",
+        "bio": "Developer from South Korea",
+        "followers": 4626,
+        "publicContributions": 32470,
+        "privateContributions": 65,
+        "languages": [
+          "TypeScript",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 615,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (South Korea)",
+        "company": null,
+        "location": "Seoul",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31195,
+        "privateContributions": 289,
+        "languages": [
+          "TypeScript",
+          "Go",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 159,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sou-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 503,
+            "language": "Go"
+          },
+          {
+            "name": "sou-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 961,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (South Korea)",
+        "company": null,
+        "location": "Busan",
+        "bio": null,
+        "followers": 4281,
+        "publicContributions": 30023,
+        "privateContributions": 226,
+        "languages": [
+          "Dart",
+          "Go",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 935,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (South Korea)",
+        "company": null,
+        "location": "South Korea",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28776,
+        "privateContributions": 370,
+        "languages": [
+          "Go",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 625,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (South Korea)",
+        "company": "Microsoft",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3947,
+        "publicContributions": 27688,
+        "privateContributions": 332,
+        "languages": [
+          "Python",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1450,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (South Korea)",
+        "company": "Vercel",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26643,
+        "privateContributions": 364,
+        "languages": [
+          "C++",
+          "Go",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 561,
+            "language": "C++"
+          },
+          {
+            "name": "sou-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 78,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (South Korea)",
+        "company": "Amazon",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3652,
+        "publicContributions": 25497,
+        "privateContributions": 477,
+        "languages": [
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1032,
+            "language": "Go"
+          },
+          {
+            "name": "sou-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 1011,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (South Korea)",
+        "company": "Vercel",
+        "location": "Busan",
+        "bio": null,
+        "followers": 3509,
+        "publicContributions": 24505,
+        "privateContributions": 411,
+        "languages": [
+          "Python",
+          "Java",
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-10-proj-1",
+            "description": null,
+            "stars": 332,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "sou-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (South Korea)",
+        "company": "GitHub",
+        "location": "Incheon",
+        "bio": "Developer from South Korea",
+        "followers": 5017,
+        "publicContributions": 35165,
+        "privateContributions": 114,
+        "languages": [
+          "Python",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 610,
+            "language": "Python"
+          },
+          {
+            "name": "sou-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1058,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "sou-dev-1",
+        "blog": "https://sou-dev-1.dev"
+      },
+      {
+        "login": "sou-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (South Korea)",
+        "company": "Apple",
+        "location": "Busan",
+        "bio": "Developer from South Korea",
+        "followers": 4845,
+        "publicContributions": 33749,
+        "privateContributions": 181,
+        "languages": [
+          "Go",
+          "Python",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1202,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "sou-dev-2",
+        "blog": null
+      },
+      {
+        "login": "sou-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (South Korea)",
+        "company": "Google",
+        "location": "Incheon",
+        "bio": "Developer from South Korea",
+        "followers": 4626,
+        "publicContributions": 32470,
+        "privateContributions": 65,
+        "languages": [
+          "TypeScript",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 615,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (South Korea)",
+        "company": null,
+        "location": "Seoul",
+        "bio": null,
+        "followers": 4476,
+        "publicContributions": 31195,
+        "privateContributions": 289,
+        "languages": [
+          "TypeScript",
+          "Go",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 159,
+            "language": "TypeScript"
+          },
+          {
+            "name": "sou-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 503,
+            "language": "Go"
+          },
+          {
+            "name": "sou-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 961,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (South Korea)",
+        "company": null,
+        "location": "Busan",
+        "bio": null,
+        "followers": 4281,
+        "publicContributions": 30023,
+        "privateContributions": 226,
+        "languages": [
+          "Dart",
+          "Go",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 935,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (South Korea)",
+        "company": null,
+        "location": "South Korea",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28776,
+        "privateContributions": 370,
+        "languages": [
+          "Go",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 625,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (South Korea)",
+        "company": "Microsoft",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3947,
+        "publicContributions": 27688,
+        "privateContributions": 332,
+        "languages": [
+          "Python",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1450,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (South Korea)",
+        "company": "Vercel",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26643,
+        "privateContributions": 364,
+        "languages": [
+          "C++",
+          "Go",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-8-proj-1",
+            "description": "Data pipeline library",
+            "stars": 561,
+            "language": "C++"
+          },
+          {
+            "name": "sou-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 78,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (South Korea)",
+        "company": "Amazon",
+        "location": "Seoul",
+        "bio": null,
+        "followers": 3652,
+        "publicContributions": 25497,
+        "privateContributions": 477,
+        "languages": [
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1032,
+            "language": "Go"
+          },
+          {
+            "name": "sou-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 1011,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "sou-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (South Korea)",
+        "company": "Vercel",
+        "location": "Busan",
+        "bio": null,
+        "followers": 3509,
+        "publicContributions": 24505,
+        "privateContributions": 411,
+        "languages": [
+          "Python",
+          "Java",
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "sou-dev-10-proj-1",
+            "description": null,
+            "stars": 332,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

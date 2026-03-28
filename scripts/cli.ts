@@ -4,6 +4,7 @@ import {
   buildOutputPath,
   filterCountries,
   generateFakeUsers,
+  prioritizeCountry,
 } from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
 import { buildCountryData } from "../src/lib/data-output";
@@ -108,5 +109,19 @@ addSharedOptions(
 
   console.log(`\nDone! ${countries.length} countries × ${limit} users.`);
 });
+
+// ── list-countries ──
+program
+  .command("list-countries")
+  .description("list country codes (space-separated)")
+  .option("-p, --priority <code>", "move this country to the front")
+  .action(async (opts: { priority?: string }) => {
+    const all = await loadAllCountryConfigs("config/countries.json");
+    let codes = all.map((c) => c.code);
+    if (opts.priority) {
+      codes = prioritizeCountry(codes, opts.priority);
+    }
+    console.log(codes.join(" "));
+  });
 
 program.parse();

@@ -1,0 +1,1294 @@
+{
+  "countryCode": "kuwait",
+  "updatedAt": "2026-03-27T22:30:49.895Z",
+  "users": [
+    {
+      "login": "kuw-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Kuwait)",
+      "company": null,
+      "location": "Kuwait",
+      "bio": "Developer from Kuwait",
+      "followers": 5023,
+      "publicContributions": 35199,
+      "privateContributions": 186,
+      "languages": [
+        "Go",
+        "Kotlin",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-1-proj-1",
+          "description": null,
+          "stars": 352,
+          "language": "Go"
+        },
+        {
+          "name": "kuw-dev-1-proj-2",
+          "description": "Open source utilities",
+          "stars": 1534,
+          "language": "Kotlin"
+        },
+        {
+          "name": "kuw-dev-1-proj-3",
+          "description": "Data pipeline library",
+          "stars": 593,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": "kuw-dev-1",
+      "blog": "https://kuw-dev-1.dev"
+    },
+    {
+      "login": "kuw-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Kuwait)",
+      "company": null,
+      "location": "Kuwait city",
+      "bio": "Developer from Kuwait",
+      "followers": 4849,
+      "publicContributions": 33683,
+      "privateContributions": 320,
+      "languages": [
+        "C++",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-2-proj-1",
+          "description": "API wrapper",
+          "stars": 962,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": "kuw-dev-2",
+      "blog": null
+    },
+    {
+      "login": "kuw-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Kuwait)",
+      "company": null,
+      "location": "Kuwait city",
+      "bio": "Developer from Kuwait",
+      "followers": 4628,
+      "publicContributions": 32446,
+      "privateContributions": 269,
+      "languages": [
+        "Ruby",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-3-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1198,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "kuw-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Kuwait)",
+      "company": null,
+      "location": "Kuwait city",
+      "bio": null,
+      "followers": 4457,
+      "publicContributions": 31190,
+      "privateContributions": 85,
+      "languages": [
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-4-proj-1",
+          "description": "API wrapper",
+          "stars": 603,
+          "language": "C++"
+        },
+        {
+          "name": "kuw-dev-4-proj-2",
+          "description": null,
+          "stars": 1468,
+          "language": "C++"
+        },
+        {
+          "name": "kuw-dev-4-proj-3",
+          "description": "Web framework for developers",
+          "stars": 430,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "kuw-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Kuwait)",
+      "company": "Vercel",
+      "location": "Kuwait",
+      "bio": null,
+      "followers": 4299,
+      "publicContributions": 29948,
+      "privateContributions": 155,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-5-proj-1",
+          "description": "API wrapper",
+          "stars": 270,
+          "language": "Kotlin"
+        },
+        {
+          "name": "kuw-dev-5-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1029,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "kuw-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Kuwait)",
+      "company": "Amazon",
+      "location": "Kuwait city",
+      "bio": null,
+      "followers": 4111,
+      "publicContributions": 28829,
+      "privateContributions": 61,
+      "languages": [
+        "JavaScript",
+        "C++",
+        "Swift",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-6-proj-1",
+          "description": null,
+          "stars": 1009,
+          "language": "JavaScript"
+        },
+        {
+          "name": "kuw-dev-6-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 827,
+          "language": "C++"
+        },
+        {
+          "name": "kuw-dev-6-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 914,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "kuw-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Kuwait)",
+      "company": "Google",
+      "location": "Kuwait city",
+      "bio": null,
+      "followers": 3979,
+      "publicContributions": 27629,
+      "privateContributions": 484,
+      "languages": [
+        "Swift",
+        "PHP",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-7-proj-1",
+          "description": "Open source utilities",
+          "stars": 430,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "kuw-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Kuwait)",
+      "company": "Stripe",
+      "location": "Kuwait",
+      "bio": null,
+      "followers": 3800,
+      "publicContributions": 26605,
+      "privateContributions": 487,
+      "languages": [
+        "TypeScript",
+        "Rust",
+        "Ruby",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-8-proj-1",
+          "description": "Open source utilities",
+          "stars": 452,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "kuw-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Kuwait)",
+      "company": "Meta",
+      "location": "Kuwait city",
+      "bio": null,
+      "followers": 3650,
+      "publicContributions": 25587,
+      "privateContributions": 469,
+      "languages": [
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 648,
+          "language": "Ruby"
+        },
+        {
+          "name": "kuw-dev-9-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1042,
+          "language": "Ruby"
+        },
+        {
+          "name": "kuw-dev-9-proj-3",
+          "description": "Web framework for developers",
+          "stars": 681,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "kuw-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Kuwait)",
+      "company": "Vercel",
+      "location": "Kuwait city",
+      "bio": null,
+      "followers": 3532,
+      "publicContributions": 24597,
+      "privateContributions": 103,
+      "languages": [
+        "Go",
+        "Swift",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "kuw-dev-10-proj-1",
+          "description": null,
+          "stars": 424,
+          "language": "Go"
+        },
+        {
+          "name": "kuw-dev-10-proj-2",
+          "description": "API wrapper",
+          "stars": 992,
+          "language": "Swift"
+        },
+        {
+          "name": "kuw-dev-10-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 617,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "kuw-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Kuwait)",
+        "company": null,
+        "location": "Kuwait",
+        "bio": "Developer from Kuwait",
+        "followers": 5023,
+        "publicContributions": 35199,
+        "privateContributions": 186,
+        "languages": [
+          "Go",
+          "Kotlin",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-1-proj-1",
+            "description": null,
+            "stars": 352,
+            "language": "Go"
+          },
+          {
+            "name": "kuw-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1534,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kuw-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 593,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "kuw-dev-1",
+        "blog": "https://kuw-dev-1.dev"
+      },
+      {
+        "login": "kuw-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": "Developer from Kuwait",
+        "followers": 4849,
+        "publicContributions": 33683,
+        "privateContributions": 320,
+        "languages": [
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 962,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "kuw-dev-2",
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": "Developer from Kuwait",
+        "followers": 4628,
+        "publicContributions": 32446,
+        "privateContributions": 269,
+        "languages": [
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1198,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 4457,
+        "publicContributions": 31190,
+        "privateContributions": 85,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 603,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-4-proj-2",
+            "description": null,
+            "stars": 1468,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-4-proj-3",
+            "description": "Web framework for developers",
+            "stars": 430,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Kuwait)",
+        "company": "Vercel",
+        "location": "Kuwait",
+        "bio": null,
+        "followers": 4299,
+        "publicContributions": 29948,
+        "privateContributions": 155,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 270,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kuw-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1029,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Kuwait)",
+        "company": "Amazon",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28829,
+        "privateContributions": 61,
+        "languages": [
+          "JavaScript",
+          "C++",
+          "Swift",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-6-proj-1",
+            "description": null,
+            "stars": 1009,
+            "language": "JavaScript"
+          },
+          {
+            "name": "kuw-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 827,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-6-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 914,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Kuwait)",
+        "company": "Google",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3979,
+        "publicContributions": 27629,
+        "privateContributions": 484,
+        "languages": [
+          "Swift",
+          "PHP",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 430,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Kuwait)",
+        "company": "Stripe",
+        "location": "Kuwait",
+        "bio": null,
+        "followers": 3800,
+        "publicContributions": 26605,
+        "privateContributions": 487,
+        "languages": [
+          "TypeScript",
+          "Rust",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 452,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Kuwait)",
+        "company": "Meta",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3650,
+        "publicContributions": 25587,
+        "privateContributions": 469,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 648,
+            "language": "Ruby"
+          },
+          {
+            "name": "kuw-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1042,
+            "language": "Ruby"
+          },
+          {
+            "name": "kuw-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 681,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Kuwait)",
+        "company": "Vercel",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3532,
+        "publicContributions": 24597,
+        "privateContributions": 103,
+        "languages": [
+          "Go",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-10-proj-1",
+            "description": null,
+            "stars": 424,
+            "language": "Go"
+          },
+          {
+            "name": "kuw-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 992,
+            "language": "Swift"
+          },
+          {
+            "name": "kuw-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 617,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "kuw-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Kuwait)",
+        "company": null,
+        "location": "Kuwait",
+        "bio": "Developer from Kuwait",
+        "followers": 5023,
+        "publicContributions": 35199,
+        "privateContributions": 186,
+        "languages": [
+          "Go",
+          "Kotlin",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-1-proj-1",
+            "description": null,
+            "stars": 352,
+            "language": "Go"
+          },
+          {
+            "name": "kuw-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1534,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kuw-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 593,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "kuw-dev-1",
+        "blog": "https://kuw-dev-1.dev"
+      },
+      {
+        "login": "kuw-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": "Developer from Kuwait",
+        "followers": 4849,
+        "publicContributions": 33683,
+        "privateContributions": 320,
+        "languages": [
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 962,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "kuw-dev-2",
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": "Developer from Kuwait",
+        "followers": 4628,
+        "publicContributions": 32446,
+        "privateContributions": 269,
+        "languages": [
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1198,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 4457,
+        "publicContributions": 31190,
+        "privateContributions": 85,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 603,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-4-proj-2",
+            "description": null,
+            "stars": 1468,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-4-proj-3",
+            "description": "Web framework for developers",
+            "stars": 430,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Kuwait)",
+        "company": "Vercel",
+        "location": "Kuwait",
+        "bio": null,
+        "followers": 4299,
+        "publicContributions": 29948,
+        "privateContributions": 155,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 270,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kuw-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1029,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Kuwait)",
+        "company": "Amazon",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28829,
+        "privateContributions": 61,
+        "languages": [
+          "JavaScript",
+          "C++",
+          "Swift",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-6-proj-1",
+            "description": null,
+            "stars": 1009,
+            "language": "JavaScript"
+          },
+          {
+            "name": "kuw-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 827,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-6-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 914,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Kuwait)",
+        "company": "Google",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3979,
+        "publicContributions": 27629,
+        "privateContributions": 484,
+        "languages": [
+          "Swift",
+          "PHP",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 430,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Kuwait)",
+        "company": "Stripe",
+        "location": "Kuwait",
+        "bio": null,
+        "followers": 3800,
+        "publicContributions": 26605,
+        "privateContributions": 487,
+        "languages": [
+          "TypeScript",
+          "Rust",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 452,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Kuwait)",
+        "company": "Meta",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3650,
+        "publicContributions": 25587,
+        "privateContributions": 469,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 648,
+            "language": "Ruby"
+          },
+          {
+            "name": "kuw-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1042,
+            "language": "Ruby"
+          },
+          {
+            "name": "kuw-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 681,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Kuwait)",
+        "company": "Vercel",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3532,
+        "publicContributions": 24597,
+        "privateContributions": 103,
+        "languages": [
+          "Go",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-10-proj-1",
+            "description": null,
+            "stars": 424,
+            "language": "Go"
+          },
+          {
+            "name": "kuw-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 992,
+            "language": "Swift"
+          },
+          {
+            "name": "kuw-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 617,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "kuw-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Kuwait)",
+        "company": null,
+        "location": "Kuwait",
+        "bio": "Developer from Kuwait",
+        "followers": 5023,
+        "publicContributions": 35199,
+        "privateContributions": 186,
+        "languages": [
+          "Go",
+          "Kotlin",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-1-proj-1",
+            "description": null,
+            "stars": 352,
+            "language": "Go"
+          },
+          {
+            "name": "kuw-dev-1-proj-2",
+            "description": "Open source utilities",
+            "stars": 1534,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kuw-dev-1-proj-3",
+            "description": "Data pipeline library",
+            "stars": 593,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "kuw-dev-1",
+        "blog": "https://kuw-dev-1.dev"
+      },
+      {
+        "login": "kuw-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": "Developer from Kuwait",
+        "followers": 4849,
+        "publicContributions": 33683,
+        "privateContributions": 320,
+        "languages": [
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 962,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "kuw-dev-2",
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": "Developer from Kuwait",
+        "followers": 4628,
+        "publicContributions": 32446,
+        "privateContributions": 269,
+        "languages": [
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1198,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Kuwait)",
+        "company": null,
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 4457,
+        "publicContributions": 31190,
+        "privateContributions": 85,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 603,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-4-proj-2",
+            "description": null,
+            "stars": 1468,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-4-proj-3",
+            "description": "Web framework for developers",
+            "stars": 430,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Kuwait)",
+        "company": "Vercel",
+        "location": "Kuwait",
+        "bio": null,
+        "followers": 4299,
+        "publicContributions": 29948,
+        "privateContributions": 155,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 270,
+            "language": "Kotlin"
+          },
+          {
+            "name": "kuw-dev-5-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1029,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Kuwait)",
+        "company": "Amazon",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28829,
+        "privateContributions": 61,
+        "languages": [
+          "JavaScript",
+          "C++",
+          "Swift",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-6-proj-1",
+            "description": null,
+            "stars": 1009,
+            "language": "JavaScript"
+          },
+          {
+            "name": "kuw-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 827,
+            "language": "C++"
+          },
+          {
+            "name": "kuw-dev-6-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 914,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Kuwait)",
+        "company": "Google",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3979,
+        "publicContributions": 27629,
+        "privateContributions": 484,
+        "languages": [
+          "Swift",
+          "PHP",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 430,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Kuwait)",
+        "company": "Stripe",
+        "location": "Kuwait",
+        "bio": null,
+        "followers": 3800,
+        "publicContributions": 26605,
+        "privateContributions": 487,
+        "languages": [
+          "TypeScript",
+          "Rust",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 452,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Kuwait)",
+        "company": "Meta",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3650,
+        "publicContributions": 25587,
+        "privateContributions": 469,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 648,
+            "language": "Ruby"
+          },
+          {
+            "name": "kuw-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1042,
+            "language": "Ruby"
+          },
+          {
+            "name": "kuw-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 681,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "kuw-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Kuwait)",
+        "company": "Vercel",
+        "location": "Kuwait city",
+        "bio": null,
+        "followers": 3532,
+        "publicContributions": 24597,
+        "privateContributions": 103,
+        "languages": [
+          "Go",
+          "Swift",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "kuw-dev-10-proj-1",
+            "description": null,
+            "stars": 424,
+            "language": "Go"
+          },
+          {
+            "name": "kuw-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 992,
+            "language": "Swift"
+          },
+          {
+            "name": "kuw-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 617,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

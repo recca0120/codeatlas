@@ -28,6 +28,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: pnpm/action-setup@v4
         with:
@@ -63,7 +65,7 @@ jobs:
           if [ -n "$input_country" ]; then
             countries="$input_country"
           else
-            countries=$(node -e "const c=require('./config/countries.json').map(x=>x.code);const p='taiwan';const i=c.indexOf(p);if(i>0){c.splice(i,1);c.unshift(p)}console.log(c.join(' '))")
+            countries=$(pnpm tsx scripts/cli.ts list-countries -p taiwan)
           fi
 
           today=$(date -u +%Y-%m-%d)
@@ -74,7 +76,7 @@ jobs:
           for code in $countries; do
             # Skip if already collected today (only when no limit — limit means testing)
             if [ -z "${{ inputs.limit }}" ] && [ -f "public/data/$code.json" ]; then
-              file_date=$(node -e "try{const d=require('./public/data/$code.json');console.log(d.updatedAt?.split('T')[0]??'')}catch{console.log('')}")
+              file_date=$(node -p "try{JSON.parse(require('fs').readFileSync('public/data/$code.json','utf8')).updatedAt?.split('T')[0]??''}catch{''}")
               if [ "$file_date" = "$today" ]; then
                 skipped=$((skipped + 1))
                 echo "  ⊘ $code (already up to date)"

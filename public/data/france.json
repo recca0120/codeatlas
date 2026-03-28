@@ -1,0 +1,1218 @@
+{
+  "countryCode": "france",
+  "updatedAt": "2026-03-27T22:30:49.890Z",
+  "users": [
+    {
+      "login": "fra-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (France)",
+      "company": "Vercel",
+      "location": "Nantes",
+      "bio": "Developer from France",
+      "followers": 5046,
+      "publicContributions": 35113,
+      "privateContributions": 371,
+      "languages": [
+        "Dart",
+        "Rust",
+        "Ruby",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-1-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1622,
+          "language": "Dart"
+        },
+        {
+          "name": "fra-dev-1-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1600,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": "fra-dev-1",
+      "blog": "https://fra-dev-1.dev"
+    },
+    {
+      "login": "fra-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (France)",
+      "company": "Vercel",
+      "location": "Marseille",
+      "bio": "Developer from France",
+      "followers": 4853,
+      "publicContributions": 33805,
+      "privateContributions": 13,
+      "languages": [
+        "Swift",
+        "C++",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-2-proj-1",
+          "description": "API wrapper",
+          "stars": 1829,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": "fra-dev-2",
+      "blog": null
+    },
+    {
+      "login": "fra-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (France)",
+      "company": "GitHub",
+      "location": "Marseille",
+      "bio": "Developer from France",
+      "followers": 4655,
+      "publicContributions": 32507,
+      "privateContributions": 79,
+      "languages": [
+        "Python",
+        "Dart",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-3-proj-1",
+          "description": "API wrapper",
+          "stars": 1754,
+          "language": "Python"
+        },
+        {
+          "name": "fra-dev-3-proj-2",
+          "description": "Web framework for developers",
+          "stars": 961,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "fra-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (France)",
+      "company": "GitHub",
+      "location": "Nantes",
+      "bio": null,
+      "followers": 4483,
+      "publicContributions": 31143,
+      "privateContributions": 383,
+      "languages": [
+        "Ruby",
+        "PHP",
+        "Dart",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-4-proj-1",
+          "description": null,
+          "stars": 495,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "fra-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (France)",
+      "company": "Vercel",
+      "location": "Toulouse",
+      "bio": null,
+      "followers": 4275,
+      "publicContributions": 29924,
+      "privateContributions": 164,
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-5-proj-1",
+          "description": "Open source utilities",
+          "stars": 1475,
+          "language": "TypeScript"
+        },
+        {
+          "name": "fra-dev-5-proj-2",
+          "description": "Open source utilities",
+          "stars": 987,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "fra-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (France)",
+      "company": "Stripe",
+      "location": "Nantes",
+      "bio": null,
+      "followers": 4123,
+      "publicContributions": 28836,
+      "privateContributions": 313,
+      "languages": [
+        "PHP",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-6-proj-1",
+          "description": null,
+          "stars": 494,
+          "language": "PHP"
+        },
+        {
+          "name": "fra-dev-6-proj-2",
+          "description": "API wrapper",
+          "stars": 1607,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "fra-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (France)",
+      "company": "Amazon",
+      "location": "Nantes",
+      "bio": null,
+      "followers": 3980,
+      "publicContributions": 27696,
+      "privateContributions": 115,
+      "languages": [
+        "Go",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-7-proj-1",
+          "description": null,
+          "stars": 39,
+          "language": "Go"
+        },
+        {
+          "name": "fra-dev-7-proj-2",
+          "description": "Open source utilities",
+          "stars": 1315,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "fra-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (France)",
+      "company": null,
+      "location": "Marseille",
+      "bio": null,
+      "followers": 3828,
+      "publicContributions": 26603,
+      "privateContributions": 311,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-8-proj-1",
+          "description": null,
+          "stars": 1192,
+          "language": "Dart"
+        },
+        {
+          "name": "fra-dev-8-proj-2",
+          "description": "Open source utilities",
+          "stars": 93,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "fra-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (France)",
+      "company": null,
+      "location": "France",
+      "bio": null,
+      "followers": 3671,
+      "publicContributions": 25526,
+      "privateContributions": 347,
+      "languages": [
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-9-proj-1",
+          "description": "Open source utilities",
+          "stars": 407,
+          "language": "Python"
+        },
+        {
+          "name": "fra-dev-9-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 178,
+          "language": "Python"
+        },
+        {
+          "name": "fra-dev-9-proj-3",
+          "description": "Open source utilities",
+          "stars": 462,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "fra-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (France)",
+      "company": null,
+      "location": "Lyon",
+      "bio": null,
+      "followers": 3534,
+      "publicContributions": 24546,
+      "privateContributions": 278,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "fra-dev-10-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 138,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "fra-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (France)",
+        "company": "Vercel",
+        "location": "Nantes",
+        "bio": "Developer from France",
+        "followers": 5046,
+        "publicContributions": 35113,
+        "privateContributions": 371,
+        "languages": [
+          "Dart",
+          "Rust",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1622,
+            "language": "Dart"
+          },
+          {
+            "name": "fra-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1600,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "fra-dev-1",
+        "blog": "https://fra-dev-1.dev"
+      },
+      {
+        "login": "fra-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (France)",
+        "company": "Vercel",
+        "location": "Marseille",
+        "bio": "Developer from France",
+        "followers": 4853,
+        "publicContributions": 33805,
+        "privateContributions": 13,
+        "languages": [
+          "Swift",
+          "C++",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1829,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "fra-dev-2",
+        "blog": null
+      },
+      {
+        "login": "fra-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (France)",
+        "company": "GitHub",
+        "location": "Marseille",
+        "bio": "Developer from France",
+        "followers": 4655,
+        "publicContributions": 32507,
+        "privateContributions": 79,
+        "languages": [
+          "Python",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1754,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 961,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (France)",
+        "company": "GitHub",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31143,
+        "privateContributions": 383,
+        "languages": [
+          "Ruby",
+          "PHP",
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-4-proj-1",
+            "description": null,
+            "stars": 495,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (France)",
+        "company": "Vercel",
+        "location": "Toulouse",
+        "bio": null,
+        "followers": 4275,
+        "publicContributions": 29924,
+        "privateContributions": 164,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1475,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fra-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 987,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (France)",
+        "company": "Stripe",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28836,
+        "privateContributions": 313,
+        "languages": [
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-6-proj-1",
+            "description": null,
+            "stars": 494,
+            "language": "PHP"
+          },
+          {
+            "name": "fra-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1607,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (France)",
+        "company": "Amazon",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 3980,
+        "publicContributions": 27696,
+        "privateContributions": 115,
+        "languages": [
+          "Go",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-7-proj-1",
+            "description": null,
+            "stars": 39,
+            "language": "Go"
+          },
+          {
+            "name": "fra-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1315,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (France)",
+        "company": null,
+        "location": "Marseille",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26603,
+        "privateContributions": 311,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-8-proj-1",
+            "description": null,
+            "stars": 1192,
+            "language": "Dart"
+          },
+          {
+            "name": "fra-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 93,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (France)",
+        "company": null,
+        "location": "France",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25526,
+        "privateContributions": 347,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 407,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 178,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (France)",
+        "company": null,
+        "location": "Lyon",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24546,
+        "privateContributions": 278,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 138,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "fra-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (France)",
+        "company": "Vercel",
+        "location": "Nantes",
+        "bio": "Developer from France",
+        "followers": 5046,
+        "publicContributions": 35113,
+        "privateContributions": 371,
+        "languages": [
+          "Dart",
+          "Rust",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1622,
+            "language": "Dart"
+          },
+          {
+            "name": "fra-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1600,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "fra-dev-1",
+        "blog": "https://fra-dev-1.dev"
+      },
+      {
+        "login": "fra-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (France)",
+        "company": "Vercel",
+        "location": "Marseille",
+        "bio": "Developer from France",
+        "followers": 4853,
+        "publicContributions": 33805,
+        "privateContributions": 13,
+        "languages": [
+          "Swift",
+          "C++",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1829,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "fra-dev-2",
+        "blog": null
+      },
+      {
+        "login": "fra-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (France)",
+        "company": "GitHub",
+        "location": "Marseille",
+        "bio": "Developer from France",
+        "followers": 4655,
+        "publicContributions": 32507,
+        "privateContributions": 79,
+        "languages": [
+          "Python",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1754,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 961,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (France)",
+        "company": "GitHub",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31143,
+        "privateContributions": 383,
+        "languages": [
+          "Ruby",
+          "PHP",
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-4-proj-1",
+            "description": null,
+            "stars": 495,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (France)",
+        "company": "Vercel",
+        "location": "Toulouse",
+        "bio": null,
+        "followers": 4275,
+        "publicContributions": 29924,
+        "privateContributions": 164,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1475,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fra-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 987,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (France)",
+        "company": "Stripe",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28836,
+        "privateContributions": 313,
+        "languages": [
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-6-proj-1",
+            "description": null,
+            "stars": 494,
+            "language": "PHP"
+          },
+          {
+            "name": "fra-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1607,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (France)",
+        "company": "Amazon",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 3980,
+        "publicContributions": 27696,
+        "privateContributions": 115,
+        "languages": [
+          "Go",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-7-proj-1",
+            "description": null,
+            "stars": 39,
+            "language": "Go"
+          },
+          {
+            "name": "fra-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1315,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (France)",
+        "company": null,
+        "location": "Marseille",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26603,
+        "privateContributions": 311,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-8-proj-1",
+            "description": null,
+            "stars": 1192,
+            "language": "Dart"
+          },
+          {
+            "name": "fra-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 93,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (France)",
+        "company": null,
+        "location": "France",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25526,
+        "privateContributions": 347,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 407,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 178,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (France)",
+        "company": null,
+        "location": "Lyon",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24546,
+        "privateContributions": 278,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 138,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "fra-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (France)",
+        "company": "Vercel",
+        "location": "Nantes",
+        "bio": "Developer from France",
+        "followers": 5046,
+        "publicContributions": 35113,
+        "privateContributions": 371,
+        "languages": [
+          "Dart",
+          "Rust",
+          "Ruby",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1622,
+            "language": "Dart"
+          },
+          {
+            "name": "fra-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1600,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "fra-dev-1",
+        "blog": "https://fra-dev-1.dev"
+      },
+      {
+        "login": "fra-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (France)",
+        "company": "Vercel",
+        "location": "Marseille",
+        "bio": "Developer from France",
+        "followers": 4853,
+        "publicContributions": 33805,
+        "privateContributions": 13,
+        "languages": [
+          "Swift",
+          "C++",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1829,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "fra-dev-2",
+        "blog": null
+      },
+      {
+        "login": "fra-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (France)",
+        "company": "GitHub",
+        "location": "Marseille",
+        "bio": "Developer from France",
+        "followers": 4655,
+        "publicContributions": 32507,
+        "privateContributions": 79,
+        "languages": [
+          "Python",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1754,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-3-proj-2",
+            "description": "Web framework for developers",
+            "stars": 961,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (France)",
+        "company": "GitHub",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 4483,
+        "publicContributions": 31143,
+        "privateContributions": 383,
+        "languages": [
+          "Ruby",
+          "PHP",
+          "Dart",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-4-proj-1",
+            "description": null,
+            "stars": 495,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (France)",
+        "company": "Vercel",
+        "location": "Toulouse",
+        "bio": null,
+        "followers": 4275,
+        "publicContributions": 29924,
+        "privateContributions": 164,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1475,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fra-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 987,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (France)",
+        "company": "Stripe",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 4123,
+        "publicContributions": 28836,
+        "privateContributions": 313,
+        "languages": [
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-6-proj-1",
+            "description": null,
+            "stars": 494,
+            "language": "PHP"
+          },
+          {
+            "name": "fra-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1607,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (France)",
+        "company": "Amazon",
+        "location": "Nantes",
+        "bio": null,
+        "followers": 3980,
+        "publicContributions": 27696,
+        "privateContributions": 115,
+        "languages": [
+          "Go",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-7-proj-1",
+            "description": null,
+            "stars": 39,
+            "language": "Go"
+          },
+          {
+            "name": "fra-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1315,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (France)",
+        "company": null,
+        "location": "Marseille",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26603,
+        "privateContributions": 311,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-8-proj-1",
+            "description": null,
+            "stars": 1192,
+            "language": "Dart"
+          },
+          {
+            "name": "fra-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 93,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (France)",
+        "company": null,
+        "location": "France",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25526,
+        "privateContributions": 347,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-9-proj-1",
+            "description": "Open source utilities",
+            "stars": 407,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 178,
+            "language": "Python"
+          },
+          {
+            "name": "fra-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 462,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "fra-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (France)",
+        "company": null,
+        "location": "Lyon",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24546,
+        "privateContributions": 278,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "fra-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 138,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

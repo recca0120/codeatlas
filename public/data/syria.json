@@ -1,0 +1,1310 @@
+{
+  "countryCode": "syria",
+  "updatedAt": "2026-03-27T22:30:49.908Z",
+  "users": [
+    {
+      "login": "syr-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Syria)",
+      "company": "Apple",
+      "location": "Damascus",
+      "bio": "Developer from Syria",
+      "followers": 5030,
+      "publicContributions": 35109,
+      "privateContributions": 129,
+      "languages": [
+        "TypeScript",
+        "Ruby",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-1-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1372,
+          "language": "TypeScript"
+        },
+        {
+          "name": "syr-dev-1-proj-2",
+          "description": "Web framework for developers",
+          "stars": 194,
+          "language": "Ruby"
+        },
+        {
+          "name": "syr-dev-1-proj-3",
+          "description": null,
+          "stars": 330,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": "syr-dev-1",
+      "blog": "https://syr-dev-1.dev"
+    },
+    {
+      "login": "syr-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Syria)",
+      "company": "Meta",
+      "location": "Syria",
+      "bio": "Developer from Syria",
+      "followers": 4816,
+      "publicContributions": 33821,
+      "privateContributions": 363,
+      "languages": [
+        "Kotlin",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-2-proj-1",
+          "description": "Data pipeline library",
+          "stars": 358,
+          "language": "Kotlin"
+        },
+        {
+          "name": "syr-dev-2-proj-2",
+          "description": "Web framework for developers",
+          "stars": 165,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": "syr-dev-2",
+      "blog": null
+    },
+    {
+      "login": "syr-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Syria)",
+      "company": null,
+      "location": "Syria",
+      "bio": "Developer from Syria",
+      "followers": 4643,
+      "publicContributions": 32445,
+      "privateContributions": 416,
+      "languages": [
+        "C++",
+        "Go",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-3-proj-1",
+          "description": "Open source utilities",
+          "stars": 1308,
+          "language": "C++"
+        },
+        {
+          "name": "syr-dev-3-proj-2",
+          "description": "API wrapper",
+          "stars": 223,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "syr-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Syria)",
+      "company": "GitHub",
+      "location": "Damascus",
+      "bio": null,
+      "followers": 4452,
+      "publicContributions": 31202,
+      "privateContributions": 91,
+      "languages": [
+        "JavaScript",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-4-proj-1",
+          "description": "Open source utilities",
+          "stars": 1232,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "syr-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Syria)",
+      "company": "Apple",
+      "location": "Damascus",
+      "bio": null,
+      "followers": 4295,
+      "publicContributions": 29908,
+      "privateContributions": 155,
+      "languages": [
+        "C++",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-5-proj-1",
+          "description": null,
+          "stars": 1233,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "syr-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Syria)",
+      "company": "Amazon",
+      "location": "Damascus",
+      "bio": null,
+      "followers": 4116,
+      "publicContributions": 28716,
+      "privateContributions": 359,
+      "languages": [
+        "Kotlin",
+        "C++",
+        "Java",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-6-proj-1",
+          "description": null,
+          "stars": 843,
+          "language": "Kotlin"
+        },
+        {
+          "name": "syr-dev-6-proj-2",
+          "description": "Data pipeline library",
+          "stars": 711,
+          "language": "C++"
+        },
+        {
+          "name": "syr-dev-6-proj-3",
+          "description": null,
+          "stars": 495,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "syr-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Syria)",
+      "company": "Apple",
+      "location": "Damascus",
+      "bio": null,
+      "followers": 3956,
+      "publicContributions": 27681,
+      "privateContributions": 75,
+      "languages": [
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-7-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 119,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "syr-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Syria)",
+      "company": "Amazon",
+      "location": "Syria",
+      "bio": null,
+      "followers": 3802,
+      "publicContributions": 26566,
+      "privateContributions": 278,
+      "languages": [
+        "JavaScript",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-8-proj-1",
+          "description": null,
+          "stars": 1251,
+          "language": "JavaScript"
+        },
+        {
+          "name": "syr-dev-8-proj-2",
+          "description": null,
+          "stars": 408,
+          "language": "C++"
+        },
+        {
+          "name": "syr-dev-8-proj-3",
+          "description": "Open source utilities",
+          "stars": 188,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "syr-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Syria)",
+      "company": "Stripe",
+      "location": "Syria",
+      "bio": null,
+      "followers": 3646,
+      "publicContributions": 25611,
+      "privateContributions": 309,
+      "languages": [
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-9-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1297,
+          "language": "Java"
+        },
+        {
+          "name": "syr-dev-9-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1007,
+          "language": "Java"
+        },
+        {
+          "name": "syr-dev-9-proj-3",
+          "description": "Web framework for developers",
+          "stars": 1247,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "syr-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Syria)",
+      "company": null,
+      "location": "Damascus",
+      "bio": null,
+      "followers": 3524,
+      "publicContributions": 24558,
+      "privateContributions": 117,
+      "languages": [
+        "Ruby",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "syr-dev-10-proj-1",
+          "description": "Open source utilities",
+          "stars": 361,
+          "language": "Ruby"
+        },
+        {
+          "name": "syr-dev-10-proj-2",
+          "description": "Open source utilities",
+          "stars": 184,
+          "language": "Kotlin"
+        },
+        {
+          "name": "syr-dev-10-proj-3",
+          "description": "API wrapper",
+          "stars": 1422,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "syr-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": "Developer from Syria",
+        "followers": 5030,
+        "publicContributions": 35109,
+        "privateContributions": 129,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1372,
+            "language": "TypeScript"
+          },
+          {
+            "name": "syr-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 194,
+            "language": "Ruby"
+          },
+          {
+            "name": "syr-dev-1-proj-3",
+            "description": null,
+            "stars": 330,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "syr-dev-1",
+        "blog": "https://syr-dev-1.dev"
+      },
+      {
+        "login": "syr-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Syria)",
+        "company": "Meta",
+        "location": "Syria",
+        "bio": "Developer from Syria",
+        "followers": 4816,
+        "publicContributions": 33821,
+        "privateContributions": 363,
+        "languages": [
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 358,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 165,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "syr-dev-2",
+        "blog": null
+      },
+      {
+        "login": "syr-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Syria)",
+        "company": null,
+        "location": "Syria",
+        "bio": "Developer from Syria",
+        "followers": 4643,
+        "publicContributions": 32445,
+        "privateContributions": 416,
+        "languages": [
+          "C++",
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1308,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 223,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Syria)",
+        "company": "GitHub",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4452,
+        "publicContributions": 31202,
+        "privateContributions": 91,
+        "languages": [
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1232,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4295,
+        "publicContributions": 29908,
+        "privateContributions": 155,
+        "languages": [
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-5-proj-1",
+            "description": null,
+            "stars": 1233,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Syria)",
+        "company": "Amazon",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28716,
+        "privateContributions": 359,
+        "languages": [
+          "Kotlin",
+          "C++",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-6-proj-1",
+            "description": null,
+            "stars": 843,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 711,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-6-proj-3",
+            "description": null,
+            "stars": 495,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 3956,
+        "publicContributions": 27681,
+        "privateContributions": 75,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 119,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Syria)",
+        "company": "Amazon",
+        "location": "Syria",
+        "bio": null,
+        "followers": 3802,
+        "publicContributions": 26566,
+        "privateContributions": 278,
+        "languages": [
+          "JavaScript",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-8-proj-1",
+            "description": null,
+            "stars": 1251,
+            "language": "JavaScript"
+          },
+          {
+            "name": "syr-dev-8-proj-2",
+            "description": null,
+            "stars": 408,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 188,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Syria)",
+        "company": "Stripe",
+        "location": "Syria",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25611,
+        "privateContributions": 309,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1297,
+            "language": "Java"
+          },
+          {
+            "name": "syr-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1007,
+            "language": "Java"
+          },
+          {
+            "name": "syr-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1247,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Syria)",
+        "company": null,
+        "location": "Damascus",
+        "bio": null,
+        "followers": 3524,
+        "publicContributions": 24558,
+        "privateContributions": 117,
+        "languages": [
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 361,
+            "language": "Ruby"
+          },
+          {
+            "name": "syr-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 184,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 1422,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "syr-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": "Developer from Syria",
+        "followers": 5030,
+        "publicContributions": 35109,
+        "privateContributions": 129,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1372,
+            "language": "TypeScript"
+          },
+          {
+            "name": "syr-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 194,
+            "language": "Ruby"
+          },
+          {
+            "name": "syr-dev-1-proj-3",
+            "description": null,
+            "stars": 330,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "syr-dev-1",
+        "blog": "https://syr-dev-1.dev"
+      },
+      {
+        "login": "syr-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Syria)",
+        "company": "Meta",
+        "location": "Syria",
+        "bio": "Developer from Syria",
+        "followers": 4816,
+        "publicContributions": 33821,
+        "privateContributions": 363,
+        "languages": [
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 358,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 165,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "syr-dev-2",
+        "blog": null
+      },
+      {
+        "login": "syr-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Syria)",
+        "company": null,
+        "location": "Syria",
+        "bio": "Developer from Syria",
+        "followers": 4643,
+        "publicContributions": 32445,
+        "privateContributions": 416,
+        "languages": [
+          "C++",
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1308,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 223,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Syria)",
+        "company": "GitHub",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4452,
+        "publicContributions": 31202,
+        "privateContributions": 91,
+        "languages": [
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1232,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4295,
+        "publicContributions": 29908,
+        "privateContributions": 155,
+        "languages": [
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-5-proj-1",
+            "description": null,
+            "stars": 1233,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Syria)",
+        "company": "Amazon",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28716,
+        "privateContributions": 359,
+        "languages": [
+          "Kotlin",
+          "C++",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-6-proj-1",
+            "description": null,
+            "stars": 843,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 711,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-6-proj-3",
+            "description": null,
+            "stars": 495,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 3956,
+        "publicContributions": 27681,
+        "privateContributions": 75,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 119,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Syria)",
+        "company": "Amazon",
+        "location": "Syria",
+        "bio": null,
+        "followers": 3802,
+        "publicContributions": 26566,
+        "privateContributions": 278,
+        "languages": [
+          "JavaScript",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-8-proj-1",
+            "description": null,
+            "stars": 1251,
+            "language": "JavaScript"
+          },
+          {
+            "name": "syr-dev-8-proj-2",
+            "description": null,
+            "stars": 408,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 188,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Syria)",
+        "company": "Stripe",
+        "location": "Syria",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25611,
+        "privateContributions": 309,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1297,
+            "language": "Java"
+          },
+          {
+            "name": "syr-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1007,
+            "language": "Java"
+          },
+          {
+            "name": "syr-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1247,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Syria)",
+        "company": null,
+        "location": "Damascus",
+        "bio": null,
+        "followers": 3524,
+        "publicContributions": 24558,
+        "privateContributions": 117,
+        "languages": [
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 361,
+            "language": "Ruby"
+          },
+          {
+            "name": "syr-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 184,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 1422,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "syr-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": "Developer from Syria",
+        "followers": 5030,
+        "publicContributions": 35109,
+        "privateContributions": 129,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1372,
+            "language": "TypeScript"
+          },
+          {
+            "name": "syr-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 194,
+            "language": "Ruby"
+          },
+          {
+            "name": "syr-dev-1-proj-3",
+            "description": null,
+            "stars": 330,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "syr-dev-1",
+        "blog": "https://syr-dev-1.dev"
+      },
+      {
+        "login": "syr-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Syria)",
+        "company": "Meta",
+        "location": "Syria",
+        "bio": "Developer from Syria",
+        "followers": 4816,
+        "publicContributions": 33821,
+        "privateContributions": 363,
+        "languages": [
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 358,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 165,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "syr-dev-2",
+        "blog": null
+      },
+      {
+        "login": "syr-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Syria)",
+        "company": null,
+        "location": "Syria",
+        "bio": "Developer from Syria",
+        "followers": 4643,
+        "publicContributions": 32445,
+        "privateContributions": 416,
+        "languages": [
+          "C++",
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1308,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 223,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Syria)",
+        "company": "GitHub",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4452,
+        "publicContributions": 31202,
+        "privateContributions": 91,
+        "languages": [
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1232,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4295,
+        "publicContributions": 29908,
+        "privateContributions": 155,
+        "languages": [
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-5-proj-1",
+            "description": null,
+            "stars": 1233,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Syria)",
+        "company": "Amazon",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 4116,
+        "publicContributions": 28716,
+        "privateContributions": 359,
+        "languages": [
+          "Kotlin",
+          "C++",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-6-proj-1",
+            "description": null,
+            "stars": 843,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-6-proj-2",
+            "description": "Data pipeline library",
+            "stars": 711,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-6-proj-3",
+            "description": null,
+            "stars": 495,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Syria)",
+        "company": "Apple",
+        "location": "Damascus",
+        "bio": null,
+        "followers": 3956,
+        "publicContributions": 27681,
+        "privateContributions": 75,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 119,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Syria)",
+        "company": "Amazon",
+        "location": "Syria",
+        "bio": null,
+        "followers": 3802,
+        "publicContributions": 26566,
+        "privateContributions": 278,
+        "languages": [
+          "JavaScript",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-8-proj-1",
+            "description": null,
+            "stars": 1251,
+            "language": "JavaScript"
+          },
+          {
+            "name": "syr-dev-8-proj-2",
+            "description": null,
+            "stars": 408,
+            "language": "C++"
+          },
+          {
+            "name": "syr-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 188,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Syria)",
+        "company": "Stripe",
+        "location": "Syria",
+        "bio": null,
+        "followers": 3646,
+        "publicContributions": 25611,
+        "privateContributions": 309,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1297,
+            "language": "Java"
+          },
+          {
+            "name": "syr-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1007,
+            "language": "Java"
+          },
+          {
+            "name": "syr-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1247,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "syr-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Syria)",
+        "company": null,
+        "location": "Damascus",
+        "bio": null,
+        "followers": 3524,
+        "publicContributions": 24558,
+        "privateContributions": 117,
+        "languages": [
+          "Ruby",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "syr-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 361,
+            "language": "Ruby"
+          },
+          {
+            "name": "syr-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 184,
+            "language": "Kotlin"
+          },
+          {
+            "name": "syr-dev-10-proj-3",
+            "description": "API wrapper",
+            "stars": 1422,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

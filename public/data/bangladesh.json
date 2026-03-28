@@ -1,0 +1,1382 @@
+{
+  "countryCode": "bangladesh",
+  "updatedAt": "2026-03-27T22:30:49.880Z",
+  "users": [
+    {
+      "login": "ban-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Bangladesh)",
+      "company": "Amazon",
+      "location": "Bangladesh",
+      "bio": "Developer from Bangladesh",
+      "followers": 5045,
+      "publicContributions": 35107,
+      "privateContributions": 329,
+      "languages": [
+        "Dart",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-1-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 849,
+          "language": "Dart"
+        },
+        {
+          "name": "ban-dev-1-proj-2",
+          "description": "API wrapper",
+          "stars": 467,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "ban-dev-1",
+      "blog": "https://ban-dev-1.dev"
+    },
+    {
+      "login": "ban-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Bangladesh)",
+      "company": "Amazon",
+      "location": "Dhaka",
+      "bio": "Developer from Bangladesh",
+      "followers": 4854,
+      "publicContributions": 33776,
+      "privateContributions": 158,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-2-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 137,
+          "language": "Kotlin"
+        },
+        {
+          "name": "ban-dev-2-proj-2",
+          "description": "Web framework for developers",
+          "stars": 688,
+          "language": "Kotlin"
+        },
+        {
+          "name": "ban-dev-2-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 683,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": "ban-dev-2",
+      "blog": null
+    },
+    {
+      "login": "ban-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Bangladesh)",
+      "company": null,
+      "location": "Dhaka",
+      "bio": "Developer from Bangladesh",
+      "followers": 4639,
+      "publicContributions": 32384,
+      "privateContributions": 123,
+      "languages": [
+        "Python",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-3-proj-1",
+          "description": "Data pipeline library",
+          "stars": 552,
+          "language": "Python"
+        },
+        {
+          "name": "ban-dev-3-proj-2",
+          "description": "Open source utilities",
+          "stars": 1158,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ban-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Bangladesh)",
+      "company": "Google",
+      "location": "Dhaka",
+      "bio": null,
+      "followers": 4447,
+      "publicContributions": 31183,
+      "privateContributions": 127,
+      "languages": [
+        "Java",
+        "Go",
+        "Dart",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-4-proj-1",
+          "description": "Data pipeline library",
+          "stars": 316,
+          "language": "Java"
+        },
+        {
+          "name": "ban-dev-4-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1379,
+          "language": "Go"
+        },
+        {
+          "name": "ban-dev-4-proj-3",
+          "description": "API wrapper",
+          "stars": 1633,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ban-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Bangladesh)",
+      "company": "Google",
+      "location": "Bangladesh",
+      "bio": null,
+      "followers": 4300,
+      "publicContributions": 29919,
+      "privateContributions": 286,
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-5-proj-1",
+          "description": null,
+          "stars": 848,
+          "language": "JavaScript"
+        },
+        {
+          "name": "ban-dev-5-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1226,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ban-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Bangladesh)",
+      "company": null,
+      "location": "Chittagong",
+      "bio": null,
+      "followers": 4118,
+      "publicContributions": 28750,
+      "privateContributions": 90,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-6-proj-1",
+          "description": "API wrapper",
+          "stars": 135,
+          "language": "Kotlin"
+        },
+        {
+          "name": "ban-dev-6-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 868,
+          "language": "Kotlin"
+        },
+        {
+          "name": "ban-dev-6-proj-3",
+          "description": "Web framework for developers",
+          "stars": 401,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ban-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Bangladesh)",
+      "company": "GitHub",
+      "location": "Bangladesh",
+      "bio": null,
+      "followers": 3950,
+      "publicContributions": 27707,
+      "privateContributions": 178,
+      "languages": [
+        "Swift",
+        "Ruby",
+        "Python",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-7-proj-1",
+          "description": "Data pipeline library",
+          "stars": 695,
+          "language": "Swift"
+        },
+        {
+          "name": "ban-dev-7-proj-2",
+          "description": "Web framework for developers",
+          "stars": 719,
+          "language": "Ruby"
+        },
+        {
+          "name": "ban-dev-7-proj-3",
+          "description": null,
+          "stars": 994,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ban-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Bangladesh)",
+      "company": "Apple",
+      "location": "Bangladesh",
+      "bio": null,
+      "followers": 3816,
+      "publicContributions": 26614,
+      "privateContributions": 484,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-8-proj-1",
+          "description": "Web framework for developers",
+          "stars": 96,
+          "language": "TypeScript"
+        },
+        {
+          "name": "ban-dev-8-proj-2",
+          "description": "API wrapper",
+          "stars": 695,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ban-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Bangladesh)",
+      "company": "Amazon",
+      "location": "Bangladesh",
+      "bio": null,
+      "followers": 3679,
+      "publicContributions": 25579,
+      "privateContributions": 71,
+      "languages": [
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-9-proj-1",
+          "description": "Data pipeline library",
+          "stars": 812,
+          "language": "C++"
+        },
+        {
+          "name": "ban-dev-9-proj-2",
+          "description": "Data pipeline library",
+          "stars": 689,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ban-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Bangladesh)",
+      "company": null,
+      "location": "Dhaka",
+      "bio": null,
+      "followers": 3502,
+      "publicContributions": 24585,
+      "privateContributions": 3,
+      "languages": [
+        "Kotlin",
+        "Dart",
+        "Python",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ban-dev-10-proj-1",
+          "description": "Open source utilities",
+          "stars": 273,
+          "language": "Kotlin"
+        },
+        {
+          "name": "ban-dev-10-proj-2",
+          "description": null,
+          "stars": 989,
+          "language": "Dart"
+        },
+        {
+          "name": "ban-dev-10-proj-3",
+          "description": null,
+          "stars": 309,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "ban-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Bangladesh",
+        "bio": "Developer from Bangladesh",
+        "followers": 5045,
+        "publicContributions": 35107,
+        "privateContributions": 329,
+        "languages": [
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 849,
+            "language": "Dart"
+          },
+          {
+            "name": "ban-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 467,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "ban-dev-1",
+        "blog": "https://ban-dev-1.dev"
+      },
+      {
+        "login": "ban-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Dhaka",
+        "bio": "Developer from Bangladesh",
+        "followers": 4854,
+        "publicContributions": 33776,
+        "privateContributions": 158,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 137,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 688,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 683,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ban-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ban-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Bangladesh)",
+        "company": null,
+        "location": "Dhaka",
+        "bio": "Developer from Bangladesh",
+        "followers": 4639,
+        "publicContributions": 32384,
+        "privateContributions": 123,
+        "languages": [
+          "Python",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 552,
+            "language": "Python"
+          },
+          {
+            "name": "ban-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1158,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Bangladesh)",
+        "company": "Google",
+        "location": "Dhaka",
+        "bio": null,
+        "followers": 4447,
+        "publicContributions": 31183,
+        "privateContributions": 127,
+        "languages": [
+          "Java",
+          "Go",
+          "Dart",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 316,
+            "language": "Java"
+          },
+          {
+            "name": "ban-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1379,
+            "language": "Go"
+          },
+          {
+            "name": "ban-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1633,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Bangladesh)",
+        "company": "Google",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29919,
+        "privateContributions": 286,
+        "languages": [
+          "JavaScript",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-5-proj-1",
+            "description": null,
+            "stars": 848,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ban-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1226,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Bangladesh)",
+        "company": null,
+        "location": "Chittagong",
+        "bio": null,
+        "followers": 4118,
+        "publicContributions": 28750,
+        "privateContributions": 90,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 135,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 868,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 401,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Bangladesh)",
+        "company": "GitHub",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27707,
+        "privateContributions": 178,
+        "languages": [
+          "Swift",
+          "Ruby",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 695,
+            "language": "Swift"
+          },
+          {
+            "name": "ban-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 719,
+            "language": "Ruby"
+          },
+          {
+            "name": "ban-dev-7-proj-3",
+            "description": null,
+            "stars": 994,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Bangladesh)",
+        "company": "Apple",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26614,
+        "privateContributions": 484,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 96,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ban-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 695,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3679,
+        "publicContributions": 25579,
+        "privateContributions": 71,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 812,
+            "language": "C++"
+          },
+          {
+            "name": "ban-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 689,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Bangladesh)",
+        "company": null,
+        "location": "Dhaka",
+        "bio": null,
+        "followers": 3502,
+        "publicContributions": 24585,
+        "privateContributions": 3,
+        "languages": [
+          "Kotlin",
+          "Dart",
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 273,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-10-proj-2",
+            "description": null,
+            "stars": 989,
+            "language": "Dart"
+          },
+          {
+            "name": "ban-dev-10-proj-3",
+            "description": null,
+            "stars": 309,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "ban-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Bangladesh",
+        "bio": "Developer from Bangladesh",
+        "followers": 5045,
+        "publicContributions": 35107,
+        "privateContributions": 329,
+        "languages": [
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 849,
+            "language": "Dart"
+          },
+          {
+            "name": "ban-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 467,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "ban-dev-1",
+        "blog": "https://ban-dev-1.dev"
+      },
+      {
+        "login": "ban-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Dhaka",
+        "bio": "Developer from Bangladesh",
+        "followers": 4854,
+        "publicContributions": 33776,
+        "privateContributions": 158,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 137,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 688,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 683,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ban-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ban-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Bangladesh)",
+        "company": null,
+        "location": "Dhaka",
+        "bio": "Developer from Bangladesh",
+        "followers": 4639,
+        "publicContributions": 32384,
+        "privateContributions": 123,
+        "languages": [
+          "Python",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 552,
+            "language": "Python"
+          },
+          {
+            "name": "ban-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1158,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Bangladesh)",
+        "company": "Google",
+        "location": "Dhaka",
+        "bio": null,
+        "followers": 4447,
+        "publicContributions": 31183,
+        "privateContributions": 127,
+        "languages": [
+          "Java",
+          "Go",
+          "Dart",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 316,
+            "language": "Java"
+          },
+          {
+            "name": "ban-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1379,
+            "language": "Go"
+          },
+          {
+            "name": "ban-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1633,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Bangladesh)",
+        "company": "Google",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29919,
+        "privateContributions": 286,
+        "languages": [
+          "JavaScript",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-5-proj-1",
+            "description": null,
+            "stars": 848,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ban-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1226,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Bangladesh)",
+        "company": null,
+        "location": "Chittagong",
+        "bio": null,
+        "followers": 4118,
+        "publicContributions": 28750,
+        "privateContributions": 90,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 135,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 868,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 401,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Bangladesh)",
+        "company": "GitHub",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27707,
+        "privateContributions": 178,
+        "languages": [
+          "Swift",
+          "Ruby",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 695,
+            "language": "Swift"
+          },
+          {
+            "name": "ban-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 719,
+            "language": "Ruby"
+          },
+          {
+            "name": "ban-dev-7-proj-3",
+            "description": null,
+            "stars": 994,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Bangladesh)",
+        "company": "Apple",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26614,
+        "privateContributions": 484,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 96,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ban-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 695,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3679,
+        "publicContributions": 25579,
+        "privateContributions": 71,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 812,
+            "language": "C++"
+          },
+          {
+            "name": "ban-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 689,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Bangladesh)",
+        "company": null,
+        "location": "Dhaka",
+        "bio": null,
+        "followers": 3502,
+        "publicContributions": 24585,
+        "privateContributions": 3,
+        "languages": [
+          "Kotlin",
+          "Dart",
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 273,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-10-proj-2",
+            "description": null,
+            "stars": 989,
+            "language": "Dart"
+          },
+          {
+            "name": "ban-dev-10-proj-3",
+            "description": null,
+            "stars": 309,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "ban-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Bangladesh",
+        "bio": "Developer from Bangladesh",
+        "followers": 5045,
+        "publicContributions": 35107,
+        "privateContributions": 329,
+        "languages": [
+          "Dart",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 849,
+            "language": "Dart"
+          },
+          {
+            "name": "ban-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 467,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "ban-dev-1",
+        "blog": "https://ban-dev-1.dev"
+      },
+      {
+        "login": "ban-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Dhaka",
+        "bio": "Developer from Bangladesh",
+        "followers": 4854,
+        "publicContributions": 33776,
+        "privateContributions": 158,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 137,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-2-proj-2",
+            "description": "Web framework for developers",
+            "stars": 688,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-2-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 683,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "ban-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ban-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Bangladesh)",
+        "company": null,
+        "location": "Dhaka",
+        "bio": "Developer from Bangladesh",
+        "followers": 4639,
+        "publicContributions": 32384,
+        "privateContributions": 123,
+        "languages": [
+          "Python",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 552,
+            "language": "Python"
+          },
+          {
+            "name": "ban-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1158,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Bangladesh)",
+        "company": "Google",
+        "location": "Dhaka",
+        "bio": null,
+        "followers": 4447,
+        "publicContributions": 31183,
+        "privateContributions": 127,
+        "languages": [
+          "Java",
+          "Go",
+          "Dart",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 316,
+            "language": "Java"
+          },
+          {
+            "name": "ban-dev-4-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1379,
+            "language": "Go"
+          },
+          {
+            "name": "ban-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1633,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Bangladesh)",
+        "company": "Google",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29919,
+        "privateContributions": 286,
+        "languages": [
+          "JavaScript",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-5-proj-1",
+            "description": null,
+            "stars": 848,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ban-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1226,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Bangladesh)",
+        "company": null,
+        "location": "Chittagong",
+        "bio": null,
+        "followers": 4118,
+        "publicContributions": 28750,
+        "privateContributions": 90,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 135,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-6-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 868,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-6-proj-3",
+            "description": "Web framework for developers",
+            "stars": 401,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Bangladesh)",
+        "company": "GitHub",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27707,
+        "privateContributions": 178,
+        "languages": [
+          "Swift",
+          "Ruby",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 695,
+            "language": "Swift"
+          },
+          {
+            "name": "ban-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 719,
+            "language": "Ruby"
+          },
+          {
+            "name": "ban-dev-7-proj-3",
+            "description": null,
+            "stars": 994,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Bangladesh)",
+        "company": "Apple",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3816,
+        "publicContributions": 26614,
+        "privateContributions": 484,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 96,
+            "language": "TypeScript"
+          },
+          {
+            "name": "ban-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 695,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Bangladesh)",
+        "company": "Amazon",
+        "location": "Bangladesh",
+        "bio": null,
+        "followers": 3679,
+        "publicContributions": 25579,
+        "privateContributions": 71,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 812,
+            "language": "C++"
+          },
+          {
+            "name": "ban-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 689,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ban-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Bangladesh)",
+        "company": null,
+        "location": "Dhaka",
+        "bio": null,
+        "followers": 3502,
+        "publicContributions": 24585,
+        "privateContributions": 3,
+        "languages": [
+          "Kotlin",
+          "Dart",
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ban-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 273,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ban-dev-10-proj-2",
+            "description": null,
+            "stars": 989,
+            "language": "Dart"
+          },
+          {
+            "name": "ban-dev-10-proj-3",
+            "description": null,
+            "stars": 309,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

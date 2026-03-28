@@ -1,0 +1,1158 @@
+{
+  "countryCode": "zimbabwe",
+  "updatedAt": "2026-03-27T22:30:49.913Z",
+  "users": [
+    {
+      "login": "zim-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Zimbabwe)",
+      "company": "GitHub",
+      "location": "Zimbabwe",
+      "bio": "Developer from Zimbabwe",
+      "followers": 5038,
+      "publicContributions": 35083,
+      "privateContributions": 83,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-1-proj-1",
+          "description": null,
+          "stars": 2028,
+          "language": "Go"
+        },
+        {
+          "name": "zim-dev-1-proj-2",
+          "description": "Data pipeline library",
+          "stars": 401,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "zim-dev-1",
+      "blog": "https://zim-dev-1.dev"
+    },
+    {
+      "login": "zim-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Zimbabwe)",
+      "company": null,
+      "location": "Zimbabwe",
+      "bio": "Developer from Zimbabwe",
+      "followers": 4832,
+      "publicContributions": 33808,
+      "privateContributions": 192,
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-2-proj-1",
+          "description": null,
+          "stars": 411,
+          "language": "TypeScript"
+        },
+        {
+          "name": "zim-dev-2-proj-2",
+          "description": null,
+          "stars": 1521,
+          "language": "JavaScript"
+        },
+        {
+          "name": "zim-dev-2-proj-3",
+          "description": "API wrapper",
+          "stars": 398,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "zim-dev-2",
+      "blog": null
+    },
+    {
+      "login": "zim-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Zimbabwe)",
+      "company": "Amazon",
+      "location": "Harare",
+      "bio": "Developer from Zimbabwe",
+      "followers": 4662,
+      "publicContributions": 32392,
+      "privateContributions": 133,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-3-proj-1",
+          "description": "Open source utilities",
+          "stars": 1018,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zim-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Zimbabwe)",
+      "company": "Microsoft",
+      "location": "Harare",
+      "bio": null,
+      "followers": 4475,
+      "publicContributions": 31107,
+      "privateContributions": 460,
+      "languages": [
+        "Rust",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-4-proj-1",
+          "description": "Open source utilities",
+          "stars": 1052,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zim-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Zimbabwe)",
+      "company": "Microsoft",
+      "location": "Zimbabwe",
+      "bio": null,
+      "followers": 4303,
+      "publicContributions": 29885,
+      "privateContributions": 425,
+      "languages": [
+        "Python",
+        "Go",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-5-proj-1",
+          "description": "API wrapper",
+          "stars": 812,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zim-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Zimbabwe)",
+      "company": null,
+      "location": "Zimbabwe",
+      "bio": null,
+      "followers": 4109,
+      "publicContributions": 28741,
+      "privateContributions": 22,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-6-proj-1",
+          "description": "Data pipeline library",
+          "stars": 61,
+          "language": "Go"
+        },
+        {
+          "name": "zim-dev-6-proj-2",
+          "description": "Open source utilities",
+          "stars": 1057,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zim-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Zimbabwe)",
+      "company": "Vercel",
+      "location": "Bulawayo",
+      "bio": null,
+      "followers": 3982,
+      "publicContributions": 27732,
+      "privateContributions": 56,
+      "languages": [
+        "Rust",
+        "Swift",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-7-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1343,
+          "language": "Rust"
+        },
+        {
+          "name": "zim-dev-7-proj-2",
+          "description": null,
+          "stars": 476,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zim-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Zimbabwe)",
+      "company": "Microsoft",
+      "location": "Bulawayo",
+      "bio": null,
+      "followers": 3822,
+      "publicContributions": 26527,
+      "privateContributions": 75,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Ruby",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-8-proj-1",
+          "description": "Web framework for developers",
+          "stars": 804,
+          "language": "TypeScript"
+        },
+        {
+          "name": "zim-dev-8-proj-2",
+          "description": "Open source utilities",
+          "stars": 654,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zim-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Zimbabwe)",
+      "company": null,
+      "location": "Bulawayo",
+      "bio": null,
+      "followers": 3664,
+      "publicContributions": 25503,
+      "privateContributions": 254,
+      "languages": [
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-9-proj-1",
+          "description": null,
+          "stars": 723,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zim-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Zimbabwe)",
+      "company": "Apple",
+      "location": "Harare",
+      "bio": null,
+      "followers": 3524,
+      "publicContributions": 24563,
+      "privateContributions": 163,
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "zim-dev-10-proj-1",
+          "description": "Open source utilities",
+          "stars": 548,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "zim-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Zimbabwe)",
+        "company": "GitHub",
+        "location": "Zimbabwe",
+        "bio": "Developer from Zimbabwe",
+        "followers": 5038,
+        "publicContributions": 35083,
+        "privateContributions": 83,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-1-proj-1",
+            "description": null,
+            "stars": 2028,
+            "language": "Go"
+          },
+          {
+            "name": "zim-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 401,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "zim-dev-1",
+        "blog": "https://zim-dev-1.dev"
+      },
+      {
+        "login": "zim-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Zimbabwe)",
+        "company": null,
+        "location": "Zimbabwe",
+        "bio": "Developer from Zimbabwe",
+        "followers": 4832,
+        "publicContributions": 33808,
+        "privateContributions": 192,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-2-proj-1",
+            "description": null,
+            "stars": 411,
+            "language": "TypeScript"
+          },
+          {
+            "name": "zim-dev-2-proj-2",
+            "description": null,
+            "stars": 1521,
+            "language": "JavaScript"
+          },
+          {
+            "name": "zim-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 398,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "zim-dev-2",
+        "blog": null
+      },
+      {
+        "login": "zim-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Zimbabwe)",
+        "company": "Amazon",
+        "location": "Harare",
+        "bio": "Developer from Zimbabwe",
+        "followers": 4662,
+        "publicContributions": 32392,
+        "privateContributions": 133,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1018,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Harare",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31107,
+        "privateContributions": 460,
+        "languages": [
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1052,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Zimbabwe",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29885,
+        "privateContributions": 425,
+        "languages": [
+          "Python",
+          "Go",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 812,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Zimbabwe)",
+        "company": null,
+        "location": "Zimbabwe",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28741,
+        "privateContributions": 22,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 61,
+            "language": "Go"
+          },
+          {
+            "name": "zim-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 1057,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Zimbabwe)",
+        "company": "Vercel",
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27732,
+        "privateContributions": 56,
+        "languages": [
+          "Rust",
+          "Swift",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1343,
+            "language": "Rust"
+          },
+          {
+            "name": "zim-dev-7-proj-2",
+            "description": null,
+            "stars": 476,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26527,
+        "privateContributions": 75,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 804,
+            "language": "TypeScript"
+          },
+          {
+            "name": "zim-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 654,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Zimbabwe)",
+        "company": null,
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3664,
+        "publicContributions": 25503,
+        "privateContributions": 254,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-9-proj-1",
+            "description": null,
+            "stars": 723,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Zimbabwe)",
+        "company": "Apple",
+        "location": "Harare",
+        "bio": null,
+        "followers": 3524,
+        "publicContributions": 24563,
+        "privateContributions": 163,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 548,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "zim-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Zimbabwe)",
+        "company": "GitHub",
+        "location": "Zimbabwe",
+        "bio": "Developer from Zimbabwe",
+        "followers": 5038,
+        "publicContributions": 35083,
+        "privateContributions": 83,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-1-proj-1",
+            "description": null,
+            "stars": 2028,
+            "language": "Go"
+          },
+          {
+            "name": "zim-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 401,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "zim-dev-1",
+        "blog": "https://zim-dev-1.dev"
+      },
+      {
+        "login": "zim-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Zimbabwe)",
+        "company": null,
+        "location": "Zimbabwe",
+        "bio": "Developer from Zimbabwe",
+        "followers": 4832,
+        "publicContributions": 33808,
+        "privateContributions": 192,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-2-proj-1",
+            "description": null,
+            "stars": 411,
+            "language": "TypeScript"
+          },
+          {
+            "name": "zim-dev-2-proj-2",
+            "description": null,
+            "stars": 1521,
+            "language": "JavaScript"
+          },
+          {
+            "name": "zim-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 398,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "zim-dev-2",
+        "blog": null
+      },
+      {
+        "login": "zim-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Zimbabwe)",
+        "company": "Amazon",
+        "location": "Harare",
+        "bio": "Developer from Zimbabwe",
+        "followers": 4662,
+        "publicContributions": 32392,
+        "privateContributions": 133,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1018,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Harare",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31107,
+        "privateContributions": 460,
+        "languages": [
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1052,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Zimbabwe",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29885,
+        "privateContributions": 425,
+        "languages": [
+          "Python",
+          "Go",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 812,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Zimbabwe)",
+        "company": null,
+        "location": "Zimbabwe",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28741,
+        "privateContributions": 22,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 61,
+            "language": "Go"
+          },
+          {
+            "name": "zim-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 1057,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Zimbabwe)",
+        "company": "Vercel",
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27732,
+        "privateContributions": 56,
+        "languages": [
+          "Rust",
+          "Swift",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1343,
+            "language": "Rust"
+          },
+          {
+            "name": "zim-dev-7-proj-2",
+            "description": null,
+            "stars": 476,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26527,
+        "privateContributions": 75,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 804,
+            "language": "TypeScript"
+          },
+          {
+            "name": "zim-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 654,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Zimbabwe)",
+        "company": null,
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3664,
+        "publicContributions": 25503,
+        "privateContributions": 254,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-9-proj-1",
+            "description": null,
+            "stars": 723,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Zimbabwe)",
+        "company": "Apple",
+        "location": "Harare",
+        "bio": null,
+        "followers": 3524,
+        "publicContributions": 24563,
+        "privateContributions": 163,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 548,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "zim-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Zimbabwe)",
+        "company": "GitHub",
+        "location": "Zimbabwe",
+        "bio": "Developer from Zimbabwe",
+        "followers": 5038,
+        "publicContributions": 35083,
+        "privateContributions": 83,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-1-proj-1",
+            "description": null,
+            "stars": 2028,
+            "language": "Go"
+          },
+          {
+            "name": "zim-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 401,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "zim-dev-1",
+        "blog": "https://zim-dev-1.dev"
+      },
+      {
+        "login": "zim-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Zimbabwe)",
+        "company": null,
+        "location": "Zimbabwe",
+        "bio": "Developer from Zimbabwe",
+        "followers": 4832,
+        "publicContributions": 33808,
+        "privateContributions": 192,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-2-proj-1",
+            "description": null,
+            "stars": 411,
+            "language": "TypeScript"
+          },
+          {
+            "name": "zim-dev-2-proj-2",
+            "description": null,
+            "stars": 1521,
+            "language": "JavaScript"
+          },
+          {
+            "name": "zim-dev-2-proj-3",
+            "description": "API wrapper",
+            "stars": 398,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "zim-dev-2",
+        "blog": null
+      },
+      {
+        "login": "zim-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Zimbabwe)",
+        "company": "Amazon",
+        "location": "Harare",
+        "bio": "Developer from Zimbabwe",
+        "followers": 4662,
+        "publicContributions": 32392,
+        "privateContributions": 133,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 1018,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Harare",
+        "bio": null,
+        "followers": 4475,
+        "publicContributions": 31107,
+        "privateContributions": 460,
+        "languages": [
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 1052,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Zimbabwe",
+        "bio": null,
+        "followers": 4303,
+        "publicContributions": 29885,
+        "privateContributions": 425,
+        "languages": [
+          "Python",
+          "Go",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 812,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Zimbabwe)",
+        "company": null,
+        "location": "Zimbabwe",
+        "bio": null,
+        "followers": 4109,
+        "publicContributions": 28741,
+        "privateContributions": 22,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 61,
+            "language": "Go"
+          },
+          {
+            "name": "zim-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 1057,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Zimbabwe)",
+        "company": "Vercel",
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3982,
+        "publicContributions": 27732,
+        "privateContributions": 56,
+        "languages": [
+          "Rust",
+          "Swift",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1343,
+            "language": "Rust"
+          },
+          {
+            "name": "zim-dev-7-proj-2",
+            "description": null,
+            "stars": 476,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Zimbabwe)",
+        "company": "Microsoft",
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3822,
+        "publicContributions": 26527,
+        "privateContributions": 75,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 804,
+            "language": "TypeScript"
+          },
+          {
+            "name": "zim-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 654,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Zimbabwe)",
+        "company": null,
+        "location": "Bulawayo",
+        "bio": null,
+        "followers": 3664,
+        "publicContributions": 25503,
+        "privateContributions": 254,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-9-proj-1",
+            "description": null,
+            "stars": 723,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zim-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Zimbabwe)",
+        "company": "Apple",
+        "location": "Harare",
+        "bio": null,
+        "followers": 3524,
+        "publicContributions": 24563,
+        "privateContributions": 163,
+        "languages": [
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zim-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 548,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

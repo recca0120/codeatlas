@@ -1,0 +1,1310 @@
+{
+  "countryCode": "nicaragua",
+  "updatedAt": "2026-03-27T22:30:49.900Z",
+  "users": [
+    {
+      "login": "nic-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Nicaragua)",
+      "company": null,
+      "location": "Nicaragua",
+      "bio": "Developer from Nicaragua",
+      "followers": 5017,
+      "publicContributions": 35191,
+      "privateContributions": 383,
+      "languages": [
+        "PHP",
+        "Dart",
+        "Go",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-1-proj-1",
+          "description": null,
+          "stars": 2037,
+          "language": "PHP"
+        },
+        {
+          "name": "nic-dev-1-proj-2",
+          "description": null,
+          "stars": 1244,
+          "language": "Dart"
+        },
+        {
+          "name": "nic-dev-1-proj-3",
+          "description": null,
+          "stars": 1812,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "nic-dev-1",
+      "blog": "https://nic-dev-1.dev"
+    },
+    {
+      "login": "nic-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Nicaragua)",
+      "company": "Amazon",
+      "location": "Nicaragua",
+      "bio": "Developer from Nicaragua",
+      "followers": 4847,
+      "publicContributions": 33812,
+      "privateContributions": 406,
+      "languages": [
+        "Swift",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-2-proj-1",
+          "description": "Open source utilities",
+          "stars": 540,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": "nic-dev-2",
+      "blog": null
+    },
+    {
+      "login": "nic-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Nicaragua)",
+      "company": null,
+      "location": "Nicaragua",
+      "bio": "Developer from Nicaragua",
+      "followers": 4640,
+      "publicContributions": 32407,
+      "privateContributions": 215,
+      "languages": [
+        "Python",
+        "Go",
+        "PHP",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-3-proj-1",
+          "description": "Data pipeline library",
+          "stars": 732,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nic-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Nicaragua)",
+      "company": "Vercel",
+      "location": "Managua",
+      "bio": null,
+      "followers": 4469,
+      "publicContributions": 31141,
+      "privateContributions": 203,
+      "languages": [
+        "Go",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-4-proj-1",
+          "description": null,
+          "stars": 998,
+          "language": "Go"
+        },
+        {
+          "name": "nic-dev-4-proj-2",
+          "description": null,
+          "stars": 1723,
+          "language": "Swift"
+        },
+        {
+          "name": "nic-dev-4-proj-3",
+          "description": "API wrapper",
+          "stars": 1764,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nic-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Nicaragua)",
+      "company": "Microsoft",
+      "location": "Managua",
+      "bio": null,
+      "followers": 4308,
+      "publicContributions": 29968,
+      "privateContributions": 494,
+      "languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-5-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1597,
+          "language": "Python"
+        },
+        {
+          "name": "nic-dev-5-proj-2",
+          "description": "API wrapper",
+          "stars": 287,
+          "language": "JavaScript"
+        },
+        {
+          "name": "nic-dev-5-proj-3",
+          "description": "API wrapper",
+          "stars": 1515,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nic-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Nicaragua)",
+      "company": "Meta",
+      "location": "Nicaragua",
+      "bio": null,
+      "followers": 4106,
+      "publicContributions": 28804,
+      "privateContributions": 403,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-6-proj-1",
+          "description": null,
+          "stars": 1108,
+          "language": "Dart"
+        },
+        {
+          "name": "nic-dev-6-proj-2",
+          "description": null,
+          "stars": 386,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nic-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Nicaragua)",
+      "company": "Meta",
+      "location": "Managua",
+      "bio": null,
+      "followers": 3973,
+      "publicContributions": 27680,
+      "privateContributions": 118,
+      "languages": [
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-7-proj-1",
+          "description": null,
+          "stars": 743,
+          "language": "Ruby"
+        },
+        {
+          "name": "nic-dev-7-proj-2",
+          "description": "API wrapper",
+          "stars": 646,
+          "language": "Ruby"
+        },
+        {
+          "name": "nic-dev-7-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 1227,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nic-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Nicaragua)",
+      "company": null,
+      "location": "Nicaragua",
+      "bio": null,
+      "followers": 3813,
+      "publicContributions": 26542,
+      "privateContributions": 351,
+      "languages": [
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-8-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 748,
+          "language": "Python"
+        },
+        {
+          "name": "nic-dev-8-proj-2",
+          "description": null,
+          "stars": 1506,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nic-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Nicaragua)",
+      "company": null,
+      "location": "Managua",
+      "bio": null,
+      "followers": 3667,
+      "publicContributions": 25607,
+      "privateContributions": 434,
+      "languages": [
+        "Python",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 317,
+          "language": "Python"
+        },
+        {
+          "name": "nic-dev-9-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1152,
+          "language": "JavaScript"
+        },
+        {
+          "name": "nic-dev-9-proj-3",
+          "description": "Open source utilities",
+          "stars": 1272,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nic-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Nicaragua)",
+      "company": "Vercel",
+      "location": "Managua",
+      "bio": null,
+      "followers": 3520,
+      "publicContributions": 24478,
+      "privateContributions": 428,
+      "languages": [
+        "Ruby",
+        "Java",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "nic-dev-10-proj-1",
+          "description": "Data pipeline library",
+          "stars": 371,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "nic-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 5017,
+        "publicContributions": 35191,
+        "privateContributions": 383,
+        "languages": [
+          "PHP",
+          "Dart",
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-1-proj-1",
+            "description": null,
+            "stars": 2037,
+            "language": "PHP"
+          },
+          {
+            "name": "nic-dev-1-proj-2",
+            "description": null,
+            "stars": 1244,
+            "language": "Dart"
+          },
+          {
+            "name": "nic-dev-1-proj-3",
+            "description": null,
+            "stars": 1812,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nic-dev-1",
+        "blog": "https://nic-dev-1.dev"
+      },
+      {
+        "login": "nic-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Nicaragua)",
+        "company": "Amazon",
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 4847,
+        "publicContributions": 33812,
+        "privateContributions": 406,
+        "languages": [
+          "Swift",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 540,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "nic-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nic-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 4640,
+        "publicContributions": 32407,
+        "privateContributions": 215,
+        "languages": [
+          "Python",
+          "Go",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 732,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Nicaragua)",
+        "company": "Vercel",
+        "location": "Managua",
+        "bio": null,
+        "followers": 4469,
+        "publicContributions": 31141,
+        "privateContributions": 203,
+        "languages": [
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-4-proj-1",
+            "description": null,
+            "stars": 998,
+            "language": "Go"
+          },
+          {
+            "name": "nic-dev-4-proj-2",
+            "description": null,
+            "stars": 1723,
+            "language": "Swift"
+          },
+          {
+            "name": "nic-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1764,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Nicaragua)",
+        "company": "Microsoft",
+        "location": "Managua",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29968,
+        "privateContributions": 494,
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1597,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 287,
+            "language": "JavaScript"
+          },
+          {
+            "name": "nic-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 1515,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Nicaragua)",
+        "company": "Meta",
+        "location": "Nicaragua",
+        "bio": null,
+        "followers": 4106,
+        "publicContributions": 28804,
+        "privateContributions": 403,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-6-proj-1",
+            "description": null,
+            "stars": 1108,
+            "language": "Dart"
+          },
+          {
+            "name": "nic-dev-6-proj-2",
+            "description": null,
+            "stars": 386,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Nicaragua)",
+        "company": "Meta",
+        "location": "Managua",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27680,
+        "privateContributions": 118,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-7-proj-1",
+            "description": null,
+            "stars": 743,
+            "language": "Ruby"
+          },
+          {
+            "name": "nic-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 646,
+            "language": "Ruby"
+          },
+          {
+            "name": "nic-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1227,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": null,
+        "followers": 3813,
+        "publicContributions": 26542,
+        "privateContributions": 351,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 748,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-8-proj-2",
+            "description": null,
+            "stars": 1506,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Nicaragua)",
+        "company": null,
+        "location": "Managua",
+        "bio": null,
+        "followers": 3667,
+        "publicContributions": 25607,
+        "privateContributions": 434,
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 317,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1152,
+            "language": "JavaScript"
+          },
+          {
+            "name": "nic-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 1272,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Nicaragua)",
+        "company": "Vercel",
+        "location": "Managua",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24478,
+        "privateContributions": 428,
+        "languages": [
+          "Ruby",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 371,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "nic-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 5017,
+        "publicContributions": 35191,
+        "privateContributions": 383,
+        "languages": [
+          "PHP",
+          "Dart",
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-1-proj-1",
+            "description": null,
+            "stars": 2037,
+            "language": "PHP"
+          },
+          {
+            "name": "nic-dev-1-proj-2",
+            "description": null,
+            "stars": 1244,
+            "language": "Dart"
+          },
+          {
+            "name": "nic-dev-1-proj-3",
+            "description": null,
+            "stars": 1812,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nic-dev-1",
+        "blog": "https://nic-dev-1.dev"
+      },
+      {
+        "login": "nic-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Nicaragua)",
+        "company": "Amazon",
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 4847,
+        "publicContributions": 33812,
+        "privateContributions": 406,
+        "languages": [
+          "Swift",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 540,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "nic-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nic-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 4640,
+        "publicContributions": 32407,
+        "privateContributions": 215,
+        "languages": [
+          "Python",
+          "Go",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 732,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Nicaragua)",
+        "company": "Vercel",
+        "location": "Managua",
+        "bio": null,
+        "followers": 4469,
+        "publicContributions": 31141,
+        "privateContributions": 203,
+        "languages": [
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-4-proj-1",
+            "description": null,
+            "stars": 998,
+            "language": "Go"
+          },
+          {
+            "name": "nic-dev-4-proj-2",
+            "description": null,
+            "stars": 1723,
+            "language": "Swift"
+          },
+          {
+            "name": "nic-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1764,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Nicaragua)",
+        "company": "Microsoft",
+        "location": "Managua",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29968,
+        "privateContributions": 494,
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1597,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 287,
+            "language": "JavaScript"
+          },
+          {
+            "name": "nic-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 1515,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Nicaragua)",
+        "company": "Meta",
+        "location": "Nicaragua",
+        "bio": null,
+        "followers": 4106,
+        "publicContributions": 28804,
+        "privateContributions": 403,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-6-proj-1",
+            "description": null,
+            "stars": 1108,
+            "language": "Dart"
+          },
+          {
+            "name": "nic-dev-6-proj-2",
+            "description": null,
+            "stars": 386,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Nicaragua)",
+        "company": "Meta",
+        "location": "Managua",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27680,
+        "privateContributions": 118,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-7-proj-1",
+            "description": null,
+            "stars": 743,
+            "language": "Ruby"
+          },
+          {
+            "name": "nic-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 646,
+            "language": "Ruby"
+          },
+          {
+            "name": "nic-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1227,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": null,
+        "followers": 3813,
+        "publicContributions": 26542,
+        "privateContributions": 351,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 748,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-8-proj-2",
+            "description": null,
+            "stars": 1506,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Nicaragua)",
+        "company": null,
+        "location": "Managua",
+        "bio": null,
+        "followers": 3667,
+        "publicContributions": 25607,
+        "privateContributions": 434,
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 317,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1152,
+            "language": "JavaScript"
+          },
+          {
+            "name": "nic-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 1272,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Nicaragua)",
+        "company": "Vercel",
+        "location": "Managua",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24478,
+        "privateContributions": 428,
+        "languages": [
+          "Ruby",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 371,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "nic-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 5017,
+        "publicContributions": 35191,
+        "privateContributions": 383,
+        "languages": [
+          "PHP",
+          "Dart",
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-1-proj-1",
+            "description": null,
+            "stars": 2037,
+            "language": "PHP"
+          },
+          {
+            "name": "nic-dev-1-proj-2",
+            "description": null,
+            "stars": 1244,
+            "language": "Dart"
+          },
+          {
+            "name": "nic-dev-1-proj-3",
+            "description": null,
+            "stars": 1812,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nic-dev-1",
+        "blog": "https://nic-dev-1.dev"
+      },
+      {
+        "login": "nic-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Nicaragua)",
+        "company": "Amazon",
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 4847,
+        "publicContributions": 33812,
+        "privateContributions": 406,
+        "languages": [
+          "Swift",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 540,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "nic-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nic-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": "Developer from Nicaragua",
+        "followers": 4640,
+        "publicContributions": 32407,
+        "privateContributions": 215,
+        "languages": [
+          "Python",
+          "Go",
+          "PHP",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 732,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Nicaragua)",
+        "company": "Vercel",
+        "location": "Managua",
+        "bio": null,
+        "followers": 4469,
+        "publicContributions": 31141,
+        "privateContributions": 203,
+        "languages": [
+          "Go",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-4-proj-1",
+            "description": null,
+            "stars": 998,
+            "language": "Go"
+          },
+          {
+            "name": "nic-dev-4-proj-2",
+            "description": null,
+            "stars": 1723,
+            "language": "Swift"
+          },
+          {
+            "name": "nic-dev-4-proj-3",
+            "description": "API wrapper",
+            "stars": 1764,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Nicaragua)",
+        "company": "Microsoft",
+        "location": "Managua",
+        "bio": null,
+        "followers": 4308,
+        "publicContributions": 29968,
+        "privateContributions": 494,
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1597,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 287,
+            "language": "JavaScript"
+          },
+          {
+            "name": "nic-dev-5-proj-3",
+            "description": "API wrapper",
+            "stars": 1515,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Nicaragua)",
+        "company": "Meta",
+        "location": "Nicaragua",
+        "bio": null,
+        "followers": 4106,
+        "publicContributions": 28804,
+        "privateContributions": 403,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-6-proj-1",
+            "description": null,
+            "stars": 1108,
+            "language": "Dart"
+          },
+          {
+            "name": "nic-dev-6-proj-2",
+            "description": null,
+            "stars": 386,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Nicaragua)",
+        "company": "Meta",
+        "location": "Managua",
+        "bio": null,
+        "followers": 3973,
+        "publicContributions": 27680,
+        "privateContributions": 118,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-7-proj-1",
+            "description": null,
+            "stars": 743,
+            "language": "Ruby"
+          },
+          {
+            "name": "nic-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 646,
+            "language": "Ruby"
+          },
+          {
+            "name": "nic-dev-7-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1227,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Nicaragua)",
+        "company": null,
+        "location": "Nicaragua",
+        "bio": null,
+        "followers": 3813,
+        "publicContributions": 26542,
+        "privateContributions": 351,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 748,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-8-proj-2",
+            "description": null,
+            "stars": 1506,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Nicaragua)",
+        "company": null,
+        "location": "Managua",
+        "bio": null,
+        "followers": 3667,
+        "publicContributions": 25607,
+        "privateContributions": 434,
+        "languages": [
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 317,
+            "language": "Python"
+          },
+          {
+            "name": "nic-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1152,
+            "language": "JavaScript"
+          },
+          {
+            "name": "nic-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 1272,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nic-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Nicaragua)",
+        "company": "Vercel",
+        "location": "Managua",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24478,
+        "privateContributions": 428,
+        "languages": [
+          "Ruby",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nic-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 371,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

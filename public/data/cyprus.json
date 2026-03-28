@@ -1,0 +1,1350 @@
+{
+  "countryCode": "cyprus",
+  "updatedAt": "2026-03-27T22:30:49.888Z",
+  "users": [
+    {
+      "login": "cyp-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Cyprus)",
+      "company": null,
+      "location": "Nicosia",
+      "bio": "Developer from Cyprus",
+      "followers": 5018,
+      "publicContributions": 35197,
+      "privateContributions": 469,
+      "languages": [
+        "Ruby",
+        "Swift",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-1-proj-1",
+          "description": "API wrapper",
+          "stars": 352,
+          "language": "Ruby"
+        },
+        {
+          "name": "cyp-dev-1-proj-2",
+          "description": "Web framework for developers",
+          "stars": 214,
+          "language": "Swift"
+        },
+        {
+          "name": "cyp-dev-1-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 1538,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": "cyp-dev-1",
+      "blog": "https://cyp-dev-1.dev"
+    },
+    {
+      "login": "cyp-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Cyprus)",
+      "company": "Amazon",
+      "location": "Limassol",
+      "bio": "Developer from Cyprus",
+      "followers": 4848,
+      "publicContributions": 33722,
+      "privateContributions": 467,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-2-proj-1",
+          "description": null,
+          "stars": 1170,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "cyp-dev-2",
+      "blog": null
+    },
+    {
+      "login": "cyp-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Cyprus)",
+      "company": null,
+      "location": "Nicosia",
+      "bio": "Developer from Cyprus",
+      "followers": 4652,
+      "publicContributions": 32503,
+      "privateContributions": 109,
+      "languages": [
+        "Java",
+        "Ruby",
+        "Rust",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-3-proj-1",
+          "description": "Data pipeline library",
+          "stars": 911,
+          "language": "Java"
+        },
+        {
+          "name": "cyp-dev-3-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1594,
+          "language": "Ruby"
+        },
+        {
+          "name": "cyp-dev-3-proj-3",
+          "description": "Data pipeline library",
+          "stars": 1284,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cyp-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Cyprus)",
+      "company": "Stripe",
+      "location": "Limassol",
+      "bio": null,
+      "followers": 4462,
+      "publicContributions": 31131,
+      "privateContributions": 17,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-4-proj-1",
+          "description": "API wrapper",
+          "stars": 332,
+          "language": "Dart"
+        },
+        {
+          "name": "cyp-dev-4-proj-2",
+          "description": "API wrapper",
+          "stars": 1527,
+          "language": "Dart"
+        },
+        {
+          "name": "cyp-dev-4-proj-3",
+          "description": "Data pipeline library",
+          "stars": 1523,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cyp-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Cyprus)",
+      "company": "Stripe",
+      "location": "Cyprus",
+      "bio": null,
+      "followers": 4276,
+      "publicContributions": 29937,
+      "privateContributions": 260,
+      "languages": [
+        "JavaScript",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-5-proj-1",
+          "description": "API wrapper",
+          "stars": 1073,
+          "language": "JavaScript"
+        },
+        {
+          "name": "cyp-dev-5-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1219,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cyp-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Cyprus)",
+      "company": "Stripe",
+      "location": "Limassol",
+      "bio": null,
+      "followers": 4133,
+      "publicContributions": 28854,
+      "privateContributions": 348,
+      "languages": [
+        "C++",
+        "Rust",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-6-proj-1",
+          "description": "Web framework for developers",
+          "stars": 897,
+          "language": "C++"
+        },
+        {
+          "name": "cyp-dev-6-proj-2",
+          "description": "Open source utilities",
+          "stars": 990,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cyp-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Cyprus)",
+      "company": "GitHub",
+      "location": "Nicosia",
+      "bio": null,
+      "followers": 3962,
+      "publicContributions": 27647,
+      "privateContributions": 309,
+      "languages": [
+        "PHP",
+        "JavaScript",
+        "Java",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-7-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 133,
+          "language": "PHP"
+        },
+        {
+          "name": "cyp-dev-7-proj-2",
+          "description": "Web framework for developers",
+          "stars": 555,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cyp-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Cyprus)",
+      "company": null,
+      "location": "Nicosia",
+      "bio": null,
+      "followers": 3807,
+      "publicContributions": 26634,
+      "privateContributions": 426,
+      "languages": [
+        "PHP",
+        "Python",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-8-proj-1",
+          "description": "Open source utilities",
+          "stars": 1545,
+          "language": "PHP"
+        },
+        {
+          "name": "cyp-dev-8-proj-2",
+          "description": "Open source utilities",
+          "stars": 88,
+          "language": "Python"
+        },
+        {
+          "name": "cyp-dev-8-proj-3",
+          "description": "Data pipeline library",
+          "stars": 447,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cyp-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Cyprus)",
+      "company": null,
+      "location": "Nicosia",
+      "bio": null,
+      "followers": 3666,
+      "publicContributions": 25535,
+      "privateContributions": 250,
+      "languages": [
+        "C++",
+        "Java",
+        "Ruby",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 415,
+          "language": "C++"
+        },
+        {
+          "name": "cyp-dev-9-proj-2",
+          "description": "Open source utilities",
+          "stars": 1070,
+          "language": "Java"
+        },
+        {
+          "name": "cyp-dev-9-proj-3",
+          "description": "Open source utilities",
+          "stars": 125,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cyp-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Cyprus)",
+      "company": null,
+      "location": "Cyprus",
+      "bio": null,
+      "followers": 3535,
+      "publicContributions": 24559,
+      "privateContributions": 497,
+      "languages": [
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "cyp-dev-10-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1410,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "cyp-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": "Developer from Cyprus",
+        "followers": 5018,
+        "publicContributions": 35197,
+        "privateContributions": 469,
+        "languages": [
+          "Ruby",
+          "Swift",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 352,
+            "language": "Ruby"
+          },
+          {
+            "name": "cyp-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 214,
+            "language": "Swift"
+          },
+          {
+            "name": "cyp-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1538,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "cyp-dev-1",
+        "blog": "https://cyp-dev-1.dev"
+      },
+      {
+        "login": "cyp-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Cyprus)",
+        "company": "Amazon",
+        "location": "Limassol",
+        "bio": "Developer from Cyprus",
+        "followers": 4848,
+        "publicContributions": 33722,
+        "privateContributions": 467,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-2-proj-1",
+            "description": null,
+            "stars": 1170,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cyp-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": "Developer from Cyprus",
+        "followers": 4652,
+        "publicContributions": 32503,
+        "privateContributions": 109,
+        "languages": [
+          "Java",
+          "Ruby",
+          "Rust",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Java"
+          },
+          {
+            "name": "cyp-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1594,
+            "language": "Ruby"
+          },
+          {
+            "name": "cyp-dev-3-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1284,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Cyprus)",
+        "company": "Stripe",
+        "location": "Limassol",
+        "bio": null,
+        "followers": 4462,
+        "publicContributions": 31131,
+        "privateContributions": 17,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 332,
+            "language": "Dart"
+          },
+          {
+            "name": "cyp-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1527,
+            "language": "Dart"
+          },
+          {
+            "name": "cyp-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1523,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Cyprus)",
+        "company": "Stripe",
+        "location": "Cyprus",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29937,
+        "privateContributions": 260,
+        "languages": [
+          "JavaScript",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1073,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cyp-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1219,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Cyprus)",
+        "company": "Stripe",
+        "location": "Limassol",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28854,
+        "privateContributions": 348,
+        "languages": [
+          "C++",
+          "Rust",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 897,
+            "language": "C++"
+          },
+          {
+            "name": "cyp-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 990,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Cyprus)",
+        "company": "GitHub",
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27647,
+        "privateContributions": 309,
+        "languages": [
+          "PHP",
+          "JavaScript",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 133,
+            "language": "PHP"
+          },
+          {
+            "name": "cyp-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 555,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26634,
+        "privateContributions": 426,
+        "languages": [
+          "PHP",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1545,
+            "language": "PHP"
+          },
+          {
+            "name": "cyp-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 88,
+            "language": "Python"
+          },
+          {
+            "name": "cyp-dev-8-proj-3",
+            "description": "Data pipeline library",
+            "stars": 447,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3666,
+        "publicContributions": 25535,
+        "privateContributions": 250,
+        "languages": [
+          "C++",
+          "Java",
+          "Ruby",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 415,
+            "language": "C++"
+          },
+          {
+            "name": "cyp-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 1070,
+            "language": "Java"
+          },
+          {
+            "name": "cyp-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 125,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Cyprus)",
+        "company": null,
+        "location": "Cyprus",
+        "bio": null,
+        "followers": 3535,
+        "publicContributions": 24559,
+        "privateContributions": 497,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1410,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "cyp-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": "Developer from Cyprus",
+        "followers": 5018,
+        "publicContributions": 35197,
+        "privateContributions": 469,
+        "languages": [
+          "Ruby",
+          "Swift",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 352,
+            "language": "Ruby"
+          },
+          {
+            "name": "cyp-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 214,
+            "language": "Swift"
+          },
+          {
+            "name": "cyp-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1538,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "cyp-dev-1",
+        "blog": "https://cyp-dev-1.dev"
+      },
+      {
+        "login": "cyp-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Cyprus)",
+        "company": "Amazon",
+        "location": "Limassol",
+        "bio": "Developer from Cyprus",
+        "followers": 4848,
+        "publicContributions": 33722,
+        "privateContributions": 467,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-2-proj-1",
+            "description": null,
+            "stars": 1170,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cyp-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": "Developer from Cyprus",
+        "followers": 4652,
+        "publicContributions": 32503,
+        "privateContributions": 109,
+        "languages": [
+          "Java",
+          "Ruby",
+          "Rust",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Java"
+          },
+          {
+            "name": "cyp-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1594,
+            "language": "Ruby"
+          },
+          {
+            "name": "cyp-dev-3-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1284,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Cyprus)",
+        "company": "Stripe",
+        "location": "Limassol",
+        "bio": null,
+        "followers": 4462,
+        "publicContributions": 31131,
+        "privateContributions": 17,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 332,
+            "language": "Dart"
+          },
+          {
+            "name": "cyp-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1527,
+            "language": "Dart"
+          },
+          {
+            "name": "cyp-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1523,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Cyprus)",
+        "company": "Stripe",
+        "location": "Cyprus",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29937,
+        "privateContributions": 260,
+        "languages": [
+          "JavaScript",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1073,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cyp-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1219,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Cyprus)",
+        "company": "Stripe",
+        "location": "Limassol",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28854,
+        "privateContributions": 348,
+        "languages": [
+          "C++",
+          "Rust",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 897,
+            "language": "C++"
+          },
+          {
+            "name": "cyp-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 990,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Cyprus)",
+        "company": "GitHub",
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27647,
+        "privateContributions": 309,
+        "languages": [
+          "PHP",
+          "JavaScript",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 133,
+            "language": "PHP"
+          },
+          {
+            "name": "cyp-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 555,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26634,
+        "privateContributions": 426,
+        "languages": [
+          "PHP",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1545,
+            "language": "PHP"
+          },
+          {
+            "name": "cyp-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 88,
+            "language": "Python"
+          },
+          {
+            "name": "cyp-dev-8-proj-3",
+            "description": "Data pipeline library",
+            "stars": 447,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3666,
+        "publicContributions": 25535,
+        "privateContributions": 250,
+        "languages": [
+          "C++",
+          "Java",
+          "Ruby",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 415,
+            "language": "C++"
+          },
+          {
+            "name": "cyp-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 1070,
+            "language": "Java"
+          },
+          {
+            "name": "cyp-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 125,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Cyprus)",
+        "company": null,
+        "location": "Cyprus",
+        "bio": null,
+        "followers": 3535,
+        "publicContributions": 24559,
+        "privateContributions": 497,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1410,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "cyp-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": "Developer from Cyprus",
+        "followers": 5018,
+        "publicContributions": 35197,
+        "privateContributions": 469,
+        "languages": [
+          "Ruby",
+          "Swift",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-1-proj-1",
+            "description": "API wrapper",
+            "stars": 352,
+            "language": "Ruby"
+          },
+          {
+            "name": "cyp-dev-1-proj-2",
+            "description": "Web framework for developers",
+            "stars": 214,
+            "language": "Swift"
+          },
+          {
+            "name": "cyp-dev-1-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1538,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "cyp-dev-1",
+        "blog": "https://cyp-dev-1.dev"
+      },
+      {
+        "login": "cyp-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Cyprus)",
+        "company": "Amazon",
+        "location": "Limassol",
+        "bio": "Developer from Cyprus",
+        "followers": 4848,
+        "publicContributions": 33722,
+        "privateContributions": 467,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-2-proj-1",
+            "description": null,
+            "stars": 1170,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cyp-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": "Developer from Cyprus",
+        "followers": 4652,
+        "publicContributions": 32503,
+        "privateContributions": 109,
+        "languages": [
+          "Java",
+          "Ruby",
+          "Rust",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Java"
+          },
+          {
+            "name": "cyp-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1594,
+            "language": "Ruby"
+          },
+          {
+            "name": "cyp-dev-3-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1284,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Cyprus)",
+        "company": "Stripe",
+        "location": "Limassol",
+        "bio": null,
+        "followers": 4462,
+        "publicContributions": 31131,
+        "privateContributions": 17,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 332,
+            "language": "Dart"
+          },
+          {
+            "name": "cyp-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1527,
+            "language": "Dart"
+          },
+          {
+            "name": "cyp-dev-4-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1523,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Cyprus)",
+        "company": "Stripe",
+        "location": "Cyprus",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29937,
+        "privateContributions": 260,
+        "languages": [
+          "JavaScript",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 1073,
+            "language": "JavaScript"
+          },
+          {
+            "name": "cyp-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1219,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Cyprus)",
+        "company": "Stripe",
+        "location": "Limassol",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28854,
+        "privateContributions": 348,
+        "languages": [
+          "C++",
+          "Rust",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 897,
+            "language": "C++"
+          },
+          {
+            "name": "cyp-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 990,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Cyprus)",
+        "company": "GitHub",
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3962,
+        "publicContributions": 27647,
+        "privateContributions": 309,
+        "languages": [
+          "PHP",
+          "JavaScript",
+          "Java",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 133,
+            "language": "PHP"
+          },
+          {
+            "name": "cyp-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 555,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3807,
+        "publicContributions": 26634,
+        "privateContributions": 426,
+        "languages": [
+          "PHP",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1545,
+            "language": "PHP"
+          },
+          {
+            "name": "cyp-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 88,
+            "language": "Python"
+          },
+          {
+            "name": "cyp-dev-8-proj-3",
+            "description": "Data pipeline library",
+            "stars": 447,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Cyprus)",
+        "company": null,
+        "location": "Nicosia",
+        "bio": null,
+        "followers": 3666,
+        "publicContributions": 25535,
+        "privateContributions": 250,
+        "languages": [
+          "C++",
+          "Java",
+          "Ruby",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 415,
+            "language": "C++"
+          },
+          {
+            "name": "cyp-dev-9-proj-2",
+            "description": "Open source utilities",
+            "stars": 1070,
+            "language": "Java"
+          },
+          {
+            "name": "cyp-dev-9-proj-3",
+            "description": "Open source utilities",
+            "stars": 125,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cyp-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Cyprus)",
+        "company": null,
+        "location": "Cyprus",
+        "bio": null,
+        "followers": 3535,
+        "publicContributions": 24559,
+        "privateContributions": 497,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cyp-dev-10-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1410,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1242 @@
+{
+  "countryCode": "bulgaria",
+  "updatedAt": "2026-03-27T22:30:49.884Z",
+  "users": [
+    {
+      "login": "bul-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Bulgaria)",
+      "company": "Meta",
+      "location": "Varna",
+      "bio": "Developer from Bulgaria",
+      "followers": 5036,
+      "publicContributions": 35109,
+      "privateContributions": 124,
+      "languages": [
+        "Ruby",
+        "Go",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-1-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1466,
+          "language": "Ruby"
+        },
+        {
+          "name": "bul-dev-1-proj-2",
+          "description": null,
+          "stars": 1868,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "bul-dev-1",
+      "blog": "https://bul-dev-1.dev"
+    },
+    {
+      "login": "bul-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Bulgaria)",
+      "company": "Apple",
+      "location": "Plovdiv",
+      "bio": "Developer from Bulgaria",
+      "followers": 4818,
+      "publicContributions": 33749,
+      "privateContributions": 323,
+      "languages": [
+        "Rust",
+        "TypeScript",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-2-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1610,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": "bul-dev-2",
+      "blog": null
+    },
+    {
+      "login": "bul-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Bulgaria)",
+      "company": "Vercel",
+      "location": "Bulgaria",
+      "bio": "Developer from Bulgaria",
+      "followers": 4634,
+      "publicContributions": 32432,
+      "privateContributions": 58,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-3-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1597,
+          "language": "Go"
+        },
+        {
+          "name": "bul-dev-3-proj-2",
+          "description": null,
+          "stars": 55,
+          "language": "Go"
+        },
+        {
+          "name": "bul-dev-3-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 891,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bul-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Bulgaria)",
+      "company": "Google",
+      "location": "Plovdiv",
+      "bio": null,
+      "followers": 4460,
+      "publicContributions": 31158,
+      "privateContributions": 106,
+      "languages": [
+        "Kotlin",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-4-proj-1",
+          "description": "API wrapper",
+          "stars": 233,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bul-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Bulgaria)",
+      "company": "Google",
+      "location": "Plovdiv",
+      "bio": null,
+      "followers": 4277,
+      "publicContributions": 30013,
+      "privateContributions": 52,
+      "languages": [
+        "Ruby",
+        "Go",
+        "Rust",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-5-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1219,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bul-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Bulgaria)",
+      "company": null,
+      "location": "Plovdiv",
+      "bio": null,
+      "followers": 4121,
+      "publicContributions": 28797,
+      "privateContributions": 19,
+      "languages": [
+        "Go",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-6-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1532,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bul-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Bulgaria)",
+      "company": null,
+      "location": "Plovdiv",
+      "bio": null,
+      "followers": 3960,
+      "publicContributions": 27614,
+      "privateContributions": 74,
+      "languages": [
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-7-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 84,
+          "language": "PHP"
+        },
+        {
+          "name": "bul-dev-7-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 111,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bul-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Bulgaria)",
+      "company": "Amazon",
+      "location": "Varna",
+      "bio": null,
+      "followers": 3801,
+      "publicContributions": 26551,
+      "privateContributions": 84,
+      "languages": [
+        "Python",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-8-proj-1",
+          "description": null,
+          "stars": 788,
+          "language": "Python"
+        },
+        {
+          "name": "bul-dev-8-proj-2",
+          "description": "Open source utilities",
+          "stars": 485,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bul-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Bulgaria)",
+      "company": "Amazon",
+      "location": "Bulgaria",
+      "bio": null,
+      "followers": 3671,
+      "publicContributions": 25470,
+      "privateContributions": 447,
+      "languages": [
+        "Ruby",
+        "Dart",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-9-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1148,
+          "language": "Ruby"
+        },
+        {
+          "name": "bul-dev-9-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 400,
+          "language": "Dart"
+        },
+        {
+          "name": "bul-dev-9-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 337,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bul-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Bulgaria)",
+      "company": null,
+      "location": "Varna",
+      "bio": null,
+      "followers": 3520,
+      "publicContributions": 24515,
+      "privateContributions": 50,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "bul-dev-10-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 957,
+          "language": "Dart"
+        },
+        {
+          "name": "bul-dev-10-proj-2",
+          "description": "Web framework for developers",
+          "stars": 324,
+          "language": "Dart"
+        },
+        {
+          "name": "bul-dev-10-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 113,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "bul-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Bulgaria)",
+        "company": "Meta",
+        "location": "Varna",
+        "bio": "Developer from Bulgaria",
+        "followers": 5036,
+        "publicContributions": 35109,
+        "privateContributions": 124,
+        "languages": [
+          "Ruby",
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1466,
+            "language": "Ruby"
+          },
+          {
+            "name": "bul-dev-1-proj-2",
+            "description": null,
+            "stars": 1868,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bul-dev-1",
+        "blog": "https://bul-dev-1.dev"
+      },
+      {
+        "login": "bul-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Bulgaria)",
+        "company": "Apple",
+        "location": "Plovdiv",
+        "bio": "Developer from Bulgaria",
+        "followers": 4818,
+        "publicContributions": 33749,
+        "privateContributions": 323,
+        "languages": [
+          "Rust",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1610,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "bul-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bul-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Bulgaria)",
+        "company": "Vercel",
+        "location": "Bulgaria",
+        "bio": "Developer from Bulgaria",
+        "followers": 4634,
+        "publicContributions": 32432,
+        "privateContributions": 58,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1597,
+            "language": "Go"
+          },
+          {
+            "name": "bul-dev-3-proj-2",
+            "description": null,
+            "stars": 55,
+            "language": "Go"
+          },
+          {
+            "name": "bul-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 891,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Bulgaria)",
+        "company": "Google",
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4460,
+        "publicContributions": 31158,
+        "privateContributions": 106,
+        "languages": [
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 233,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Bulgaria)",
+        "company": "Google",
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4277,
+        "publicContributions": 30013,
+        "privateContributions": 52,
+        "languages": [
+          "Ruby",
+          "Go",
+          "Rust",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1219,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Bulgaria)",
+        "company": null,
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28797,
+        "privateContributions": 19,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1532,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Bulgaria)",
+        "company": null,
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 3960,
+        "publicContributions": 27614,
+        "privateContributions": 74,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 84,
+            "language": "PHP"
+          },
+          {
+            "name": "bul-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 111,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Bulgaria)",
+        "company": "Amazon",
+        "location": "Varna",
+        "bio": null,
+        "followers": 3801,
+        "publicContributions": 26551,
+        "privateContributions": 84,
+        "languages": [
+          "Python",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-8-proj-1",
+            "description": null,
+            "stars": 788,
+            "language": "Python"
+          },
+          {
+            "name": "bul-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 485,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Bulgaria)",
+        "company": "Amazon",
+        "location": "Bulgaria",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25470,
+        "privateContributions": 447,
+        "languages": [
+          "Ruby",
+          "Dart",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1148,
+            "language": "Ruby"
+          },
+          {
+            "name": "bul-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 400,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-9-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 337,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Bulgaria)",
+        "company": null,
+        "location": "Varna",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24515,
+        "privateContributions": 50,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 957,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 324,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 113,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "bul-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Bulgaria)",
+        "company": "Meta",
+        "location": "Varna",
+        "bio": "Developer from Bulgaria",
+        "followers": 5036,
+        "publicContributions": 35109,
+        "privateContributions": 124,
+        "languages": [
+          "Ruby",
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1466,
+            "language": "Ruby"
+          },
+          {
+            "name": "bul-dev-1-proj-2",
+            "description": null,
+            "stars": 1868,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bul-dev-1",
+        "blog": "https://bul-dev-1.dev"
+      },
+      {
+        "login": "bul-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Bulgaria)",
+        "company": "Apple",
+        "location": "Plovdiv",
+        "bio": "Developer from Bulgaria",
+        "followers": 4818,
+        "publicContributions": 33749,
+        "privateContributions": 323,
+        "languages": [
+          "Rust",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1610,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "bul-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bul-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Bulgaria)",
+        "company": "Vercel",
+        "location": "Bulgaria",
+        "bio": "Developer from Bulgaria",
+        "followers": 4634,
+        "publicContributions": 32432,
+        "privateContributions": 58,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1597,
+            "language": "Go"
+          },
+          {
+            "name": "bul-dev-3-proj-2",
+            "description": null,
+            "stars": 55,
+            "language": "Go"
+          },
+          {
+            "name": "bul-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 891,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Bulgaria)",
+        "company": "Google",
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4460,
+        "publicContributions": 31158,
+        "privateContributions": 106,
+        "languages": [
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 233,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Bulgaria)",
+        "company": "Google",
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4277,
+        "publicContributions": 30013,
+        "privateContributions": 52,
+        "languages": [
+          "Ruby",
+          "Go",
+          "Rust",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1219,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Bulgaria)",
+        "company": null,
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28797,
+        "privateContributions": 19,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1532,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Bulgaria)",
+        "company": null,
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 3960,
+        "publicContributions": 27614,
+        "privateContributions": 74,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 84,
+            "language": "PHP"
+          },
+          {
+            "name": "bul-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 111,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Bulgaria)",
+        "company": "Amazon",
+        "location": "Varna",
+        "bio": null,
+        "followers": 3801,
+        "publicContributions": 26551,
+        "privateContributions": 84,
+        "languages": [
+          "Python",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-8-proj-1",
+            "description": null,
+            "stars": 788,
+            "language": "Python"
+          },
+          {
+            "name": "bul-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 485,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Bulgaria)",
+        "company": "Amazon",
+        "location": "Bulgaria",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25470,
+        "privateContributions": 447,
+        "languages": [
+          "Ruby",
+          "Dart",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1148,
+            "language": "Ruby"
+          },
+          {
+            "name": "bul-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 400,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-9-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 337,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Bulgaria)",
+        "company": null,
+        "location": "Varna",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24515,
+        "privateContributions": 50,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 957,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 324,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 113,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "bul-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Bulgaria)",
+        "company": "Meta",
+        "location": "Varna",
+        "bio": "Developer from Bulgaria",
+        "followers": 5036,
+        "publicContributions": 35109,
+        "privateContributions": 124,
+        "languages": [
+          "Ruby",
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1466,
+            "language": "Ruby"
+          },
+          {
+            "name": "bul-dev-1-proj-2",
+            "description": null,
+            "stars": 1868,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "bul-dev-1",
+        "blog": "https://bul-dev-1.dev"
+      },
+      {
+        "login": "bul-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Bulgaria)",
+        "company": "Apple",
+        "location": "Plovdiv",
+        "bio": "Developer from Bulgaria",
+        "followers": 4818,
+        "publicContributions": 33749,
+        "privateContributions": 323,
+        "languages": [
+          "Rust",
+          "TypeScript",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1610,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": "bul-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bul-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Bulgaria)",
+        "company": "Vercel",
+        "location": "Bulgaria",
+        "bio": "Developer from Bulgaria",
+        "followers": 4634,
+        "publicContributions": 32432,
+        "privateContributions": 58,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-3-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1597,
+            "language": "Go"
+          },
+          {
+            "name": "bul-dev-3-proj-2",
+            "description": null,
+            "stars": 55,
+            "language": "Go"
+          },
+          {
+            "name": "bul-dev-3-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 891,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Bulgaria)",
+        "company": "Google",
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4460,
+        "publicContributions": 31158,
+        "privateContributions": 106,
+        "languages": [
+          "Kotlin",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 233,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Bulgaria)",
+        "company": "Google",
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4277,
+        "publicContributions": 30013,
+        "privateContributions": 52,
+        "languages": [
+          "Ruby",
+          "Go",
+          "Rust",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-5-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1219,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Bulgaria)",
+        "company": null,
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28797,
+        "privateContributions": 19,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1532,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Bulgaria)",
+        "company": null,
+        "location": "Plovdiv",
+        "bio": null,
+        "followers": 3960,
+        "publicContributions": 27614,
+        "privateContributions": 74,
+        "languages": [
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 84,
+            "language": "PHP"
+          },
+          {
+            "name": "bul-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 111,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Bulgaria)",
+        "company": "Amazon",
+        "location": "Varna",
+        "bio": null,
+        "followers": 3801,
+        "publicContributions": 26551,
+        "privateContributions": 84,
+        "languages": [
+          "Python",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-8-proj-1",
+            "description": null,
+            "stars": 788,
+            "language": "Python"
+          },
+          {
+            "name": "bul-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 485,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Bulgaria)",
+        "company": "Amazon",
+        "location": "Bulgaria",
+        "bio": null,
+        "followers": 3671,
+        "publicContributions": 25470,
+        "privateContributions": 447,
+        "languages": [
+          "Ruby",
+          "Dart",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-9-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1148,
+            "language": "Ruby"
+          },
+          {
+            "name": "bul-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 400,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-9-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 337,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bul-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Bulgaria)",
+        "company": null,
+        "location": "Varna",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24515,
+        "privateContributions": 50,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "bul-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 957,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-10-proj-2",
+            "description": "Web framework for developers",
+            "stars": 324,
+            "language": "Dart"
+          },
+          {
+            "name": "bul-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 113,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1290 @@
+{
+  "countryCode": "tanzania",
+  "updatedAt": "2026-03-27T22:30:49.908Z",
+  "users": [
+    {
+      "login": "tan-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Tanzania)",
+      "company": null,
+      "location": "Dar es salaam",
+      "bio": "Developer from Tanzania",
+      "followers": 5020,
+      "publicContributions": 35058,
+      "privateContributions": 43,
+      "languages": [
+        "Swift",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-1-proj-1",
+          "description": "Web framework for developers",
+          "stars": 507,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": "tan-dev-1",
+      "blog": "https://tan-dev-1.dev"
+    },
+    {
+      "login": "tan-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Tanzania)",
+      "company": null,
+      "location": "Tanzania",
+      "bio": "Developer from Tanzania",
+      "followers": 4821,
+      "publicContributions": 33701,
+      "privateContributions": 441,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-2-proj-1",
+          "description": "API wrapper",
+          "stars": 1602,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "tan-dev-2",
+      "blog": null
+    },
+    {
+      "login": "tan-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Tanzania)",
+      "company": "Apple",
+      "location": "Dar es salaam",
+      "bio": "Developer from Tanzania",
+      "followers": 4646,
+      "publicContributions": 32475,
+      "privateContributions": 185,
+      "languages": [
+        "JavaScript",
+        "Java",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-3-proj-1",
+          "description": "Open source utilities",
+          "stars": 27,
+          "language": "JavaScript"
+        },
+        {
+          "name": "tan-dev-3-proj-2",
+          "description": "Open source utilities",
+          "stars": 1077,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "tan-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Tanzania)",
+      "company": "Amazon",
+      "location": "Dar es salaam",
+      "bio": null,
+      "followers": 4465,
+      "publicContributions": 31131,
+      "privateContributions": 60,
+      "languages": [
+        "Swift",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-4-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 666,
+          "language": "Swift"
+        },
+        {
+          "name": "tan-dev-4-proj-2",
+          "description": "Open source utilities",
+          "stars": 419,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "tan-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Tanzania)",
+      "company": null,
+      "location": "Tanzania",
+      "bio": null,
+      "followers": 4300,
+      "publicContributions": 29933,
+      "privateContributions": 294,
+      "languages": [
+        "Java",
+        "Python",
+        "Swift",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-5-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1205,
+          "language": "Java"
+        },
+        {
+          "name": "tan-dev-5-proj-2",
+          "description": "Web framework for developers",
+          "stars": 619,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "tan-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Tanzania)",
+      "company": "Apple",
+      "location": "Dar es salaam",
+      "bio": null,
+      "followers": 4129,
+      "publicContributions": 28775,
+      "privateContributions": 140,
+      "languages": [
+        "Rust",
+        "Dart",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-6-proj-1",
+          "description": null,
+          "stars": 1048,
+          "language": "Rust"
+        },
+        {
+          "name": "tan-dev-6-proj-2",
+          "description": "API wrapper",
+          "stars": 1024,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "tan-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Tanzania)",
+      "company": "Vercel",
+      "location": "Tanzania",
+      "bio": null,
+      "followers": 3979,
+      "publicContributions": 27709,
+      "privateContributions": 7,
+      "languages": [
+        "PHP",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-7-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1299,
+          "language": "PHP"
+        },
+        {
+          "name": "tan-dev-7-proj-2",
+          "description": "API wrapper",
+          "stars": 1455,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "tan-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Tanzania)",
+      "company": "Microsoft",
+      "location": "Tanzania",
+      "bio": null,
+      "followers": 3821,
+      "publicContributions": 26502,
+      "privateContributions": 57,
+      "languages": [
+        "TypeScript",
+        "C++",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-8-proj-1",
+          "description": "Open source utilities",
+          "stars": 1146,
+          "language": "TypeScript"
+        },
+        {
+          "name": "tan-dev-8-proj-2",
+          "description": "API wrapper",
+          "stars": 1276,
+          "language": "C++"
+        },
+        {
+          "name": "tan-dev-8-proj-3",
+          "description": "Web framework for developers",
+          "stars": 1380,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "tan-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Tanzania)",
+      "company": "Apple",
+      "location": "Dar es salaam",
+      "bio": null,
+      "followers": 3641,
+      "publicContributions": 25476,
+      "privateContributions": 259,
+      "languages": [
+        "Python",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-9-proj-1",
+          "description": "Web framework for developers",
+          "stars": 199,
+          "language": "Python"
+        },
+        {
+          "name": "tan-dev-9-proj-2",
+          "description": "API wrapper",
+          "stars": 766,
+          "language": "Java"
+        },
+        {
+          "name": "tan-dev-9-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 1136,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "tan-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Tanzania)",
+      "company": "GitHub",
+      "location": "Dar es salaam",
+      "bio": null,
+      "followers": 3530,
+      "publicContributions": 24601,
+      "privateContributions": 451,
+      "languages": [
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "tan-dev-10-proj-1",
+          "description": null,
+          "stars": 529,
+          "language": "Dart"
+        },
+        {
+          "name": "tan-dev-10-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1324,
+          "language": "Dart"
+        },
+        {
+          "name": "tan-dev-10-proj-3",
+          "description": "Data pipeline library",
+          "stars": 1099,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "tan-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Tanzania)",
+        "company": null,
+        "location": "Dar es salaam",
+        "bio": "Developer from Tanzania",
+        "followers": 5020,
+        "publicContributions": 35058,
+        "privateContributions": 43,
+        "languages": [
+          "Swift",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 507,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "tan-dev-1",
+        "blog": "https://tan-dev-1.dev"
+      },
+      {
+        "login": "tan-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Tanzania)",
+        "company": null,
+        "location": "Tanzania",
+        "bio": "Developer from Tanzania",
+        "followers": 4821,
+        "publicContributions": 33701,
+        "privateContributions": 441,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1602,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "tan-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tan-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": "Developer from Tanzania",
+        "followers": 4646,
+        "publicContributions": 32475,
+        "privateContributions": 185,
+        "languages": [
+          "JavaScript",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 27,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tan-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1077,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Tanzania)",
+        "company": "Amazon",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 4465,
+        "publicContributions": 31131,
+        "privateContributions": 60,
+        "languages": [
+          "Swift",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 666,
+            "language": "Swift"
+          },
+          {
+            "name": "tan-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 419,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Tanzania)",
+        "company": null,
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29933,
+        "privateContributions": 294,
+        "languages": [
+          "Java",
+          "Python",
+          "Swift",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1205,
+            "language": "Java"
+          },
+          {
+            "name": "tan-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 619,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 4129,
+        "publicContributions": 28775,
+        "privateContributions": 140,
+        "languages": [
+          "Rust",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-6-proj-1",
+            "description": null,
+            "stars": 1048,
+            "language": "Rust"
+          },
+          {
+            "name": "tan-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1024,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Tanzania)",
+        "company": "Vercel",
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 3979,
+        "publicContributions": 27709,
+        "privateContributions": 7,
+        "languages": [
+          "PHP",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1299,
+            "language": "PHP"
+          },
+          {
+            "name": "tan-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1455,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Tanzania)",
+        "company": "Microsoft",
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 3821,
+        "publicContributions": 26502,
+        "privateContributions": 57,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1146,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tan-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1276,
+            "language": "C++"
+          },
+          {
+            "name": "tan-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1380,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25476,
+        "privateContributions": 259,
+        "languages": [
+          "Python",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 199,
+            "language": "Python"
+          },
+          {
+            "name": "tan-dev-9-proj-2",
+            "description": "API wrapper",
+            "stars": 766,
+            "language": "Java"
+          },
+          {
+            "name": "tan-dev-9-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1136,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Tanzania)",
+        "company": "GitHub",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 3530,
+        "publicContributions": 24601,
+        "privateContributions": 451,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-10-proj-1",
+            "description": null,
+            "stars": 529,
+            "language": "Dart"
+          },
+          {
+            "name": "tan-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1324,
+            "language": "Dart"
+          },
+          {
+            "name": "tan-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1099,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "tan-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Tanzania)",
+        "company": null,
+        "location": "Dar es salaam",
+        "bio": "Developer from Tanzania",
+        "followers": 5020,
+        "publicContributions": 35058,
+        "privateContributions": 43,
+        "languages": [
+          "Swift",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 507,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "tan-dev-1",
+        "blog": "https://tan-dev-1.dev"
+      },
+      {
+        "login": "tan-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Tanzania)",
+        "company": null,
+        "location": "Tanzania",
+        "bio": "Developer from Tanzania",
+        "followers": 4821,
+        "publicContributions": 33701,
+        "privateContributions": 441,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1602,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "tan-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tan-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": "Developer from Tanzania",
+        "followers": 4646,
+        "publicContributions": 32475,
+        "privateContributions": 185,
+        "languages": [
+          "JavaScript",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 27,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tan-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1077,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Tanzania)",
+        "company": "Amazon",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 4465,
+        "publicContributions": 31131,
+        "privateContributions": 60,
+        "languages": [
+          "Swift",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 666,
+            "language": "Swift"
+          },
+          {
+            "name": "tan-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 419,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Tanzania)",
+        "company": null,
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29933,
+        "privateContributions": 294,
+        "languages": [
+          "Java",
+          "Python",
+          "Swift",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1205,
+            "language": "Java"
+          },
+          {
+            "name": "tan-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 619,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 4129,
+        "publicContributions": 28775,
+        "privateContributions": 140,
+        "languages": [
+          "Rust",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-6-proj-1",
+            "description": null,
+            "stars": 1048,
+            "language": "Rust"
+          },
+          {
+            "name": "tan-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1024,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Tanzania)",
+        "company": "Vercel",
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 3979,
+        "publicContributions": 27709,
+        "privateContributions": 7,
+        "languages": [
+          "PHP",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1299,
+            "language": "PHP"
+          },
+          {
+            "name": "tan-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1455,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Tanzania)",
+        "company": "Microsoft",
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 3821,
+        "publicContributions": 26502,
+        "privateContributions": 57,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1146,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tan-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1276,
+            "language": "C++"
+          },
+          {
+            "name": "tan-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1380,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25476,
+        "privateContributions": 259,
+        "languages": [
+          "Python",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 199,
+            "language": "Python"
+          },
+          {
+            "name": "tan-dev-9-proj-2",
+            "description": "API wrapper",
+            "stars": 766,
+            "language": "Java"
+          },
+          {
+            "name": "tan-dev-9-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1136,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Tanzania)",
+        "company": "GitHub",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 3530,
+        "publicContributions": 24601,
+        "privateContributions": 451,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-10-proj-1",
+            "description": null,
+            "stars": 529,
+            "language": "Dart"
+          },
+          {
+            "name": "tan-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1324,
+            "language": "Dart"
+          },
+          {
+            "name": "tan-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1099,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "tan-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Tanzania)",
+        "company": null,
+        "location": "Dar es salaam",
+        "bio": "Developer from Tanzania",
+        "followers": 5020,
+        "publicContributions": 35058,
+        "privateContributions": 43,
+        "languages": [
+          "Swift",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 507,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "tan-dev-1",
+        "blog": "https://tan-dev-1.dev"
+      },
+      {
+        "login": "tan-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Tanzania)",
+        "company": null,
+        "location": "Tanzania",
+        "bio": "Developer from Tanzania",
+        "followers": 4821,
+        "publicContributions": 33701,
+        "privateContributions": 441,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1602,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "tan-dev-2",
+        "blog": null
+      },
+      {
+        "login": "tan-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": "Developer from Tanzania",
+        "followers": 4646,
+        "publicContributions": 32475,
+        "privateContributions": 185,
+        "languages": [
+          "JavaScript",
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-3-proj-1",
+            "description": "Open source utilities",
+            "stars": 27,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tan-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1077,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Tanzania)",
+        "company": "Amazon",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 4465,
+        "publicContributions": 31131,
+        "privateContributions": 60,
+        "languages": [
+          "Swift",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-4-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 666,
+            "language": "Swift"
+          },
+          {
+            "name": "tan-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 419,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Tanzania)",
+        "company": null,
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29933,
+        "privateContributions": 294,
+        "languages": [
+          "Java",
+          "Python",
+          "Swift",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1205,
+            "language": "Java"
+          },
+          {
+            "name": "tan-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 619,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 4129,
+        "publicContributions": 28775,
+        "privateContributions": 140,
+        "languages": [
+          "Rust",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-6-proj-1",
+            "description": null,
+            "stars": 1048,
+            "language": "Rust"
+          },
+          {
+            "name": "tan-dev-6-proj-2",
+            "description": "API wrapper",
+            "stars": 1024,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Tanzania)",
+        "company": "Vercel",
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 3979,
+        "publicContributions": 27709,
+        "privateContributions": 7,
+        "languages": [
+          "PHP",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1299,
+            "language": "PHP"
+          },
+          {
+            "name": "tan-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1455,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Tanzania)",
+        "company": "Microsoft",
+        "location": "Tanzania",
+        "bio": null,
+        "followers": 3821,
+        "publicContributions": 26502,
+        "privateContributions": 57,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1146,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tan-dev-8-proj-2",
+            "description": "API wrapper",
+            "stars": 1276,
+            "language": "C++"
+          },
+          {
+            "name": "tan-dev-8-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1380,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Tanzania)",
+        "company": "Apple",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25476,
+        "privateContributions": 259,
+        "languages": [
+          "Python",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 199,
+            "language": "Python"
+          },
+          {
+            "name": "tan-dev-9-proj-2",
+            "description": "API wrapper",
+            "stars": 766,
+            "language": "Java"
+          },
+          {
+            "name": "tan-dev-9-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1136,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "tan-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Tanzania)",
+        "company": "GitHub",
+        "location": "Dar es salaam",
+        "bio": null,
+        "followers": 3530,
+        "publicContributions": 24601,
+        "privateContributions": 451,
+        "languages": [
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "tan-dev-10-proj-1",
+            "description": null,
+            "stars": 529,
+            "language": "Dart"
+          },
+          {
+            "name": "tan-dev-10-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1324,
+            "language": "Dart"
+          },
+          {
+            "name": "tan-dev-10-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1099,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

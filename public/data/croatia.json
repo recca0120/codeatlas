@@ -1,0 +1,1346 @@
+{
+  "countryCode": "croatia",
+  "updatedAt": "2026-03-27T22:30:49.887Z",
+  "users": [
+    {
+      "login": "cro-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Croatia)",
+      "company": null,
+      "location": "Zagreb",
+      "bio": "Developer from Croatia",
+      "followers": 5040,
+      "publicContributions": 35142,
+      "privateContributions": 9,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-1-proj-1",
+          "description": null,
+          "stars": 1035,
+          "language": "TypeScript"
+        },
+        {
+          "name": "cro-dev-1-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1005,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "cro-dev-1",
+      "blog": "https://cro-dev-1.dev"
+    },
+    {
+      "login": "cro-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Croatia)",
+      "company": "Meta",
+      "location": "Split",
+      "bio": "Developer from Croatia",
+      "followers": 4835,
+      "publicContributions": 33734,
+      "privateContributions": 196,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-2-proj-1",
+          "description": "Data pipeline library",
+          "stars": 627,
+          "language": "TypeScript"
+        },
+        {
+          "name": "cro-dev-2-proj-2",
+          "description": "Open source utilities",
+          "stars": 1452,
+          "language": "TypeScript"
+        },
+        {
+          "name": "cro-dev-2-proj-3",
+          "description": null,
+          "stars": 1556,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": "cro-dev-2",
+      "blog": null
+    },
+    {
+      "login": "cro-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Croatia)",
+      "company": null,
+      "location": "Zagreb",
+      "bio": "Developer from Croatia",
+      "followers": 4653,
+      "publicContributions": 32374,
+      "privateContributions": 85,
+      "languages": [
+        "Python",
+        "Java",
+        "Kotlin",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-3-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1504,
+          "language": "Python"
+        },
+        {
+          "name": "cro-dev-3-proj-2",
+          "description": null,
+          "stars": 1791,
+          "language": "Java"
+        },
+        {
+          "name": "cro-dev-3-proj-3",
+          "description": null,
+          "stars": 246,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cro-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Croatia)",
+      "company": "Vercel",
+      "location": "Dubrovnik",
+      "bio": null,
+      "followers": 4445,
+      "publicContributions": 31106,
+      "privateContributions": 423,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-4-proj-1",
+          "description": "Web framework for developers",
+          "stars": 673,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cro-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Croatia)",
+      "company": null,
+      "location": "Croatia",
+      "bio": null,
+      "followers": 4284,
+      "publicContributions": 29979,
+      "privateContributions": 201,
+      "languages": [
+        "Rust",
+        "Python",
+        "Java",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-5-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1103,
+          "language": "Rust"
+        },
+        {
+          "name": "cro-dev-5-proj-2",
+          "description": null,
+          "stars": 1309,
+          "language": "Python"
+        },
+        {
+          "name": "cro-dev-5-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 285,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cro-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Croatia)",
+      "company": null,
+      "location": "Zagreb",
+      "bio": null,
+      "followers": 4132,
+      "publicContributions": 28759,
+      "privateContributions": 92,
+      "languages": [
+        "Swift",
+        "Go",
+        "Java",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-6-proj-1",
+          "description": "API wrapper",
+          "stars": 250,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cro-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Croatia)",
+      "company": "GitHub",
+      "location": "Split",
+      "bio": null,
+      "followers": 3945,
+      "publicContributions": 27584,
+      "privateContributions": 60,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-7-proj-1",
+          "description": "API wrapper",
+          "stars": 1008,
+          "language": "TypeScript"
+        },
+        {
+          "name": "cro-dev-7-proj-2",
+          "description": "Open source utilities",
+          "stars": 1324,
+          "language": "TypeScript"
+        },
+        {
+          "name": "cro-dev-7-proj-3",
+          "description": "Open source utilities",
+          "stars": 1005,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cro-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Croatia)",
+      "company": null,
+      "location": "Zagreb",
+      "bio": null,
+      "followers": 3814,
+      "publicContributions": 26545,
+      "privateContributions": 433,
+      "languages": [
+        "Go",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-8-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1014,
+          "language": "Go"
+        },
+        {
+          "name": "cro-dev-8-proj-2",
+          "description": "Open source utilities",
+          "stars": 1516,
+          "language": "Rust"
+        },
+        {
+          "name": "cro-dev-8-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 1090,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cro-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Croatia)",
+      "company": null,
+      "location": "Split",
+      "bio": null,
+      "followers": 3659,
+      "publicContributions": 25546,
+      "privateContributions": 420,
+      "languages": [
+        "Rust",
+        "C++",
+        "TypeScript",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-9-proj-1",
+          "description": null,
+          "stars": 870,
+          "language": "Rust"
+        },
+        {
+          "name": "cro-dev-9-proj-2",
+          "description": "Web framework for developers",
+          "stars": 54,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "cro-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Croatia)",
+      "company": "Microsoft",
+      "location": "Zagreb",
+      "bio": null,
+      "followers": 3533,
+      "publicContributions": 24478,
+      "privateContributions": 420,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "cro-dev-10-proj-1",
+          "description": "Open source utilities",
+          "stars": 1320,
+          "language": "TypeScript"
+        },
+        {
+          "name": "cro-dev-10-proj-2",
+          "description": "Open source utilities",
+          "stars": 441,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "cro-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": "Developer from Croatia",
+        "followers": 5040,
+        "publicContributions": 35142,
+        "privateContributions": 9,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-1-proj-1",
+            "description": null,
+            "stars": 1035,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1005,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cro-dev-1",
+        "blog": "https://cro-dev-1.dev"
+      },
+      {
+        "login": "cro-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Croatia)",
+        "company": "Meta",
+        "location": "Split",
+        "bio": "Developer from Croatia",
+        "followers": 4835,
+        "publicContributions": 33734,
+        "privateContributions": 196,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 627,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1452,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-2-proj-3",
+            "description": null,
+            "stars": 1556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cro-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cro-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": "Developer from Croatia",
+        "followers": 4653,
+        "publicContributions": 32374,
+        "privateContributions": 85,
+        "languages": [
+          "Python",
+          "Java",
+          "Kotlin",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1504,
+            "language": "Python"
+          },
+          {
+            "name": "cro-dev-3-proj-2",
+            "description": null,
+            "stars": 1791,
+            "language": "Java"
+          },
+          {
+            "name": "cro-dev-3-proj-3",
+            "description": null,
+            "stars": 246,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Croatia)",
+        "company": "Vercel",
+        "location": "Dubrovnik",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31106,
+        "privateContributions": 423,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 673,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Croatia)",
+        "company": null,
+        "location": "Croatia",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29979,
+        "privateContributions": 201,
+        "languages": [
+          "Rust",
+          "Python",
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1103,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-5-proj-2",
+            "description": null,
+            "stars": 1309,
+            "language": "Python"
+          },
+          {
+            "name": "cro-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 285,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28759,
+        "privateContributions": 92,
+        "languages": [
+          "Swift",
+          "Go",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 250,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Croatia)",
+        "company": "GitHub",
+        "location": "Split",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27584,
+        "privateContributions": 60,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1008,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1324,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 1005,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26545,
+        "privateContributions": 433,
+        "languages": [
+          "Go",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1014,
+            "language": "Go"
+          },
+          {
+            "name": "cro-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1516,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1090,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Croatia)",
+        "company": null,
+        "location": "Split",
+        "bio": null,
+        "followers": 3659,
+        "publicContributions": 25546,
+        "privateContributions": 420,
+        "languages": [
+          "Rust",
+          "C++",
+          "TypeScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-9-proj-1",
+            "description": null,
+            "stars": 870,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 54,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Croatia)",
+        "company": "Microsoft",
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 3533,
+        "publicContributions": 24478,
+        "privateContributions": 420,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1320,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 441,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "cro-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": "Developer from Croatia",
+        "followers": 5040,
+        "publicContributions": 35142,
+        "privateContributions": 9,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-1-proj-1",
+            "description": null,
+            "stars": 1035,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1005,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cro-dev-1",
+        "blog": "https://cro-dev-1.dev"
+      },
+      {
+        "login": "cro-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Croatia)",
+        "company": "Meta",
+        "location": "Split",
+        "bio": "Developer from Croatia",
+        "followers": 4835,
+        "publicContributions": 33734,
+        "privateContributions": 196,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 627,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1452,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-2-proj-3",
+            "description": null,
+            "stars": 1556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cro-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cro-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": "Developer from Croatia",
+        "followers": 4653,
+        "publicContributions": 32374,
+        "privateContributions": 85,
+        "languages": [
+          "Python",
+          "Java",
+          "Kotlin",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1504,
+            "language": "Python"
+          },
+          {
+            "name": "cro-dev-3-proj-2",
+            "description": null,
+            "stars": 1791,
+            "language": "Java"
+          },
+          {
+            "name": "cro-dev-3-proj-3",
+            "description": null,
+            "stars": 246,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Croatia)",
+        "company": "Vercel",
+        "location": "Dubrovnik",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31106,
+        "privateContributions": 423,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 673,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Croatia)",
+        "company": null,
+        "location": "Croatia",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29979,
+        "privateContributions": 201,
+        "languages": [
+          "Rust",
+          "Python",
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1103,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-5-proj-2",
+            "description": null,
+            "stars": 1309,
+            "language": "Python"
+          },
+          {
+            "name": "cro-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 285,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28759,
+        "privateContributions": 92,
+        "languages": [
+          "Swift",
+          "Go",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 250,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Croatia)",
+        "company": "GitHub",
+        "location": "Split",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27584,
+        "privateContributions": 60,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1008,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1324,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 1005,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26545,
+        "privateContributions": 433,
+        "languages": [
+          "Go",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1014,
+            "language": "Go"
+          },
+          {
+            "name": "cro-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1516,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1090,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Croatia)",
+        "company": null,
+        "location": "Split",
+        "bio": null,
+        "followers": 3659,
+        "publicContributions": 25546,
+        "privateContributions": 420,
+        "languages": [
+          "Rust",
+          "C++",
+          "TypeScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-9-proj-1",
+            "description": null,
+            "stars": 870,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 54,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Croatia)",
+        "company": "Microsoft",
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 3533,
+        "publicContributions": 24478,
+        "privateContributions": 420,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1320,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 441,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "cro-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": "Developer from Croatia",
+        "followers": 5040,
+        "publicContributions": 35142,
+        "privateContributions": 9,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-1-proj-1",
+            "description": null,
+            "stars": 1035,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-1-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1005,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cro-dev-1",
+        "blog": "https://cro-dev-1.dev"
+      },
+      {
+        "login": "cro-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Croatia)",
+        "company": "Meta",
+        "location": "Split",
+        "bio": "Developer from Croatia",
+        "followers": 4835,
+        "publicContributions": 33734,
+        "privateContributions": 196,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-2-proj-1",
+            "description": "Data pipeline library",
+            "stars": 627,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1452,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-2-proj-3",
+            "description": null,
+            "stars": 1556,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": "cro-dev-2",
+        "blog": null
+      },
+      {
+        "login": "cro-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": "Developer from Croatia",
+        "followers": 4653,
+        "publicContributions": 32374,
+        "privateContributions": 85,
+        "languages": [
+          "Python",
+          "Java",
+          "Kotlin",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1504,
+            "language": "Python"
+          },
+          {
+            "name": "cro-dev-3-proj-2",
+            "description": null,
+            "stars": 1791,
+            "language": "Java"
+          },
+          {
+            "name": "cro-dev-3-proj-3",
+            "description": null,
+            "stars": 246,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Croatia)",
+        "company": "Vercel",
+        "location": "Dubrovnik",
+        "bio": null,
+        "followers": 4445,
+        "publicContributions": 31106,
+        "privateContributions": 423,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 673,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Croatia)",
+        "company": null,
+        "location": "Croatia",
+        "bio": null,
+        "followers": 4284,
+        "publicContributions": 29979,
+        "privateContributions": 201,
+        "languages": [
+          "Rust",
+          "Python",
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1103,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-5-proj-2",
+            "description": null,
+            "stars": 1309,
+            "language": "Python"
+          },
+          {
+            "name": "cro-dev-5-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 285,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 4132,
+        "publicContributions": 28759,
+        "privateContributions": 92,
+        "languages": [
+          "Swift",
+          "Go",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-6-proj-1",
+            "description": "API wrapper",
+            "stars": 250,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Croatia)",
+        "company": "GitHub",
+        "location": "Split",
+        "bio": null,
+        "followers": 3945,
+        "publicContributions": 27584,
+        "privateContributions": 60,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1008,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-7-proj-2",
+            "description": "Open source utilities",
+            "stars": 1324,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-7-proj-3",
+            "description": "Open source utilities",
+            "stars": 1005,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Croatia)",
+        "company": null,
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 3814,
+        "publicContributions": 26545,
+        "privateContributions": 433,
+        "languages": [
+          "Go",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1014,
+            "language": "Go"
+          },
+          {
+            "name": "cro-dev-8-proj-2",
+            "description": "Open source utilities",
+            "stars": 1516,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-8-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 1090,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Croatia)",
+        "company": null,
+        "location": "Split",
+        "bio": null,
+        "followers": 3659,
+        "publicContributions": 25546,
+        "privateContributions": 420,
+        "languages": [
+          "Rust",
+          "C++",
+          "TypeScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-9-proj-1",
+            "description": null,
+            "stars": 870,
+            "language": "Rust"
+          },
+          {
+            "name": "cro-dev-9-proj-2",
+            "description": "Web framework for developers",
+            "stars": 54,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "cro-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Croatia)",
+        "company": "Microsoft",
+        "location": "Zagreb",
+        "bio": null,
+        "followers": 3533,
+        "publicContributions": 24478,
+        "privateContributions": 420,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "cro-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1320,
+            "language": "TypeScript"
+          },
+          {
+            "name": "cro-dev-10-proj-2",
+            "description": "Open source utilities",
+            "stars": 441,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

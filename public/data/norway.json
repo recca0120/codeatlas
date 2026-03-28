@@ -1,0 +1,1314 @@
+{
+  "countryCode": "norway",
+  "updatedAt": "2026-03-27T22:30:49.901Z",
+  "users": [
+    {
+      "login": "nor-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Norway)",
+      "company": "Meta",
+      "location": "Bergen",
+      "bio": "Developer from Norway",
+      "followers": 5038,
+      "publicContributions": 35157,
+      "privateContributions": 387,
+      "languages": [
+        "Go",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-1-proj-1",
+          "description": null,
+          "stars": 730,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "nor-dev-1",
+      "blog": "https://nor-dev-1.dev"
+    },
+    {
+      "login": "nor-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Norway)",
+      "company": "GitHub",
+      "location": "Norway",
+      "bio": "Developer from Norway",
+      "followers": 4848,
+      "publicContributions": 33814,
+      "privateContributions": 142,
+      "languages": [
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-2-proj-1",
+          "description": "Open source utilities",
+          "stars": 610,
+          "language": "Swift"
+        },
+        {
+          "name": "nor-dev-2-proj-2",
+          "description": "Data pipeline library",
+          "stars": 351,
+          "language": "Swift"
+        },
+        {
+          "name": "nor-dev-2-proj-3",
+          "description": "Data pipeline library",
+          "stars": 1916,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": "nor-dev-2",
+      "blog": null
+    },
+    {
+      "login": "nor-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Norway)",
+      "company": "Amazon",
+      "location": "Oslo",
+      "bio": "Developer from Norway",
+      "followers": 4645,
+      "publicContributions": 32423,
+      "privateContributions": 226,
+      "languages": [
+        "Java",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-3-proj-1",
+          "description": null,
+          "stars": 237,
+          "language": "Java"
+        },
+        {
+          "name": "nor-dev-3-proj-2",
+          "description": "API wrapper",
+          "stars": 917,
+          "language": "C++"
+        },
+        {
+          "name": "nor-dev-3-proj-3",
+          "description": "Web framework for developers",
+          "stars": 1057,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nor-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Norway)",
+      "company": null,
+      "location": "Norway",
+      "bio": null,
+      "followers": 4466,
+      "publicContributions": 31119,
+      "privateContributions": 37,
+      "languages": [
+        "Swift",
+        "Rust",
+        "Dart",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-4-proj-1",
+          "description": "Data pipeline library",
+          "stars": 532,
+          "language": "Swift"
+        },
+        {
+          "name": "nor-dev-4-proj-2",
+          "description": "API wrapper",
+          "stars": 1208,
+          "language": "Rust"
+        },
+        {
+          "name": "nor-dev-4-proj-3",
+          "description": "Open source utilities",
+          "stars": 1061,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nor-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Norway)",
+      "company": "GitHub",
+      "location": "Oslo",
+      "bio": null,
+      "followers": 4300,
+      "publicContributions": 29973,
+      "privateContributions": 139,
+      "languages": [
+        "Ruby",
+        "C++",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-5-proj-1",
+          "description": "Open source utilities",
+          "stars": 1241,
+          "language": "Ruby"
+        },
+        {
+          "name": "nor-dev-5-proj-2",
+          "description": "Web framework for developers",
+          "stars": 97,
+          "language": "C++"
+        },
+        {
+          "name": "nor-dev-5-proj-3",
+          "description": "Open source utilities",
+          "stars": 930,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nor-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Norway)",
+      "company": "Amazon",
+      "location": "Trondheim",
+      "bio": null,
+      "followers": 4119,
+      "publicContributions": 28822,
+      "privateContributions": 262,
+      "languages": [
+        "Java",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-6-proj-1",
+          "description": null,
+          "stars": 1063,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nor-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Norway)",
+      "company": "Microsoft",
+      "location": "Trondheim",
+      "bio": null,
+      "followers": 3954,
+      "publicContributions": 27712,
+      "privateContributions": 20,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-7-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1411,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nor-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Norway)",
+      "company": "Stripe",
+      "location": "Oslo",
+      "bio": null,
+      "followers": 3790,
+      "publicContributions": 26576,
+      "privateContributions": 41,
+      "languages": [
+        "TypeScript",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-8-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 153,
+          "language": "TypeScript"
+        },
+        {
+          "name": "nor-dev-8-proj-2",
+          "description": "Web framework for developers",
+          "stars": 762,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nor-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Norway)",
+      "company": null,
+      "location": "Bergen",
+      "bio": null,
+      "followers": 3667,
+      "publicContributions": 25542,
+      "privateContributions": 147,
+      "languages": [
+        "TypeScript",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1340,
+          "language": "TypeScript"
+        },
+        {
+          "name": "nor-dev-9-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 315,
+          "language": "Java"
+        },
+        {
+          "name": "nor-dev-9-proj-3",
+          "description": "Web framework for developers",
+          "stars": 126,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "nor-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Norway)",
+      "company": "Microsoft",
+      "location": "Trondheim",
+      "bio": null,
+      "followers": 3500,
+      "publicContributions": 24543,
+      "privateContributions": 8,
+      "languages": [
+        "Python",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "nor-dev-10-proj-1",
+          "description": "API wrapper",
+          "stars": 260,
+          "language": "Python"
+        },
+        {
+          "name": "nor-dev-10-proj-2",
+          "description": "API wrapper",
+          "stars": 357,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "nor-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Norway)",
+        "company": "Meta",
+        "location": "Bergen",
+        "bio": "Developer from Norway",
+        "followers": 5038,
+        "publicContributions": 35157,
+        "privateContributions": 387,
+        "languages": [
+          "Go",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-1-proj-1",
+            "description": null,
+            "stars": 730,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nor-dev-1",
+        "blog": "https://nor-dev-1.dev"
+      },
+      {
+        "login": "nor-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Norway)",
+        "company": "GitHub",
+        "location": "Norway",
+        "bio": "Developer from Norway",
+        "followers": 4848,
+        "publicContributions": 33814,
+        "privateContributions": 142,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 610,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 351,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1916,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "nor-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nor-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Norway)",
+        "company": "Amazon",
+        "location": "Oslo",
+        "bio": "Developer from Norway",
+        "followers": 4645,
+        "publicContributions": 32423,
+        "privateContributions": 226,
+        "languages": [
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-3-proj-1",
+            "description": null,
+            "stars": 237,
+            "language": "Java"
+          },
+          {
+            "name": "nor-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 917,
+            "language": "C++"
+          },
+          {
+            "name": "nor-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1057,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Norway)",
+        "company": null,
+        "location": "Norway",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31119,
+        "privateContributions": 37,
+        "languages": [
+          "Swift",
+          "Rust",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 532,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1208,
+            "language": "Rust"
+          },
+          {
+            "name": "nor-dev-4-proj-3",
+            "description": "Open source utilities",
+            "stars": 1061,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Norway)",
+        "company": "GitHub",
+        "location": "Oslo",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29973,
+        "privateContributions": 139,
+        "languages": [
+          "Ruby",
+          "C++",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1241,
+            "language": "Ruby"
+          },
+          {
+            "name": "nor-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 97,
+            "language": "C++"
+          },
+          {
+            "name": "nor-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 930,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Norway)",
+        "company": "Amazon",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 4119,
+        "publicContributions": 28822,
+        "privateContributions": 262,
+        "languages": [
+          "Java",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-6-proj-1",
+            "description": null,
+            "stars": 1063,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Norway)",
+        "company": "Microsoft",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 3954,
+        "publicContributions": 27712,
+        "privateContributions": 20,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1411,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Norway)",
+        "company": "Stripe",
+        "location": "Oslo",
+        "bio": null,
+        "followers": 3790,
+        "publicContributions": 26576,
+        "privateContributions": 41,
+        "languages": [
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 153,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nor-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 762,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Norway)",
+        "company": null,
+        "location": "Bergen",
+        "bio": null,
+        "followers": 3667,
+        "publicContributions": 25542,
+        "privateContributions": 147,
+        "languages": [
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1340,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nor-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 315,
+            "language": "Java"
+          },
+          {
+            "name": "nor-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 126,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Norway)",
+        "company": "Microsoft",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 3500,
+        "publicContributions": 24543,
+        "privateContributions": 8,
+        "languages": [
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 260,
+            "language": "Python"
+          },
+          {
+            "name": "nor-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 357,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "nor-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Norway)",
+        "company": "Meta",
+        "location": "Bergen",
+        "bio": "Developer from Norway",
+        "followers": 5038,
+        "publicContributions": 35157,
+        "privateContributions": 387,
+        "languages": [
+          "Go",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-1-proj-1",
+            "description": null,
+            "stars": 730,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nor-dev-1",
+        "blog": "https://nor-dev-1.dev"
+      },
+      {
+        "login": "nor-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Norway)",
+        "company": "GitHub",
+        "location": "Norway",
+        "bio": "Developer from Norway",
+        "followers": 4848,
+        "publicContributions": 33814,
+        "privateContributions": 142,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 610,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 351,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1916,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "nor-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nor-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Norway)",
+        "company": "Amazon",
+        "location": "Oslo",
+        "bio": "Developer from Norway",
+        "followers": 4645,
+        "publicContributions": 32423,
+        "privateContributions": 226,
+        "languages": [
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-3-proj-1",
+            "description": null,
+            "stars": 237,
+            "language": "Java"
+          },
+          {
+            "name": "nor-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 917,
+            "language": "C++"
+          },
+          {
+            "name": "nor-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1057,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Norway)",
+        "company": null,
+        "location": "Norway",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31119,
+        "privateContributions": 37,
+        "languages": [
+          "Swift",
+          "Rust",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 532,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1208,
+            "language": "Rust"
+          },
+          {
+            "name": "nor-dev-4-proj-3",
+            "description": "Open source utilities",
+            "stars": 1061,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Norway)",
+        "company": "GitHub",
+        "location": "Oslo",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29973,
+        "privateContributions": 139,
+        "languages": [
+          "Ruby",
+          "C++",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1241,
+            "language": "Ruby"
+          },
+          {
+            "name": "nor-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 97,
+            "language": "C++"
+          },
+          {
+            "name": "nor-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 930,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Norway)",
+        "company": "Amazon",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 4119,
+        "publicContributions": 28822,
+        "privateContributions": 262,
+        "languages": [
+          "Java",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-6-proj-1",
+            "description": null,
+            "stars": 1063,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Norway)",
+        "company": "Microsoft",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 3954,
+        "publicContributions": 27712,
+        "privateContributions": 20,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1411,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Norway)",
+        "company": "Stripe",
+        "location": "Oslo",
+        "bio": null,
+        "followers": 3790,
+        "publicContributions": 26576,
+        "privateContributions": 41,
+        "languages": [
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 153,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nor-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 762,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Norway)",
+        "company": null,
+        "location": "Bergen",
+        "bio": null,
+        "followers": 3667,
+        "publicContributions": 25542,
+        "privateContributions": 147,
+        "languages": [
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1340,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nor-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 315,
+            "language": "Java"
+          },
+          {
+            "name": "nor-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 126,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Norway)",
+        "company": "Microsoft",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 3500,
+        "publicContributions": 24543,
+        "privateContributions": 8,
+        "languages": [
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 260,
+            "language": "Python"
+          },
+          {
+            "name": "nor-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 357,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "nor-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Norway)",
+        "company": "Meta",
+        "location": "Bergen",
+        "bio": "Developer from Norway",
+        "followers": 5038,
+        "publicContributions": 35157,
+        "privateContributions": 387,
+        "languages": [
+          "Go",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-1-proj-1",
+            "description": null,
+            "stars": 730,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "nor-dev-1",
+        "blog": "https://nor-dev-1.dev"
+      },
+      {
+        "login": "nor-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Norway)",
+        "company": "GitHub",
+        "location": "Norway",
+        "bio": "Developer from Norway",
+        "followers": 4848,
+        "publicContributions": 33814,
+        "privateContributions": 142,
+        "languages": [
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 610,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-2-proj-2",
+            "description": "Data pipeline library",
+            "stars": 351,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-2-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1916,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": "nor-dev-2",
+        "blog": null
+      },
+      {
+        "login": "nor-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Norway)",
+        "company": "Amazon",
+        "location": "Oslo",
+        "bio": "Developer from Norway",
+        "followers": 4645,
+        "publicContributions": 32423,
+        "privateContributions": 226,
+        "languages": [
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-3-proj-1",
+            "description": null,
+            "stars": 237,
+            "language": "Java"
+          },
+          {
+            "name": "nor-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 917,
+            "language": "C++"
+          },
+          {
+            "name": "nor-dev-3-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1057,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Norway)",
+        "company": null,
+        "location": "Norway",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31119,
+        "privateContributions": 37,
+        "languages": [
+          "Swift",
+          "Rust",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 532,
+            "language": "Swift"
+          },
+          {
+            "name": "nor-dev-4-proj-2",
+            "description": "API wrapper",
+            "stars": 1208,
+            "language": "Rust"
+          },
+          {
+            "name": "nor-dev-4-proj-3",
+            "description": "Open source utilities",
+            "stars": 1061,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Norway)",
+        "company": "GitHub",
+        "location": "Oslo",
+        "bio": null,
+        "followers": 4300,
+        "publicContributions": 29973,
+        "privateContributions": 139,
+        "languages": [
+          "Ruby",
+          "C++",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 1241,
+            "language": "Ruby"
+          },
+          {
+            "name": "nor-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 97,
+            "language": "C++"
+          },
+          {
+            "name": "nor-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 930,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Norway)",
+        "company": "Amazon",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 4119,
+        "publicContributions": 28822,
+        "privateContributions": 262,
+        "languages": [
+          "Java",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-6-proj-1",
+            "description": null,
+            "stars": 1063,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Norway)",
+        "company": "Microsoft",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 3954,
+        "publicContributions": 27712,
+        "privateContributions": 20,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-7-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1411,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Norway)",
+        "company": "Stripe",
+        "location": "Oslo",
+        "bio": null,
+        "followers": 3790,
+        "publicContributions": 26576,
+        "privateContributions": 41,
+        "languages": [
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-8-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 153,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nor-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 762,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Norway)",
+        "company": null,
+        "location": "Bergen",
+        "bio": null,
+        "followers": 3667,
+        "publicContributions": 25542,
+        "privateContributions": 147,
+        "languages": [
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1340,
+            "language": "TypeScript"
+          },
+          {
+            "name": "nor-dev-9-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 315,
+            "language": "Java"
+          },
+          {
+            "name": "nor-dev-9-proj-3",
+            "description": "Web framework for developers",
+            "stars": 126,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "nor-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Norway)",
+        "company": "Microsoft",
+        "location": "Trondheim",
+        "bio": null,
+        "followers": 3500,
+        "publicContributions": 24543,
+        "privateContributions": 8,
+        "languages": [
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "nor-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 260,
+            "language": "Python"
+          },
+          {
+            "name": "nor-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 357,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

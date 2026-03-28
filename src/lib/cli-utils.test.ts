@@ -3,6 +3,8 @@ import {
   buildOutputPath,
   filterCountries,
   generateFakeUsers,
+  prioritizeCountry,
+  shouldSkipCountry,
 } from "./cli-utils";
 import type { CountryConfig } from "./country-config";
 
@@ -96,5 +98,62 @@ describe("filterCountries", () => {
 
   it("throws for unknown country code", () => {
     expect(() => filterCountries(mockCountries, "nonexistent")).toThrow();
+  });
+});
+
+describe("prioritizeCountry", () => {
+  it("moves the specified country to the front", () => {
+    const codes = ["afghanistan", "japan", "taiwan", "germany"];
+    expect(prioritizeCountry(codes, "taiwan")).toEqual([
+      "taiwan",
+      "afghanistan",
+      "japan",
+      "germany",
+    ]);
+  });
+
+  it("returns unchanged if country is already first", () => {
+    const codes = ["taiwan", "japan", "germany"];
+    expect(prioritizeCountry(codes, "taiwan")).toEqual([
+      "taiwan",
+      "japan",
+      "germany",
+    ]);
+  });
+
+  it("returns unchanged if country is not in the list", () => {
+    const codes = ["japan", "germany"];
+    expect(prioritizeCountry(codes, "taiwan")).toEqual(["japan", "germany"]);
+  });
+
+  it("does not mutate the original array", () => {
+    const codes = ["japan", "taiwan", "germany"];
+    prioritizeCountry(codes, "taiwan");
+    expect(codes).toEqual(["japan", "taiwan", "germany"]);
+  });
+});
+
+describe("shouldSkipCountry", () => {
+  it("returns true when updatedAt is today", () => {
+    const today = new Date().toISOString().split("T")[0];
+    expect(shouldSkipCountry(`${today}T00:00:00Z`, today)).toBe(true);
+  });
+
+  it("returns false when updatedAt is yesterday", () => {
+    const yesterday = new Date(Date.now() - 86400000)
+      .toISOString()
+      .split("T")[0];
+    const today = new Date().toISOString().split("T")[0];
+    expect(shouldSkipCountry(`${yesterday}T00:00:00Z`, today)).toBe(false);
+  });
+
+  it("returns false when updatedAt is undefined", () => {
+    const today = new Date().toISOString().split("T")[0];
+    expect(shouldSkipCountry(undefined, today)).toBe(false);
+  });
+
+  it("returns false when updatedAt is empty string", () => {
+    const today = new Date().toISOString().split("T")[0];
+    expect(shouldSkipCountry("", today)).toBe(false);
   });
 });

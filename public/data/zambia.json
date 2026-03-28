@@ -1,0 +1,1186 @@
+{
+  "countryCode": "zambia",
+  "updatedAt": "2026-03-27T22:30:49.913Z",
+  "users": [
+    {
+      "login": "zam-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Zambia)",
+      "company": "Vercel",
+      "location": "Lusaka",
+      "bio": "Developer from Zambia",
+      "followers": 5010,
+      "publicContributions": 35120,
+      "privateContributions": 410,
+      "languages": [
+        "C++",
+        "Swift",
+        "Go",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-1-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1999,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": "zam-dev-1",
+      "blog": "https://zam-dev-1.dev"
+    },
+    {
+      "login": "zam-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Zambia)",
+      "company": "Apple",
+      "location": "Zambia",
+      "bio": "Developer from Zambia",
+      "followers": 4824,
+      "publicContributions": 33701,
+      "privateContributions": 208,
+      "languages": [
+        "JavaScript",
+        "Ruby",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-2-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1549,
+          "language": "JavaScript"
+        },
+        {
+          "name": "zam-dev-2-proj-2",
+          "description": "Open source utilities",
+          "stars": 890,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": "zam-dev-2",
+      "blog": null
+    },
+    {
+      "login": "zam-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Zambia)",
+      "company": null,
+      "location": "Zambia",
+      "bio": "Developer from Zambia",
+      "followers": 4641,
+      "publicContributions": 32368,
+      "privateContributions": 194,
+      "languages": [
+        "Go",
+        "C++",
+        "Python",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-3-proj-1",
+          "description": null,
+          "stars": 39,
+          "language": "Go"
+        },
+        {
+          "name": "zam-dev-3-proj-2",
+          "description": "Open source utilities",
+          "stars": 430,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zam-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Zambia)",
+      "company": null,
+      "location": "Zambia",
+      "bio": null,
+      "followers": 4466,
+      "publicContributions": 31233,
+      "privateContributions": 385,
+      "languages": [
+        "Ruby",
+        "Go",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-4-proj-1",
+          "description": null,
+          "stars": 1382,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zam-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Zambia)",
+      "company": "Apple",
+      "location": "Zambia",
+      "bio": null,
+      "followers": 4280,
+      "publicContributions": 29919,
+      "privateContributions": 248,
+      "languages": [
+        "Swift",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-5-proj-1",
+          "description": "API wrapper",
+          "stars": 884,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zam-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Zambia)",
+      "company": "GitHub",
+      "location": "Zambia",
+      "bio": null,
+      "followers": 4135,
+      "publicContributions": 28759,
+      "privateContributions": 122,
+      "languages": [
+        "Java",
+        "Rust",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-6-proj-1",
+          "description": null,
+          "stars": 486,
+          "language": "Java"
+        },
+        {
+          "name": "zam-dev-6-proj-2",
+          "description": "Open source utilities",
+          "stars": 724,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zam-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Zambia)",
+      "company": "Apple",
+      "location": "Zambia",
+      "bio": null,
+      "followers": 3963,
+      "publicContributions": 27666,
+      "privateContributions": 59,
+      "languages": [
+        "TypeScript",
+        "Ruby",
+        "JavaScript",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-7-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 932,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zam-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Zambia)",
+      "company": "Apple",
+      "location": "Lusaka",
+      "bio": null,
+      "followers": 3826,
+      "publicContributions": 26526,
+      "privateContributions": 345,
+      "languages": [
+        "Dart",
+        "Kotlin",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-8-proj-1",
+          "description": "Web framework for developers",
+          "stars": 856,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zam-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Zambia)",
+      "company": "Meta",
+      "location": "Zambia",
+      "bio": null,
+      "followers": 3674,
+      "publicContributions": 25484,
+      "privateContributions": 129,
+      "languages": [
+        "C++",
+        "Java",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 999,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "zam-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Zambia)",
+      "company": null,
+      "location": "Zambia",
+      "bio": null,
+      "followers": 3520,
+      "publicContributions": 24482,
+      "privateContributions": 194,
+      "languages": [
+        "Ruby",
+        "Python",
+        "Kotlin",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "zam-dev-10-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 397,
+          "language": "Ruby"
+        },
+        {
+          "name": "zam-dev-10-proj-2",
+          "description": "Data pipeline library",
+          "stars": 306,
+          "language": "Python"
+        },
+        {
+          "name": "zam-dev-10-proj-3",
+          "description": "A modern CLI tool",
+          "stars": 643,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "zam-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Zambia)",
+        "company": "Vercel",
+        "location": "Lusaka",
+        "bio": "Developer from Zambia",
+        "followers": 5010,
+        "publicContributions": 35120,
+        "privateContributions": 410,
+        "languages": [
+          "C++",
+          "Swift",
+          "Go",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1999,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "zam-dev-1",
+        "blog": "https://zam-dev-1.dev"
+      },
+      {
+        "login": "zam-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": "Developer from Zambia",
+        "followers": 4824,
+        "publicContributions": 33701,
+        "privateContributions": 208,
+        "languages": [
+          "JavaScript",
+          "Ruby",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1549,
+            "language": "JavaScript"
+          },
+          {
+            "name": "zam-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 890,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "zam-dev-2",
+        "blog": null
+      },
+      {
+        "login": "zam-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": "Developer from Zambia",
+        "followers": 4641,
+        "publicContributions": 32368,
+        "privateContributions": 194,
+        "languages": [
+          "Go",
+          "C++",
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-3-proj-1",
+            "description": null,
+            "stars": 39,
+            "language": "Go"
+          },
+          {
+            "name": "zam-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 430,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31233,
+        "privateContributions": 385,
+        "languages": [
+          "Ruby",
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-4-proj-1",
+            "description": null,
+            "stars": 1382,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4280,
+        "publicContributions": 29919,
+        "privateContributions": 248,
+        "languages": [
+          "Swift",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 884,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Zambia)",
+        "company": "GitHub",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4135,
+        "publicContributions": 28759,
+        "privateContributions": 122,
+        "languages": [
+          "Java",
+          "Rust",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-6-proj-1",
+            "description": null,
+            "stars": 486,
+            "language": "Java"
+          },
+          {
+            "name": "zam-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 724,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27666,
+        "privateContributions": 59,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 932,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Zambia)",
+        "company": "Apple",
+        "location": "Lusaka",
+        "bio": null,
+        "followers": 3826,
+        "publicContributions": 26526,
+        "privateContributions": 345,
+        "languages": [
+          "Dart",
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 856,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Zambia)",
+        "company": "Meta",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3674,
+        "publicContributions": 25484,
+        "privateContributions": 129,
+        "languages": [
+          "C++",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 999,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24482,
+        "privateContributions": 194,
+        "languages": [
+          "Ruby",
+          "Python",
+          "Kotlin",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 397,
+            "language": "Ruby"
+          },
+          {
+            "name": "zam-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 306,
+            "language": "Python"
+          },
+          {
+            "name": "zam-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 643,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "zam-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Zambia)",
+        "company": "Vercel",
+        "location": "Lusaka",
+        "bio": "Developer from Zambia",
+        "followers": 5010,
+        "publicContributions": 35120,
+        "privateContributions": 410,
+        "languages": [
+          "C++",
+          "Swift",
+          "Go",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1999,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "zam-dev-1",
+        "blog": "https://zam-dev-1.dev"
+      },
+      {
+        "login": "zam-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": "Developer from Zambia",
+        "followers": 4824,
+        "publicContributions": 33701,
+        "privateContributions": 208,
+        "languages": [
+          "JavaScript",
+          "Ruby",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1549,
+            "language": "JavaScript"
+          },
+          {
+            "name": "zam-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 890,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "zam-dev-2",
+        "blog": null
+      },
+      {
+        "login": "zam-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": "Developer from Zambia",
+        "followers": 4641,
+        "publicContributions": 32368,
+        "privateContributions": 194,
+        "languages": [
+          "Go",
+          "C++",
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-3-proj-1",
+            "description": null,
+            "stars": 39,
+            "language": "Go"
+          },
+          {
+            "name": "zam-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 430,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31233,
+        "privateContributions": 385,
+        "languages": [
+          "Ruby",
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-4-proj-1",
+            "description": null,
+            "stars": 1382,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4280,
+        "publicContributions": 29919,
+        "privateContributions": 248,
+        "languages": [
+          "Swift",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 884,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Zambia)",
+        "company": "GitHub",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4135,
+        "publicContributions": 28759,
+        "privateContributions": 122,
+        "languages": [
+          "Java",
+          "Rust",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-6-proj-1",
+            "description": null,
+            "stars": 486,
+            "language": "Java"
+          },
+          {
+            "name": "zam-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 724,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27666,
+        "privateContributions": 59,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 932,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Zambia)",
+        "company": "Apple",
+        "location": "Lusaka",
+        "bio": null,
+        "followers": 3826,
+        "publicContributions": 26526,
+        "privateContributions": 345,
+        "languages": [
+          "Dart",
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 856,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Zambia)",
+        "company": "Meta",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3674,
+        "publicContributions": 25484,
+        "privateContributions": 129,
+        "languages": [
+          "C++",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 999,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24482,
+        "privateContributions": 194,
+        "languages": [
+          "Ruby",
+          "Python",
+          "Kotlin",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 397,
+            "language": "Ruby"
+          },
+          {
+            "name": "zam-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 306,
+            "language": "Python"
+          },
+          {
+            "name": "zam-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 643,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "zam-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Zambia)",
+        "company": "Vercel",
+        "location": "Lusaka",
+        "bio": "Developer from Zambia",
+        "followers": 5010,
+        "publicContributions": 35120,
+        "privateContributions": 410,
+        "languages": [
+          "C++",
+          "Swift",
+          "Go",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1999,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": "zam-dev-1",
+        "blog": "https://zam-dev-1.dev"
+      },
+      {
+        "login": "zam-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": "Developer from Zambia",
+        "followers": 4824,
+        "publicContributions": 33701,
+        "privateContributions": 208,
+        "languages": [
+          "JavaScript",
+          "Ruby",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-2-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1549,
+            "language": "JavaScript"
+          },
+          {
+            "name": "zam-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 890,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": "zam-dev-2",
+        "blog": null
+      },
+      {
+        "login": "zam-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": "Developer from Zambia",
+        "followers": 4641,
+        "publicContributions": 32368,
+        "privateContributions": 194,
+        "languages": [
+          "Go",
+          "C++",
+          "Python",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-3-proj-1",
+            "description": null,
+            "stars": 39,
+            "language": "Go"
+          },
+          {
+            "name": "zam-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 430,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4466,
+        "publicContributions": 31233,
+        "privateContributions": 385,
+        "languages": [
+          "Ruby",
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-4-proj-1",
+            "description": null,
+            "stars": 1382,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4280,
+        "publicContributions": 29919,
+        "privateContributions": 248,
+        "languages": [
+          "Swift",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-5-proj-1",
+            "description": "API wrapper",
+            "stars": 884,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Zambia)",
+        "company": "GitHub",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 4135,
+        "publicContributions": 28759,
+        "privateContributions": 122,
+        "languages": [
+          "Java",
+          "Rust",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-6-proj-1",
+            "description": null,
+            "stars": 486,
+            "language": "Java"
+          },
+          {
+            "name": "zam-dev-6-proj-2",
+            "description": "Open source utilities",
+            "stars": 724,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Zambia)",
+        "company": "Apple",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3963,
+        "publicContributions": 27666,
+        "privateContributions": 59,
+        "languages": [
+          "TypeScript",
+          "Ruby",
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 932,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Zambia)",
+        "company": "Apple",
+        "location": "Lusaka",
+        "bio": null,
+        "followers": 3826,
+        "publicContributions": 26526,
+        "privateContributions": 345,
+        "languages": [
+          "Dart",
+          "Kotlin",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 856,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Zambia)",
+        "company": "Meta",
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3674,
+        "publicContributions": 25484,
+        "privateContributions": 129,
+        "languages": [
+          "C++",
+          "Java",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 999,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "zam-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Zambia)",
+        "company": null,
+        "location": "Zambia",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24482,
+        "privateContributions": 194,
+        "languages": [
+          "Ruby",
+          "Python",
+          "Kotlin",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "zam-dev-10-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 397,
+            "language": "Ruby"
+          },
+          {
+            "name": "zam-dev-10-proj-2",
+            "description": "Data pipeline library",
+            "stars": 306,
+            "language": "Python"
+          },
+          {
+            "name": "zam-dev-10-proj-3",
+            "description": "A modern CLI tool",
+            "stars": 643,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

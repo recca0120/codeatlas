@@ -16,8 +16,9 @@ interface Props {
 const { title, description = "Global Developer Rankings", ogImage, breadcrumb = [], locale: localeProp } = Astro.props;
 const locale = (localeProp ?? Astro.currentLocale ?? "en") as Locale;
 const url = Astro.url.href;
-const site = (Astro.site?.toString() ?? "").replace(/\/$/, "");
+const siteOrigin = (Astro.site?.toString() ?? "").replace(/\/$/, "");
 const basePath = import.meta.env.BASE_URL;
+const ogImageUrl = ogImage ? `${siteOrigin}${ogImage}` : `${siteOrigin}${buildUrl("og.png", basePath)}`;
 ---
 
 <html lang={locale === "zh-TW" ? "zh-TW" : "en"}>
@@ -32,10 +33,10 @@ const basePath = import.meta.env.BASE_URL;
     <meta property="og:description" content={description} />
     <meta property="og:url" content={url} />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content={ogImage ? `${site}${ogImage}` : `${site}${buildUrl("og.png", basePath)}`} />
+    <meta property="og:image" content={ogImageUrl} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
-    <meta name="twitter:image" content={ogImage ? `${site}${ogImage}` : `${site}${buildUrl("og.png", basePath)}`} />
+    <meta name="twitter:image" content={ogImageUrl} />
     <script is:inline>
       document.documentElement.classList.toggle("dark",
         localStorage.theme==="dark"||(!("theme" in localStorage)&&matchMedia("(prefers-color-scheme:dark)").matches));

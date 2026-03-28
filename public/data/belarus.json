@@ -1,0 +1,1334 @@
+{
+  "countryCode": "belarus",
+  "updatedAt": "2026-03-27T22:30:49.880Z",
+  "users": [
+    {
+      "login": "bel-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Belarus)",
+      "company": null,
+      "location": "Gomel",
+      "bio": "Developer from Belarus",
+      "followers": 5020,
+      "publicContributions": 35066,
+      "privateContributions": 394,
+      "languages": [
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-1-proj-1",
+          "description": "Web framework for developers",
+          "stars": 256,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": "bel-dev-1",
+      "blog": "https://bel-dev-1.dev"
+    },
+    {
+      "login": "bel-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Belarus)",
+      "company": "Stripe",
+      "location": "Belarus",
+      "bio": "Developer from Belarus",
+      "followers": 4819,
+      "publicContributions": 33700,
+      "privateContributions": 362,
+      "languages": [
+        "JavaScript",
+        "Python",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-2-proj-1",
+          "description": "Open source utilities",
+          "stars": 679,
+          "language": "JavaScript"
+        },
+        {
+          "name": "bel-dev-2-proj-2",
+          "description": "API wrapper",
+          "stars": 549,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": "bel-dev-2",
+      "blog": null
+    },
+    {
+      "login": "bel-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Belarus)",
+      "company": "Google",
+      "location": "Gomel",
+      "bio": "Developer from Belarus",
+      "followers": 4656,
+      "publicContributions": 32382,
+      "privateContributions": 109,
+      "languages": [
+        "Go",
+        "TypeScript",
+        "Java",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-3-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1286,
+          "language": "Go"
+        },
+        {
+          "name": "bel-dev-3-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 1592,
+          "language": "TypeScript"
+        },
+        {
+          "name": "bel-dev-3-proj-3",
+          "description": "API wrapper",
+          "stars": 1574,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bel-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Belarus)",
+      "company": "Apple",
+      "location": "Belarus",
+      "bio": null,
+      "followers": 4458,
+      "publicContributions": 31109,
+      "privateContributions": 255,
+      "languages": [
+        "Swift",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-4-proj-1",
+          "description": "Web framework for developers",
+          "stars": 722,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bel-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Belarus)",
+      "company": null,
+      "location": "Gomel",
+      "bio": null,
+      "followers": 4295,
+      "publicContributions": 29920,
+      "privateContributions": 221,
+      "languages": [
+        "TypeScript",
+        "C++",
+        "Kotlin",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-5-proj-1",
+          "description": "Open source utilities",
+          "stars": 970,
+          "language": "TypeScript"
+        },
+        {
+          "name": "bel-dev-5-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1503,
+          "language": "C++"
+        },
+        {
+          "name": "bel-dev-5-proj-3",
+          "description": null,
+          "stars": 654,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bel-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Belarus)",
+      "company": "Stripe",
+      "location": "Gomel",
+      "bio": null,
+      "followers": 4133,
+      "publicContributions": 28851,
+      "privateContributions": 197,
+      "languages": [
+        "Dart",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-6-proj-1",
+          "description": null,
+          "stars": 1618,
+          "language": "Dart"
+        },
+        {
+          "name": "bel-dev-6-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1319,
+          "language": "PHP"
+        },
+        {
+          "name": "bel-dev-6-proj-3",
+          "description": "Open source utilities",
+          "stars": 1554,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bel-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Belarus)",
+      "company": "GitHub",
+      "location": "Minsk",
+      "bio": null,
+      "followers": 3978,
+      "publicContributions": 27646,
+      "privateContributions": 372,
+      "languages": [
+        "Go",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-7-proj-1",
+          "description": "Open source utilities",
+          "stars": 796,
+          "language": "Go"
+        },
+        {
+          "name": "bel-dev-7-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 324,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bel-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Belarus)",
+      "company": null,
+      "location": "Gomel",
+      "bio": null,
+      "followers": 3803,
+      "publicContributions": 26544,
+      "privateContributions": 297,
+      "languages": [
+        "TypeScript",
+        "Java",
+        "JavaScript",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-8-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1142,
+          "language": "TypeScript"
+        },
+        {
+          "name": "bel-dev-8-proj-2",
+          "description": "A modern CLI tool",
+          "stars": 515,
+          "language": "Java"
+        },
+        {
+          "name": "bel-dev-8-proj-3",
+          "description": "Open source utilities",
+          "stars": 1206,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bel-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Belarus)",
+      "company": "Vercel",
+      "location": "Gomel",
+      "bio": null,
+      "followers": 3681,
+      "publicContributions": 25561,
+      "privateContributions": 473,
+      "languages": [
+        "Python",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-9-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 819,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "bel-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Belarus)",
+      "company": null,
+      "location": "Belarus",
+      "bio": null,
+      "followers": 3520,
+      "publicContributions": 24508,
+      "privateContributions": 264,
+      "languages": [
+        "Python",
+        "Go",
+        "Rust",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "bel-dev-10-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1189,
+          "language": "Python"
+        },
+        {
+          "name": "bel-dev-10-proj-2",
+          "description": "API wrapper",
+          "stars": 1097,
+          "language": "Go"
+        },
+        {
+          "name": "bel-dev-10-proj-3",
+          "description": null,
+          "stars": 992,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "bel-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": "Developer from Belarus",
+        "followers": 5020,
+        "publicContributions": 35066,
+        "privateContributions": 394,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 256,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "bel-dev-1",
+        "blog": "https://bel-dev-1.dev"
+      },
+      {
+        "login": "bel-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Belarus)",
+        "company": "Stripe",
+        "location": "Belarus",
+        "bio": "Developer from Belarus",
+        "followers": 4819,
+        "publicContributions": 33700,
+        "privateContributions": 362,
+        "languages": [
+          "JavaScript",
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 679,
+            "language": "JavaScript"
+          },
+          {
+            "name": "bel-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 549,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "bel-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bel-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Belarus)",
+        "company": "Google",
+        "location": "Gomel",
+        "bio": "Developer from Belarus",
+        "followers": 4656,
+        "publicContributions": 32382,
+        "privateContributions": 109,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "Java",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1286,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1592,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 1574,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Belarus)",
+        "company": "Apple",
+        "location": "Belarus",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31109,
+        "privateContributions": 255,
+        "languages": [
+          "Swift",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 722,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": null,
+        "followers": 4295,
+        "publicContributions": 29920,
+        "privateContributions": 221,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "Kotlin",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 970,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1503,
+            "language": "C++"
+          },
+          {
+            "name": "bel-dev-5-proj-3",
+            "description": null,
+            "stars": 654,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Belarus)",
+        "company": "Stripe",
+        "location": "Gomel",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28851,
+        "privateContributions": 197,
+        "languages": [
+          "Dart",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-6-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "Dart"
+          },
+          {
+            "name": "bel-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1319,
+            "language": "PHP"
+          },
+          {
+            "name": "bel-dev-6-proj-3",
+            "description": "Open source utilities",
+            "stars": 1554,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Belarus)",
+        "company": "GitHub",
+        "location": "Minsk",
+        "bio": null,
+        "followers": 3978,
+        "publicContributions": 27646,
+        "privateContributions": 372,
+        "languages": [
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 796,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 324,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": null,
+        "followers": 3803,
+        "publicContributions": 26544,
+        "privateContributions": 297,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1142,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 515,
+            "language": "Java"
+          },
+          {
+            "name": "bel-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1206,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Belarus)",
+        "company": "Vercel",
+        "location": "Gomel",
+        "bio": null,
+        "followers": 3681,
+        "publicContributions": 25561,
+        "privateContributions": 473,
+        "languages": [
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 819,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Belarus)",
+        "company": null,
+        "location": "Belarus",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24508,
+        "privateContributions": 264,
+        "languages": [
+          "Python",
+          "Go",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1189,
+            "language": "Python"
+          },
+          {
+            "name": "bel-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1097,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-10-proj-3",
+            "description": null,
+            "stars": 992,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "bel-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": "Developer from Belarus",
+        "followers": 5020,
+        "publicContributions": 35066,
+        "privateContributions": 394,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 256,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "bel-dev-1",
+        "blog": "https://bel-dev-1.dev"
+      },
+      {
+        "login": "bel-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Belarus)",
+        "company": "Stripe",
+        "location": "Belarus",
+        "bio": "Developer from Belarus",
+        "followers": 4819,
+        "publicContributions": 33700,
+        "privateContributions": 362,
+        "languages": [
+          "JavaScript",
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 679,
+            "language": "JavaScript"
+          },
+          {
+            "name": "bel-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 549,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "bel-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bel-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Belarus)",
+        "company": "Google",
+        "location": "Gomel",
+        "bio": "Developer from Belarus",
+        "followers": 4656,
+        "publicContributions": 32382,
+        "privateContributions": 109,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "Java",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1286,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1592,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 1574,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Belarus)",
+        "company": "Apple",
+        "location": "Belarus",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31109,
+        "privateContributions": 255,
+        "languages": [
+          "Swift",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 722,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": null,
+        "followers": 4295,
+        "publicContributions": 29920,
+        "privateContributions": 221,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "Kotlin",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 970,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1503,
+            "language": "C++"
+          },
+          {
+            "name": "bel-dev-5-proj-3",
+            "description": null,
+            "stars": 654,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Belarus)",
+        "company": "Stripe",
+        "location": "Gomel",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28851,
+        "privateContributions": 197,
+        "languages": [
+          "Dart",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-6-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "Dart"
+          },
+          {
+            "name": "bel-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1319,
+            "language": "PHP"
+          },
+          {
+            "name": "bel-dev-6-proj-3",
+            "description": "Open source utilities",
+            "stars": 1554,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Belarus)",
+        "company": "GitHub",
+        "location": "Minsk",
+        "bio": null,
+        "followers": 3978,
+        "publicContributions": 27646,
+        "privateContributions": 372,
+        "languages": [
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 796,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 324,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": null,
+        "followers": 3803,
+        "publicContributions": 26544,
+        "privateContributions": 297,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1142,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 515,
+            "language": "Java"
+          },
+          {
+            "name": "bel-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1206,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Belarus)",
+        "company": "Vercel",
+        "location": "Gomel",
+        "bio": null,
+        "followers": 3681,
+        "publicContributions": 25561,
+        "privateContributions": 473,
+        "languages": [
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 819,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Belarus)",
+        "company": null,
+        "location": "Belarus",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24508,
+        "privateContributions": 264,
+        "languages": [
+          "Python",
+          "Go",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1189,
+            "language": "Python"
+          },
+          {
+            "name": "bel-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1097,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-10-proj-3",
+            "description": null,
+            "stars": 992,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "bel-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": "Developer from Belarus",
+        "followers": 5020,
+        "publicContributions": 35066,
+        "privateContributions": 394,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-1-proj-1",
+            "description": "Web framework for developers",
+            "stars": 256,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "bel-dev-1",
+        "blog": "https://bel-dev-1.dev"
+      },
+      {
+        "login": "bel-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Belarus)",
+        "company": "Stripe",
+        "location": "Belarus",
+        "bio": "Developer from Belarus",
+        "followers": 4819,
+        "publicContributions": 33700,
+        "privateContributions": 362,
+        "languages": [
+          "JavaScript",
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 679,
+            "language": "JavaScript"
+          },
+          {
+            "name": "bel-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 549,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "bel-dev-2",
+        "blog": null
+      },
+      {
+        "login": "bel-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Belarus)",
+        "company": "Google",
+        "location": "Gomel",
+        "bio": "Developer from Belarus",
+        "followers": 4656,
+        "publicContributions": 32382,
+        "privateContributions": 109,
+        "languages": [
+          "Go",
+          "TypeScript",
+          "Java",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-3-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1286,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-3-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 1592,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-3-proj-3",
+            "description": "API wrapper",
+            "stars": 1574,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Belarus)",
+        "company": "Apple",
+        "location": "Belarus",
+        "bio": null,
+        "followers": 4458,
+        "publicContributions": 31109,
+        "privateContributions": 255,
+        "languages": [
+          "Swift",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-4-proj-1",
+            "description": "Web framework for developers",
+            "stars": 722,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": null,
+        "followers": 4295,
+        "publicContributions": 29920,
+        "privateContributions": 221,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "Kotlin",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-5-proj-1",
+            "description": "Open source utilities",
+            "stars": 970,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-5-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1503,
+            "language": "C++"
+          },
+          {
+            "name": "bel-dev-5-proj-3",
+            "description": null,
+            "stars": 654,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Belarus)",
+        "company": "Stripe",
+        "location": "Gomel",
+        "bio": null,
+        "followers": 4133,
+        "publicContributions": 28851,
+        "privateContributions": 197,
+        "languages": [
+          "Dart",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-6-proj-1",
+            "description": null,
+            "stars": 1618,
+            "language": "Dart"
+          },
+          {
+            "name": "bel-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1319,
+            "language": "PHP"
+          },
+          {
+            "name": "bel-dev-6-proj-3",
+            "description": "Open source utilities",
+            "stars": 1554,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Belarus)",
+        "company": "GitHub",
+        "location": "Minsk",
+        "bio": null,
+        "followers": 3978,
+        "publicContributions": 27646,
+        "privateContributions": 372,
+        "languages": [
+          "Go",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-7-proj-1",
+            "description": "Open source utilities",
+            "stars": 796,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-7-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 324,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Belarus)",
+        "company": null,
+        "location": "Gomel",
+        "bio": null,
+        "followers": 3803,
+        "publicContributions": 26544,
+        "privateContributions": 297,
+        "languages": [
+          "TypeScript",
+          "Java",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1142,
+            "language": "TypeScript"
+          },
+          {
+            "name": "bel-dev-8-proj-2",
+            "description": "A modern CLI tool",
+            "stars": 515,
+            "language": "Java"
+          },
+          {
+            "name": "bel-dev-8-proj-3",
+            "description": "Open source utilities",
+            "stars": 1206,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Belarus)",
+        "company": "Vercel",
+        "location": "Gomel",
+        "bio": null,
+        "followers": 3681,
+        "publicContributions": 25561,
+        "privateContributions": 473,
+        "languages": [
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-9-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 819,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "bel-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Belarus)",
+        "company": null,
+        "location": "Belarus",
+        "bio": null,
+        "followers": 3520,
+        "publicContributions": 24508,
+        "privateContributions": 264,
+        "languages": [
+          "Python",
+          "Go",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "bel-dev-10-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1189,
+            "language": "Python"
+          },
+          {
+            "name": "bel-dev-10-proj-2",
+            "description": "API wrapper",
+            "stars": 1097,
+            "language": "Go"
+          },
+          {
+            "name": "bel-dev-10-proj-3",
+            "description": null,
+            "stars": 992,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

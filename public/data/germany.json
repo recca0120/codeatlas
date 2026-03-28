@@ -1,0 +1,1214 @@
+{
+  "countryCode": "germany",
+  "updatedAt": "2026-03-27T22:30:49.891Z",
+  "users": [
+    {
+      "login": "ger-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Germany)",
+      "company": "GitHub",
+      "location": "Germany",
+      "bio": "Developer from Germany",
+      "followers": 5035,
+      "publicContributions": 35135,
+      "privateContributions": 269,
+      "languages": [
+        "Go",
+        "PHP",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-1-proj-1",
+          "description": "Data pipeline library",
+          "stars": 803,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "ger-dev-1",
+      "blog": "https://ger-dev-1.dev"
+    },
+    {
+      "login": "ger-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Germany)",
+      "company": "Apple",
+      "location": "Berlin",
+      "bio": "Developer from Germany",
+      "followers": 4853,
+      "publicContributions": 33685,
+      "privateContributions": 56,
+      "languages": [
+        "Java",
+        "JavaScript",
+        "Python",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-2-proj-1",
+          "description": "Open source utilities",
+          "stars": 157,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": "ger-dev-2",
+      "blog": null
+    },
+    {
+      "login": "ger-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Germany)",
+      "company": null,
+      "location": "Hamburg",
+      "bio": "Developer from Germany",
+      "followers": 4648,
+      "publicContributions": 32377,
+      "privateContributions": 3,
+      "languages": [
+        "Go",
+        "Rust",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-3-proj-1",
+          "description": "API wrapper",
+          "stars": 1118,
+          "language": "Go"
+        },
+        {
+          "name": "ger-dev-3-proj-2",
+          "description": "API wrapper",
+          "stars": 228,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ger-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Germany)",
+      "company": null,
+      "location": "Hamburg",
+      "bio": null,
+      "followers": 4470,
+      "publicContributions": 31124,
+      "privateContributions": 104,
+      "languages": [
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-4-proj-1",
+          "description": "API wrapper",
+          "stars": 442,
+          "language": "Ruby"
+        },
+        {
+          "name": "ger-dev-4-proj-2",
+          "description": "Open source utilities",
+          "stars": 1468,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ger-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Germany)",
+      "company": "Vercel",
+      "location": "Hamburg",
+      "bio": null,
+      "followers": 4276,
+      "publicContributions": 29947,
+      "privateContributions": 288,
+      "languages": [
+        "Ruby",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-5-proj-1",
+          "description": null,
+          "stars": 830,
+          "language": "Ruby"
+        },
+        {
+          "name": "ger-dev-5-proj-2",
+          "description": "API wrapper",
+          "stars": 570,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ger-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Germany)",
+      "company": "Microsoft",
+      "location": "Frankfurt",
+      "bio": null,
+      "followers": 4111,
+      "publicContributions": 28725,
+      "privateContributions": 53,
+      "languages": [
+        "Python",
+        "C++",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-6-proj-1",
+          "description": "Data pipeline library",
+          "stars": 125,
+          "language": "Python"
+        },
+        {
+          "name": "ger-dev-6-proj-2",
+          "description": "Web framework for developers",
+          "stars": 662,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ger-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Germany)",
+      "company": null,
+      "location": "Frankfurt",
+      "bio": null,
+      "followers": 3974,
+      "publicContributions": 27606,
+      "privateContributions": 440,
+      "languages": [
+        "Go",
+        "Java",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-7-proj-1",
+          "description": "API wrapper",
+          "stars": 1149,
+          "language": "Go"
+        },
+        {
+          "name": "ger-dev-7-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1302,
+          "language": "Java"
+        },
+        {
+          "name": "ger-dev-7-proj-3",
+          "description": null,
+          "stars": 1571,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ger-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Germany)",
+      "company": null,
+      "location": "Munich",
+      "bio": null,
+      "followers": 3823,
+      "publicContributions": 26517,
+      "privateContributions": 136,
+      "languages": [
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-8-proj-1",
+          "description": "Open source utilities",
+          "stars": 1201,
+          "language": "C++"
+        },
+        {
+          "name": "ger-dev-8-proj-2",
+          "description": "Data pipeline library",
+          "stars": 1224,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ger-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Germany)",
+      "company": "Google",
+      "location": "Berlin",
+      "bio": null,
+      "followers": 3656,
+      "publicContributions": 25555,
+      "privateContributions": 47,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-9-proj-1",
+          "description": "Web framework for developers",
+          "stars": 390,
+          "language": "Kotlin"
+        },
+        {
+          "name": "ger-dev-9-proj-2",
+          "description": "Data pipeline library",
+          "stars": 911,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ger-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Germany)",
+      "company": null,
+      "location": "Berlin",
+      "bio": null,
+      "followers": 3533,
+      "publicContributions": 24498,
+      "privateContributions": 307,
+      "languages": [
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "ger-dev-10-proj-1",
+          "description": "Open source utilities",
+          "stars": 1271,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "ger-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Germany)",
+        "company": "GitHub",
+        "location": "Germany",
+        "bio": "Developer from Germany",
+        "followers": 5035,
+        "publicContributions": 35135,
+        "privateContributions": 269,
+        "languages": [
+          "Go",
+          "PHP",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 803,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "ger-dev-1",
+        "blog": "https://ger-dev-1.dev"
+      },
+      {
+        "login": "ger-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Germany)",
+        "company": "Apple",
+        "location": "Berlin",
+        "bio": "Developer from Germany",
+        "followers": 4853,
+        "publicContributions": 33685,
+        "privateContributions": 56,
+        "languages": [
+          "Java",
+          "JavaScript",
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 157,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ger-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ger-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Germany)",
+        "company": null,
+        "location": "Hamburg",
+        "bio": "Developer from Germany",
+        "followers": 4648,
+        "publicContributions": 32377,
+        "privateContributions": 3,
+        "languages": [
+          "Go",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1118,
+            "language": "Go"
+          },
+          {
+            "name": "ger-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 228,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Germany)",
+        "company": null,
+        "location": "Hamburg",
+        "bio": null,
+        "followers": 4470,
+        "publicContributions": 31124,
+        "privateContributions": 104,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 442,
+            "language": "Ruby"
+          },
+          {
+            "name": "ger-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1468,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Germany)",
+        "company": "Vercel",
+        "location": "Hamburg",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29947,
+        "privateContributions": 288,
+        "languages": [
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-5-proj-1",
+            "description": null,
+            "stars": 830,
+            "language": "Ruby"
+          },
+          {
+            "name": "ger-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 570,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Germany)",
+        "company": "Microsoft",
+        "location": "Frankfurt",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28725,
+        "privateContributions": 53,
+        "languages": [
+          "Python",
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 125,
+            "language": "Python"
+          },
+          {
+            "name": "ger-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Germany)",
+        "company": null,
+        "location": "Frankfurt",
+        "bio": null,
+        "followers": 3974,
+        "publicContributions": 27606,
+        "privateContributions": 440,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1149,
+            "language": "Go"
+          },
+          {
+            "name": "ger-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1302,
+            "language": "Java"
+          },
+          {
+            "name": "ger-dev-7-proj-3",
+            "description": null,
+            "stars": 1571,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Germany)",
+        "company": null,
+        "location": "Munich",
+        "bio": null,
+        "followers": 3823,
+        "publicContributions": 26517,
+        "privateContributions": 136,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1201,
+            "language": "C++"
+          },
+          {
+            "name": "ger-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1224,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Germany)",
+        "company": "Google",
+        "location": "Berlin",
+        "bio": null,
+        "followers": 3656,
+        "publicContributions": 25555,
+        "privateContributions": 47,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 390,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ger-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Germany)",
+        "company": null,
+        "location": "Berlin",
+        "bio": null,
+        "followers": 3533,
+        "publicContributions": 24498,
+        "privateContributions": 307,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1271,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "ger-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Germany)",
+        "company": "GitHub",
+        "location": "Germany",
+        "bio": "Developer from Germany",
+        "followers": 5035,
+        "publicContributions": 35135,
+        "privateContributions": 269,
+        "languages": [
+          "Go",
+          "PHP",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 803,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "ger-dev-1",
+        "blog": "https://ger-dev-1.dev"
+      },
+      {
+        "login": "ger-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Germany)",
+        "company": "Apple",
+        "location": "Berlin",
+        "bio": "Developer from Germany",
+        "followers": 4853,
+        "publicContributions": 33685,
+        "privateContributions": 56,
+        "languages": [
+          "Java",
+          "JavaScript",
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 157,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ger-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ger-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Germany)",
+        "company": null,
+        "location": "Hamburg",
+        "bio": "Developer from Germany",
+        "followers": 4648,
+        "publicContributions": 32377,
+        "privateContributions": 3,
+        "languages": [
+          "Go",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1118,
+            "language": "Go"
+          },
+          {
+            "name": "ger-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 228,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Germany)",
+        "company": null,
+        "location": "Hamburg",
+        "bio": null,
+        "followers": 4470,
+        "publicContributions": 31124,
+        "privateContributions": 104,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 442,
+            "language": "Ruby"
+          },
+          {
+            "name": "ger-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1468,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Germany)",
+        "company": "Vercel",
+        "location": "Hamburg",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29947,
+        "privateContributions": 288,
+        "languages": [
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-5-proj-1",
+            "description": null,
+            "stars": 830,
+            "language": "Ruby"
+          },
+          {
+            "name": "ger-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 570,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Germany)",
+        "company": "Microsoft",
+        "location": "Frankfurt",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28725,
+        "privateContributions": 53,
+        "languages": [
+          "Python",
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 125,
+            "language": "Python"
+          },
+          {
+            "name": "ger-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Germany)",
+        "company": null,
+        "location": "Frankfurt",
+        "bio": null,
+        "followers": 3974,
+        "publicContributions": 27606,
+        "privateContributions": 440,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1149,
+            "language": "Go"
+          },
+          {
+            "name": "ger-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1302,
+            "language": "Java"
+          },
+          {
+            "name": "ger-dev-7-proj-3",
+            "description": null,
+            "stars": 1571,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Germany)",
+        "company": null,
+        "location": "Munich",
+        "bio": null,
+        "followers": 3823,
+        "publicContributions": 26517,
+        "privateContributions": 136,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1201,
+            "language": "C++"
+          },
+          {
+            "name": "ger-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1224,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Germany)",
+        "company": "Google",
+        "location": "Berlin",
+        "bio": null,
+        "followers": 3656,
+        "publicContributions": 25555,
+        "privateContributions": 47,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 390,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ger-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Germany)",
+        "company": null,
+        "location": "Berlin",
+        "bio": null,
+        "followers": 3533,
+        "publicContributions": 24498,
+        "privateContributions": 307,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1271,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "ger-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Germany)",
+        "company": "GitHub",
+        "location": "Germany",
+        "bio": "Developer from Germany",
+        "followers": 5035,
+        "publicContributions": 35135,
+        "privateContributions": 269,
+        "languages": [
+          "Go",
+          "PHP",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-1-proj-1",
+            "description": "Data pipeline library",
+            "stars": 803,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "ger-dev-1",
+        "blog": "https://ger-dev-1.dev"
+      },
+      {
+        "login": "ger-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Germany)",
+        "company": "Apple",
+        "location": "Berlin",
+        "bio": "Developer from Germany",
+        "followers": 4853,
+        "publicContributions": 33685,
+        "privateContributions": 56,
+        "languages": [
+          "Java",
+          "JavaScript",
+          "Python",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 157,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "ger-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ger-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Germany)",
+        "company": null,
+        "location": "Hamburg",
+        "bio": "Developer from Germany",
+        "followers": 4648,
+        "publicContributions": 32377,
+        "privateContributions": 3,
+        "languages": [
+          "Go",
+          "Rust",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1118,
+            "language": "Go"
+          },
+          {
+            "name": "ger-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 228,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Germany)",
+        "company": null,
+        "location": "Hamburg",
+        "bio": null,
+        "followers": 4470,
+        "publicContributions": 31124,
+        "privateContributions": 104,
+        "languages": [
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-4-proj-1",
+            "description": "API wrapper",
+            "stars": 442,
+            "language": "Ruby"
+          },
+          {
+            "name": "ger-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1468,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Germany)",
+        "company": "Vercel",
+        "location": "Hamburg",
+        "bio": null,
+        "followers": 4276,
+        "publicContributions": 29947,
+        "privateContributions": 288,
+        "languages": [
+          "Ruby",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-5-proj-1",
+            "description": null,
+            "stars": 830,
+            "language": "Ruby"
+          },
+          {
+            "name": "ger-dev-5-proj-2",
+            "description": "API wrapper",
+            "stars": 570,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Germany)",
+        "company": "Microsoft",
+        "location": "Frankfurt",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28725,
+        "privateContributions": 53,
+        "languages": [
+          "Python",
+          "C++",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 125,
+            "language": "Python"
+          },
+          {
+            "name": "ger-dev-6-proj-2",
+            "description": "Web framework for developers",
+            "stars": 662,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Germany)",
+        "company": null,
+        "location": "Frankfurt",
+        "bio": null,
+        "followers": 3974,
+        "publicContributions": 27606,
+        "privateContributions": 440,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-7-proj-1",
+            "description": "API wrapper",
+            "stars": 1149,
+            "language": "Go"
+          },
+          {
+            "name": "ger-dev-7-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1302,
+            "language": "Java"
+          },
+          {
+            "name": "ger-dev-7-proj-3",
+            "description": null,
+            "stars": 1571,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Germany)",
+        "company": null,
+        "location": "Munich",
+        "bio": null,
+        "followers": 3823,
+        "publicContributions": 26517,
+        "privateContributions": 136,
+        "languages": [
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1201,
+            "language": "C++"
+          },
+          {
+            "name": "ger-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 1224,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Germany)",
+        "company": "Google",
+        "location": "Berlin",
+        "bio": null,
+        "followers": 3656,
+        "publicContributions": 25555,
+        "privateContributions": 47,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 390,
+            "language": "Kotlin"
+          },
+          {
+            "name": "ger-dev-9-proj-2",
+            "description": "Data pipeline library",
+            "stars": 911,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ger-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Germany)",
+        "company": null,
+        "location": "Berlin",
+        "bio": null,
+        "followers": 3533,
+        "publicContributions": 24498,
+        "privateContributions": 307,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "ger-dev-10-proj-1",
+            "description": "Open source utilities",
+            "stars": 1271,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

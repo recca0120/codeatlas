@@ -1,0 +1,1214 @@
+{
+  "countryCode": "kenya",
+  "updatedAt": "2026-03-27T22:30:49.895Z",
+  "users": [
+    {
+      "login": "ken-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Kenya)",
+      "company": "Apple",
+      "location": "Nairobi",
+      "bio": "Developer from Kenya",
+      "followers": 5047,
+      "publicContributions": 35171,
+      "privateContributions": 55,
+      "languages": [
+        "Python",
+        "JavaScript",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-1-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1979,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": "ken-dev-1",
+      "blog": "https://ken-dev-1.dev"
+    },
+    {
+      "login": "ken-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Kenya)",
+      "company": "GitHub",
+      "location": "Kenya",
+      "bio": "Developer from Kenya",
+      "followers": 4818,
+      "publicContributions": 33730,
+      "privateContributions": 100,
+      "languages": [
+        "Python",
+        "JavaScript",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-2-proj-1",
+          "description": "Open source utilities",
+          "stars": 227,
+          "language": "Python"
+        },
+        {
+          "name": "ken-dev-2-proj-2",
+          "description": null,
+          "stars": 610,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": "ken-dev-2",
+      "blog": null
+    },
+    {
+      "login": "ken-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Kenya)",
+      "company": "Stripe",
+      "location": "Mombasa",
+      "bio": "Developer from Kenya",
+      "followers": 4639,
+      "publicContributions": 32412,
+      "privateContributions": 192,
+      "languages": [
+        "Python",
+        "Rust",
+        "Java",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-3-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1544,
+          "language": "Python"
+        },
+        {
+          "name": "ken-dev-3-proj-2",
+          "description": "Open source utilities",
+          "stars": 1185,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ken-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Kenya)",
+      "company": "Apple",
+      "location": "Nairobi",
+      "bio": null,
+      "followers": 4453,
+      "publicContributions": 31214,
+      "privateContributions": 226,
+      "languages": [
+        "Java",
+        "Kotlin",
+        "Dart",
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-4-proj-1",
+          "description": "Data pipeline library",
+          "stars": 1707,
+          "language": "Java"
+        },
+        {
+          "name": "ken-dev-4-proj-2",
+          "description": "Open source utilities",
+          "stars": 1004,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ken-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Kenya)",
+      "company": "Amazon",
+      "location": "Mombasa",
+      "bio": null,
+      "followers": 4291,
+      "publicContributions": 30019,
+      "privateContributions": 384,
+      "languages": [
+        "Python",
+        "Swift",
+        "JavaScript",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-5-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1014,
+          "language": "Python"
+        },
+        {
+          "name": "ken-dev-5-proj-2",
+          "description": "Web framework for developers",
+          "stars": 736,
+          "language": "Swift"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ken-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Kenya)",
+      "company": null,
+      "location": "Mombasa",
+      "bio": null,
+      "followers": 4121,
+      "publicContributions": 28810,
+      "privateContributions": 219,
+      "languages": [
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-6-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 582,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ken-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Kenya)",
+      "company": "Stripe",
+      "location": "Kenya",
+      "bio": null,
+      "followers": 3950,
+      "publicContributions": 27707,
+      "privateContributions": 42,
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-7-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 78,
+          "language": "JavaScript"
+        },
+        {
+          "name": "ken-dev-7-proj-2",
+          "description": "Web framework for developers",
+          "stars": 572,
+          "language": "Python"
+        },
+        {
+          "name": "ken-dev-7-proj-3",
+          "description": null,
+          "stars": 1047,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ken-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Kenya)",
+      "company": null,
+      "location": "Kenya",
+      "bio": null,
+      "followers": 3800,
+      "publicContributions": 26568,
+      "privateContributions": 142,
+      "languages": [
+        "Go",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-8-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1140,
+          "language": "Go"
+        },
+        {
+          "name": "ken-dev-8-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1406,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ken-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Kenya)",
+      "company": "Stripe",
+      "location": "Mombasa",
+      "bio": null,
+      "followers": 3641,
+      "publicContributions": 25565,
+      "privateContributions": 468,
+      "languages": [
+        "Dart",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-9-proj-1",
+          "description": "API wrapper",
+          "stars": 516,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "ken-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Kenya)",
+      "company": null,
+      "location": "Nairobi",
+      "bio": null,
+      "followers": 3534,
+      "publicContributions": 24478,
+      "privateContributions": 316,
+      "languages": [
+        "Go",
+        "Python",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "ken-dev-10-proj-1",
+          "description": "API wrapper",
+          "stars": 1154,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "ken-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Kenya)",
+        "company": "Apple",
+        "location": "Nairobi",
+        "bio": "Developer from Kenya",
+        "followers": 5047,
+        "publicContributions": 35171,
+        "privateContributions": 55,
+        "languages": [
+          "Python",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1979,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "ken-dev-1",
+        "blog": "https://ken-dev-1.dev"
+      },
+      {
+        "login": "ken-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Kenya)",
+        "company": "GitHub",
+        "location": "Kenya",
+        "bio": "Developer from Kenya",
+        "followers": 4818,
+        "publicContributions": 33730,
+        "privateContributions": 100,
+        "languages": [
+          "Python",
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 227,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-2-proj-2",
+            "description": null,
+            "stars": 610,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ken-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ken-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Kenya)",
+        "company": "Stripe",
+        "location": "Mombasa",
+        "bio": "Developer from Kenya",
+        "followers": 4639,
+        "publicContributions": 32412,
+        "privateContributions": 192,
+        "languages": [
+          "Python",
+          "Rust",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1544,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1185,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Kenya)",
+        "company": "Apple",
+        "location": "Nairobi",
+        "bio": null,
+        "followers": 4453,
+        "publicContributions": 31214,
+        "privateContributions": 226,
+        "languages": [
+          "Java",
+          "Kotlin",
+          "Dart",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1707,
+            "language": "Java"
+          },
+          {
+            "name": "ken-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1004,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Kenya)",
+        "company": "Amazon",
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 30019,
+        "privateContributions": 384,
+        "languages": [
+          "Python",
+          "Swift",
+          "JavaScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1014,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 736,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Kenya)",
+        "company": null,
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28810,
+        "privateContributions": 219,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 582,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Kenya)",
+        "company": "Stripe",
+        "location": "Kenya",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27707,
+        "privateContributions": 42,
+        "languages": [
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 78,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ken-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 572,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-7-proj-3",
+            "description": null,
+            "stars": 1047,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Kenya)",
+        "company": null,
+        "location": "Kenya",
+        "bio": null,
+        "followers": 3800,
+        "publicContributions": 26568,
+        "privateContributions": 142,
+        "languages": [
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1140,
+            "language": "Go"
+          },
+          {
+            "name": "ken-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1406,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Kenya)",
+        "company": "Stripe",
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25565,
+        "privateContributions": 468,
+        "languages": [
+          "Dart",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 516,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Kenya)",
+        "company": null,
+        "location": "Nairobi",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24478,
+        "privateContributions": 316,
+        "languages": [
+          "Go",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 1154,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "ken-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Kenya)",
+        "company": "Apple",
+        "location": "Nairobi",
+        "bio": "Developer from Kenya",
+        "followers": 5047,
+        "publicContributions": 35171,
+        "privateContributions": 55,
+        "languages": [
+          "Python",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1979,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "ken-dev-1",
+        "blog": "https://ken-dev-1.dev"
+      },
+      {
+        "login": "ken-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Kenya)",
+        "company": "GitHub",
+        "location": "Kenya",
+        "bio": "Developer from Kenya",
+        "followers": 4818,
+        "publicContributions": 33730,
+        "privateContributions": 100,
+        "languages": [
+          "Python",
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 227,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-2-proj-2",
+            "description": null,
+            "stars": 610,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ken-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ken-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Kenya)",
+        "company": "Stripe",
+        "location": "Mombasa",
+        "bio": "Developer from Kenya",
+        "followers": 4639,
+        "publicContributions": 32412,
+        "privateContributions": 192,
+        "languages": [
+          "Python",
+          "Rust",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1544,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1185,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Kenya)",
+        "company": "Apple",
+        "location": "Nairobi",
+        "bio": null,
+        "followers": 4453,
+        "publicContributions": 31214,
+        "privateContributions": 226,
+        "languages": [
+          "Java",
+          "Kotlin",
+          "Dart",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1707,
+            "language": "Java"
+          },
+          {
+            "name": "ken-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1004,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Kenya)",
+        "company": "Amazon",
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 30019,
+        "privateContributions": 384,
+        "languages": [
+          "Python",
+          "Swift",
+          "JavaScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1014,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 736,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Kenya)",
+        "company": null,
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28810,
+        "privateContributions": 219,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 582,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Kenya)",
+        "company": "Stripe",
+        "location": "Kenya",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27707,
+        "privateContributions": 42,
+        "languages": [
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 78,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ken-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 572,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-7-proj-3",
+            "description": null,
+            "stars": 1047,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Kenya)",
+        "company": null,
+        "location": "Kenya",
+        "bio": null,
+        "followers": 3800,
+        "publicContributions": 26568,
+        "privateContributions": 142,
+        "languages": [
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1140,
+            "language": "Go"
+          },
+          {
+            "name": "ken-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1406,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Kenya)",
+        "company": "Stripe",
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25565,
+        "privateContributions": 468,
+        "languages": [
+          "Dart",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 516,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Kenya)",
+        "company": null,
+        "location": "Nairobi",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24478,
+        "privateContributions": 316,
+        "languages": [
+          "Go",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 1154,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "ken-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Kenya)",
+        "company": "Apple",
+        "location": "Nairobi",
+        "bio": "Developer from Kenya",
+        "followers": 5047,
+        "publicContributions": 35171,
+        "privateContributions": 55,
+        "languages": [
+          "Python",
+          "JavaScript",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-1-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1979,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "ken-dev-1",
+        "blog": "https://ken-dev-1.dev"
+      },
+      {
+        "login": "ken-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Kenya)",
+        "company": "GitHub",
+        "location": "Kenya",
+        "bio": "Developer from Kenya",
+        "followers": 4818,
+        "publicContributions": 33730,
+        "privateContributions": 100,
+        "languages": [
+          "Python",
+          "JavaScript",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-2-proj-1",
+            "description": "Open source utilities",
+            "stars": 227,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-2-proj-2",
+            "description": null,
+            "stars": 610,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ken-dev-2",
+        "blog": null
+      },
+      {
+        "login": "ken-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Kenya)",
+        "company": "Stripe",
+        "location": "Mombasa",
+        "bio": "Developer from Kenya",
+        "followers": 4639,
+        "publicContributions": 32412,
+        "privateContributions": 192,
+        "languages": [
+          "Python",
+          "Rust",
+          "Java",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-3-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1544,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-3-proj-2",
+            "description": "Open source utilities",
+            "stars": 1185,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Kenya)",
+        "company": "Apple",
+        "location": "Nairobi",
+        "bio": null,
+        "followers": 4453,
+        "publicContributions": 31214,
+        "privateContributions": 226,
+        "languages": [
+          "Java",
+          "Kotlin",
+          "Dart",
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 1707,
+            "language": "Java"
+          },
+          {
+            "name": "ken-dev-4-proj-2",
+            "description": "Open source utilities",
+            "stars": 1004,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Kenya)",
+        "company": "Amazon",
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 4291,
+        "publicContributions": 30019,
+        "privateContributions": 384,
+        "languages": [
+          "Python",
+          "Swift",
+          "JavaScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1014,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 736,
+            "language": "Swift"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Kenya)",
+        "company": null,
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 4121,
+        "publicContributions": 28810,
+        "privateContributions": 219,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-6-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 582,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Kenya)",
+        "company": "Stripe",
+        "location": "Kenya",
+        "bio": null,
+        "followers": 3950,
+        "publicContributions": 27707,
+        "privateContributions": 42,
+        "languages": [
+          "JavaScript",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-7-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 78,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ken-dev-7-proj-2",
+            "description": "Web framework for developers",
+            "stars": 572,
+            "language": "Python"
+          },
+          {
+            "name": "ken-dev-7-proj-3",
+            "description": null,
+            "stars": 1047,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Kenya)",
+        "company": null,
+        "location": "Kenya",
+        "bio": null,
+        "followers": 3800,
+        "publicContributions": 26568,
+        "privateContributions": 142,
+        "languages": [
+          "Go",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-8-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1140,
+            "language": "Go"
+          },
+          {
+            "name": "ken-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1406,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Kenya)",
+        "company": "Stripe",
+        "location": "Mombasa",
+        "bio": null,
+        "followers": 3641,
+        "publicContributions": 25565,
+        "privateContributions": 468,
+        "languages": [
+          "Dart",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-9-proj-1",
+            "description": "API wrapper",
+            "stars": 516,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "ken-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Kenya)",
+        "company": null,
+        "location": "Nairobi",
+        "bio": null,
+        "followers": 3534,
+        "publicContributions": 24478,
+        "privateContributions": 316,
+        "languages": [
+          "Go",
+          "Python",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "ken-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 1154,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,1226 @@
+{
+  "countryCode": "oman",
+  "updatedAt": "2026-03-27T22:30:49.901Z",
+  "users": [
+    {
+      "login": "oma-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Oman)",
+      "company": null,
+      "location": "Muscat",
+      "bio": "Developer from Oman",
+      "followers": 5042,
+      "publicContributions": 35190,
+      "privateContributions": 331,
+      "languages": [
+        "Dart",
+        "Java",
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-1-proj-1",
+          "description": "Open source utilities",
+          "stars": 1961,
+          "language": "Dart"
+        },
+        {
+          "name": "oma-dev-1-proj-2",
+          "description": "API wrapper",
+          "stars": 1882,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": "oma-dev-1",
+      "blog": "https://oma-dev-1.dev"
+    },
+    {
+      "login": "oma-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Oman)",
+      "company": "GitHub",
+      "location": "Muscat",
+      "bio": "Developer from Oman",
+      "followers": 4824,
+      "publicContributions": 33827,
+      "privateContributions": 146,
+      "languages": [
+        "Dart",
+        "Java",
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-2-proj-1",
+          "description": null,
+          "stars": 930,
+          "language": "Dart"
+        },
+        {
+          "name": "oma-dev-2-proj-2",
+          "description": "Open source utilities",
+          "stars": 1035,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": "oma-dev-2",
+      "blog": null
+    },
+    {
+      "login": "oma-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Oman)",
+      "company": "Vercel",
+      "location": "Oman",
+      "bio": "Developer from Oman",
+      "followers": 4652,
+      "publicContributions": 32468,
+      "privateContributions": 60,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-3-proj-1",
+          "description": null,
+          "stars": 920,
+          "language": "TypeScript"
+        },
+        {
+          "name": "oma-dev-3-proj-2",
+          "description": "API wrapper",
+          "stars": 62,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "oma-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Oman)",
+      "company": "Microsoft",
+      "location": "Muscat",
+      "bio": null,
+      "followers": 4449,
+      "publicContributions": 31096,
+      "privateContributions": 469,
+      "languages": [
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-4-proj-1",
+          "description": "Open source utilities",
+          "stars": 345,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "oma-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Oman)",
+      "company": "Amazon",
+      "location": "Oman",
+      "bio": null,
+      "followers": 4285,
+      "publicContributions": 29918,
+      "privateContributions": 124,
+      "languages": [
+        "Go",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-5-proj-1",
+          "description": "Web framework for developers",
+          "stars": 1168,
+          "language": "Go"
+        },
+        {
+          "name": "oma-dev-5-proj-2",
+          "description": "Web framework for developers",
+          "stars": 1041,
+          "language": "JavaScript"
+        },
+        {
+          "name": "oma-dev-5-proj-3",
+          "description": "Open source utilities",
+          "stars": 1070,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "oma-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Oman)",
+      "company": "Stripe",
+      "location": "Oman",
+      "bio": null,
+      "followers": 4111,
+      "publicContributions": 28816,
+      "privateContributions": 330,
+      "languages": [
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-6-proj-1",
+          "description": "Data pipeline library",
+          "stars": 413,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "oma-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Oman)",
+      "company": "Google",
+      "location": "Oman",
+      "bio": null,
+      "followers": 3970,
+      "publicContributions": 27642,
+      "privateContributions": 99,
+      "languages": [
+        "C++",
+        "TypeScript",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-7-proj-1",
+          "description": "Data pipeline library",
+          "stars": 86,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "oma-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Oman)",
+      "company": "Apple",
+      "location": "Oman",
+      "bio": null,
+      "followers": 3828,
+      "publicContributions": 26514,
+      "privateContributions": 290,
+      "languages": [
+        "Rust",
+        "Swift",
+        "Python",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-8-proj-1",
+          "description": "Open source utilities",
+          "stars": 1361,
+          "language": "Rust"
+        },
+        {
+          "name": "oma-dev-8-proj-2",
+          "description": "Data pipeline library",
+          "stars": 241,
+          "language": "Swift"
+        },
+        {
+          "name": "oma-dev-8-proj-3",
+          "description": "API wrapper",
+          "stars": 149,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "oma-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Oman)",
+      "company": "Amazon",
+      "location": "Oman",
+      "bio": null,
+      "followers": 3648,
+      "publicContributions": 25499,
+      "privateContributions": 403,
+      "languages": [
+        "Dart",
+        "TypeScript",
+        "Rust",
+        "Swift"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-9-proj-1",
+          "description": "Web framework for developers",
+          "stars": 600,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "oma-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Oman)",
+      "company": "Vercel",
+      "location": "Oman",
+      "bio": null,
+      "followers": 3498,
+      "publicContributions": 24569,
+      "privateContributions": 293,
+      "languages": [
+        "Python",
+        "Dart",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "oma-dev-10-proj-1",
+          "description": null,
+          "stars": 537,
+          "language": "Python"
+        },
+        {
+          "name": "oma-dev-10-proj-2",
+          "description": null,
+          "stars": 171,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "oma-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Oman)",
+        "company": null,
+        "location": "Muscat",
+        "bio": "Developer from Oman",
+        "followers": 5042,
+        "publicContributions": 35190,
+        "privateContributions": 331,
+        "languages": [
+          "Dart",
+          "Java",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1961,
+            "language": "Dart"
+          },
+          {
+            "name": "oma-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 1882,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "oma-dev-1",
+        "blog": "https://oma-dev-1.dev"
+      },
+      {
+        "login": "oma-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Oman)",
+        "company": "GitHub",
+        "location": "Muscat",
+        "bio": "Developer from Oman",
+        "followers": 4824,
+        "publicContributions": 33827,
+        "privateContributions": 146,
+        "languages": [
+          "Dart",
+          "Java",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-2-proj-1",
+            "description": null,
+            "stars": 930,
+            "language": "Dart"
+          },
+          {
+            "name": "oma-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1035,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "oma-dev-2",
+        "blog": null
+      },
+      {
+        "login": "oma-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Oman)",
+        "company": "Vercel",
+        "location": "Oman",
+        "bio": "Developer from Oman",
+        "followers": 4652,
+        "publicContributions": 32468,
+        "privateContributions": 60,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-3-proj-1",
+            "description": null,
+            "stars": 920,
+            "language": "TypeScript"
+          },
+          {
+            "name": "oma-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 62,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Oman)",
+        "company": "Microsoft",
+        "location": "Muscat",
+        "bio": null,
+        "followers": 4449,
+        "publicContributions": 31096,
+        "privateContributions": 469,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 345,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Oman)",
+        "company": "Amazon",
+        "location": "Oman",
+        "bio": null,
+        "followers": 4285,
+        "publicContributions": 29918,
+        "privateContributions": 124,
+        "languages": [
+          "Go",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1168,
+            "language": "Go"
+          },
+          {
+            "name": "oma-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1041,
+            "language": "JavaScript"
+          },
+          {
+            "name": "oma-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 1070,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Oman)",
+        "company": "Stripe",
+        "location": "Oman",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28816,
+        "privateContributions": 330,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 413,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Oman)",
+        "company": "Google",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3970,
+        "publicContributions": 27642,
+        "privateContributions": 99,
+        "languages": [
+          "C++",
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 86,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Oman)",
+        "company": "Apple",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26514,
+        "privateContributions": 290,
+        "languages": [
+          "Rust",
+          "Swift",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1361,
+            "language": "Rust"
+          },
+          {
+            "name": "oma-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 241,
+            "language": "Swift"
+          },
+          {
+            "name": "oma-dev-8-proj-3",
+            "description": "API wrapper",
+            "stars": 149,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Oman)",
+        "company": "Amazon",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3648,
+        "publicContributions": 25499,
+        "privateContributions": 403,
+        "languages": [
+          "Dart",
+          "TypeScript",
+          "Rust",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 600,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Oman)",
+        "company": "Vercel",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3498,
+        "publicContributions": 24569,
+        "privateContributions": 293,
+        "languages": [
+          "Python",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-10-proj-1",
+            "description": null,
+            "stars": 537,
+            "language": "Python"
+          },
+          {
+            "name": "oma-dev-10-proj-2",
+            "description": null,
+            "stars": 171,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "oma-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Oman)",
+        "company": null,
+        "location": "Muscat",
+        "bio": "Developer from Oman",
+        "followers": 5042,
+        "publicContributions": 35190,
+        "privateContributions": 331,
+        "languages": [
+          "Dart",
+          "Java",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1961,
+            "language": "Dart"
+          },
+          {
+            "name": "oma-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 1882,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "oma-dev-1",
+        "blog": "https://oma-dev-1.dev"
+      },
+      {
+        "login": "oma-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Oman)",
+        "company": "GitHub",
+        "location": "Muscat",
+        "bio": "Developer from Oman",
+        "followers": 4824,
+        "publicContributions": 33827,
+        "privateContributions": 146,
+        "languages": [
+          "Dart",
+          "Java",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-2-proj-1",
+            "description": null,
+            "stars": 930,
+            "language": "Dart"
+          },
+          {
+            "name": "oma-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1035,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "oma-dev-2",
+        "blog": null
+      },
+      {
+        "login": "oma-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Oman)",
+        "company": "Vercel",
+        "location": "Oman",
+        "bio": "Developer from Oman",
+        "followers": 4652,
+        "publicContributions": 32468,
+        "privateContributions": 60,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-3-proj-1",
+            "description": null,
+            "stars": 920,
+            "language": "TypeScript"
+          },
+          {
+            "name": "oma-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 62,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Oman)",
+        "company": "Microsoft",
+        "location": "Muscat",
+        "bio": null,
+        "followers": 4449,
+        "publicContributions": 31096,
+        "privateContributions": 469,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 345,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Oman)",
+        "company": "Amazon",
+        "location": "Oman",
+        "bio": null,
+        "followers": 4285,
+        "publicContributions": 29918,
+        "privateContributions": 124,
+        "languages": [
+          "Go",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1168,
+            "language": "Go"
+          },
+          {
+            "name": "oma-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1041,
+            "language": "JavaScript"
+          },
+          {
+            "name": "oma-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 1070,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Oman)",
+        "company": "Stripe",
+        "location": "Oman",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28816,
+        "privateContributions": 330,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 413,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Oman)",
+        "company": "Google",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3970,
+        "publicContributions": 27642,
+        "privateContributions": 99,
+        "languages": [
+          "C++",
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 86,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Oman)",
+        "company": "Apple",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26514,
+        "privateContributions": 290,
+        "languages": [
+          "Rust",
+          "Swift",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1361,
+            "language": "Rust"
+          },
+          {
+            "name": "oma-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 241,
+            "language": "Swift"
+          },
+          {
+            "name": "oma-dev-8-proj-3",
+            "description": "API wrapper",
+            "stars": 149,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Oman)",
+        "company": "Amazon",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3648,
+        "publicContributions": 25499,
+        "privateContributions": 403,
+        "languages": [
+          "Dart",
+          "TypeScript",
+          "Rust",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 600,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Oman)",
+        "company": "Vercel",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3498,
+        "publicContributions": 24569,
+        "privateContributions": 293,
+        "languages": [
+          "Python",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-10-proj-1",
+            "description": null,
+            "stars": 537,
+            "language": "Python"
+          },
+          {
+            "name": "oma-dev-10-proj-2",
+            "description": null,
+            "stars": 171,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "oma-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Oman)",
+        "company": null,
+        "location": "Muscat",
+        "bio": "Developer from Oman",
+        "followers": 5042,
+        "publicContributions": 35190,
+        "privateContributions": 331,
+        "languages": [
+          "Dart",
+          "Java",
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-1-proj-1",
+            "description": "Open source utilities",
+            "stars": 1961,
+            "language": "Dart"
+          },
+          {
+            "name": "oma-dev-1-proj-2",
+            "description": "API wrapper",
+            "stars": 1882,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "oma-dev-1",
+        "blog": "https://oma-dev-1.dev"
+      },
+      {
+        "login": "oma-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Oman)",
+        "company": "GitHub",
+        "location": "Muscat",
+        "bio": "Developer from Oman",
+        "followers": 4824,
+        "publicContributions": 33827,
+        "privateContributions": 146,
+        "languages": [
+          "Dart",
+          "Java",
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-2-proj-1",
+            "description": null,
+            "stars": 930,
+            "language": "Dart"
+          },
+          {
+            "name": "oma-dev-2-proj-2",
+            "description": "Open source utilities",
+            "stars": 1035,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": "oma-dev-2",
+        "blog": null
+      },
+      {
+        "login": "oma-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Oman)",
+        "company": "Vercel",
+        "location": "Oman",
+        "bio": "Developer from Oman",
+        "followers": 4652,
+        "publicContributions": 32468,
+        "privateContributions": 60,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-3-proj-1",
+            "description": null,
+            "stars": 920,
+            "language": "TypeScript"
+          },
+          {
+            "name": "oma-dev-3-proj-2",
+            "description": "API wrapper",
+            "stars": 62,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Oman)",
+        "company": "Microsoft",
+        "location": "Muscat",
+        "bio": null,
+        "followers": 4449,
+        "publicContributions": 31096,
+        "privateContributions": 469,
+        "languages": [
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-4-proj-1",
+            "description": "Open source utilities",
+            "stars": 345,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Oman)",
+        "company": "Amazon",
+        "location": "Oman",
+        "bio": null,
+        "followers": 4285,
+        "publicContributions": 29918,
+        "privateContributions": 124,
+        "languages": [
+          "Go",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-5-proj-1",
+            "description": "Web framework for developers",
+            "stars": 1168,
+            "language": "Go"
+          },
+          {
+            "name": "oma-dev-5-proj-2",
+            "description": "Web framework for developers",
+            "stars": 1041,
+            "language": "JavaScript"
+          },
+          {
+            "name": "oma-dev-5-proj-3",
+            "description": "Open source utilities",
+            "stars": 1070,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Oman)",
+        "company": "Stripe",
+        "location": "Oman",
+        "bio": null,
+        "followers": 4111,
+        "publicContributions": 28816,
+        "privateContributions": 330,
+        "languages": [
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-6-proj-1",
+            "description": "Data pipeline library",
+            "stars": 413,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Oman)",
+        "company": "Google",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3970,
+        "publicContributions": 27642,
+        "privateContributions": 99,
+        "languages": [
+          "C++",
+          "TypeScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-7-proj-1",
+            "description": "Data pipeline library",
+            "stars": 86,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Oman)",
+        "company": "Apple",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3828,
+        "publicContributions": 26514,
+        "privateContributions": 290,
+        "languages": [
+          "Rust",
+          "Swift",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-8-proj-1",
+            "description": "Open source utilities",
+            "stars": 1361,
+            "language": "Rust"
+          },
+          {
+            "name": "oma-dev-8-proj-2",
+            "description": "Data pipeline library",
+            "stars": 241,
+            "language": "Swift"
+          },
+          {
+            "name": "oma-dev-8-proj-3",
+            "description": "API wrapper",
+            "stars": 149,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Oman)",
+        "company": "Amazon",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3648,
+        "publicContributions": 25499,
+        "privateContributions": 403,
+        "languages": [
+          "Dart",
+          "TypeScript",
+          "Rust",
+          "Swift"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-9-proj-1",
+            "description": "Web framework for developers",
+            "stars": 600,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "oma-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Oman)",
+        "company": "Vercel",
+        "location": "Oman",
+        "bio": null,
+        "followers": 3498,
+        "publicContributions": 24569,
+        "privateContributions": 293,
+        "languages": [
+          "Python",
+          "Dart",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "oma-dev-10-proj-1",
+            "description": null,
+            "stars": 537,
+            "language": "Python"
+          },
+          {
+            "name": "oma-dev-10-proj-2",
+            "description": null,
+            "stars": 171,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}

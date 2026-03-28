@@ -1,0 +1,1350 @@
+{
+  "countryCode": "qatar",
+  "updatedAt": "2026-03-27T22:30:49.904Z",
+  "users": [
+    {
+      "login": "qat-dev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+      "name": "Dev 1 (Qatar)",
+      "company": null,
+      "location": "Qatar",
+      "bio": "Developer from Qatar",
+      "followers": 5034,
+      "publicContributions": 35051,
+      "privateContributions": 483,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-1-proj-1",
+          "description": null,
+          "stars": 1799,
+          "language": "TypeScript"
+        },
+        {
+          "name": "qat-dev-1-proj-2",
+          "description": null,
+          "stars": 1956,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": "qat-dev-1",
+      "blog": "https://qat-dev-1.dev"
+    },
+    {
+      "login": "qat-dev-2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+      "name": "Dev 2 (Qatar)",
+      "company": "Meta",
+      "location": "Doha",
+      "bio": "Developer from Qatar",
+      "followers": 4815,
+      "publicContributions": 33707,
+      "privateContributions": 374,
+      "languages": [
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-2-proj-1",
+          "description": "API wrapper",
+          "stars": 1271,
+          "language": "Kotlin"
+        },
+        {
+          "name": "qat-dev-2-proj-2",
+          "description": "API wrapper",
+          "stars": 832,
+          "language": "Kotlin"
+        },
+        {
+          "name": "qat-dev-2-proj-3",
+          "description": "Web framework for developers",
+          "stars": 1156,
+          "language": "Kotlin"
+        }
+      ],
+      "twitterUsername": "qat-dev-2",
+      "blog": null
+    },
+    {
+      "login": "qat-dev-3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+      "name": "Dev 3 (Qatar)",
+      "company": null,
+      "location": "Doha",
+      "bio": "Developer from Qatar",
+      "followers": 4633,
+      "publicContributions": 32461,
+      "privateContributions": 99,
+      "languages": [
+        "Java",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-3-proj-1",
+          "description": "API wrapper",
+          "stars": 1646,
+          "language": "Java"
+        },
+        {
+          "name": "qat-dev-3-proj-2",
+          "description": "Data pipeline library",
+          "stars": 909,
+          "language": "TypeScript"
+        },
+        {
+          "name": "qat-dev-3-proj-3",
+          "description": null,
+          "stars": 1646,
+          "language": "Java"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "qat-dev-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+      "name": "Dev 4 (Qatar)",
+      "company": null,
+      "location": "Qatar",
+      "bio": null,
+      "followers": 4474,
+      "publicContributions": 31237,
+      "privateContributions": 392,
+      "languages": [
+        "Kotlin",
+        "PHP",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-4-proj-1",
+          "description": "Data pipeline library",
+          "stars": 190,
+          "language": "Kotlin"
+        },
+        {
+          "name": "qat-dev-4-proj-2",
+          "description": null,
+          "stars": 843,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "qat-dev-5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+      "name": "Dev 5 (Qatar)",
+      "company": null,
+      "location": "Doha",
+      "bio": null,
+      "followers": 4306,
+      "publicContributions": 29891,
+      "privateContributions": 463,
+      "languages": [
+        "Rust"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-5-proj-1",
+          "description": "A modern CLI tool",
+          "stars": 1018,
+          "language": "Rust"
+        },
+        {
+          "name": "qat-dev-5-proj-2",
+          "description": "Open source utilities",
+          "stars": 326,
+          "language": "Rust"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "qat-dev-6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+      "name": "Dev 6 (Qatar)",
+      "company": "Stripe",
+      "location": "Qatar",
+      "bio": null,
+      "followers": 4117,
+      "publicContributions": 28787,
+      "privateContributions": 370,
+      "languages": [
+        "Go",
+        "C++",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-6-proj-1",
+          "description": "Web framework for developers",
+          "stars": 295,
+          "language": "Go"
+        },
+        {
+          "name": "qat-dev-6-proj-2",
+          "description": null,
+          "stars": 1668,
+          "language": "C++"
+        },
+        {
+          "name": "qat-dev-6-proj-3",
+          "description": null,
+          "stars": 1048,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "qat-dev-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+      "name": "Dev 7 (Qatar)",
+      "company": "Microsoft",
+      "location": "Doha",
+      "bio": null,
+      "followers": 3954,
+      "publicContributions": 27699,
+      "privateContributions": 380,
+      "languages": [
+        "Go",
+        "Ruby",
+        "Python",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-7-proj-1",
+          "description": null,
+          "stars": 299,
+          "language": "Go"
+        },
+        {
+          "name": "qat-dev-7-proj-2",
+          "description": "API wrapper",
+          "stars": 1076,
+          "language": "Ruby"
+        },
+        {
+          "name": "qat-dev-7-proj-3",
+          "description": "API wrapper",
+          "stars": 1461,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "qat-dev-8",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+      "name": "Dev 8 (Qatar)",
+      "company": null,
+      "location": "Doha",
+      "bio": null,
+      "followers": 3798,
+      "publicContributions": 26515,
+      "privateContributions": 494,
+      "languages": [
+        "C++",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-8-proj-1",
+          "description": null,
+          "stars": 1040,
+          "language": "C++"
+        },
+        {
+          "name": "qat-dev-8-proj-2",
+          "description": "Web framework for developers",
+          "stars": 286,
+          "language": "Ruby"
+        },
+        {
+          "name": "qat-dev-8-proj-3",
+          "description": "Data pipeline library",
+          "stars": 1446,
+          "language": "C++"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "qat-dev-9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+      "name": "Dev 9 (Qatar)",
+      "company": null,
+      "location": "Qatar",
+      "bio": null,
+      "followers": 3642,
+      "publicContributions": 25541,
+      "privateContributions": 227,
+      "languages": [
+        "TypeScript",
+        "JavaScript",
+        "Java"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-9-proj-1",
+          "description": null,
+          "stars": 1110,
+          "language": "TypeScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "qat-dev-10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+      "name": "Dev 10 (Qatar)",
+      "company": "Stripe",
+      "location": "Qatar",
+      "bio": null,
+      "followers": 3538,
+      "publicContributions": 24612,
+      "privateContributions": 455,
+      "languages": [
+        "Go",
+        "Java",
+        "Kotlin"
+      ],
+      "topRepos": [
+        {
+          "name": "qat-dev-10-proj-1",
+          "description": "API wrapper",
+          "stars": 1284,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "qat-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": "Developer from Qatar",
+        "followers": 5034,
+        "publicContributions": 35051,
+        "privateContributions": 483,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-1-proj-1",
+            "description": null,
+            "stars": 1799,
+            "language": "TypeScript"
+          },
+          {
+            "name": "qat-dev-1-proj-2",
+            "description": null,
+            "stars": 1956,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "qat-dev-1",
+        "blog": "https://qat-dev-1.dev"
+      },
+      {
+        "login": "qat-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Qatar)",
+        "company": "Meta",
+        "location": "Doha",
+        "bio": "Developer from Qatar",
+        "followers": 4815,
+        "publicContributions": 33707,
+        "privateContributions": 374,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1271,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 832,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1156,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "qat-dev-2",
+        "blog": null
+      },
+      {
+        "login": "qat-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": "Developer from Qatar",
+        "followers": 4633,
+        "publicContributions": 32461,
+        "privateContributions": 99,
+        "languages": [
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1646,
+            "language": "Java"
+          },
+          {
+            "name": "qat-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 909,
+            "language": "TypeScript"
+          },
+          {
+            "name": "qat-dev-3-proj-3",
+            "description": null,
+            "stars": 1646,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31237,
+        "privateContributions": 392,
+        "languages": [
+          "Kotlin",
+          "PHP",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 190,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-4-proj-2",
+            "description": null,
+            "stars": 843,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29891,
+        "privateContributions": 463,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1018,
+            "language": "Rust"
+          },
+          {
+            "name": "qat-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 326,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Qatar)",
+        "company": "Stripe",
+        "location": "Qatar",
+        "bio": null,
+        "followers": 4117,
+        "publicContributions": 28787,
+        "privateContributions": 370,
+        "languages": [
+          "Go",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 295,
+            "language": "Go"
+          },
+          {
+            "name": "qat-dev-6-proj-2",
+            "description": null,
+            "stars": 1668,
+            "language": "C++"
+          },
+          {
+            "name": "qat-dev-6-proj-3",
+            "description": null,
+            "stars": 1048,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Qatar)",
+        "company": "Microsoft",
+        "location": "Doha",
+        "bio": null,
+        "followers": 3954,
+        "publicContributions": 27699,
+        "privateContributions": 380,
+        "languages": [
+          "Go",
+          "Ruby",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-7-proj-1",
+            "description": null,
+            "stars": 299,
+            "language": "Go"
+          },
+          {
+            "name": "qat-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1076,
+            "language": "Ruby"
+          },
+          {
+            "name": "qat-dev-7-proj-3",
+            "description": "API wrapper",
+            "stars": 1461,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26515,
+        "privateContributions": 494,
+        "languages": [
+          "C++",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-8-proj-1",
+            "description": null,
+            "stars": 1040,
+            "language": "C++"
+          },
+          {
+            "name": "qat-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 286,
+            "language": "Ruby"
+          },
+          {
+            "name": "qat-dev-8-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1446,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": null,
+        "followers": 3642,
+        "publicContributions": 25541,
+        "privateContributions": 227,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-9-proj-1",
+            "description": null,
+            "stars": 1110,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Qatar)",
+        "company": "Stripe",
+        "location": "Qatar",
+        "bio": null,
+        "followers": 3538,
+        "publicContributions": 24612,
+        "privateContributions": 455,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 1284,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "qat-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": "Developer from Qatar",
+        "followers": 5034,
+        "publicContributions": 35051,
+        "privateContributions": 483,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-1-proj-1",
+            "description": null,
+            "stars": 1799,
+            "language": "TypeScript"
+          },
+          {
+            "name": "qat-dev-1-proj-2",
+            "description": null,
+            "stars": 1956,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "qat-dev-1",
+        "blog": "https://qat-dev-1.dev"
+      },
+      {
+        "login": "qat-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Qatar)",
+        "company": "Meta",
+        "location": "Doha",
+        "bio": "Developer from Qatar",
+        "followers": 4815,
+        "publicContributions": 33707,
+        "privateContributions": 374,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1271,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 832,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1156,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "qat-dev-2",
+        "blog": null
+      },
+      {
+        "login": "qat-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": "Developer from Qatar",
+        "followers": 4633,
+        "publicContributions": 32461,
+        "privateContributions": 99,
+        "languages": [
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1646,
+            "language": "Java"
+          },
+          {
+            "name": "qat-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 909,
+            "language": "TypeScript"
+          },
+          {
+            "name": "qat-dev-3-proj-3",
+            "description": null,
+            "stars": 1646,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31237,
+        "privateContributions": 392,
+        "languages": [
+          "Kotlin",
+          "PHP",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 190,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-4-proj-2",
+            "description": null,
+            "stars": 843,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29891,
+        "privateContributions": 463,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1018,
+            "language": "Rust"
+          },
+          {
+            "name": "qat-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 326,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Qatar)",
+        "company": "Stripe",
+        "location": "Qatar",
+        "bio": null,
+        "followers": 4117,
+        "publicContributions": 28787,
+        "privateContributions": 370,
+        "languages": [
+          "Go",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 295,
+            "language": "Go"
+          },
+          {
+            "name": "qat-dev-6-proj-2",
+            "description": null,
+            "stars": 1668,
+            "language": "C++"
+          },
+          {
+            "name": "qat-dev-6-proj-3",
+            "description": null,
+            "stars": 1048,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Qatar)",
+        "company": "Microsoft",
+        "location": "Doha",
+        "bio": null,
+        "followers": 3954,
+        "publicContributions": 27699,
+        "privateContributions": 380,
+        "languages": [
+          "Go",
+          "Ruby",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-7-proj-1",
+            "description": null,
+            "stars": 299,
+            "language": "Go"
+          },
+          {
+            "name": "qat-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1076,
+            "language": "Ruby"
+          },
+          {
+            "name": "qat-dev-7-proj-3",
+            "description": "API wrapper",
+            "stars": 1461,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26515,
+        "privateContributions": 494,
+        "languages": [
+          "C++",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-8-proj-1",
+            "description": null,
+            "stars": 1040,
+            "language": "C++"
+          },
+          {
+            "name": "qat-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 286,
+            "language": "Ruby"
+          },
+          {
+            "name": "qat-dev-8-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1446,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": null,
+        "followers": 3642,
+        "publicContributions": 25541,
+        "privateContributions": 227,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-9-proj-1",
+            "description": null,
+            "stars": 1110,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Qatar)",
+        "company": "Stripe",
+        "location": "Qatar",
+        "bio": null,
+        "followers": 3538,
+        "publicContributions": 24612,
+        "privateContributions": 455,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 1284,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ],
+    "followers": [
+      {
+        "login": "qat-dev-1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1?v=4",
+        "name": "Dev 1 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": "Developer from Qatar",
+        "followers": 5034,
+        "publicContributions": 35051,
+        "privateContributions": 483,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Python",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-1-proj-1",
+            "description": null,
+            "stars": 1799,
+            "language": "TypeScript"
+          },
+          {
+            "name": "qat-dev-1-proj-2",
+            "description": null,
+            "stars": 1956,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "qat-dev-1",
+        "blog": "https://qat-dev-1.dev"
+      },
+      {
+        "login": "qat-dev-2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2?v=4",
+        "name": "Dev 2 (Qatar)",
+        "company": "Meta",
+        "location": "Doha",
+        "bio": "Developer from Qatar",
+        "followers": 4815,
+        "publicContributions": 33707,
+        "privateContributions": 374,
+        "languages": [
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-2-proj-1",
+            "description": "API wrapper",
+            "stars": 1271,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-2-proj-2",
+            "description": "API wrapper",
+            "stars": 832,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-2-proj-3",
+            "description": "Web framework for developers",
+            "stars": 1156,
+            "language": "Kotlin"
+          }
+        ],
+        "twitterUsername": "qat-dev-2",
+        "blog": null
+      },
+      {
+        "login": "qat-dev-3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3?v=4",
+        "name": "Dev 3 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": "Developer from Qatar",
+        "followers": 4633,
+        "publicContributions": 32461,
+        "privateContributions": 99,
+        "languages": [
+          "Java",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-3-proj-1",
+            "description": "API wrapper",
+            "stars": 1646,
+            "language": "Java"
+          },
+          {
+            "name": "qat-dev-3-proj-2",
+            "description": "Data pipeline library",
+            "stars": 909,
+            "language": "TypeScript"
+          },
+          {
+            "name": "qat-dev-3-proj-3",
+            "description": null,
+            "stars": 1646,
+            "language": "Java"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4?v=4",
+        "name": "Dev 4 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": null,
+        "followers": 4474,
+        "publicContributions": 31237,
+        "privateContributions": 392,
+        "languages": [
+          "Kotlin",
+          "PHP",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-4-proj-1",
+            "description": "Data pipeline library",
+            "stars": 190,
+            "language": "Kotlin"
+          },
+          {
+            "name": "qat-dev-4-proj-2",
+            "description": null,
+            "stars": 843,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5?v=4",
+        "name": "Dev 5 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": null,
+        "followers": 4306,
+        "publicContributions": 29891,
+        "privateContributions": 463,
+        "languages": [
+          "Rust"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-5-proj-1",
+            "description": "A modern CLI tool",
+            "stars": 1018,
+            "language": "Rust"
+          },
+          {
+            "name": "qat-dev-5-proj-2",
+            "description": "Open source utilities",
+            "stars": 326,
+            "language": "Rust"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-6",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6?v=4",
+        "name": "Dev 6 (Qatar)",
+        "company": "Stripe",
+        "location": "Qatar",
+        "bio": null,
+        "followers": 4117,
+        "publicContributions": 28787,
+        "privateContributions": 370,
+        "languages": [
+          "Go",
+          "C++",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-6-proj-1",
+            "description": "Web framework for developers",
+            "stars": 295,
+            "language": "Go"
+          },
+          {
+            "name": "qat-dev-6-proj-2",
+            "description": null,
+            "stars": 1668,
+            "language": "C++"
+          },
+          {
+            "name": "qat-dev-6-proj-3",
+            "description": null,
+            "stars": 1048,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7?v=4",
+        "name": "Dev 7 (Qatar)",
+        "company": "Microsoft",
+        "location": "Doha",
+        "bio": null,
+        "followers": 3954,
+        "publicContributions": 27699,
+        "privateContributions": 380,
+        "languages": [
+          "Go",
+          "Ruby",
+          "Python",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-7-proj-1",
+            "description": null,
+            "stars": 299,
+            "language": "Go"
+          },
+          {
+            "name": "qat-dev-7-proj-2",
+            "description": "API wrapper",
+            "stars": 1076,
+            "language": "Ruby"
+          },
+          {
+            "name": "qat-dev-7-proj-3",
+            "description": "API wrapper",
+            "stars": 1461,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-8",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8?v=4",
+        "name": "Dev 8 (Qatar)",
+        "company": null,
+        "location": "Doha",
+        "bio": null,
+        "followers": 3798,
+        "publicContributions": 26515,
+        "privateContributions": 494,
+        "languages": [
+          "C++",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-8-proj-1",
+            "description": null,
+            "stars": 1040,
+            "language": "C++"
+          },
+          {
+            "name": "qat-dev-8-proj-2",
+            "description": "Web framework for developers",
+            "stars": 286,
+            "language": "Ruby"
+          },
+          {
+            "name": "qat-dev-8-proj-3",
+            "description": "Data pipeline library",
+            "stars": 1446,
+            "language": "C++"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9?v=4",
+        "name": "Dev 9 (Qatar)",
+        "company": null,
+        "location": "Qatar",
+        "bio": null,
+        "followers": 3642,
+        "publicContributions": 25541,
+        "privateContributions": 227,
+        "languages": [
+          "TypeScript",
+          "JavaScript",
+          "Java"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-9-proj-1",
+            "description": null,
+            "stars": 1110,
+            "language": "TypeScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "qat-dev-10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10?v=4",
+        "name": "Dev 10 (Qatar)",
+        "company": "Stripe",
+        "location": "Qatar",
+        "bio": null,
+        "followers": 3538,
+        "publicContributions": 24612,
+        "privateContributions": 455,
+        "languages": [
+          "Go",
+          "Java",
+          "Kotlin"
+        ],
+        "topRepos": [
+          {
+            "name": "qat-dev-10-proj-1",
+            "description": "API wrapper",
+            "stars": 1284,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      }
+    ]
+  }
+}
