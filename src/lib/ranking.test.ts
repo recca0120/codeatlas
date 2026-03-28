@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { rankUsers } from "./ranking";
+import { buildRankMap, rankUsers } from "./ranking";
 import { createMockUser } from "./test-utils";
 
 const users = [
@@ -53,5 +53,26 @@ describe("rankUsers", () => {
     const original = [...users];
     rankUsers(users, "followers");
     expect(users).toEqual(original);
+  });
+});
+
+describe("buildRankMap", () => {
+  it("maps login to 1-based rank from original order", () => {
+    const ranked = rankUsers(users, "public_contributions");
+    const map = buildRankMap(ranked);
+    expect(map.get("carol")).toBe(1);
+    expect(map.get("alice")).toBe(2);
+    expect(map.get("bob")).toBe(3);
+  });
+
+  it("returns correct rank regardless of filtered subset", () => {
+    const ranked = rankUsers(users, "public_contributions");
+    const map = buildRankMap(ranked);
+    // Even if we only display bob, his rank should still be 3
+    expect(map.get("bob")).toBe(3);
+  });
+
+  it("returns empty map for empty input", () => {
+    expect(buildRankMap([])).toEqual(new Map());
   });
 });

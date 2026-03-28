@@ -16,6 +16,14 @@ function getRankValue(user: GitHubUser, dimension: RankingDimension): number {
   }
 }
 
+export function buildRankMap(rankedUsers: GitHubUser[]): Map<string, number> {
+  const map = new Map<string, number>();
+  for (let i = 0; i < rankedUsers.length; i++) {
+    map.set(rankedUsers[i].login, i + 1);
+  }
+  return map;
+}
+
 export function rankUsers(
   users: GitHubUser[],
   dimension: RankingDimension,

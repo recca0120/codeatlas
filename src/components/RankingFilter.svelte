@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { GitHubUser } from "../lib/github-client";
+  import { buildRankMap } from "../lib/ranking";
   import { t } from "../i18n";
 
   type Dimension = "public_contributions" | "total_contributions" | "followers";
@@ -45,6 +46,7 @@
     history.replaceState({}, "", qs ? `?${qs}` : location.pathname);
   }
 
+  const rankMap = $derived(buildRankMap(users));
   const allLangs = $derived([...new Set(users.flatMap(u => u.languages))].sort());
   const allCities = $derived([...new Set(users.map(u => u.location).filter(Boolean))].sort() as string[]);
 
@@ -157,7 +159,7 @@
 <!-- Ranking rows -->
 <div class="divide-y divide-border">
   {#each paged as user, i (user.login)}
-    {@const rank = (page - 1) * PER_PAGE + i + 1}
+    {@const rank = rankMap.get(user.login) ?? (page - 1) * PER_PAGE + i + 1}
     {@const val = getVal(user)}
     {@const isTop3 = rank <= 3}
 
