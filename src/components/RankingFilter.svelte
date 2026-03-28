@@ -1,7 +1,8 @@
 <script lang="ts">
   import type { GitHubUser } from "../lib/github-client";
-  import { buildRankMap, getRankValue, rankUsers, type RankingRankingDimension } from "../lib/ranking";
+  import { buildRankMap, getRankValue, rankUsers, type RankingDimension } from "../lib/ranking";
   import { t } from "../i18n";
+  import SearchIcon from "./icons/SearchIcon.svelte";
 
   let {
     users,
@@ -93,9 +94,9 @@
 <!-- Search + city -->
 <div class="flex flex-col sm:flex-row gap-2 mb-3">
   <div class="relative flex-1">
-    <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-muted pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-    </svg>
+    <span class="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted pointer-events-none">
+      <SearchIcon />
+    </span>
     <input type="text" placeholder={t("ranking.searchDeveloper", locale)} bind:value={search}
       oninput={() => { page = 1; sync(); }}
       class="w-full pl-9 pr-4 py-2 bg-surface border border-border rounded-lg text-sm placeholder-text-muted

@@ -1,6 +1,7 @@
 <script lang="ts">
   import { buildUrl } from "../lib/url";
   import { t } from "../i18n";
+  import SearchIcon from "./icons/SearchIcon.svelte";
 
   interface Country {
     code: string;
@@ -25,9 +26,9 @@
 
 <div class="relative">
   <div class="relative">
-    <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-muted pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-    </svg>
+    <span class="absolute left-3 top-1/2 -translate-y-1/2 text-text-muted pointer-events-none">
+      <SearchIcon />
+    </span>
     <input
       type="text"
       placeholder={t("search.placeholder", locale)}
