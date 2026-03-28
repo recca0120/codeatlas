@@ -37,7 +37,7 @@
     loading = false;
   }
 
-  const users = $derived(countryData?.rankings?.public_contributions ?? []);
+  const users = $derived(countryData?.users ?? []);
   const totalContrib = $derived(users.reduce((s, u) => s + u.publicContributions, 0));
   const updatedAt = $derived(countryData?.updatedAt ?? "");
 

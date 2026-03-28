@@ -37,13 +37,32 @@ describe("RankingFilter", () => {
     expect(screen.getByText("Carol")).toBeInTheDocument();
   });
 
-  it("shows correct rank numbers", () => {
+  it("shows correct rank numbers for default dimension (public contributions)", () => {
     render(RankingFilter, { users });
     const links = screen.getAllByRole("link");
+    // sorted by publicContributions: Alice(500) > Bob(300) > Carol(100)
     expect(links[0]).toHaveTextContent("1");
     expect(links[0]).toHaveTextContent("Alice");
     expect(links[1]).toHaveTextContent("2");
+    expect(links[1]).toHaveTextContent("Bob");
     expect(links[2]).toHaveTextContent("3");
+    expect(links[2]).toHaveTextContent("Carol");
+  });
+
+  it("shows correct rank numbers after switching to followers tab", async () => {
+    const user = userEvent.setup();
+    render(RankingFilter, { users });
+
+    await user.click(screen.getByRole("button", { name: "Followers" }));
+
+    const links = screen.getAllByRole("link");
+    // sorted by followers: Bob(200) > Alice(100) > Carol(50)
+    expect(links[0]).toHaveTextContent("1");
+    expect(links[0]).toHaveTextContent("Bob");
+    expect(links[1]).toHaveTextContent("2");
+    expect(links[1]).toHaveTextContent("Alice");
+    expect(links[2]).toHaveTextContent("3");
+    expect(links[2]).toHaveTextContent("Carol");
   });
 
   it("preserves original rank after search filter", async () => {

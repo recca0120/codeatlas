@@ -4,6 +4,7 @@
   import { t } from "../i18n";
   import type { GitHubUser } from "../lib/github-client";
   import type { CountryData } from "../lib/data-output";
+  import { rankUsers } from "../lib/ranking";
   import LanguageBar from "./LanguageBar.svelte";
   import ShareButtons from "./ShareButtons.svelte";
 
@@ -33,10 +34,10 @@
       if (config) { countryName = config.name; countryFlag = config.flag || ""; }
 
       const data = await http.get(`data/${countryCode}.json`).json<CountryData>();
-      const users = data.rankings.public_contributions;
-      const idx = users.findIndex(u => u.login === userName);
+      const ranked = rankUsers(data.users, "public_contributions");
+      const idx = ranked.findIndex(u => u.login === userName);
       if (idx === -1) { error = t("profile.userNotFound", locale).replace("{name}", userName).replace("{country}", countryName); loading = false; return; }
-      user = users[idx];
+      user = ranked[idx];
       rank = idx + 1;
     } catch {
       error = t("profile.loadError", locale).replace("{name}", userName);

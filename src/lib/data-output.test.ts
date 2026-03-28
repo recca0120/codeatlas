@@ -8,19 +8,16 @@ const users = [
 ];
 
 describe("buildCountryData", () => {
-  it("builds data with rankings for all dimensions", () => {
+  it("builds data with users only (no rankings)", () => {
     const data = buildCountryData("taiwan", users);
     expect(data.countryCode).toBe("taiwan");
     expect(data.updatedAt).toBeDefined();
     expect(data.users).toHaveLength(2);
-    expect(data.rankings.public_contributions[0].login).toBe("alice");
-    expect(data.rankings.followers[0].login).toBe("bob");
-    expect(data.rankings.total_contributions).toBeDefined();
+    expect(data).not.toHaveProperty("rankings");
   });
 
   it("handles empty users", () => {
     const data = buildCountryData("taiwan", []);
     expect(data.users).toHaveLength(0);
-    expect(data.rankings.public_contributions).toHaveLength(0);
   });
 });

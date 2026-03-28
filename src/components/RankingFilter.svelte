@@ -1,9 +1,9 @@
 <script lang="ts">
   import type { GitHubUser } from "../lib/github-client";
-  import { buildRankMap } from "../lib/ranking";
+  import { buildRankMap, rankUsers, type RankingDimension } from "../lib/ranking";
   import { t } from "../i18n";
 
-  type Dimension = "public_contributions" | "total_contributions" | "followers";
+  type Dimension = RankingDimension;
 
   let {
     users,
@@ -46,23 +46,19 @@
     history.replaceState({}, "", qs ? `?${qs}` : location.pathname);
   }
 
-  const rankMap = $derived(buildRankMap(users));
+  const rankedUsers = $derived(rankUsers(users, dimension));
+  const rankMap = $derived(buildRankMap(rankedUsers));
   const allLangs = $derived([...new Set(users.flatMap(u => u.languages))].sort());
   const allCities = $derived([...new Set(users.map(u => u.location).filter(Boolean))].sort() as string[]);
 
   const filtered = $derived.by(() => {
-    let list = [...users];
+    let list = [...rankedUsers];
     if (search) {
       const q = search.toLowerCase();
       list = list.filter(u => u.login.toLowerCase().includes(q) || (u.name?.toLowerCase().includes(q) ?? false));
     }
     if (langFilter.length) list = list.filter(u => langFilter.some(l => u.languages.includes(l)));
     if (cityFilter) list = list.filter(u => u.location === cityFilter);
-    list.sort((a, b) => {
-      const va = dimension === "followers" ? a.followers : dimension === "total_contributions" ? a.publicContributions + a.privateContributions : a.publicContributions;
-      const vb = dimension === "followers" ? b.followers : dimension === "total_contributions" ? b.publicContributions + b.privateContributions : b.publicContributions;
-      return vb - va;
-    });
     return list;
   });
 
