@@ -45,17 +45,20 @@ export interface GitHubClient {
   getRateLimit(): Promise<RateLimitInfo>;
 }
 
+export interface SearchByLocationOptions extends SearchOptions {
+  countryCode?: string;
+}
+
 export async function searchUsersByLocation(
   client: GitHubClient,
   locations: string[],
-  countryCode?: string,
-  onProgress?: ProgressCallback,
-  limit?: number,
+  options?: SearchByLocationOptions,
 ): Promise<GitHubUser[]> {
+  const { countryCode, ...opts } = options ?? {};
   const { shouldExcludeUser } = await import("./location-filter");
 
   const query = locations.map((l) => `location:${l}`).join(" ");
-  const results = await client.searchUsers(query, { onProgress, limit });
+  const results = await client.searchUsers(query, opts);
 
   const seen = new Set<string>();
   const users: GitHubUser[] = [];
@@ -65,7 +68,7 @@ export async function searchUsersByLocation(
     if (countryCode && shouldExcludeUser(countryCode, user.location)) continue;
     seen.add(user.login);
     users.push(user);
-    if (limit && users.length >= limit) break;
+    if (opts.limit && users.length >= opts.limit) break;
   }
 
   return users;

@@ -88,6 +88,26 @@ const SEARCH_USERS_QUERY = `
   }
 `;
 
+function mapNodeToUser(node: SearchUserNode): GitHubUser {
+  const contrib = node.contributionsCollection;
+  const repos = node.repositories?.nodes ?? [];
+  return {
+    login: node.login,
+    avatarUrl: node.avatarUrl,
+    name: node.name ?? null,
+    company: node.company ?? null,
+    location: node.location ?? null,
+    bio: node.bio ?? null,
+    followers: node.followers?.totalCount ?? 0,
+    publicContributions: contrib?.contributionCalendar?.totalContributions ?? 0,
+    privateContributions: contrib?.restrictedContributionsCount ?? 0,
+    languages: [...new Set(repos.map((r) => r.primaryLanguage?.name).filter((n): n is string => n != null))],
+    topRepos: repos.map((r) => ({ name: r.name, description: r.description, stars: r.stargazerCount, language: r.primaryLanguage?.name ?? null })),
+    twitterUsername: node.twitterUsername ?? null,
+    blog: node.websiteUrl || null,
+  };
+}
+
 export function createOctokitClient(token: string): GitHubClient {
   const octokit = new ThrottledOctokit({
     auth: token,
@@ -140,42 +160,8 @@ export function createOctokitClient(token: string): GitHubClient {
         );
         for (let idx = 0; idx < userNodes.length; idx++) {
           const node = userNodes[idx];
-          const current = users.length + 1;
-          const knownTotal = users.length + (userNodes.length - idx);
-          onProgress?.(current, knownTotal, node.login);
-
-          const contrib = node.contributionsCollection;
-          const repos = node.repositories?.nodes ?? [];
-          const languages = [
-            ...new Set(
-              repos
-                .map((r) => r.primaryLanguage?.name)
-                .filter((n): n is string => n != null),
-            ),
-          ];
-          const topRepos = repos.map((r) => ({
-            name: r.name,
-            description: r.description,
-            stars: r.stargazerCount,
-            language: r.primaryLanguage?.name ?? null,
-          }));
-
-          users.push({
-            login: node.login,
-            avatarUrl: node.avatarUrl,
-            name: node.name ?? null,
-            company: node.company ?? null,
-            location: node.location ?? null,
-            bio: node.bio ?? null,
-            followers: node.followers?.totalCount ?? 0,
-            publicContributions:
-              contrib?.contributionCalendar?.totalContributions ?? 0,
-            privateContributions: contrib?.restrictedContributionsCount ?? 0,
-            languages,
-            topRepos,
-            twitterUsername: node.twitterUsername ?? null,
-            blog: node.websiteUrl || null,
-          });
+          onProgress?.(users.length + 1, users.length + (userNodes.length - idx), node.login);
+          users.push(mapNodeToUser(node));
 
           if (limit && users.length >= limit) {
             hasNextPage = false;

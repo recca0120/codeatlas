@@ -67,7 +67,7 @@ describe("searchUsersByLocation", () => {
     const bob = createMockUser({ login: "bob", location: "Georgia, US" });
     const client = createFakeClient([alice, bob]);
 
-    const result = await searchUsersByLocation(client, ["Taiwan"], "taiwan");
+    const result = await searchUsersByLocation(client, ["Taiwan"], { countryCode: "taiwan" });
     // bob should be excluded by location filter (not matching taiwan)
     expect(result.map((u) => u.login)).toContain("alice");
   });
@@ -77,7 +77,7 @@ describe("searchUsersByLocation", () => {
     const client = createFakeClient(users);
     const onProgress = vi.fn();
 
-    await searchUsersByLocation(client, ["Taiwan"], undefined, onProgress);
+    await searchUsersByLocation(client, ["Taiwan"], { onProgress });
     expect(client.searchUsers).toHaveBeenCalledWith(
       "location:Taiwan",
       expect.objectContaining({ onProgress }),
@@ -91,7 +91,7 @@ describe("searchUsersByLocation", () => {
     const client = createFakeClient(users);
 
     const result = await searchUsersByLocation(
-      client, ["Taiwan"], undefined, undefined, 20,
+      client, ["Taiwan"], { limit: 20 },
     );
     expect(result).toHaveLength(20);
     expect(client.searchUsers).toHaveBeenCalledWith(

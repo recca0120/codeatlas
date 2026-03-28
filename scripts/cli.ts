@@ -47,19 +47,21 @@ addSharedOptions(
     const users = await searchUsersByLocation(
       client,
       config.locations,
-      config.code,
-      (current, _total, login) => {
-        if (process.stdout.isTTY) {
-          process.stdout.write(`\r  [${current}] ${login}`.padEnd(60));
-        } else {
-          batch.push(login);
-          if (batch.length === 10) {
-            console.log(`  [${current}] ${batch.join(", ")}`);
-            batch.length = 0;
+      {
+        countryCode: config.code,
+        limit: opts.limit,
+        onProgress: (current, _total, login) => {
+          if (process.stdout.isTTY) {
+            process.stdout.write(`\r  [${current}] ${login}`.padEnd(60));
+          } else {
+            batch.push(login);
+            if (batch.length === 10) {
+              console.log(`  [${current}] ${batch.join(", ")}`);
+              batch.length = 0;
+            }
           }
-        }
+        },
       },
-      opts.limit,
     );
     if (process.stdout.isTTY) {
       process.stdout.write(`\r${" ".repeat(60)}\r`);
