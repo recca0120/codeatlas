@@ -1,6 +1,6 @@
 {
   "countryCode": "taiwan",
-  "updatedAt": "2026-03-28T03:33:19.607Z",
+  "updatedAt": "2026-03-28T03:38:08.545Z",
   "users": [
     {
       "login": "topjohnwu",
@@ -119,7 +119,7 @@
         {
           "name": "awesome-python",
           "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-          "stars": 289318,
+          "stars": 289319,
           "language": "Python"
         },
         {
@@ -1152,7 +1152,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289318,
+            "stars": 289319,
             "language": "Python"
           },
           {
@@ -2137,7 +2137,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289318,
+            "stars": 289319,
             "language": "Python"
           },
           {
@@ -3075,7 +3075,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289318,
+            "stars": 289319,
             "language": "Python"
           },
           {
