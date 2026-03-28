@@ -63,7 +63,7 @@ jobs:
               limit_flag="--limit ${{ inputs.limit }}"
             fi
             if pnpm tsx scripts/cli.ts collect -c "$code" $limit_flag; then
-              git add -f public/data/
+              git add public/data/
               if ! git diff --staged --quiet; then
                 git commit --no-verify -m "data: update $code $(date -u +%Y-%m-%d) [skip ci]"
                 echo "  ✓ committed $code"
