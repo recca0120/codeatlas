@@ -9,6 +9,11 @@ import {
   vi,
 } from "vitest";
 import { createOctokitClient } from "./octokit-github-client";
+import {
+  makeUserNode,
+  mockGraphqlSearch,
+  mockRateLimit,
+} from "./test-helpers/github-mocks";
 
 beforeAll(() => fetchMock.activate({ onUnhandledRequest: "error" }));
 afterAll(() => fetchMock.deactivate());
@@ -16,94 +21,6 @@ afterEach(() => {
   fetchMock.assertNoPendingInterceptors();
   fetchMock.reset();
 });
-
-interface GraphQLUserNode {
-  login: string;
-  avatarUrl?: string;
-  name?: string | null;
-  location?: string | null;
-  company?: string | null;
-  bio?: string | null;
-  twitterUsername?: string | null;
-  websiteUrl?: string | null;
-  followers?: { totalCount: number };
-  contributionsCollection?: {
-    contributionCalendar: { totalContributions: number };
-    restrictedContributionsCount: number;
-  };
-  repositories?: {
-    nodes: Array<{
-      name: string;
-      description: string | null;
-      stargazerCount: number;
-      primaryLanguage: { name: string } | null;
-    }>;
-  };
-}
-
-function mockGraphqlSearch(
-  nodes: (GraphQLUserNode | null)[],
-  hasNextPage = false,
-  endCursor: string | null = null,
-  rateLimit = { cost: 6, remaining: 4994, resetAt: new Date().toISOString() },
-) {
-  fetchMock
-    .get("https://api.github.com")
-    .intercept({ path: "/graphql", method: "POST" })
-    .reply(200, {
-      data: {
-        search: {
-          userCount: nodes.filter(Boolean).length,
-          nodes: nodes.map((n) => (n ? { __typename: "User", ...n } : null)),
-          pageInfo: { hasNextPage, endCursor },
-        },
-        rateLimit,
-      },
-    });
-}
-
-function makeUserNode(
-  overrides: Partial<GraphQLUserNode> = {},
-): GraphQLUserNode {
-  const login = overrides.login ?? "alice";
-  return {
-    login,
-    avatarUrl: `https://avatars.githubusercontent.com/${login}`,
-    name: `${login} Name`,
-    location: "Taipei, Taiwan",
-    company: null,
-    bio: null,
-    twitterUsername: null,
-    websiteUrl: null,
-    followers: { totalCount: 42 },
-    contributionsCollection: {
-      contributionCalendar: { totalContributions: 100 },
-      restrictedContributionsCount: 10,
-    },
-    repositories: {
-      nodes: [
-        {
-          name: "awesome-project",
-          description: "A cool project",
-          stargazerCount: 50,
-          primaryLanguage: { name: "TypeScript" },
-        },
-      ],
-    },
-    ...overrides,
-  };
-}
-
-function mockRateLimit(remaining = 4999) {
-  const resetTimestamp = Math.floor(Date.now() / 1000) + 3600;
-  fetchMock
-    .get("https://api.github.com")
-    .intercept({ path: "/rate_limit", method: "GET" })
-    .reply(200, {
-      rate: { limit: 5000, remaining, reset: resetTimestamp, used: 1 },
-      resources: {},
-    });
-}
 
 describe("createOctokitClient", () => {
   describe("searchUsers", () => {
@@ -125,18 +42,8 @@ describe("createOctokitClient", () => {
           },
           repositories: {
             nodes: [
-              {
-                name: "repo-a",
-                description: "First repo",
-                stargazerCount: 200,
-                primaryLanguage: { name: "TypeScript" },
-              },
-              {
-                name: "repo-b",
-                description: null,
-                stargazerCount: 50,
-                primaryLanguage: { name: "Go" },
-              },
+              { name: "repo-a", description: "First repo", stargazerCount: 200, primaryLanguage: { name: "TypeScript" } },
+              { name: "repo-b", description: null, stargazerCount: 50, primaryLanguage: { name: "Go" } },
             ],
           },
         }),
@@ -160,12 +67,7 @@ describe("createOctokitClient", () => {
         blog: "https://alice.dev",
         languages: ["TypeScript", "Go"],
         topRepos: [
-          {
-            name: "repo-a",
-            description: "First repo",
-            stars: 200,
-            language: "TypeScript",
-          },
+          { name: "repo-a", description: "First repo", stars: 200, language: "TypeScript" },
           { name: "repo-b", description: null, stars: 50, language: "Go" },
         ],
       });
@@ -237,7 +139,6 @@ describe("createOctokitClient", () => {
           name: "Alice",
           location: "Taipei",
           followers: { totalCount: 10 },
-          // no contributionsCollection
         },
       ]);
 
@@ -249,13 +150,11 @@ describe("createOctokitClient", () => {
     });
 
     it("paginates with cursor and accumulates progress across pages", async () => {
-      // Page 1: hasNextPage=true
       mockGraphqlSearch(
         [makeUserNode({ login: "alice" }), makeUserNode({ login: "bob" })],
         true,
         "cursor-abc",
       );
-      // Page 2: hasNextPage=false
       mockGraphqlSearch([makeUserNode({ login: "charlie" })], false, null);
 
       const client = createOctokitClient("fake-token");
@@ -264,8 +163,6 @@ describe("createOctokitClient", () => {
 
       expect(users).toHaveLength(3);
       expect(users.map((u) => u.login)).toEqual(["alice", "bob", "charlie"]);
-
-      // Progress should accumulate across pages, not reset per page
       expect(onProgress).toHaveBeenCalledWith(1, "alice");
       expect(onProgress).toHaveBeenCalledWith(2, "bob");
       expect(onProgress).toHaveBeenCalledWith(3, "charlie");
@@ -274,12 +171,26 @@ describe("createOctokitClient", () => {
     it("filters out null nodes (Organizations in search results)", async () => {
       mockGraphqlSearch([
         makeUserNode({ login: "alice" }),
-        null, // Organization that doesn't match User fragment
+        null,
         makeUserNode({ login: "bob" }),
       ]);
 
       const client = createOctokitClient("fake-token");
       const users = await client.searchUsers("location:Taiwan");
+
+      expect(users).toHaveLength(2);
+      expect(users.map((u) => u.login)).toEqual(["alice", "bob"]);
+    });
+
+    it("stops fetching when limit is reached", async () => {
+      mockGraphqlSearch([
+        makeUserNode({ login: "alice" }),
+        makeUserNode({ login: "bob" }),
+        makeUserNode({ login: "charlie" }),
+      ]);
+
+      const client = createOctokitClient("fake-token");
+      const users = await client.searchUsers("location:Taiwan", { limit: 2 });
 
       expect(users).toHaveLength(2);
       expect(users.map((u) => u.login)).toEqual(["alice", "bob"]);

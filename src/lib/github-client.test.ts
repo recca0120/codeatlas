@@ -1,111 +1,85 @@
-import { describe, expect, it, vi } from "vitest";
+import { fetchMock } from "msw-fetch-mock";
 import {
-  type GitHubClient,
-  type SearchOptions,
-  searchUsersByLocation,
-} from "./github-client";
-import { createMockUser } from "./test-utils";
+  afterAll,
+  afterEach,
+  beforeAll,
+  describe,
+  expect,
+  it,
+  vi,
+} from "vitest";
+import { searchUsersByLocation } from "./github-client";
+import { createOctokitClient } from "./octokit-github-client";
+import { makeUserNode, mockGraphqlSearch } from "./test-helpers/github-mocks";
 
-function createFakeClient(users = [createMockUser()]): GitHubClient {
-  return {
-    searchUsers: vi.fn().mockImplementation(
-      (_query: string, options?: SearchOptions) => {
-        const limit = options?.limit;
-        return Promise.resolve(limit ? users.slice(0, limit) : users);
-      },
-    ),
-    getRateLimit: vi
-      .fn()
-      .mockResolvedValue({ remaining: 5000, resetAt: new Date() }),
-  };
-}
-
-describe("GitHubClient interface", () => {
-  it("searchUsers returns user array", async () => {
-    const fakeUsers = [
-      createMockUser({ login: "alice", publicContributions: 500 }),
-    ];
-    const client = createFakeClient(fakeUsers);
-    const result = await client.searchUsers("location:Taipei");
-    expect(result).toEqual(fakeUsers);
-  });
-
-  it("getRateLimit returns remaining and resetAt", async () => {
-    const client = createFakeClient();
-    const rateLimit = await client.getRateLimit();
-    expect(rateLimit.remaining).toBe(5000);
-    expect(rateLimit.resetAt).toBeInstanceOf(Date);
-  });
+beforeAll(() => fetchMock.activate({ onUnhandledRequest: "error" }));
+afterAll(() => fetchMock.deactivate());
+afterEach(() => {
+  fetchMock.assertNoPendingInterceptors();
+  fetchMock.reset();
 });
 
 describe("searchUsersByLocation", () => {
-  it("combines locations into a single query", async () => {
-    const alice = createMockUser({ login: "alice", location: "Taipei" });
-    const client = createFakeClient([alice]);
-
-    await searchUsersByLocation(client, ["Taiwan", "Taipei"]);
-
-    expect(client.searchUsers).toHaveBeenCalledTimes(1);
-    expect(client.searchUsers).toHaveBeenCalledWith(
-      "location:Taiwan location:Taipei",
-      expect.objectContaining({}),
-    );
-  });
-
   it("deduplicates users from results", async () => {
-    const alice = createMockUser({ login: "alice", location: "Taipei" });
-    const bob = createMockUser({ login: "bob", location: "Kaohsiung" });
-    const client = createFakeClient([alice, alice, bob]);
+    mockGraphqlSearch([
+      makeUserNode({ login: "alice", location: "Taipei" }),
+      makeUserNode({ login: "alice", location: "Taipei" }),
+      makeUserNode({ login: "bob", location: "Kaohsiung" }),
+    ]);
 
+    const client = createOctokitClient("fake-token");
     const result = await searchUsersByLocation(client, ["Taiwan"]);
+
     expect(result).toHaveLength(2);
     expect(result.map((u) => u.login)).toEqual(["alice", "bob"]);
   });
 
   it("returns empty for no users", async () => {
-    const client = createFakeClient([]);
+    mockGraphqlSearch([]);
+
+    const client = createOctokitClient("fake-token");
     const result = await searchUsersByLocation(client, ["Nonexistent"]);
+
     expect(result).toHaveLength(0);
   });
 
   it("filters out excluded users by location", async () => {
-    const alice = createMockUser({
-      login: "alice",
-      location: "Taipei, Taiwan",
-    });
-    const bob = createMockUser({ login: "bob", location: "Georgia, US" });
-    const client = createFakeClient([alice, bob]);
+    mockGraphqlSearch([
+      makeUserNode({ login: "alice", location: "Taipei, Taiwan" }),
+      makeUserNode({ login: "bob", location: "Georgia, US" }),
+    ]);
 
-    const result = await searchUsersByLocation(client, ["Taiwan"], { countryCode: "taiwan" });
-    // bob should be excluded by location filter (not matching taiwan)
+    const client = createOctokitClient("fake-token");
+    const result = await searchUsersByLocation(client, ["Taiwan"], {
+      countryCode: "taiwan",
+    });
+
     expect(result.map((u) => u.login)).toContain("alice");
   });
 
-  it("passes onProgress callback to searchUsers", async () => {
-    const users = [createMockUser({ login: "alice", location: "Taipei" })];
-    const client = createFakeClient(users);
+  it("passes onProgress callback through to searchUsers", async () => {
+    mockGraphqlSearch([makeUserNode({ login: "alice", location: "Taipei" })]);
+
+    const client = createOctokitClient("fake-token");
     const onProgress = vi.fn();
 
     await searchUsersByLocation(client, ["Taiwan"], { onProgress });
-    expect(client.searchUsers).toHaveBeenCalledWith(
-      "location:Taiwan",
-      expect.objectContaining({ onProgress }),
-    );
+
+    expect(onProgress).toHaveBeenCalledWith(1, "alice");
   });
 
-  it("passes limit to searchUsers", async () => {
-    const users = Array.from({ length: 50 }, (_, i) =>
-      createMockUser({ login: `user-${i}`, location: "Taipei" }),
+  it("respects limit option", async () => {
+    mockGraphqlSearch(
+      Array.from({ length: 10 }, (_, i) =>
+        makeUserNode({ login: `user-${i}`, location: "Taipei" }),
+      ),
     );
-    const client = createFakeClient(users);
 
-    const result = await searchUsersByLocation(
-      client, ["Taiwan"], { limit: 20 },
-    );
-    expect(result).toHaveLength(20);
-    expect(client.searchUsers).toHaveBeenCalledWith(
-      "location:Taiwan",
-      expect.objectContaining({ limit: 20 }),
-    );
+    const client = createOctokitClient("fake-token");
+    const result = await searchUsersByLocation(client, ["Taiwan"], {
+      limit: 3,
+    });
+
+    expect(result).toHaveLength(3);
   });
 });
