@@ -101,7 +101,7 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
       const dirLight = w.lights().find((l: any) => l.type === "DirectionalLight") as any;
       if (dirLight) dirLight.position.set(1, 1, 1);
       const c = w.controls() as any;
-      c.autoRotate = true; c.autoRotateSpeed = 0.12; c.enableZoom = false;
+      c.autoRotate = true; c.autoRotateSpeed = 0.8; c.enableZoom = false;
       c.minDistance = 180; c.maxDistance = 350;
       const rs = () => w.width(el.clientWidth).height(el.clientHeight);
       window.addEventListener("resize", rs); rs();
