@@ -5,6 +5,7 @@ import {
   filterCountries,
   generateFakeUsers,
   prioritizeCountry,
+  shouldSkipCountry,
 } from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
 import { buildCountryData } from "../src/lib/data-output";
@@ -25,57 +26,78 @@ function addSharedOptions(cmd: Command) {
 
 // ── collect ──
 addSharedOptions(
-  program.command("collect").description("collect real data from GitHub API"),
-).action(async (opts: { country?: string; limit?: number }) => {
-  const token = process.env.GITHUB_TOKEN;
-  if (!token) {
-    console.error("Error: GITHUB_TOKEN environment variable is required");
-    process.exit(1);
-  }
-
-  const all = await loadAllCountryConfigs("config/countries.json");
-  const countries = filterCountries(all, opts.country);
-  const client = createOctokitClient(token);
-
-  console.log(
-    `Collecting ${countries.length} country(ies)${opts.limit ? ` (limit: ${opts.limit})` : ""}...\n`,
-  );
-
-  for (const config of countries) {
-    console.log(`${config.flag} ${config.name}...`);
-
-    const batch: string[] = [];
-    const users = await searchUsersByLocation(client, config.locations, {
-      countryCode: config.code,
-      limit: opts.limit,
-      onProgress: (current, login) => {
-        if (process.stdout.isTTY) {
-          process.stdout.write(`\r  [${current}] ${login}`.padEnd(60));
-        } else {
-          batch.push(login);
-          if (batch.length === 10) {
-            console.log(`  [${current}] ${batch.join(", ")}`);
-            batch.length = 0;
-          }
-        }
-      },
-    });
-    if (process.stdout.isTTY) {
-      process.stdout.write(`\r${" ".repeat(60)}\r`);
-    } else if (batch.length > 0) {
-      console.log(`  [${users.length}] ${batch.join(", ")}`);
+  program
+    .command("collect")
+    .description("collect real data from GitHub API")
+    .option("--skip-today", "skip countries already collected today"),
+).action(
+  async (opts: { country?: string; limit?: number; skipToday?: boolean }) => {
+    const token = process.env.GITHUB_TOKEN;
+    if (!token) {
+      console.error("Error: GITHUB_TOKEN environment variable is required");
+      process.exit(1);
     }
-    console.log(`  Found ${users.length} users (deduplicated)`);
 
-    const data = buildCountryData(config.code, users);
-    const outputPath = buildOutputPath(config.code);
-    await fs.mkdir("public/data", { recursive: true });
-    await fs.writeFile(outputPath, JSON.stringify(data, null, 2));
-    console.log(`  → ${outputPath}`);
-  }
+    const all = await loadAllCountryConfigs("config/countries.json");
+    const countries = filterCountries(all, opts.country);
+    const client = createOctokitClient(token);
 
-  console.log("\nDone!");
-});
+    console.log(
+      `Collecting ${countries.length} country(ies)${opts.limit ? ` (limit: ${opts.limit})` : ""}...\n`,
+    );
+
+    const today = new Date().toISOString().split("T")[0];
+
+    for (const config of countries) {
+      if (opts.skipToday) {
+        try {
+          const existing = JSON.parse(
+            await fs.readFile(buildOutputPath(config.code), "utf8"),
+          );
+          if (shouldSkipCountry(existing.updatedAt, today)) {
+            console.log(`${config.flag} ${config.name} ⊘ (already up to date)`);
+            continue;
+          }
+        } catch {
+          // File doesn't exist yet, proceed
+        }
+      }
+
+      console.log(`${config.flag} ${config.name}...`);
+
+      const batch: string[] = [];
+      const users = await searchUsersByLocation(client, config.locations, {
+        countryCode: config.code,
+        limit: opts.limit,
+        onProgress: (current, login) => {
+          if (process.stdout.isTTY) {
+            process.stdout.write(`\r  [${current}] ${login}`.padEnd(60));
+          } else {
+            batch.push(login);
+            if (batch.length === 10) {
+              console.log(`  [${current}] ${batch.join(", ")}`);
+              batch.length = 0;
+            }
+          }
+        },
+      });
+      if (process.stdout.isTTY) {
+        process.stdout.write(`\r${" ".repeat(60)}\r`);
+      } else if (batch.length > 0) {
+        console.log(`  [${users.length}] ${batch.join(", ")}`);
+      }
+      console.log(`  Found ${users.length} users (deduplicated)`);
+
+      const data = buildCountryData(config.code, users);
+      const outputPath = buildOutputPath(config.code);
+      await fs.mkdir("public/data", { recursive: true });
+      await fs.writeFile(outputPath, JSON.stringify(data, null, 2));
+      console.log(`  → ${outputPath}`);
+    }
+
+    console.log("\nDone!");
+  },
+);
 
 // ── generate ──
 addSharedOptions(

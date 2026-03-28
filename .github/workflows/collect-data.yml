@@ -68,31 +68,20 @@ jobs:
             countries=$(pnpm tsx scripts/cli.ts list-countries -p taiwan)
           fi
 
-          today=$(date -u +%Y-%m-%d)
           collected=0
-          skipped=0
           failed=0
 
           for code in $countries; do
-            # Skip if already collected today (only when no limit — limit means testing)
-            if [ -z "${{ inputs.limit }}" ] && [ -f "public/data/$code.json" ]; then
-              file_date=$(node -p "try{JSON.parse(require('fs').readFileSync('public/data/$code.json','utf8')).updatedAt?.split('T')[0]??''}catch{''}")
-              if [ "$file_date" = "$today" ]; then
-                skipped=$((skipped + 1))
-                echo "  ⊘ $code (already up to date)"
-                continue
-              fi
-            fi
-
-            echo "Collecting $code..."
-            limit_flag=""
+            collect_flags="-c $code"
             if [ -n "${{ inputs.limit }}" ]; then
-              limit_flag="--limit ${{ inputs.limit }}"
+              collect_flags="$collect_flags --limit ${{ inputs.limit }}"
+            else
+              collect_flags="$collect_flags --skip-today"
             fi
-            if pnpm tsx scripts/cli.ts collect -c "$code" $limit_flag; then
+            if pnpm tsx scripts/cli.ts collect $collect_flags; then
               git add public/data/
               if ! git diff --staged --quiet; then
-                git commit --no-verify -m "data: update $code $today"
+                git commit --no-verify -m "data: update $code $(date -u +%Y-%m-%d)"
                 git push origin data-collection
                 echo "  ✓ $code"
               else
@@ -106,7 +95,7 @@ jobs:
           done
 
           echo ""
-          echo "Summary: $collected collected, $skipped skipped, $failed failed"
+          echo "Summary: $collected collected, $failed failed"
 
       - name: Squash merge to main
         run: |
