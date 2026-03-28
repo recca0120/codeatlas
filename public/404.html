@@ -4,14 +4,20 @@
   <meta charset="utf-8">
   <title>CodeAtlas</title>
   <script>
-    // GitHub Pages SPA fallback
+    // GitHub Pages SPA fallback with i18n support
     // Redirects all 404s to /app/ with the original path as a query param
     var base = '/codeatlas';
     var path = window.location.pathname;
     if (path.startsWith(base)) {
       path = path.slice(base.length);
     }
-    window.location.replace(base + '/app/?route=' + encodeURIComponent(path));
+    // Detect locale prefix
+    var locale = '';
+    if (path.startsWith('/zh-TW/')) {
+      locale = '/zh-TW';
+      path = path.slice('/zh-TW'.length);
+    }
+    window.location.replace(base + locale + '/app/?route=' + encodeURIComponent(path));
   </script>
 </head>
 <body></body>

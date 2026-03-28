@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { GitHubUser } from "../lib/github-client";
+  import { t } from "../i18n";
 
   type Dimension = "public_contributions" | "total_contributions" | "followers";
 
@@ -7,10 +8,12 @@
     users,
     countryCode = "",
     updatedAt = "",
+    locale = "en",
   }: {
     users: GitHubUser[];
     countryCode?: string;
     updatedAt?: string;
+    locale?: string;
   } = $props();
 
   let search = $state("");
@@ -87,7 +90,7 @@
 
 <!-- Dimension tabs -->
 <div class="flex flex-wrap items-center gap-2 mb-4">
-  {#each [["public_contributions","Public"],["total_contributions","Total"],["followers","Followers"]] as [key, label]}
+  {#each [["public_contributions",t("ranking.public", locale)],["total_contributions",t("ranking.total", locale)],["followers",t("ranking.followers", locale)]] as [key, label]}
     <button
       class="px-3 py-1.5 text-xs font-data rounded-md transition-all cursor-pointer
         {dimension === key ? 'bg-accent text-white' : 'text-text-secondary border border-border hover:text-text'}"
@@ -102,7 +105,7 @@
     <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5 text-text-muted pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
       <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
     </svg>
-    <input type="text" placeholder="Search developer..." bind:value={search}
+    <input type="text" placeholder={t("ranking.searchDeveloper", locale)} bind:value={search}
       oninput={() => { page = 1; sync(); }}
       class="w-full pl-9 pr-4 py-2 bg-surface border border-border rounded-lg text-sm placeholder-text-muted
         focus:outline-none focus:border-accent transition-colors" />
@@ -110,7 +113,7 @@
   {#if allCities.length > 1}
     <select bind:value={cityFilter} onchange={() => { page = 1; sync(); }}
       class="px-3 py-2 bg-surface border border-border rounded-lg text-sm text-text-secondary focus:outline-none cursor-pointer">
-      <option value="">All cities</option>
+      <option value="">{t("ranking.allCities", locale)}</option>
       {#each allCities as city}<option value={city}>{city}</option>{/each}
     </select>
   {/if}
@@ -145,11 +148,11 @@
         {cityFilter} <button onclick={() => { cityFilter = ""; sync(); }} class="hover:text-text cursor-pointer">×</button>
       </span>
     {/if}
-    <button onclick={clearAll} class="text-xs font-data text-text-muted hover:text-danger cursor-pointer">Clear all</button>
+    <button onclick={clearAll} class="text-xs font-data text-text-muted hover:text-danger cursor-pointer">{t("ranking.clearAll", locale)}</button>
   </div>
 {/if}
 
-<div class="text-xs text-text-muted mb-4">{filtered.length} of {users.length} developers</div>
+<div class="text-xs text-text-muted mb-4">{filtered.length} {t("ranking.of", locale)} {users.length} {t("ranking.developers", locale)}</div>
 
 <!-- Ranking rows -->
 <div class="divide-y divide-border">
@@ -193,8 +196,8 @@
 
 {#if filtered.length === 0}
   <div class="text-center py-16 text-text-secondary">
-    <div class="text-2xl mb-2">No results</div>
-    <button onclick={clearAll} class="text-sm text-accent hover:underline cursor-pointer">Clear filters</button>
+    <div class="text-2xl mb-2">{t("ranking.noResults", locale)}</div>
+    <button onclick={clearAll} class="text-sm text-accent hover:underline cursor-pointer">{t("ranking.clearFilters", locale)}</button>
   </div>
 {/if}
 

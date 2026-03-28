@@ -4,8 +4,9 @@
   import type { CountryData } from "../lib/data-output";
   import RankingFilter from "./RankingFilter.svelte";
   import ShareButtons from "./ShareButtons.svelte";
+  import { t } from "../i18n";
 
-  let { countryCode, basePath = "/" }: { countryCode: string; basePath?: string } = $props();
+  let { countryCode, basePath = "/", locale = "en" }: { countryCode: string; basePath?: string; locale?: string } = $props();
 
   let loading = $state(true);
   let error = $state("");
@@ -31,7 +32,7 @@
 
       countryData = await http.get(`data/${countryCode}.json`).json<CountryData>();
     } catch (e) {
-      error = `Could not load data for "${countryCode}"`;
+      error = t("country.loadError", locale).replace("{code}", countryCode);
     }
     loading = false;
   }
@@ -44,12 +45,12 @@
 </script>
 
 {#if loading}
-  <div class="max-w-5xl mx-auto px-6 sm:px-8 py-20 text-center text-text-muted">Loading...</div>
+  <div class="max-w-5xl mx-auto px-6 sm:px-8 py-20 text-center text-text-muted">{t("country.loading", locale)}</div>
 {:else if error}
   <div class="max-w-3xl mx-auto px-6 py-20 text-center">
-    <h1 class="text-2xl font-display font-bold mb-4">Country not found</h1>
+    <h1 class="text-2xl font-display font-bold mb-4">{t("country.notFound", locale)}</h1>
     <p class="text-text-secondary">{error}</p>
-    <a href={basePath} class="text-accent hover:underline mt-4 inline-block">← Back to CodeAtlas</a>
+    <a href={basePath} class="text-accent hover:underline mt-4 inline-block">{t("country.backToHome", locale)}</a>
   </div>
 {:else}
   <div class="max-w-5xl mx-auto px-6 sm:px-8">
@@ -59,10 +60,10 @@
         <div>
           <h1 class="text-3xl sm:text-4xl font-display font-bold tracking-tight">{countryName}</h1>
           <p class="text-text-secondary mt-1.5">
-            <span class="font-data font-semibold text-text">{users.length.toLocaleString()}</span> developers ·
-            <span class="font-data font-semibold text-text">{fmt(totalContrib)}</span> contributions
+            <span class="font-data font-semibold text-text">{users.length.toLocaleString()}</span> {t("country.developers", locale)} ·
+            <span class="font-data font-semibold text-text">{fmt(totalContrib)}</span> {t("country.contributions", locale)}
             {#if updatedAt}
-              <span class="text-text-muted"> · Updated {new Date(updatedAt).toLocaleDateString()}</span>
+              <span class="text-text-muted"> · {t("country.updated", locale)} {new Date(updatedAt).toLocaleDateString()}</span>
             {/if}
           </p>
         </div>
@@ -70,12 +71,12 @@
     </header>
 
     <section class="py-10">
-      <RankingFilter {users} {countryCode} {updatedAt} />
+      <RankingFilter {users} {countryCode} {updatedAt} {locale} />
     </section>
 
     <footer class="py-8 border-t border-border flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-      <span class="text-sm text-text-muted">Share {countryName} rankings</span>
-      <ShareButtons url={window.location.href} text={`Top GitHub developers in ${countryName}`} />
+      <span class="text-sm text-text-muted">{t("country.share", locale).replace("{name}", countryName)}</span>
+      <ShareButtons url={window.location.href} text={t("country.topDevelopers", locale).replace("{name}", countryName)} {locale} />
     </footer>
   </div>
 {/if}

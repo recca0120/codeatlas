@@ -1,0 +1,135 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { loadAllCountryConfigs } from "../../lib/country-config";
+import CountrySearch from "../../components/CountrySearch.svelte";
+import { buildUrl } from "../../lib/url";
+import { t, type Locale } from "../../i18n";
+
+const countries = await loadAllCountryConfigs("config/countries.json");
+const basePath = import.meta.env.BASE_URL;
+const locale = (Astro.currentLocale ?? "en") as Locale;
+
+const CONT: Record<string, string> = {afghanistan:"Asia",albania:"Europe",algeria:"Africa",andorra:"Europe",angola:"Africa",argentina:"Americas",armenia:"Asia",australia:"Oceania",austria:"Europe",azerbaijan:"Asia",bahrain:"Asia",bangladesh:"Asia",belarus:"Europe",belgium:"Europe",benin:"Africa",bhutan:"Asia",bolivia:"Americas","bosnia-and-herzegovina":"Europe",botswana:"Africa",brazil:"Americas",bulgaria:"Europe","burkina-faso":"Africa",burundi:"Africa",cambodia:"Asia",cameroon:"Africa",canada:"Americas",chad:"Africa",chile:"Americas",china:"Asia","hong-kong":"Asia",taiwan:"Asia",colombia:"Americas",congo:"Africa",croatia:"Europe",cuba:"Americas",cyprus:"Europe",czechia:"Europe",denmark:"Europe","dominican-republic":"Americas",ecuador:"Americas",egypt:"Africa","el-salvador":"Americas",estonia:"Europe",ethiopia:"Africa",finland:"Europe",france:"Europe",georgia:"Asia",germany:"Europe",ghana:"Africa",greece:"Europe",guatemala:"Americas",honduras:"Americas",hungary:"Europe",iceland:"Europe",india:"Asia",indonesia:"Asia",iran:"Asia",iraq:"Asia",ireland:"Europe",israel:"Asia",italy:"Europe",jamaica:"Americas",japan:"Asia",jordan:"Asia",kazakhstan:"Asia",kenya:"Africa",kuwait:"Asia",laos:"Asia",latvia:"Europe",lithuania:"Europe",luxembourg:"Europe",madagascar:"Africa",malawi:"Africa",malaysia:"Asia",maldives:"Asia",mali:"Africa",malta:"Europe",mauritius:"Africa",mexico:"Americas",moldova:"Europe",mongolia:"Asia",montenegro:"Europe",morocco:"Africa",mozambique:"Africa",myanmar:"Asia",namibia:"Africa",nepal:"Asia",netherlands:"Europe","new-zealand":"Oceania",nicaragua:"Americas",nigeria:"Africa",norway:"Europe",oman:"Asia",pakistan:"Asia",palestine:"Asia",panama:"Americas",paraguay:"Americas",peru:"Americas",philippines:"Asia",poland:"Europe",portugal:"Europe",qatar:"Asia",romania:"Europe",russia:"Europe",rwanda:"Africa","saudi-arabia":"Asia",senegal:"Africa",serbia:"Europe",singapore:"Asia",slovakia:"Europe",slovenia:"Europe","south-africa":"Africa","south-korea":"Asia",spain:"Europe","sri-lanka":"Asia",sudan:"Africa",sweden:"Europe",switzerland:"Europe",syria:"Asia",tanzania:"Africa",thailand:"Asia",tunisia:"Africa",turkey:"Europe",uganda:"Africa",ukraine:"Europe","united-arab-emirates":"Asia","united-kingdom":"Europe","united-states":"Americas",uruguay:"Americas",uzbekistan:"Asia",venezuela:"Americas",vietnam:"Asia",zambia:"Africa",zimbabwe:"Africa"};
+
+const CONT_KEYS: Record<string, string> = { Asia: "continent.asia", Europe: "continent.europe", Americas: "continent.americas", Africa: "continent.africa", Oceania: "continent.oceania" };
+
+interface CItem { code: string; name: string; flag: string; continent: string; }
+const countryList: CItem[] = countries.map(c => ({ code: c.code, name: c.name, flag: c.flag, continent: CONT[c.code] || "Other" }));
+const byContinent: Record<string, CItem[]> = {};
+for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
+---
+
+<Layout title={`CodeAtlas — ${t("hero.title", locale)}`} locale={locale}>
+  <!-- Hero: full-width starfield bg in dark mode -->
+  <div class="w-full dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center" data-base={basePath}>
+    <div class="max-w-6xl mx-auto px-6 sm:px-8">
+      <section class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 min-h-[calc(100vh-56px)] items-center py-16 lg:py-0">
+        <div>
+          <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight tracking-tight">
+            {t("hero.title", locale)}
+          </h1>
+          <p class="text-text-secondary mt-5 text-lg leading-relaxed max-w-lg" set:html={t("hero.description", locale).replace("{count}", `<span class="text-text font-semibold">${countries.length}</span>`)} />
+          <div class="mt-8 max-w-sm">
+            <CountrySearch client:load countries={countryList.map(c => ({ code: c.code, name: c.name, flag: c.flag }))} basePath={basePath} locale={locale} />
+          </div>
+        </div>
+
+        <div class="hidden lg:block relative h-[620px]">
+          <div id="globe-container" class="absolute inset-0 opacity-0 transition-opacity duration-[2s]"
+            data-countries={JSON.stringify(countryList.map(c => c.code))} data-locale={locale}></div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="max-w-6xl mx-auto px-6 sm:px-8">
+    <section class="py-16 border-t border-border">
+      <h2 class="text-xl font-display font-bold mb-10">{t("hero.countries", locale).replace("{count}", String(countries.length))}</h2>
+
+      {["Asia", "Europe", "Americas", "Africa", "Oceania"].filter(c => byContinent[c]).map(cont => (
+        <div class="mb-10">
+          <div class="text-xs font-data text-text-muted tracking-widest uppercase mb-3 pb-2 border-b border-border">
+            {t(CONT_KEYS[cont] as any, locale)} <span class="text-text-muted/60">· {byContinent[cont].length}</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            {byContinent[cont].map(c => (
+              <a href={buildUrl(`${locale === "zh-TW" ? "zh-TW/" : ""}${c.code}/`, basePath)}
+                class="flex items-center gap-3 px-4 py-3 rounded-xl border border-border hover:border-accent/40 hover:bg-surface-hover transition-all group">
+                <span class="text-2xl shrink-0">{c.flag}</span>
+                <span class="truncate group-hover:text-accent transition-colors">{c.name}</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <footer class="py-8 border-t border-border text-center text-sm text-text-muted">
+      {t("footer.text", locale)}<a href={buildUrl(locale === "zh-TW" ? "zh-TW/faq" : "faq", basePath)} class="hover:text-accent transition-colors">{t("nav.faq", locale)}</a>
+    </footer>
+  </div>
+</Layout>
+
+<script>
+  import { createHttpClient } from "../../lib/http";
+  import { buildUrl } from "../../lib/url";
+  import { t } from "../../i18n";
+  import { isConfiguredCountry, getCountrySlug } from "../../lib/globe/country-mapping";
+  const el = document.getElementById("globe-container");
+  if (el && window.innerWidth >= 1024) {
+    const configuredCodes = new Set(JSON.parse(el.dataset.countries || "[]"));
+    const locale = el.dataset.locale || "en";
+    function hc(iso: string) {
+      const s = getCountrySlug(iso);
+      if (!s || !configuredCodes.has(s)) return "rgba(63,63,70,0.3)";
+      return "rgba(99,102,241,0.35)";
+    }
+    import("globe.gl").then(({ default: Globe }) => {
+      import("three").then((THREE) => {
+      const w = new Globe(el, { rendererConfig: { antialias: true, alpha: true }, animateIn: true })
+        .backgroundColor("rgba(0,0,0,0)")
+        .showAtmosphere(true).atmosphereColor("cyan").atmosphereAltitude(0.15)
+        .globeImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg")
+        .bumpImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png");
+      const mat = w.globeMaterial() as any;
+      if (mat) {
+        mat.bumpScale = 10;
+        new THREE.TextureLoader().load("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-water.png", (texture: any) => {
+          mat.specularMap = texture; mat.specular = new THREE.Color("grey"); mat.shininess = 15;
+        });
+      }
+      const dirLight = w.lights().find((l: any) => l.type === "DirectionalLight") as any;
+      if (dirLight) dirLight.position.set(1, 1, 1);
+      const c = w.controls() as any;
+      c.autoRotate = true; c.autoRotateSpeed = 0.12; c.enableZoom = false;
+      c.minDistance = 180; c.maxDistance = 350;
+      const rs = () => w.width(el.clientWidth).height(el.clientHeight);
+      window.addEventListener("resize", rs); rs();
+      const basePath = el.closest("[data-base]")?.getAttribute("data-base") || "/";
+      const http = createHttpClient(basePath);
+      http.get("data/countries.geojson").json().then((g: any) => {
+        w.polygonsData(g.features.filter((f: any) => f.properties.ISO_A2 !== "AQ"))
+          .polygonAltitude((d: any) => isConfiguredCountry(d.properties.ISO_A2) ? 0.006 : 0.001)
+          .polygonCapColor((d: any) => hc(d.properties.ISO_A2))
+          .polygonSideColor(() => "rgba(99,102,241,0.01)")
+          .polygonStrokeColor(() => "rgba(99,102,241,0.04)")
+          .polygonLabel((d: any) => {
+            if (!isConfiguredCountry(d.properties.ISO_A2)) return "";
+            return `<div style="background:rgba(9,9,11,.96);color:#fafafa;padding:10px 14px;border-radius:8px;font:14px Inter;border:1px solid rgba(63,63,70,.6)"><strong>${d.properties.NAME}</strong><br><span style="color:#a1a1aa;font-size:12px">${t("globe.clickToExplore", locale)}</span></div>`;
+          })
+          .onPolygonClick((d: any) => {
+            const s = getCountrySlug(d.properties.ISO_A2);
+            if (s) location.href = buildUrl(`${locale !== "en" ? locale + "/" : ""}${s}/`, basePath);
+          })
+          .onPolygonHover((d: any) => {
+            el.style.cursor = d && isConfiguredCountry(d.properties.ISO_A2) ? "pointer" : "default";
+            w.polygonAltitude((f: any) => f === d && isConfiguredCountry(f.properties.ISO_A2) ? 0.03 : isConfiguredCountry(f.properties.ISO_A2) ? 0.006 : 0.001)
+             .polygonCapColor((f: any) => f === d && isConfiguredCountry(f.properties.ISO_A2) ? "rgba(129,140,248,0.85)" : hc(f.properties.ISO_A2));
+          });
+        el.style.opacity = "1";
+      });
+      new IntersectionObserver(([e]) => { e.isIntersecting ? w.resumeAnimation() : w.pauseAnimation(); }, { threshold: 0.1 }).observe(el);
+      }); // end THREE
+    }); // end Globe
+  }
+</script>

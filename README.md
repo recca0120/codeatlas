@@ -1,43 +1,76 @@
-# Astro Starter Kit: Minimal
+[中文版](README.zh-TW.md)
 
-```sh
-npm create astro@latest -- --template minimal
+# CodeAtlas
+
+Global Developer Rankings — tracking developers across 130+ countries, ranked by GitHub contributions. Updated weekly.
+
+**Live site:** https://recca0120.github.io/codeatlas/
+
+## Features
+
+- Country-level developer rankings (Public Contributions, Total Contributions, Followers)
+- Interactive 3D globe visualization
+- Per-developer profile pages with language breakdown and top repositories
+- Internationalization (English / Traditional Chinese)
+- Dark mode support
+- Weekly automated data collection via GitHub Actions
+
+## Tech Stack
+
+- **Framework:** Astro 6 (Static Site Generation)
+- **UI:** Svelte 5 (Islands Architecture)
+- **Styling:** Tailwind CSS v4
+- **3D:** Globe.gl + Three.js
+- **Data:** GitHub REST & GraphQL APIs via Octokit
+- **CI/CD:** GitHub Actions + GitHub Pages
+
+## Getting Started
+
+```bash
+pnpm install
+pnpm dev          # Start dev server at localhost:4321
+pnpm build        # Build for production
+pnpm preview      # Preview production build
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Data Collection
 
-## 🚀 Project Structure
+Rankings are collected weekly via GitHub Actions. To run locally:
 
-Inside of your Astro project, you'll see the following folders and files:
+```bash
+# Generate sample/fake data for development
+pnpm tsx scripts/cli.ts generate
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+# Collect real data (requires GITHUB_TOKEN)
+GITHUB_TOKEN=ghp_xxx pnpm tsx scripts/cli.ts collect
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Configuration
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+| Variable | Description | Default |
+|---|---|---|
+| `PUBLIC_DEFAULT_LOCALE` | Default language (`en` or `zh-TW`) | `en` |
+| `GITHUB_TOKEN` | GitHub API token for data collection | — |
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Project Structure
 
-## 🧞 Commands
+```
+src/
+  i18n/          # Internationalization (locales, t() helper)
+  components/    # Svelte 5 components (islands)
+  layouts/       # Astro layouts
+  lib/           # Shared utilities, API clients
+  pages/         # Astro pages (en + zh-TW)
+  styles/        # Global CSS
+config/          # Country configurations
+public/data/     # Generated ranking data (JSON)
+scripts/         # CLI tools for data collection
+```
 
-All commands are run from the root of the project, from a terminal:
+## Contributing
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add countries, fix data, or contribute code.
 
-## 👀 Want to learn more?
+## License
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+MIT
