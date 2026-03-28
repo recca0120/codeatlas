@@ -71,7 +71,7 @@ describe("createOctokitClient", () => {
         location: "Taipei",
         bio: "Developer",
         followers: 100,
-        publicContributions: 500,
+        publicContributions: 450,
         privateContributions: 50,
         twitterUsername: "alicetweets",
         blog: "https://alice.dev",

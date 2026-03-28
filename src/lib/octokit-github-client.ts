@@ -99,7 +99,9 @@ function mapNodeToUser(node: SearchUserNode): GitHubUser {
     location: node.location ?? null,
     bio: node.bio ?? null,
     followers: node.followers?.totalCount ?? 0,
-    publicContributions: contrib?.contributionCalendar?.totalContributions ?? 0,
+    publicContributions:
+      (contrib?.contributionCalendar?.totalContributions ?? 0) -
+      (contrib?.restrictedContributionsCount ?? 0),
     privateContributions: contrib?.restrictedContributionsCount ?? 0,
     languages: [
       ...new Set(
