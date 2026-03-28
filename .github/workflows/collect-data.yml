@@ -53,7 +53,7 @@ jobs:
           if [ -n "$input_country" ]; then
             countries="$input_country"
           else
-            countries=$(node -e "const c=require('./config/countries.json');console.log(c.map(x=>x.code).join(' '))")
+            countries=$(node -e "const c=require('./config/countries.json').map(x=>x.code);const p='taiwan';const i=c.indexOf(p);if(i>0){c.splice(i,1);c.unshift(p)}console.log(c.join(' '))")
           fi
 
           for code in $countries; do
