@@ -50,8 +50,26 @@
 
   const rankedUsers = $derived(rankUsers(users, dimension));
   const rankMap = $derived(buildRankMap(rankedUsers));
-  const allLangs = $derived([...new Set(users.flatMap(u => u.languages))].sort());
-  const allCities = $derived([...new Set(users.map(u => u.location).filter(Boolean))].sort() as string[]);
+  const allLangs = $derived.by(() => {
+    const counts = new Map<string, number>();
+    for (const u of users) for (const l of u.languages) counts.set(l, (counts.get(l) ?? 0) + 1);
+    return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([l]) => l);
+  });
+
+  function normalizeCity(city: string): string {
+    return city.trim().replace(/\s+/g, " ").replace(/[.,]+$/, "");
+  }
+
+  const cityMap = $derived.by(() => {
+    const map = new Map<string, string>();
+    for (const u of users) {
+      if (!u.location) continue;
+      const key = normalizeCity(u.location).toLowerCase();
+      if (!map.has(key)) map.set(key, normalizeCity(u.location));
+    }
+    return map;
+  });
+  const allCities = $derived([...new Set(cityMap.values())].sort());
 
   const filtered = $derived.by(() => {
     let list = [...rankedUsers];
@@ -60,7 +78,10 @@
       list = list.filter(u => u.login.toLowerCase().includes(q) || (u.name?.toLowerCase().includes(q) ?? false));
     }
     if (langFilter.length) list = list.filter(u => langFilter.some(l => u.languages.includes(l)));
-    if (cityFilter) list = list.filter(u => u.location === cityFilter);
+    if (cityFilter) {
+      const cityKey = normalizeCity(cityFilter).toLowerCase();
+      list = list.filter(u => u.location && normalizeCity(u.location).toLowerCase() === cityKey);
+    }
     return list;
   });
 
@@ -107,6 +128,7 @@
   </div>
   {#if allCities.length > 1}
     <select bind:value={cityFilter} onchange={() => { page = 1; sync(); }}
+      aria-label={t("ranking.allCities", locale)}
       class="px-3 py-2 bg-surface border border-border rounded-lg text-sm text-text-secondary focus:outline-none cursor-pointer">
       <option value="">{t("ranking.allCities", locale)}</option>
       {#each allCities as city}<option value={city}>{city}</option>{/each}

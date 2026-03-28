@@ -131,6 +131,38 @@ describe("RankingFilter", () => {
     });
   });
 
+  it("sorts language chips by usage count descending", () => {
+    const langUsers = [
+      createMockUser({ login: "a", languages: ["Go", "Python"] }),
+      createMockUser({ login: "b", languages: ["Python", "TypeScript"] }),
+      createMockUser({ login: "c", languages: ["Python", "Go", "TypeScript"] }),
+    ];
+    render(RankingFilter, { users: langUsers });
+    const chips = screen
+      .getAllByRole("button")
+      .filter((b) =>
+        ["Python", "Go", "TypeScript"].includes(b.textContent!.trim()),
+      );
+    // Python: 3, Go: 2, TypeScript: 2 (Go before TypeScript alphabetically for tie)
+    expect(chips[0]).toHaveTextContent("Python");
+  });
+
+  it("normalizes city filter (deduplicates case/whitespace variants)", () => {
+    const cityUsers = [
+      createMockUser({ login: "a", location: "Taipei, Taiwan" }),
+      createMockUser({ login: "b", location: "taipei, taiwan" }),
+      createMockUser({ login: "c", location: "Taipei, Taiwan " }),
+      createMockUser({ login: "d", location: "Kaohsiung" }),
+    ];
+    render(RankingFilter, { users: cityUsers });
+    const select = screen.getByRole("combobox", { name: /cities|城市/i });
+    const options = [...select.querySelectorAll("option")].map((o) =>
+      o.textContent!.trim(),
+    );
+    // "All cities" + 2 unique cities (not 4)
+    expect(options).toHaveLength(3);
+  });
+
   it("shows no results message when search has no matches", async () => {
     const user = userEvent.setup();
     render(RankingFilter, { users });
