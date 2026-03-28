@@ -45,7 +45,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Collect data
+      - name: Setup data-collection branch
+        run: |
+          git fetch origin data-collection 2>/dev/null || true
+          if git rev-parse --verify origin/data-collection >/dev/null 2>&1; then
+            git checkout data-collection
+            git merge origin/main --no-edit --strategy-option theirs || true
+          else
+            git checkout -b data-collection
+          fi
+
+      - name: Collect data per country
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -56,32 +66,59 @@ jobs:
             countries=$(node -e "const c=require('./config/countries.json').map(x=>x.code);const p='taiwan';const i=c.indexOf(p);if(i>0){c.splice(i,1);c.unshift(p)}console.log(c.join(' '))")
           fi
 
+          today=$(date -u +%Y-%m-%d)
           collected=0
+          skipped=0
           failed=0
+
           for code in $countries; do
+            # Skip if already collected today
+            if [ -f "public/data/$code.json" ]; then
+              file_date=$(node -e "try{const d=require('./public/data/$code.json');console.log(d.updatedAt?.split('T')[0]??'')}catch{console.log('')}")
+              if [ "$file_date" = "$today" ]; then
+                skipped=$((skipped + 1))
+                echo "  ⊘ $code (already up to date)"
+                continue
+              fi
+            fi
+
             echo "Collecting $code..."
             limit_flag=""
             if [ -n "${{ inputs.limit }}" ]; then
               limit_flag="--limit ${{ inputs.limit }}"
             fi
             if pnpm tsx scripts/cli.ts collect -c "$code" $limit_flag; then
+              git add public/data/
+              if ! git diff --staged --quiet; then
+                git commit --no-verify -m "data: update $code $today"
+                git push origin data-collection
+                echo "  ✓ $code"
+              else
+                echo "  - $code (no changes)"
+              fi
               collected=$((collected + 1))
-              echo "  ✓ $code"
             else
               failed=$((failed + 1))
-              echo "  ✗ $code (skipping)"
+              echo "  ✗ $code (failed, skipping)"
             fi
           done
-          echo ""
-          echo "Done: $collected collected, $failed failed"
 
-      - name: Commit and push
+          echo ""
+          echo "Summary: $collected collected, $skipped skipped, $failed failed"
+
+      - name: Squash merge to main
         run: |
-          git add public/data/
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+          git checkout main
+          git pull origin main
+
+          if git diff --quiet main..data-collection -- public/data/; then
+            echo "No data changes to merge"
             exit 0
           fi
+
+          git merge --squash data-collection
           git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d) [skip ci]"
-          git pull --rebase origin main
-          git push
+          git push origin main
+
+          # Clean up branch
+          git push origin --delete data-collection
