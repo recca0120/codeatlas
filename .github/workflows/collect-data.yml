@@ -99,6 +99,23 @@ jobs:
           echo ""
           echo "Summary: $collected collected, $failed failed"
 
+      - name: Squash data commits on main
+        run: |
+          git checkout main
+          git pull origin main
+
+          # Find the first data commit from this run
+          first_data_commit=$(git log --oneline --grep="^data: update .* $(date -u +%Y-%m-%d)$" --reverse --format="%H" | head -1)
+          if [ -z "$first_data_commit" ]; then
+            echo "No data commits to squash"
+            exit 0
+          fi
+
+          # Soft reset to before the first data commit, then recommit all as one
+          git reset --soft "${first_data_commit}^"
+          git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d) [skip ci]"
+          git push origin main --force-with-lease
+
       - name: Clean up branch
         if: always()
         run: git push origin --delete data-collection 2>/dev/null || true
