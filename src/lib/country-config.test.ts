@@ -2,7 +2,6 @@ import { describe, expect, it } from "vitest";
 import {
   type CountryConfig,
   loadAllCountryConfigs,
-  loadCountryConfig,
   validateCountryConfig,
 } from "./country-config";
 
@@ -60,20 +59,5 @@ describe("loadAllCountryConfigs", () => {
     await expect(
       loadAllCountryConfigs("config/nonexistent.json"),
     ).rejects.toThrow();
-  });
-});
-
-describe("loadCountryConfig", () => {
-  it("finds taiwan by code", async () => {
-    const config = await loadCountryConfig("config/countries.json", "taiwan");
-    expect(config.code).toBe("taiwan");
-    expect(config.name).toBe("Taiwan");
-    expect(config.flag).toBe("🇹🇼");
-  });
-
-  it("throws for unknown country code", async () => {
-    await expect(
-      loadCountryConfig("config/countries.json", "nonexistent"),
-    ).rejects.toThrow("not found");
   });
 });

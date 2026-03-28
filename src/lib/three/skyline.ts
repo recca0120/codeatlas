@@ -70,30 +70,3 @@ export function createSkyline(
 
   return group;
 }
-
-export function updateSkylineHeights(
-  group: THREE.Group,
-  dimension: RankingDimension,
-  progress: number, // 0 to 1 for animation
-): void {
-  const meshes = group.children.filter(
-    (c): c is THREE.Mesh => (c as THREE.Mesh).isMesh,
-  );
-  if (meshes.length === 0) return;
-
-  const users = meshes.map((m) => (m.userData as BarUserData).user);
-  const maxValue = Math.max(...users.map((u) => getValue(u, dimension)));
-
-  for (const mesh of meshes) {
-    const { user } = mesh.userData as BarUserData;
-    const value = getValue(user, dimension);
-    const targetHeight = getBarHeight(value, maxValue);
-    const currentHeight = mesh.scale.y;
-    const newScale =
-      currentHeight +
-      (targetHeight / getBarHeight(value, maxValue) - currentHeight) * progress;
-
-    mesh.scale.y = newScale || 1;
-    mesh.position.y = (targetHeight * mesh.scale.y) / 2;
-  }
-}

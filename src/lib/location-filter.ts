@@ -32,15 +32,6 @@ const AMBIGUOUS_LOCATIONS: Record<
   ],
 };
 
-const AMBIGUOUS_KEYS = new Set(Object.keys(AMBIGUOUS_LOCATIONS));
-
-/**
- * Check if a location keyword is known to be ambiguous.
- */
-export function isAmbiguousLocation(location: string): boolean {
-  return AMBIGUOUS_KEYS.has(location.toLowerCase());
-}
-
 /**
  * Determine if a user should be excluded based on their actual location
  * vs the country we're searching for.

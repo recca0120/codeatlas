@@ -1,19 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { isAmbiguousLocation, shouldExcludeUser } from "./location-filter";
-
-describe("isAmbiguousLocation", () => {
-  it("flags Georgia (country) as ambiguous", () => {
-    expect(isAmbiguousLocation("Georgia")).toBe(true);
-  });
-
-  it("flags Granada as ambiguous", () => {
-    expect(isAmbiguousLocation("Granada")).toBe(true);
-  });
-
-  it("does not flag Tokyo", () => {
-    expect(isAmbiguousLocation("Tokyo")).toBe(false);
-  });
-});
+import { shouldExcludeUser } from "./location-filter";
 
 describe("shouldExcludeUser", () => {
   it("excludes US Georgia user when searching for country Georgia", () => {

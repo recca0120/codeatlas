@@ -28,16 +28,3 @@ export async function loadAllCountryConfigs(
 
   return data.map(validateCountryConfig);
 }
-
-/**
- * Find a single country config by code.
- */
-export async function loadCountryConfig(
-  filePath: string,
-  code: string,
-): Promise<CountryConfig> {
-  const all = await loadAllCountryConfigs(filePath);
-  const found = all.find((c) => c.code === code);
-  if (!found) throw new Error(`Country not found: ${code}`);
-  return found;
-}

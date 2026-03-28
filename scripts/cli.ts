@@ -6,6 +6,7 @@ import {
   generateFakeUsers,
   prioritizeCountry,
   shouldSkipCountry,
+  writeCountryData,
 } from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
 import { buildCountryData, rebuildCountryData } from "../src/lib/data-output";
@@ -51,7 +52,7 @@ addSharedOptions(
         try {
           const raw = JSON.parse(await fs.readFile(outputPath, "utf8"));
           const data = rebuildCountryData(raw);
-          await fs.writeFile(outputPath, JSON.stringify(data));
+          await writeCountryData(config.code, data);
           console.log(`  ✓ ${config.flag} ${config.name}`);
         } catch {
           console.log(`  ⊘ ${config.flag} ${config.name} (no data)`);
@@ -115,9 +116,7 @@ addSharedOptions(
       console.log(`  Found ${users.length} users (deduplicated)`);
 
       const data = buildCountryData(config.code, users);
-      const outputPath = buildOutputPath(config.code);
-      await fs.mkdir("public/data", { recursive: true });
-      await fs.writeFile(outputPath, JSON.stringify(data));
+      const outputPath = await writeCountryData(config.code, data);
       console.log(`  → ${outputPath}`);
     }
 
@@ -148,9 +147,7 @@ addSharedOptions(
       limit,
     );
     const data = buildCountryData(config.code, users);
-    const outputPath = buildOutputPath(config.code);
-    await fs.mkdir("public/data", { recursive: true });
-    await fs.writeFile(outputPath, JSON.stringify(data));
+    await writeCountryData(config.code, data);
 
     if ((i + 1) % 20 === 0) console.log(`  ${i + 1} countries...`);
   }

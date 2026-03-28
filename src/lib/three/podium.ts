@@ -92,20 +92,3 @@ function addRankLabel(
   sprite.scale.set(2, 2, 1);
   group.add(sprite);
 }
-
-export function animatePodiumRise(group: THREE.Group, progress: number): void {
-  const meshes = group.children.filter(
-    (c): c is THREE.Mesh => (c as THREE.Mesh).isMesh,
-  );
-
-  for (const mesh of meshes) {
-    const targetY = mesh.position.y;
-    const startY = -10;
-    const eased = easeOutCubic(Math.min(progress, 1));
-    mesh.position.y = startY + (targetY - startY) * eased;
-  }
-}
-
-function easeOutCubic(t: number): number {
-  return 1 - (1 - t) ** 3;
-}
