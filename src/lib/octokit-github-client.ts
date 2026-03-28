@@ -1,31 +1,90 @@
 import { retry } from "@octokit/plugin-retry";
 import { throttling } from "@octokit/plugin-throttling";
 import { Octokit } from "@octokit/rest";
-import type { GitHubClient, GitHubUser, RateLimitInfo } from "./github-client";
+import type {
+  GitHubClient,
+  GitHubUser,
+  RateLimitInfo,
+  SearchOptions,
+} from "./github-client";
 
 const ThrottledOctokit = Octokit.plugin(throttling, retry);
 
-interface ContributionResponse {
-  user: {
-    contributionsCollection: {
-      contributionCalendar: {
-        totalContributions: number;
-      };
-      restrictedContributionsCount: number;
-    };
+interface RepoNode {
+  name: string;
+  description: string | null;
+  stargazerCount: number;
+  primaryLanguage: { name: string } | null;
+}
+
+interface SearchUserNode {
+  login: string;
+  avatarUrl: string;
+  name: string | null;
+  location: string | null;
+  company: string | null;
+  bio: string | null;
+  twitterUsername: string | null;
+  websiteUrl: string | null;
+  followers: { totalCount: number };
+  contributionsCollection?: {
+    contributionCalendar: { totalContributions: number };
+    restrictedContributionsCount: number;
+  };
+  repositories?: {
+    nodes: RepoNode[];
   };
 }
 
-const CONTRIBUTION_QUERY = `
-  query ($username: String!) {
-    user(login: $username) {
-      contributionsCollection {
-        contributionCalendar {
-          totalContributions
+interface GraphQLSearchResponse {
+  search: {
+    userCount: number;
+    nodes: Array<({ __typename: string } & SearchUserNode) | null>;
+    pageInfo: { hasNextPage: boolean; endCursor: string | null };
+  };
+  rateLimit: { cost: number; remaining: number; resetAt: string };
+}
+
+const SEARCH_USERS_QUERY = `
+  query ($searchQuery: String!, $first: Int!, $after: String) {
+    search(type: USER, query: $searchQuery, first: $first, after: $after) {
+      userCount
+      nodes {
+        __typename
+        ... on User {
+          login
+          avatarUrl(size: 72)
+          name
+          location
+          company
+          bio
+          twitterUsername
+          websiteUrl
+          followers {
+            totalCount
+          }
+          contributionsCollection {
+            contributionCalendar {
+              totalContributions
+            }
+            restrictedContributionsCount
+          }
+          repositories(first: 5, ownerAffiliations: OWNER, orderBy: {field: STARGAZERS, direction: DESC}) {
+            nodes {
+              name
+              description
+              stargazerCount
+              primaryLanguage { name }
+            }
+          }
         }
-        restrictedContributionsCount
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
       }
     }
+    rateLimit { cost remaining resetAt }
   }
 `;
 
@@ -40,11 +99,11 @@ export function createOctokitClient(token: string): GitHubClient {
         );
         return retryCount < 2;
       },
-      onSecondaryRateLimit: (retryAfter, options) => {
+      onSecondaryRateLimit: (retryAfter, options, _octokit, retryCount) => {
         console.warn(
-          `Secondary rate limit for ${options.method} ${options.url}, wait ${retryAfter}s`,
+          `Secondary rate limit for ${options.method} ${options.url} (retry ${retryCount + 1}, wait ${retryAfter}s)`,
         );
-        return false;
+        return retryCount < 3;
       },
     },
     retry: { doNotRetry: [400, 401, 403, 404, 422] },
@@ -52,56 +111,95 @@ export function createOctokitClient(token: string): GitHubClient {
   });
 
   return {
-    async searchUsers(query: string, page: number): Promise<GitHubUser[]> {
-      const { data } = await octokit.rest.search.users({
-        q: query,
-        sort: "followers",
-        order: "desc",
-        per_page: 100,
-        page,
-      });
-
+    async searchUsers(
+      query: string,
+      options?: SearchOptions,
+    ): Promise<GitHubUser[]> {
+      const { onProgress, limit } = options ?? {};
       const users: GitHubUser[] = [];
+      let cursor: string | null = null;
+      let hasNextPage = true;
 
-      for (const item of data.items) {
-        const { data: profile } = await octokit.rest.users.getByUsername({
-          username: item.login,
-        });
+      while (hasNextPage) {
+        const result: GraphQLSearchResponse =
+          await octokit.graphql<GraphQLSearchResponse>(SEARCH_USERS_QUERY, {
+            searchQuery: `${query} sort:followers-desc`,
+            first: 10,
+            after: cursor,
+          });
 
-        let publicContributions = 0;
-        let privateContributions = 0;
-        try {
-          const contribData = await octokit.graphql<ContributionResponse>(
-            CONTRIBUTION_QUERY,
-            {
-              username: item.login,
-            },
-          );
-          publicContributions =
-            contribData.user.contributionsCollection.contributionCalendar
-              .totalContributions;
-          privateContributions =
-            contribData.user.contributionsCollection
-              .restrictedContributionsCount;
-        } catch {
-          // GraphQL may fail for some users; default to 0
+        const { nodes: searchNodes, pageInfo } = result.search;
+        const { rateLimit } = result;
+        hasNextPage = pageInfo.hasNextPage;
+        cursor = pageInfo.endCursor;
+
+        // Filter out null nodes (Organizations don't match User fragment)
+        const userNodes = searchNodes.filter(
+          (n): n is { __typename: string } & SearchUserNode =>
+            n != null && n.__typename === "User" && "login" in n,
+        );
+        for (let idx = 0; idx < userNodes.length; idx++) {
+          const node = userNodes[idx];
+          const current = users.length + 1;
+          const knownTotal = users.length + (userNodes.length - idx);
+          onProgress?.(current, knownTotal, node.login);
+
+          const contrib = node.contributionsCollection;
+          const repos = node.repositories?.nodes ?? [];
+          const languages = [
+            ...new Set(
+              repos
+                .map((r) => r.primaryLanguage?.name)
+                .filter((n): n is string => n != null),
+            ),
+          ];
+          const topRepos = repos.map((r) => ({
+            name: r.name,
+            description: r.description,
+            stars: r.stargazerCount,
+            language: r.primaryLanguage?.name ?? null,
+          }));
+
+          users.push({
+            login: node.login,
+            avatarUrl: node.avatarUrl,
+            name: node.name ?? null,
+            company: node.company ?? null,
+            location: node.location ?? null,
+            bio: node.bio ?? null,
+            followers: node.followers?.totalCount ?? 0,
+            publicContributions:
+              contrib?.contributionCalendar?.totalContributions ?? 0,
+            privateContributions: contrib?.restrictedContributionsCount ?? 0,
+            languages,
+            topRepos,
+            twitterUsername: node.twitterUsername ?? null,
+            blog: node.websiteUrl || null,
+          });
+
+          if (limit && users.length >= limit) {
+            hasNextPage = false;
+            break;
+          }
         }
 
-        users.push({
-          login: item.login,
-          avatarUrl: item.avatar_url,
-          name: profile.name ?? null,
-          company: profile.company ?? null,
-          location: profile.location ?? null,
-          bio: profile.bio ?? null,
-          followers: profile.followers ?? 0,
-          publicContributions,
-          privateContributions,
-          languages: [],
-          topRepos: [],
-          twitterUsername: (profile as any).twitter_username ?? null,
-          blog: profile.blog || null,
-        });
+        // Delay between pages to avoid secondary rate limit
+        if (hasNextPage) {
+          const delay = 1000 + Math.random() * 2000;
+          await new Promise((resolve) => setTimeout(resolve, delay));
+        }
+
+        // Rate limit monitoring
+        if (rateLimit.remaining < 100) {
+          const resetAt = new Date(rateLimit.resetAt);
+          const waitMs = resetAt.getTime() - Date.now() + 1000;
+          if (waitMs > 0) {
+            console.warn(
+              `Rate limit low (${rateLimit.remaining}), waiting ${Math.ceil(waitMs / 1000)}s`,
+            );
+            await new Promise((resolve) => setTimeout(resolve, waitMs));
+          }
+        }
       }
 
       return users;

@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "17 3 * * 1"
   workflow_dispatch:
+    inputs:
+      country:
+        description: "Country code to collect (e.g. taiwan). Leave empty for all."
+        required: false
+        type: string
+      limit:
+        description: "Max users per country (e.g. 20 for testing). Leave empty for all."
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -31,26 +40,47 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - name: Collect data for all countries
-        run: pnpm tsx scripts/cli.ts collect
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        continue-on-error: true
-
-      - name: Check if data changed
-        id: check
-        run: |
-          git add data/
-          if git diff --staged --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit and push data
-        if: steps.check.outputs.changed == 'true'
+      - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update ranking data $(date -u +%Y-%m-%d) [skip ci]"
-          git push
+
+      - name: Collect and commit per country
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          input_country="${{ inputs.country }}"
+          if [ -n "$input_country" ]; then
+            countries="$input_country"
+          else
+            countries=$(node -e "const c=require('./config/countries.json');console.log(c.map(x=>x.code).join(' '))")
+          fi
+
+          for code in $countries; do
+            echo "Collecting $code..."
+            limit_flag=""
+            if [ -n "${{ inputs.limit }}" ]; then
+              limit_flag="--limit ${{ inputs.limit }}"
+            fi
+            if pnpm tsx scripts/cli.ts collect -c "$code" $limit_flag; then
+              git add -f public/data/
+              if ! git diff --staged --quiet; then
+                git commit --no-verify -m "data: update $code $(date -u +%Y-%m-%d) [skip ci]"
+                echo "  ✓ committed $code"
+              else
+                echo "  - no changes for $code"
+              fi
+            else
+              echo "  ✗ failed to collect $code, skipping"
+            fi
+          done
+
+      - name: Push all commits
+        run: |
+          git fetch origin main
+          if [ "$(git rev-list --count origin/main..HEAD)" -gt 0 ]; then
+            git pull --rebase origin main
+            git push
+          else
+            echo "No new commits to push"
+          fi

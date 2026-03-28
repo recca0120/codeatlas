@@ -26,8 +26,22 @@ export interface RateLimitInfo {
   resetAt: Date;
 }
 
+export type ProgressCallback = (
+  current: number,
+  total: number,
+  login: string,
+) => void;
+
+export interface SearchOptions {
+  onProgress?: ProgressCallback;
+  limit?: number;
+}
+
 export interface GitHubClient {
-  searchUsers(query: string, page: number): Promise<GitHubUser[]>;
+  searchUsers(
+    query: string,
+    options?: SearchOptions,
+  ): Promise<GitHubUser[]>;
   getRateLimit(): Promise<RateLimitInfo>;
 }
 
@@ -35,24 +49,23 @@ export async function searchUsersByLocation(
   client: GitHubClient,
   locations: string[],
   countryCode?: string,
+  onProgress?: ProgressCallback,
+  limit?: number,
 ): Promise<GitHubUser[]> {
-  // Lazy import to avoid circular deps
   const { shouldExcludeUser } = await import("./location-filter");
+
+  const query = locations.map((l) => `location:${l}`).join(" ");
+  const results = await client.searchUsers(query, { onProgress, limit });
 
   const seen = new Set<string>();
   const users: GitHubUser[] = [];
 
-  for (const location of locations) {
-    const query = `location:${location}`;
-    const results = await client.searchUsers(query, 1);
-
-    for (const user of results) {
-      if (seen.has(user.login)) continue;
-      if (countryCode && shouldExcludeUser(countryCode, user.location))
-        continue;
-      seen.add(user.login);
-      users.push(user);
-    }
+  for (const user of results) {
+    if (seen.has(user.login)) continue;
+    if (countryCode && shouldExcludeUser(countryCode, user.location)) continue;
+    seen.add(user.login);
+    users.push(user);
+    if (limit && users.length >= limit) break;
   }
 
   return users;
