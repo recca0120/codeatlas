@@ -6,6 +6,12 @@ export interface CountryData {
   users: GitHubUser[];
 }
 
+export function rebuildCountryData(raw: Record<string, unknown>): CountryData {
+  const { countryCode, updatedAt, users } = raw as CountryData &
+    Record<string, unknown>;
+  return { countryCode, updatedAt, users: users ?? [] };
+}
+
 export function buildCountryData(
   countryCode: string,
   users: GitHubUser[],

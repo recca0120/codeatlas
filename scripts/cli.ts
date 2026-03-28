@@ -8,7 +8,7 @@ import {
   shouldSkipCountry,
 } from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
-import { buildCountryData } from "../src/lib/data-output";
+import { buildCountryData, rebuildCountryData } from "../src/lib/data-output";
 import { searchUsersByLocation } from "../src/lib/github-client";
 import { createOctokitClient } from "../src/lib/octokit-github-client";
 
@@ -29,17 +29,43 @@ addSharedOptions(
   program
     .command("collect")
     .description("collect real data from GitHub API")
-    .option("--skip-today", "skip countries already collected today"),
+    .option("--skip-today", "skip countries already collected today")
+    .option(
+      "--rebuild",
+      "rebuild existing JSON files (apply format changes without fetching)",
+    ),
 ).action(
-  async (opts: { country?: string; limit?: number; skipToday?: boolean }) => {
+  async (opts: {
+    country?: string;
+    limit?: number;
+    skipToday?: boolean;
+    rebuild?: boolean;
+  }) => {
+    const all = await loadAllCountryConfigs("config/countries.json");
+    const countries = filterCountries(all, opts.country);
+
+    if (opts.rebuild) {
+      console.log(`Rebuilding ${countries.length} country(ies)...\n`);
+      for (const config of countries) {
+        const outputPath = buildOutputPath(config.code);
+        try {
+          const raw = JSON.parse(await fs.readFile(outputPath, "utf8"));
+          const data = rebuildCountryData(raw);
+          await fs.writeFile(outputPath, JSON.stringify(data, null, 2));
+          console.log(`  ✓ ${config.flag} ${config.name}`);
+        } catch {
+          console.log(`  ⊘ ${config.flag} ${config.name} (no data)`);
+        }
+      }
+      console.log("\nDone!");
+      return;
+    }
+
     const token = process.env.GITHUB_TOKEN;
     if (!token) {
       console.error("Error: GITHUB_TOKEN environment variable is required");
       process.exit(1);
     }
-
-    const all = await loadAllCountryConfigs("config/countries.json");
-    const countries = filterCountries(all, opts.country);
     const client = createOctokitClient(token);
 
     console.log(

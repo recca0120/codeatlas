@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildCountryData } from "./data-output";
+import { buildCountryData, rebuildCountryData } from "./data-output";
 import { createMockUser } from "./test-utils";
 
 const users = [
@@ -19,5 +19,34 @@ describe("buildCountryData", () => {
   it("handles empty users", () => {
     const data = buildCountryData("taiwan", []);
     expect(data.users).toHaveLength(0);
+  });
+});
+
+describe("rebuildCountryData", () => {
+  it("strips rankings from legacy data", () => {
+    const legacy = {
+      countryCode: "taiwan",
+      updatedAt: "2026-03-28T00:00:00Z",
+      users,
+      rankings: {
+        public_contributions: [...users],
+        total_contributions: [...users],
+        followers: [...users].reverse(),
+      },
+    };
+    const result = rebuildCountryData(legacy);
+    expect(result).not.toHaveProperty("rankings");
+    expect(result.countryCode).toBe("taiwan");
+    expect(result.users).toHaveLength(2);
+    expect(result.updatedAt).toBe("2026-03-28T00:00:00Z");
+  });
+
+  it("preserves data that is already clean", () => {
+    const clean = buildCountryData("japan", users);
+    const result = rebuildCountryData(
+      clean as unknown as Record<string, unknown>,
+    );
+    expect(result).not.toHaveProperty("rankings");
+    expect(result.users).toHaveLength(2);
   });
 });
