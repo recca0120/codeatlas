@@ -68,6 +68,7 @@ jobs:
 
           collected=0
           failed=0
+          taiwan_done=false
 
           for code in $countries; do
             collect_flags="-c $code"
@@ -86,6 +87,19 @@ jobs:
                 echo "  - $code (no changes)"
               fi
               collected=$((collected + 1))
+
+              # Merge to main after taiwan (first priority country)
+              if [ "$code" = "taiwan" ] && [ "$taiwan_done" = "false" ]; then
+                taiwan_done=true
+                echo "--- Merging taiwan to main ---"
+                git checkout main
+                git pull origin main
+                git merge --squash origin/data-collection
+                git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d) (taiwan) [skip ci]"
+                git push origin main
+                git checkout data-collection
+                git rebase origin/main
+              fi
             else
               failed=$((failed + 1))
               echo "  ✗ $code (failed, skipping)"
@@ -100,7 +114,6 @@ jobs:
           git checkout main
           git pull origin main
 
-          # Need full history for diff
           git fetch origin data-collection
 
           if git diff --quiet main..origin/data-collection -- public/data/; then
