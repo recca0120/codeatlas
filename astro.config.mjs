@@ -5,8 +5,8 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://recca0120.github.io",
-  base: "/codeatlas",
+  site: process.env.SITE_URL || "https://recca0120.github.io",
+  base: process.env.BASE_PATH || "/codeatlas",
   output: "static",
   i18n: {
     defaultLocale: "en",

@@ -33,6 +33,7 @@
   }
 
   function onLinkClick(e: MouseEvent) {
+    if (e.defaultPrevented) return;
     if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || e.button !== 0) return;
     const anchor = (e.target as HTMLElement).closest("a[href]") as HTMLAnchorElement | null;
     if (!anchor || anchor.target === "_blank" || anchor.hasAttribute("download")) return;
