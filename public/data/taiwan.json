@@ -1,0 +1,3946 @@
+{
+  "countryCode": "taiwan",
+  "updatedAt": "2026-03-28T03:16:19.311Z",
+  "users": [
+    {
+      "login": "topjohnwu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7337301?s=72&v=4",
+      "name": "John Wu",
+      "company": null,
+      "location": "US / Taiwan",
+      "bio": "",
+      "followers": 11641,
+      "publicContributions": 539,
+      "privateContributions": 0,
+      "languages": [
+        "Kotlin",
+        "Java",
+        "C++"
+      ],
+      "topRepos": [
+        {
+          "name": "Magisk",
+          "description": "The Magic Mask for Android",
+          "stars": 59555,
+          "language": "Kotlin"
+        },
+        {
+          "name": "libsu",
+          "description": "A complete solution for apps using root permissions",
+          "stars": 2042,
+          "language": "Java"
+        },
+        {
+          "name": "MagiskManager",
+          "description": "Companion Android application for Magisk",
+          "stars": 1582,
+          "language": "Java"
+        },
+        {
+          "name": "zygisk-module-sample",
+          "description": "A sample project for building Zygisk modules",
+          "stars": 981,
+          "language": "C++"
+        },
+        {
+          "name": "magisk_files",
+          "description": "(Deprecated) Magisk File Host",
+          "stars": 666,
+          "language": null
+        }
+      ],
+      "twitterUsername": "topjohnwu",
+      "blog": null
+    },
+    {
+      "login": "muan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1153134?s=72&u=c562ce1cb756e290b950a72458dfe5adc5694bdd&v=4",
+      "name": "Mu-An Chiou",
+      "company": null,
+      "location": "Taipei",
+      "bio": "So, create.",
+      "followers": 11352,
+      "publicContributions": 568,
+      "privateContributions": 403,
+      "languages": [
+        "CSS",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "emoji",
+          "description": ":love_letter: Find the emoji that echoes your mind.",
+          "stars": 2277,
+          "language": "CSS"
+        },
+        {
+          "name": "mojibar",
+          "description": ":tangerine: Emoji searcher but as a menubar app.",
+          "stars": 2038,
+          "language": "JavaScript"
+        },
+        {
+          "name": "emojilib",
+          "description": "Emoji keyword library.",
+          "stars": 1768,
+          "language": "JavaScript"
+        },
+        {
+          "name": "github-gmail",
+          "description": "[WebExtension] Open GitHub notifications with shortcuts in Gmail. ",
+          "stars": 1248,
+          "language": "JavaScript"
+        },
+        {
+          "name": "github-dashboard",
+          "description": "[Web extension] Filter events on github.com activity dashboard.",
+          "stars": 916,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": "https://muan.co"
+    },
+    {
+      "login": "vinta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/652070?s=72&u=25dca0371a54b997c61ed58fcdd2398d4958d1f3&v=4",
+      "name": "Vinta Chen",
+      "company": null,
+      "location": "Taiwan",
+      "bio": "爛命一條",
+      "followers": 9133,
+      "publicContributions": 6510,
+      "privateContributions": 3900,
+      "languages": [
+        "Python",
+        "TypeScript"
+      ],
+      "topRepos": [
+        {
+          "name": "awesome-python",
+          "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
+          "stars": 289315,
+          "language": "Python"
+        },
+        {
+          "name": "pangu.js",
+          "description": "Opinionated paranoid text spacing in JavaScript",
+          "stars": 4737,
+          "language": "TypeScript"
+        },
+        {
+          "name": "fuck-coding-interviews",
+          "description": "How on earth can I ever think of a solution like that in an interview?!",
+          "stars": 740,
+          "language": "Python"
+        },
+        {
+          "name": "pangu.py",
+          "description": "Paranoid text spacing in Python",
+          "stars": 277,
+          "language": "Python"
+        },
+        {
+          "name": "JokeKappa",
+          "description": "A library for delivering one-line programming jokes",
+          "stars": 189,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": "vinta",
+      "blog": "https://vinta.ws/code/"
+    },
+    {
+      "login": "audreyt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20723?s=72&u=e62196e2bf22f806d142975f3751362642280c10&v=4",
+      "name": "唐鳳",
+      "company": "@g0v ",
+      "location": "Taiwan",
+      "bio": "🇹🇼 Cyber Ambassador, 1st Digital Minister (2016-2024) & 🌐 1st 🏳️‍⚧️ cabinet minister.",
+      "followers": 8824,
+      "publicContributions": 1039,
+      "privateContributions": 0,
+      "languages": [
+        "JavaScript",
+        "C++",
+        "Perl"
+      ],
+      "topRepos": [
+        {
+          "name": "ethercalc",
+          "description": "Node.js port of Multi-user SocialCalc",
+          "stars": 3031,
+          "language": "JavaScript"
+        },
+        {
+          "name": "node-webworker-threads",
+          "description": "Lightweight Web Worker API implementation with native threads",
+          "stars": 2285,
+          "language": "C++"
+        },
+        {
+          "name": "500lines",
+          "description": "500 Lines or Less",
+          "stars": 469,
+          "language": "JavaScript"
+        },
+        {
+          "name": "trust-zh-TW",
+          "description": "合作博弈論的互動講解手冊 An interactive guide to the game theory of cooperation",
+          "stars": 300,
+          "language": "JavaScript"
+        },
+        {
+          "name": "lingua-sinica-perlyuyan",
+          "description": "Perl in Classical Chinese in Perl",
+          "stars": 284,
+          "language": "Perl"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": "https://audreyt.org/"
+    },
+    {
+      "login": "appleboy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21979?s=72&u=1a254eae0e4499dbb382ec3e3863ac8fa8b34ddd&v=4",
+      "name": "Bo-Yi Wu",
+      "company": "Mediatek",
+      "location": "Hsinchu, Taiwan",
+      "bio": "I really believe committing every day to an open-source project is the best practice. Golang GDE (Google Developer Expert) in 2023",
+      "followers": 7419,
+      "publicContributions": 3743,
+      "privateContributions": 91,
+      "languages": [
+        "Go",
+        "Shell"
+      ],
+      "topRepos": [
+        {
+          "name": "gorush",
+          "description": "A push notification server written in Go (Golang).",
+          "stars": 8703,
+          "language": "Go"
+        },
+        {
+          "name": "ssh-action",
+          "description": "GitHub Actions for executing remote ssh commands.",
+          "stars": 6031,
+          "language": "Shell"
+        },
+        {
+          "name": "gin-jwt",
+          "description": "JWT Middleware for Gin framework",
+          "stars": 2958,
+          "language": "Go"
+        },
+        {
+          "name": "scp-action",
+          "description": "GitHub Action that copy files and artifacts via SSH.",
+          "stars": 1543,
+          "language": "Shell"
+        },
+        {
+          "name": "CodeGPT",
+          "description": "A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.",
+          "stars": 1498,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "appleboy",
+      "blog": "https://blog.wu-boy.com"
+    },
+    {
+      "login": "jserv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/478921?s=72&v=4",
+      "name": "Jim Huang",
+      "company": "@BiiLabs",
+      "location": "Taipei City, Taiwan",
+      "bio": "",
+      "followers": 4353,
+      "publicContributions": 3151,
+      "privateContributions": 0,
+      "languages": [
+        "C"
+      ],
+      "topRepos": [
+        {
+          "name": "mini-arm-os",
+          "description": "Build a minimal multi-tasking OS kernel for ARM from scratch",
+          "stars": 1216,
+          "language": "C"
+        },
+        {
+          "name": "amacc",
+          "description": "Small C Compiler generating ELF executable Arm architecture, supporting JIT execution",
+          "stars": 1054,
+          "language": "C"
+        },
+        {
+          "name": "facebooc",
+          "description": "Yet another Facebook clone written in C",
+          "stars": 588,
+          "language": "C"
+        },
+        {
+          "name": "MazuCC",
+          "description": "A minimalist C compiler with x86_64 code generation",
+          "stars": 537,
+          "language": "C"
+        },
+        {
+          "name": "talks",
+          "description": "schedule and materials about my presentations",
+          "stars": 366,
+          "language": null
+        }
+      ],
+      "twitterUsername": "jserv",
+      "blog": null
+    },
+    {
+      "login": "doggy8088",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88981?s=72&u=dbe051f354e8b03759d10e78a4cc62b60cc61fe6&v=4",
+      "name": "Will 保哥",
+      "company": "多奇數位創意有限公司",
+      "location": "Taipei, Taiwan",
+      "bio": "現任「多奇數位創意有限公司」技術總監。2018 年榮獲 Angular GDE (Google Developer Expert) 開發專家。2019 獲選 Microsoft RD (技術社群區域總監)。連續 18 度當選微軟最有價值專家(MVP)。熟悉 AI、.NET 與 Angular 相關開發技術。",
+      "followers": 4316,
+      "publicContributions": 7846,
+      "privateContributions": 4885,
+      "languages": [
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "Learn-Git-in-30-days",
+          "description": "這是 Will 保哥在 2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎的得獎著作【30 天精通 Git 版本控管】，歡迎大家 fork 我，如果有看見任何文字勘誤，也歡迎利用 pull request 來通知我修正，謝謝！",
+          "stars": 4408,
+          "language": null
+        },
+        {
+          "name": "github-copilot-configs",
+          "description": "Will 保哥整理的最佳 GitHub Copilot 設定",
+          "stars": 1162,
+          "language": null
+        },
+        {
+          "name": "bilingual_book_maker",
+          "description": "Make bilingual epub books Using AI translate",
+          "stars": 767,
+          "language": "Python"
+        },
+        {
+          "name": "frontend-tools",
+          "description": "各式 Web 前端開發工具整理",
+          "stars": 720,
+          "language": null
+        },
+        {
+          "name": "CSS-Guidelines",
+          "description": "撰寫可管理、可維護的 CSS 高階技巧",
+          "stars": 404,
+          "language": null
+        }
+      ],
+      "twitterUsername": "Will_Huang",
+      "blog": "https://blog.miniasp.com/"
+    },
+    {
+      "login": "ikatyang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8341033?s=72&u=cb9bafc76e03a20c3a718610b9b5e1fe41f23cf6&v=4",
+      "name": "Ika",
+      "company": null,
+      "location": "Hsinchu, Taiwan",
+      "bio": "",
+      "followers": 3456,
+      "publicContributions": 4,
+      "privateContributions": 0,
+      "languages": [
+        "TypeScript",
+        "C++",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "emoji-cheat-sheet",
+          "description": "A markdown version emoji cheat sheet",
+          "stars": 13662,
+          "language": "TypeScript"
+        },
+        {
+          "name": "tree-sitter-markdown",
+          "description": "Markdown grammar for tree-sitter",
+          "stars": 193,
+          "language": "C++"
+        },
+        {
+          "name": "dts-jest",
+          "description": "A preprocessor for Jest to snapshot test TypeScript declaration (.d.ts) files",
+          "stars": 123,
+          "language": "TypeScript"
+        },
+        {
+          "name": "tree-sitter-yaml",
+          "description": "YAML grammar for tree-sitter",
+          "stars": 115,
+          "language": "JavaScript"
+        },
+        {
+          "name": "tree-sitter-vue",
+          "description": "Vue grammar for tree-sitter",
+          "stars": 86,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": "ikatyang_",
+      "blog": null
+    },
+    {
+      "login": "c9s",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50894?s=72&u=40f80ecad369e7af1662b6a18f5ddd09d8af64a7&v=4",
+      "name": null,
+      "company": null,
+      "location": "Taipei, Taiwan",
+      "bio": "a developer who really loves crafting tools\r\n",
+      "followers": 2760,
+      "publicContributions": 1859,
+      "privateContributions": 8,
+      "languages": [
+        "Go",
+        "C",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "bbgo",
+          "description": "The modern cryptocurrency trading bot framework written in Go.",
+          "stars": 1613,
+          "language": "Go"
+        },
+        {
+          "name": "Pux",
+          "description": "Pux is a fast PHP Router and includes out-of-box controller tools",
+          "stars": 1263,
+          "language": "C"
+        },
+        {
+          "name": "r3",
+          "description": "libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency",
+          "stars": 817,
+          "language": "C"
+        },
+        {
+          "name": "goprocinfo",
+          "description": "Linux /proc info parser for Go",
+          "stars": 795,
+          "language": "Go"
+        },
+        {
+          "name": "maghead",
+          "description": "The fastest pure PHP database framework with a powerful static code generator, supports horizontal scale up, designed for PHP7",
+          "stars": 479,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": "c9s",
+      "blog": null
+    },
+    {
+      "login": "xdite",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9004?s=72&u=d44b8acecb30dbb46db98a466c3cde7ed21583a3&v=4",
+      "name": "Yi-Ting Cheng",
+      "company": "OTCBTC",
+      "location": "Taipei, Taiwan ",
+      "bio": "CEO of OTCBTC",
+      "followers": 2696,
+      "publicContributions": 1,
+      "privateContributions": 0,
+      "languages": [
+        "Makefile",
+        "Python",
+        "Ruby"
+      ],
+      "topRepos": [
+        {
+          "name": "learn-hack",
+          "description": "打造超人學習",
+          "stars": 1579,
+          "language": null
+        },
+        {
+          "name": "internet-security",
+          "description": "互联网资安风控实战",
+          "stars": 490,
+          "language": "Makefile"
+        },
+        {
+          "name": "memory-hack",
+          "description": "打造超人大脑",
+          "stars": 483,
+          "language": "Makefile"
+        },
+        {
+          "name": "note-hack",
+          "description": "打造超人筆記",
+          "stars": 381,
+          "language": "Python"
+        },
+        {
+          "name": "bootstrappers",
+          "description": "Bootstrappers is the base Rails application using Bootstrap template and other goodies.",
+          "stars": 314,
+          "language": "Ruby"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": "http://xdite.com"
+    },
+    {
+      "login": "kwea123",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11364490?s=72&u=c3cb51741271b8c1f81dfa8ab18720e785316c27&v=4",
+      "name": "AI葵",
+      "company": "Luma AI",
+      "location": "Taipei",
+      "bio": "AI R&D in computer vision.\r\nDoing VTuber about DL algorithms. Check my channel! If you find my works helpful, please consider sponsoring!\r\n我有在做VTuber，歡迎訂閱我的頻道！",
+      "followers": 2445,
+      "publicContributions": 935,
+      "privateContributions": 935,
+      "languages": [
+        "Jupyter Notebook",
+        "Python",
+        "Cuda"
+      ],
+      "topRepos": [
+        {
+          "name": "nerf_pl",
+          "description": "NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning",
+          "stars": 2807,
+          "language": "Jupyter Notebook"
+        },
+        {
+          "name": "ngp_pl",
+          "description": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)",
+          "stars": 1290,
+          "language": "Jupyter Notebook"
+        },
+        {
+          "name": "VTuber_Unity",
+          "description": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+          "stars": 806,
+          "language": "Python"
+        },
+        {
+          "name": "gaussian_splatting_notes",
+          "description": "A detailed formulae explanation on gaussian splatting",
+          "stars": 598,
+          "language": null
+        },
+        {
+          "name": "pytorch-cppcuda-tutorial",
+          "description": "tutorial for writing custom pytorch cpp+cuda kernel, applied on volume rendering (NeRF)",
+          "stars": 422,
+          "language": "Cuda"
+        }
+      ],
+      "twitterUsername": "kwea123",
+      "blog": "https://www.youtube.com/channel/UC7UlsMUu_gIgpqNGB4SqSwQ"
+    },
+    {
+      "login": "twtrubiks",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16622269?s=72&u=3aba300e3598ff593b21275dfeb31dd32292195e&v=4",
+      "name": null,
+      "company": null,
+      "location": "Taiwan",
+      "bio": "Email twtrubiks@gmail.com\r\nYouTube https://www.youtube.com/user/blue524326\r\n",
+      "followers": 2371,
+      "publicContributions": 1110,
+      "privateContributions": 0,
+      "languages": [
+        "Python"
+      ],
+      "topRepos": [
+        {
+          "name": "docker-tutorial",
+          "description": "Docker 基本教學 - 從無到有 Docker-Beginners-Guide   教你用 Docker 建立 Django + PostgreSQL 📝",
+          "stars": 1862,
+          "language": "Python"
+        },
+        {
+          "name": "Git-Tutorials",
+          "description": "Git-Tutorials  GIT基本使用教學 :memo:",
+          "stars": 1072,
+          "language": null
+        },
+        {
+          "name": "django-rest-framework-tutorial",
+          "description": "Django-REST-framework 基本教學 - 從無到有 DRF-Beginners-Guide 📝",
+          "stars": 877,
+          "language": "Python"
+        },
+        {
+          "name": "django-tutorial",
+          "description": "Django 基本教學 - 從無到有 Django-Beginners-Guide 📝",
+          "stars": 527,
+          "language": "Python"
+        },
+        {
+          "name": "docker-django-nginx-uwsgi-postgres-tutorial",
+          "description": " Docker + Django + Nginx + uWSGI + Postgres  基本教學 - 從無到有 ( Docker + Django + Nginx + uWSGI + Postgres Tutorial ) ",
+          "stars": 436,
+          "language": "Python"
+        }
+      ],
+      "twitterUsername": null,
+      "blog": "https://www.facebook.com/TWTRubiks"
+    },
+    {
+      "login": "peter279k",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9021747?s=72&u=4cb0eb4e04d503fdb6f162e42f76d2854e48c4e8&v=4",
+      "name": "Chun-Sheng, Li",
+      "company": "Institute for Information Industry",
+      "location": "Taipei, Taiwan",
+      "bio": "Hacker's thought.\r\nDon't know, but want to do.",
+      "followers": 2134,
+      "publicContributions": 39674,
+      "privateContributions": 183,
+      "languages": [
+        "Python",
+        "HTML",
+        "PHP"
+      ],
+      "topRepos": [
+        {
+          "name": "github-follower-bot",
+          "description": "My GitHub Follower Bot",
+          "stars": 56,
+          "language": "Python"
+        },
+        {
+          "name": "web-youtube-downloader",
+          "description": "This is the web-based youtube-downloader service",
+          "stars": 27,
+          "language": "HTML"
+        },
+        {
+          "name": "yt-dlp-api",
+          "description": "The simple yt-dlp-api server is used to extract YouTube video URL easily",
+          "stars": 20,
+          "language": "Python"
+        },
+        {
+          "name": "wifi_login_php",
+          "description": "This is a php program login NTTU and part of NTOU wireless network for programmer.",
+          "stars": 18,
+          "language": "PHP"
+        },
+        {
+          "name": "simple-container",
+          "description": "This is about the simple container to help developers to inject specific classes easily!",
+          "stars": 14,
+          "language": "PHP"
+        }
+      ],
+      "twitterUsername": "peter279k",
+      "blog": "https://peterli.website"
+    },
+    {
+      "login": "tommy351",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/411425?s=72&u=e804ba2d5c4b2b372f0a0e7a99de04ac224f4744&v=4",
+      "name": "Tommy Chen",
+      "company": "@Dcard ",
+      "location": "Taipei",
+      "bio": "",
+      "followers": 2077,
+      "publicContributions": 2447,
+      "privateContributions": 2359,
+      "languages": [
+        "Java",
+        "TypeScript",
+        "CSS",
+        "Dart"
+      ],
+      "topRepos": [
+        {
+          "name": "ehreader-android",
+          "description": "[NO MAINTENANCE] The best E-Hentai Reader for Android ever!",
+          "stars": 381,
+          "language": "Java"
+        },
+        {
+          "name": "kosko",
+          "description": "Organize Kubernetes manifests in TypeScript.",
+          "stars": 360,
+          "language": "TypeScript"
+        },
+        {
+          "name": "Octopress-Theme-Slash",
+          "description": "Slash — a minimal theme for Octopress",
+          "stars": 341,
+          "language": "CSS"
+        },
+        {
+          "name": "kubernetes-models-ts",
+          "description": "Kubernetes models in TypeScript.",
+          "stars": 160,
+          "language": "TypeScript"
+        },
+        {
+          "name": "eh-redux",
+          "description": "A E-Hentai reader written in Flutter.",
+          "stars": 111,
+          "language": "Dart"
+        }
+      ],
+      "twitterUsername": "tommy351",
+      "blog": "https://zespia.me"
+    },
+    {
+      "login": "aszx87410",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2755720?s=72&u=de94f13a7de1a00848399b195f15b22a4cbdb349&v=4",
+      "name": "Huli",
+      "company": null,
+      "location": "Taipei, Taiwan",
+      "bio": "Love coding, teaching, and writing. Believe sharing can make the world a better place.",
+      "followers": 2041,
+      "publicContributions": 137,
+      "privateContributions": 59,
+      "languages": [
+        "HTML",
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "blog",
+          "description": "A tech blog about Front-end, JavaScript and Security",
+          "stars": 1110,
+          "language": null
+        },
+        {
+          "name": "frontend-intermediate-course",
+          "description": "It's a free online course about some frontend tech including Ajax, CORS, gulp, webpack and so on.",
+          "stars": 272,
+          "language": "HTML"
+        },
+        {
+          "name": "beyond-xss",
+          "description": "Beyond XSS: Explore the Web Front-end Security Universe. A series about front-end security",
+          "stars": 177,
+          "language": "JavaScript"
+        },
+        {
+          "name": "ctf-writeups",
+          "description": "ctf writeups",
+          "stars": 62,
+          "language": null
+        },
+        {
+          "name": "programming-tutorial-review",
+          "description": "在台北舉辦免費程式教學的記錄與一些心得",
+          "stars": 50,
+          "language": null
+        }
+      ],
+      "twitterUsername": null,
+      "blog": "https://blog.huli.tw/about/"
+    },
+    {
+      "login": "FongMi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3471963?s=72&u=ead8816961f79444d9c69b344365e431706515f9&v=4",
+      "name": null,
+      "company": null,
+      "location": "Taiwan",
+      "bio": "Android Developer",
+      "followers": 1950,
+      "publicContributions": 468,
+      "privateContributions": 0,
+      "languages": [
+        "Java",
+        "Batchfile"
+      ],
+      "topRepos": [
+        {
+          "name": "TV",
+          "description": null,
+          "stars": 7633,
+          "language": "Java"
+        },
+        {
+          "name": "Release",
+          "description": null,
+          "stars": 5696,
+          "language": "Batchfile"
+        },
+        {
+          "name": "CatVodSpider",
+          "description": null,
+          "stars": 832,
+          "language": "Java"
+        },
+        {
+          "name": "media",
+          "description": null,
+          "stars": 309,
+          "language": "Java"
+        },
+        {
+          "name": "FongMi",
+          "description": null,
+          "stars": 41,
+          "language": null
+        }
+      ],
+      "twitterUsername": null,
+      "blog": null
+    },
+    {
+      "login": "chentsulin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3382565?s=72&u=536713f6c30e718b10509f649e3ffa0585f911fe&v=4",
+      "name": "C. T. Lin",
+      "company": "@Dcard",
+      "location": "Taipei, Taiwan",
+      "bio": "Try everything with JavaScript!",
+      "followers": 1942,
+      "publicContributions": 7237,
+      "privateContributions": 7219,
+      "languages": [
+        "JavaScript"
+      ],
+      "topRepos": [
+        {
+          "name": "awesome-graphql",
+          "description": "Awesome list of GraphQL",
+          "stars": 14997,
+          "language": null
+        },
+        {
+          "name": "awesome-react-renderer",
+          "description": "Awesome list of React Renderer",
+          "stars": 2054,
+          "language": null
+        },
+        {
+          "name": "sweetalert-react",
+          "description": "Declarative SweetAlert in React",
+          "stars": 239,
+          "language": "JavaScript"
+        },
+        {
+          "name": "react-native-counter-ios-android",
+          "description": "Minimal implement of redux counter example on ReactNative iOS and Android",
+          "stars": 238,
+          "language": "JavaScript"
+        },
+        {
+          "name": "redux",
+          "description": "繁體中文 redux 文件翻譯：",
+          "stars": 203,
+          "language": "JavaScript"
+        }
+      ],
+      "twitterUsername": "chentsulin",
+      "blog": null
+    },
+    {
+      "login": "PeterDaveHello",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3691490?s=72&u=4dee3c8d8045eccca432b07645c80fbbe61d1c36&v=4",
+      "name": "Peter Dave Hello",
+      "company": "@DNSCrypt @nodejs @maintainers  @campus-experts  @transmission-remote-gui",
+      "location": "Taiwan, R.O.C",
+      "bio": "I'm a passionate Free & Open Source enthusiast. Working on CyberSecurity & zh-TW localization. A 👨🏼 who ♥️ Debian GNU/Linux 🐧 lives in 🇹🇼",
+      "followers": 1754,
+      "publicContributions": 1873,
+      "privateContributions": 0,
+      "languages": [
+        "Dockerfile",
+        "Shell"
+      ],
+      "topRepos": [
+        {
+          "name": "tor-socks-proxy",
+          "description": "🐳 Tiny Docker image (🤏 10MB) as 🧅 Tor SOCKS5 proxy 🛡",
+          "stars": 631,
+          "language": "Dockerfile"
+        },
+        {
+          "name": "top-1m-domains",
+          "description": "🌐 List of free and downloadable top 1M domain list (alexa alternatives) 📊",
+          "stars": 285,
+          "language": null
+        },
+        {
+          "name": "ipinfo.tw",
+          "description": "🐳 A self-host  🙅 non-tracking, AD-🆓 ➕ 🍪-🆓 solution to show your IP ℹ️ Super small (🤏10MB)",
+          "stars": 237,
+          "language": "Dockerfile"
+        },
+        {
+          "name": "url-shorteners",
+          "description": "A comprehensive, high-quality URL shorteners domain list for whitelist/allowlist or blacklist/blocklist purposes, utilized by NextDNS, ControlD, RethinkDNS, dnslow.me, and other OSINT projects.",
+          "stars": 159,
+          "language": "Shell"
+        },
+        {
+          "name": "ColorEchoForShell",
+          "description": "Make 🐚(shell) 's 💬 (`echo`)  to be 🎨 easily ✨ Support ✅ sh ➕ bash ➕ zsh ➕ ksh ➕ 🐟 One simple command for vibrant text output! 💫",
+          "stars": 124,
+          "language": "Shell"
+        }
+      ],
+      "twitterUsername": "PeterDaveHello",
+      "blog": "https://www.peterdavehello.org/"
+    },
+    {
+      "login": "kkdai",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2252691?s=72&u=56565c02d009db79badb18957117ac8b6c1fe645&v=4",
+      "name": "Evan Lin",
+      "company": "LINE Taiwan",
+      "location": "Taipei, Taiwan",
+      "bio": "Attitude is Everything.\r\nLead of LINE Taiwan DevRel Team. Golang & AI GDE.",
+      "followers": 1660,
+      "publicContributions": 973,
+      "privateContributions": 38,
+      "languages": [
+        "Go"
+      ],
+      "topRepos": [
+        {
+          "name": "youtube",
+          "description": "Download Youtube Video in Golang",
+          "stars": 3846,
+          "language": "Go"
+        },
+        {
+          "name": "project52",
+          "description": "52 weeks, 52 Go projects",
+          "stars": 1462,
+          "language": null
+        },
+        {
+          "name": "maglev",
+          "description": "A Google Maglev Hashing Algorithm implement in Golang",
+          "stars": 290,
+          "language": "Go"
+        },
+        {
+          "name": "chatgpt",
+          "description": "ChatGPT Console client in Golang",
+          "stars": 247,
+          "language": "Go"
+        },
+        {
+          "name": "LineBotTemplate",
+          "description": "A simple Golang LINE bot Template and tutorial how to setup on Heroku for LINE bot API",
+          "stars": 201,
+          "language": "Go"
+        }
+      ],
+      "twitterUsername": "Evan_Lin",
+      "blog": "https://about.me/ifenglin"
+    },
+    {
+      "login": "kaochenlong",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33090?s=72&u=0007d2b09d49f01f70d17a47453791a95a5eee3d&v=4",
+      "name": "Eddie Kao 高見龍",
+      "company": "5xCampus 五倍學院",
+      "location": "Taiwan, Taipei",
+      "bio": "五倍學院負責人,  Ruby/Rails/Python/Django/JavaScript Developer and Instructor, Book author.",
+      "followers": 1539,
+      "publicContributions": 2913,
+      "privateContributions": 2565,
+      "languages": [
+        "Vim Script"
+      ],
+      "topRepos": [
+        {
+          "name": "spectra-app",
+          "description": null,
+          "stars": 398,
+          "language": null
+        },
+        {
+          "name": "eddie-vim",
+          "description": "Yet another vimrc",
+          "stars": 379,
+          "language": "Vim Script"
+        },
+        {
+          "name": "eddie-vim2",
+          "description": "Yet another vimrc",
+          "stars": 157,
+          "language": "Vim Script"
+        },
+        {
+          "name": "learn-ruby-on-rails",
+          "description": "為你自己學 Ruby on Rails",
+          "stars": 128,
+          "language": null
+        },
+        {
+          "name": "cch",
+          "description": "My yet another Vim setttings",
+          "stars": 75,
+          "language": "Vim Script"
+        }
+      ],
+      "twitterUsername": "eddiekao",
+      "blog": "https://kaochenlong.com/"
+    }
+  ],
+  "rankings": {
+    "public_contributions": [
+      {
+        "login": "peter279k",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9021747?s=72&u=4cb0eb4e04d503fdb6f162e42f76d2854e48c4e8&v=4",
+        "name": "Chun-Sheng, Li",
+        "company": "Institute for Information Industry",
+        "location": "Taipei, Taiwan",
+        "bio": "Hacker's thought.\r\nDon't know, but want to do.",
+        "followers": 2134,
+        "publicContributions": 39674,
+        "privateContributions": 183,
+        "languages": [
+          "Python",
+          "HTML",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "github-follower-bot",
+            "description": "My GitHub Follower Bot",
+            "stars": 56,
+            "language": "Python"
+          },
+          {
+            "name": "web-youtube-downloader",
+            "description": "This is the web-based youtube-downloader service",
+            "stars": 27,
+            "language": "HTML"
+          },
+          {
+            "name": "yt-dlp-api",
+            "description": "The simple yt-dlp-api server is used to extract YouTube video URL easily",
+            "stars": 20,
+            "language": "Python"
+          },
+          {
+            "name": "wifi_login_php",
+            "description": "This is a php program login NTTU and part of NTOU wireless network for programmer.",
+            "stars": 18,
+            "language": "PHP"
+          },
+          {
+            "name": "simple-container",
+            "description": "This is about the simple container to help developers to inject specific classes easily!",
+            "stars": 14,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "peter279k",
+        "blog": "https://peterli.website"
+      },
+      {
+        "login": "doggy8088",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88981?s=72&u=dbe051f354e8b03759d10e78a4cc62b60cc61fe6&v=4",
+        "name": "Will 保哥",
+        "company": "多奇數位創意有限公司",
+        "location": "Taipei, Taiwan",
+        "bio": "現任「多奇數位創意有限公司」技術總監。2018 年榮獲 Angular GDE (Google Developer Expert) 開發專家。2019 獲選 Microsoft RD (技術社群區域總監)。連續 18 度當選微軟最有價值專家(MVP)。熟悉 AI、.NET 與 Angular 相關開發技術。",
+        "followers": 4316,
+        "publicContributions": 7846,
+        "privateContributions": 4885,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "Learn-Git-in-30-days",
+            "description": "這是 Will 保哥在 2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎的得獎著作【30 天精通 Git 版本控管】，歡迎大家 fork 我，如果有看見任何文字勘誤，也歡迎利用 pull request 來通知我修正，謝謝！",
+            "stars": 4408,
+            "language": null
+          },
+          {
+            "name": "github-copilot-configs",
+            "description": "Will 保哥整理的最佳 GitHub Copilot 設定",
+            "stars": 1162,
+            "language": null
+          },
+          {
+            "name": "bilingual_book_maker",
+            "description": "Make bilingual epub books Using AI translate",
+            "stars": 767,
+            "language": "Python"
+          },
+          {
+            "name": "frontend-tools",
+            "description": "各式 Web 前端開發工具整理",
+            "stars": 720,
+            "language": null
+          },
+          {
+            "name": "CSS-Guidelines",
+            "description": "撰寫可管理、可維護的 CSS 高階技巧",
+            "stars": 404,
+            "language": null
+          }
+        ],
+        "twitterUsername": "Will_Huang",
+        "blog": "https://blog.miniasp.com/"
+      },
+      {
+        "login": "chentsulin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3382565?s=72&u=536713f6c30e718b10509f649e3ffa0585f911fe&v=4",
+        "name": "C. T. Lin",
+        "company": "@Dcard",
+        "location": "Taipei, Taiwan",
+        "bio": "Try everything with JavaScript!",
+        "followers": 1942,
+        "publicContributions": 7237,
+        "privateContributions": 7219,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "awesome-graphql",
+            "description": "Awesome list of GraphQL",
+            "stars": 14997,
+            "language": null
+          },
+          {
+            "name": "awesome-react-renderer",
+            "description": "Awesome list of React Renderer",
+            "stars": 2054,
+            "language": null
+          },
+          {
+            "name": "sweetalert-react",
+            "description": "Declarative SweetAlert in React",
+            "stars": 239,
+            "language": "JavaScript"
+          },
+          {
+            "name": "react-native-counter-ios-android",
+            "description": "Minimal implement of redux counter example on ReactNative iOS and Android",
+            "stars": 238,
+            "language": "JavaScript"
+          },
+          {
+            "name": "redux",
+            "description": "繁體中文 redux 文件翻譯：",
+            "stars": 203,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "chentsulin",
+        "blog": null
+      },
+      {
+        "login": "vinta",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/652070?s=72&u=25dca0371a54b997c61ed58fcdd2398d4958d1f3&v=4",
+        "name": "Vinta Chen",
+        "company": null,
+        "location": "Taiwan",
+        "bio": "爛命一條",
+        "followers": 9133,
+        "publicContributions": 6510,
+        "privateContributions": 3900,
+        "languages": [
+          "Python",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "awesome-python",
+            "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
+            "stars": 289315,
+            "language": "Python"
+          },
+          {
+            "name": "pangu.js",
+            "description": "Opinionated paranoid text spacing in JavaScript",
+            "stars": 4737,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fuck-coding-interviews",
+            "description": "How on earth can I ever think of a solution like that in an interview?!",
+            "stars": 740,
+            "language": "Python"
+          },
+          {
+            "name": "pangu.py",
+            "description": "Paranoid text spacing in Python",
+            "stars": 277,
+            "language": "Python"
+          },
+          {
+            "name": "JokeKappa",
+            "description": "A library for delivering one-line programming jokes",
+            "stars": 189,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "vinta",
+        "blog": "https://vinta.ws/code/"
+      },
+      {
+        "login": "appleboy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21979?s=72&u=1a254eae0e4499dbb382ec3e3863ac8fa8b34ddd&v=4",
+        "name": "Bo-Yi Wu",
+        "company": "Mediatek",
+        "location": "Hsinchu, Taiwan",
+        "bio": "I really believe committing every day to an open-source project is the best practice. Golang GDE (Google Developer Expert) in 2023",
+        "followers": 7419,
+        "publicContributions": 3743,
+        "privateContributions": 91,
+        "languages": [
+          "Go",
+          "Shell"
+        ],
+        "topRepos": [
+          {
+            "name": "gorush",
+            "description": "A push notification server written in Go (Golang).",
+            "stars": 8703,
+            "language": "Go"
+          },
+          {
+            "name": "ssh-action",
+            "description": "GitHub Actions for executing remote ssh commands.",
+            "stars": 6031,
+            "language": "Shell"
+          },
+          {
+            "name": "gin-jwt",
+            "description": "JWT Middleware for Gin framework",
+            "stars": 2958,
+            "language": "Go"
+          },
+          {
+            "name": "scp-action",
+            "description": "GitHub Action that copy files and artifacts via SSH.",
+            "stars": 1543,
+            "language": "Shell"
+          },
+          {
+            "name": "CodeGPT",
+            "description": "A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.",
+            "stars": 1498,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "appleboy",
+        "blog": "https://blog.wu-boy.com"
+      },
+      {
+        "login": "jserv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/478921?s=72&v=4",
+        "name": "Jim Huang",
+        "company": "@BiiLabs",
+        "location": "Taipei City, Taiwan",
+        "bio": "",
+        "followers": 4353,
+        "publicContributions": 3151,
+        "privateContributions": 0,
+        "languages": [
+          "C"
+        ],
+        "topRepos": [
+          {
+            "name": "mini-arm-os",
+            "description": "Build a minimal multi-tasking OS kernel for ARM from scratch",
+            "stars": 1216,
+            "language": "C"
+          },
+          {
+            "name": "amacc",
+            "description": "Small C Compiler generating ELF executable Arm architecture, supporting JIT execution",
+            "stars": 1054,
+            "language": "C"
+          },
+          {
+            "name": "facebooc",
+            "description": "Yet another Facebook clone written in C",
+            "stars": 588,
+            "language": "C"
+          },
+          {
+            "name": "MazuCC",
+            "description": "A minimalist C compiler with x86_64 code generation",
+            "stars": 537,
+            "language": "C"
+          },
+          {
+            "name": "talks",
+            "description": "schedule and materials about my presentations",
+            "stars": 366,
+            "language": null
+          }
+        ],
+        "twitterUsername": "jserv",
+        "blog": null
+      },
+      {
+        "login": "kaochenlong",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33090?s=72&u=0007d2b09d49f01f70d17a47453791a95a5eee3d&v=4",
+        "name": "Eddie Kao 高見龍",
+        "company": "5xCampus 五倍學院",
+        "location": "Taiwan, Taipei",
+        "bio": "五倍學院負責人,  Ruby/Rails/Python/Django/JavaScript Developer and Instructor, Book author.",
+        "followers": 1539,
+        "publicContributions": 2913,
+        "privateContributions": 2565,
+        "languages": [
+          "Vim Script"
+        ],
+        "topRepos": [
+          {
+            "name": "spectra-app",
+            "description": null,
+            "stars": 398,
+            "language": null
+          },
+          {
+            "name": "eddie-vim",
+            "description": "Yet another vimrc",
+            "stars": 379,
+            "language": "Vim Script"
+          },
+          {
+            "name": "eddie-vim2",
+            "description": "Yet another vimrc",
+            "stars": 157,
+            "language": "Vim Script"
+          },
+          {
+            "name": "learn-ruby-on-rails",
+            "description": "為你自己學 Ruby on Rails",
+            "stars": 128,
+            "language": null
+          },
+          {
+            "name": "cch",
+            "description": "My yet another Vim setttings",
+            "stars": 75,
+            "language": "Vim Script"
+          }
+        ],
+        "twitterUsername": "eddiekao",
+        "blog": "https://kaochenlong.com/"
+      },
+      {
+        "login": "tommy351",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/411425?s=72&u=e804ba2d5c4b2b372f0a0e7a99de04ac224f4744&v=4",
+        "name": "Tommy Chen",
+        "company": "@Dcard ",
+        "location": "Taipei",
+        "bio": "",
+        "followers": 2077,
+        "publicContributions": 2447,
+        "privateContributions": 2359,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "CSS",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ehreader-android",
+            "description": "[NO MAINTENANCE] The best E-Hentai Reader for Android ever!",
+            "stars": 381,
+            "language": "Java"
+          },
+          {
+            "name": "kosko",
+            "description": "Organize Kubernetes manifests in TypeScript.",
+            "stars": 360,
+            "language": "TypeScript"
+          },
+          {
+            "name": "Octopress-Theme-Slash",
+            "description": "Slash — a minimal theme for Octopress",
+            "stars": 341,
+            "language": "CSS"
+          },
+          {
+            "name": "kubernetes-models-ts",
+            "description": "Kubernetes models in TypeScript.",
+            "stars": 160,
+            "language": "TypeScript"
+          },
+          {
+            "name": "eh-redux",
+            "description": "A E-Hentai reader written in Flutter.",
+            "stars": 111,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "tommy351",
+        "blog": "https://zespia.me"
+      },
+      {
+        "login": "PeterDaveHello",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3691490?s=72&u=4dee3c8d8045eccca432b07645c80fbbe61d1c36&v=4",
+        "name": "Peter Dave Hello",
+        "company": "@DNSCrypt @nodejs @maintainers  @campus-experts  @transmission-remote-gui",
+        "location": "Taiwan, R.O.C",
+        "bio": "I'm a passionate Free & Open Source enthusiast. Working on CyberSecurity & zh-TW localization. A 👨🏼 who ♥️ Debian GNU/Linux 🐧 lives in 🇹🇼",
+        "followers": 1754,
+        "publicContributions": 1873,
+        "privateContributions": 0,
+        "languages": [
+          "Dockerfile",
+          "Shell"
+        ],
+        "topRepos": [
+          {
+            "name": "tor-socks-proxy",
+            "description": "🐳 Tiny Docker image (🤏 10MB) as 🧅 Tor SOCKS5 proxy 🛡",
+            "stars": 631,
+            "language": "Dockerfile"
+          },
+          {
+            "name": "top-1m-domains",
+            "description": "🌐 List of free and downloadable top 1M domain list (alexa alternatives) 📊",
+            "stars": 285,
+            "language": null
+          },
+          {
+            "name": "ipinfo.tw",
+            "description": "🐳 A self-host  🙅 non-tracking, AD-🆓 ➕ 🍪-🆓 solution to show your IP ℹ️ Super small (🤏10MB)",
+            "stars": 237,
+            "language": "Dockerfile"
+          },
+          {
+            "name": "url-shorteners",
+            "description": "A comprehensive, high-quality URL shorteners domain list for whitelist/allowlist or blacklist/blocklist purposes, utilized by NextDNS, ControlD, RethinkDNS, dnslow.me, and other OSINT projects.",
+            "stars": 159,
+            "language": "Shell"
+          },
+          {
+            "name": "ColorEchoForShell",
+            "description": "Make 🐚(shell) 's 💬 (`echo`)  to be 🎨 easily ✨ Support ✅ sh ➕ bash ➕ zsh ➕ ksh ➕ 🐟 One simple command for vibrant text output! 💫",
+            "stars": 124,
+            "language": "Shell"
+          }
+        ],
+        "twitterUsername": "PeterDaveHello",
+        "blog": "https://www.peterdavehello.org/"
+      },
+      {
+        "login": "c9s",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50894?s=72&u=40f80ecad369e7af1662b6a18f5ddd09d8af64a7&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taipei, Taiwan",
+        "bio": "a developer who really loves crafting tools\r\n",
+        "followers": 2760,
+        "publicContributions": 1859,
+        "privateContributions": 8,
+        "languages": [
+          "Go",
+          "C",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bbgo",
+            "description": "The modern cryptocurrency trading bot framework written in Go.",
+            "stars": 1613,
+            "language": "Go"
+          },
+          {
+            "name": "Pux",
+            "description": "Pux is a fast PHP Router and includes out-of-box controller tools",
+            "stars": 1263,
+            "language": "C"
+          },
+          {
+            "name": "r3",
+            "description": "libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency",
+            "stars": 817,
+            "language": "C"
+          },
+          {
+            "name": "goprocinfo",
+            "description": "Linux /proc info parser for Go",
+            "stars": 795,
+            "language": "Go"
+          },
+          {
+            "name": "maghead",
+            "description": "The fastest pure PHP database framework with a powerful static code generator, supports horizontal scale up, designed for PHP7",
+            "stars": 479,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "c9s",
+        "blog": null
+      },
+      {
+        "login": "twtrubiks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16622269?s=72&u=3aba300e3598ff593b21275dfeb31dd32292195e&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taiwan",
+        "bio": "Email twtrubiks@gmail.com\r\nYouTube https://www.youtube.com/user/blue524326\r\n",
+        "followers": 2371,
+        "publicContributions": 1110,
+        "privateContributions": 0,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "docker-tutorial",
+            "description": "Docker 基本教學 - 從無到有 Docker-Beginners-Guide   教你用 Docker 建立 Django + PostgreSQL 📝",
+            "stars": 1862,
+            "language": "Python"
+          },
+          {
+            "name": "Git-Tutorials",
+            "description": "Git-Tutorials  GIT基本使用教學 :memo:",
+            "stars": 1072,
+            "language": null
+          },
+          {
+            "name": "django-rest-framework-tutorial",
+            "description": "Django-REST-framework 基本教學 - 從無到有 DRF-Beginners-Guide 📝",
+            "stars": 877,
+            "language": "Python"
+          },
+          {
+            "name": "django-tutorial",
+            "description": "Django 基本教學 - 從無到有 Django-Beginners-Guide 📝",
+            "stars": 527,
+            "language": "Python"
+          },
+          {
+            "name": "docker-django-nginx-uwsgi-postgres-tutorial",
+            "description": " Docker + Django + Nginx + uWSGI + Postgres  基本教學 - 從無到有 ( Docker + Django + Nginx + uWSGI + Postgres Tutorial ) ",
+            "stars": 436,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://www.facebook.com/TWTRubiks"
+      },
+      {
+        "login": "audreyt",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20723?s=72&u=e62196e2bf22f806d142975f3751362642280c10&v=4",
+        "name": "唐鳳",
+        "company": "@g0v ",
+        "location": "Taiwan",
+        "bio": "🇹🇼 Cyber Ambassador, 1st Digital Minister (2016-2024) & 🌐 1st 🏳️‍⚧️ cabinet minister.",
+        "followers": 8824,
+        "publicContributions": 1039,
+        "privateContributions": 0,
+        "languages": [
+          "JavaScript",
+          "C++",
+          "Perl"
+        ],
+        "topRepos": [
+          {
+            "name": "ethercalc",
+            "description": "Node.js port of Multi-user SocialCalc",
+            "stars": 3031,
+            "language": "JavaScript"
+          },
+          {
+            "name": "node-webworker-threads",
+            "description": "Lightweight Web Worker API implementation with native threads",
+            "stars": 2285,
+            "language": "C++"
+          },
+          {
+            "name": "500lines",
+            "description": "500 Lines or Less",
+            "stars": 469,
+            "language": "JavaScript"
+          },
+          {
+            "name": "trust-zh-TW",
+            "description": "合作博弈論的互動講解手冊 An interactive guide to the game theory of cooperation",
+            "stars": 300,
+            "language": "JavaScript"
+          },
+          {
+            "name": "lingua-sinica-perlyuyan",
+            "description": "Perl in Classical Chinese in Perl",
+            "stars": 284,
+            "language": "Perl"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://audreyt.org/"
+      },
+      {
+        "login": "kkdai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2252691?s=72&u=56565c02d009db79badb18957117ac8b6c1fe645&v=4",
+        "name": "Evan Lin",
+        "company": "LINE Taiwan",
+        "location": "Taipei, Taiwan",
+        "bio": "Attitude is Everything.\r\nLead of LINE Taiwan DevRel Team. Golang & AI GDE.",
+        "followers": 1660,
+        "publicContributions": 973,
+        "privateContributions": 38,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "youtube",
+            "description": "Download Youtube Video in Golang",
+            "stars": 3846,
+            "language": "Go"
+          },
+          {
+            "name": "project52",
+            "description": "52 weeks, 52 Go projects",
+            "stars": 1462,
+            "language": null
+          },
+          {
+            "name": "maglev",
+            "description": "A Google Maglev Hashing Algorithm implement in Golang",
+            "stars": 290,
+            "language": "Go"
+          },
+          {
+            "name": "chatgpt",
+            "description": "ChatGPT Console client in Golang",
+            "stars": 247,
+            "language": "Go"
+          },
+          {
+            "name": "LineBotTemplate",
+            "description": "A simple Golang LINE bot Template and tutorial how to setup on Heroku for LINE bot API",
+            "stars": 201,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "Evan_Lin",
+        "blog": "https://about.me/ifenglin"
+      },
+      {
+        "login": "kwea123",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11364490?s=72&u=c3cb51741271b8c1f81dfa8ab18720e785316c27&v=4",
+        "name": "AI葵",
+        "company": "Luma AI",
+        "location": "Taipei",
+        "bio": "AI R&D in computer vision.\r\nDoing VTuber about DL algorithms. Check my channel! If you find my works helpful, please consider sponsoring!\r\n我有在做VTuber，歡迎訂閱我的頻道！",
+        "followers": 2445,
+        "publicContributions": 935,
+        "privateContributions": 935,
+        "languages": [
+          "Jupyter Notebook",
+          "Python",
+          "Cuda"
+        ],
+        "topRepos": [
+          {
+            "name": "nerf_pl",
+            "description": "NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning",
+            "stars": 2807,
+            "language": "Jupyter Notebook"
+          },
+          {
+            "name": "ngp_pl",
+            "description": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)",
+            "stars": 1290,
+            "language": "Jupyter Notebook"
+          },
+          {
+            "name": "VTuber_Unity",
+            "description": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+            "stars": 806,
+            "language": "Python"
+          },
+          {
+            "name": "gaussian_splatting_notes",
+            "description": "A detailed formulae explanation on gaussian splatting",
+            "stars": 598,
+            "language": null
+          },
+          {
+            "name": "pytorch-cppcuda-tutorial",
+            "description": "tutorial for writing custom pytorch cpp+cuda kernel, applied on volume rendering (NeRF)",
+            "stars": 422,
+            "language": "Cuda"
+          }
+        ],
+        "twitterUsername": "kwea123",
+        "blog": "https://www.youtube.com/channel/UC7UlsMUu_gIgpqNGB4SqSwQ"
+      },
+      {
+        "login": "muan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1153134?s=72&u=c562ce1cb756e290b950a72458dfe5adc5694bdd&v=4",
+        "name": "Mu-An Chiou",
+        "company": null,
+        "location": "Taipei",
+        "bio": "So, create.",
+        "followers": 11352,
+        "publicContributions": 568,
+        "privateContributions": 403,
+        "languages": [
+          "CSS",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "emoji",
+            "description": ":love_letter: Find the emoji that echoes your mind.",
+            "stars": 2277,
+            "language": "CSS"
+          },
+          {
+            "name": "mojibar",
+            "description": ":tangerine: Emoji searcher but as a menubar app.",
+            "stars": 2038,
+            "language": "JavaScript"
+          },
+          {
+            "name": "emojilib",
+            "description": "Emoji keyword library.",
+            "stars": 1768,
+            "language": "JavaScript"
+          },
+          {
+            "name": "github-gmail",
+            "description": "[WebExtension] Open GitHub notifications with shortcuts in Gmail. ",
+            "stars": 1248,
+            "language": "JavaScript"
+          },
+          {
+            "name": "github-dashboard",
+            "description": "[Web extension] Filter events on github.com activity dashboard.",
+            "stars": 916,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://muan.co"
+      },
+      {
+        "login": "topjohnwu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7337301?s=72&v=4",
+        "name": "John Wu",
+        "company": null,
+        "location": "US / Taiwan",
+        "bio": "",
+        "followers": 11641,
+        "publicContributions": 539,
+        "privateContributions": 0,
+        "languages": [
+          "Kotlin",
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "Magisk",
+            "description": "The Magic Mask for Android",
+            "stars": 59555,
+            "language": "Kotlin"
+          },
+          {
+            "name": "libsu",
+            "description": "A complete solution for apps using root permissions",
+            "stars": 2042,
+            "language": "Java"
+          },
+          {
+            "name": "MagiskManager",
+            "description": "Companion Android application for Magisk",
+            "stars": 1582,
+            "language": "Java"
+          },
+          {
+            "name": "zygisk-module-sample",
+            "description": "A sample project for building Zygisk modules",
+            "stars": 981,
+            "language": "C++"
+          },
+          {
+            "name": "magisk_files",
+            "description": "(Deprecated) Magisk File Host",
+            "stars": 666,
+            "language": null
+          }
+        ],
+        "twitterUsername": "topjohnwu",
+        "blog": null
+      },
+      {
+        "login": "FongMi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3471963?s=72&u=ead8816961f79444d9c69b344365e431706515f9&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taiwan",
+        "bio": "Android Developer",
+        "followers": 1950,
+        "publicContributions": 468,
+        "privateContributions": 0,
+        "languages": [
+          "Java",
+          "Batchfile"
+        ],
+        "topRepos": [
+          {
+            "name": "TV",
+            "description": null,
+            "stars": 7633,
+            "language": "Java"
+          },
+          {
+            "name": "Release",
+            "description": null,
+            "stars": 5696,
+            "language": "Batchfile"
+          },
+          {
+            "name": "CatVodSpider",
+            "description": null,
+            "stars": 832,
+            "language": "Java"
+          },
+          {
+            "name": "media",
+            "description": null,
+            "stars": 309,
+            "language": "Java"
+          },
+          {
+            "name": "FongMi",
+            "description": null,
+            "stars": 41,
+            "language": null
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aszx87410",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2755720?s=72&u=de94f13a7de1a00848399b195f15b22a4cbdb349&v=4",
+        "name": "Huli",
+        "company": null,
+        "location": "Taipei, Taiwan",
+        "bio": "Love coding, teaching, and writing. Believe sharing can make the world a better place.",
+        "followers": 2041,
+        "publicContributions": 137,
+        "privateContributions": 59,
+        "languages": [
+          "HTML",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "blog",
+            "description": "A tech blog about Front-end, JavaScript and Security",
+            "stars": 1110,
+            "language": null
+          },
+          {
+            "name": "frontend-intermediate-course",
+            "description": "It's a free online course about some frontend tech including Ajax, CORS, gulp, webpack and so on.",
+            "stars": 272,
+            "language": "HTML"
+          },
+          {
+            "name": "beyond-xss",
+            "description": "Beyond XSS: Explore the Web Front-end Security Universe. A series about front-end security",
+            "stars": 177,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ctf-writeups",
+            "description": "ctf writeups",
+            "stars": 62,
+            "language": null
+          },
+          {
+            "name": "programming-tutorial-review",
+            "description": "在台北舉辦免費程式教學的記錄與一些心得",
+            "stars": 50,
+            "language": null
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://blog.huli.tw/about/"
+      },
+      {
+        "login": "ikatyang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8341033?s=72&u=cb9bafc76e03a20c3a718610b9b5e1fe41f23cf6&v=4",
+        "name": "Ika",
+        "company": null,
+        "location": "Hsinchu, Taiwan",
+        "bio": "",
+        "followers": 3456,
+        "publicContributions": 4,
+        "privateContributions": 0,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "emoji-cheat-sheet",
+            "description": "A markdown version emoji cheat sheet",
+            "stars": 13662,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tree-sitter-markdown",
+            "description": "Markdown grammar for tree-sitter",
+            "stars": 193,
+            "language": "C++"
+          },
+          {
+            "name": "dts-jest",
+            "description": "A preprocessor for Jest to snapshot test TypeScript declaration (.d.ts) files",
+            "stars": 123,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tree-sitter-yaml",
+            "description": "YAML grammar for tree-sitter",
+            "stars": 115,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tree-sitter-vue",
+            "description": "Vue grammar for tree-sitter",
+            "stars": 86,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ikatyang_",
+        "blog": null
+      },
+      {
+        "login": "xdite",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9004?s=72&u=d44b8acecb30dbb46db98a466c3cde7ed21583a3&v=4",
+        "name": "Yi-Ting Cheng",
+        "company": "OTCBTC",
+        "location": "Taipei, Taiwan ",
+        "bio": "CEO of OTCBTC",
+        "followers": 2696,
+        "publicContributions": 1,
+        "privateContributions": 0,
+        "languages": [
+          "Makefile",
+          "Python",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "learn-hack",
+            "description": "打造超人學習",
+            "stars": 1579,
+            "language": null
+          },
+          {
+            "name": "internet-security",
+            "description": "互联网资安风控实战",
+            "stars": 490,
+            "language": "Makefile"
+          },
+          {
+            "name": "memory-hack",
+            "description": "打造超人大脑",
+            "stars": 483,
+            "language": "Makefile"
+          },
+          {
+            "name": "note-hack",
+            "description": "打造超人筆記",
+            "stars": 381,
+            "language": "Python"
+          },
+          {
+            "name": "bootstrappers",
+            "description": "Bootstrappers is the base Rails application using Bootstrap template and other goodies.",
+            "stars": 314,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "http://xdite.com"
+      }
+    ],
+    "total_contributions": [
+      {
+        "login": "peter279k",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9021747?s=72&u=4cb0eb4e04d503fdb6f162e42f76d2854e48c4e8&v=4",
+        "name": "Chun-Sheng, Li",
+        "company": "Institute for Information Industry",
+        "location": "Taipei, Taiwan",
+        "bio": "Hacker's thought.\r\nDon't know, but want to do.",
+        "followers": 2134,
+        "publicContributions": 39674,
+        "privateContributions": 183,
+        "languages": [
+          "Python",
+          "HTML",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "github-follower-bot",
+            "description": "My GitHub Follower Bot",
+            "stars": 56,
+            "language": "Python"
+          },
+          {
+            "name": "web-youtube-downloader",
+            "description": "This is the web-based youtube-downloader service",
+            "stars": 27,
+            "language": "HTML"
+          },
+          {
+            "name": "yt-dlp-api",
+            "description": "The simple yt-dlp-api server is used to extract YouTube video URL easily",
+            "stars": 20,
+            "language": "Python"
+          },
+          {
+            "name": "wifi_login_php",
+            "description": "This is a php program login NTTU and part of NTOU wireless network for programmer.",
+            "stars": 18,
+            "language": "PHP"
+          },
+          {
+            "name": "simple-container",
+            "description": "This is about the simple container to help developers to inject specific classes easily!",
+            "stars": 14,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "peter279k",
+        "blog": "https://peterli.website"
+      },
+      {
+        "login": "chentsulin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3382565?s=72&u=536713f6c30e718b10509f649e3ffa0585f911fe&v=4",
+        "name": "C. T. Lin",
+        "company": "@Dcard",
+        "location": "Taipei, Taiwan",
+        "bio": "Try everything with JavaScript!",
+        "followers": 1942,
+        "publicContributions": 7237,
+        "privateContributions": 7219,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "awesome-graphql",
+            "description": "Awesome list of GraphQL",
+            "stars": 14997,
+            "language": null
+          },
+          {
+            "name": "awesome-react-renderer",
+            "description": "Awesome list of React Renderer",
+            "stars": 2054,
+            "language": null
+          },
+          {
+            "name": "sweetalert-react",
+            "description": "Declarative SweetAlert in React",
+            "stars": 239,
+            "language": "JavaScript"
+          },
+          {
+            "name": "react-native-counter-ios-android",
+            "description": "Minimal implement of redux counter example on ReactNative iOS and Android",
+            "stars": 238,
+            "language": "JavaScript"
+          },
+          {
+            "name": "redux",
+            "description": "繁體中文 redux 文件翻譯：",
+            "stars": 203,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "chentsulin",
+        "blog": null
+      },
+      {
+        "login": "doggy8088",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88981?s=72&u=dbe051f354e8b03759d10e78a4cc62b60cc61fe6&v=4",
+        "name": "Will 保哥",
+        "company": "多奇數位創意有限公司",
+        "location": "Taipei, Taiwan",
+        "bio": "現任「多奇數位創意有限公司」技術總監。2018 年榮獲 Angular GDE (Google Developer Expert) 開發專家。2019 獲選 Microsoft RD (技術社群區域總監)。連續 18 度當選微軟最有價值專家(MVP)。熟悉 AI、.NET 與 Angular 相關開發技術。",
+        "followers": 4316,
+        "publicContributions": 7846,
+        "privateContributions": 4885,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "Learn-Git-in-30-days",
+            "description": "這是 Will 保哥在 2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎的得獎著作【30 天精通 Git 版本控管】，歡迎大家 fork 我，如果有看見任何文字勘誤，也歡迎利用 pull request 來通知我修正，謝謝！",
+            "stars": 4408,
+            "language": null
+          },
+          {
+            "name": "github-copilot-configs",
+            "description": "Will 保哥整理的最佳 GitHub Copilot 設定",
+            "stars": 1162,
+            "language": null
+          },
+          {
+            "name": "bilingual_book_maker",
+            "description": "Make bilingual epub books Using AI translate",
+            "stars": 767,
+            "language": "Python"
+          },
+          {
+            "name": "frontend-tools",
+            "description": "各式 Web 前端開發工具整理",
+            "stars": 720,
+            "language": null
+          },
+          {
+            "name": "CSS-Guidelines",
+            "description": "撰寫可管理、可維護的 CSS 高階技巧",
+            "stars": 404,
+            "language": null
+          }
+        ],
+        "twitterUsername": "Will_Huang",
+        "blog": "https://blog.miniasp.com/"
+      },
+      {
+        "login": "vinta",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/652070?s=72&u=25dca0371a54b997c61ed58fcdd2398d4958d1f3&v=4",
+        "name": "Vinta Chen",
+        "company": null,
+        "location": "Taiwan",
+        "bio": "爛命一條",
+        "followers": 9133,
+        "publicContributions": 6510,
+        "privateContributions": 3900,
+        "languages": [
+          "Python",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "awesome-python",
+            "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
+            "stars": 289315,
+            "language": "Python"
+          },
+          {
+            "name": "pangu.js",
+            "description": "Opinionated paranoid text spacing in JavaScript",
+            "stars": 4737,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fuck-coding-interviews",
+            "description": "How on earth can I ever think of a solution like that in an interview?!",
+            "stars": 740,
+            "language": "Python"
+          },
+          {
+            "name": "pangu.py",
+            "description": "Paranoid text spacing in Python",
+            "stars": 277,
+            "language": "Python"
+          },
+          {
+            "name": "JokeKappa",
+            "description": "A library for delivering one-line programming jokes",
+            "stars": 189,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "vinta",
+        "blog": "https://vinta.ws/code/"
+      },
+      {
+        "login": "kaochenlong",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33090?s=72&u=0007d2b09d49f01f70d17a47453791a95a5eee3d&v=4",
+        "name": "Eddie Kao 高見龍",
+        "company": "5xCampus 五倍學院",
+        "location": "Taiwan, Taipei",
+        "bio": "五倍學院負責人,  Ruby/Rails/Python/Django/JavaScript Developer and Instructor, Book author.",
+        "followers": 1539,
+        "publicContributions": 2913,
+        "privateContributions": 2565,
+        "languages": [
+          "Vim Script"
+        ],
+        "topRepos": [
+          {
+            "name": "spectra-app",
+            "description": null,
+            "stars": 398,
+            "language": null
+          },
+          {
+            "name": "eddie-vim",
+            "description": "Yet another vimrc",
+            "stars": 379,
+            "language": "Vim Script"
+          },
+          {
+            "name": "eddie-vim2",
+            "description": "Yet another vimrc",
+            "stars": 157,
+            "language": "Vim Script"
+          },
+          {
+            "name": "learn-ruby-on-rails",
+            "description": "為你自己學 Ruby on Rails",
+            "stars": 128,
+            "language": null
+          },
+          {
+            "name": "cch",
+            "description": "My yet another Vim setttings",
+            "stars": 75,
+            "language": "Vim Script"
+          }
+        ],
+        "twitterUsername": "eddiekao",
+        "blog": "https://kaochenlong.com/"
+      },
+      {
+        "login": "tommy351",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/411425?s=72&u=e804ba2d5c4b2b372f0a0e7a99de04ac224f4744&v=4",
+        "name": "Tommy Chen",
+        "company": "@Dcard ",
+        "location": "Taipei",
+        "bio": "",
+        "followers": 2077,
+        "publicContributions": 2447,
+        "privateContributions": 2359,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "CSS",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ehreader-android",
+            "description": "[NO MAINTENANCE] The best E-Hentai Reader for Android ever!",
+            "stars": 381,
+            "language": "Java"
+          },
+          {
+            "name": "kosko",
+            "description": "Organize Kubernetes manifests in TypeScript.",
+            "stars": 360,
+            "language": "TypeScript"
+          },
+          {
+            "name": "Octopress-Theme-Slash",
+            "description": "Slash — a minimal theme for Octopress",
+            "stars": 341,
+            "language": "CSS"
+          },
+          {
+            "name": "kubernetes-models-ts",
+            "description": "Kubernetes models in TypeScript.",
+            "stars": 160,
+            "language": "TypeScript"
+          },
+          {
+            "name": "eh-redux",
+            "description": "A E-Hentai reader written in Flutter.",
+            "stars": 111,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "tommy351",
+        "blog": "https://zespia.me"
+      },
+      {
+        "login": "appleboy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21979?s=72&u=1a254eae0e4499dbb382ec3e3863ac8fa8b34ddd&v=4",
+        "name": "Bo-Yi Wu",
+        "company": "Mediatek",
+        "location": "Hsinchu, Taiwan",
+        "bio": "I really believe committing every day to an open-source project is the best practice. Golang GDE (Google Developer Expert) in 2023",
+        "followers": 7419,
+        "publicContributions": 3743,
+        "privateContributions": 91,
+        "languages": [
+          "Go",
+          "Shell"
+        ],
+        "topRepos": [
+          {
+            "name": "gorush",
+            "description": "A push notification server written in Go (Golang).",
+            "stars": 8703,
+            "language": "Go"
+          },
+          {
+            "name": "ssh-action",
+            "description": "GitHub Actions for executing remote ssh commands.",
+            "stars": 6031,
+            "language": "Shell"
+          },
+          {
+            "name": "gin-jwt",
+            "description": "JWT Middleware for Gin framework",
+            "stars": 2958,
+            "language": "Go"
+          },
+          {
+            "name": "scp-action",
+            "description": "GitHub Action that copy files and artifacts via SSH.",
+            "stars": 1543,
+            "language": "Shell"
+          },
+          {
+            "name": "CodeGPT",
+            "description": "A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.",
+            "stars": 1498,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "appleboy",
+        "blog": "https://blog.wu-boy.com"
+      },
+      {
+        "login": "jserv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/478921?s=72&v=4",
+        "name": "Jim Huang",
+        "company": "@BiiLabs",
+        "location": "Taipei City, Taiwan",
+        "bio": "",
+        "followers": 4353,
+        "publicContributions": 3151,
+        "privateContributions": 0,
+        "languages": [
+          "C"
+        ],
+        "topRepos": [
+          {
+            "name": "mini-arm-os",
+            "description": "Build a minimal multi-tasking OS kernel for ARM from scratch",
+            "stars": 1216,
+            "language": "C"
+          },
+          {
+            "name": "amacc",
+            "description": "Small C Compiler generating ELF executable Arm architecture, supporting JIT execution",
+            "stars": 1054,
+            "language": "C"
+          },
+          {
+            "name": "facebooc",
+            "description": "Yet another Facebook clone written in C",
+            "stars": 588,
+            "language": "C"
+          },
+          {
+            "name": "MazuCC",
+            "description": "A minimalist C compiler with x86_64 code generation",
+            "stars": 537,
+            "language": "C"
+          },
+          {
+            "name": "talks",
+            "description": "schedule and materials about my presentations",
+            "stars": 366,
+            "language": null
+          }
+        ],
+        "twitterUsername": "jserv",
+        "blog": null
+      },
+      {
+        "login": "PeterDaveHello",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3691490?s=72&u=4dee3c8d8045eccca432b07645c80fbbe61d1c36&v=4",
+        "name": "Peter Dave Hello",
+        "company": "@DNSCrypt @nodejs @maintainers  @campus-experts  @transmission-remote-gui",
+        "location": "Taiwan, R.O.C",
+        "bio": "I'm a passionate Free & Open Source enthusiast. Working on CyberSecurity & zh-TW localization. A 👨🏼 who ♥️ Debian GNU/Linux 🐧 lives in 🇹🇼",
+        "followers": 1754,
+        "publicContributions": 1873,
+        "privateContributions": 0,
+        "languages": [
+          "Dockerfile",
+          "Shell"
+        ],
+        "topRepos": [
+          {
+            "name": "tor-socks-proxy",
+            "description": "🐳 Tiny Docker image (🤏 10MB) as 🧅 Tor SOCKS5 proxy 🛡",
+            "stars": 631,
+            "language": "Dockerfile"
+          },
+          {
+            "name": "top-1m-domains",
+            "description": "🌐 List of free and downloadable top 1M domain list (alexa alternatives) 📊",
+            "stars": 285,
+            "language": null
+          },
+          {
+            "name": "ipinfo.tw",
+            "description": "🐳 A self-host  🙅 non-tracking, AD-🆓 ➕ 🍪-🆓 solution to show your IP ℹ️ Super small (🤏10MB)",
+            "stars": 237,
+            "language": "Dockerfile"
+          },
+          {
+            "name": "url-shorteners",
+            "description": "A comprehensive, high-quality URL shorteners domain list for whitelist/allowlist or blacklist/blocklist purposes, utilized by NextDNS, ControlD, RethinkDNS, dnslow.me, and other OSINT projects.",
+            "stars": 159,
+            "language": "Shell"
+          },
+          {
+            "name": "ColorEchoForShell",
+            "description": "Make 🐚(shell) 's 💬 (`echo`)  to be 🎨 easily ✨ Support ✅ sh ➕ bash ➕ zsh ➕ ksh ➕ 🐟 One simple command for vibrant text output! 💫",
+            "stars": 124,
+            "language": "Shell"
+          }
+        ],
+        "twitterUsername": "PeterDaveHello",
+        "blog": "https://www.peterdavehello.org/"
+      },
+      {
+        "login": "kwea123",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11364490?s=72&u=c3cb51741271b8c1f81dfa8ab18720e785316c27&v=4",
+        "name": "AI葵",
+        "company": "Luma AI",
+        "location": "Taipei",
+        "bio": "AI R&D in computer vision.\r\nDoing VTuber about DL algorithms. Check my channel! If you find my works helpful, please consider sponsoring!\r\n我有在做VTuber，歡迎訂閱我的頻道！",
+        "followers": 2445,
+        "publicContributions": 935,
+        "privateContributions": 935,
+        "languages": [
+          "Jupyter Notebook",
+          "Python",
+          "Cuda"
+        ],
+        "topRepos": [
+          {
+            "name": "nerf_pl",
+            "description": "NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning",
+            "stars": 2807,
+            "language": "Jupyter Notebook"
+          },
+          {
+            "name": "ngp_pl",
+            "description": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)",
+            "stars": 1290,
+            "language": "Jupyter Notebook"
+          },
+          {
+            "name": "VTuber_Unity",
+            "description": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+            "stars": 806,
+            "language": "Python"
+          },
+          {
+            "name": "gaussian_splatting_notes",
+            "description": "A detailed formulae explanation on gaussian splatting",
+            "stars": 598,
+            "language": null
+          },
+          {
+            "name": "pytorch-cppcuda-tutorial",
+            "description": "tutorial for writing custom pytorch cpp+cuda kernel, applied on volume rendering (NeRF)",
+            "stars": 422,
+            "language": "Cuda"
+          }
+        ],
+        "twitterUsername": "kwea123",
+        "blog": "https://www.youtube.com/channel/UC7UlsMUu_gIgpqNGB4SqSwQ"
+      },
+      {
+        "login": "c9s",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50894?s=72&u=40f80ecad369e7af1662b6a18f5ddd09d8af64a7&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taipei, Taiwan",
+        "bio": "a developer who really loves crafting tools\r\n",
+        "followers": 2760,
+        "publicContributions": 1859,
+        "privateContributions": 8,
+        "languages": [
+          "Go",
+          "C",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bbgo",
+            "description": "The modern cryptocurrency trading bot framework written in Go.",
+            "stars": 1613,
+            "language": "Go"
+          },
+          {
+            "name": "Pux",
+            "description": "Pux is a fast PHP Router and includes out-of-box controller tools",
+            "stars": 1263,
+            "language": "C"
+          },
+          {
+            "name": "r3",
+            "description": "libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency",
+            "stars": 817,
+            "language": "C"
+          },
+          {
+            "name": "goprocinfo",
+            "description": "Linux /proc info parser for Go",
+            "stars": 795,
+            "language": "Go"
+          },
+          {
+            "name": "maghead",
+            "description": "The fastest pure PHP database framework with a powerful static code generator, supports horizontal scale up, designed for PHP7",
+            "stars": 479,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "c9s",
+        "blog": null
+      },
+      {
+        "login": "twtrubiks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16622269?s=72&u=3aba300e3598ff593b21275dfeb31dd32292195e&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taiwan",
+        "bio": "Email twtrubiks@gmail.com\r\nYouTube https://www.youtube.com/user/blue524326\r\n",
+        "followers": 2371,
+        "publicContributions": 1110,
+        "privateContributions": 0,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "docker-tutorial",
+            "description": "Docker 基本教學 - 從無到有 Docker-Beginners-Guide   教你用 Docker 建立 Django + PostgreSQL 📝",
+            "stars": 1862,
+            "language": "Python"
+          },
+          {
+            "name": "Git-Tutorials",
+            "description": "Git-Tutorials  GIT基本使用教學 :memo:",
+            "stars": 1072,
+            "language": null
+          },
+          {
+            "name": "django-rest-framework-tutorial",
+            "description": "Django-REST-framework 基本教學 - 從無到有 DRF-Beginners-Guide 📝",
+            "stars": 877,
+            "language": "Python"
+          },
+          {
+            "name": "django-tutorial",
+            "description": "Django 基本教學 - 從無到有 Django-Beginners-Guide 📝",
+            "stars": 527,
+            "language": "Python"
+          },
+          {
+            "name": "docker-django-nginx-uwsgi-postgres-tutorial",
+            "description": " Docker + Django + Nginx + uWSGI + Postgres  基本教學 - 從無到有 ( Docker + Django + Nginx + uWSGI + Postgres Tutorial ) ",
+            "stars": 436,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://www.facebook.com/TWTRubiks"
+      },
+      {
+        "login": "audreyt",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20723?s=72&u=e62196e2bf22f806d142975f3751362642280c10&v=4",
+        "name": "唐鳳",
+        "company": "@g0v ",
+        "location": "Taiwan",
+        "bio": "🇹🇼 Cyber Ambassador, 1st Digital Minister (2016-2024) & 🌐 1st 🏳️‍⚧️ cabinet minister.",
+        "followers": 8824,
+        "publicContributions": 1039,
+        "privateContributions": 0,
+        "languages": [
+          "JavaScript",
+          "C++",
+          "Perl"
+        ],
+        "topRepos": [
+          {
+            "name": "ethercalc",
+            "description": "Node.js port of Multi-user SocialCalc",
+            "stars": 3031,
+            "language": "JavaScript"
+          },
+          {
+            "name": "node-webworker-threads",
+            "description": "Lightweight Web Worker API implementation with native threads",
+            "stars": 2285,
+            "language": "C++"
+          },
+          {
+            "name": "500lines",
+            "description": "500 Lines or Less",
+            "stars": 469,
+            "language": "JavaScript"
+          },
+          {
+            "name": "trust-zh-TW",
+            "description": "合作博弈論的互動講解手冊 An interactive guide to the game theory of cooperation",
+            "stars": 300,
+            "language": "JavaScript"
+          },
+          {
+            "name": "lingua-sinica-perlyuyan",
+            "description": "Perl in Classical Chinese in Perl",
+            "stars": 284,
+            "language": "Perl"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://audreyt.org/"
+      },
+      {
+        "login": "kkdai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2252691?s=72&u=56565c02d009db79badb18957117ac8b6c1fe645&v=4",
+        "name": "Evan Lin",
+        "company": "LINE Taiwan",
+        "location": "Taipei, Taiwan",
+        "bio": "Attitude is Everything.\r\nLead of LINE Taiwan DevRel Team. Golang & AI GDE.",
+        "followers": 1660,
+        "publicContributions": 973,
+        "privateContributions": 38,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "youtube",
+            "description": "Download Youtube Video in Golang",
+            "stars": 3846,
+            "language": "Go"
+          },
+          {
+            "name": "project52",
+            "description": "52 weeks, 52 Go projects",
+            "stars": 1462,
+            "language": null
+          },
+          {
+            "name": "maglev",
+            "description": "A Google Maglev Hashing Algorithm implement in Golang",
+            "stars": 290,
+            "language": "Go"
+          },
+          {
+            "name": "chatgpt",
+            "description": "ChatGPT Console client in Golang",
+            "stars": 247,
+            "language": "Go"
+          },
+          {
+            "name": "LineBotTemplate",
+            "description": "A simple Golang LINE bot Template and tutorial how to setup on Heroku for LINE bot API",
+            "stars": 201,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "Evan_Lin",
+        "blog": "https://about.me/ifenglin"
+      },
+      {
+        "login": "muan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1153134?s=72&u=c562ce1cb756e290b950a72458dfe5adc5694bdd&v=4",
+        "name": "Mu-An Chiou",
+        "company": null,
+        "location": "Taipei",
+        "bio": "So, create.",
+        "followers": 11352,
+        "publicContributions": 568,
+        "privateContributions": 403,
+        "languages": [
+          "CSS",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "emoji",
+            "description": ":love_letter: Find the emoji that echoes your mind.",
+            "stars": 2277,
+            "language": "CSS"
+          },
+          {
+            "name": "mojibar",
+            "description": ":tangerine: Emoji searcher but as a menubar app.",
+            "stars": 2038,
+            "language": "JavaScript"
+          },
+          {
+            "name": "emojilib",
+            "description": "Emoji keyword library.",
+            "stars": 1768,
+            "language": "JavaScript"
+          },
+          {
+            "name": "github-gmail",
+            "description": "[WebExtension] Open GitHub notifications with shortcuts in Gmail. ",
+            "stars": 1248,
+            "language": "JavaScript"
+          },
+          {
+            "name": "github-dashboard",
+            "description": "[Web extension] Filter events on github.com activity dashboard.",
+            "stars": 916,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://muan.co"
+      },
+      {
+        "login": "topjohnwu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7337301?s=72&v=4",
+        "name": "John Wu",
+        "company": null,
+        "location": "US / Taiwan",
+        "bio": "",
+        "followers": 11641,
+        "publicContributions": 539,
+        "privateContributions": 0,
+        "languages": [
+          "Kotlin",
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "Magisk",
+            "description": "The Magic Mask for Android",
+            "stars": 59555,
+            "language": "Kotlin"
+          },
+          {
+            "name": "libsu",
+            "description": "A complete solution for apps using root permissions",
+            "stars": 2042,
+            "language": "Java"
+          },
+          {
+            "name": "MagiskManager",
+            "description": "Companion Android application for Magisk",
+            "stars": 1582,
+            "language": "Java"
+          },
+          {
+            "name": "zygisk-module-sample",
+            "description": "A sample project for building Zygisk modules",
+            "stars": 981,
+            "language": "C++"
+          },
+          {
+            "name": "magisk_files",
+            "description": "(Deprecated) Magisk File Host",
+            "stars": 666,
+            "language": null
+          }
+        ],
+        "twitterUsername": "topjohnwu",
+        "blog": null
+      },
+      {
+        "login": "FongMi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3471963?s=72&u=ead8816961f79444d9c69b344365e431706515f9&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taiwan",
+        "bio": "Android Developer",
+        "followers": 1950,
+        "publicContributions": 468,
+        "privateContributions": 0,
+        "languages": [
+          "Java",
+          "Batchfile"
+        ],
+        "topRepos": [
+          {
+            "name": "TV",
+            "description": null,
+            "stars": 7633,
+            "language": "Java"
+          },
+          {
+            "name": "Release",
+            "description": null,
+            "stars": 5696,
+            "language": "Batchfile"
+          },
+          {
+            "name": "CatVodSpider",
+            "description": null,
+            "stars": 832,
+            "language": "Java"
+          },
+          {
+            "name": "media",
+            "description": null,
+            "stars": 309,
+            "language": "Java"
+          },
+          {
+            "name": "FongMi",
+            "description": null,
+            "stars": 41,
+            "language": null
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "aszx87410",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2755720?s=72&u=de94f13a7de1a00848399b195f15b22a4cbdb349&v=4",
+        "name": "Huli",
+        "company": null,
+        "location": "Taipei, Taiwan",
+        "bio": "Love coding, teaching, and writing. Believe sharing can make the world a better place.",
+        "followers": 2041,
+        "publicContributions": 137,
+        "privateContributions": 59,
+        "languages": [
+          "HTML",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "blog",
+            "description": "A tech blog about Front-end, JavaScript and Security",
+            "stars": 1110,
+            "language": null
+          },
+          {
+            "name": "frontend-intermediate-course",
+            "description": "It's a free online course about some frontend tech including Ajax, CORS, gulp, webpack and so on.",
+            "stars": 272,
+            "language": "HTML"
+          },
+          {
+            "name": "beyond-xss",
+            "description": "Beyond XSS: Explore the Web Front-end Security Universe. A series about front-end security",
+            "stars": 177,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ctf-writeups",
+            "description": "ctf writeups",
+            "stars": 62,
+            "language": null
+          },
+          {
+            "name": "programming-tutorial-review",
+            "description": "在台北舉辦免費程式教學的記錄與一些心得",
+            "stars": 50,
+            "language": null
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://blog.huli.tw/about/"
+      },
+      {
+        "login": "ikatyang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8341033?s=72&u=cb9bafc76e03a20c3a718610b9b5e1fe41f23cf6&v=4",
+        "name": "Ika",
+        "company": null,
+        "location": "Hsinchu, Taiwan",
+        "bio": "",
+        "followers": 3456,
+        "publicContributions": 4,
+        "privateContributions": 0,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "emoji-cheat-sheet",
+            "description": "A markdown version emoji cheat sheet",
+            "stars": 13662,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tree-sitter-markdown",
+            "description": "Markdown grammar for tree-sitter",
+            "stars": 193,
+            "language": "C++"
+          },
+          {
+            "name": "dts-jest",
+            "description": "A preprocessor for Jest to snapshot test TypeScript declaration (.d.ts) files",
+            "stars": 123,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tree-sitter-yaml",
+            "description": "YAML grammar for tree-sitter",
+            "stars": 115,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tree-sitter-vue",
+            "description": "Vue grammar for tree-sitter",
+            "stars": 86,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ikatyang_",
+        "blog": null
+      },
+      {
+        "login": "xdite",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9004?s=72&u=d44b8acecb30dbb46db98a466c3cde7ed21583a3&v=4",
+        "name": "Yi-Ting Cheng",
+        "company": "OTCBTC",
+        "location": "Taipei, Taiwan ",
+        "bio": "CEO of OTCBTC",
+        "followers": 2696,
+        "publicContributions": 1,
+        "privateContributions": 0,
+        "languages": [
+          "Makefile",
+          "Python",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "learn-hack",
+            "description": "打造超人學習",
+            "stars": 1579,
+            "language": null
+          },
+          {
+            "name": "internet-security",
+            "description": "互联网资安风控实战",
+            "stars": 490,
+            "language": "Makefile"
+          },
+          {
+            "name": "memory-hack",
+            "description": "打造超人大脑",
+            "stars": 483,
+            "language": "Makefile"
+          },
+          {
+            "name": "note-hack",
+            "description": "打造超人筆記",
+            "stars": 381,
+            "language": "Python"
+          },
+          {
+            "name": "bootstrappers",
+            "description": "Bootstrappers is the base Rails application using Bootstrap template and other goodies.",
+            "stars": 314,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "http://xdite.com"
+      }
+    ],
+    "followers": [
+      {
+        "login": "topjohnwu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7337301?s=72&v=4",
+        "name": "John Wu",
+        "company": null,
+        "location": "US / Taiwan",
+        "bio": "",
+        "followers": 11641,
+        "publicContributions": 539,
+        "privateContributions": 0,
+        "languages": [
+          "Kotlin",
+          "Java",
+          "C++"
+        ],
+        "topRepos": [
+          {
+            "name": "Magisk",
+            "description": "The Magic Mask for Android",
+            "stars": 59555,
+            "language": "Kotlin"
+          },
+          {
+            "name": "libsu",
+            "description": "A complete solution for apps using root permissions",
+            "stars": 2042,
+            "language": "Java"
+          },
+          {
+            "name": "MagiskManager",
+            "description": "Companion Android application for Magisk",
+            "stars": 1582,
+            "language": "Java"
+          },
+          {
+            "name": "zygisk-module-sample",
+            "description": "A sample project for building Zygisk modules",
+            "stars": 981,
+            "language": "C++"
+          },
+          {
+            "name": "magisk_files",
+            "description": "(Deprecated) Magisk File Host",
+            "stars": 666,
+            "language": null
+          }
+        ],
+        "twitterUsername": "topjohnwu",
+        "blog": null
+      },
+      {
+        "login": "muan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1153134?s=72&u=c562ce1cb756e290b950a72458dfe5adc5694bdd&v=4",
+        "name": "Mu-An Chiou",
+        "company": null,
+        "location": "Taipei",
+        "bio": "So, create.",
+        "followers": 11352,
+        "publicContributions": 568,
+        "privateContributions": 403,
+        "languages": [
+          "CSS",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "emoji",
+            "description": ":love_letter: Find the emoji that echoes your mind.",
+            "stars": 2277,
+            "language": "CSS"
+          },
+          {
+            "name": "mojibar",
+            "description": ":tangerine: Emoji searcher but as a menubar app.",
+            "stars": 2038,
+            "language": "JavaScript"
+          },
+          {
+            "name": "emojilib",
+            "description": "Emoji keyword library.",
+            "stars": 1768,
+            "language": "JavaScript"
+          },
+          {
+            "name": "github-gmail",
+            "description": "[WebExtension] Open GitHub notifications with shortcuts in Gmail. ",
+            "stars": 1248,
+            "language": "JavaScript"
+          },
+          {
+            "name": "github-dashboard",
+            "description": "[Web extension] Filter events on github.com activity dashboard.",
+            "stars": 916,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://muan.co"
+      },
+      {
+        "login": "vinta",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/652070?s=72&u=25dca0371a54b997c61ed58fcdd2398d4958d1f3&v=4",
+        "name": "Vinta Chen",
+        "company": null,
+        "location": "Taiwan",
+        "bio": "爛命一條",
+        "followers": 9133,
+        "publicContributions": 6510,
+        "privateContributions": 3900,
+        "languages": [
+          "Python",
+          "TypeScript"
+        ],
+        "topRepos": [
+          {
+            "name": "awesome-python",
+            "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
+            "stars": 289315,
+            "language": "Python"
+          },
+          {
+            "name": "pangu.js",
+            "description": "Opinionated paranoid text spacing in JavaScript",
+            "stars": 4737,
+            "language": "TypeScript"
+          },
+          {
+            "name": "fuck-coding-interviews",
+            "description": "How on earth can I ever think of a solution like that in an interview?!",
+            "stars": 740,
+            "language": "Python"
+          },
+          {
+            "name": "pangu.py",
+            "description": "Paranoid text spacing in Python",
+            "stars": 277,
+            "language": "Python"
+          },
+          {
+            "name": "JokeKappa",
+            "description": "A library for delivering one-line programming jokes",
+            "stars": 189,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": "vinta",
+        "blog": "https://vinta.ws/code/"
+      },
+      {
+        "login": "audreyt",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20723?s=72&u=e62196e2bf22f806d142975f3751362642280c10&v=4",
+        "name": "唐鳳",
+        "company": "@g0v ",
+        "location": "Taiwan",
+        "bio": "🇹🇼 Cyber Ambassador, 1st Digital Minister (2016-2024) & 🌐 1st 🏳️‍⚧️ cabinet minister.",
+        "followers": 8824,
+        "publicContributions": 1039,
+        "privateContributions": 0,
+        "languages": [
+          "JavaScript",
+          "C++",
+          "Perl"
+        ],
+        "topRepos": [
+          {
+            "name": "ethercalc",
+            "description": "Node.js port of Multi-user SocialCalc",
+            "stars": 3031,
+            "language": "JavaScript"
+          },
+          {
+            "name": "node-webworker-threads",
+            "description": "Lightweight Web Worker API implementation with native threads",
+            "stars": 2285,
+            "language": "C++"
+          },
+          {
+            "name": "500lines",
+            "description": "500 Lines or Less",
+            "stars": 469,
+            "language": "JavaScript"
+          },
+          {
+            "name": "trust-zh-TW",
+            "description": "合作博弈論的互動講解手冊 An interactive guide to the game theory of cooperation",
+            "stars": 300,
+            "language": "JavaScript"
+          },
+          {
+            "name": "lingua-sinica-perlyuyan",
+            "description": "Perl in Classical Chinese in Perl",
+            "stars": 284,
+            "language": "Perl"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://audreyt.org/"
+      },
+      {
+        "login": "appleboy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21979?s=72&u=1a254eae0e4499dbb382ec3e3863ac8fa8b34ddd&v=4",
+        "name": "Bo-Yi Wu",
+        "company": "Mediatek",
+        "location": "Hsinchu, Taiwan",
+        "bio": "I really believe committing every day to an open-source project is the best practice. Golang GDE (Google Developer Expert) in 2023",
+        "followers": 7419,
+        "publicContributions": 3743,
+        "privateContributions": 91,
+        "languages": [
+          "Go",
+          "Shell"
+        ],
+        "topRepos": [
+          {
+            "name": "gorush",
+            "description": "A push notification server written in Go (Golang).",
+            "stars": 8703,
+            "language": "Go"
+          },
+          {
+            "name": "ssh-action",
+            "description": "GitHub Actions for executing remote ssh commands.",
+            "stars": 6031,
+            "language": "Shell"
+          },
+          {
+            "name": "gin-jwt",
+            "description": "JWT Middleware for Gin framework",
+            "stars": 2958,
+            "language": "Go"
+          },
+          {
+            "name": "scp-action",
+            "description": "GitHub Action that copy files and artifacts via SSH.",
+            "stars": 1543,
+            "language": "Shell"
+          },
+          {
+            "name": "CodeGPT",
+            "description": "A CLI written in Go language that writes git commit messages or do a code review brief for you using ChatGPT AI (gpt-4.1, gpt-4o model) and automatically installs a git prepare-commit-msg hook.",
+            "stars": 1498,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "appleboy",
+        "blog": "https://blog.wu-boy.com"
+      },
+      {
+        "login": "jserv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/478921?s=72&v=4",
+        "name": "Jim Huang",
+        "company": "@BiiLabs",
+        "location": "Taipei City, Taiwan",
+        "bio": "",
+        "followers": 4353,
+        "publicContributions": 3151,
+        "privateContributions": 0,
+        "languages": [
+          "C"
+        ],
+        "topRepos": [
+          {
+            "name": "mini-arm-os",
+            "description": "Build a minimal multi-tasking OS kernel for ARM from scratch",
+            "stars": 1216,
+            "language": "C"
+          },
+          {
+            "name": "amacc",
+            "description": "Small C Compiler generating ELF executable Arm architecture, supporting JIT execution",
+            "stars": 1054,
+            "language": "C"
+          },
+          {
+            "name": "facebooc",
+            "description": "Yet another Facebook clone written in C",
+            "stars": 588,
+            "language": "C"
+          },
+          {
+            "name": "MazuCC",
+            "description": "A minimalist C compiler with x86_64 code generation",
+            "stars": 537,
+            "language": "C"
+          },
+          {
+            "name": "talks",
+            "description": "schedule and materials about my presentations",
+            "stars": 366,
+            "language": null
+          }
+        ],
+        "twitterUsername": "jserv",
+        "blog": null
+      },
+      {
+        "login": "doggy8088",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88981?s=72&u=dbe051f354e8b03759d10e78a4cc62b60cc61fe6&v=4",
+        "name": "Will 保哥",
+        "company": "多奇數位創意有限公司",
+        "location": "Taipei, Taiwan",
+        "bio": "現任「多奇數位創意有限公司」技術總監。2018 年榮獲 Angular GDE (Google Developer Expert) 開發專家。2019 獲選 Microsoft RD (技術社群區域總監)。連續 18 度當選微軟最有價值專家(MVP)。熟悉 AI、.NET 與 Angular 相關開發技術。",
+        "followers": 4316,
+        "publicContributions": 7846,
+        "privateContributions": 4885,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "Learn-Git-in-30-days",
+            "description": "這是 Will 保哥在 2013 第 6 屆 iT 邦幫忙鐵人賽年度大獎的得獎著作【30 天精通 Git 版本控管】，歡迎大家 fork 我，如果有看見任何文字勘誤，也歡迎利用 pull request 來通知我修正，謝謝！",
+            "stars": 4408,
+            "language": null
+          },
+          {
+            "name": "github-copilot-configs",
+            "description": "Will 保哥整理的最佳 GitHub Copilot 設定",
+            "stars": 1162,
+            "language": null
+          },
+          {
+            "name": "bilingual_book_maker",
+            "description": "Make bilingual epub books Using AI translate",
+            "stars": 767,
+            "language": "Python"
+          },
+          {
+            "name": "frontend-tools",
+            "description": "各式 Web 前端開發工具整理",
+            "stars": 720,
+            "language": null
+          },
+          {
+            "name": "CSS-Guidelines",
+            "description": "撰寫可管理、可維護的 CSS 高階技巧",
+            "stars": 404,
+            "language": null
+          }
+        ],
+        "twitterUsername": "Will_Huang",
+        "blog": "https://blog.miniasp.com/"
+      },
+      {
+        "login": "ikatyang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8341033?s=72&u=cb9bafc76e03a20c3a718610b9b5e1fe41f23cf6&v=4",
+        "name": "Ika",
+        "company": null,
+        "location": "Hsinchu, Taiwan",
+        "bio": "",
+        "followers": 3456,
+        "publicContributions": 4,
+        "privateContributions": 0,
+        "languages": [
+          "TypeScript",
+          "C++",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "emoji-cheat-sheet",
+            "description": "A markdown version emoji cheat sheet",
+            "stars": 13662,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tree-sitter-markdown",
+            "description": "Markdown grammar for tree-sitter",
+            "stars": 193,
+            "language": "C++"
+          },
+          {
+            "name": "dts-jest",
+            "description": "A preprocessor for Jest to snapshot test TypeScript declaration (.d.ts) files",
+            "stars": 123,
+            "language": "TypeScript"
+          },
+          {
+            "name": "tree-sitter-yaml",
+            "description": "YAML grammar for tree-sitter",
+            "stars": 115,
+            "language": "JavaScript"
+          },
+          {
+            "name": "tree-sitter-vue",
+            "description": "Vue grammar for tree-sitter",
+            "stars": 86,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "ikatyang_",
+        "blog": null
+      },
+      {
+        "login": "c9s",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50894?s=72&u=40f80ecad369e7af1662b6a18f5ddd09d8af64a7&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taipei, Taiwan",
+        "bio": "a developer who really loves crafting tools\r\n",
+        "followers": 2760,
+        "publicContributions": 1859,
+        "privateContributions": 8,
+        "languages": [
+          "Go",
+          "C",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "bbgo",
+            "description": "The modern cryptocurrency trading bot framework written in Go.",
+            "stars": 1613,
+            "language": "Go"
+          },
+          {
+            "name": "Pux",
+            "description": "Pux is a fast PHP Router and includes out-of-box controller tools",
+            "stars": 1263,
+            "language": "C"
+          },
+          {
+            "name": "r3",
+            "description": "libr3 is a high-performance path dispatching library. It compiles your route paths into a prefix tree (trie). By using the constructed prefix trie in the start-up time, you may dispatch your routes with efficiency",
+            "stars": 817,
+            "language": "C"
+          },
+          {
+            "name": "goprocinfo",
+            "description": "Linux /proc info parser for Go",
+            "stars": 795,
+            "language": "Go"
+          },
+          {
+            "name": "maghead",
+            "description": "The fastest pure PHP database framework with a powerful static code generator, supports horizontal scale up, designed for PHP7",
+            "stars": 479,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "c9s",
+        "blog": null
+      },
+      {
+        "login": "xdite",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9004?s=72&u=d44b8acecb30dbb46db98a466c3cde7ed21583a3&v=4",
+        "name": "Yi-Ting Cheng",
+        "company": "OTCBTC",
+        "location": "Taipei, Taiwan ",
+        "bio": "CEO of OTCBTC",
+        "followers": 2696,
+        "publicContributions": 1,
+        "privateContributions": 0,
+        "languages": [
+          "Makefile",
+          "Python",
+          "Ruby"
+        ],
+        "topRepos": [
+          {
+            "name": "learn-hack",
+            "description": "打造超人學習",
+            "stars": 1579,
+            "language": null
+          },
+          {
+            "name": "internet-security",
+            "description": "互联网资安风控实战",
+            "stars": 490,
+            "language": "Makefile"
+          },
+          {
+            "name": "memory-hack",
+            "description": "打造超人大脑",
+            "stars": 483,
+            "language": "Makefile"
+          },
+          {
+            "name": "note-hack",
+            "description": "打造超人筆記",
+            "stars": 381,
+            "language": "Python"
+          },
+          {
+            "name": "bootstrappers",
+            "description": "Bootstrappers is the base Rails application using Bootstrap template and other goodies.",
+            "stars": 314,
+            "language": "Ruby"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "http://xdite.com"
+      },
+      {
+        "login": "kwea123",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11364490?s=72&u=c3cb51741271b8c1f81dfa8ab18720e785316c27&v=4",
+        "name": "AI葵",
+        "company": "Luma AI",
+        "location": "Taipei",
+        "bio": "AI R&D in computer vision.\r\nDoing VTuber about DL algorithms. Check my channel! If you find my works helpful, please consider sponsoring!\r\n我有在做VTuber，歡迎訂閱我的頻道！",
+        "followers": 2445,
+        "publicContributions": 935,
+        "privateContributions": 935,
+        "languages": [
+          "Jupyter Notebook",
+          "Python",
+          "Cuda"
+        ],
+        "topRepos": [
+          {
+            "name": "nerf_pl",
+            "description": "NeRF (Neural Radiance Fields) and NeRF in the Wild using pytorch-lightning",
+            "stars": 2807,
+            "language": "Jupyter Notebook"
+          },
+          {
+            "name": "ngp_pl",
+            "description": "Instant-ngp in pytorch+cuda trained with pytorch-lightning (high quality with high speed, with only few lines of legible code)",
+            "stars": 1290,
+            "language": "Jupyter Notebook"
+          },
+          {
+            "name": "VTuber_Unity",
+            "description": "Use Unity 3D character and Python deep learning algorithms to stream as a VTuber!",
+            "stars": 806,
+            "language": "Python"
+          },
+          {
+            "name": "gaussian_splatting_notes",
+            "description": "A detailed formulae explanation on gaussian splatting",
+            "stars": 598,
+            "language": null
+          },
+          {
+            "name": "pytorch-cppcuda-tutorial",
+            "description": "tutorial for writing custom pytorch cpp+cuda kernel, applied on volume rendering (NeRF)",
+            "stars": 422,
+            "language": "Cuda"
+          }
+        ],
+        "twitterUsername": "kwea123",
+        "blog": "https://www.youtube.com/channel/UC7UlsMUu_gIgpqNGB4SqSwQ"
+      },
+      {
+        "login": "twtrubiks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16622269?s=72&u=3aba300e3598ff593b21275dfeb31dd32292195e&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taiwan",
+        "bio": "Email twtrubiks@gmail.com\r\nYouTube https://www.youtube.com/user/blue524326\r\n",
+        "followers": 2371,
+        "publicContributions": 1110,
+        "privateContributions": 0,
+        "languages": [
+          "Python"
+        ],
+        "topRepos": [
+          {
+            "name": "docker-tutorial",
+            "description": "Docker 基本教學 - 從無到有 Docker-Beginners-Guide   教你用 Docker 建立 Django + PostgreSQL 📝",
+            "stars": 1862,
+            "language": "Python"
+          },
+          {
+            "name": "Git-Tutorials",
+            "description": "Git-Tutorials  GIT基本使用教學 :memo:",
+            "stars": 1072,
+            "language": null
+          },
+          {
+            "name": "django-rest-framework-tutorial",
+            "description": "Django-REST-framework 基本教學 - 從無到有 DRF-Beginners-Guide 📝",
+            "stars": 877,
+            "language": "Python"
+          },
+          {
+            "name": "django-tutorial",
+            "description": "Django 基本教學 - 從無到有 Django-Beginners-Guide 📝",
+            "stars": 527,
+            "language": "Python"
+          },
+          {
+            "name": "docker-django-nginx-uwsgi-postgres-tutorial",
+            "description": " Docker + Django + Nginx + uWSGI + Postgres  基本教學 - 從無到有 ( Docker + Django + Nginx + uWSGI + Postgres Tutorial ) ",
+            "stars": 436,
+            "language": "Python"
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://www.facebook.com/TWTRubiks"
+      },
+      {
+        "login": "peter279k",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9021747?s=72&u=4cb0eb4e04d503fdb6f162e42f76d2854e48c4e8&v=4",
+        "name": "Chun-Sheng, Li",
+        "company": "Institute for Information Industry",
+        "location": "Taipei, Taiwan",
+        "bio": "Hacker's thought.\r\nDon't know, but want to do.",
+        "followers": 2134,
+        "publicContributions": 39674,
+        "privateContributions": 183,
+        "languages": [
+          "Python",
+          "HTML",
+          "PHP"
+        ],
+        "topRepos": [
+          {
+            "name": "github-follower-bot",
+            "description": "My GitHub Follower Bot",
+            "stars": 56,
+            "language": "Python"
+          },
+          {
+            "name": "web-youtube-downloader",
+            "description": "This is the web-based youtube-downloader service",
+            "stars": 27,
+            "language": "HTML"
+          },
+          {
+            "name": "yt-dlp-api",
+            "description": "The simple yt-dlp-api server is used to extract YouTube video URL easily",
+            "stars": 20,
+            "language": "Python"
+          },
+          {
+            "name": "wifi_login_php",
+            "description": "This is a php program login NTTU and part of NTOU wireless network for programmer.",
+            "stars": 18,
+            "language": "PHP"
+          },
+          {
+            "name": "simple-container",
+            "description": "This is about the simple container to help developers to inject specific classes easily!",
+            "stars": 14,
+            "language": "PHP"
+          }
+        ],
+        "twitterUsername": "peter279k",
+        "blog": "https://peterli.website"
+      },
+      {
+        "login": "tommy351",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/411425?s=72&u=e804ba2d5c4b2b372f0a0e7a99de04ac224f4744&v=4",
+        "name": "Tommy Chen",
+        "company": "@Dcard ",
+        "location": "Taipei",
+        "bio": "",
+        "followers": 2077,
+        "publicContributions": 2447,
+        "privateContributions": 2359,
+        "languages": [
+          "Java",
+          "TypeScript",
+          "CSS",
+          "Dart"
+        ],
+        "topRepos": [
+          {
+            "name": "ehreader-android",
+            "description": "[NO MAINTENANCE] The best E-Hentai Reader for Android ever!",
+            "stars": 381,
+            "language": "Java"
+          },
+          {
+            "name": "kosko",
+            "description": "Organize Kubernetes manifests in TypeScript.",
+            "stars": 360,
+            "language": "TypeScript"
+          },
+          {
+            "name": "Octopress-Theme-Slash",
+            "description": "Slash — a minimal theme for Octopress",
+            "stars": 341,
+            "language": "CSS"
+          },
+          {
+            "name": "kubernetes-models-ts",
+            "description": "Kubernetes models in TypeScript.",
+            "stars": 160,
+            "language": "TypeScript"
+          },
+          {
+            "name": "eh-redux",
+            "description": "A E-Hentai reader written in Flutter.",
+            "stars": 111,
+            "language": "Dart"
+          }
+        ],
+        "twitterUsername": "tommy351",
+        "blog": "https://zespia.me"
+      },
+      {
+        "login": "aszx87410",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2755720?s=72&u=de94f13a7de1a00848399b195f15b22a4cbdb349&v=4",
+        "name": "Huli",
+        "company": null,
+        "location": "Taipei, Taiwan",
+        "bio": "Love coding, teaching, and writing. Believe sharing can make the world a better place.",
+        "followers": 2041,
+        "publicContributions": 137,
+        "privateContributions": 59,
+        "languages": [
+          "HTML",
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "blog",
+            "description": "A tech blog about Front-end, JavaScript and Security",
+            "stars": 1110,
+            "language": null
+          },
+          {
+            "name": "frontend-intermediate-course",
+            "description": "It's a free online course about some frontend tech including Ajax, CORS, gulp, webpack and so on.",
+            "stars": 272,
+            "language": "HTML"
+          },
+          {
+            "name": "beyond-xss",
+            "description": "Beyond XSS: Explore the Web Front-end Security Universe. A series about front-end security",
+            "stars": 177,
+            "language": "JavaScript"
+          },
+          {
+            "name": "ctf-writeups",
+            "description": "ctf writeups",
+            "stars": 62,
+            "language": null
+          },
+          {
+            "name": "programming-tutorial-review",
+            "description": "在台北舉辦免費程式教學的記錄與一些心得",
+            "stars": 50,
+            "language": null
+          }
+        ],
+        "twitterUsername": null,
+        "blog": "https://blog.huli.tw/about/"
+      },
+      {
+        "login": "FongMi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3471963?s=72&u=ead8816961f79444d9c69b344365e431706515f9&v=4",
+        "name": null,
+        "company": null,
+        "location": "Taiwan",
+        "bio": "Android Developer",
+        "followers": 1950,
+        "publicContributions": 468,
+        "privateContributions": 0,
+        "languages": [
+          "Java",
+          "Batchfile"
+        ],
+        "topRepos": [
+          {
+            "name": "TV",
+            "description": null,
+            "stars": 7633,
+            "language": "Java"
+          },
+          {
+            "name": "Release",
+            "description": null,
+            "stars": 5696,
+            "language": "Batchfile"
+          },
+          {
+            "name": "CatVodSpider",
+            "description": null,
+            "stars": 832,
+            "language": "Java"
+          },
+          {
+            "name": "media",
+            "description": null,
+            "stars": 309,
+            "language": "Java"
+          },
+          {
+            "name": "FongMi",
+            "description": null,
+            "stars": 41,
+            "language": null
+          }
+        ],
+        "twitterUsername": null,
+        "blog": null
+      },
+      {
+        "login": "chentsulin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3382565?s=72&u=536713f6c30e718b10509f649e3ffa0585f911fe&v=4",
+        "name": "C. T. Lin",
+        "company": "@Dcard",
+        "location": "Taipei, Taiwan",
+        "bio": "Try everything with JavaScript!",
+        "followers": 1942,
+        "publicContributions": 7237,
+        "privateContributions": 7219,
+        "languages": [
+          "JavaScript"
+        ],
+        "topRepos": [
+          {
+            "name": "awesome-graphql",
+            "description": "Awesome list of GraphQL",
+            "stars": 14997,
+            "language": null
+          },
+          {
+            "name": "awesome-react-renderer",
+            "description": "Awesome list of React Renderer",
+            "stars": 2054,
+            "language": null
+          },
+          {
+            "name": "sweetalert-react",
+            "description": "Declarative SweetAlert in React",
+            "stars": 239,
+            "language": "JavaScript"
+          },
+          {
+            "name": "react-native-counter-ios-android",
+            "description": "Minimal implement of redux counter example on ReactNative iOS and Android",
+            "stars": 238,
+            "language": "JavaScript"
+          },
+          {
+            "name": "redux",
+            "description": "繁體中文 redux 文件翻譯：",
+            "stars": 203,
+            "language": "JavaScript"
+          }
+        ],
+        "twitterUsername": "chentsulin",
+        "blog": null
+      },
+      {
+        "login": "PeterDaveHello",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3691490?s=72&u=4dee3c8d8045eccca432b07645c80fbbe61d1c36&v=4",
+        "name": "Peter Dave Hello",
+        "company": "@DNSCrypt @nodejs @maintainers  @campus-experts  @transmission-remote-gui",
+        "location": "Taiwan, R.O.C",
+        "bio": "I'm a passionate Free & Open Source enthusiast. Working on CyberSecurity & zh-TW localization. A 👨🏼 who ♥️ Debian GNU/Linux 🐧 lives in 🇹🇼",
+        "followers": 1754,
+        "publicContributions": 1873,
+        "privateContributions": 0,
+        "languages": [
+          "Dockerfile",
+          "Shell"
+        ],
+        "topRepos": [
+          {
+            "name": "tor-socks-proxy",
+            "description": "🐳 Tiny Docker image (🤏 10MB) as 🧅 Tor SOCKS5 proxy 🛡",
+            "stars": 631,
+            "language": "Dockerfile"
+          },
+          {
+            "name": "top-1m-domains",
+            "description": "🌐 List of free and downloadable top 1M domain list (alexa alternatives) 📊",
+            "stars": 285,
+            "language": null
+          },
+          {
+            "name": "ipinfo.tw",
+            "description": "🐳 A self-host  🙅 non-tracking, AD-🆓 ➕ 🍪-🆓 solution to show your IP ℹ️ Super small (🤏10MB)",
+            "stars": 237,
+            "language": "Dockerfile"
+          },
+          {
+            "name": "url-shorteners",
+            "description": "A comprehensive, high-quality URL shorteners domain list for whitelist/allowlist or blacklist/blocklist purposes, utilized by NextDNS, ControlD, RethinkDNS, dnslow.me, and other OSINT projects.",
+            "stars": 159,
+            "language": "Shell"
+          },
+          {
+            "name": "ColorEchoForShell",
+            "description": "Make 🐚(shell) 's 💬 (`echo`)  to be 🎨 easily ✨ Support ✅ sh ➕ bash ➕ zsh ➕ ksh ➕ 🐟 One simple command for vibrant text output! 💫",
+            "stars": 124,
+            "language": "Shell"
+          }
+        ],
+        "twitterUsername": "PeterDaveHello",
+        "blog": "https://www.peterdavehello.org/"
+      },
+      {
+        "login": "kkdai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2252691?s=72&u=56565c02d009db79badb18957117ac8b6c1fe645&v=4",
+        "name": "Evan Lin",
+        "company": "LINE Taiwan",
+        "location": "Taipei, Taiwan",
+        "bio": "Attitude is Everything.\r\nLead of LINE Taiwan DevRel Team. Golang & AI GDE.",
+        "followers": 1660,
+        "publicContributions": 973,
+        "privateContributions": 38,
+        "languages": [
+          "Go"
+        ],
+        "topRepos": [
+          {
+            "name": "youtube",
+            "description": "Download Youtube Video in Golang",
+            "stars": 3846,
+            "language": "Go"
+          },
+          {
+            "name": "project52",
+            "description": "52 weeks, 52 Go projects",
+            "stars": 1462,
+            "language": null
+          },
+          {
+            "name": "maglev",
+            "description": "A Google Maglev Hashing Algorithm implement in Golang",
+            "stars": 290,
+            "language": "Go"
+          },
+          {
+            "name": "chatgpt",
+            "description": "ChatGPT Console client in Golang",
+            "stars": 247,
+            "language": "Go"
+          },
+          {
+            "name": "LineBotTemplate",
+            "description": "A simple Golang LINE bot Template and tutorial how to setup on Heroku for LINE bot API",
+            "stars": 201,
+            "language": "Go"
+          }
+        ],
+        "twitterUsername": "Evan_Lin",
+        "blog": "https://about.me/ifenglin"
+      },
+      {
+        "login": "kaochenlong",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33090?s=72&u=0007d2b09d49f01f70d17a47453791a95a5eee3d&v=4",
+        "name": "Eddie Kao 高見龍",
+        "company": "5xCampus 五倍學院",
+        "location": "Taiwan, Taipei",
+        "bio": "五倍學院負責人,  Ruby/Rails/Python/Django/JavaScript Developer and Instructor, Book author.",
+        "followers": 1539,
+        "publicContributions": 2913,
+        "privateContributions": 2565,
+        "languages": [
+          "Vim Script"
+        ],
+        "topRepos": [
+          {
+            "name": "spectra-app",
+            "description": null,
+            "stars": 398,
+            "language": null
+          },
+          {
+            "name": "eddie-vim",
+            "description": "Yet another vimrc",
+            "stars": 379,
+            "language": "Vim Script"
+          },
+          {
+            "name": "eddie-vim2",
+            "description": "Yet another vimrc",
+            "stars": 157,
+            "language": "Vim Script"
+          },
+          {
+            "name": "learn-ruby-on-rails",
+            "description": "為你自己學 Ruby on Rails",
+            "stars": 128,
+            "language": null
+          },
+          {
+            "name": "cch",
+            "description": "My yet another Vim setttings",
+            "stars": 75,
+            "language": "Vim Script"
+          }
+        ],
+        "twitterUsername": "eddiekao",
+        "blog": "https://kaochenlong.com/"
+      }
+    ]
+  }
+}
