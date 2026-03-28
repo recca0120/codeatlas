@@ -1,11 +1,13 @@
 <script lang="ts">
   import { createHttpClient } from "../lib/http";
+  import { buildUrl } from "../lib/url";
+  import { t } from "../i18n";
   import type { GitHubUser } from "../lib/github-client";
   import type { CountryData } from "../lib/data-output";
   import LanguageBar from "./LanguageBar.svelte";
   import ShareButtons from "./ShareButtons.svelte";
 
-  let { countryCode, userName, basePath = "/" }: { countryCode: string; userName: string; basePath?: string } = $props();
+  let { countryCode, userName, basePath = "/", locale = "en" }: { countryCode: string; userName: string; basePath?: string; locale?: string } = $props();
 
   let loading = $state(true);
   let error = $state("");
@@ -33,23 +35,23 @@
       const data = await http.get(`data/${countryCode}.json`).json<CountryData>();
       const users = data.rankings.public_contributions;
       const idx = users.findIndex(u => u.login === userName);
-      if (idx === -1) { error = `User "${userName}" not found in ${countryName}`; loading = false; return; }
+      if (idx === -1) { error = t("profile.userNotFound", locale).replace("{name}", userName).replace("{country}", countryName); loading = false; return; }
       user = users[idx];
       rank = idx + 1;
     } catch {
-      error = `Could not load data for "${userName}"`;
+      error = t("profile.loadError", locale).replace("{name}", userName);
     }
     loading = false;
   }
 </script>
 
 {#if loading}
-  <div class="max-w-3xl mx-auto px-6 py-20 text-center text-text-muted">Loading...</div>
+  <div class="max-w-3xl mx-auto px-6 py-20 text-center text-text-muted">{t("profile.loading", locale)}</div>
 {:else if error || !user}
   <div class="max-w-3xl mx-auto px-6 py-20 text-center">
-    <h1 class="text-2xl font-display font-bold mb-4">Not found</h1>
+    <h1 class="text-2xl font-display font-bold mb-4">{t("profile.notFound", locale)}</h1>
     <p class="text-text-secondary">{error}</p>
-    <a href={`${basePath}${countryCode}/`} class="text-accent hover:underline mt-4 inline-block">← Back to {countryName}</a>
+    <a href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${countryCode}/`, basePath)} class="text-accent hover:underline mt-4 inline-block">{t("profile.backTo", locale).replace("{name}", countryName)}</a>
   </div>
 {:else}
   {@const u = user}
@@ -69,14 +71,14 @@
         {#if u.bio}<p class="text-text-secondary mt-3">{u.bio}</p>{/if}
         <div class="flex flex-wrap gap-2 mt-4">
           <a href={`https://github.com/${u.login}`} target="_blank" rel="noopener"
-            class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">GitHub</a>
+            class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">{t("profile.github", locale)}</a>
           {#if u.twitterUsername}
             <a href={`https://twitter.com/${u.twitterUsername}`} target="_blank" rel="noopener"
               class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">𝕏 {u.twitterUsername}</a>
           {/if}
           {#if u.blog}
             <a href={u.blog} target="_blank" rel="noopener"
-              class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">Blog</a>
+              class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">{t("profile.blog", locale)}</a>
           {/if}
         </div>
       </div>
@@ -86,8 +88,8 @@
     <div class="grid grid-cols-3 border border-border rounded-xl overflow-hidden mb-12">
       {#each [
         { v: `#${rank}`, l: countryName },
-        { v: u.publicContributions.toLocaleString(), l: "Contributions" },
-        { v: u.followers.toLocaleString(), l: "Followers" },
+        { v: u.publicContributions.toLocaleString(), l: t("profile.contributions", locale) },
+        { v: u.followers.toLocaleString(), l: t("profile.followers", locale) },
       ] as stat, i}
         <div class={`px-5 py-6 text-center ${i < 2 ? 'border-r border-border' : ''}`}>
           <div class="font-data font-bold text-2xl">{stat.v}</div>
@@ -99,7 +101,7 @@
     <!-- Languages -->
     {#if u.languages.length > 0}
       <div class="mb-12">
-        <h2 class="text-xs font-data text-text-muted tracking-widest uppercase mb-3">Languages</h2>
+        <h2 class="text-xs font-data text-text-muted tracking-widest uppercase mb-3">{t("profile.languages", locale)}</h2>
         <LanguageBar languages={u.languages} />
       </div>
     {/if}
@@ -107,7 +109,7 @@
     <!-- Repos -->
     {#if u.topRepos.length > 0}
       <div class="mb-12">
-        <h2 class="text-xs font-data text-text-muted tracking-widest uppercase mb-3">Top Repositories</h2>
+        <h2 class="text-xs font-data text-text-muted tracking-widest uppercase mb-3">{t("profile.topRepos", locale)}</h2>
         <div class="border border-border rounded-xl overflow-hidden divide-y divide-border">
           {#each u.topRepos as repo}
             <div class="flex items-center gap-4 px-5 py-4">
@@ -129,14 +131,14 @@
     <!-- GitHub link -->
     <a href={`https://github.com/${u.login}`} target="_blank" rel="noopener"
       class="flex items-center gap-2 px-5 py-4 border border-border rounded-xl hover:bg-surface-hover transition-colors mb-12">
-      <span>View full profile on GitHub</span>
+      <span>{t("profile.viewOnGithub", locale)}</span>
       <span class="ml-auto text-text-muted">→</span>
     </a>
 
     <!-- Share -->
     <div class="pt-8 border-t border-border">
-      <div class="text-xs text-text-muted tracking-widest uppercase mb-3">Share profile</div>
-      <ShareButtons url={window.location.href} text={`${u.name || u.login} is #${rank} in ${countryName} on CodeAtlas!`} />
+      <div class="text-xs text-text-muted tracking-widest uppercase mb-3">{t("profile.shareProfile", locale)}</div>
+      <ShareButtons url={window.location.href} text={t("profile.shareText", locale).replace("{name}", u.name || u.login).replace("{rank}", String(rank)).replace("{country}", countryName)} {locale} />
     </div>
   </div>
 {/if}

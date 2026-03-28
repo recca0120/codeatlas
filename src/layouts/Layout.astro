@@ -1,30 +1,33 @@
 ---
 import "../styles/global.css";
 import ThemeToggle from "../components/ThemeToggle.svelte";
-import CountrySearch from "../components/CountrySearch.svelte";
+import LocaleSwitcher from "../components/LocaleSwitcher.svelte";
 import { buildUrl } from "../lib/url";
+import { t, type Locale } from "../i18n";
 
 interface Props {
   title: string;
   description?: string;
   ogImage?: string;
   breadcrumb?: { label: string; href: string }[];
+  locale?: string;
 }
 
-const { title, description = "Global Developer Rankings", ogImage, breadcrumb = [] } = Astro.props;
+const { title, description = "Global Developer Rankings", ogImage, breadcrumb = [], locale: localeProp } = Astro.props;
+const locale = (localeProp ?? Astro.currentLocale ?? "en") as Locale;
 const url = Astro.url.href;
 const site = Astro.site?.toString() ?? "";
-const base = import.meta.env.BASE_URL;
+const basePath = import.meta.env.BASE_URL;
 ---
 
-<html lang="en">
+<html lang={locale === "zh-TW" ? "zh-TW" : "en"}>
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+    <link rel="icon" type="image/svg+xml" href={buildUrl("favicon.svg", basePath)} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <link rel="preload" href={`${base}fonts/SpaceGrotesk-Bold.woff`} as="font" type="font/woff" crossorigin />
+    <link rel="preload" href={buildUrl("fonts/SpaceGrotesk-Bold.woff", basePath)} as="font" type="font/woff" crossorigin />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={url} />
@@ -36,20 +39,38 @@ const base = import.meta.env.BASE_URL;
       document.documentElement.classList.toggle("dark",
         localStorage.theme==="dark"||(!("theme" in localStorage)&&matchMedia("(prefers-color-scheme:dark)").matches));
     </script>
+    <script is:inline define:vars={{ basePath }}>
+      // Locale preference redirect: if user has a saved locale and is on the wrong version, redirect
+      (function() {
+        var saved = localStorage.getItem("locale");
+        if (!saved) return;
+        var path = window.location.pathname;
+        var base = basePath.endsWith("/") ? basePath.slice(0, -1) : basePath;
+        var isZhTW = path.startsWith(base + "/zh-TW");
+        if (saved === "zh-TW" && !isZhTW) {
+          var rest = path.slice(base.length);
+          window.location.replace(base + "/zh-TW" + rest);
+        } else if (saved === "en" && isZhTW) {
+          var rest = path.slice((base + "/zh-TW").length);
+          window.location.replace(base + (rest || "/"));
+        }
+      })();
+    </script>
   </head>
   <body class="bg-bg text-text font-body antialiased min-h-screen">
 
     <nav class="sticky top-0 z-50 w-full bg-bg/90 backdrop-blur-md border-b border-border">
       <div class="w-full px-5 sm:px-8 h-14 flex items-center gap-4">
         <div class="flex items-center gap-2 text-base shrink-0">
-          <a href={buildUrl("", base)} class="font-display font-bold text-lg text-accent hover:text-accent-hover transition-colors">CodeAtlas</a>
+          <a href={buildUrl("", basePath)} class="font-display font-bold text-lg text-accent hover:text-accent-hover transition-colors">{t("nav.home", locale)}</a>
           {breadcrumb.map(b => (
             <><span class="text-text-muted">›</span><a href={b.href} class="text-text-secondary hover:text-text transition-colors truncate max-w-[150px] sm:max-w-none">{b.label}</a></>
           ))}
         </div>
         <div class="flex-1"></div>
         <div class="flex items-center gap-4">
-          <a href={buildUrl("faq", base)} class="text-sm text-text-secondary hover:text-text transition-colors hidden sm:block">FAQ</a>
+          <a href={buildUrl(locale === "zh-TW" ? "zh-TW/faq" : "faq", basePath)} class="text-sm text-text-secondary hover:text-text transition-colors hidden sm:block">{t("nav.faq", locale)}</a>
+          <LocaleSwitcher client:load locale={locale} basePath={basePath} currentPath={Astro.url.pathname} />
           <ThemeToggle client:load />
         </div>
       </div>

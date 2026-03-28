@@ -1,11 +1,14 @@
 <script lang="ts">
+  import { buildUrl } from "../lib/url";
+  import { t } from "../i18n";
+
   interface Country {
     code: string;
     name: string;
     flag: string;
   }
 
-  let { countries, basePath = "/" }: { countries: Country[]; basePath?: string } = $props();
+  let { countries, basePath = "/", locale = "en" }: { countries: Country[]; basePath?: string; locale?: string } = $props();
 
   let query = $state("");
   let focused = $state(false);
@@ -27,7 +30,7 @@
     </svg>
     <input
       type="text"
-      placeholder="Search countries..."
+      placeholder={t("search.placeholder", locale)}
       bind:value={query}
       onfocus={() => focused = true}
       onblur={() => setTimeout(() => focused = false, 200)}
@@ -40,7 +43,7 @@
     <div class="absolute z-50 top-full mt-1 left-0 right-0 bg-surface border border-border/[0.08] rounded-lg shadow-2xl overflow-hidden">
       {#each filtered as country}
         <a
-          href="{basePath}{country.code}/"
+          href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${country.code}/`, basePath)}
           class="flex items-center gap-3 px-4 py-2.5 hover:bg-border/[0.04] transition-colors text-sm"
         >
           <span class="text-lg">{country.flag}</span>

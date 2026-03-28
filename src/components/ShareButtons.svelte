@@ -1,5 +1,7 @@
 <script lang="ts">
-  let { url, text }: { url: string; text: string } = $props();
+  import { t } from "../i18n";
+
+  let { url, text, locale = "en" }: { url: string; text: string; locale?: string } = $props();
   let copied = $state(false);
 
   const encodedUrl = $derived(encodeURIComponent(url));
@@ -50,6 +52,6 @@
     class="px-3 py-1.5 text-xs font-data tracking-wider border border-border rounded-md transition-all
       {copied ? 'text-success border-success/30 bg-success/5' : 'text-text-secondary hover:text-accent hover:border-accent/30'}"
   >
-    {copied ? "COPIED ✓" : "COPY LINK"}
+    {copied ? t("share.copied", locale) : t("share.copyLink", locale)}
   </button>
 </div>
