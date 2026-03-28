@@ -28,7 +28,6 @@ export interface RateLimitInfo {
 
 export type ProgressCallback = (
   current: number,
-  total: number,
   login: string,
 ) => void;
 
@@ -68,7 +67,6 @@ export async function searchUsersByLocation(
     if (countryCode && shouldExcludeUser(countryCode, user.location)) continue;
     seen.add(user.login);
     users.push(user);
-    if (opts.limit && users.length >= opts.limit) break;
   }
 
   return users;

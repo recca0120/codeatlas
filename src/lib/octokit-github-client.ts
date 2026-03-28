@@ -160,7 +160,7 @@ export function createOctokitClient(token: string): GitHubClient {
         );
         for (let idx = 0; idx < userNodes.length; idx++) {
           const node = userNodes[idx];
-          onProgress?.(users.length + 1, users.length + (userNodes.length - idx), node.login);
+          onProgress?.(users.length + 1, node.login);
           users.push(mapNodeToUser(node));
 
           if (limit && users.length >= limit) {

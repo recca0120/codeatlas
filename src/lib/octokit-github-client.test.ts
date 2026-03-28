@@ -182,8 +182,8 @@ describe("createOctokitClient", () => {
       await client.searchUsers("location:Taiwan", { onProgress });
 
       expect(onProgress).toHaveBeenCalledTimes(2);
-      expect(onProgress).toHaveBeenCalledWith(1, 2, "alice");
-      expect(onProgress).toHaveBeenCalledWith(2, 2, "bob");
+      expect(onProgress).toHaveBeenCalledWith(1, "alice");
+      expect(onProgress).toHaveBeenCalledWith(2, "bob");
     });
 
     it("returns empty array when no search results", async () => {
@@ -266,9 +266,9 @@ describe("createOctokitClient", () => {
       expect(users.map((u) => u.login)).toEqual(["alice", "bob", "charlie"]);
 
       // Progress should accumulate across pages, not reset per page
-      expect(onProgress).toHaveBeenCalledWith(1, expect.any(Number), "alice");
-      expect(onProgress).toHaveBeenCalledWith(2, expect.any(Number), "bob");
-      expect(onProgress).toHaveBeenCalledWith(3, expect.any(Number), "charlie");
+      expect(onProgress).toHaveBeenCalledWith(1, "alice");
+      expect(onProgress).toHaveBeenCalledWith(2, "bob");
+      expect(onProgress).toHaveBeenCalledWith(3, "charlie");
     });
 
     it("filters out null nodes (Organizations in search results)", async () => {

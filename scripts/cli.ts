@@ -50,7 +50,7 @@ addSharedOptions(
       {
         countryCode: config.code,
         limit: opts.limit,
-        onProgress: (current, _total, login) => {
+        onProgress: (current, login) => {
           if (process.stdout.isTTY) {
             process.stdout.write(`\r  [${current}] ${login}`.padEnd(60));
           } else {

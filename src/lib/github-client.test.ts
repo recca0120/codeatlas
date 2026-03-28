@@ -1,10 +1,19 @@
 import { describe, expect, it, vi } from "vitest";
-import { type GitHubClient, searchUsersByLocation } from "./github-client";
+import {
+  type GitHubClient,
+  type SearchOptions,
+  searchUsersByLocation,
+} from "./github-client";
 import { createMockUser } from "./test-utils";
 
 function createFakeClient(users = [createMockUser()]): GitHubClient {
   return {
-    searchUsers: vi.fn().mockResolvedValue(users),
+    searchUsers: vi.fn().mockImplementation(
+      (_query: string, options?: SearchOptions) => {
+        const limit = options?.limit;
+        return Promise.resolve(limit ? users.slice(0, limit) : users);
+      },
+    ),
     getRateLimit: vi
       .fn()
       .mockResolvedValue({ remaining: 5000, resetAt: new Date() }),
