@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { shouldExcludeUser } from "./location-filter";
 
 export const TopRepoSchema = z.object({
   name: z.string(),
@@ -53,7 +54,6 @@ export async function searchUsersByLocation(
   options?: SearchByLocationOptions,
 ): Promise<GitHubUser[]> {
   const { countryCode, ...opts } = options ?? {};
-  const { shouldExcludeUser } = await import("./location-filter");
 
   const query = locations.map((l) => `location:${l}`).join(" ");
   const results = await client.searchUsers(query, opts);

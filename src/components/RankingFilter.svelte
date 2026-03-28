@@ -1,9 +1,7 @@
 <script lang="ts">
   import type { GitHubUser } from "../lib/github-client";
-  import { buildRankMap, rankUsers, type RankingDimension } from "../lib/ranking";
+  import { buildRankMap, getRankValue, rankUsers, type RankingRankingDimension } from "../lib/ranking";
   import { t } from "../i18n";
-
-  type Dimension = RankingDimension;
 
   let {
     users,
@@ -20,7 +18,7 @@
   let search = $state("");
   let langFilter = $state<string[]>([]);
   let cityFilter = $state("");
-  let dimension = $state<Dimension>("public_contributions");
+  let dimension = $state<RankingDimension>("public_contributions");
   let page = $state(1);
   const PER_PAGE = 50;
 
@@ -30,7 +28,7 @@
     if (p.get("q")) search = p.get("q")!;
     if (p.get("lang")) langFilter = p.get("lang")!.split(",");
     if (p.get("city")) cityFilter = p.get("city")!;
-    if (p.get("sort")) dimension = p.get("sort") as Dimension;
+    if (p.get("sort")) dimension = p.get("sort") as RankingDimension;
     if (p.get("page")) page = Number(p.get("page"));
   });
 
@@ -66,18 +64,13 @@
   const paged = $derived(filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE));
   const hasFilters = $derived(search !== "" || langFilter.length > 0 || cityFilter !== "");
 
-  function getVal(u: GitHubUser): number {
-    if (dimension === "followers") return u.followers;
-    if (dimension === "total_contributions") return u.publicContributions + u.privateContributions;
-    return u.publicContributions;
-  }
 
   function toggleLang(lang: string) {
     langFilter = langFilter.includes(lang) ? langFilter.filter(l => l !== lang) : [...langFilter, lang];
     page = 1; sync();
   }
   function clearAll() { search = ""; langFilter = []; cityFilter = ""; page = 1; sync(); }
-  function setDim(d: Dimension) { dimension = d; page = 1; sync(); }
+  function setDim(d: RankingDimension) { dimension = d; page = 1; sync(); }
   function setPage(p: number) { page = p; sync(); }
 
   const LANG_COLORS: Record<string, string> = {
@@ -86,13 +79,13 @@
   };
 </script>
 
-<!-- Dimension tabs -->
+<!-- RankingDimension tabs -->
 <div class="flex flex-wrap items-center gap-2 mb-4">
   {#each [["public_contributions",t("ranking.public", locale)],["total_contributions",t("ranking.total", locale)],["followers",t("ranking.followers", locale)]] as [key, label]}
     <button
       class="px-3 py-1.5 text-xs font-data rounded-md transition-all cursor-pointer
         {dimension === key ? 'bg-accent text-white' : 'text-text-secondary border border-border hover:text-text'}"
-      onclick={() => setDim(key as Dimension)}
+      onclick={() => setDim(key as RankingDimension)}
     >{label}</button>
   {/each}
 </div>
@@ -156,7 +149,7 @@
 <div class="divide-y divide-border">
   {#each paged as user, i (user.login)}
     {@const rank = rankMap.get(user.login) ?? (page - 1) * PER_PAGE + i + 1}
-    {@const val = getVal(user)}
+    {@const val = getRankValue(user, dimension)}
     {@const isTop3 = rank <= 3}
 
     <a href="{user.login}"

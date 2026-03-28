@@ -5,7 +5,10 @@ export type RankingDimension =
   | "total_contributions"
   | "followers";
 
-function getRankValue(user: GitHubUser, dimension: RankingDimension): number {
+export function getRankValue(
+  user: GitHubUser,
+  dimension: RankingDimension,
+): number {
   switch (dimension) {
     case "public_contributions":
       return user.publicContributions;
