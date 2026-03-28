@@ -28,8 +28,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - uses: pnpm/action-setup@v4
         with:
@@ -52,7 +50,7 @@ jobs:
           git fetch origin data-collection 2>/dev/null || true
           if git rev-parse --verify origin/data-collection >/dev/null 2>&1; then
             git checkout data-collection
-            git merge origin/main --no-edit --strategy-option theirs || true
+            git rebase origin/main
           else
             git checkout -b data-collection
           fi
@@ -102,14 +100,18 @@ jobs:
           git checkout main
           git pull origin main
 
-          if git diff --quiet main..data-collection -- public/data/; then
+          # Need full history for diff
+          git fetch origin data-collection
+
+          if git diff --quiet main..origin/data-collection -- public/data/; then
             echo "No data changes to merge"
             exit 0
           fi
 
-          git merge --squash data-collection
+          git merge --squash origin/data-collection
           git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d) [skip ci]"
           git push origin main
 
-          # Clean up branch
-          git push origin --delete data-collection
+      - name: Clean up branch
+        if: success()
+        run: git push origin --delete data-collection 2>/dev/null || true
