@@ -1,6 +1,6 @@
 {
   "countryCode": "taiwan",
-  "updatedAt": "2026-03-28T04:30:45.078Z",
+  "updatedAt": "2026-03-28T04:54:08.337Z",
   "users": [
     {
       "login": "topjohnwu",
@@ -9,7 +9,7 @@
       "company": null,
       "location": "US / Taiwan",
       "bio": "",
-      "followers": 11641,
+      "followers": 11642,
       "publicContributions": 539,
       "privateContributions": 0,
       "languages": [
@@ -109,8 +109,8 @@
       "location": "Taiwan",
       "bio": "爛命一條",
       "followers": 9133,
-      "publicContributions": 6518,
-      "privateContributions": 3908,
+      "publicContributions": 6521,
+      "privateContributions": 3911,
       "languages": [
         "Python",
         "TypeScript"
@@ -119,7 +119,7 @@
         {
           "name": "awesome-python",
           "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-          "stars": 289327,
+          "stars": 289330,
           "language": "Python"
         },
         {
@@ -1142,8 +1142,8 @@
         "location": "Taiwan",
         "bio": "爛命一條",
         "followers": 9133,
-        "publicContributions": 6518,
-        "privateContributions": 3908,
+        "publicContributions": 6521,
+        "privateContributions": 3911,
         "languages": [
           "Python",
           "TypeScript"
@@ -1152,7 +1152,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289327,
+            "stars": 289330,
             "language": "Python"
           },
           {
@@ -1730,7 +1730,7 @@
         "company": null,
         "location": "US / Taiwan",
         "bio": "",
-        "followers": 11641,
+        "followers": 11642,
         "publicContributions": 539,
         "privateContributions": 0,
         "languages": [
@@ -2127,8 +2127,8 @@
         "location": "Taiwan",
         "bio": "爛命一條",
         "followers": 9133,
-        "publicContributions": 6518,
-        "privateContributions": 3908,
+        "publicContributions": 6521,
+        "privateContributions": 3911,
         "languages": [
           "Python",
           "TypeScript"
@@ -2137,7 +2137,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289327,
+            "stars": 289330,
             "language": "Python"
           },
           {
@@ -2715,7 +2715,7 @@
         "company": null,
         "location": "US / Taiwan",
         "bio": "",
-        "followers": 11641,
+        "followers": 11642,
         "publicContributions": 539,
         "privateContributions": 0,
         "languages": [
@@ -2965,7 +2965,7 @@
         "company": null,
         "location": "US / Taiwan",
         "bio": "",
-        "followers": 11641,
+        "followers": 11642,
         "publicContributions": 539,
         "privateContributions": 0,
         "languages": [
@@ -3065,8 +3065,8 @@
         "location": "Taiwan",
         "bio": "爛命一條",
         "followers": 9133,
-        "publicContributions": 6518,
-        "privateContributions": 3908,
+        "publicContributions": 6521,
+        "privateContributions": 3911,
         "languages": [
           "Python",
           "TypeScript"
@@ -3075,7 +3075,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289327,
+            "stars": 289330,
             "language": "Python"
           },
           {
