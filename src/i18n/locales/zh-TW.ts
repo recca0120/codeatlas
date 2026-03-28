@@ -47,6 +47,7 @@ export default {
   "ranking.clearFilters": "清除篩選",
   "ranking.clearAll": "清除全部",
   "ranking.of": "/",
+  "ranking.page": "每頁",
   "ranking.developers": "位開發者",
 
   // Profile page

@@ -45,6 +45,7 @@ const en = {
   "ranking.clearFilters": "Clear filters",
   "ranking.clearAll": "Clear all",
   "ranking.of": "of",
+  "ranking.page": "page",
   "ranking.developers": "developers",
 
   // Profile page

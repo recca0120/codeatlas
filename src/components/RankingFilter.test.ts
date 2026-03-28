@@ -1,7 +1,7 @@
 // @vitest-environment jsdom
-import { render, screen } from "@testing-library/svelte";
+import { render, screen, waitFor } from "@testing-library/svelte";
 import userEvent from "@testing-library/user-event";
-import { describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import { createMockUser } from "../lib/test-utils";
 import RankingFilter from "./RankingFilter.svelte";
 
@@ -30,6 +30,10 @@ const users = [
 ];
 
 describe("RankingFilter", () => {
+  beforeEach(() => {
+    window.history.replaceState({}, "", "/");
+  });
+
   it("renders all users", () => {
     render(RankingFilter, { users });
     expect(screen.getByText("Alice")).toBeInTheDocument();
@@ -92,6 +96,39 @@ describe("RankingFilter", () => {
     const links = screen.getAllByRole("link");
     expect(links).toHaveLength(1);
     expect(links[0]).toHaveTextContent("Bob");
+  });
+
+  it("has per-page selector with default 50", () => {
+    render(RankingFilter, { users });
+    const select = screen.getByRole("combobox", { name: /per page/i });
+    expect(select).toBeInTheDocument();
+    expect((select as HTMLSelectElement).value).toBe("50");
+  });
+
+  it("changes visible users when per-page is changed", async () => {
+    const manyUsers = Array.from({ length: 60 }, (_, i) =>
+      createMockUser({
+        login: `user-${i}`,
+        name: `User ${i}`,
+        publicContributions: 1000 - i,
+      }),
+    );
+    const user = userEvent.setup();
+    const { container } = render(RankingFilter, { users: manyUsers });
+
+    // Default 50 per page
+    await waitFor(() => {
+      expect(container.querySelectorAll("a[href]")).toHaveLength(50);
+    });
+
+    // Change to 25
+    await user.selectOptions(
+      screen.getByRole("combobox", { name: /per page/i }),
+      "25",
+    );
+    await waitFor(() => {
+      expect(container.querySelectorAll("a[href]")).toHaveLength(25);
+    });
   });
 
   it("shows no results message when search has no matches", async () => {

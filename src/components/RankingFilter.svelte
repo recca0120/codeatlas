@@ -21,7 +21,8 @@
   let cityFilter = $state("");
   let dimension = $state<RankingDimension>("public_contributions");
   let page = $state(1);
-  const PER_PAGE = 50;
+  let perPage = $state(50);
+  const PER_PAGE_OPTIONS = [25, 50, 100, 250, 500];
 
   $effect(() => {
     if (typeof window === "undefined") return;
@@ -31,6 +32,7 @@
     if (p.get("city")) cityFilter = p.get("city")!;
     if (p.get("sort")) dimension = p.get("sort") as RankingDimension;
     if (p.get("page")) page = Number(p.get("page"));
+    if (p.get("size")) perPage = Number(p.get("size"));
   });
 
   function sync() {
@@ -41,6 +43,7 @@
     if (cityFilter) p.set("city", cityFilter);
     if (dimension !== "public_contributions") p.set("sort", dimension);
     if (page > 1) p.set("page", String(page));
+    if (perPage !== 50) p.set("size", String(perPage));
     const qs = p.toString();
     history.replaceState({}, "", qs ? `?${qs}` : location.pathname);
   }
@@ -61,8 +64,8 @@
     return list;
   });
 
-  const totalPages = $derived(Math.ceil(filtered.length / PER_PAGE));
-  const paged = $derived(filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE));
+  const totalPages = $derived(Math.ceil(filtered.length / perPage));
+  const paged = $derived(filtered.slice((page - 1) * perPage, page * perPage));
   const hasFilters = $derived(search !== "" || langFilter.length > 0 || cityFilter !== "");
 
 
@@ -144,12 +147,24 @@
   </div>
 {/if}
 
-<div class="text-xs text-text-muted mb-4">{filtered.length} {t("ranking.of", locale)} {users.length} {t("ranking.developers", locale)}</div>
+<div class="flex items-center justify-between text-xs text-text-muted mb-4">
+  <span>{filtered.length} {t("ranking.of", locale)} {users.length} {t("ranking.developers", locale)}</span>
+  <label class="flex items-center gap-1.5">
+    <select bind:value={perPage} onchange={() => { page = 1; sync(); }}
+      aria-label="per page"
+      class="bg-surface border border-border rounded px-2 py-1 text-xs text-text-secondary focus:outline-none cursor-pointer">
+      {#each PER_PAGE_OPTIONS as size}
+        <option value={size}>{size}</option>
+      {/each}
+    </select>
+    <span>/ {t("ranking.page", locale)}</span>
+  </label>
+</div>
 
 <!-- Ranking rows -->
 <div class="divide-y divide-border">
   {#each paged as user, i (user.login)}
-    {@const rank = rankMap.get(user.login) ?? (page - 1) * PER_PAGE + i + 1}
+    {@const rank = rankMap.get(user.login) ?? (page - 1) * perPage + i + 1}
     {@const val = getRankValue(user, dimension)}
     {@const isTop3 = rank <= 3}
 
