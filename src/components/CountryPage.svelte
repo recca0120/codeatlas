@@ -5,6 +5,7 @@
   import RankingFilter from "./RankingFilter.svelte";
   import ShareButtons from "./ShareButtons.svelte";
   import { t } from "../i18n";
+  import { updateMeta } from "../lib/seo";
 
   let { countryCode, basePath = "/", locale = "en" }: { countryCode: string; basePath?: string; locale?: string } = $props();
 
@@ -38,6 +39,15 @@
   }
 
   const users = $derived(countryData?.users ?? []);
+
+  $effect(() => {
+    if (countryData) {
+      updateMeta({
+        title: `${countryFlag} ${countryName} — CodeAtlas`,
+        description: t("country.ogDescription", locale).replace("{country}", countryName).replace("{count}", String(users.length)),
+      });
+    }
+  });
   const totalContrib = $derived(users.reduce((s, u) => s + u.publicContributions, 0));
   const updatedAt = $derived(countryData?.updatedAt ?? "");
 

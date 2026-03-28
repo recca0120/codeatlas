@@ -34,6 +34,8 @@ export default {
   "country.updated": "更新時間",
   "country.share": "分享{name}排行榜",
   "country.topDevelopers": "{name}頂尖 GitHub 開發者",
+  "country.ogDescription":
+    "{country}前 {count} 名 GitHub 開發者，依貢獻數和追蹤者排名。",
 
   // Ranking filter
   "ranking.public": "公開貢獻",
@@ -62,6 +64,8 @@ export default {
   "profile.viewOnGithub": "在 GitHub 查看完整個人檔案",
   "profile.shareProfile": "分享個人檔案",
   "profile.shareText": "{name}在 CodeAtlas {country}排名 #{rank}！",
+  "profile.ogDescription":
+    "{name}在{country}的 GitHub 開發者中排名第 {rank} 名。",
 
   // Theme
   "theme.switchToLight": "切換至淺色主題",

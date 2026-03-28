@@ -6,6 +6,7 @@
   import type { CountryData } from "../lib/data-output";
   import { rankUsers } from "../lib/ranking";
   import LanguageBar from "./LanguageBar.svelte";
+  import { updateMeta } from "../lib/seo";
   import ShareButtons from "./ShareButtons.svelte";
 
   let { countryCode, userName, basePath = "/", locale = "en" }: { countryCode: string; userName: string; basePath?: string; locale?: string } = $props();
@@ -39,6 +40,10 @@
       if (idx === -1) { error = t("profile.userNotFound", locale).replace("{name}", userName).replace("{country}", countryName); loading = false; return; }
       user = ranked[idx];
       rank = idx + 1;
+      updateMeta({
+        title: `${user.name || user.login} — #${rank} in ${countryName} — CodeAtlas`,
+        description: t("profile.ogDescription", locale).replace("{name}", user.name || user.login).replace("{rank}", String(rank)).replace("{country}", countryName),
+      });
     } catch {
       error = t("profile.loadError", locale).replace("{name}", userName);
     }

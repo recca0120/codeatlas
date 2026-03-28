@@ -32,6 +32,8 @@ const en = {
   "country.updated": "Updated",
   "country.share": "Share {name} rankings",
   "country.topDevelopers": "Top GitHub developers in {name}",
+  "country.ogDescription":
+    "Top {count} GitHub developers in {country}, ranked by contributions and followers.",
 
   // Ranking filter
   "ranking.public": "Public",
@@ -60,6 +62,8 @@ const en = {
   "profile.viewOnGithub": "View full profile on GitHub",
   "profile.shareProfile": "Share profile",
   "profile.shareText": "{name} is #{rank} in {country} on CodeAtlas!",
+  "profile.ogDescription":
+    "{name} is ranked #{rank} among GitHub developers in {country}.",
 
   // Theme
   "theme.switchToLight": "Switch to light theme",
