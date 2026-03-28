@@ -18,7 +18,7 @@ const locale = (localeProp ?? Astro.currentLocale ?? "en") as Locale;
 const url = Astro.url.href;
 const siteOrigin = (Astro.site?.toString() ?? "").replace(/\/$/, "");
 const basePath = import.meta.env.BASE_URL;
-const ogImageUrl = ogImage ? `${siteOrigin}${ogImage}` : `${siteOrigin}${buildUrl("og.png", basePath)}`;
+const ogImageUrl = ogImage ? `${siteOrigin}${ogImage}` : `${siteOrigin}${buildUrl("og.jpg", basePath)}`;
 ---
 
 <html lang={locale === "zh-TW" ? "zh-TW" : "en"}>
