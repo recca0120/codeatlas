@@ -72,8 +72,8 @@ jobs:
           failed=0
 
           for code in $countries; do
-            # Skip if already collected today
-            if [ -f "public/data/$code.json" ]; then
+            # Skip if already collected today (only when no limit — limit means testing)
+            if [ -z "${{ inputs.limit }}" ] && [ -f "public/data/$code.json" ]; then
               file_date=$(node -e "try{const d=require('./public/data/$code.json');console.log(d.updatedAt?.split('T')[0]??'')}catch{console.log('')}")
               if [ "$file_date" = "$today" ]; then
                 skipped=$((skipped + 1))
