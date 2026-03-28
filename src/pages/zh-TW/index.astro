@@ -23,20 +23,20 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
   <!-- Hero: full-width starfield bg in dark mode -->
   <div class="w-full dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center" data-base={basePath}>
     <div class="max-w-6xl mx-auto px-6 sm:px-8">
-      <section class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-8 min-h-[calc(100vh-56px)] items-center py-16 lg:py-0">
-        <div>
-          <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight tracking-tight">
-            {t("hero.title", locale)}
-          </h1>
-          <p class="text-text-secondary mt-5 text-lg leading-relaxed max-w-lg" set:html={t("hero.description", locale).replace("{count}", `<span class="text-text font-semibold">${countries.length}</span>`)} />
-          <div class="mt-8 max-w-sm">
-            <CountrySearch client:load countries={countryList.map(c => ({ code: c.code, name: c.name, flag: c.flag }))} basePath={basePath} locale={locale} />
-          </div>
-        </div>
+      <section class="relative min-h-[calc(100vh-56px)] flex items-center py-16">
+        <div id="globe-container" class="absolute inset-0 opacity-0 transition-opacity duration-[2s] lg:left-1/2 lg:right-0"
+          data-countries={JSON.stringify(countryList.map(c => c.code))} data-locale={locale}></div>
 
-        <div class="hidden lg:block relative h-[620px]">
-          <div id="globe-container" class="absolute inset-0 opacity-0 transition-opacity duration-[2s]"
-            data-countries={JSON.stringify(countryList.map(c => c.code))} data-locale={locale}></div>
+        <div class="relative z-10 max-w-lg">
+          <div class="rounded-2xl bg-bg/80 backdrop-blur-sm p-6 sm:p-8 lg:bg-transparent lg:backdrop-blur-none lg:p-0">
+            <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight tracking-tight">
+              {t("hero.title", locale)}
+            </h1>
+            <p class="text-text-secondary mt-5 text-lg leading-relaxed" set:html={t("hero.description", locale).replace("{count}", `<span class="text-text font-semibold">${countries.length}</span>`)} />
+            <div class="mt-8 max-w-sm">
+              <CountrySearch client:load countries={countryList.map(c => ({ code: c.code, name: c.name, flag: c.flag }))} basePath={basePath} locale={locale} />
+            </div>
+          </div>
         </div>
       </section>
     </div>
@@ -76,7 +76,7 @@ for (const c of countryList) { (byContinent[c.continent] ??= []).push(c); }
   import { t } from "../../i18n";
   import { isConfiguredCountry, getCountrySlug } from "../../lib/globe/country-mapping";
   const el = document.getElementById("globe-container");
-  if (el && window.innerWidth >= 1024) {
+  if (el) {
     const configuredCodes = new Set(JSON.parse(el.dataset.countries || "[]"));
     const locale = el.dataset.locale || "en";
     function hc(iso: string) {
