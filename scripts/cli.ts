@@ -6,12 +6,23 @@ import {
   generateFakeUsers,
   prioritizeCountry,
   shouldSkipCountry,
-  writeCountryData,
 } from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
 import { buildCountryData, rebuildCountryData } from "../src/lib/data-output";
 import { searchUsersByLocation } from "../src/lib/github-client";
 import { createOctokitClient } from "../src/lib/octokit-github-client";
+
+const DATA_DIR = "public/data";
+
+async function writeCountryData(
+  countryCode: string,
+  data: unknown,
+): Promise<string> {
+  const outputPath = buildOutputPath(countryCode);
+  await fs.mkdir(DATA_DIR, { recursive: true });
+  await fs.writeFile(outputPath, JSON.stringify(data));
+  return outputPath;
+}
 
 const program = new Command()
   .name("codeatlas")

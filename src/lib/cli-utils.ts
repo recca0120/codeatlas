@@ -96,20 +96,6 @@ export function buildOutputPath(countryCode: string): string {
 }
 
 /**
- * Write country data JSON to disk.
- */
-export async function writeCountryData(
-  countryCode: string,
-  data: unknown,
-): Promise<string> {
-  const fs = await import("node:fs/promises");
-  const outputPath = buildOutputPath(countryCode);
-  await fs.mkdir("public/data", { recursive: true });
-  await fs.writeFile(outputPath, JSON.stringify(data));
-  return outputPath;
-}
-
-/**
  * Move a country to the front of the list (without mutating the original).
  */
 export function prioritizeCountry(codes: string[], priority: string): string[] {
