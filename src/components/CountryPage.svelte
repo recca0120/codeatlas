@@ -6,6 +6,7 @@
   import ShareButtons from "./ShareButtons.svelte";
   import { t } from "../i18n";
   import { updateMeta } from "../lib/seo";
+  import Link from "./Link.svelte";
 
   let { countryCode, basePath = "/", locale = "en" }: { countryCode: string; basePath?: string; locale?: string } = $props();
 
@@ -60,7 +61,7 @@
   <div class="max-w-3xl mx-auto px-6 py-20 text-center">
     <h1 class="text-2xl font-display font-bold mb-4">{t("country.notFound", locale)}</h1>
     <p class="text-text-secondary">{error}</p>
-    <a href={basePath} class="text-accent hover:underline mt-4 inline-block">{t("country.backToHome", locale)}</a>
+    <Link href={basePath} class="text-accent hover:underline mt-4 inline-block">{t("country.backToHome", locale)}</Link>
   </div>
 {:else}
   <div class="max-w-5xl mx-auto px-6 sm:px-8">

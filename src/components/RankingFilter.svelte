@@ -3,6 +3,7 @@
   import { buildRankMap, getRankValue, rankUsers, type RankingDimension } from "../lib/ranking";
   import { t } from "../i18n";
   import SearchIcon from "./icons/SearchIcon.svelte";
+  import Link from "./Link.svelte";
 
   let {
     users,
@@ -190,7 +191,7 @@
     {@const val = getRankValue(user, dimension)}
     {@const isTop3 = rank <= 3}
 
-    <a href="{user.login}"
+    <Link href="{user.login}"
       class="group flex items-center gap-4 px-2 sm:px-4 transition-colors hover:bg-surface-hover
         {isTop3 ? 'py-5' : 'py-3.5'}">
 
@@ -219,7 +220,7 @@
 
       <span class="font-data font-bold shrink-0 w-28 text-right
         {isTop3 ? 'text-lg' : 'text-base'}">{val.toLocaleString()}</span>
-    </a>
+    </Link>
   {/each}
 </div>
 

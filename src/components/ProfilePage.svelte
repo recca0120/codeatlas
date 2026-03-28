@@ -8,6 +8,7 @@
   import LanguageBar from "./LanguageBar.svelte";
   import { updateMeta } from "../lib/seo";
   import ShareButtons from "./ShareButtons.svelte";
+  import Link from "./Link.svelte";
 
   let { countryCode, userName, basePath = "/", locale = "en" }: { countryCode: string; userName: string; basePath?: string; locale?: string } = $props();
 
@@ -57,7 +58,7 @@
   <div class="max-w-3xl mx-auto px-6 py-20 text-center">
     <h1 class="text-2xl font-display font-bold mb-4">{t("profile.notFound", locale)}</h1>
     <p class="text-text-secondary">{error}</p>
-    <a href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${countryCode}/`, basePath)} class="text-accent hover:underline mt-4 inline-block">{t("profile.backTo", locale).replace("{name}", countryName)}</a>
+    <Link href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${countryCode}/`, basePath)} class="text-accent hover:underline mt-4 inline-block">{t("profile.backTo", locale).replace("{name}", countryName)}</Link>
   </div>
 {:else}
   {@const u = user}

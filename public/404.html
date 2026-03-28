@@ -13,7 +13,7 @@
   <meta name="twitter:image" content="https://recca0120.github.io/codeatlas/og.jpg">
   <script>
     // GitHub Pages SPA fallback with i18n support
-    // Redirects all 404s to /app/ with the original path as a query param
+    // Redirects all 404s to index with the original path as a query param
     var base = '/codeatlas';
     var path = window.location.pathname;
     if (path.startsWith(base)) {
@@ -25,7 +25,7 @@
       locale = '/zh-TW';
       path = path.slice('/zh-TW'.length);
     }
-    window.location.replace(base + locale + '/app/?route=' + encodeURIComponent(path));
+    window.location.replace(base + locale + '/?route=' + encodeURIComponent(path));
   </script>
 </head>
 <body></body>
