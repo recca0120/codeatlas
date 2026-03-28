@@ -27,9 +27,10 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  collect:
+  collect-priority:
     runs-on: ubuntu-latest
-    timeout-minutes: 360
+    timeout-minutes: 60
+    if: ${{ inputs.country == '' || inputs.country == 'taiwan' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -50,31 +51,74 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Setup data-collection branch
+      - name: Collect taiwan
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git fetch origin data-collection 2>/dev/null || true
-          if git rev-parse --verify origin/data-collection >/dev/null 2>&1; then
-            git checkout data-collection
-            git rebase origin/main
-            git push origin data-collection --force-with-lease
+          collect_flags="-c taiwan"
+          if [ -n "${{ inputs.limit }}" ]; then
+            collect_flags="$collect_flags --limit ${{ inputs.limit }}"
+          fi
+          pnpm tsx scripts/cli.ts collect $collect_flags
+
+      - name: Commit and push taiwan
+        run: |
+          git add public/data/
+          if ! git diff --staged --quiet; then
+            git commit --no-verify -m "data: update taiwan $(date -u +%Y-%m-%d) [skip ci]"
+            git push origin main
+            echo "✓ taiwan merged to main"
           else
-            git checkout -b data-collection
+            echo "- taiwan (no changes)"
           fi
 
-      - name: Collect data per country
+  collect-rest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    needs: collect-priority
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+
+      - run: pnpm install --frozen-lockfile
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Setup data-collection branch
+        run: git checkout -b data-collection
+
+      - name: Collect remaining countries
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           input_country="${{ inputs.country }}"
-          if [ -n "$input_country" ]; then
+          if [ -n "$input_country" ] && [ "$input_country" != "taiwan" ]; then
             countries="$input_country"
+          elif [ -n "$input_country" ]; then
+            echo "Taiwan already collected in previous job"
+            exit 0
           else
-            countries=$(pnpm tsx scripts/cli.ts list-countries -p taiwan)
+            countries=$(pnpm tsx scripts/cli.ts list-countries)
+            # Remove taiwan (already collected)
+            countries=$(echo "$countries" | tr ' ' '\n' | grep -v '^taiwan$' | tr '\n' ' ')
           fi
 
           collected=0
           failed=0
-          taiwan_done=false
 
           for code in $countries; do
             collect_flags="-c $code"
@@ -87,26 +131,11 @@ jobs:
               git add public/data/
               if ! git diff --staged --quiet; then
                 git commit --no-verify -m "data: update $code $(date -u +%Y-%m-%d)"
-                git push origin data-collection
                 echo "  ✓ $code"
               else
                 echo "  - $code (no changes)"
               fi
               collected=$((collected + 1))
-
-              # Merge to main after taiwan (first priority country)
-              if [ "$code" = "taiwan" ] && [ "$taiwan_done" = "false" ]; then
-                taiwan_done=true
-                echo "--- Merging taiwan to main ---"
-                git checkout main
-                git pull origin main
-                git merge --squash origin/data-collection
-                git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d) (taiwan) [skip ci]"
-                git push origin main
-                git checkout data-collection
-                git rebase origin/main
-                git push origin data-collection --force-with-lease
-              fi
             else
               failed=$((failed + 1))
               echo "  ✗ $code (failed, skipping)"
@@ -121,17 +150,11 @@ jobs:
           git checkout main
           git pull origin main
 
-          git fetch origin data-collection
-
-          if git diff --quiet main..origin/data-collection -- public/data/; then
+          if git diff --quiet main..data-collection -- public/data/; then
             echo "No data changes to merge"
             exit 0
           fi
 
-          git merge --squash origin/data-collection
+          git merge --squash data-collection
           git commit --no-verify -m "data: update rankings $(date -u +%Y-%m-%d) [skip ci]"
           git push origin main
-
-      - name: Clean up branch
-        if: success()
-        run: git push origin --delete data-collection 2>/dev/null || true
