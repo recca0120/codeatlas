@@ -73,7 +73,7 @@ const ogImageUrl = ogImage ? `${siteOrigin}${ogImage}` : `${siteOrigin}${buildUr
         <div class="flex-1"></div>
         <div class="flex items-center gap-4">
           <a href={buildUrl(locale === "zh-TW" ? "zh-TW/faq" : "faq", basePath)} class="text-sm text-text-secondary hover:text-text transition-colors hidden sm:block">{t("nav.faq", locale)}</a>
-          <LocaleSwitcher client:load locale={locale} basePath={basePath} currentPath={Astro.url.pathname} />
+          <LocaleSwitcher client:load locale={locale} basePath={basePath} />
           <ThemeToggle client:load />
           <a href="https://github.com/recca0120/codeatlas" target="_blank" rel="noopener" class="text-text-muted hover:text-text transition-colors" aria-label="GitHub">
             <GithubIcon />
