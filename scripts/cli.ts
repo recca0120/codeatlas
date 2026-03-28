@@ -51,7 +51,7 @@ addSharedOptions(
         try {
           const raw = JSON.parse(await fs.readFile(outputPath, "utf8"));
           const data = rebuildCountryData(raw);
-          await fs.writeFile(outputPath, JSON.stringify(data, null, 2));
+          await fs.writeFile(outputPath, JSON.stringify(data));
           console.log(`  ✓ ${config.flag} ${config.name}`);
         } catch {
           console.log(`  ⊘ ${config.flag} ${config.name} (no data)`);
@@ -117,7 +117,7 @@ addSharedOptions(
       const data = buildCountryData(config.code, users);
       const outputPath = buildOutputPath(config.code);
       await fs.mkdir("public/data", { recursive: true });
-      await fs.writeFile(outputPath, JSON.stringify(data, null, 2));
+      await fs.writeFile(outputPath, JSON.stringify(data));
       console.log(`  → ${outputPath}`);
     }
 
@@ -150,7 +150,7 @@ addSharedOptions(
     const data = buildCountryData(config.code, users);
     const outputPath = buildOutputPath(config.code);
     await fs.mkdir("public/data", { recursive: true });
-    await fs.writeFile(outputPath, JSON.stringify(data, null, 2));
+    await fs.writeFile(outputPath, JSON.stringify(data));
 
     if ((i + 1) % 20 === 0) console.log(`  ${i + 1} countries...`);
   }
