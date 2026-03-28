@@ -3,6 +3,7 @@ pre-commit:
   commands:
     biome:
       glob: "*.{ts,tsx,js,jsx,json}"
+      exclude: "public/data/**"
       run: pnpm biome check --write --staged {staged_files}
       stage_fixed: true
     typecheck:
