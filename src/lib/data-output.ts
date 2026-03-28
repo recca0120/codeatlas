@@ -1,15 +1,15 @@
-import type { GitHubUser } from "./github-client";
+import { z } from "zod";
+import { type GitHubUser, GitHubUserSchema } from "./github-client";
 
-export interface CountryData {
-  countryCode: string;
-  updatedAt: string;
-  users: GitHubUser[];
-}
+export const CountryDataSchema = z.object({
+  countryCode: z.string(),
+  updatedAt: z.string(),
+  users: z.array(GitHubUserSchema),
+});
+export type CountryData = z.infer<typeof CountryDataSchema>;
 
-export function rebuildCountryData(raw: Record<string, unknown>): CountryData {
-  const { countryCode, updatedAt, users } = raw as CountryData &
-    Record<string, unknown>;
-  return { countryCode, updatedAt, users: users ?? [] };
+export function rebuildCountryData(raw: unknown): CountryData {
+  return CountryDataSchema.parse(raw);
 }
 
 export function buildCountryData(

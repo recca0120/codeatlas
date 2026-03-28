@@ -1,30 +1,35 @@
-export interface TopRepo {
-  name: string;
-  description: string | null;
-  stars: number;
-  language: string | null;
-}
+import { z } from "zod";
 
-export interface GitHubUser {
-  login: string;
-  avatarUrl: string;
-  name: string | null;
-  company: string | null;
-  location: string | null;
-  bio: string | null;
-  followers: number;
-  publicContributions: number;
-  privateContributions: number;
-  languages: string[];
-  topRepos: TopRepo[];
-  twitterUsername: string | null;
-  blog: string | null;
-}
+export const TopRepoSchema = z.object({
+  name: z.string(),
+  description: z.string().nullable(),
+  stars: z.number(),
+  language: z.string().nullable(),
+});
+export type TopRepo = z.infer<typeof TopRepoSchema>;
 
-export interface RateLimitInfo {
-  remaining: number;
-  resetAt: Date;
-}
+export const GitHubUserSchema = z.object({
+  login: z.string(),
+  avatarUrl: z.string(),
+  name: z.string().nullable(),
+  company: z.string().nullable(),
+  location: z.string().nullable(),
+  bio: z.string().nullable(),
+  followers: z.number(),
+  publicContributions: z.number(),
+  privateContributions: z.number(),
+  languages: z.array(z.string()),
+  topRepos: z.array(TopRepoSchema),
+  twitterUsername: z.string().nullable(),
+  blog: z.string().nullable(),
+});
+export type GitHubUser = z.infer<typeof GitHubUserSchema>;
+
+export const RateLimitInfoSchema = z.object({
+  remaining: z.number(),
+  resetAt: z.date(),
+});
+export type RateLimitInfo = z.infer<typeof RateLimitInfoSchema>;
 
 export type ProgressCallback = (current: number, login: string) => void;
 

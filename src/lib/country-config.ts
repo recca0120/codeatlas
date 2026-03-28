@@ -1,36 +1,16 @@
 import fs from "node:fs/promises";
+import { z } from "zod";
 
-export interface CountryConfig {
-  code: string;
-  name: string;
-  flag: string;
-  locations: string[];
-}
+export const CountryConfigSchema = z.object({
+  code: z.string().min(1),
+  name: z.string().min(1),
+  flag: z.string().min(1),
+  locations: z.array(z.string()).min(1),
+});
+export type CountryConfig = z.infer<typeof CountryConfigSchema>;
 
 export function validateCountryConfig(data: unknown): CountryConfig {
-  const obj = data as Record<string, unknown>;
-
-  if (!obj.code || typeof obj.code !== "string") {
-    throw new Error("Missing or invalid field: code");
-  }
-  if (!obj.name || typeof obj.name !== "string") {
-    throw new Error("Missing or invalid field: name");
-  }
-  if (!obj.flag || typeof obj.flag !== "string") {
-    throw new Error("Missing or invalid field: flag");
-  }
-  if (!Array.isArray(obj.locations) || obj.locations.length === 0) {
-    throw new Error(
-      "Missing or invalid field: locations (must be a non-empty array)",
-    );
-  }
-
-  return {
-    code: obj.code,
-    name: obj.name,
-    flag: obj.flag,
-    locations: obj.locations as string[],
-  };
+  return CountryConfigSchema.parse(data);
 }
 
 /**

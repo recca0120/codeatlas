@@ -43,9 +43,7 @@ describe("rebuildCountryData", () => {
 
   it("preserves data that is already clean", () => {
     const clean = buildCountryData("japan", users);
-    const result = rebuildCountryData(
-      clean as unknown as Record<string, unknown>,
-    );
+    const result = rebuildCountryData(clean);
     expect(result).not.toHaveProperty("rankings");
     expect(result.users).toHaveLength(2);
   });

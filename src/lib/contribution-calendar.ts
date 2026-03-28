@@ -1,15 +1,20 @@
-export interface ContributionDay {
-  date: string;
-  count: number;
-}
+import { z } from "zod";
 
-export interface ContributionWeek {
-  contributionDays: ContributionDay[];
-}
+export const ContributionDaySchema = z.object({
+  date: z.string(),
+  count: z.number(),
+});
+export type ContributionDay = z.infer<typeof ContributionDaySchema>;
 
-export interface ContributionCalendar {
-  weeks: ContributionWeek[];
-}
+export const ContributionWeekSchema = z.object({
+  contributionDays: z.array(ContributionDaySchema),
+});
+export type ContributionWeek = z.infer<typeof ContributionWeekSchema>;
+
+export const ContributionCalendarSchema = z.object({
+  weeks: z.array(ContributionWeekSchema),
+});
+export type ContributionCalendar = z.infer<typeof ContributionCalendarSchema>;
 
 /**
  * Returns 0-4 level for heatmap coloring.
