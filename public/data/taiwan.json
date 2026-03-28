@@ -1,6 +1,6 @@
 {
   "countryCode": "taiwan",
-  "updatedAt": "2026-03-28T03:16:19.311Z",
+  "updatedAt": "2026-03-28T03:33:19.607Z",
   "users": [
     {
       "login": "topjohnwu",
@@ -109,8 +109,8 @@
       "location": "Taiwan",
       "bio": "爛命一條",
       "followers": 9133,
-      "publicContributions": 6510,
-      "privateContributions": 3900,
+      "publicContributions": 6511,
+      "privateContributions": 3901,
       "languages": [
         "Python",
         "TypeScript"
@@ -119,7 +119,7 @@
         {
           "name": "awesome-python",
           "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-          "stars": 289315,
+          "stars": 289318,
           "language": "Python"
         },
         {
@@ -208,7 +208,7 @@
       "location": "Hsinchu, Taiwan",
       "bio": "I really believe committing every day to an open-source project is the best practice. Golang GDE (Google Developer Expert) in 2023",
       "followers": 7419,
-      "publicContributions": 3743,
+      "publicContributions": 3765,
       "privateContributions": 91,
       "languages": [
         "Go",
@@ -601,7 +601,7 @@
       "location": "Taipei, Taiwan",
       "bio": "Hacker's thought.\r\nDon't know, but want to do.",
       "followers": 2134,
-      "publicContributions": 39674,
+      "publicContributions": 39675,
       "privateContributions": 183,
       "languages": [
         "Python",
@@ -761,7 +761,7 @@
         {
           "name": "TV",
           "description": null,
-          "stars": 7633,
+          "stars": 7634,
           "language": "Java"
         },
         {
@@ -809,7 +809,7 @@
         {
           "name": "awesome-graphql",
           "description": "Awesome list of GraphQL",
-          "stars": 14997,
+          "stars": 14998,
           "language": null
         },
         {
@@ -954,7 +954,7 @@
         {
           "name": "spectra-app",
           "description": null,
-          "stars": 398,
+          "stars": 399,
           "language": null
         },
         {
@@ -996,7 +996,7 @@
         "location": "Taipei, Taiwan",
         "bio": "Hacker's thought.\r\nDon't know, but want to do.",
         "followers": 2134,
-        "publicContributions": 39674,
+        "publicContributions": 39675,
         "privateContributions": 183,
         "languages": [
           "Python",
@@ -1103,7 +1103,7 @@
           {
             "name": "awesome-graphql",
             "description": "Awesome list of GraphQL",
-            "stars": 14997,
+            "stars": 14998,
             "language": null
           },
           {
@@ -1142,8 +1142,8 @@
         "location": "Taiwan",
         "bio": "爛命一條",
         "followers": 9133,
-        "publicContributions": 6510,
-        "privateContributions": 3900,
+        "publicContributions": 6511,
+        "privateContributions": 3901,
         "languages": [
           "Python",
           "TypeScript"
@@ -1152,7 +1152,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289315,
+            "stars": 289318,
             "language": "Python"
           },
           {
@@ -1191,7 +1191,7 @@
         "location": "Hsinchu, Taiwan",
         "bio": "I really believe committing every day to an open-source project is the best practice. Golang GDE (Google Developer Expert) in 2023",
         "followers": 7419,
-        "publicContributions": 3743,
+        "publicContributions": 3765,
         "privateContributions": 91,
         "languages": [
           "Go",
@@ -1297,7 +1297,7 @@
           {
             "name": "spectra-app",
             "description": null,
-            "stars": 398,
+            "stars": 399,
             "language": null
           },
           {
@@ -1791,7 +1791,7 @@
           {
             "name": "TV",
             "description": null,
-            "stars": 7633,
+            "stars": 7634,
             "language": "Java"
           },
           {
@@ -1981,7 +1981,7 @@
         "location": "Taipei, Taiwan",
         "bio": "Hacker's thought.\r\nDon't know, but want to do.",
         "followers": 2134,
-        "publicContributions": 39674,
+        "publicContributions": 39675,
         "privateContributions": 183,
         "languages": [
           "Python",
@@ -2040,7 +2040,7 @@
           {
             "name": "awesome-graphql",
             "description": "Awesome list of GraphQL",
-            "stars": 14997,
+            "stars": 14998,
             "language": null
           },
           {
@@ -2127,8 +2127,8 @@
         "location": "Taiwan",
         "bio": "爛命一條",
         "followers": 9133,
-        "publicContributions": 6510,
-        "privateContributions": 3900,
+        "publicContributions": 6511,
+        "privateContributions": 3901,
         "languages": [
           "Python",
           "TypeScript"
@@ -2137,7 +2137,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289315,
+            "stars": 289318,
             "language": "Python"
           },
           {
@@ -2185,7 +2185,7 @@
           {
             "name": "spectra-app",
             "description": null,
-            "stars": 398,
+            "stars": 399,
             "language": null
           },
           {
@@ -2275,7 +2275,7 @@
         "location": "Hsinchu, Taiwan",
         "bio": "I really believe committing every day to an open-source project is the best practice. Golang GDE (Google Developer Expert) in 2023",
         "followers": 7419,
-        "publicContributions": 3743,
+        "publicContributions": 3765,
         "privateContributions": 91,
         "languages": [
           "Go",
@@ -2776,7 +2776,7 @@
           {
             "name": "TV",
             "description": null,
-            "stars": 7633,
+            "stars": 7634,
             "language": "Java"
           },
           {
@@ -3065,8 +3065,8 @@
         "location": "Taiwan",
         "bio": "爛命一條",
         "followers": 9133,
-        "publicContributions": 6510,
-        "privateContributions": 3900,
+        "publicContributions": 6511,
+        "privateContributions": 3901,
         "languages": [
           "Python",
           "TypeScript"
@@ -3075,7 +3075,7 @@
           {
             "name": "awesome-python",
             "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
-            "stars": 289315,
+            "stars": 289318,
             "language": "Python"
           },
           {
@@ -3164,7 +3164,7 @@
         "location": "Hsinchu, Taiwan",
         "bio": "I really believe committing every day to an open-source project is the best practice. Golang GDE (Google Developer Expert) in 2023",
         "followers": 7419,
-        "publicContributions": 3743,
+        "publicContributions": 3765,
         "privateContributions": 91,
         "languages": [
           "Go",
@@ -3557,7 +3557,7 @@
         "location": "Taipei, Taiwan",
         "bio": "Hacker's thought.\r\nDon't know, but want to do.",
         "followers": 2134,
-        "publicContributions": 39674,
+        "publicContributions": 39675,
         "privateContributions": 183,
         "languages": [
           "Python",
@@ -3717,7 +3717,7 @@
           {
             "name": "TV",
             "description": null,
-            "stars": 7633,
+            "stars": 7634,
             "language": "Java"
           },
           {
@@ -3765,7 +3765,7 @@
           {
             "name": "awesome-graphql",
             "description": "Awesome list of GraphQL",
-            "stars": 14997,
+            "stars": 14998,
             "language": null
           },
           {
@@ -3910,7 +3910,7 @@
           {
             "name": "spectra-app",
             "description": null,
-            "stars": 398,
+            "stars": 399,
             "language": null
           },
           {
