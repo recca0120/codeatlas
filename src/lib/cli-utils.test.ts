@@ -1,10 +1,13 @@
-import { describe, expect, it } from "vitest";
+import fs from "node:fs/promises";
+import { afterEach, describe, expect, it } from "vitest";
 import {
   buildOutputPath,
   filterCountries,
   generateFakeUsers,
-  prioritizeCountry,
-  shouldSkipCountry,
+  getCheckpointCountry,
+  loadCheckpoint,
+  nextCheckpoint,
+  saveCheckpoint,
 } from "./cli-utils";
 import type { CountryConfig } from "./country-config";
 
@@ -101,59 +104,69 @@ describe("filterCountries", () => {
   });
 });
 
-describe("prioritizeCountry", () => {
-  it("moves the specified country to the front", () => {
-    const codes = ["afghanistan", "japan", "taiwan", "germany"];
-    expect(prioritizeCountry(codes, "taiwan")).toEqual([
-      "taiwan",
-      "afghanistan",
-      "japan",
-      "germany",
-    ]);
+describe("getCheckpointCountry", () => {
+  it("returns the country at the checkpoint index", () => {
+    const result = getCheckpointCountry(mockCountries, 1);
+    expect(result).toEqual(mockCountries[1]);
   });
 
-  it("returns unchanged if country is already first", () => {
-    const codes = ["taiwan", "japan", "germany"];
-    expect(prioritizeCountry(codes, "taiwan")).toEqual([
-      "taiwan",
-      "japan",
-      "germany",
-    ]);
+  it("returns the first country when checkpoint is 0", () => {
+    const result = getCheckpointCountry(mockCountries, 0);
+    expect(result).toEqual(mockCountries[0]);
   });
 
-  it("returns unchanged if country is not in the list", () => {
-    const codes = ["japan", "germany"];
-    expect(prioritizeCountry(codes, "taiwan")).toEqual(["japan", "germany"]);
+  it("wraps around when checkpoint exceeds length", () => {
+    const result = getCheckpointCountry(mockCountries, 3);
+    expect(result).toEqual(mockCountries[0]);
   });
 
-  it("does not mutate the original array", () => {
-    const codes = ["japan", "taiwan", "germany"];
-    prioritizeCountry(codes, "taiwan");
-    expect(codes).toEqual(["japan", "taiwan", "germany"]);
+  it("wraps around for large values", () => {
+    const result = getCheckpointCountry(mockCountries, 7);
+    expect(result).toEqual(mockCountries[1]);
   });
 });
 
-describe("shouldSkipCountry", () => {
-  it("returns true when updatedAt is today", () => {
-    const today = new Date().toISOString().split("T")[0];
-    expect(shouldSkipCountry(`${today}T00:00:00Z`, today)).toBe(true);
+describe("nextCheckpoint", () => {
+  it("increments by 1", () => {
+    expect(nextCheckpoint(0, 3)).toBe(1);
   });
 
-  it("returns false when updatedAt is yesterday", () => {
-    const yesterday = new Date(Date.now() - 86400000)
-      .toISOString()
-      .split("T")[0];
-    const today = new Date().toISOString().split("T")[0];
-    expect(shouldSkipCountry(`${yesterday}T00:00:00Z`, today)).toBe(false);
+  it("wraps to 0 at the end", () => {
+    expect(nextCheckpoint(2, 3)).toBe(0);
   });
 
-  it("returns false when updatedAt is undefined", () => {
-    const today = new Date().toISOString().split("T")[0];
-    expect(shouldSkipCountry(undefined, today)).toBe(false);
+  it("wraps from beyond length", () => {
+    expect(nextCheckpoint(5, 3)).toBe(0);
+  });
+});
+
+describe("loadCheckpoint", () => {
+  const testPath = "public/data/test-checkpoint.json";
+
+  afterEach(async () => {
+    await fs.unlink(testPath).catch(() => {});
   });
 
-  it("returns false when updatedAt is empty string", () => {
-    const today = new Date().toISOString().split("T")[0];
-    expect(shouldSkipCountry("", today)).toBe(false);
+  it("returns 0 when file does not exist", async () => {
+    expect(await loadCheckpoint(testPath)).toBe(0);
+  });
+
+  it("reads checkpoint from file", async () => {
+    await fs.writeFile(testPath, JSON.stringify({ checkpoint: 42 }));
+    expect(await loadCheckpoint(testPath)).toBe(42);
+  });
+});
+
+describe("saveCheckpoint", () => {
+  const testPath = "public/data/test-checkpoint.json";
+
+  afterEach(async () => {
+    await fs.unlink(testPath).catch(() => {});
+  });
+
+  it("writes checkpoint to file", async () => {
+    await saveCheckpoint(testPath, 7);
+    const content = JSON.parse(await fs.readFile(testPath, "utf-8"));
+    expect(content).toEqual({ checkpoint: 7 });
   });
 });

@@ -49,7 +49,7 @@ describe("validateCountryConfig", () => {
 
 describe("loadAllCountryConfigs", () => {
   it("loads all configs from countries.json", async () => {
-    const configs = await loadAllCountryConfigs("config/countries.json");
+    const configs = await loadAllCountryConfigs("public/data/countries.json");
     expect(configs.length).toBeGreaterThanOrEqual(2);
     expect(configs.map((c) => c.code)).toContain("taiwan");
     expect(configs.map((c) => c.code)).toContain("japan");

@@ -1,3 +1,4 @@
+import fs from "node:fs/promises";
 import type { CountryConfig } from "./country-config";
 import type { GitHubUser } from "./github-client";
 
@@ -96,27 +97,42 @@ export function buildOutputPath(countryCode: string): string {
 }
 
 /**
- * Move a country to the front of the list (without mutating the original).
+ * Get the country at the given checkpoint index (wraps around).
  */
-export function prioritizeCountry(codes: string[], priority: string): string[] {
-  const result = [...codes];
-  const idx = result.indexOf(priority);
-  if (idx > 0) {
-    result.splice(idx, 1);
-    result.unshift(priority);
-  }
-  return result;
+export function getCheckpointCountry(
+  countries: CountryConfig[],
+  checkpoint: number,
+): CountryConfig {
+  return countries[checkpoint % countries.length];
 }
 
 /**
- * Check if a country's data was already collected today.
+ * Compute the next checkpoint value (wraps around).
  */
-export function shouldSkipCountry(
-  updatedAt: string | undefined,
-  today: string,
-): boolean {
-  if (!updatedAt) return false;
-  return updatedAt.split("T")[0] === today;
+export function nextCheckpoint(current: number, total: number): number {
+  return (current + 1) % total;
+}
+
+/**
+ * Load the checkpoint index from a JSON file. Returns 0 if file doesn't exist.
+ */
+export async function loadCheckpoint(filePath: string): Promise<number> {
+  try {
+    const content = await fs.readFile(filePath, "utf-8");
+    return JSON.parse(content).checkpoint ?? 0;
+  } catch {
+    return 0;
+  }
+}
+
+/**
+ * Save the checkpoint index to a JSON file.
+ */
+export async function saveCheckpoint(
+  filePath: string,
+  value: number,
+): Promise<void> {
+  await fs.writeFile(filePath, JSON.stringify({ checkpoint: value }));
 }
 
 /**

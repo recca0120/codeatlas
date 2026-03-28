@@ -4,8 +4,10 @@ import {
   buildOutputPath,
   filterCountries,
   generateFakeUsers,
-  prioritizeCountry,
-  shouldSkipCountry,
+  getCheckpointCountry,
+  loadCheckpoint,
+  nextCheckpoint,
+  saveCheckpoint,
 } from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
 import { buildCountryData, rebuildCountryData } from "../src/lib/data-output";
@@ -41,7 +43,7 @@ addSharedOptions(
   program
     .command("collect")
     .description("collect real data from GitHub API")
-    .option("--skip-today", "skip countries already collected today")
+    .option("--next", "collect the next country from checkpoint")
     .option(
       "--rebuild",
       "rebuild existing JSON files (apply format changes without fetching)",
@@ -50,10 +52,21 @@ addSharedOptions(
   async (opts: {
     country?: string;
     limit?: number;
-    skipToday?: boolean;
+    next?: boolean;
     rebuild?: boolean;
   }) => {
-    const all = await loadAllCountryConfigs("config/countries.json");
+    const CHECKPOINT_PATH = "public/data/checkpoint.json";
+    const all = await loadAllCountryConfigs("public/data/countries.json");
+
+    if (opts.next) {
+      const checkpoint = await loadCheckpoint(CHECKPOINT_PATH);
+      const config = getCheckpointCountry(all, checkpoint);
+      console.log(
+        `Checkpoint ${checkpoint}/${all.length}: ${config.flag} ${config.name}`,
+      );
+      opts.country = config.code;
+    }
+
     const countries = filterCountries(all, opts.country);
 
     if (opts.rebuild) {
@@ -84,23 +97,7 @@ addSharedOptions(
       `Collecting ${countries.length} country(ies)${opts.limit ? ` (limit: ${opts.limit})` : ""}...\n`,
     );
 
-    const today = new Date().toISOString().split("T")[0];
-
     for (const config of countries) {
-      if (opts.skipToday) {
-        try {
-          const existing = JSON.parse(
-            await fs.readFile(buildOutputPath(config.code), "utf8"),
-          );
-          if (shouldSkipCountry(existing.updatedAt, today)) {
-            console.log(`${config.flag} ${config.name} ⊘ (already up to date)`);
-            continue;
-          }
-        } catch {
-          // File doesn't exist yet, proceed
-        }
-      }
-
       console.log(`${config.flag} ${config.name}...`);
 
       const batch: string[] = [];
@@ -131,6 +128,13 @@ addSharedOptions(
       console.log(`  → ${outputPath}`);
     }
 
+    if (opts.next) {
+      const checkpoint = await loadCheckpoint(CHECKPOINT_PATH);
+      const next = nextCheckpoint(checkpoint, all.length);
+      await saveCheckpoint(CHECKPOINT_PATH, next);
+      console.log(`\nCheckpoint updated: ${checkpoint} → ${next}`);
+    }
+
     console.log("\nDone!");
   },
 );
@@ -142,7 +146,7 @@ addSharedOptions(
     .description("generate sample/fake data for development"),
 ).action(async (opts: { country?: string; limit?: number }) => {
   const limit = opts.limit || 10;
-  const all = await loadAllCountryConfigs("config/countries.json");
+  const all = await loadAllCountryConfigs("public/data/countries.json");
   const countries = filterCountries(all, opts.country);
 
   console.log(
@@ -165,19 +169,5 @@ addSharedOptions(
 
   console.log(`\nDone! ${countries.length} countries × ${limit} users.`);
 });
-
-// ── list-countries ──
-program
-  .command("list-countries")
-  .description("list country codes (space-separated)")
-  .option("-p, --priority <code>", "move this country to the front")
-  .action(async (opts: { priority?: string }) => {
-    const all = await loadAllCountryConfigs("config/countries.json");
-    let codes = all.map((c) => c.code);
-    if (opts.priority) {
-      codes = prioritizeCountry(codes, opts.priority);
-    }
-    console.log(codes.join(" "));
-  });
 
 program.parse();

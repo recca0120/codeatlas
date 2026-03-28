@@ -492,6 +492,12 @@
     "locations": ["Malta", "Valletta"]
   },
   {
+    "code": "mauritania",
+    "name": "Mauritania",
+    "flag": "🇲🇷",
+    "locations": ["Mauritania", "Nouakchott"]
+  },
+  {
     "code": "mauritius",
     "name": "Mauritius",
     "flag": "🇲🇺",
@@ -666,6 +672,12 @@
     "locations": ["Rwanda", "Kigali"]
   },
   {
+    "code": "san-marino",
+    "name": "San Marino",
+    "flag": "🇸🇲",
+    "locations": ["San Marino"]
+  },
+  {
     "code": "saudi-arabia",
     "name": "Saudi Arabia",
     "flag": "🇸🇦",
@@ -682,6 +694,12 @@
     "name": "Serbia",
     "flag": "🇷🇸",
     "locations": ["Serbia", "Belgrade", "Novi sad"]
+  },
+  {
+    "code": "sierra-leone",
+    "name": "Sierra Leone",
+    "flag": "🇸🇱",
+    "locations": ["Sierra Leone", "Freetown"]
   },
   {
     "code": "singapore",
@@ -852,6 +870,12 @@
     "name": "Vietnam",
     "flag": "🇻🇳",
     "locations": ["Vietnam", "Ho chi minh city", "Hanoi", "Da nang"]
+  },
+  {
+    "code": "yemen",
+    "name": "Yemen",
+    "flag": "🇾🇪",
+    "locations": ["Yemen", "Sanaa", "Aden"]
   },
   {
     "code": "zambia",
