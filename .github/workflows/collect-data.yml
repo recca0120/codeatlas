@@ -9,6 +9,11 @@ on:
         description: "Country code to collect (e.g. taiwan). Leave empty for checkpoint."
         required: false
         type: string
+      full:
+        description: "Collect ALL countries from checkpoint (takes ~2 hours)"
+        required: false
+        type: boolean
+        default: false
       limit:
         description: "Max users per country (e.g. 20 for testing). Leave empty for all."
         required: false
@@ -24,7 +29,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: ${{ inputs.full && 360 || 30 }}
 
     steps:
       - uses: actions/checkout@v6
@@ -54,6 +59,8 @@ jobs:
 
           if [ -n "$input_country" ]; then
             collect_flags="-c $input_country"
+          elif [ "${{ inputs.full }}" = "true" ]; then
+            collect_flags=""
           else
             collect_flags="--next"
           fi
@@ -74,7 +81,9 @@ jobs:
 
           # Get country name from the changed files
           changed=$(git diff --staged --name-only | grep -oP '(?<=public/data/)[^.]+' | grep -v checkpoint | grep -v countries | head -1)
-          if [ -n "$changed" ]; then
+          if [ "${{ inputs.full }}" = "true" ]; then
+            git commit --no-verify -m "data: update all countries $(date -u +%Y-%m-%d) [skip ci]"
+          elif [ -n "$changed" ]; then
             git commit --no-verify -m "data: update $changed $(date -u +%Y-%m-%d) [skip ci]"
           else
             git commit --no-verify -m "data: update checkpoint $(date -u +%Y-%m-%d) [skip ci]"
