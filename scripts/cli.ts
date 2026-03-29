@@ -45,6 +45,11 @@ addSharedOptions(
     .description("collect real data from GitHub API")
     .option("--next", "collect the next country from checkpoint")
     .option(
+      "--page-size <number>",
+      "users per API page (default: 20)",
+      Number.parseInt,
+    )
+    .option(
       "--rebuild",
       "rebuild existing JSON files (apply format changes without fetching)",
     ),
@@ -53,6 +58,7 @@ addSharedOptions(
     country?: string;
     limit?: number;
     next?: boolean;
+    pageSize?: number;
     rebuild?: boolean;
   }) => {
     const CHECKPOINT_PATH = "public/data/checkpoint.json";
@@ -104,6 +110,7 @@ addSharedOptions(
       const users = await searchUsersByLocation(client, config.locations, {
         countryCode: config.code,
         limit: opts.limit,
+        pageSize: opts.pageSize,
         onProgress: (current, login) => {
           if (process.stdout.isTTY) {
             process.stdout.write(`\r  [${current}] ${login}`.padEnd(60));

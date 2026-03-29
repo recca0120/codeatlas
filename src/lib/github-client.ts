@@ -37,6 +37,7 @@ export type ProgressCallback = (current: number, login: string) => void;
 export interface SearchOptions {
   onProgress?: ProgressCallback;
   limit?: number;
+  pageSize?: number;
 }
 
 export interface GitHubClient {

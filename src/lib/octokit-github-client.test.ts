@@ -197,6 +197,28 @@ describe("createOctokitClient", () => {
       expect(users.map((u) => u.login)).toEqual(["alice", "bob"]);
     });
 
+    it("uses default pageSize of 20", async () => {
+      mockGraphqlSearch([]);
+
+      const client = createOctokitClient("fake-token");
+      await client.searchUsers("location:Taiwan");
+
+      const call = fetchMock.calls.lastCall({ path: "/graphql" });
+      const body = call?.json() as { variables: { first: number } };
+      expect(body.variables.first).toBe(20);
+    });
+
+    it("uses custom pageSize when provided", async () => {
+      mockGraphqlSearch([]);
+
+      const client = createOctokitClient("fake-token");
+      await client.searchUsers("location:Taiwan", { pageSize: 15 });
+
+      const call = fetchMock.calls.lastCall({ path: "/graphql" });
+      const body = call?.json() as { variables: { first: number } };
+      expect(body.variables.first).toBe(15);
+    });
+
     it("stops fetching when limit is reached", async () => {
       mockGraphqlSearch([
         makeUserNode({ login: "alice" }),

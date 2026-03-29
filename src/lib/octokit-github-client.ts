@@ -148,7 +148,7 @@ export function createOctokitClient(token: string): GitHubClient {
       query: string,
       options?: SearchOptions,
     ): Promise<GitHubUser[]> {
-      const { onProgress, limit } = options ?? {};
+      const { onProgress, limit, pageSize = 20 } = options ?? {};
       const users: GitHubUser[] = [];
       let cursor: string | null = null;
       let hasNextPage = true;
@@ -157,7 +157,7 @@ export function createOctokitClient(token: string): GitHubClient {
         const result: GraphQLSearchResponse =
           await octokit.graphql<GraphQLSearchResponse>(SEARCH_USERS_QUERY, {
             searchQuery: `${query} sort:followers-desc`,
-            first: 10,
+            first: pageSize,
             after: cursor,
           });
 
@@ -184,7 +184,7 @@ export function createOctokitClient(token: string): GitHubClient {
 
         // Delay between pages to avoid secondary rate limit
         if (hasNextPage) {
-          const delay = 1000 + Math.random() * 2000;
+          const delay = 500 + Math.random() * 500;
           await new Promise((resolve) => setTimeout(resolve, delay));
         }
 
