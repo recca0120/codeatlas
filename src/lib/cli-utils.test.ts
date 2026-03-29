@@ -7,6 +7,7 @@ import {
   getCheckpointCountry,
   loadCheckpoint,
   nextCheckpoint,
+  reorderFromCheckpoint,
   saveCheckpoint,
 } from "./cli-utils";
 import type { CountryConfig } from "./country-config";
@@ -123,6 +124,23 @@ describe("getCheckpointCountry", () => {
   it("wraps around for large values", () => {
     const result = getCheckpointCountry(mockCountries, 7);
     expect(result).toEqual(mockCountries[1]);
+  });
+});
+
+describe("reorderFromCheckpoint", () => {
+  it("reorders starting from checkpoint index", () => {
+    const result = reorderFromCheckpoint(mockCountries, 1);
+    expect(result.map((c) => c.code)).toEqual(["japan", "germany", "taiwan"]);
+  });
+
+  it("returns original order when checkpoint is 0", () => {
+    const result = reorderFromCheckpoint(mockCountries, 0);
+    expect(result.map((c) => c.code)).toEqual(["taiwan", "japan", "germany"]);
+  });
+
+  it("wraps around when checkpoint exceeds length", () => {
+    const result = reorderFromCheckpoint(mockCountries, 4);
+    expect(result.map((c) => c.code)).toEqual(["japan", "germany", "taiwan"]);
   });
 });
 

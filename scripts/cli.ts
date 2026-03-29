@@ -7,6 +7,7 @@ import {
   getCheckpointCountry,
   loadCheckpoint,
   nextCheckpoint,
+  reorderFromCheckpoint,
   saveCheckpoint,
 } from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
@@ -64,16 +65,31 @@ addSharedOptions(
     const CHECKPOINT_PATH = "public/data/checkpoint.json";
     const all = await loadAllCountryConfigs("public/data/countries.json");
 
+    if (opts.next && opts.country) {
+      console.error("Error: --next and --country cannot be used together");
+      process.exit(1);
+    }
+
+    const useCheckpoint = opts.next || !opts.country;
+    let checkpoint = 0;
+
+    if (useCheckpoint) {
+      checkpoint = await loadCheckpoint(CHECKPOINT_PATH);
+    }
+
+    let countries: typeof all;
     if (opts.next) {
-      const checkpoint = await loadCheckpoint(CHECKPOINT_PATH);
       const config = getCheckpointCountry(all, checkpoint);
       console.log(
         `Checkpoint ${checkpoint}/${all.length}: ${config.flag} ${config.name}`,
       );
-      opts.country = config.code;
+      countries = [config];
+    } else if (opts.country) {
+      countries = filterCountries(all, opts.country);
+    } else {
+      countries = reorderFromCheckpoint(all, checkpoint);
+      console.log(`Starting from checkpoint ${checkpoint}/${all.length}`);
     }
-
-    const countries = filterCountries(all, opts.country);
 
     if (opts.rebuild) {
       console.log(`Rebuilding ${countries.length} country(ies)...\n`);
@@ -133,13 +149,11 @@ addSharedOptions(
       const data = buildCountryData(config.code, users);
       const outputPath = await writeCountryData(config.code, data);
       console.log(`  → ${outputPath}`);
-    }
 
-    if (opts.next) {
-      const checkpoint = await loadCheckpoint(CHECKPOINT_PATH);
-      const next = nextCheckpoint(checkpoint, all.length);
-      await saveCheckpoint(CHECKPOINT_PATH, next);
-      console.log(`\nCheckpoint updated: ${checkpoint} → ${next}`);
+      if (useCheckpoint) {
+        checkpoint = nextCheckpoint(checkpoint, all.length);
+        await saveCheckpoint(CHECKPOINT_PATH, checkpoint);
+      }
     }
 
     console.log("\nDone!");

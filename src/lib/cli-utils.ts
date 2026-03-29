@@ -107,6 +107,17 @@ export function getCheckpointCountry(
 }
 
 /**
+ * Reorder countries starting from checkpoint index, wrapping around.
+ */
+export function reorderFromCheckpoint(
+  countries: CountryConfig[],
+  checkpoint: number,
+): CountryConfig[] {
+  const start = checkpoint % countries.length;
+  return [...countries.slice(start), ...countries.slice(0, start)];
+}
+
+/**
  * Compute the next checkpoint value (wraps around).
  */
 export function nextCheckpoint(current: number, total: number): number {
