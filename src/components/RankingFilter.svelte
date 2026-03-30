@@ -21,10 +21,6 @@
   let langFilter = $state<string[]>([]);
   let cityFilter = $state("");
   let dimension = $state<RankingDimension>("public_contributions");
-  let page = $state(1);
-  let perPage = $state(50);
-  const PER_PAGE_OPTIONS = [25, 50, 100, 250, 500];
-
   $effect(() => {
     if (typeof window === "undefined") return;
     const p = new URLSearchParams(window.location.search);
@@ -32,8 +28,6 @@
     if (p.get("lang")) langFilter = p.get("lang")!.split(",");
     if (p.get("city")) cityFilter = p.get("city")!;
     if (p.get("sort")) dimension = p.get("sort") as RankingDimension;
-    if (p.get("page")) page = Number(p.get("page"));
-    if (p.get("size")) perPage = Number(p.get("size"));
   });
 
   function sync() {
@@ -43,8 +37,6 @@
     if (langFilter.length) p.set("lang", langFilter.join(","));
     if (cityFilter) p.set("city", cityFilter);
     if (dimension !== "public_contributions") p.set("sort", dimension);
-    if (page > 1) p.set("page", String(page));
-    if (perPage !== 50) p.set("size", String(perPage));
     const qs = p.toString();
     history.replaceState({}, "", qs ? `?${qs}` : location.pathname);
   }
@@ -86,18 +78,15 @@
     return list;
   });
 
-  const totalPages = $derived(Math.ceil(filtered.length / perPage));
-  const paged = $derived(filtered.slice((page - 1) * perPage, page * perPage));
   const hasFilters = $derived(search !== "" || langFilter.length > 0 || cityFilter !== "");
 
 
   function toggleLang(lang: string) {
     langFilter = langFilter.includes(lang) ? langFilter.filter(l => l !== lang) : [...langFilter, lang];
-    page = 1; sync();
+    sync();
   }
-  function clearAll() { search = ""; langFilter = []; cityFilter = ""; page = 1; sync(); }
-  function setDim(d: RankingDimension) { dimension = d; page = 1; sync(); }
-  function setPage(p: number) { page = p; sync(); }
+  function clearAll() { search = ""; langFilter = []; cityFilter = ""; sync(); }
+  function setDim(d: RankingDimension) { dimension = d; sync(); }
 
   const LANG_COLORS: Record<string, string> = {
     TypeScript:"#3178c6",JavaScript:"#f1e05a",Python:"#3572a5",Go:"#00add8",Rust:"#dea584",
@@ -123,12 +112,12 @@
       <SearchIcon />
     </span>
     <input type="text" placeholder={t("ranking.searchDeveloper", locale)} bind:value={search}
-      oninput={() => { page = 1; sync(); }}
+      oninput={() => { sync(); }}
       class="w-full pl-9 pr-4 py-2 bg-surface border border-border rounded-lg text-sm placeholder-text-muted
         focus:outline-none focus:border-accent transition-colors" />
   </div>
   {#if allCities.length > 1}
-    <select bind:value={cityFilter} onchange={() => { page = 1; sync(); }}
+    <select bind:value={cityFilter} onchange={() => { sync(); }}
       aria-label={t("ranking.allCities", locale)}
       class="px-3 py-2 bg-surface border border-border rounded-lg text-sm text-text-secondary focus:outline-none cursor-pointer">
       <option value="">{t("ranking.allCities", locale)}</option>
@@ -170,24 +159,14 @@
   </div>
 {/if}
 
-<div class="flex items-center justify-between text-xs text-text-muted mb-4">
+<div class="text-xs text-text-muted mb-4">
   <span>{filtered.length} {t("ranking.of", locale)} {users.length} {t("ranking.developers", locale)}</span>
-  <label class="flex items-center gap-1.5">
-    <select bind:value={perPage} onchange={() => { page = 1; sync(); }}
-      aria-label="per page"
-      class="bg-surface border border-border rounded px-2 py-1 text-xs text-text-secondary focus:outline-none cursor-pointer">
-      {#each PER_PAGE_OPTIONS as size}
-        <option value={size}>{size}</option>
-      {/each}
-    </select>
-    <span>/ {t("ranking.page", locale)}</span>
-  </label>
 </div>
 
 <!-- Ranking rows -->
 <div class="divide-y divide-border">
-  {#each paged as user, i (user.login)}
-    {@const rank = rankMap.get(user.login) ?? (page - 1) * perPage + i + 1}
+  {#each filtered as user, i (user.login)}
+    {@const rank = rankMap.get(user.login) ?? i + 1}
     {@const val = getRankValue(user, dimension)}
     {@const isTop3 = rank <= 3}
 
@@ -231,21 +210,3 @@
   </div>
 {/if}
 
-<!-- Pagination -->
-{#if totalPages > 1}
-  <div class="flex items-center justify-center gap-1 mt-8">
-    <button disabled={page <= 1} onclick={() => setPage(page - 1)}
-      class="px-3 py-1.5 text-xs font-data border border-border rounded text-text-secondary hover:text-text disabled:opacity-30 cursor-pointer disabled:cursor-not-allowed">←</button>
-    {#each Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
-      if (totalPages <= 7) return i + 1;
-      if (page <= 4) return i + 1;
-      if (page >= totalPages - 3) return totalPages - 6 + i;
-      return page - 3 + i;
-    }) as p}
-      <button onclick={() => setPage(p)}
-        class="w-8 h-8 text-xs font-data rounded cursor-pointer {p === page ? 'bg-accent text-white' : 'text-text-secondary hover:bg-surface-hover'}">{p}</button>
-    {/each}
-    <button disabled={page >= totalPages} onclick={() => setPage(page + 1)}
-      class="px-3 py-1.5 text-xs font-data border border-border rounded text-text-secondary hover:text-text disabled:opacity-30 cursor-pointer disabled:cursor-not-allowed">→</button>
-  </div>
-{/if}

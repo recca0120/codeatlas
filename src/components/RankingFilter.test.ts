@@ -98,14 +98,7 @@ describe("RankingFilter", () => {
     expect(links[0]).toHaveTextContent("Bob");
   });
 
-  it("has per-page selector with default 50", () => {
-    render(RankingFilter, { users });
-    const select = screen.getByRole("combobox", { name: /per page/i });
-    expect(select).toBeInTheDocument();
-    expect((select as HTMLSelectElement).value).toBe("50");
-  });
-
-  it("changes visible users when per-page is changed", async () => {
+  it("renders all users without pagination", () => {
     const manyUsers = Array.from({ length: 60 }, (_, i) =>
       createMockUser({
         login: `user-${i}`,
@@ -113,22 +106,8 @@ describe("RankingFilter", () => {
         publicContributions: 1000 - i,
       }),
     );
-    const user = userEvent.setup();
     const { container } = render(RankingFilter, { users: manyUsers });
-
-    // Default 50 per page
-    await waitFor(() => {
-      expect(container.querySelectorAll("a[href]")).toHaveLength(50);
-    });
-
-    // Change to 25
-    await user.selectOptions(
-      screen.getByRole("combobox", { name: /per page/i }),
-      "25",
-    );
-    await waitFor(() => {
-      expect(container.querySelectorAll("a[href]")).toHaveLength(25);
-    });
+    expect(container.querySelectorAll("a[href]")).toHaveLength(60);
   });
 
   it("sorts language chips by usage count descending", () => {

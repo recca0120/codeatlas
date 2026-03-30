@@ -139,8 +139,7 @@ export function createOctokitClient(token: string): GitHubClient {
         return retryCount < 3;
       },
     },
-    retry: { doNotRetry: [400, 401, 403, 404, 422] },
-    request: { retries: 3 },
+    retry: { enabled: false },
   });
 
   return {
@@ -153,13 +152,75 @@ export function createOctokitClient(token: string): GitHubClient {
       let cursor: string | null = null;
       let hasNextPage = true;
 
+      let currentPageSize = pageSize;
+
       while (hasNextPage) {
-        const result: GraphQLSearchResponse =
-          await octokit.graphql<GraphQLSearchResponse>(SEARCH_USERS_QUERY, {
-            searchQuery: `${query} sort:followers-desc`,
-            first: pageSize,
-            after: cursor,
-          });
+        let result: GraphQLSearchResponse;
+        while (true) {
+          try {
+            result = await octokit.graphql<GraphQLSearchResponse>(
+              SEARCH_USERS_QUERY,
+              {
+                searchQuery: `${query} sort:followers-desc`,
+                first: currentPageSize,
+                after: cursor,
+              },
+            );
+            break;
+          } catch (error: unknown) {
+            const status =
+              error instanceof Object && "status" in error
+                ? (error as { status: number }).status
+                : 0;
+            const isResourceLimit =
+              error instanceof Object &&
+              "errors" in error &&
+              Array.isArray((error as { errors: unknown[] }).errors) &&
+              (error as { errors: Array<{ type?: string }> }).errors.some(
+                (e) => e.type === "RESOURCE_LIMITS_EXCEEDED",
+              );
+
+            if (isResourceLimit) {
+              // Partial success — use the data that came back
+              const partial = (error as { data?: GraphQLSearchResponse }).data;
+              if (partial?.search) {
+                console.warn(
+                  "Resource limit hit, using partial data for this page",
+                );
+                result = partial;
+                break;
+              }
+            }
+
+            const isServerError = status >= 500 && status < 600;
+            const isNetworkError =
+              error instanceof Error &&
+              ("code" in error ||
+                /ECONNRESET|fetch failed/i.test(error.message));
+
+            if (isServerError || isNetworkError) {
+              if (currentPageSize > 5) {
+                currentPageSize = Math.max(5, Math.floor(currentPageSize / 2));
+                console.warn(
+                  `Server error (${status || "network"}), reducing page size to ${currentPageSize}`,
+                );
+              } else {
+                console.warn(
+                  `Server error (${status || "network"}), retrying in 15s...`,
+                );
+                await new Promise((resolve) => setTimeout(resolve, 15000));
+              }
+              continue;
+            }
+            throw error;
+          }
+        }
+
+        if (!result?.search) {
+          console.warn("Empty response, retrying in 15s...");
+          await new Promise((resolve) => setTimeout(resolve, 15000));
+          continue;
+        }
 
         const { nodes: searchNodes, pageInfo } = result.search;
         const { rateLimit } = result;
