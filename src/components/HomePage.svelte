@@ -77,7 +77,23 @@
         c.autoRotate = true; c.autoRotateSpeed = 0.8; c.enableZoom = false;
         c.minDistance = 220; c.maxDistance = 350;
 
-        resizeHandler = () => w.width(el.clientWidth).height(el.clientHeight);
+        resizeHandler = () => {
+          const cw = el.clientWidth;
+          const ch = el.clientHeight;
+          const isLg = window.matchMedia("(min-width: 1024px)").matches;
+          if (isLg && ch > cw) {
+            const size = Math.min(cw, ch);
+            w.width(size).height(size);
+            el.style.display = "flex";
+            el.style.alignItems = "center";
+            el.style.justifyContent = "center";
+          } else {
+            w.width(cw).height(ch);
+            el.style.display = "";
+            el.style.alignItems = "";
+            el.style.justifyContent = "";
+          }
+        };
         window.addEventListener("resize", resizeHandler);
         resizeHandler();
 
@@ -116,7 +132,7 @@
 <div class="w-full dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center">
   <div class="max-w-6xl mx-auto px-6 sm:px-8">
     <section class="relative min-h-[calc(100vh-56px)] flex items-center justify-center lg:justify-start py-16">
-      <div bind:this={globeContainer} class="absolute inset-0 opacity-0 transition-opacity duration-[2s] lg:left-1/2 lg:right-0"></div>
+      <div bind:this={globeContainer} class="absolute inset-0 opacity-0 transition-opacity duration-[2s] lg:left-[35%] lg:right-0"></div>
 
       <div class="relative z-10 max-w-lg text-center lg:text-left">
         <div class="rounded-2xl bg-bg/80 backdrop-blur-sm p-6 sm:p-8 lg:bg-transparent lg:backdrop-blur-none lg:p-0">
