@@ -113,7 +113,7 @@
   }
 </script>
 
-<div class="w-full dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center">
+<div class="w-full overflow-hidden dark:bg-[url('//cdn.jsdelivr.net/npm/three-globe/example/img/night-sky.png')] dark:bg-cover dark:bg-center">
   <div class="max-w-6xl mx-auto px-6 sm:px-8">
     <section class="relative min-h-[calc(100vh-56px)] flex items-center justify-center lg:justify-start py-16">
       <div bind:this={globeContainer} class="absolute inset-0 opacity-0 transition-opacity duration-[2s] lg:left-1/2 lg:right-0"></div>
