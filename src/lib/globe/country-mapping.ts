@@ -143,6 +143,12 @@ export const COUNTRY_TO_ISO: Record<string, string> = Object.fromEntries(
   Object.entries(ISO_TO_COUNTRY).map(([iso, code]) => [code, iso]),
 );
 
+export function getIsoCode(properties: Record<string, string>): string {
+  const iso = properties.ISO_A2;
+  if (iso && iso !== "-99" && !iso.includes("-")) return iso;
+  return properties.ISO_A2_EH ?? iso;
+}
+
 export function isConfiguredCountry(isoA2: string): boolean {
   return isoA2 in ISO_TO_COUNTRY;
 }

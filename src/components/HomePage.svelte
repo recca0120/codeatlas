@@ -4,7 +4,7 @@
   import { buildUrl } from "../lib/url";
   import { navigate } from "../lib/router";
   import { t } from "../i18n";
-  import { isConfiguredCountry, getCountrySlug } from "../lib/globe/country-mapping";
+  import { isConfiguredCountry, getCountrySlug, getIsoCode } from "../lib/globe/country-mapping";
   import CountrySearch from "./CountrySearch.svelte";
   import Link from "./Link.svelte";
 
@@ -99,26 +99,26 @@
 
         const http = createHttpClient(basePath);
         http.get("data/countries.geojson").json().then((g: any) => {
-          w.polygonsData(g.features.filter((f: any) => f.properties.ISO_A2 !== "AQ"))
-            .polygonAltitude((d: any) => isConfiguredCountry(d.properties.ISO_A2) ? 0.006 : 0.001)
-            .polygonCapColor((d: any) => hc(d.properties.ISO_A2))
+          w.polygonsData(g.features.filter((f: any) => getIsoCode(f.properties) !== "AQ"))
+            .polygonAltitude((d: any) => isConfiguredCountry(getIsoCode(d.properties)) ? 0.006 : 0.001)
+            .polygonCapColor((d: any) => hc(getIsoCode(d.properties)))
             .polygonSideColor(() => "rgba(99,102,241,0.01)")
             .polygonStrokeColor(() => "rgba(99,102,241,0.04)")
             .polygonLabel((d: any) => {
-              if (!isConfiguredCountry(d.properties.ISO_A2)) return "";
+              if (!isConfiguredCountry(getIsoCode(d.properties))) return "";
               return `<div style="background:rgba(9,9,11,.96);color:#fafafa;padding:10px 14px;border-radius:8px;font:14px Inter;border:1px solid rgba(63,63,70,.6)"><strong>${d.properties.NAME}</strong><br><span style="color:#a1a1aa;font-size:12px">${t("globe.clickToExplore", locale)}</span></div>`;
             })
             .onPolygonClick((d: any) => {
-              const s = getCountrySlug(d.properties.ISO_A2);
+              const s = getCountrySlug(getIsoCode(d.properties));
               if (s) {
                 const localePrefix = locale !== "en" ? locale + "/" : "";
                 navigate(buildUrl(`${localePrefix}${s}/`, basePath));
               }
             })
             .onPolygonHover((d: any) => {
-              el.style.cursor = d && isConfiguredCountry(d.properties.ISO_A2) ? "pointer" : "default";
-              w.polygonAltitude((f: any) => f === d && isConfiguredCountry(f.properties.ISO_A2) ? 0.03 : isConfiguredCountry(f.properties.ISO_A2) ? 0.006 : 0.001)
-               .polygonCapColor((f: any) => f === d && isConfiguredCountry(f.properties.ISO_A2) ? "rgba(129,140,248,0.85)" : hc(f.properties.ISO_A2));
+              el.style.cursor = d && isConfiguredCountry(getIsoCode(d.properties)) ? "pointer" : "default";
+              w.polygonAltitude((f: any) => f === d && isConfiguredCountry(getIsoCode(f.properties)) ? 0.03 : isConfiguredCountry(getIsoCode(f.properties)) ? 0.006 : 0.001)
+               .polygonCapColor((f: any) => f === d && isConfiguredCountry(getIsoCode(f.properties)) ? "rgba(129,140,248,0.85)" : hc(getIsoCode(f.properties)));
             });
           el.style.opacity = "1";
         });
