@@ -54,4 +54,5 @@
 @font-face { font-family: "JetBrains Mono"; src: url("/fonts/JetBrainsMono-Bold.woff") format("woff"); font-weight: 700; font-display: swap; }
 
 html { scroll-behavior: smooth; }
+:root:not(.dark) .globe-container { filter: brightness(1.5) contrast(1.1) saturate(1.2); }
 ::selection { background: rgba(99, 102, 241, 0.2); }

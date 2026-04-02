@@ -35,17 +35,17 @@
       bind:value={query}
       onfocus={() => focused = true}
       onblur={() => setTimeout(() => focused = false, 200)}
-      class="w-full pl-9 pr-4 py-2.5 bg-surface border border-border/[0.06] rounded-lg text-sm text-text
-        placeholder-ash font-body focus:outline-none focus:border-nova/40 transition-colors"
+      class="w-full pl-9 pr-4 py-2.5 bg-surface border border-border rounded-lg text-sm text-text
+        placeholder:text-text-muted font-body focus:outline-none focus:border-accent/40 transition-colors"
     />
   </div>
 
   {#if focused && filtered.length > 0}
-    <div class="absolute z-50 top-full mt-1 left-0 right-0 bg-surface border border-border/[0.08] rounded-lg shadow-2xl overflow-hidden">
+    <div class="absolute z-50 top-full mt-1 left-0 right-0 bg-surface border border-border rounded-lg shadow-2xl overflow-hidden">
       {#each filtered as country}
         <a
           href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${country.code}/`, basePath)}
-          class="flex items-center gap-3 px-4 py-2.5 hover:bg-border/[0.04] transition-colors text-sm"
+          class="flex items-center gap-3 px-4 py-2.5 hover:bg-surface-hover transition-colors text-sm"
         >
           <span class="text-lg">{country.flag}</span>
           <span class="text-text">{country.name}</span>
