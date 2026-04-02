@@ -25,6 +25,17 @@ const ogImageUrl = ogImage ? `${siteOrigin}${ogImage}` : `${siteOrigin}${buildUr
 <html lang={locale === "zh-TW" ? "zh-TW" : "en"}>
   <head>
     <meta charset="utf-8" />
+    {import.meta.env.PUBLIC_GA_MEASUREMENT_ID && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_MEASUREMENT_ID}`}></script>
+        <script is:inline define:vars={{ gaId: import.meta.env.PUBLIC_GA_MEASUREMENT_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', gaId);
+        </script>
+      </>
+    )}
     <link rel="icon" type="image/svg+xml" href={buildUrl("favicon.svg", basePath)} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
