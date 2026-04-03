@@ -3,12 +3,14 @@
   import { buildUrl } from "../lib/url";
   import { t } from "../i18n";
   import type { GitHubUser } from "../lib/github-client";
-  import type { CountryData } from "../lib/data-output";
+  import { CountryInfoSchema, CountryDataSchema } from "../lib/data-output";
+  import { z } from "zod";
   import { rankUsers } from "../lib/ranking";
   import LanguageBar from "./LanguageBar.svelte";
   import { updateMeta } from "../lib/seo";
   import ShareButtons from "./ShareButtons.svelte";
   import Link from "./Link.svelte";
+  import { trackEvent } from "../lib/analytics";
 
   let { countryCode, userName, basePath = "/", locale = "en" }: { countryCode: string; userName: string; basePath?: string; locale?: string } = $props();
 
@@ -31,11 +33,11 @@
     error = "";
     try {
       const http = createHttpClient(basePath);
-      const allCountries = await http.get("data/countries.json").json<any[]>();
-      const config = allCountries.find((c: any) => c.code === countryCode);
+      const allCountries = z.array(CountryInfoSchema).parse(await http.get("data/countries.json").json());
+      const config = allCountries.find(c => c.code === countryCode);
       if (config) { countryName = config.name; countryFlag = config.flag || ""; }
 
-      const data = await http.get(`data/${countryCode}.json`).json<CountryData>();
+      const data = CountryDataSchema.parse(await http.get(`data/${countryCode}.json`).json());
       const ranked = rankUsers(data.users, "public_contributions");
       const idx = ranked.findIndex(u => u.login === userName);
       if (idx === -1) { error = t("profile.userNotFound", locale).replace("{name}", userName).replace("{country}", countryName); loading = false; return; }
@@ -78,13 +80,16 @@
         {#if u.bio}<p class="text-text-secondary mt-3">{u.bio}</p>{/if}
         <div class="flex flex-wrap gap-2 mt-4">
           <a href={`https://github.com/${u.login}`} target="_blank" rel="noopener"
+            onclick={() => trackEvent("external_link_click", { type: "github", login: u.login })}
             class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">{t("profile.github", locale)}</a>
           {#if u.twitterUsername}
             <a href={`https://twitter.com/${u.twitterUsername}`} target="_blank" rel="noopener"
+              onclick={() => trackEvent("external_link_click", { type: "twitter", login: u.login })}
               class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">𝕏 {u.twitterUsername}</a>
           {/if}
           {#if u.blog}
             <a href={u.blog} target="_blank" rel="noopener"
+              onclick={() => trackEvent("external_link_click", { type: "blog", login: u.login })}
               class="px-3 py-1.5 text-sm border border-border rounded-lg hover:text-accent hover:border-accent/50 transition-colors">{t("profile.blog", locale)}</a>
           {/if}
         </div>
@@ -137,6 +142,7 @@
 
     <!-- GitHub link -->
     <a href={`https://github.com/${u.login}`} target="_blank" rel="noopener"
+      onclick={() => trackEvent("external_link_click", { type: "github", login: u.login })}
       class="flex items-center gap-2 px-5 py-4 border border-border rounded-xl hover:bg-surface-hover transition-colors mb-12">
       <span>{t("profile.viewOnGithub", locale)}</span>
       <span class="ml-auto text-text-muted">→</span>

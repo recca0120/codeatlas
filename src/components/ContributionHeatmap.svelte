@@ -1,11 +1,5 @@
 <script lang="ts">
-  interface ContributionDay {
-    date: string;
-    count: number;
-  }
-  interface ContributionWeek {
-    contributionDays: ContributionDay[];
-  }
+  import type { ContributionWeek } from "../lib/three/contribution-terrain";
 
   let { weeks }: { weeks: ContributionWeek[] } = $props();
 

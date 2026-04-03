@@ -1,6 +1,13 @@
 import { z } from "zod";
 import { type GitHubUser, GitHubUserSchema } from "./github-client";
 
+export const CountryInfoSchema = z.object({
+  code: z.string(),
+  name: z.string(),
+  flag: z.string(),
+});
+export type CountryInfo = z.infer<typeof CountryInfoSchema>;
+
 export const CountryDataSchema = z.object({
   countryCode: z.string(),
   updatedAt: z.string(),

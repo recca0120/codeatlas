@@ -4,6 +4,7 @@
   import { t } from "../i18n";
   import SearchIcon from "./icons/SearchIcon.svelte";
   import Link from "./Link.svelte";
+  import { trackEvent } from "../lib/analytics";
 
   let {
     users,
@@ -82,11 +83,16 @@
 
 
   function toggleLang(lang: string) {
-    langFilter = langFilter.includes(lang) ? langFilter.filter(l => l !== lang) : [...langFilter, lang];
+    const active = !langFilter.includes(lang);
+    langFilter = active ? [...langFilter, lang] : langFilter.filter(l => l !== lang);
+    trackEvent("language_filter", { language: lang, action: active ? "add" : "remove", country: countryCode });
     sync();
   }
   function clearAll() { search = ""; langFilter = []; cityFilter = ""; sync(); }
-  function setDim(d: RankingDimension) { dimension = d; sync(); }
+  function setDim(d: RankingDimension) {
+    trackEvent("ranking_tab_switch", { dimension: d, country: countryCode });
+    dimension = d; sync();
+  }
 
   const LANG_COLORS: Record<string, string> = {
     TypeScript:"#3178c6",JavaScript:"#f1e05a",Python:"#3572a5",Go:"#00add8",Rust:"#dea584",
@@ -113,11 +119,12 @@
     </span>
     <input type="text" placeholder={t("ranking.searchDeveloper", locale)} bind:value={search}
       oninput={() => { sync(); }}
+      onblur={() => { if (search) trackEvent("developer_search", { query: search, country: countryCode }); }}
       class="w-full pl-9 pr-4 py-2 bg-surface border border-border rounded-lg text-sm placeholder-text-muted
         focus:outline-none focus:border-accent transition-colors" />
   </div>
   {#if allCities.length > 1}
-    <select bind:value={cityFilter} onchange={() => { sync(); }}
+    <select bind:value={cityFilter} onchange={() => { if (cityFilter) trackEvent("city_filter", { city: cityFilter, country: countryCode }); sync(); }}
       aria-label={t("ranking.allCities", locale)}
       class="px-3 py-2 bg-surface border border-border rounded-lg text-sm text-text-secondary focus:outline-none cursor-pointer">
       <option value="">{t("ranking.allCities", locale)}</option>
@@ -171,6 +178,7 @@
     {@const isTop3 = rank <= 3}
 
     <Link href="{user.login}"
+      onclick={() => trackEvent("developer_click", { login: user.login, rank, country: countryCode })}
       class="group flex items-center gap-4 px-2 sm:px-4 transition-colors hover:bg-surface-hover
         {isTop3 ? 'py-5' : 'py-3.5'}">
 

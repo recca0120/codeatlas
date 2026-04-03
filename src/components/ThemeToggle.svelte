@@ -1,6 +1,7 @@
 <script lang="ts">
   import SunIcon from "./icons/SunIcon.svelte";
   import MoonIcon from "./icons/MoonIcon.svelte";
+  import { trackEvent } from "../lib/analytics";
 
   let isDark = $state(true);
 
@@ -12,6 +13,7 @@
     isDark = !isDark;
     document.documentElement.classList.toggle("dark", isDark);
     localStorage.setItem("theme", isDark ? "dark" : "light");
+    trackEvent("theme_toggle", { theme: isDark ? "dark" : "light" });
   }
 </script>
 

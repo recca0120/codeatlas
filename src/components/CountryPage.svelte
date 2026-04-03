@@ -1,7 +1,7 @@
 <script lang="ts">
   import { createHttpClient } from "../lib/http";
-  import type { GitHubUser } from "../lib/github-client";
-  import type { CountryData } from "../lib/data-output";
+  import { CountryInfoSchema, CountryDataSchema, type CountryData } from "../lib/data-output";
+  import { z } from "zod";
   import RankingFilter from "./RankingFilter.svelte";
   import ShareButtons from "./ShareButtons.svelte";
   import { t } from "../i18n";
@@ -25,14 +25,14 @@
     error = "";
     try {
       const http = createHttpClient(basePath);
-      const allCountries = await http.get("data/countries.json").json<any[]>();
-      const config = allCountries.find((c: any) => c.code === countryCode);
+      const allCountries = z.array(CountryInfoSchema).parse(await http.get("data/countries.json").json());
+      const config = allCountries.find(c => c.code === countryCode);
       if (config) {
         countryName = config.name || countryCode;
         countryFlag = config.flag || "";
       }
 
-      countryData = await http.get(`data/${countryCode}.json`).json<CountryData>();
+      countryData = CountryDataSchema.parse(await http.get(`data/${countryCode}.json`).json());
     } catch (e) {
       error = t("country.loadError", locale).replace("{code}", countryCode);
     }

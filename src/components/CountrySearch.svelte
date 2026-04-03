@@ -2,14 +2,10 @@
   import { buildUrl } from "../lib/url";
   import { t } from "../i18n";
   import SearchIcon from "./icons/SearchIcon.svelte";
+  import { trackEvent } from "../lib/analytics";
+  import type { CountryInfo } from "../lib/data-output";
 
-  interface Country {
-    code: string;
-    name: string;
-    flag: string;
-  }
-
-  let { countries, basePath = "/", locale = "en" }: { countries: Country[]; basePath?: string; locale?: string } = $props();
+  let { countries, basePath = "/", locale = "en" }: { countries: CountryInfo[]; basePath?: string; locale?: string } = $props();
 
   let query = $state("");
   let focused = $state(false);
@@ -34,7 +30,7 @@
       placeholder={t("search.placeholder", locale)}
       bind:value={query}
       onfocus={() => focused = true}
-      onblur={() => setTimeout(() => focused = false, 200)}
+      onblur={() => { if (query) trackEvent("country_search", { query }); setTimeout(() => focused = false, 200); }}
       class="w-full pl-9 pr-4 py-2.5 bg-surface border border-border rounded-lg text-sm text-text
         placeholder:text-text-muted font-body focus:outline-none focus:border-accent/40 transition-colors"
     />
@@ -45,6 +41,7 @@
       {#each filtered as country}
         <a
           href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${country.code}/`, basePath)}
+          onclick={() => trackEvent("country_search_click", { country: country.name, code: country.code })}
           class="flex items-center gap-3 px-4 py-2.5 hover:bg-surface-hover transition-colors text-sm"
         >
           <span class="text-lg">{country.flag}</span>
