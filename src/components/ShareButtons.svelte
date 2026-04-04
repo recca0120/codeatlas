@@ -1,5 +1,6 @@
 <script lang="ts">
   import { t } from "../i18n";
+  import { trackEvent } from "../lib/analytics";
 
   let { url, text, locale = "en" }: { url: string; text: string; locale?: string } = $props();
   let copied = $state(false);
@@ -17,6 +18,7 @@
   ]);
 
   async function copyLink() {
+    trackEvent("share_click", { platform: "copy_link", url });
     try {
       await navigator.clipboard.writeText(url);
       copied = true;
@@ -41,6 +43,7 @@
       href={p.href}
       target="_blank"
       rel="noopener noreferrer"
+      onclick={() => trackEvent("share_click", { platform: p.name, url })}
       class="px-3 py-1.5 text-xs font-data tracking-wider text-text-secondary
         border border-border rounded-md hover:text-accent hover:border-accent/30 transition-all"
     >

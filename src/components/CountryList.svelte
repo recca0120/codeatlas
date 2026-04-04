@@ -104,7 +104,7 @@
         class="px-3 py-1.5 text-xs font-data rounded-md transition-all cursor-pointer
           {sortKey === 'devs' ? 'bg-accent text-white' : 'text-text-secondary border border-border hover:text-text'}"
         onclick={() => setSort("devs")}
-      >{t("ranking.developers", locale)}</button>
+      >{t("ranking.sortByDevelopers", locale)}</button>
       <button
         class="px-3 py-1.5 text-xs font-data rounded-md transition-all cursor-pointer
           {sortKey === 'name' ? 'bg-accent text-white' : 'text-text-secondary border border-border hover:text-text'}"

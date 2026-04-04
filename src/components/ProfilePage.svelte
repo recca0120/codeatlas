@@ -48,6 +48,7 @@
         title: `${user.name || user.login} — #${rank} in ${countryName} — CodeAtlas`,
         description: t("profile.ogDescription", locale).replace("{name}", user.name || user.login).replace("{rank}", String(rank)).replace("{country}", countryName),
       });
+      trackEvent("profile_view", { login: user.login, rank, country: countryCode });
     } catch (e) {
       console.error(`Failed to load profile for ${userName}:`, e);
       error = t("profile.loadError", locale).replace("{name}", userName);

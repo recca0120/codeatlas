@@ -49,6 +49,12 @@ export interface SearchByLocationOptions extends SearchOptions {
   countryCode?: string;
 }
 
+export function buildLocationQuery(locations: string[]): string {
+  return locations
+    .map((l) => (l.includes(" ") ? `location:"${l}"` : `location:${l}`))
+    .join(" ");
+}
+
 export async function searchUsersByLocation(
   client: GitHubClient,
   locations: string[],
@@ -56,7 +62,7 @@ export async function searchUsersByLocation(
 ): Promise<GitHubUser[]> {
   const { countryCode, ...opts } = options ?? {};
 
-  const query = locations.map((l) => `location:${l}`).join(" ");
+  const query = buildLocationQuery(locations);
   const results = await client.searchUsers(query, opts);
 
   const seen = new Set<string>();

@@ -7,6 +7,7 @@
   import { buildUrl } from "../lib/url";
   import { getCurrentPath, navigate } from "../lib/router";
   import { t } from "../i18n";
+  import { trackEvent } from "../lib/analytics";
 
   let { basePath = "/", locale = "en" }: { basePath?: string; locale?: string } = $props();
 
@@ -18,14 +19,18 @@
     const route = params.get("route");
 
     if (route) {
-      // Clean up URL from 404 redirect
+      // Clean up URL from 404 redirect, preserving original query params
       let path = route.replace(/^\/|\/$/g, "");
       const localePrefix = locale !== "en" ? locale + "/" : "";
       const cleanUrl = buildUrl(localePrefix + path + "/", basePath);
-      window.history.replaceState({}, "", cleanUrl);
+      // Rebuild query string without the 'route' param
+      params.delete("route");
+      const remaining = params.toString();
+      window.history.replaceState({}, "", cleanUrl + (remaining ? "?" + remaining : ""));
     }
 
     currentPath = getCurrentPath(basePath.replace(/\/$/, ""), locale !== "en" ? locale : undefined);
+    trackEvent("page_view", { page_path: window.location.pathname });
   }
 
   function onPopState() {

@@ -50,6 +50,7 @@ export default {
   "ranking.page": "每頁",
   "ranking.developers": "位開發者",
   "ranking.sortBy": "排序",
+  "ranking.sortByDevelopers": "開發者數",
   "ranking.name": "名稱",
 
   // Country list

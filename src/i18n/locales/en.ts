@@ -48,6 +48,7 @@ const en = {
   "ranking.page": "page",
   "ranking.developers": "developers",
   "ranking.sortBy": "Sort by",
+  "ranking.sortByDevelopers": "Developers",
   "ranking.name": "Name",
 
   // Country list

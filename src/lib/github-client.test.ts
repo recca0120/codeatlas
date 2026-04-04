@@ -8,7 +8,7 @@ import {
   it,
   vi,
 } from "vitest";
-import { searchUsersByLocation } from "./github-client";
+import { buildLocationQuery, searchUsersByLocation } from "./github-client";
 import { createOctokitClient } from "./octokit-github-client";
 import { makeUserNode, mockGraphqlSearch } from "./test-helpers/github-mocks";
 
@@ -17,6 +17,28 @@ afterAll(() => fetchMock.deactivate());
 afterEach(() => {
   fetchMock.assertNoPendingInterceptors();
   fetchMock.reset();
+});
+
+describe("buildLocationQuery", () => {
+  it("wraps single-word locations without quotes", () => {
+    expect(buildLocationQuery(["Taiwan"])).toBe("location:Taiwan");
+  });
+
+  it("wraps multi-word locations with quotes", () => {
+    expect(buildLocationQuery(["Ho chi minh city"])).toBe(
+      'location:"Ho chi minh city"',
+    );
+  });
+
+  it("joins multiple locations with spaces", () => {
+    expect(buildLocationQuery(["Vietnam", "Ho chi minh city", "Hanoi"])).toBe(
+      'location:Vietnam location:"Ho chi minh city" location:Hanoi',
+    );
+  });
+
+  it("returns empty string for empty input", () => {
+    expect(buildLocationQuery([])).toBe("");
+  });
 });
 
 describe("searchUsersByLocation", () => {

@@ -3,6 +3,7 @@
   import { CountryInfoSchema, CountryDataSchema, type CountryData } from "../lib/data-output";
   import { z } from "zod";
   import { toast } from "../lib/toast";
+  import { trackEvent } from "../lib/analytics";
   import RankingFilter from "./RankingFilter.svelte";
   import ShareButtons from "./ShareButtons.svelte";
   import { t } from "../i18n";
@@ -52,6 +53,7 @@
         title: `${countryFlag} ${countryName} — CodeAtlas`,
         description: t("country.ogDescription", locale).replace("{country}", countryName).replace("{count}", String(users.length)),
       });
+      trackEvent("country_view", { country: countryName, code: countryCode, devCount: users.length });
     }
   });
   const totalContrib = $derived(users.reduce((s, u) => s + u.publicContributions, 0));
