@@ -29,3 +29,21 @@ export function buildCountryData(
     users,
   };
 }
+
+// Return type is structurally identical to CountrySummary (from country-list.ts).
+// We use an inline type here to avoid a circular dependency.
+export function buildCountrySummary(
+  config: CountryInfo,
+  data: CountryData,
+): CountryInfo & { devCount: number; totalContributions: number } {
+  return {
+    code: config.code,
+    name: config.name,
+    flag: config.flag,
+    devCount: data.users.length,
+    totalContributions: data.users.reduce(
+      (sum, u) => sum + u.publicContributions,
+      0,
+    ),
+  };
+}

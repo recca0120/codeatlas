@@ -4,6 +4,7 @@ import {
   buildOutputPath,
   filterCountries,
   generateFakeUsers,
+  generateSummaryFile,
   getCheckpointCountry,
   loadCheckpoint,
   nextCheckpoint,
@@ -186,5 +187,121 @@ describe("saveCheckpoint", () => {
     await saveCheckpoint(testPath, 7);
     const content = JSON.parse(await fs.readFile(testPath, "utf-8"));
     expect(content).toEqual({ checkpoint: 7 });
+  });
+});
+
+describe("generateSummaryFile", () => {
+  const dataDir = "public/data/test-summary";
+  const summaryPath = `${dataDir}/countries-summary.json`;
+
+  afterEach(async () => {
+    await fs.rm(dataDir, { recursive: true, force: true }).catch(() => {});
+  });
+
+  it("generates summary from existing country data files", async () => {
+    await fs.mkdir(dataDir, { recursive: true });
+
+    const taiwanData = {
+      countryCode: "taiwan",
+      updatedAt: "2026-01-01T00:00:00Z",
+      users: [
+        {
+          login: "a",
+          avatarUrl: "",
+          name: null,
+          company: null,
+          location: null,
+          bio: null,
+          followers: 10,
+          publicContributions: 500,
+          privateContributions: 0,
+          languages: [],
+          topRepos: [],
+          twitterUsername: null,
+          blog: null,
+        },
+        {
+          login: "b",
+          avatarUrl: "",
+          name: null,
+          company: null,
+          location: null,
+          bio: null,
+          followers: 5,
+          publicContributions: 300,
+          privateContributions: 0,
+          languages: [],
+          topRepos: [],
+          twitterUsername: null,
+          blog: null,
+        },
+      ],
+    };
+    await fs.writeFile(`${dataDir}/taiwan.json`, JSON.stringify(taiwanData));
+
+    const configs = [
+      {
+        code: "taiwan",
+        name: "Taiwan",
+        flag: "\u{1F1F9}\u{1F1FC}",
+        locations: ["Taiwan"],
+      },
+    ];
+
+    await generateSummaryFile(configs, dataDir, summaryPath);
+
+    const summary = JSON.parse(await fs.readFile(summaryPath, "utf-8"));
+    expect(summary).toHaveLength(1);
+    expect(summary[0].code).toBe("taiwan");
+    expect(summary[0].devCount).toBe(2);
+    expect(summary[0].totalContributions).toBe(800);
+  });
+
+  it("skips countries without data files", async () => {
+    await fs.mkdir(dataDir, { recursive: true });
+
+    const configs = [
+      {
+        code: "taiwan",
+        name: "Taiwan",
+        flag: "\u{1F1F9}\u{1F1FC}",
+        locations: ["Taiwan"],
+      },
+      {
+        code: "japan",
+        name: "Japan",
+        flag: "\u{1F1EF}\u{1F1F5}",
+        locations: ["Japan"],
+      },
+    ];
+
+    const taiwanData = {
+      countryCode: "taiwan",
+      updatedAt: "2026-01-01T00:00:00Z",
+      users: [
+        {
+          login: "a",
+          avatarUrl: "",
+          name: null,
+          company: null,
+          location: null,
+          bio: null,
+          followers: 10,
+          publicContributions: 100,
+          privateContributions: 0,
+          languages: [],
+          topRepos: [],
+          twitterUsername: null,
+          blog: null,
+        },
+      ],
+    };
+    await fs.writeFile(`${dataDir}/taiwan.json`, JSON.stringify(taiwanData));
+
+    await generateSummaryFile(configs, dataDir, summaryPath);
+
+    const summary = JSON.parse(await fs.readFile(summaryPath, "utf-8"));
+    expect(summary).toHaveLength(1);
+    expect(summary[0].code).toBe("taiwan");
   });
 });

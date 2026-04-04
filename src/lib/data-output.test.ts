@@ -1,5 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { buildCountryData, rebuildCountryData } from "./data-output";
+import {
+  buildCountryData,
+  buildCountrySummary,
+  rebuildCountryData,
+} from "./data-output";
 import { createMockUser } from "./test-utils";
 
 const users = [
@@ -46,5 +50,30 @@ describe("rebuildCountryData", () => {
     const result = rebuildCountryData(clean);
     expect(result).not.toHaveProperty("rankings");
     expect(result.users).toHaveLength(2);
+  });
+});
+
+describe("buildCountrySummary", () => {
+  it("builds summary with devCount and totalContributions", () => {
+    const config = {
+      code: "taiwan",
+      name: "Taiwan",
+      flag: "\u{1F1F9}\u{1F1FC}",
+    };
+    const data = buildCountryData("taiwan", users);
+    const summary = buildCountrySummary(config, data);
+    expect(summary.code).toBe("taiwan");
+    expect(summary.name).toBe("Taiwan");
+    expect(summary.flag).toBe("\u{1F1F9}\u{1F1FC}");
+    expect(summary.devCount).toBe(2);
+    expect(summary.totalContributions).toBe(700);
+  });
+
+  it("handles empty users", () => {
+    const config = { code: "japan", name: "Japan", flag: "\u{1F1EF}\u{1F1F5}" };
+    const data = buildCountryData("japan", []);
+    const summary = buildCountrySummary(config, data);
+    expect(summary.devCount).toBe(0);
+    expect(summary.totalContributions).toBe(0);
   });
 });

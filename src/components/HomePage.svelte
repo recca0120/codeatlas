@@ -6,20 +6,17 @@
   import { t } from "../i18n";
   import { isConfiguredCountry, getCountrySlug, getIsoCode } from "../lib/globe/country-mapping";
   import CountrySearch from "./CountrySearch.svelte";
+  import CountryList from "./CountryList.svelte";
   import Link from "./Link.svelte";
   import { trackEvent } from "../lib/analytics";
   import { CountryInfoSchema, type CountryInfo } from "../lib/data-output";
+  import { CountrySummarySchema, type CountrySummary } from "../lib/country-list";
   import { z } from "zod";
 
   let { basePath = "/", locale = "en" }: { basePath?: string; locale?: string } = $props();
 
-  const CONT: Record<string, string> = {afghanistan:"Asia",albania:"Europe",algeria:"Africa",andorra:"Europe",angola:"Africa",argentina:"Americas",armenia:"Asia",australia:"Oceania",austria:"Europe",azerbaijan:"Asia",bahrain:"Asia",bangladesh:"Asia",belarus:"Europe",belgium:"Europe",benin:"Africa",bhutan:"Asia",bolivia:"Americas","bosnia-and-herzegovina":"Europe",botswana:"Africa",brazil:"Americas",bulgaria:"Europe","burkina-faso":"Africa",burundi:"Africa",cambodia:"Asia",cameroon:"Africa",canada:"Americas",chad:"Africa",chile:"Americas",china:"Asia","hong-kong":"Asia",taiwan:"Asia",colombia:"Americas",congo:"Africa",croatia:"Europe",cuba:"Americas",cyprus:"Europe",czechia:"Europe",denmark:"Europe","dominican-republic":"Americas",ecuador:"Americas",egypt:"Africa","el-salvador":"Americas",estonia:"Europe",ethiopia:"Africa",finland:"Europe",france:"Europe",georgia:"Asia",germany:"Europe",ghana:"Africa",greece:"Europe",guatemala:"Americas",honduras:"Americas",hungary:"Europe",iceland:"Europe",india:"Asia",indonesia:"Asia",iran:"Asia",iraq:"Asia",ireland:"Europe",israel:"Asia",italy:"Europe",jamaica:"Americas",japan:"Asia",jordan:"Asia",kazakhstan:"Asia",kenya:"Africa",kuwait:"Asia",laos:"Asia",latvia:"Europe",lithuania:"Europe",luxembourg:"Europe",madagascar:"Africa",malawi:"Africa",malaysia:"Asia",maldives:"Asia",mali:"Africa",malta:"Europe",mauritius:"Africa",mexico:"Americas",moldova:"Europe",mongolia:"Asia",montenegro:"Europe",morocco:"Africa",mozambique:"Africa",myanmar:"Asia",namibia:"Africa",nepal:"Asia",netherlands:"Europe","new-zealand":"Oceania",nicaragua:"Americas",nigeria:"Africa",norway:"Europe",oman:"Asia",pakistan:"Asia",palestine:"Asia",panama:"Americas",paraguay:"Americas",peru:"Americas",philippines:"Asia",poland:"Europe",portugal:"Europe",qatar:"Asia",romania:"Europe",russia:"Europe",rwanda:"Africa","saudi-arabia":"Asia",senegal:"Africa",serbia:"Europe",singapore:"Asia",slovakia:"Europe",slovenia:"Europe","south-africa":"Africa","south-korea":"Asia",spain:"Europe","sri-lanka":"Asia",sudan:"Africa",sweden:"Europe",switzerland:"Europe",syria:"Asia",tanzania:"Africa",thailand:"Asia",tunisia:"Africa",turkey:"Europe",uganda:"Africa",ukraine:"Europe","united-arab-emirates":"Asia","united-kingdom":"Europe","united-states":"Americas",uruguay:"Americas",uzbekistan:"Asia",venezuela:"Americas",vietnam:"Asia",zambia:"Africa",zimbabwe:"Africa"};
-  const CONT_KEYS: Record<string, string> = { Asia: "continent.asia", Europe: "continent.europe", Americas: "continent.americas", Africa: "continent.africa", Oceania: "continent.oceania" };
-
-  type CItem = CountryInfo & { continent: string };
-
-  let countries = $state<CItem[]>([]);
-  let byContinent = $state<Record<string, CItem[]>>({});
+  let countries = $state<CountryInfo[]>([]);
+  let countrySummaries = $state<CountrySummary[]>([]);
   let loading = $state(true);
 
   // Globe
@@ -29,11 +26,12 @@
 
   onMount(async () => {
     const http = createHttpClient(basePath);
-    const raw = z.array(CountryInfoSchema).parse(await http.get("data/countries.json").json());
-    countries = raw.map(c => ({ ...c, continent: CONT[c.code] || "Other" }));
-    const grouped: Record<string, CItem[]> = {};
-    for (const c of countries) { (grouped[c.continent] ??= []).push(c); }
-    byContinent = grouped;
+    const [rawCountries, rawSummary] = await Promise.all([
+      http.get("data/countries.json").json(),
+      http.get("data/countries-summary.json").json(),
+    ]);
+    countries = z.array(CountryInfoSchema).parse(rawCountries);
+    countrySummaries = z.array(CountrySummarySchema).parse(rawSummary);
     loading = false;
 
     initGlobe();
@@ -159,27 +157,7 @@
 
 {#if !loading}
   <div class="max-w-6xl mx-auto px-6 sm:px-8">
-    <section class="py-16 border-t border-border">
-      <h2 class="text-xl font-display font-bold mb-10">{t("hero.countries", locale).replace("{count}", String(countries.length))}</h2>
-
-      {#each ["Asia", "Europe", "Americas", "Africa", "Oceania"].filter(c => byContinent[c]) as cont}
-        <div class="mb-10">
-          <div class="text-xs font-data text-text-muted tracking-widest uppercase mb-3 pb-2 border-b border-border">
-            {t(CONT_KEYS[cont], locale)} <span class="text-text-muted/60">· {byContinent[cont].length}</span>
-          </div>
-          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {#each byContinent[cont] as c}
-              <Link href={buildUrl(`${locale === "zh-TW" ? "zh-TW/" : ""}${c.code}/`, basePath)}
-                onclick={() => trackEvent("country_card_click", { country: c.name, code: c.code })}
-                class="flex items-center gap-3 px-4 py-3 rounded-xl border border-border hover:border-accent/40 hover:bg-surface-hover transition-all group">
-                <span class="text-2xl shrink-0">{c.flag}</span>
-                <span class="truncate group-hover:text-accent transition-colors">{c.name}</span>
-              </Link>
-            {/each}
-          </div>
-        </div>
-      {/each}
-    </section>
+    <CountryList countries={countrySummaries} {basePath} {locale} />
 
     <footer class="py-8 border-t border-border text-center text-sm text-text-muted">
       {t("footer.text", locale)}<Link href={buildUrl(locale === "zh-TW" ? "zh-TW/faq" : "faq", basePath)} class="hover:text-accent transition-colors">{t("nav.faq", locale)}</Link>

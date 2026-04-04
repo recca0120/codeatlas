@@ -49,6 +49,11 @@ export default {
   "ranking.of": "/",
   "ranking.page": "每頁",
   "ranking.developers": "位開發者",
+  "ranking.sortBy": "排序",
+  "ranking.name": "名稱",
+
+  // Country list
+  "countryList.all": "全部",
 
   // Profile page
   "profile.loading": "載入中...",

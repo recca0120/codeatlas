@@ -1,5 +1,11 @@
 import fs from "node:fs/promises";
 import type { CountryConfig } from "./country-config";
+import type { CountrySummary } from "./country-list";
+import {
+  buildCountrySummary,
+  CountryDataSchema,
+  type CountryInfo,
+} from "./data-output";
 import type { GitHubUser } from "./github-client";
 
 const LANGS = [
@@ -144,6 +150,31 @@ export async function saveCheckpoint(
   value: number,
 ): Promise<void> {
   await fs.writeFile(filePath, JSON.stringify({ checkpoint: value }));
+}
+
+/**
+ * Generate countries-summary.json from existing country data files.
+ */
+export async function generateSummaryFile(
+  configs: CountryInfo[],
+  dataDir: string,
+  outputPath: string,
+): Promise<void> {
+  const summaries: CountrySummary[] = [];
+  for (const config of configs) {
+    try {
+      const raw = JSON.parse(
+        await fs.readFile(`${dataDir}/${config.code}.json`, "utf-8"),
+      );
+      const data = CountryDataSchema.parse(raw);
+      summaries.push(buildCountrySummary(config, data));
+    } catch (err) {
+      if ((err as NodeJS.ErrnoException).code !== "ENOENT") {
+        console.warn(`  Warning: failed to process ${config.code}:`, err);
+      }
+    }
+  }
+  await fs.writeFile(outputPath, JSON.stringify(summaries));
 }
 
 /**

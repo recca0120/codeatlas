@@ -47,6 +47,11 @@ const en = {
   "ranking.of": "of",
   "ranking.page": "page",
   "ranking.developers": "developers",
+  "ranking.sortBy": "Sort by",
+  "ranking.name": "Name",
+
+  // Country list
+  "countryList.all": "All",
 
   // Profile page
   "profile.loading": "Loading...",

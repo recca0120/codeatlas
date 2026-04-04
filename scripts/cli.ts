@@ -4,6 +4,7 @@ import {
   buildOutputPath,
   filterCountries,
   generateFakeUsers,
+  generateSummaryFile,
   getCheckpointCountry,
   loadCheckpoint,
   nextCheckpoint,
@@ -16,6 +17,14 @@ import { searchUsersByLocation } from "../src/lib/github-client";
 import { createOctokitClient } from "../src/lib/octokit-github-client";
 
 const DATA_DIR = "public/data";
+const COUNTRIES_JSON = "public/data/countries.json";
+const SUMMARY_PATH = "public/data/countries-summary.json";
+
+async function runSummary() {
+  const all = await loadAllCountryConfigs(COUNTRIES_JSON);
+  await generateSummaryFile(all, DATA_DIR, SUMMARY_PATH);
+  console.log(`  → ${SUMMARY_PATH}`);
+}
 
 async function writeCountryData(
   countryCode: string,
@@ -156,6 +165,8 @@ addSharedOptions(
       }
     }
 
+    console.log("\nGenerating summary...");
+    await runSummary();
     console.log("\nDone!");
   },
 );
@@ -188,7 +199,19 @@ addSharedOptions(
     if ((i + 1) % 20 === 0) console.log(`  ${i + 1} countries...`);
   }
 
+  console.log("\nGenerating summary...");
+  await runSummary();
   console.log(`\nDone! ${countries.length} countries × ${limit} users.`);
 });
+
+// ── summary ──
+program
+  .command("summary")
+  .description("regenerate countries-summary.json from existing data files")
+  .action(async () => {
+    console.log("Generating summary...");
+    await runSummary();
+    console.log("Done!");
+  });
 
 program.parse();
