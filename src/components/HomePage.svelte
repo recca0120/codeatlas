@@ -12,6 +12,7 @@
   import { CountryInfoSchema, type CountryInfo } from "../lib/data-output";
   import { CountrySummarySchema, type CountrySummary } from "../lib/country-list";
   import { z } from "zod";
+  import { toast } from "../lib/toast";
 
   let { basePath = "/", locale = "en" }: { basePath?: string; locale?: string } = $props();
 
@@ -25,13 +26,20 @@
   let resizeHandler: (() => void) | null = null;
 
   onMount(async () => {
-    const http = createHttpClient(basePath);
-    const [rawCountries, rawSummary] = await Promise.all([
-      http.get("data/countries.json").json(),
-      http.get("data/countries-summary.json").json(),
-    ]);
-    countries = z.array(CountryInfoSchema).parse(rawCountries);
-    countrySummaries = z.array(CountrySummarySchema).parse(rawSummary);
+    try {
+      const http = createHttpClient(basePath);
+      const [rawCountries, rawSummary] = await Promise.all([
+        http.get("data/countries.json").json(),
+        http.get("data/countries-summary.json").json(),
+      ]);
+      countries = z.array(CountryInfoSchema).parse(rawCountries);
+      countrySummaries = z.array(CountrySummarySchema).parse(rawSummary);
+    } catch (e) {
+      console.error("Failed to load homepage data:", e);
+      if (e instanceof z.ZodError) {
+        toast(`Data validation error: ${e.issues.map(i => i.message).join(", ")}`, "error");
+      }
+    }
     loading = false;
 
     initGlobe();

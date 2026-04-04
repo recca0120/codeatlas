@@ -5,6 +5,7 @@
   import type { GitHubUser } from "../lib/github-client";
   import { CountryInfoSchema, CountryDataSchema } from "../lib/data-output";
   import { z } from "zod";
+  import { toast } from "../lib/toast";
   import { rankUsers } from "../lib/ranking";
   import LanguageBar from "./LanguageBar.svelte";
   import { updateMeta } from "../lib/seo";
@@ -47,8 +48,12 @@
         title: `${user.name || user.login} — #${rank} in ${countryName} — CodeAtlas`,
         description: t("profile.ogDescription", locale).replace("{name}", user.name || user.login).replace("{rank}", String(rank)).replace("{country}", countryName),
       });
-    } catch {
+    } catch (e) {
+      console.error(`Failed to load profile for ${userName}:`, e);
       error = t("profile.loadError", locale).replace("{name}", userName);
+      if (e instanceof z.ZodError) {
+        toast(`Data validation error: ${e.issues.map(i => i.message).join(", ")}`, "error");
+      }
     }
     loading = false;
   }

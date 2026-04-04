@@ -2,6 +2,7 @@
   import { createHttpClient } from "../lib/http";
   import { CountryInfoSchema, CountryDataSchema, type CountryData } from "../lib/data-output";
   import { z } from "zod";
+  import { toast } from "../lib/toast";
   import RankingFilter from "./RankingFilter.svelte";
   import ShareButtons from "./ShareButtons.svelte";
   import { t } from "../i18n";
@@ -34,7 +35,11 @@
 
       countryData = CountryDataSchema.parse(await http.get(`data/${countryCode}.json`).json());
     } catch (e) {
+      console.error(`Failed to load country data for ${countryCode}:`, e);
       error = t("country.loadError", locale).replace("{code}", countryCode);
+      if (e instanceof z.ZodError) {
+        toast(`Data validation error: ${e.issues.map(i => i.message).join(", ")}`, "error");
+      }
     }
     loading = false;
   }
