@@ -41,6 +41,8 @@ const ogImageUrl = ogImage ? `${siteOrigin}${ogImage}` : `${siteOrigin}${buildUr
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="preload" href={buildUrl("fonts/SpaceGrotesk-Bold.woff", basePath)} as="font" type="font/woff" crossorigin />
+    <link rel="preload" href={buildUrl("fonts/Inter-Regular.woff", basePath)} as="font" type="font/woff" crossorigin />
+    <link rel="preload" href={buildUrl("fonts/JetBrainsMono-Regular.woff", basePath)} as="font" type="font/woff" crossorigin />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={url} />
@@ -57,19 +59,23 @@ const ogImageUrl = ogImage ? `${siteOrigin}${ogImage}` : `${siteOrigin}${buildUr
       // Locale preference redirect: if user has a saved locale and is on the wrong version, redirect
       (function() {
         var saved = localStorage.getItem("locale");
-        if (!saved) return;
+        if (!saved) { document.documentElement.style.visibility = "visible"; return; }
         var path = window.location.pathname;
         var base = basePath.endsWith("/") ? basePath.slice(0, -1) : basePath;
         var isZhTW = path.startsWith(base + "/zh-TW");
         if (saved === "zh-TW" && !isZhTW) {
           var rest = path.slice(base.length);
           window.location.replace(base + "/zh-TW" + rest);
+          return;
         } else if (saved === "en" && isZhTW) {
           var rest = path.slice((base + "/zh-TW").length);
           window.location.replace(base + (rest || "/"));
+          return;
         }
+        document.documentElement.style.visibility = "visible";
       })();
     </script>
+    <style>html { visibility: hidden; }</style>
   </head>
   <body class="bg-bg text-text font-body antialiased min-h-screen">
 
