@@ -13,6 +13,7 @@ function makeSummary(overrides: Partial<CountrySummary> = {}): CountrySummary {
     code: "taiwan",
     name: "Taiwan",
     flag: "\u{1F1F9}\u{1F1FC}",
+    topContributors: [],
     devCount: 450,
     totalContributions: 182000,
     ...overrides,

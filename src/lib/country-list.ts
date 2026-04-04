@@ -4,6 +4,9 @@ import { CountryInfoSchema } from "./data-output";
 export const CountrySummarySchema = CountryInfoSchema.extend({
   devCount: z.number(),
   totalContributions: z.number(),
+  topContributors: z.array(
+    z.object({ login: z.string(), avatarUrl: z.string() }),
+  ),
 });
 export type CountrySummary = z.infer<typeof CountrySummarySchema>;
 

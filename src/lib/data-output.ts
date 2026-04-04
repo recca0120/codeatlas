@@ -35,7 +35,14 @@ export function buildCountryData(
 export function buildCountrySummary(
   config: CountryInfo,
   data: CountryData,
-): CountryInfo & { devCount: number; totalContributions: number } {
+): CountryInfo & {
+  devCount: number;
+  totalContributions: number;
+  topContributors: { login: string; avatarUrl: string }[];
+} {
+  const sorted = [...data.users].sort(
+    (a, b) => b.publicContributions - a.publicContributions,
+  );
   return {
     code: config.code,
     name: config.name,
@@ -45,5 +52,9 @@ export function buildCountrySummary(
       (sum, u) => sum + u.publicContributions,
       0,
     ),
+    topContributors: sorted.slice(0, 3).map((u) => ({
+      login: u.login,
+      avatarUrl: u.avatarUrl,
+    })),
   };
 }

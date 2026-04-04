@@ -69,11 +69,49 @@ describe("buildCountrySummary", () => {
     expect(summary.totalContributions).toBe(700);
   });
 
+  it("includes top 3 contributors sorted by publicContributions", () => {
+    const config = {
+      code: "taiwan",
+      name: "Taiwan",
+      flag: "\u{1F1F9}\u{1F1FC}",
+    };
+    const data = buildCountryData("taiwan", users);
+    const summary = buildCountrySummary(config, data);
+    expect(summary.topContributors).toHaveLength(2);
+    expect(summary.topContributors[0].login).toBe("alice");
+    expect(summary.topContributors[0].avatarUrl).toBeDefined();
+    expect(summary.topContributors[1].login).toBe("bob");
+  });
+
+  it("limits topContributors to 3", () => {
+    const manyUsers = [
+      createMockUser({ login: "a", publicContributions: 500 }),
+      createMockUser({ login: "b", publicContributions: 400 }),
+      createMockUser({ login: "c", publicContributions: 300 }),
+      createMockUser({ login: "d", publicContributions: 200 }),
+      createMockUser({ login: "e", publicContributions: 100 }),
+    ];
+    const config = {
+      code: "taiwan",
+      name: "Taiwan",
+      flag: "\u{1F1F9}\u{1F1FC}",
+    };
+    const data = buildCountryData("taiwan", manyUsers);
+    const summary = buildCountrySummary(config, data);
+    expect(summary.topContributors).toHaveLength(3);
+    expect(summary.topContributors.map((c) => c.login)).toEqual([
+      "a",
+      "b",
+      "c",
+    ]);
+  });
+
   it("handles empty users", () => {
     const config = { code: "japan", name: "Japan", flag: "\u{1F1EF}\u{1F1F5}" };
     const data = buildCountryData("japan", []);
     const summary = buildCountrySummary(config, data);
     expect(summary.devCount).toBe(0);
     expect(summary.totalContributions).toBe(0);
+    expect(summary.topContributors).toHaveLength(0);
   });
 });

@@ -5,6 +5,12 @@ import { describe, expect, it } from "vitest";
 import type { CountrySummary } from "../lib/country-list";
 import CountryList from "./CountryList.svelte";
 
+const tc = (logins: string[]) =>
+  logins.map((login) => ({
+    login,
+    avatarUrl: `https://avatars.githubusercontent.com/${login}`,
+  }));
+
 const countries: CountrySummary[] = [
   {
     code: "taiwan",
@@ -12,6 +18,7 @@ const countries: CountrySummary[] = [
     flag: "\u{1F1F9}\u{1F1FC}",
     devCount: 450,
     totalContributions: 182000,
+    topContributors: tc(["tw1", "tw2", "tw3"]),
   },
   {
     code: "japan",
@@ -19,6 +26,7 @@ const countries: CountrySummary[] = [
     flag: "\u{1F1EF}\u{1F1F5}",
     devCount: 1200,
     totalContributions: 520000,
+    topContributors: tc(["jp1", "jp2", "jp3"]),
   },
   {
     code: "germany",
@@ -26,6 +34,7 @@ const countries: CountrySummary[] = [
     flag: "\u{1F1E9}\u{1F1EA}",
     devCount: 800,
     totalContributions: 340000,
+    topContributors: tc(["de1", "de2"]),
   },
   {
     code: "brazil",
@@ -33,6 +42,7 @@ const countries: CountrySummary[] = [
     flag: "\u{1F1E7}\u{1F1F7}",
     devCount: 600,
     totalContributions: 240000,
+    topContributors: tc(["br1"]),
   },
   {
     code: "nigeria",
@@ -40,6 +50,7 @@ const countries: CountrySummary[] = [
     flag: "\u{1F1F3}\u{1F1EC}",
     devCount: 350,
     totalContributions: 140000,
+    topContributors: tc(["ng1", "ng2", "ng3"]),
   },
   {
     code: "australia",
@@ -47,6 +58,7 @@ const countries: CountrySummary[] = [
     flag: "\u{1F1E6}\u{1F1FA}",
     devCount: 500,
     totalContributions: 210000,
+    topContributors: [],
   },
 ];
 
@@ -140,5 +152,15 @@ describe("CountryList", () => {
 
     expect(screen.getByText("Japan")).toBeInTheDocument();
     expect(screen.queryByText("Taiwan")).not.toBeInTheDocument();
+  });
+
+  it("renders top contributor avatars on cards", () => {
+    render(CountryList, { countries });
+    const avatars = screen.getAllByTestId("contributor-avatar");
+    expect(avatars.length).toBeGreaterThan(0);
+    expect(avatars[0]).toHaveAttribute(
+      "src",
+      expect.stringContaining("avatars.githubusercontent.com"),
+    );
   });
 });

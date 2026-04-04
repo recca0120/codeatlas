@@ -142,6 +142,26 @@
             </div>
             <span class="text-xs text-text-muted font-data">{fmtNum(c.totalContributions)}</span>
           </div>
+          {#if c.topContributors.length > 0}
+            <div class="flex items-center">
+              {#each c.topContributors as contributor}
+                <img
+                  src={contributor.avatarUrl}
+                  alt={contributor.login}
+                  data-testid="contributor-avatar"
+                  width="24" height="24"
+                  loading="lazy"
+                  class="rounded-full border-2 border-surface -ml-1.5 first:ml-0"
+                />
+              {/each}
+              {#if c.devCount > 3}
+                <span class="w-6 h-6 rounded-full bg-border border-2 border-surface -ml-1.5 flex items-center justify-center text-[9px] font-data font-semibold text-text-muted">
+                  +{c.devCount - c.topContributors.length}
+                </span>
+              {/if}
+              <span class="ml-auto text-[11px] text-text-muted">top contributors</span>
+            </div>
+          {/if}
         </Link>
       {/each}
     </div>
