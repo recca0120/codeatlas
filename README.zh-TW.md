@@ -83,6 +83,29 @@
 |---|---|---|---|
 | 🇦🇺 [Australia](https://recca0120.github.io/codeatlas/australia/) | 🇳🇿 [New Zealand](https://recca0120.github.io/codeatlas/new-zealand/) | | |
 
+## 技術架構
+
+- [Astro](https://astro.build/) — 靜態網站生成
+- [Svelte 5](https://svelte.dev/) — Islands 架構
+- [Tailwind CSS v4](https://tailwindcss.com/) — 樣式
+- [Globe.gl](https://globe.gl/) + [Three.js](https://threejs.org/) — 3D 地球儀視覺化
+- [Zod](https://zod.dev/) — Runtime Schema 驗證
+- [GitHub REST & GraphQL API](https://docs.github.com/en/rest) — 資料來源
+
+## 靈感來源
+
+本專案靈感來自 [gayanvoice/top-github-users](https://github.com/gayanvoice/top-github-users)。CodeAtlas 在其基礎上增加了互動式 3D 地球儀、個人開發者頁面，以及更現代的網頁體驗。
+
+## 資料來源
+
+所有排名資料來自 [GitHub REST API](https://docs.github.com/en/rest) 和 [GitHub GraphQL API](https://docs.github.com/en/graphql)。我們使用 Search API 依地點搜尋使用者，再透過 GraphQL 取得貢獻資料。資料透過 GitHub Actions 每週自動更新。
+
+## 貢獻者
+
+<a href="https://github.com/recca0120/codeatlas/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=recca0120/codeatlas" />
+</a>
+
 ## 開發
 
 請參閱 [DEVELOPMENT.zh-TW.md](DEVELOPMENT.zh-TW.md) 了解設定、環境變數及專案結構。

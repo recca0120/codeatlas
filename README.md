@@ -83,6 +83,29 @@ Global Developer Rankings — tracking the most active GitHub users across **138
 |---|---|---|---|
 | 🇦🇺 [Australia](https://recca0120.github.io/codeatlas/australia/) | 🇳🇿 [New Zealand](https://recca0120.github.io/codeatlas/new-zealand/) | | |
 
+## Built With
+
+- [Astro](https://astro.build/) — Static Site Generation
+- [Svelte 5](https://svelte.dev/) — Islands Architecture
+- [Tailwind CSS v4](https://tailwindcss.com/) — Styling
+- [Globe.gl](https://globe.gl/) + [Three.js](https://threejs.org/) — 3D Globe Visualization
+- [Zod](https://zod.dev/) — Runtime Schema Validation
+- [GitHub REST & GraphQL API](https://docs.github.com/en/rest) — Data Source
+
+## Inspired By
+
+This project is inspired by [gayanvoice/top-github-users](https://github.com/gayanvoice/top-github-users). CodeAtlas extends the concept with an interactive 3D globe, per-developer profile pages, and a modern web experience.
+
+## Data Source
+
+All ranking data is sourced from the [GitHub REST API](https://docs.github.com/en/rest) and [GitHub GraphQL API](https://docs.github.com/en/graphql). We use the Search API to find users by location, then fetch contribution data via GraphQL. Data is refreshed weekly via GitHub Actions.
+
+## Contributors
+
+<a href="https://github.com/recca0120/codeatlas/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=recca0120/codeatlas" />
+</a>
+
 ## Development
 
 See [DEVELOPMENT.md](DEVELOPMENT.md) for setup, configuration, and project structure.
