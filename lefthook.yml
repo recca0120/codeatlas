@@ -8,3 +8,12 @@ pre-commit:
       stage_fixed: true
     typecheck:
       run: pnpm tsc --noEmit
+
+pre-push:
+  commands:
+    summary:
+      run: >
+        pnpm tsx scripts/cli.ts summary &&
+        git diff --quiet public/data/countries-summary.json ||
+        (git add public/data/countries-summary.json &&
+        git commit --no-verify -m "data: update countries-summary.json")
