@@ -71,6 +71,7 @@
 {:else}
   {@const u = user}
   <div class="max-w-3xl mx-auto px-6 sm:px-8 py-12">
+    <Link href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${countryCode}/`, basePath)} class="text-xs font-data text-text-muted hover:text-accent transition-colors">{t("profile.backTo", locale).replace("{name}", countryName)}</Link>
 
     <!-- Profile -->
     <div class="flex flex-col sm:flex-row gap-6 mb-12">
