@@ -130,7 +130,13 @@
         <h2 class="text-xs font-data text-text-muted tracking-widest uppercase mb-3">{t("profile.topRepos", locale)}</h2>
         <div class="border border-border rounded-xl overflow-hidden divide-y divide-border">
           {#each u.topRepos as repo}
-            <div class="flex items-center gap-4 px-5 py-4">
+            <a
+              href={`https://github.com/${u.login}/${repo.name}`}
+              target="_blank"
+              rel="noopener"
+              onclick={() => trackEvent("repo_click", { login: u.login, repo: repo.name })}
+              class="flex items-center gap-4 px-5 py-4 hover:bg-surface-hover transition-colors"
+            >
               <div class="flex-1 min-w-0">
                 <div class="font-display font-semibold">{repo.name}</div>
                 {#if repo.description}<div class="text-sm text-text-secondary mt-0.5">{repo.description}</div>{/if}
@@ -140,7 +146,7 @@
                   style="background:{LC[repo.language]||'#555'}20;color:{LC[repo.language]||'#999'}">{repo.language}</span>
               {/if}
               <span class="font-data text-sm text-gold shrink-0">★ {repo.stars.toLocaleString()}</span>
-            </div>
+            </a>
           {/each}
         </div>
       </div>
