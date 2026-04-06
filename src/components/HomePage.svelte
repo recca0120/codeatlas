@@ -41,7 +41,7 @@
     }
     loading = false;
 
-    initGlobe();
+    initGlobe().catch((e) => console.warn("Globe initialization failed:", e));
   });
 
   onDestroy(() => {
