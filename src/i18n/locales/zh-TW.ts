@@ -47,7 +47,6 @@ export default {
   "ranking.clearFilters": "清除篩選",
   "ranking.clearAll": "清除全部",
   "ranking.of": "/",
-  "ranking.page": "每頁",
   "ranking.developers": "位開發者",
   "ranking.sortBy": "排序",
   "ranking.sortByDevelopers": "開發者數",
@@ -55,6 +54,7 @@ export default {
 
   // Country list
   "countryList.all": "全部",
+  "countryList.topContributors": "頂尖貢獻者",
 
   // Profile page
   "profile.loading": "載入中...",
@@ -74,19 +74,9 @@ export default {
   "profile.ogDescription":
     "{name}在{country}的 GitHub 開發者中排名第 {rank} 名。",
 
-  // Theme
-  "theme.switchToLight": "切換至淺色主題",
-  "theme.switchToDark": "切換至深色主題",
-
   // Share
   "share.copied": "已複製 ✓",
   "share.copyLink": "複製連結",
-
-  // Heatmap
-  "heatmap.label": "貢獻活動熱力圖",
-  "heatmap.less": "少",
-  "heatmap.more": "多",
-  "heatmap.contributions": "次貢獻",
 
   // App router
   "app.pageNotFound": "找不到頁面",
@@ -96,7 +86,6 @@ export default {
   "footer.text": "CodeAtlas · 資料來自 GitHub API · 每週更新 · ",
 
   // FAQ page
-  "faq.title": "常見問題 — CodeAtlas",
   "faq.backHome": "← 首頁",
   "faq.heading": "常見問題",
   "faq.backToCodeAtlas": "← 返回 CODEATLAS",
@@ -135,8 +124,4 @@ export default {
   "faq.q7": "資料來源是什麼？",
   "faq.a7":
     '所有資料來自 <a href="https://docs.github.com/en/rest" target="_blank" rel="noopener" class="text-accent hover:underline">GitHub REST API</a> 和 <a href="https://docs.github.com/en/graphql" target="_blank" rel="noopener" class="text-accent hover:underline">GitHub GraphQL API</a>。我們使用 Search API 依地點搜尋使用者，再透過 GraphQL 取得貢獻資料。',
-
-  // Locale switcher
-  "locale.en": "English",
-  "locale.zh-TW": "中文",
 } satisfies Translations;

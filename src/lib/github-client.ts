@@ -1,14 +1,12 @@
 import { z } from "zod";
 import { shouldExcludeUser } from "./location-filter";
 
-export const TopRepoSchema = z.object({
+const TopRepoSchema = z.object({
   name: z.string(),
   description: z.string().nullable(),
   stars: z.number(),
   language: z.string().nullable(),
 });
-export type TopRepo = z.infer<typeof TopRepoSchema>;
-
 export const GitHubUserSchema = z.object({
   login: z.string(),
   avatarUrl: z.string(),
@@ -26,13 +24,13 @@ export const GitHubUserSchema = z.object({
 });
 export type GitHubUser = z.infer<typeof GitHubUserSchema>;
 
-export const RateLimitInfoSchema = z.object({
+const RateLimitInfoSchema = z.object({
   remaining: z.number(),
   resetAt: z.date(),
 });
 export type RateLimitInfo = z.infer<typeof RateLimitInfoSchema>;
 
-export type ProgressCallback = (current: number, login: string) => void;
+type ProgressCallback = (current: number, login: string) => void;
 
 export interface SearchOptions {
   onProgress?: ProgressCallback;

@@ -94,10 +94,9 @@
     dimension = d; sync();
   }
 
-  const LANG_COLORS: Record<string, string> = {
-    TypeScript:"#3178c6",JavaScript:"#f1e05a",Python:"#3572a5",Go:"#00add8",Rust:"#dea584",
-    Java:"#b07219","C++":"#f34b7d",Ruby:"#701516",PHP:"#4f5d95",Swift:"#f05138",Kotlin:"#a97bff",Dart:"#00b4ab",
-  };
+  import { LANG_COLORS } from "../lib/language-colors";
+
+  const MAX_LANG_CHIPS = 12;
 </script>
 
 <!-- RankingDimension tabs -->
@@ -135,7 +134,7 @@
 
 <!-- Language chips -->
 <div class="flex flex-wrap gap-1.5 mb-3">
-  {#each allLangs.slice(0, 12) as lang}
+  {#each allLangs.slice(0, MAX_LANG_CHIPS) as lang}
     <button
       class="px-2 py-1 text-xs font-data rounded transition-all cursor-pointer
         {langFilter.includes(lang) ? 'ring-1 ring-accent text-accent bg-accent/10' : 'text-text-secondary bg-surface border border-border'}"

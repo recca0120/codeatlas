@@ -12,7 +12,7 @@ import {
   saveCheckpoint,
 } from "../src/lib/cli-utils";
 import { loadAllCountryConfigs } from "../src/lib/country-config";
-import { buildCountryData, rebuildCountryData } from "../src/lib/data-output";
+import { buildCountryData, CountryDataSchema } from "../src/lib/data-output";
 import { searchUsersByLocation } from "../src/lib/github-client";
 import { createOctokitClient } from "../src/lib/octokit-github-client";
 
@@ -106,7 +106,7 @@ addSharedOptions(
         const outputPath = buildOutputPath(config.code);
         try {
           const raw = JSON.parse(await fs.readFile(outputPath, "utf8"));
-          const data = rebuildCountryData(raw);
+          const data = CountryDataSchema.parse(raw);
           await writeCountryData(config.code, data);
           console.log(`  ✓ ${config.flag} ${config.name}`);
         } catch {

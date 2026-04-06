@@ -2,11 +2,12 @@
   import { buildUrl } from "../lib/url";
   import { t } from "../i18n";
   import { trackEvent } from "../lib/analytics";
+  import { buildCountryUrl } from "../lib/locale-url";
   import {
     CONTINENTS,
     CONTINENT_MAP,
     groupByContinent,
-    filterCountries,
+    filterCountriesByQuery,
     sortCountries,
     calcHeat,
     type CountrySummary,
@@ -14,6 +15,7 @@
   } from "../lib/country-list";
   import SearchIcon from "./icons/SearchIcon.svelte";
   import Link from "./Link.svelte";
+  import { fmtNum } from "../lib/format";
 
   let { countries, basePath = "/", locale = "en" }: { countries: CountrySummary[]; basePath?: string; locale?: string } = $props();
 
@@ -26,7 +28,7 @@
 
   const visibleCountries = $derived.by(() => {
     let list = activeTab === "All" ? countries : (byContinent[activeTab] ?? []);
-    list = filterCountries(list, searchQuery);
+    list = filterCountriesByQuery(list, searchQuery);
     return sortCountries(list, sortKey);
   });
 
@@ -39,18 +41,8 @@
 
   const visibleByContinent = $derived.by(() => {
     if (activeTab !== "All") return null;
-    const grouped: Record<string, CountrySummary[]> = {};
-    for (const c of visibleCountries) {
-      const cont = CONTINENT_MAP[c.code] || "Other";
-      if (!grouped[cont]) grouped[cont] = [];
-      grouped[cont].push(c);
-    }
-    return grouped;
+    return groupByContinent(visibleCountries);
   });
-
-  function fmtNum(n: number) {
-    return n >= 1e6 ? (n / 1e6).toFixed(1) + "M" : n >= 1e3 ? (n / 1e3).toFixed(0) + "K" : String(n);
-  }
 
   function switchTab(tab: string) {
     activeTab = tab;
@@ -118,7 +110,7 @@
       {#each items as c (c.code)}
         {@const heat = calcHeat(c.devCount, maxDevs)}
         <Link
-          href={buildUrl(`${locale === "zh-TW" ? "zh-TW/" : ""}${c.code}/`, basePath)}
+          href={buildCountryUrl(c.code, locale, basePath)}
           onclick={() => trackEvent("country_card_click", { country: c.name, code: c.code })}
           data-testid="country-card"
           class="group relative flex flex-col gap-3 px-4 py-4 rounded-xl border border-border
@@ -159,7 +151,7 @@
                   +{c.devCount - c.topContributors.length}
                 </span>
               {/if}
-              <span class="ml-auto text-[11px] text-text-muted">top contributors</span>
+              <span class="ml-auto text-[11px] text-text-muted">{t("countryList.topContributors", locale)}</span>
             </div>
           {/if}
         </Link>

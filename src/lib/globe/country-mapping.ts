@@ -139,10 +139,6 @@ export const ISO_TO_COUNTRY: Record<string, string> = {
   ZW: "zimbabwe",
 };
 
-export const COUNTRY_TO_ISO: Record<string, string> = Object.fromEntries(
-  Object.entries(ISO_TO_COUNTRY).map(([iso, code]) => [code, iso]),
-);
-
 export function getIsoCode(properties: Record<string, string>): string {
   const iso = properties.ISO_A2;
   if (iso && iso !== "-99" && !iso.includes("-")) return iso;

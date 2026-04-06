@@ -3,6 +3,7 @@
   import { t } from "../i18n";
   import SearchIcon from "./icons/SearchIcon.svelte";
   import { trackEvent } from "../lib/analytics";
+  import { buildCountryUrl } from "../lib/locale-url";
   import type { CountryInfo } from "../lib/data-output";
 
   let { countries, basePath = "/", locale = "en" }: { countries: CountryInfo[]; basePath?: string; locale?: string } = $props();
@@ -40,7 +41,7 @@
     <div class="absolute z-50 top-full mt-1 left-0 right-0 bg-surface border border-border rounded-lg shadow-2xl overflow-hidden">
       {#each filtered as country}
         <a
-          href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${country.code}/`, basePath)}
+          href={buildCountryUrl(country.code, locale, basePath)}
           onclick={() => trackEvent("country_search_click", { country: country.name, code: country.code })}
           class="flex items-center gap-3 px-4 py-2.5 hover:bg-surface-hover transition-colors text-sm"
         >

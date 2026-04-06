@@ -1,13 +1,14 @@
 <script lang="ts">
   import { buildUrl } from "../lib/url";
   import { t } from "../i18n";
+  import { buildLocalePrefix } from "../lib/locale-url";
   import Link from "./Link.svelte";
 
   let { basePath = "/", locale = "en" }: { basePath?: string; locale?: string } = $props();
 </script>
 
 <main class="max-w-3xl mx-auto px-4 sm:px-6 py-12">
-  <Link href={buildUrl(locale === "zh-TW" ? "zh-TW/" : "", basePath)} class="text-xs font-data text-text-muted hover:text-accent transition-colors">{t("faq.backHome", locale)}</Link>
+  <Link href={buildUrl(buildLocalePrefix(locale), basePath)} class="text-xs font-data text-text-muted hover:text-accent transition-colors">{t("faq.backHome", locale)}</Link>
 
   <h1 class="text-3xl font-display font-bold mt-6 mb-8">{t("faq.heading", locale)}</h1>
 
@@ -60,6 +61,6 @@
   </div>
 
   <div class="mt-12 pt-8 border-t border-border text-xs font-data text-text-muted">
-    <Link href={buildUrl(locale === "zh-TW" ? "zh-TW/" : "", basePath)} class="hover:text-accent transition-colors">{t("faq.backToCodeAtlas", locale)}</Link>
+    <Link href={buildUrl(buildLocalePrefix(locale), basePath)} class="hover:text-accent transition-colors">{t("faq.backToCodeAtlas", locale)}</Link>
   </div>
 </main>

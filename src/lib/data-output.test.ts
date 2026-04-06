@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import {
   buildCountryData,
   buildCountrySummary,
-  rebuildCountryData,
+  CountryDataSchema,
 } from "./data-output";
 import { createMockUser } from "./test-utils";
 
@@ -26,7 +26,7 @@ describe("buildCountryData", () => {
   });
 });
 
-describe("rebuildCountryData", () => {
+describe("CountryDataSchema.parse", () => {
   it("strips rankings from legacy data", () => {
     const legacy = {
       countryCode: "taiwan",
@@ -38,7 +38,7 @@ describe("rebuildCountryData", () => {
         followers: [...users].reverse(),
       },
     };
-    const result = rebuildCountryData(legacy);
+    const result = CountryDataSchema.parse(legacy);
     expect(result).not.toHaveProperty("rankings");
     expect(result.countryCode).toBe("taiwan");
     expect(result.users).toHaveLength(2);
@@ -47,7 +47,7 @@ describe("rebuildCountryData", () => {
 
   it("preserves data that is already clean", () => {
     const clean = buildCountryData("japan", users);
-    const result = rebuildCountryData(clean);
+    const result = CountryDataSchema.parse(clean);
     expect(result).not.toHaveProperty("rankings");
     expect(result.users).toHaveLength(2);
   });

@@ -1,14 +1,6 @@
-import { z } from "zod";
-import { CountryInfoSchema } from "./data-output";
+import type { CountrySummary } from "./data-output";
 
-export const CountrySummarySchema = CountryInfoSchema.extend({
-  devCount: z.number(),
-  totalContributions: z.number(),
-  topContributors: z.array(
-    z.object({ login: z.string(), avatarUrl: z.string() }),
-  ),
-});
-export type CountrySummary = z.infer<typeof CountrySummarySchema>;
+export { type CountrySummary, CountrySummarySchema } from "./data-output";
 
 export type SortKey = "devs" | "name";
 
@@ -19,8 +11,6 @@ export const CONTINENTS = [
   "Africa",
   "Oceania",
 ] as const;
-export type Continent = (typeof CONTINENTS)[number];
-
 export const CONTINENT_MAP: Record<string, string> = {
   afghanistan: "Asia",
   albania: "Europe",
@@ -170,7 +160,7 @@ export function groupByContinent(
   return grouped;
 }
 
-export function filterCountries(
+export function filterCountriesByQuery(
   countries: CountrySummary[],
   query: string,
 ): CountrySummary[] {

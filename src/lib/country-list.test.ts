@@ -3,7 +3,7 @@ import {
   CONTINENT_MAP,
   type CountrySummary,
   calcHeat,
-  filterCountries,
+  filterCountriesByQuery,
   groupByContinent,
   sortCountries,
 } from "./country-list";
@@ -66,7 +66,7 @@ describe("groupByContinent", () => {
   });
 });
 
-describe("filterCountries", () => {
+describe("filterCountriesByQuery", () => {
   const countries = [
     makeSummary({ code: "taiwan", name: "Taiwan" }),
     makeSummary({ code: "japan", name: "Japan" }),
@@ -74,20 +74,20 @@ describe("filterCountries", () => {
   ];
 
   it("returns all when query is empty", () => {
-    expect(filterCountries(countries, "")).toHaveLength(3);
+    expect(filterCountriesByQuery(countries, "")).toHaveLength(3);
   });
 
   it("filters by name case-insensitively", () => {
-    expect(filterCountries(countries, "tai")).toHaveLength(1);
-    expect(filterCountries(countries, "TAI")).toHaveLength(1);
+    expect(filterCountriesByQuery(countries, "tai")).toHaveLength(1);
+    expect(filterCountriesByQuery(countries, "TAI")).toHaveLength(1);
   });
 
   it("filters by code", () => {
-    expect(filterCountries(countries, "japan")).toHaveLength(1);
+    expect(filterCountriesByQuery(countries, "japan")).toHaveLength(1);
   });
 
   it("returns empty when no match", () => {
-    expect(filterCountries(countries, "xyz")).toHaveLength(0);
+    expect(filterCountriesByQuery(countries, "xyz")).toHaveLength(0);
   });
 });
 

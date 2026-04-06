@@ -1,17 +1,13 @@
 import fs from "node:fs/promises";
 import { z } from "zod";
 
-export const CountryConfigSchema = z.object({
+const CountryConfigSchema = z.object({
   code: z.string().min(1),
   name: z.string().min(1),
   flag: z.string().min(1),
   locations: z.array(z.string()).min(1),
 });
 export type CountryConfig = z.infer<typeof CountryConfigSchema>;
-
-export function validateCountryConfig(data: unknown): CountryConfig {
-  return CountryConfigSchema.parse(data);
-}
 
 /**
  * Load all country configs from a single JSON file (array of configs).
@@ -26,5 +22,5 @@ export async function loadAllCountryConfigs(
     throw new Error("Expected an array of country configs");
   }
 
-  return data.map(validateCountryConfig);
+  return data.map((d: unknown) => CountryConfigSchema.parse(d));
 }

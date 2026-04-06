@@ -1,27 +1,15 @@
 import fs from "node:fs/promises";
 import type { CountryConfig } from "./country-config";
-import type { CountrySummary } from "./country-list";
 import {
   buildCountrySummary,
   CountryDataSchema,
   type CountryInfo,
+  type CountrySummary,
 } from "./data-output";
 import type { GitHubUser } from "./github-client";
+import { LANG_COLORS } from "./language-colors";
 
-const LANGS = [
-  "TypeScript",
-  "JavaScript",
-  "Python",
-  "Go",
-  "Rust",
-  "Java",
-  "C++",
-  "Ruby",
-  "PHP",
-  "Swift",
-  "Kotlin",
-  "Dart",
-];
+const LANGS = Object.keys(LANG_COLORS);
 const COMPANIES = [
   "Google",
   "Microsoft",

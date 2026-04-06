@@ -1,51 +1,5 @@
 import { describe, expect, it } from "vitest";
-import {
-  type CountryConfig,
-  loadAllCountryConfigs,
-  validateCountryConfig,
-} from "./country-config";
-
-describe("validateCountryConfig", () => {
-  it("accepts a valid config", () => {
-    const config: CountryConfig = {
-      code: "taiwan",
-      name: "Taiwan",
-      flag: "🇹🇼",
-      locations: ["Taiwan", "Taipei"],
-    };
-    expect(validateCountryConfig(config)).toEqual(config);
-  });
-
-  it("throws when code is missing", () => {
-    const config = { name: "Taiwan", flag: "🇹🇼", locations: ["Taiwan"] };
-    expect(() => validateCountryConfig(config)).toThrow("code");
-  });
-
-  it("throws when name is missing", () => {
-    const config = { code: "taiwan", flag: "🇹🇼", locations: ["Taiwan"] };
-    expect(() => validateCountryConfig(config)).toThrow("name");
-  });
-
-  it("throws when locations is empty", () => {
-    const config = {
-      code: "taiwan",
-      name: "Taiwan",
-      flag: "🇹🇼",
-      locations: [],
-    };
-    expect(() => validateCountryConfig(config)).toThrow("locations");
-  });
-
-  it("throws when locations is not an array", () => {
-    const config = {
-      code: "taiwan",
-      name: "Taiwan",
-      flag: "🇹🇼",
-      locations: "Taiwan",
-    };
-    expect(() => validateCountryConfig(config)).toThrow("locations");
-  });
-});
+import { type CountryConfig, loadAllCountryConfigs } from "./country-config";
 
 describe("loadAllCountryConfigs", () => {
   it("loads all configs from countries.json", async () => {
@@ -53,6 +7,16 @@ describe("loadAllCountryConfigs", () => {
     expect(configs.length).toBeGreaterThanOrEqual(2);
     expect(configs.map((c) => c.code)).toContain("taiwan");
     expect(configs.map((c) => c.code)).toContain("japan");
+  });
+
+  it("validates each config has required fields", async () => {
+    const configs = await loadAllCountryConfigs("public/data/countries.json");
+    for (const config of configs) {
+      expect(config.code).toBeDefined();
+      expect(config.name).toBeDefined();
+      expect(config.flag).toBeDefined();
+      expect(config.locations.length).toBeGreaterThanOrEqual(1);
+    }
   });
 
   it("throws for non-existent file", async () => {

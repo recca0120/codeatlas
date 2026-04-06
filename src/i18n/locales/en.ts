@@ -45,7 +45,6 @@ const en = {
   "ranking.clearFilters": "Clear filters",
   "ranking.clearAll": "Clear all",
   "ranking.of": "of",
-  "ranking.page": "page",
   "ranking.developers": "developers",
   "ranking.sortBy": "Sort by",
   "ranking.sortByDevelopers": "Developers",
@@ -53,6 +52,7 @@ const en = {
 
   // Country list
   "countryList.all": "All",
+  "countryList.topContributors": "top contributors",
 
   // Profile page
   "profile.loading": "Loading...",
@@ -72,19 +72,9 @@ const en = {
   "profile.ogDescription":
     "{name} is ranked #{rank} among GitHub developers in {country}.",
 
-  // Theme
-  "theme.switchToLight": "Switch to light theme",
-  "theme.switchToDark": "Switch to dark theme",
-
   // Share
   "share.copied": "COPIED ✓",
   "share.copyLink": "COPY LINK",
-
-  // Heatmap
-  "heatmap.label": "Contribution activity heatmap",
-  "heatmap.less": "Less",
-  "heatmap.more": "More",
-  "heatmap.contributions": "contributions",
 
   // App router
   "app.pageNotFound": "Page not found",
@@ -94,7 +84,6 @@ const en = {
   "footer.text": "CodeAtlas · Data from GitHub API · Updated weekly · ",
 
   // FAQ page
-  "faq.title": "FAQ — CodeAtlas",
   "faq.backHome": "← HOME",
   "faq.heading": "Frequently Asked Questions",
   "faq.backToCodeAtlas": "← BACK TO CODEATLAS",
@@ -136,10 +125,6 @@ const en = {
   "faq.q7": "What is the data source?",
   "faq.a7":
     'All data comes from the <a href="https://docs.github.com/en/rest" target="_blank" rel="noopener" class="text-accent hover:underline">GitHub REST API</a> and <a href="https://docs.github.com/en/graphql" target="_blank" rel="noopener" class="text-accent hover:underline">GitHub GraphQL API</a>. We use the Search API to find users by location, then fetch their contribution data via GraphQL.',
-
-  // Locale switcher
-  "locale.en": "English",
-  "locale.zh-TW": "中文",
 } as const;
 
 export default en;

@@ -8,16 +8,21 @@ export const CountryInfoSchema = z.object({
 });
 export type CountryInfo = z.infer<typeof CountryInfoSchema>;
 
+export const CountrySummarySchema = CountryInfoSchema.extend({
+  devCount: z.number(),
+  totalContributions: z.number(),
+  topContributors: z.array(
+    z.object({ login: z.string(), avatarUrl: z.string() }),
+  ),
+});
+export type CountrySummary = z.infer<typeof CountrySummarySchema>;
+
 export const CountryDataSchema = z.object({
   countryCode: z.string(),
   updatedAt: z.string(),
   users: z.array(GitHubUserSchema),
 });
 export type CountryData = z.infer<typeof CountryDataSchema>;
-
-export function rebuildCountryData(raw: unknown): CountryData {
-  return CountryDataSchema.parse(raw);
-}
 
 export function buildCountryData(
   countryCode: string,
@@ -30,16 +35,10 @@ export function buildCountryData(
   };
 }
 
-// Return type is structurally identical to CountrySummary (from country-list.ts).
-// We use an inline type here to avoid a circular dependency.
 export function buildCountrySummary(
   config: CountryInfo,
   data: CountryData,
-): CountryInfo & {
-  devCount: number;
-  totalContributions: number;
-  topContributors: { login: string; avatarUrl: string }[];
-} {
+): CountrySummary {
   const sorted = [...data.users].sort(
     (a, b) => b.publicContributions - a.publicContributions,
   );

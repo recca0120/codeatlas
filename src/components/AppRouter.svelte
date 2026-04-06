@@ -5,8 +5,9 @@
   import CountryPage from "./CountryPage.svelte";
   import ProfilePage from "./ProfilePage.svelte";
   import { buildUrl } from "../lib/url";
-  import { getCurrentPath, navigate } from "../lib/router";
+  import { getCurrentPath, navigate, isModifiedClick } from "../lib/router";
   import { t } from "../i18n";
+  import { buildLocalePrefix } from "../lib/locale-url";
   import { trackEvent } from "../lib/analytics";
 
   let { basePath = "/", locale = "en" }: { basePath?: string; locale?: string } = $props();
@@ -21,7 +22,7 @@
     if (route) {
       // Clean up URL from 404 redirect, preserving original query params
       let path = route.replace(/^\/|\/$/g, "");
-      const localePrefix = locale !== "en" ? locale + "/" : "";
+      const localePrefix = buildLocalePrefix(locale);
       const cleanUrl = buildUrl(localePrefix + path + "/", basePath);
       // Rebuild query string without the 'route' param
       params.delete("route");
@@ -39,7 +40,7 @@
 
   function onLinkClick(e: MouseEvent) {
     if (e.defaultPrevented) return;
-    if (e.ctrlKey || e.metaKey || e.shiftKey || e.altKey || e.button !== 0) return;
+    if (isModifiedClick(e)) return;
     const anchor = (e.target as HTMLElement).closest("a[href]") as HTMLAnchorElement | null;
     if (!anchor || anchor.target === "_blank" || anchor.hasAttribute("download")) return;
     if (anchor.origin !== window.location.origin) return;

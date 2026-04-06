@@ -9,10 +9,11 @@
   import CountryList from "./CountryList.svelte";
   import Link from "./Link.svelte";
   import { trackEvent } from "../lib/analytics";
+  import { buildCountryUrl } from "../lib/locale-url";
   import { CountryInfoSchema, type CountryInfo } from "../lib/data-output";
   import { CountrySummarySchema, type CountrySummary } from "../lib/country-list";
   import { z } from "zod";
-  import { toast } from "../lib/toast";
+  import { toastZodError } from "../lib/toast";
 
   let { basePath = "/", locale = "en" }: { basePath?: string; locale?: string } = $props();
 
@@ -36,9 +37,7 @@
       countrySummaries = z.array(CountrySummarySchema).parse(rawSummary);
     } catch (e) {
       console.error("Failed to load homepage data:", e);
-      if (e instanceof z.ZodError) {
-        toast(`Data validation error: ${e.issues.map(i => i.message).join(", ")}`, "error");
-      }
+      toastZodError(e);
     }
     loading = false;
 
@@ -53,89 +52,110 @@
     }
   });
 
-  function initGlobe() {
+  const GLOBE_ASSETS = {
+    image: "//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg",
+    bump: "//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png",
+    water: "//cdn.jsdelivr.net/npm/three-globe/example/img/earth-water.png",
+  };
+
+  function getPolygonColor(iso: string, configuredCodes: Set<string>) {
+    const s = getCountrySlug(iso);
+    return s && configuredCodes.has(s) ? "rgba(99,102,241,0.35)" : "rgba(63,63,70,0.3)";
+  }
+
+  function setupGlobeMaterial(w: any, THREE: any) {
+    const mat = w.globeMaterial() as any;
+    if (!mat) return;
+    mat.bumpScale = 10;
+    new THREE.TextureLoader().load(GLOBE_ASSETS.water, (texture: any) => {
+      mat.specularMap = texture;
+      mat.specular = new THREE.Color("grey");
+      mat.shininess = 15;
+    });
+  }
+
+  function setupGlobeControls(w: any) {
+    const dirLight = w.lights().find((l: any) => l.type === "DirectionalLight") as any;
+    if (dirLight) dirLight.position.set(1, 1, 1);
+    const c = w.controls() as any;
+    c.autoRotate = true;
+    c.autoRotateSpeed = 0.8;
+    c.enableZoom = false;
+    c.minDistance = 220;
+    c.maxDistance = 350;
+  }
+
+  function setupResizeHandler(w: any, el: HTMLDivElement) {
+    resizeHandler = () => {
+      const cw = el.clientWidth;
+      const ch = el.clientHeight;
+      const isLg = window.matchMedia("(min-width: 1024px)").matches;
+      if (isLg && ch > cw) {
+        const size = Math.min(cw, ch);
+        w.width(size).height(size);
+        el.style.display = "flex";
+        el.style.alignItems = "center";
+        el.style.justifyContent = "center";
+      } else {
+        w.width(cw).height(ch);
+        el.style.display = "";
+        el.style.alignItems = "";
+        el.style.justifyContent = "";
+      }
+    };
+    window.addEventListener("resize", resizeHandler);
+    resizeHandler();
+  }
+
+  function setupPolygons(w: any, el: HTMLDivElement, geojson: any, configuredCodes: Set<string>) {
+    w.polygonsData(geojson.features.filter((f: any) => getIsoCode(f.properties) !== "AQ"))
+      .polygonAltitude((d: any) => isConfiguredCountry(getIsoCode(d.properties)) ? 0.006 : 0.001)
+      .polygonCapColor((d: any) => getPolygonColor(getIsoCode(d.properties), configuredCodes))
+      .polygonSideColor(() => "rgba(99,102,241,0.01)")
+      .polygonStrokeColor(() => "rgba(99,102,241,0.04)")
+      .polygonLabel((d: any) => {
+        if (!isConfiguredCountry(getIsoCode(d.properties))) return "";
+        return `<div style="background:rgba(9,9,11,.96);color:#fafafa;padding:10px 14px;border-radius:8px;font:14px Inter;border:1px solid rgba(63,63,70,.6)"><strong>${d.properties.NAME}</strong><br><span style="color:#a1a1aa;font-size:12px">${t("globe.clickToExplore", locale)}</span></div>`;
+      })
+      .onPolygonClick((d: any) => {
+        const s = getCountrySlug(getIsoCode(d.properties));
+        if (s) {
+          trackEvent("globe_country_click", { country: d.properties.NAME, code: s });
+          navigate(buildCountryUrl(s, locale, basePath));
+        }
+      })
+      .onPolygonHover((d: any) => {
+        el.style.cursor = d && isConfiguredCountry(getIsoCode(d.properties)) ? "pointer" : "default";
+        w.polygonAltitude((f: any) => f === d && isConfiguredCountry(getIsoCode(f.properties)) ? 0.03 : isConfiguredCountry(getIsoCode(f.properties)) ? 0.006 : 0.001)
+         .polygonCapColor((f: any) => f === d && isConfiguredCountry(getIsoCode(f.properties)) ? "rgba(129,140,248,0.85)" : getPolygonColor(getIsoCode(f.properties), configuredCodes));
+      });
+    el.style.opacity = "1";
+  }
+
+  async function initGlobe() {
     if (!globeContainer) return;
     const el = globeContainer;
     const configuredCodes = new Set(countries.map(c => c.code));
 
-    function hc(iso: string) {
-      const s = getCountrySlug(iso);
-      if (!s || !configuredCodes.has(s)) return "rgba(63,63,70,0.3)";
-      return "rgba(99,102,241,0.35)";
-    }
+    const { default: Globe } = await import("globe.gl");
+    const THREE = await import("three");
 
-    import("globe.gl").then(({ default: Globe }) => {
-      import("three").then((THREE) => {
-        const w = new Globe(el, { rendererConfig: { antialias: true, alpha: true }, animateIn: true })
-          .backgroundColor("rgba(0,0,0,0)")
-          .showAtmosphere(true).atmosphereColor("cyan").atmosphereAltitude(0.15)
-          .globeImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg")
-          .bumpImageUrl("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png");
-        globeInstance = w;
+    const w = new Globe(el, { rendererConfig: { antialias: true, alpha: true }, animateIn: true })
+      .backgroundColor("rgba(0,0,0,0)")
+      .showAtmosphere(true).atmosphereColor("cyan").atmosphereAltitude(0.15)
+      .globeImageUrl(GLOBE_ASSETS.image)
+      .bumpImageUrl(GLOBE_ASSETS.bump);
+    globeInstance = w;
 
-        const mat = w.globeMaterial() as any;
-        if (mat) {
-          mat.bumpScale = 10;
-          new THREE.TextureLoader().load("//cdn.jsdelivr.net/npm/three-globe/example/img/earth-water.png", (texture: any) => {
-            mat.specularMap = texture; mat.specular = new THREE.Color("grey"); mat.shininess = 15;
-          });
-        }
-        const dirLight = w.lights().find((l: any) => l.type === "DirectionalLight") as any;
-        if (dirLight) dirLight.position.set(1, 1, 1);
-        const c = w.controls() as any;
-        c.autoRotate = true; c.autoRotateSpeed = 0.8; c.enableZoom = false;
-        c.minDistance = 220; c.maxDistance = 350;
+    setupGlobeMaterial(w, THREE);
+    setupGlobeControls(w);
+    setupResizeHandler(w, el);
 
-        resizeHandler = () => {
-          const cw = el.clientWidth;
-          const ch = el.clientHeight;
-          const isLg = window.matchMedia("(min-width: 1024px)").matches;
-          if (isLg && ch > cw) {
-            const size = Math.min(cw, ch);
-            w.width(size).height(size);
-            el.style.display = "flex";
-            el.style.alignItems = "center";
-            el.style.justifyContent = "center";
-          } else {
-            w.width(cw).height(ch);
-            el.style.display = "";
-            el.style.alignItems = "";
-            el.style.justifyContent = "";
-          }
-        };
-        window.addEventListener("resize", resizeHandler);
-        resizeHandler();
+    const http = createHttpClient(basePath);
+    const geojson = await http.get("data/countries.geojson").json();
+    setupPolygons(w, el, geojson, configuredCodes);
 
-        const http = createHttpClient(basePath);
-        http.get("data/countries.geojson").json().then((g: any) => {
-          w.polygonsData(g.features.filter((f: any) => getIsoCode(f.properties) !== "AQ"))
-            .polygonAltitude((d: any) => isConfiguredCountry(getIsoCode(d.properties)) ? 0.006 : 0.001)
-            .polygonCapColor((d: any) => hc(getIsoCode(d.properties)))
-            .polygonSideColor(() => "rgba(99,102,241,0.01)")
-            .polygonStrokeColor(() => "rgba(99,102,241,0.04)")
-            .polygonLabel((d: any) => {
-              if (!isConfiguredCountry(getIsoCode(d.properties))) return "";
-              return `<div style="background:rgba(9,9,11,.96);color:#fafafa;padding:10px 14px;border-radius:8px;font:14px Inter;border:1px solid rgba(63,63,70,.6)"><strong>${d.properties.NAME}</strong><br><span style="color:#a1a1aa;font-size:12px">${t("globe.clickToExplore", locale)}</span></div>`;
-            })
-            .onPolygonClick((d: any) => {
-              const s = getCountrySlug(getIsoCode(d.properties));
-              if (s) {
-                trackEvent("globe_country_click", { country: d.properties.NAME, code: s });
-                const localePrefix = locale !== "en" ? locale + "/" : "";
-                navigate(buildUrl(`${localePrefix}${s}/`, basePath));
-              }
-            })
-            .onPolygonHover((d: any) => {
-              el.style.cursor = d && isConfiguredCountry(getIsoCode(d.properties)) ? "pointer" : "default";
-              w.polygonAltitude((f: any) => f === d && isConfiguredCountry(getIsoCode(f.properties)) ? 0.03 : isConfiguredCountry(getIsoCode(f.properties)) ? 0.006 : 0.001)
-               .polygonCapColor((f: any) => f === d && isConfiguredCountry(getIsoCode(f.properties)) ? "rgba(129,140,248,0.85)" : hc(getIsoCode(f.properties)));
-            });
-          el.style.opacity = "1";
-        });
-
-        new IntersectionObserver(([e]) => { e.isIntersecting ? w.resumeAnimation() : w.pauseAnimation(); }, { threshold: 0.1 }).observe(el);
-      });
-    });
+    new IntersectionObserver(([e]) => { e.isIntersecting ? w.resumeAnimation() : w.pauseAnimation(); }, { threshold: 0.1 }).observe(el);
   }
 </script>
 

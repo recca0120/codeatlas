@@ -21,19 +21,16 @@
     trackEvent("share_click", { platform: "copy_link", url });
     try {
       await navigator.clipboard.writeText(url);
-      copied = true;
-      setTimeout(() => copied = false, 2000);
     } catch {
-      // fallback
       const input = document.createElement("input");
       input.value = url;
       document.body.appendChild(input);
       input.select();
       document.execCommand("copy");
       document.body.removeChild(input);
-      copied = true;
-      setTimeout(() => copied = false, 2000);
     }
+    copied = true;
+    setTimeout(() => copied = false, 2000);
   }
 </script>
 

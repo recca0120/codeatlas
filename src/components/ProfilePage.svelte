@@ -1,17 +1,17 @@
 <script lang="ts">
-  import { createHttpClient } from "../lib/http";
+  import { onMount } from "svelte";
   import { buildUrl } from "../lib/url";
   import { t } from "../i18n";
   import type { GitHubUser } from "../lib/github-client";
-  import { CountryInfoSchema, CountryDataSchema } from "../lib/data-output";
-  import { z } from "zod";
-  import { toast } from "../lib/toast";
+  import { loadCountryData } from "../lib/data-loader";
+  import { toastZodError } from "../lib/toast";
   import { rankUsers } from "../lib/ranking";
   import LanguageBar from "./LanguageBar.svelte";
   import { updateMeta } from "../lib/seo";
   import ShareButtons from "./ShareButtons.svelte";
   import Link from "./Link.svelte";
   import { trackEvent } from "../lib/analytics";
+  import { buildCountryUrl } from "../lib/locale-url";
 
   let { countryCode, userName, basePath = "/", locale = "en" }: { countryCode: string; userName: string; basePath?: string; locale?: string } = $props();
 
@@ -22,23 +22,18 @@
   let countryName = $state(countryCode);
   let countryFlag = $state("");
 
-  const LC: Record<string, string> = {
-    TypeScript:"#3178c6",JavaScript:"#f1e05a",Python:"#3572a5",Go:"#00add8",Rust:"#dea584",
-    Java:"#b07219","C++":"#f34b7d",Ruby:"#701516",PHP:"#4f5d95",Swift:"#f05138",Kotlin:"#a97bff",Dart:"#00b4ab"
-  };
+  import { LANG_COLORS as LC } from "../lib/language-colors";
 
-  $effect(() => { loadData(); });
+  onMount(() => { loadData(); });
 
   async function loadData() {
     loading = true;
     error = "";
     try {
-      const http = createHttpClient(basePath);
-      const allCountries = z.array(CountryInfoSchema).parse(await http.get("data/countries.json").json());
-      const config = allCountries.find(c => c.code === countryCode);
-      if (config) { countryName = config.name; countryFlag = config.flag || ""; }
-
-      const data = CountryDataSchema.parse(await http.get(`data/${countryCode}.json`).json());
+      const result = await loadCountryData(countryCode, basePath);
+      countryName = result.countryName;
+      countryFlag = result.countryFlag;
+      const data = result.countryData;
       const ranked = rankUsers(data.users, "public_contributions");
       const idx = ranked.findIndex(u => u.login === userName);
       if (idx === -1) { error = t("profile.userNotFound", locale).replace("{name}", userName).replace("{country}", countryName); loading = false; return; }
@@ -52,9 +47,7 @@
     } catch (e) {
       console.error(`Failed to load profile for ${userName}:`, e);
       error = t("profile.loadError", locale).replace("{name}", userName);
-      if (e instanceof z.ZodError) {
-        toast(`Data validation error: ${e.issues.map(i => i.message).join(", ")}`, "error");
-      }
+      toastZodError(e);
     }
     loading = false;
   }
@@ -66,12 +59,12 @@
   <div class="max-w-3xl mx-auto px-6 py-20 text-center">
     <h1 class="text-2xl font-display font-bold mb-4">{t("profile.notFound", locale)}</h1>
     <p class="text-text-secondary">{error}</p>
-    <Link href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${countryCode}/`, basePath)} class="text-accent hover:underline mt-4 inline-block">{t("profile.backTo", locale).replace("{name}", countryName)}</Link>
+    <Link href={buildCountryUrl(countryCode, locale, basePath)} class="text-accent hover:underline mt-4 inline-block">{t("profile.backTo", locale).replace("{name}", countryName)}</Link>
   </div>
 {:else}
   {@const u = user}
   <div class="max-w-3xl mx-auto px-6 sm:px-8 py-12">
-    <Link href={buildUrl(`${locale !== "en" ? locale + "/" : ""}${countryCode}/`, basePath)} class="text-xs font-data text-text-muted hover:text-accent transition-colors">{t("profile.backTo", locale).replace("{name}", countryName)}</Link>
+    <Link href={buildCountryUrl(countryCode, locale, basePath)} class="text-xs font-data text-text-muted hover:text-accent transition-colors">{t("profile.backTo", locale).replace("{name}", countryName)}</Link>
 
     <!-- Profile -->
     <div class="flex flex-col sm:flex-row gap-6 mb-12">

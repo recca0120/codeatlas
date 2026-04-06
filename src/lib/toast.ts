@@ -1,3 +1,5 @@
+import { z } from "zod";
+
 let container: HTMLDivElement | null = null;
 
 function getContainer(): HTMLDivElement {
@@ -37,4 +39,13 @@ export function toast(
     el.style.transition = "opacity .3s";
     setTimeout(() => el.remove(), 300);
   }, duration);
+}
+
+export function toastZodError(e: unknown): void {
+  if (e instanceof z.ZodError) {
+    toast(
+      `Data validation error: ${e.issues.map((i) => i.message).join(", ")}`,
+      "error",
+    );
+  }
 }
