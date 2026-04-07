@@ -52,7 +52,8 @@ const en = {
 
   // Country list
   "countryList.all": "All",
-  "countryList.developers": "devs",
+  "countryList.developers": "Developers",
+  "countryList.contributions": "Contributions",
   "countryList.topContributors": "top contributors",
 
   // Profile page

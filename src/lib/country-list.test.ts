@@ -3,6 +3,7 @@ import {
   CONTINENT_MAP,
   type CountrySummary,
   calcHeat,
+  calcRank,
   filterCountriesByQuery,
   groupByContinent,
   sortCountries,
@@ -131,5 +132,31 @@ describe("calcHeat", () => {
   it("returns ratio between 0 and 1", () => {
     const heat = calcHeat(500, 1000);
     expect(heat).toBe(0.5);
+  });
+});
+
+describe("calcRank", () => {
+  it("returns S for top 10%", () => {
+    expect(calcRank(0.05)).toBe("S");
+    expect(calcRank(0.1)).toBe("S");
+  });
+
+  it("returns A for top 30%", () => {
+    expect(calcRank(0.15)).toBe("A");
+    expect(calcRank(0.3)).toBe("A");
+  });
+
+  it("returns B for top 60%", () => {
+    expect(calcRank(0.4)).toBe("B");
+    expect(calcRank(0.6)).toBe("B");
+  });
+
+  it("returns C for bottom 40%", () => {
+    expect(calcRank(0.7)).toBe("C");
+    expect(calcRank(1.0)).toBe("C");
+  });
+
+  it("returns C for 0 percentile", () => {
+    expect(calcRank(0)).toBe("S");
   });
 });

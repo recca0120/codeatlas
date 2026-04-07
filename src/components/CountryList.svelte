@@ -10,6 +10,7 @@
     filterCountriesByQuery,
     sortCountries,
     calcHeat,
+    calcRank,
     type CountrySummary,
     type SortKey,
   } from "../lib/country-list";
@@ -34,6 +35,15 @@
 
   const maxDevs = $derived(Math.max(...countries.map(c => c.devCount), 0));
   const totalDevs = $derived(visibleCountries.reduce((s, c) => s + c.devCount, 0));
+  const sortedByContrib = $derived([...countries].sort((a, b) => b.totalContributions - a.totalContributions));
+  const rankMap = $derived(new Map(sortedByContrib.map((c, i) => [c.code, (i + 1) / sortedByContrib.length])));
+
+  const RANK_STYLES: Record<string, string> = {
+    S: "bg-[rgba(234,179,8,0.15)] text-[#eab308] border border-[rgba(234,179,8,0.25)]",
+    A: "bg-accent/15 text-accent-hover border border-accent/25",
+    B: "bg-[rgba(59,130,246,0.1)] text-[#60a5fa] border border-[rgba(59,130,246,0.2)]",
+    C: "bg-text-muted/10 text-text-muted border border-text-muted/20",
+  };
 
   const CONT_KEYS: Record<string, string> = { Asia: "continent.asia", Europe: "continent.europe", Americas: "continent.americas", Africa: "continent.africa", Oceania: "continent.oceania" };
 
@@ -107,6 +117,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
       {#each items as c (c.code)}
         {@const heat = calcHeat(c.devCount, maxDevs)}
+        {@const rank = calcRank(rankMap.get(c.code) ?? 1)}
         <Link
           href={buildCountryUrl(c.code, locale, basePath)}
           onclick={() => trackEvent("country_card_click", { country: c.name, code: c.code })}
@@ -118,15 +129,24 @@
             class="absolute top-0 left-0 right-0 h-0.5 rounded-t-xl bg-gradient-to-r from-accent to-accent-hover transition-opacity"
             style="opacity: {0.1 + heat * 0.5}"
           ></div>
-          <div class="flex items-center gap-3">
-            <span class="text-2xl shrink-0">{c.flag}</span>
+          <!-- Header: Flag + Name + Badge -->
+          <div class="flex items-center gap-2.5">
+            <span class="text-[22px] shrink-0">{c.flag}</span>
             <span class="font-display font-semibold truncate group-hover:text-accent transition-colors">{c.name}</span>
-            <span class="ml-auto text-right shrink-0">
-              <span class="text-sm font-data font-bold text-accent">{c.devCount.toLocaleString()}</span>
-              <span class="text-[10px] text-text-muted ml-0.5">{t("countryList.developers", locale)}</span>
-            </span>
+            <span class="ml-auto px-1.5 py-0.5 rounded text-[9px] font-data font-bold {RANK_STYLES[rank]}">{rank}</span>
           </div>
-          <div class="text-xs text-text-muted font-data">{fmtNum(c.totalContributions)} {t("country.contributions", locale)}</div>
+          <!-- Stats: Two columns -->
+          <div class="grid grid-cols-2 gap-2">
+            <div class="bg-accent/[0.06] rounded-lg px-3 py-2">
+              <div class="font-data font-bold text-base text-accent">{c.devCount.toLocaleString()}</div>
+              <div class="text-[9px] text-text-muted uppercase tracking-wider">{t("countryList.developers", locale)}</div>
+            </div>
+            <div class="bg-accent/[0.06] rounded-lg px-3 py-2">
+              <div class="font-data font-bold text-base text-accent">{fmtNum(c.totalContributions)}</div>
+              <div class="text-[9px] text-text-muted uppercase tracking-wider">{t("countryList.contributions", locale)}</div>
+            </div>
+          </div>
+          <!-- Avatars -->
           {#if c.topContributors.length > 0}
             <div class="flex items-center">
               {#each c.topContributors as contributor}
@@ -134,13 +154,13 @@
                   src={contributor.avatarUrl}
                   alt={contributor.login}
                   data-testid="contributor-avatar"
-                  width="24" height="24"
+                  width="22" height="22"
                   loading="lazy"
                   class="rounded-full border-2 border-surface -ml-1.5 first:ml-0"
                 />
               {/each}
               {#if c.devCount > 3}
-                <span class="w-6 h-6 rounded-full bg-border border-2 border-surface -ml-1.5 flex items-center justify-center text-[9px] font-data font-semibold text-text-muted">
+                <span class="w-[22px] h-[22px] rounded-full bg-border border-2 border-surface -ml-1.5 flex items-center justify-center text-[8px] font-data font-semibold text-text-muted">
                   +{c.devCount - c.topContributors.length}
                 </span>
               {/if}

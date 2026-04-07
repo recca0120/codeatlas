@@ -54,7 +54,8 @@ export default {
 
   // Country list
   "countryList.all": "全部",
-  "countryList.developers": "位開發者",
+  "countryList.developers": "開發者",
+  "countryList.contributions": "貢獻數",
   "countryList.topContributors": "頂尖貢獻者",
 
   // Profile page

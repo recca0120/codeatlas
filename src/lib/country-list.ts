@@ -188,3 +188,12 @@ export function calcHeat(devCount: number, maxDevs: number): number {
   if (maxDevs === 0) return 0;
   return devCount / maxDevs;
 }
+
+export type Rank = "S" | "A" | "B" | "C";
+
+export function calcRank(percentile: number): Rank {
+  if (percentile <= 0.1) return "S";
+  if (percentile <= 0.3) return "A";
+  if (percentile <= 0.6) return "B";
+  return "C";
+}
