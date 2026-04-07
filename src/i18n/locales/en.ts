@@ -52,6 +52,7 @@ const en = {
 
   // Country list
   "countryList.all": "All",
+  "countryList.developers": "devs",
   "countryList.topContributors": "top contributors",
 
   // Profile page
@@ -81,7 +82,7 @@ const en = {
   "app.backToHome": "← Back to CodeAtlas",
 
   // Footer
-  "footer.text": "CodeAtlas · Data from GitHub API · Updated weekly · ",
+  "footer.text": "Data from GitHub API · Updated weekly",
 
   // FAQ page
   "faq.backHome": "← HOME",

@@ -54,6 +54,7 @@ export default {
 
   // Country list
   "countryList.all": "全部",
+  "countryList.developers": "位開發者",
   "countryList.topContributors": "頂尖貢獻者",
 
   // Profile page
@@ -83,7 +84,7 @@ export default {
   "app.backToHome": "← 返回 CodeAtlas",
 
   // Footer
-  "footer.text": "CodeAtlas · 資料來自 GitHub API · 每週更新 · ",
+  "footer.text": "資料來自 GitHub API · 每週更新",
 
   // FAQ page
   "faq.backHome": "← 首頁",

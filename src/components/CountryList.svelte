@@ -117,16 +117,19 @@
             hover:border-accent/40 hover:bg-surface-hover transition-all overflow-hidden"
         >
           <div
-            class="absolute top-0 left-0 right-0 h-[3px] rounded-t-xl bg-gradient-to-r from-accent to-accent-hover transition-opacity"
-            style="opacity: {0.15 + heat * 0.6}"
+            class="absolute top-0 left-0 right-0 h-1 rounded-t-xl bg-gradient-to-r from-accent to-accent-hover transition-opacity"
+            style="opacity: {0.2 + heat * 0.8}"
           ></div>
           <div class="flex items-center gap-3">
             <span class="text-2xl shrink-0">{c.flag}</span>
             <span class="font-display font-semibold truncate group-hover:text-accent transition-colors">{c.name}</span>
-            <span class="ml-auto text-sm font-data font-bold text-accent shrink-0">{c.devCount.toLocaleString()}</span>
+            <span class="ml-auto text-right shrink-0">
+              <span class="text-sm font-data font-bold text-accent">{c.devCount.toLocaleString()}</span>
+              <span class="text-[10px] text-text-muted ml-0.5">{t("countryList.developers", locale)}</span>
+            </span>
           </div>
           <div class="flex items-center gap-2">
-            <div class="flex-1 h-1.5 bg-border rounded-full overflow-hidden">
+            <div class="flex-1 h-2 bg-border/40 rounded-full overflow-hidden">
               <div
                 class="h-full rounded-full bg-gradient-to-r from-accent to-accent-hover transition-all duration-500"
                 style="width: {maxContributions > 0 ? (c.totalContributions / maxContributions * 100) : 0}%"

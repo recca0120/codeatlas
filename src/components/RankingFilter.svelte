@@ -200,7 +200,7 @@
       <div class="hidden sm:flex items-center gap-1.5 shrink-0">
         {#each user.languages.slice(0, 3) as lang}
           <span class="px-2 py-0.5 text-xs font-data rounded"
-            style="background:{LANG_COLORS[lang]||'#555'}20;color:{LANG_COLORS[lang]||'#999'}">{lang}</span>
+            style="background:{LANG_COLORS[lang]||'#555'}25;color:{LANG_COLORS[lang]||'#999'}">{lang}</span>
         {/each}
       </div>
 

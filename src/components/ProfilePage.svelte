@@ -137,7 +137,7 @@
               </div>
               {#if repo.language}
                 <span class="px-2 py-0.5 text-xs font-data rounded shrink-0"
-                  style="background:{LC[repo.language]||'#555'}20;color:{LC[repo.language]||'#999'}">{repo.language}</span>
+                  style="background:{LC[repo.language]||'#555'}25;color:{LC[repo.language]||'#999'}">{repo.language}</span>
               {/if}
               <span class="font-data text-sm text-gold shrink-0">★ {repo.stars.toLocaleString()}</span>
             </a>

@@ -9,7 +9,7 @@
   import CountryList from "./CountryList.svelte";
   import Link from "./Link.svelte";
   import { trackEvent } from "../lib/analytics";
-  import { buildCountryUrl } from "../lib/locale-url";
+  import { buildCountryUrl, buildLocalePrefix } from "../lib/locale-url";
   import { CountryInfoSchema, type CountryInfo } from "../lib/data-output";
   import { CountrySummarySchema, type CountrySummary } from "../lib/country-list";
   import { z } from "zod";
@@ -187,8 +187,18 @@
   <div class="max-w-6xl mx-auto px-6 sm:px-8">
     <CountryList countries={countrySummaries} {basePath} {locale} />
 
-    <footer class="py-8 border-t border-border text-center text-sm text-text-muted">
-      {t("footer.text", locale)}<Link href={buildUrl(locale === "zh-TW" ? "zh-TW/faq" : "faq", basePath)} class="hover:text-accent transition-colors">{t("nav.faq", locale)}</Link>
+    <footer class="py-12 border-t border-border">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-text-muted">
+        <div class="flex items-center gap-2">
+          <span class="font-display font-bold text-text">CodeAtlas</span>
+          <span>·</span>
+          <span>{t("footer.text", locale)}</span>
+        </div>
+        <div class="flex items-center gap-4">
+          <Link href={buildUrl(buildLocalePrefix(locale) + "faq", basePath)} class="hover:text-accent transition-colors">{t("nav.faq", locale)}</Link>
+          <a href="https://github.com/recca0120/codeatlas" target="_blank" rel="noopener" class="hover:text-accent transition-colors">GitHub</a>
+        </div>
+      </div>
     </footer>
   </div>
 {/if}
