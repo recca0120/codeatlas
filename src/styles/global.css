@@ -3,18 +3,18 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --color-bg: #09090b;
-  --color-surface: #18181b;
-  --color-surface-hover: #27272a;
-  --color-border: #3f3f46;
-  --color-text: #fafafa;
-  --color-text-secondary: #a1a1aa;
-  --color-text-muted: #71717a;
+  --color-bg: #0c0f17;
+  --color-surface: #161b26;
+  --color-surface-hover: #1e2535;
+  --color-border: #2a3344;
+  --color-text: #e8edf5;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #6b7a8d;
 
   --color-accent: #6366f1;
   --color-accent-hover: #818cf8;
   --color-gold: #eab308;
-  --color-silver: #a1a1aa;
+  --color-silver: #94a3b8;
   --color-bronze: #ca8a04;
   --color-success: #22c55e;
   --color-danger: #ef4444;
@@ -27,15 +27,15 @@
 }
 
 :root:not(.dark) {
-  --color-bg: #f8fafc;
+  --color-bg: #f1f5f9;
   --color-surface: #ffffff;
-  --color-surface-hover: #f1f5f9;
-  --color-border: #cbd5e1;
-  --color-text: #0f172a;
+  --color-surface-hover: #f8fafc;
+  --color-border: #e2e8f0;
+  --color-text: #1e293b;
   --color-text-secondary: #64748b;
-  --color-text-muted: #94a3b8;
-  --color-accent: #4f46e5;
-  --color-accent-hover: #6366f1;
+  --color-text-muted: #78869b;
+  --color-accent: #4338ca;
+  --color-accent-hover: #4f46e5;
   --color-gold: #a16207;
   --color-silver: #52525b;
   --color-bronze: #92400e;
@@ -54,5 +54,5 @@
 @font-face { font-family: "JetBrains Mono"; src: url("/fonts/JetBrainsMono-Bold.woff") format("woff"); font-weight: 700; font-display: swap; }
 
 html { scroll-behavior: smooth; }
-:root:not(.dark) .globe-container { filter: brightness(1.5) contrast(1.1) saturate(1.2); }
+:root:not(.dark) .globe-container { filter: brightness(1.8) contrast(1.05) saturate(1.3); }
 ::selection { background: rgba(99, 102, 241, 0.2); }

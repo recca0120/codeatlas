@@ -113,12 +113,12 @@
           href={buildCountryUrl(c.code, locale, basePath)}
           onclick={() => trackEvent("country_card_click", { country: c.name, code: c.code })}
           data-testid="country-card"
-          class="group relative flex flex-col gap-3 px-4 py-4 rounded-xl border border-border
-            hover:border-accent/40 hover:bg-surface-hover transition-all overflow-hidden"
+          class="group relative flex flex-col gap-3 px-4 py-4 rounded-xl bg-surface border border-border
+            shadow-sm hover:shadow-md hover:border-accent/30 transition-all overflow-hidden"
         >
           <div
-            class="absolute top-0 left-0 right-0 h-1 rounded-t-xl bg-gradient-to-r from-accent to-accent-hover transition-opacity"
-            style="opacity: {0.2 + heat * 0.8}"
+            class="absolute top-0 left-0 right-0 h-0.5 rounded-t-xl bg-gradient-to-r from-accent to-accent-hover transition-opacity"
+            style="opacity: {0.1 + heat * 0.5}"
           ></div>
           <div class="flex items-center gap-3">
             <span class="text-2xl shrink-0">{c.flag}</span>
@@ -129,9 +129,9 @@
             </span>
           </div>
           <div class="flex items-center gap-2">
-            <div class="flex-1 h-2 bg-border/40 rounded-full overflow-hidden">
+            <div class="flex-1 h-1.5 bg-border/30 rounded-full overflow-hidden">
               <div
-                class="h-full rounded-full bg-gradient-to-r from-accent to-accent-hover transition-all duration-500"
+                class="h-full rounded-full bg-gradient-to-r from-accent/70 to-accent-hover/70 transition-all duration-500"
                 style="width: {maxContributions > 0 ? (c.totalContributions / maxContributions * 100) : 0}%"
               ></div>
             </div>
@@ -154,7 +154,6 @@
                   +{c.devCount - c.topContributors.length}
                 </span>
               {/if}
-              <span class="ml-auto text-[11px] text-text-muted">{t("countryList.topContributors", locale)}</span>
             </div>
           {/if}
         </Link>
