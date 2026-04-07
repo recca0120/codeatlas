@@ -37,3 +37,15 @@ export function rankUsers(
   );
   return sorted;
 }
+
+export function sortByFrequency(
+  userLangs: string[],
+  allLangs: string[],
+): string[] {
+  const indexMap = new Map(allLangs.map((lang, i) => [lang, i]));
+  return [...userLangs].sort((a, b) => {
+    const ia = indexMap.get(a) ?? allLangs.length;
+    const ib = indexMap.get(b) ?? allLangs.length;
+    return ia - ib;
+  });
+}

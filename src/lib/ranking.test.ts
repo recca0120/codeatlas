@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildRankMap, rankUsers } from "./ranking";
+import { buildRankMap, rankUsers, sortByFrequency } from "./ranking";
 import { createMockUser } from "./test-utils";
 
 const users = [
@@ -74,5 +74,35 @@ describe("buildRankMap", () => {
 
   it("returns empty map for empty input", () => {
     expect(buildRankMap([])).toEqual(new Map());
+  });
+});
+
+describe("sortByFrequency", () => {
+  it("sorts user languages by their position in global frequency list", () => {
+    const allLangs = ["Python", "TypeScript", "JavaScript", "Go", "Rust"];
+    const userLangs = ["Go", "Python", "JavaScript"];
+    expect(sortByFrequency(userLangs, allLangs)).toEqual([
+      "Python",
+      "JavaScript",
+      "Go",
+    ]);
+  });
+
+  it("puts unknown languages at the end", () => {
+    const allLangs = ["Python", "TypeScript"];
+    const userLangs = ["Haskell", "Python", "Elm"];
+    expect(sortByFrequency(userLangs, allLangs)).toEqual([
+      "Python",
+      "Haskell",
+      "Elm",
+    ]);
+  });
+
+  it("returns empty array for empty input", () => {
+    expect(sortByFrequency([], ["Python"])).toEqual([]);
+  });
+
+  it("preserves original order when allLangs is empty", () => {
+    expect(sortByFrequency(["Go", "Rust"], [])).toEqual(["Go", "Rust"]);
   });
 });

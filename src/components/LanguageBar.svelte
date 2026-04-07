@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { LANG_COLORS } from "../lib/language-colors";
+  import { LANG_COLORS, LANG_COLOR_FALLBACK } from "../lib/language-colors";
 
   let { languages }: { languages: string[] } = $props();
 
@@ -8,7 +8,7 @@
     for (const l of languages) map.set(l, (map.get(l) || 0) + 1);
     const total = languages.length || 1;
     return [...map.entries()]
-      .map(([name, count]) => ({ name, pct: (count / total) * 100, color: LANG_COLORS[name] || "#666" }))
+      .map(([name, count]) => ({ name, pct: (count / total) * 100, color: LANG_COLORS[name] || LANG_COLOR_FALLBACK }))
       .sort((a, b) => b.pct - a.pct);
   });
 </script>

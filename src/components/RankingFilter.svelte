@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { GitHubUser } from "../lib/github-client";
-  import { buildRankMap, getRankValue, rankUsers, type RankingDimension } from "../lib/ranking";
+  import { buildRankMap, getRankValue, rankUsers, sortByFrequency, type RankingDimension } from "../lib/ranking";
   import { t } from "../i18n";
   import SearchIcon from "./icons/SearchIcon.svelte";
   import Link from "./Link.svelte";
@@ -94,7 +94,7 @@
     dimension = d; sync();
   }
 
-  import { LANG_COLORS } from "../lib/language-colors";
+  import { LANG_COLORS, LANG_COLOR_FALLBACK } from "../lib/language-colors";
 
   const MAX_LANG_CHIPS = 12;
 </script>
@@ -198,9 +198,9 @@
       </div>
 
       <div class="hidden sm:flex items-center gap-1.5 shrink-0">
-        {#each user.languages.slice(0, 3) as lang}
+        {#each sortByFrequency(user.languages, allLangs).slice(0, 3) as lang}
           <span class="px-2 py-0.5 text-xs font-data rounded"
-            style="background:{LANG_COLORS[lang]||'#555'}25;color:{LANG_COLORS[lang]||'#999'}">{lang}</span>
+            style="background:{LANG_COLORS[lang]||LANG_COLOR_FALLBACK}25;color:{LANG_COLORS[lang]||LANG_COLOR_FALLBACK}">{lang}</span>
         {/each}
       </div>
 
