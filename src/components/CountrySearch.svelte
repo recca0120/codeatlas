@@ -32,13 +32,13 @@
       bind:value={query}
       onfocus={() => focused = true}
       onblur={() => { if (query) trackEvent("country_search", { query }); setTimeout(() => focused = false, 200); }}
-      class="w-full pl-9 pr-4 py-2.5 bg-surface border border-border rounded-lg text-sm text-text
-        placeholder:text-text-muted font-body focus:outline-none focus:border-accent/40 transition-colors"
+      class="w-full pl-9 pr-4 py-2.5 bg-white/10 backdrop-blur-md border border-white/20 rounded-lg text-sm text-white
+        placeholder:text-white/50 font-body focus:outline-none focus:border-accent/40 transition-colors"
     />
   </div>
 
   {#if focused && filtered.length > 0}
-    <div class="absolute z-50 top-full mt-1 left-0 right-0 bg-surface border border-border rounded-lg shadow-2xl overflow-hidden">
+    <div class="absolute z-50 top-full mt-1 left-0 right-0 bg-[#161b26] border border-white/10 rounded-lg shadow-2xl overflow-hidden">
       {#each filtered as country}
         <a
           href={buildCountryUrl(country.code, locale, basePath)}

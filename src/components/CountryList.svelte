@@ -33,8 +33,6 @@
   });
 
   const maxDevs = $derived(Math.max(...countries.map(c => c.devCount), 0));
-  const maxContributions = $derived(Math.max(...countries.map(c => c.totalContributions), 0));
-
   const totalDevs = $derived(visibleCountries.reduce((s, c) => s + c.devCount, 0));
 
   const CONT_KEYS: Record<string, string> = { Asia: "continent.asia", Europe: "continent.europe", Americas: "continent.americas", Africa: "continent.africa", Oceania: "continent.oceania" };
@@ -128,15 +126,7 @@
               <span class="text-[10px] text-text-muted ml-0.5">{t("countryList.developers", locale)}</span>
             </span>
           </div>
-          <div class="flex items-center gap-2">
-            <div class="flex-1 h-1.5 bg-border/30 rounded-full overflow-hidden">
-              <div
-                class="h-full rounded-full bg-gradient-to-r from-accent/70 to-accent-hover/70 transition-all duration-500"
-                style="width: {maxContributions > 0 ? (c.totalContributions / maxContributions * 100) : 0}%"
-              ></div>
-            </div>
-            <span class="text-xs text-text-muted font-data">{fmtNum(c.totalContributions)}</span>
-          </div>
+          <div class="text-xs text-text-muted font-data">{fmtNum(c.totalContributions)} {t("country.contributions", locale)}</div>
           {#if c.topContributors.length > 0}
             <div class="flex items-center">
               {#each c.topContributors as contributor}

@@ -164,13 +164,13 @@
     <section class="relative min-h-[calc(100vh-56px)] flex items-center justify-center lg:justify-start py-16">
       <div bind:this={globeContainer} class="globe-container absolute inset-0 opacity-0 transition-opacity duration-[2s] lg:left-[35%] lg:right-0"></div>
 
-      <div class="relative z-10 max-w-lg text-center lg:text-left">
-        <div class="rounded-2xl bg-bg/80 backdrop-blur-sm p-6 sm:p-8 lg:bg-transparent lg:backdrop-blur-none lg:p-0">
+      <div class="relative z-10 max-w-lg text-center lg:text-left text-white">
+        <div class="rounded-2xl bg-black/40 backdrop-blur-sm p-6 sm:p-8 lg:bg-transparent lg:backdrop-blur-none lg:p-0">
           <h1 class="text-4xl sm:text-5xl font-display font-bold leading-tight tracking-tight">
             {t("hero.title", locale)}
           </h1>
-          <p class="text-text-secondary mt-5 text-lg leading-relaxed mx-auto lg:mx-0">
-            {@html t("hero.description", locale).replace("{count}", `<span class="text-text font-semibold">${countries.length}</span>`)}
+          <p class="text-white/70 mt-5 text-lg leading-relaxed mx-auto lg:mx-0">
+            {@html t("hero.description", locale).replace("{count}", `<span class="text-white font-semibold">${countries.length}</span>`)}
           </p>
           {#if !loading}
             <div class="mt-8 max-w-sm mx-auto lg:mx-0">
