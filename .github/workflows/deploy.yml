@@ -3,9 +3,6 @@ name: Build and Deploy
 on:
   push:
     branches: [main]
-  workflow_run:
-    workflows: ["Collect Data"]
-    types: [completed]
   workflow_dispatch:
 
 permissions:

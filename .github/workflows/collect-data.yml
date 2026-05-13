@@ -82,11 +82,11 @@ jobs:
           # Get country name from the changed files
           changed=$(git diff --staged --name-only | grep -oP '(?<=public/data/)[^.]+' | grep -v checkpoint | grep -v countries | head -1)
           if [ "${{ inputs.full }}" = "true" ]; then
-            git commit --no-verify -m "data: update all countries $(date -u +%Y-%m-%d) [skip ci]"
+            git commit --no-verify -m "data: update all countries $(date -u +%Y-%m-%d)"
           elif [ -n "$changed" ]; then
-            git commit --no-verify -m "data: update $changed $(date -u +%Y-%m-%d) [skip ci]"
+            git commit --no-verify -m "data: update $changed $(date -u +%Y-%m-%d)"
           else
-            git commit --no-verify -m "data: update checkpoint $(date -u +%Y-%m-%d) [skip ci]"
+            git commit --no-verify -m "data: update checkpoint $(date -u +%Y-%m-%d)"
           fi
 
           git pull --rebase origin main
