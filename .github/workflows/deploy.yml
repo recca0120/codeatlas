@@ -3,6 +3,8 @@ name: Build and Deploy
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'public/data/**'
   workflow_dispatch:
 
 permissions:
