@@ -47,6 +47,7 @@ jobs:
       - run: pnpm build
         env:
           PUBLIC_GA_MEASUREMENT_ID: ${{ vars.PUBLIC_GA_MEASUREMENT_ID }}
+          PUBLIC_DATA_BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/public/
       - uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist
