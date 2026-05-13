@@ -33,7 +33,7 @@
     "zod": "^4.3.6"
   },
   "pnpm": {
-    "onlyBuiltDependencies": [
+    "oallowBuilds": [
       "esbuild",
       "lefthook",
       "msw",
